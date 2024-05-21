@@ -1,0 +1,900 @@
+{
+    "scene_name":"FloorPlan317",
+    "trials":{
+        "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2YUCJ28XANFOX_38F71OA9GWNL4A07C01NLHB8HVKFML",
+                    "high_descs":[
+                        "Turn around and cross the room to the bed",
+                        "Pick up the last book on the end at the bottom of the bed",
+                        "turn and cross to the dresser on your right",
+                        "place the book on the dresser",
+                        "Turn around and go back to the bed ",
+                        "pick up the book on the end of the bed that is sitting beside another book",
+                        "Turn right and cross over to the dresser ",
+                        "Place the book beside the other book on the dresser"
+                    ],
+                    "task_desc":"Move the books to the dresser",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Book"
+            ]
+        },
+        "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_102018_685821/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3F51C49T9A34D_3ZY8KE4ISMKT0XYR80ORJQEXLJ1VQX",
+                    "high_descs":[
+                        "turn to the right twice and take a step and turn to the left and go to the window",
+                        "pick up the green rag from the floor",
+                        "turn to the left twice and take a few steps and turn to the right and go to the middle of the dresser and turn right facing the dresser",
+                        "place the green rag on top of the dresser next to the right credit card",
+                        "turn to the right and take a few steps and turn to the left and go to the window",
+                        "pick up the white rag from the floor",
+                        "turn to the left twice and take a few steps and turn to the right and go to the middle of the dresser and turn right facing the dresser",
+                        "place the white rag on top of the dresser next to the left credit card"
+                    ],
+                    "task_desc":"Place a green and white rag on top of a dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Cloth"
+            ]
+        },
+        "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_043257_624123/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AVBRJBJONL47I_33PPUNGG3BMALII1MC2U9M1Y6LERZA",
+                    "high_descs":[
+                        "Look down at the floor in front of the window.",
+                        "Pick up the white rag from the floor.",
+                        "Turn and walk to the dresser.",
+                        "Place the white rag on the dresser to the right of the earrings.",
+                        "Walk back to the window.",
+                        "Pick up the green rag on the floor in front of the window.",
+                        "Walk back to the dresser.",
+                        "Place the green rag on the dresser to the left of the white rag."
+                    ],
+                    "task_desc":"Pick the rags up off the floor and place them on the dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Cloth"
+            ]
+        },
+        "train/look_at_obj_in_light-Book-None-DeskLamp-317/trial_T20190907_162837_975033/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A36DK84J5YJ942_30LB5CDZNFRMLOY2SZJFPQ0BW8S0ZN",
+                    "high_descs":[
+                        "Move to the bed to the left of you",
+                        "Pick up a book from the bed",
+                        "Move to the end table to the left of you",
+                        "Turn on the lamp"
+                    ],
+                    "task_desc":"Inspect a book from the bed with a light.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3BF51CHDTYR0U3Y8MDD8PJW60IC0HY",
+                    "high_descs":[
+                        "Move to the left side of the bed where the book is sitting on the bed",
+                        "Pick up the blue book that is on top of the bed",
+                        "Carry the book to the night stand where the lamp is",
+                        "Turn on the lamp"
+                    ],
+                    "task_desc":"Carry a book while turning on a lamp",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AUTYWXILTACCR_3I0BTBYZA02MGYOXWDHWBJR9QDEY0I",
+                    "high_descs":[
+                        "Turn around and walk to the bed on your right.",
+                        "Pick up the book nearest to the laptop on the bed.",
+                        "Turn to the right and walk to the end table next to the bed.",
+                        "Switch on the lamp on the end table."
+                    ],
+                    "task_desc":"Turn on a lamp while holding a book.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Pillow",
+                "AlarmClock",
+                "Book",
+                "KeyChain"
+            ]
+        },
+        "train/look_at_obj_in_light-Laptop-None-DeskLamp-317/trial_T20190909_001842_530744/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1RLO9LNUJIW5S_3QY7M81QHADDZTLY95QVIC6NU78K7T",
+                    "high_descs":[
+                        "Turn left and walk to the laptop on the dresser in front of you.",
+                        "Close the laptop and pick it up please.",
+                        "Turn around and walk to the wall then turn right and walk to the small night stand.",
+                        "Turn on the light that's on the night stand."
+                    ],
+                    "task_desc":"Inspect a laptop by lamp light.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2A4UAFZ5LW71K_3Z4AIRP3C9458753J8OB7WNCNUM1X1",
+                    "high_descs":[
+                        "turn around, take a step, turn right, walk to the dresser",
+                        "close the computer that is on the dresser, pick it up",
+                        "turn around, walk to the wall, turn right, walk to the small table",
+                        "turn the lamp on"
+                    ],
+                    "task_desc":"examine a computer with a lamp",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_3KGTPGBS60CKGOT4X7D2S8YDLIIU2I",
+                    "high_descs":[
+                        "Go to the computer on the dresser to your left.",
+                        "Pick up the computer on the dresser. ",
+                        "Turn around, bring the computer around the left side of the bed to the lamp on the table in the corner.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Examine a computer by the light of the lamp in the corner. ",
+                    "votes":[
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Cloth",
+                "Book",
+                "Laptop"
+            ]
+        },
+        "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190906_180452_867280/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1P0XSCJ9XAV74_336YQZE83YVLHOLKAGZXYJ0TYJG5M5",
+                    "high_descs":[
+                        "Turn right and walk straight to the bed. Turn right and walk to the dresser. Turn left and walk a few steps then turn right and step towards the end of the dresser to face it.",
+                        "Open the top drawer and take out the CD in the drawer.",
+                        "Turn to the right and take a step towards the bed. Turn right and walk to the mirror. Turn right and look down at the safe.",
+                        "Open the safe and put the CD inside and shut it again."
+                    ],
+                    "task_desc":"To move the CD from the drawer to the safe.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A320QA9HJFUOZO_3JC6VJ2SAE0KFNCVDD9SPS5T43U5AQ",
+                    "high_descs":[
+                        "Turn around and walk past the right side of the bed to the left side of the wooden dresser",
+                        "Open the 4th drawer down on the left side and pick up the CD",
+                        "Turn left toward the mirror and walk to the small white safe next to the dresser",
+                        "Open the safe and put the CD inside"
+                    ],
+                    "task_desc":"Put the CD into the safe",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3F51C49T9A34D_3S0TNUHWKWZ10CY9VL7XRDNQRVJD8R",
+                    "high_descs":[
+                        "turn to the right and go to the bed and turn right and go to the dresser and turn left and go to the end of the dresser and turn right and take a step and turn right",
+                        "open the fourth dresser drawer and take out the CD from the drawer and close the drawer",
+                        "turn to the right and take a step and turn to the right and go to the wall and turn to the right facing the safe",
+                        "open up the safe and put the CD in the safe and close the safe"
+                    ],
+                    "task_desc":"Place a CD in a safe.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_31Z0PCVWUNW4HNPN76F6IH9GGNUT77",
+                    "high_descs":[
+                        "Turn around and walk to the left side of the dresser.",
+                        "Open the bottom left shelf and take out the CD.",
+                        "Take a step to the left.",
+                        "Place the CD in the safe."
+                    ],
+                    "task_desc":"Place a CD in a safe.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1GVTH5YS3WOK0_37WLF8U1WS7MA4LVUNWMBCMO23EK6W",
+                    "high_descs":[
+                        "Turn right, walk towards the bed, make a right towards the dresser, turn left to be in between the dresser and bed.",
+                        "Pull out the last drawer of the dresser and pick up the CD from it.",
+                        "Turn left and look down to see the white vault on the floor.",
+                        "Open the vault, place CD inside it, and close it."
+                    ],
+                    "task_desc":"Place the CD from the dresser to the vault.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A320QA9HJFUOZO_3XM0HYN6NNGRYABQDXKSJH00DBBPEQ",
+                    "high_descs":[
+                        "Turn around and walk over to the left side of the dresser",
+                        "Open the bottom left drawer and pick up the CD from it",
+                        "Turn left and walk to the small white safe near the mirror",
+                        "Put the CD into the white safe"
+                    ],
+                    "task_desc":"Put the CD into the white safe",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CD"
+            ]
+        },
+        "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190918_155029_622888/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3F51C49T9A34D_34T446B1C3V9DVNS0LZ7ESZQNZ7C0J",
+                    "high_descs":[
+                        "turn to the right twice and go to the end of the bed and turn to the left facing the dresser",
+                        "pick up the CD from the dresser",
+                        "turn to the left and go to the wall and turn to the right facing the safe",
+                        "open the safe and put the CD in the safe and close the safe"
+                    ],
+                    "task_desc":"Place a CD in a safe",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AFU00NU09CFXE_3HMIGG0U4ON4YNT0RHUB4YXR9KW8Y3",
+                    "high_descs":[
+                        "Turn around and move to stand in front of the dresser at the end closest to the window.",
+                        "Pick up the CD from the dresser.",
+                        "Turn left and carry the CD to stand by the mirror, which is left of the window.",
+                        "Open the door to the safe on the ground and place the CD inside."
+                    ],
+                    "task_desc":"Place a CD in a safe.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3URFVVM168Z21AAIQ6XZEXOIC6UUZ0",
+                    "high_descs":[
+                        "Turn around then turn left facing the wooden dresser with the CD on top of it",
+                        "Pick up the CD sitting on top of the dresser",
+                        "Turn back and then move left to the small white safe on the floor",
+                        "Place the CD in the safe then shut the safe door"
+                    ],
+                    "task_desc":"Move a CD to the safe",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A320QA9HJFUOZO_3OUYGIZWRAFS7KWW5QLDYSYWJ6MP0H",
+                    "high_descs":[
+                        "Turn and walk over to the dresser",
+                        "Pick up the CD from the top of the dresser",
+                        "Turn left and walk over to the white floor safe",
+                        "Place the CD into the white safe"
+                    ],
+                    "task_desc":"Put the CD into the safe",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A28HB7240OFGEW_3S96KQ6I9PLKYWQXYJISI9JC2YWDTJ",
+                    "high_descs":[
+                        "Turn around, walk to the left side of the dresser.",
+                        "Pick up the compact disc from the dresser",
+                        "Turn around, walk to the safe, open the safe",
+                        "Put the compact disc inside the safe, close the safe"
+                    ],
+                    "task_desc":"Put the compact disc from the dresser inside the safe.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_3ZPPDN2SLYD66NVJW8OVXR0L83FE9Y",
+                    "high_descs":[
+                        "Turn around and walk to the front of the dresser, near the left side.",
+                        "Pick up the CD furthest to the left.",
+                        "Step left to in front of the safe.",
+                        "Put the CD in the safe."
+                    ],
+                    "task_desc":"Put a CD in the safe.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CD"
+            ]
+        },
+        "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190908_062357_662469/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3MLUEOP3CCLXL_336KAV9KYT9TC8RBB0LAU7KONSMY2O",
+                    "high_descs":[
+                        "Head forward past the bed then hang right and walk to the night stand to the left of the bed",
+                        "Pick up the set of keys laying on the nightstand",
+                        "Turn around and head across the room, take a left after passing the bed and head to the brown dresser across the room",
+                        "Place the keys on the dresser to the left of the right pen. "
+                    ],
+                    "task_desc":"Place a set of keys on a dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2KAGFQU28JY43_3GS6S824STELCPL4II161Y26NF1NWT",
+                    "high_descs":[
+                        "Walk to the end of the bed, then turn to your right and walk to the night stand on the left side of the bed. ",
+                        "Pick up the keys on the right, front corner of the night stand. ",
+                        "Turn around and walk to the end of the bed, then turn left and go to the wooden dresser. ",
+                        "Place the keys above the left, top drawer, on the top of the dresser. "
+                    ],
+                    "task_desc":"Put the keys on the dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1HXEXQTZCJ1DW_3ZY8KE4ISMKT0XYR80ORJQEXLH3VQV",
+                    "high_descs":[
+                        "walk forward to the wall. turn right and walk to the night stand",
+                        "pick up the keys from the night stand",
+                        "turn around and walk past the bed. turn left and walk to the dresser.",
+                        "place the keys on the dresser"
+                    ],
+                    "task_desc":"move the keys from the night stand to the dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190910_184933_511149/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AM2KK02JXXW48_31UV0MXWNTTZL5VTP1156QTCHKY5IB",
+                    "high_descs":[
+                        "Move forward to the small table left of the bed.",
+                        "Pick up the keys on the table. ",
+                        "Turn around, bring the keys around the bed to the dresser across the room.",
+                        "Put the keys on the dresser."
+                    ],
+                    "task_desc":"Put keys on the dresser. ",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3UJ1CZ6IZK6OFJYPUDVJASZZQHIS56",
+                    "high_descs":[
+                        "Move across the room to the night stand to the left of the bed",
+                        "Pick up the keys on the night stand",
+                        "Carry the keys to the left side of the wood dresser",
+                        "Place the keys on the dresser to the right of the clock"
+                    ],
+                    "task_desc":"Move keys to the dresser",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2A4UAFZ5LW71K_31Z0PCVWUNW4HNPN76F6IH9HJ6IT72",
+                    "high_descs":[
+                        "walk forward to the small table",
+                        "pick up keys that are on the table",
+                        "turn around, walk forward, turn left after bed, walk forward to the dresser",
+                        "put the keys on the dresser"
+                    ],
+                    "task_desc":"move keys from table to dresser",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190910_183541_490131/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A255A9FFZD8PQW_3F1567XTNZMV3QLO5ZJVR8P0UPE9QN",
+                    "high_descs":[
+                        "Turn around completely and walk forward to the side table.",
+                        "Pick up the keys off the table.",
+                        "Turn around completely and move forward. Make a left at the bed and go forward to the dresser.",
+                        "Place the keys on top of the dresser."
+                    ],
+                    "task_desc":"Move keys from a side table to a dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AISNLDPD2DFEG_3PDJHANYK8XV8EKNO2TPYK6XD1A6HD",
+                    "high_descs":[
+                        "Turn left, go forward a bit, turn left, go to the wall, turn right and go to the nightstand",
+                        "Pick up the keys on the nightstand",
+                        "Turn around, go forward, turn left at the end of the bed, go forward, turn right at the end of the bed, go forward a bit and turn right in front of the dresser",
+                        "Put the keys on the dresser"
+                    ],
+                    "task_desc":"Bring the keys to the dresser from the nightstand",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A002160837SWJFPIAI7L7_3VNXK88KKFZN8YH5RYD5XVO8BHYV98",
+                    "high_descs":[
+                        "Turn left and walk forward to the nightstand next to the bed.",
+                        "Grab the keys from the nightstand.",
+                        "Turn around walk some steps then turn left and face the dresser.",
+                        "Place the keys under the red credit card that is beside the clock."
+                    ],
+                    "task_desc":"Place some keys on top of the dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3HL2LL0LEPZT8_386PBUZZXIOH3U4IVERT02OBA6NJLK",
+                    "high_descs":[
+                        "Look down at the dresser.",
+                        "Take the clock from the dresser.",
+                        "Turn around, go forward to the wall, turn right, go forward to the night stand.",
+                        "Turn the lamp on the night stand on."
+                    ],
+                    "task_desc":"Inspect a clock near a lit lamp.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2A028LRDJB7ZB_3UWN2HHPU1W0QXQTULGM5VJNBJXNS1",
+                    "high_descs":[
+                        "Move backwards then face the cabinet",
+                        "Pick up the alarm clock on the cabinet",
+                        "Turn left then walk forward turn right and head to the side table ",
+                        "Turn on the lamp"
+                    ],
+                    "task_desc":"Examine the alarm clock by the light",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3F51C49T9A34D_3B837J3LDRNL5VILNSX3EFOXCGNSRV",
+                    "high_descs":[
+                        "look at the grey box on top of the dresser",
+                        "take the grey box form the top of the dresser",
+                        "turn to the left twice and go to the wall and turn to the right and go to the nightstand with a lamp on it",
+                        "turn on the nightstand lamp"
+                    ],
+                    "task_desc":"Examine a grey box by the light of a nightstand lamp",
+                    "votes":[
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box",
+                "AlarmClock"
+            ]
+        },
+        "train/look_at_obj_in_light-CD-None-DeskLamp-317/trial_T20190908_032847_688091/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_339ANSOTR8J23OGWWO5B8FCUE03IKZ",
+                    "high_descs":[
+                        "walk to the wall , turn right, walk to the night stand",
+                        "turn on the lamp on the night stand",
+                        "grab the disc on the right"
+                    ],
+                    "task_desc":"turn on the lamp on the night stand, grab the disc on the right",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"APXNY64HXO08K_3TYCR1GOTF0ZIKNOHS5YNASZZDBLZ3",
+                    "high_descs":[
+                        "Go to the wall, turn right and go to nightstand between the bed and wall.",
+                        "Turn on the lamp in the corner of the nightstand. ",
+                        "Pick up the CD on the edge of the nightstand closest to the bed. "
+                    ],
+                    "task_desc":"Turn on the bedside lamp and pick up a CD.",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1K5ILJMG439M5_3NS0A6KXC7PJWS9N618IAINR34IZGK",
+                    "high_descs":[
+                        "Go stand between the left side of the bed and the wall and face the nightstand.",
+                        "Turn on the lamp sitting on the nightstand.",
+                        "Pick the rightmost disc up off of the nightstand."
+                    ],
+                    "task_desc":"Pick up the disc in the light.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CD",
+                "AlarmClock"
+            ]
+        },
+        "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033450_287042/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1DMXEJGJY02E1_3DQQ64TANJ2LFAXHYXEY5N71NN0PWB",
+                    "high_descs":[
+                        "Turn around and go to the bed.",
+                        "Pick up the phone from the bed.",
+                        "Turn right and go to the dresser.",
+                        "Put the phone on the dresser."
+                    ],
+                    "task_desc":"Move the phone from the bed to the dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3R19ZA45J8915_3FIJLY1B6XLJ4OBM884Y1ZL1SKJPFM",
+                    "high_descs":[
+                        "Turn around completely and walk to the foot of the bed. ",
+                        "Pick up the cell phone that is on the bed. ",
+                        "Turn to your right and move forward towards the dresser.",
+                        "Place the phone upright in a vertical position on top of the CD that is on the dresser."
+                    ],
+                    "task_desc":"Move a phone from the bed to the dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3IO1LGZLKCE2F3JULYZJL7DYABJ86L",
+                    "high_descs":[
+                        "Turn to the right and then right again to face the end of the bed.",
+                        "Pick the phone up from the bed.",
+                        "Turn to the right and face the dresser.",
+                        "Put the phone down on the dresser on top of the disc."
+                    ],
+                    "task_desc":"Put a phone on a dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Pillow",
+                "CellPhone"
+            ]
+        },
+        "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033503_132415/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_3SKEMFQBZ6M9EI4JN2TKVQIGB58K85",
+                    "high_descs":[
+                        "Turn right and walk to the bed.",
+                        "Pick up the cell phone near the laptop.",
+                        "Turn left and take a couple steps. Turn left to face the left side of the dresser.",
+                        "Place the phone on the dresser to the right and in front of the alarm clock."
+                    ],
+                    "task_desc":"Place a cell phone on a dresser.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2KAGFQU28JY43_3VFJCI1K42GAU1NWWKE5OFLSUGIGRD",
+                    "high_descs":[
+                        "Turn to your right and walk to the side of the bed the cell phone and lap top are on. ",
+                        "Pick up the cell phone to the left of the lap top. ",
+                        "Turn around and go to the left end of the dresser. ",
+                        "Place the cell phone on the edge of the dresser, to the right of the alarm clock."
+                    ],
+                    "task_desc":"Put the cell phone on the dresser. ",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_3UJ1CZ6IZK6OFJYPUDVJASZZQ9NS5V",
+                    "high_descs":[
+                        "turn right, walk to the end of the bed",
+                        "grab the phone on the bed",
+                        "turn around to the dresser",
+                        "put the phone on the dresser"
+                    ],
+                    "task_desc":"move the phone from the bed to the dresser",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Dresser",
+                "CellPhone",
+                "Bed"
+            ]
+        },
+        "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033554_295049/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3A1PQ49WVKY01SJQIWH83OFG5JQ1HS",
+                    "high_descs":[
+                        "Go left and then left again to face the bed.",
+                        "Pick up the phone on the left side of the bed.",
+                        "Turn to the left and then left again to face the dresser.",
+                        "Put the phone down on the dresser."
+                    ],
+                    "task_desc":"Put a phone on a dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1O3TWBUDONVLO_3DBQWDE4Y9FRZ66KMHEXBYPT3BX5NG",
+                    "high_descs":[
+                        "Walk forward across the room, turn left and step forward and turn to the left to face the bed.",
+                        "Pick up the closest media device on the bed.",
+                        "Turn around and face the dresser on the side of the bed.",
+                        "Place the media device on the center of the dresser."
+                    ],
+                    "task_desc":"To move a media device from the bed to the dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_3NQL1CS15UP29ZPDZA5LWCHZKJ6YV9",
+                    "high_descs":[
+                        "Turn left and walk around the bed to the side near the safe.  ",
+                        "Pick up the cell phone closest to the foot of the bed.",
+                        "Turn around and take a step right to face the dresser.",
+                        "Place the phone on the dresser to the right of the pencil."
+                    ],
+                    "task_desc":"Place a cell phone on a dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Dresser",
+                "CellPhone"
+            ]
+        },
+        "train/pick_and_place_simple-CellPhone-None-SideTable-317/trial_T20190909_234733_582011/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A28Q5S6WK94WUN_3B2X28YI3Z6T2Q3ZKI8ADVN1CE06B5",
+                    "high_descs":[
+                        "Go to the bed",
+                        "pick up the cell phone sitting on the bed",
+                        "turn towards the nightstand at the top of the bed",
+                        "put the phone down on the nightstand"
+                    ],
+                    "task_desc":"move the phone from the bed to the nightstand",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_3I3WADAZ9TVH2GSUJ43RR990NI1O54",
+                    "high_descs":[
+                        "Turn right and look at the bed.",
+                        "Pick up the cell phone on the bed.",
+                        "Turn left and walk to the nightstand.",
+                        "Place the cell phone on the nightstand, near the front left corner."
+                    ],
+                    "task_desc":"Place a cell phone on a nightstand.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3MLUEOP3CCLXL_3ZDAD0O1T446HRHCLR8LD267FPYXTF",
+                    "high_descs":[
+                        "Turn right to face the end of the bed ",
+                        "Pick up the cell phone that is sitting on the bed to the right of the pillow",
+                        "Turn left and walk toward the night stand that is to the left of the bed",
+                        "Place the cell phone on the night stand to the left of the alarm clock that is to the left of the bed "
+                    ],
+                    "task_desc":"Place a cell phone on a night stand",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "AlarmClock",
+                "CellPhone"
+            ]
+        },
+        "train/pick_two_obj_and_place-KeyChain-None-Drawer-317/trial_T20190912_073129_052747/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A6U2C66WQ7QQN_3E7TUJ2EGF31EHHJ0DDBR9I1B2V9D8",
+                    "high_descs":[
+                        "Head to the dresser across the room",
+                        "Take the keys from the left side of the dresser",
+                        "Turn around, take a few steps to the right, turn around",
+                        "Open the top drawer of the dresser",
+                        "Put the keys in the drawer, close the drawer",
+                        "Take the keys from the dresser",
+                        "Turn around two times",
+                        "Open the top drawer of the dresser, Put the keys in the drawer, close the drawer"
+                    ],
+                    "task_desc":"put both sets of keys in the top drawer of the dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/pick_two_obj_and_place-KeyChain-None-Drawer-317/trial_T20190911_161750_831181/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A320QA9HJFUOZO_369J354OFGRH8IPC4WB7DKUWYUQ6GT",
+                    "high_descs":[
+                        "Turn around and walk forward, then turn right and walk past the left side of the bed to the small side table",
+                        "Pick up the keys from the side table",
+                        "Turn around and walk around the end of the bed and over to the wooden dresser",
+                        "Open the left hand drawer second from top and put the keys in it",
+                        "Take a step forward toward the dresser",
+                        "Pick up the keys from the top of the dresser",
+                        "Turn in a circle and face toward the same dresser",
+                        "Open the left drawer second from top and put the keys in it"
+                    ],
+                    "task_desc":"Put the keys into the dresser drawer",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "tests_seen/trial_T20190911_111120_037082/traj_data.json":{
+            "tasks":[
+                {
+                    "high_descs":[
+                        "turn and walk to face the left side of the dresser drawers",
+                        "grab a CD out of the top left drawer",
+                        "take the CD over to the white safe on the floor",
+                        "put the CD inside the safe on the floor",
+                        "walk back over to the dresser drawers",
+                        "grab the CD off the top of the dresser ",
+                        "walk over to the white safe on the ground again",
+                        "put the CD inside the safe"
+                    ],
+                    "task_desc":"put both CDs inside the safe on the ground"
+                }
+            ],
+            "relative_objects":[
+                "Safe",
+                "CD"
+            ]
+        }
+    }
+}

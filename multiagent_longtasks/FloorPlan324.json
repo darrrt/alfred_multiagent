@@ -1,0 +1,697 @@
+{
+    "scene_name":"FloorPlan324",
+    "trials":{
+        "train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2A4UAFZ5LW71K_3OJSZ2ATDVD2WLEX6AX8F1333VU757",
+                    "high_descs":[
+                        "turn right, walk towards bed, turn left, take a few steps, turn left to face dresser",
+                        "pick up a phone that is on the dresser",
+                        "turn left, walk forward a few steps, turn left to face the bed",
+                        "put the phone on the bed"
+                    ],
+                    "task_desc":"move a phone from the dresser to the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_3Q5C1WP23PIOLZZVHUGZERCQ09V519",
+                    "high_descs":[
+                        "turn right, walk to the bed, turn left to the dresser",
+                        "grab the phone near the edge",
+                        "turn around to the bed ",
+                        "put the phone on the bed"
+                    ],
+                    "task_desc":"move the phone from the dresser to the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3Z3ZLGNNSLB9OOW8OQIL0VMEUONQ3O",
+                    "high_descs":[
+                        "Move across the room to the left side of the dresser where the blue phone is",
+                        "Pick up the phone on top of the dresser",
+                        "Carry the phone over to the foot of the bed",
+                        "Place the phone in front of the two books on top of the bed"
+                    ],
+                    "task_desc":"Move a phone to the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CellPhone"
+            ]
+        },
+        "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203129_545065/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2KAGFQU28JY43_336KAV9KYT9TC8RBB0LAU7KONCXY23",
+                    "high_descs":[
+                        "Turn and walk to your left, past the bed, then turn right and go to the head of the bed. ",
+                        "Pick up the tennis racket on the floor, between the vacuum and the bed. ",
+                        "Turn to your right and walk to the end of the bed, then stand at the foot of the bed on your right. ",
+                        "Place the tennis racket on the bed, by the phone. "
+                    ],
+                    "task_desc":"Put the tennis racket on the bed, by the cell phone. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_3ON104KXQNDZQHBY0DMA2PW6WIMW4R",
+                    "high_descs":[
+                        "Turn to the left and then the right to go up to the head of the bed.",
+                        "Pick up the racket from the floor.",
+                        "Carry the racket and turn to the right, and then the left to go to the end of the bed.",
+                        "Stand up the racket on the end of the bed."
+                    ],
+                    "task_desc":"Move a racket from the floor to the bed.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AIICJA0A5J8NF_3T3IWE1XG94EN5U235OCI8QCOGTTQN",
+                    "high_descs":[
+                        "Turn to the left, take a few steps, then turn to the right and walk up towards the head of the bed",
+                        "Bend down and grab the tennis racket that is on the floor ",
+                        "Turn to the right and walk down beside the bed, turn to the left at the foot of the bed then take a few steps",
+                        "Set the tennis racket on the foot of the bed"
+                    ],
+                    "task_desc":"Put a tennis racket on the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CellPhone",
+                "TennisRacket"
+            ]
+        },
+        "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203109_390266/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A36DK84J5YJ942_336KAV9KYT9TC8RBB0LAU7KONDD2YP",
+                    "high_descs":[
+                        "Move to the left side of the bed behind you",
+                        "Pick up a racket from the floor ",
+                        "Move to the foot to the bed ahead of you",
+                        "Put the racket on the bed"
+                    ],
+                    "task_desc":"Put a racket on the bed.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3R19ZA45J8915_3GDTJDAPVXS4464M8E60A3AK03J8M0",
+                    "high_descs":[
+                        "Turn around and walk up to the headboard of the left side of the bed. ",
+                        "Pick up the tennis racket that is on the floor in front of you. ",
+                        "Turn to your right, walk forward, hang a left when you reach the dresser and face the foot of the bed. ",
+                        "Place the racket upright to the right of the book that is lying on the bed. "
+                    ],
+                    "task_desc":"Move a tennis racket to the bed. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_3MTMREQS4YZES6RF9EW1FSI6OSRAWP",
+                    "high_descs":[
+                        "Turn around and go straight across and face right towards the bed.",
+                        "Pick up the racket from the floor.",
+                        "Carry the racket and turn right, then left to the end of the bed.",
+                        "Place the racket standing straight up on the right side of the bed."
+                    ],
+                    "task_desc":"Move a racket from the floor to the bed.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Bed",
+                "TennisRacket"
+            ]
+        },
+        "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203047_953959/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A20FCMWP43CVIU_31EUONYN2YKQFLLBTNWNULJX6XGVOG",
+                    "high_descs":[
+                        "turn left, walk around the bed, turn right, walk to the head of the bed, turn right and face the head of the bed",
+                        "pick up the tennis racket underneath the bed",
+                        "turn right, walk to the end of the bed, turn left, walk to the middle of the bed, turn left and face the end of the bed",
+                        "put the tennis racket on the bed in front of the grey computer"
+                    ],
+                    "task_desc":"pick up a tennis racket under the bed and put it on top of the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_33PPO7FECYWUPIAM47JO42H4UHMDID",
+                    "high_descs":[
+                        "Go left and turn to face the racket laying on the floor by the bed.",
+                        "Pick the racket up from the floor.",
+                        "Go right and then left and face the bed at the end of it.",
+                        "Put the racket on the bed."
+                    ],
+                    "task_desc":"Put a racket on a bed.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_36TFCYNS47R8RT4JPP2FYXJHAMCHXJ",
+                    "high_descs":[
+                        "Turn to the left and then the right to get to the head of the bed.",
+                        "Pick up the tennis racket from the floor.",
+                        "Take the tennis racket and turn right and then left to find the foot of the bed.",
+                        "Place the racket standing straight up on the foot of the bed."
+                    ],
+                    "task_desc":"Pick up a racket and move it to the bed.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Bed",
+                "TennisRacket"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190909_145723_528863/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AM2KK02JXXW48_3RXPCZQMQSSM1WOFYQZQIO3FP961G1",
+                    "high_descs":[
+                        "Move to the brown shelf. ",
+                        "Pick up the black mug from the shelf. ",
+                        "Bring the mug to the dresser. ",
+                        "Put the mug on the dresser. ",
+                        "Pick up the pen from the dresser.",
+                        "Put the pen in the mug on the dresser. "
+                    ],
+                    "task_desc":"Put a pen in a mug on the dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"ARL7HOWLEHNOP_3WMINLGALEK5E8LASNW03YB3V86CA6",
+                    "high_descs":[
+                        "Walk forward, turn right, walk across the room then turn right, and turn left and walk to the brown dresser.",
+                        "Pick up the black mug from the second shelf of the brown dresser.",
+                        "Turn around, walk to the bed, then turn right and walk to the light brown dresser.",
+                        "Place the black mug on top of the light brown dresser in front of the compact disc.",
+                        "Grab the red pen on the light brown dresser.",
+                        "Place the red pen inside of the black mug on the light brown dresser."
+                    ],
+                    "task_desc":"Place the red pen in the black mug on the dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1MKCTVKE7J0ZP_3ZSANO2JCIOGHGRE0P8SW4QCEVWFSF",
+                    "high_descs":[
+                        "Go straight and to the right, past the bed to the shelf beneath the picture.",
+                        "Take the mug from the middle shelf.",
+                        "Turn around and go right toward the dresser.",
+                        "Place the mug on the dresser, in front of the compact disk.",
+                        "Pick up the pen on the dresser, to the right of the keys.",
+                        "Put the pen in the mug."
+                    ],
+                    "task_desc":"Put a pen in a mug, on the dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Mug",
+                "Pen"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190906_190353_820051/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"ACSS93E03ZUGX_3JPSL1DZ5VGO5CI1HD5EJ95FUC8ANA",
+                    "high_descs":[
+                        "Turn left, walks towards the bed and turn left again facing the desk.",
+                        "Pick up the red pen off of the desk. ",
+                        "Turn around and walk towards the table to the left. ",
+                        "Place the red pen in the black mug. ",
+                        "Pick up the mug with the red pen. ",
+                        "Turn to the left to face the desk. ",
+                        "Set the black mug on the left side of the desk."
+                    ],
+                    "task_desc":"Set the red pen that's inside the mug onto the desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_3SBEHTYCWQKXNT5D0362HNR5B4EIY9",
+                    "high_descs":[
+                        "Move over to the computer on the dresser. ",
+                        "Pick up the pen on the dresser. ",
+                        "Bring the pen over to the mug on the small brown shelf. ",
+                        "Put the pen in the black mug on the shelf. ",
+                        "Pick up the mug from the shelf. ",
+                        "Bring the mug over to the dresser. ",
+                        "Put the mug with pen in it down on the dresser next to the lamp. "
+                    ],
+                    "task_desc":"Put mug with pen on the dresser next to lamp. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1HKHM4NVAO98H_3WZ36BJEV6XRJZSDKNRMNJVD1FGBTE",
+                    "high_descs":[
+                        "turn left and move to the front of the dresser drawers",
+                        "grab a pen off the top of the dresser",
+                        "turn right and move to the smaller brown cabinet against the wall",
+                        "place the pen inside a cup on the cabinet",
+                        "grab the black cup up off of the cabinet",
+                        "turn around and move to the front of the dresser",
+                        "place the cup down on the dresser behind the cell phone"
+                    ],
+                    "task_desc":"place down a cup with a pen in it on the dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Mug",
+                "Pen"
+            ]
+        },
+        "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031758_208825/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_33TIN5LC07R4CSCAW90P4US2TPEY9G",
+                    "high_descs":[
+                        "Turn around and cross the room to turn to the right and face the bed.",
+                        "Pick the racket up from the floor near the bed.",
+                        "Go right and face the dresser with the computer and lamp.",
+                        "Put the racket on the dresser to the right of the computer."
+                    ],
+                    "task_desc":"Put a racket on a dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A6U2C66WQ7QQN_37ZHEEHM6Z3ZI6RTSR9F045JPZL37V",
+                    "high_descs":[
+                        "Turn around, take several steps forward",
+                        "Pick up the tennis racket from the floor",
+                        "Turn around, head to the dresser",
+                        "Put the tennis racket on the dresser"
+                    ],
+                    "task_desc":"Take the tennis racket from the floor, put it on the dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1RLO9LNUJIW5S_3Y9N9SS8L1SFZFS3J4C10WFFB9Y3DW",
+                    "high_descs":[
+                        "Turn around and walk to the wall then turn right.",
+                        "Pick up the racquet at your feet.",
+                        "Turn around and take a tiny step then turn left and walk to the laptop.",
+                        "Put the racquet on the dresser to the right of the laptop./"
+                    ],
+                    "task_desc":"Put a racquet on the dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Dresser",
+                "TennisRacket"
+            ]
+        },
+        "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031811_820988/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AO33H4GL9KZX9_3WI0P0II6497IHD5UUDXIUIVHO9RDL",
+                    "high_descs":[
+                        "Turn right and face the bed.",
+                        "Pick up the tennis racket under the bed.",
+                        "Turn right to go to the dresser across the bedroom. ",
+                        "Stand up the tennis racket on its base on the top of the dresser next to the lamp."
+                    ],
+                    "task_desc":"Stand the tennis racket on the dresser.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A14IPKOBOPID9H_3ZSANO2JCIOGHGRE0P8SW4QCF38SFL",
+                    "high_descs":[
+                        "Turn right towards the bed",
+                        "Pick up the tennis racket from under the bed",
+                        "Turn around then turn left and go to the dresser",
+                        "Set the tennis racket on its handle on the dresser"
+                    ],
+                    "task_desc":"Balance the tennis racket on its handle on the dresser",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A6U2C66WQ7QQN_39RP059MEKAN642TBQQA150L8GWMBJ",
+                    "high_descs":[
+                        "Turn to the right",
+                        "Take the tennis racket from the floor",
+                        "Take several steps to the right",
+                        "Put the tennis racket on the dresser"
+                    ],
+                    "task_desc":"Take the tennis racket from the floor, put it on the dresser",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Dresser",
+                "TennisRacket"
+            ]
+        },
+        "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031822_994450/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3F51C49T9A34D_34Z02EIMIVUQZCP3M7UX32ZUBL3T0F",
+                    "high_descs":[
+                        "go forward to the bed and turn to the left and take a few steps forward and turn to the right and go to the wall and turn to the right facing the bed",
+                        "pick up the tennis racket from the floor by the bed",
+                        "turn to the right twice and take a step and turn to the left and go to the dresser",
+                        "place the tennis racket on the dresser top right of the notebook computer"
+                    ],
+                    "task_desc":"Place a tennis racket on the dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3R19ZA45J8915_3CFJTT4SXW7E899CDUG24A788HSI7K",
+                    "high_descs":[
+                        "Walk around the left side of the bed to the tennis racket.",
+                        "Pick up the tennis racket that is on the floor. ",
+                        "Turn and walk up to the dresser. ",
+                        "Place the tennis racket on the right side of the dresser. "
+                    ],
+                    "task_desc":"Move the tennis racket to the dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A272X64FOZFYLB_3RKNTXVS3PF2J48VZ8QIK0ZF48Y4AL",
+                    "high_descs":[
+                        "Walk forward to the left side of the bed, near the baseball bat.",
+                        "Pick up the tennis racket from the floor.",
+                        "Turn right and walk forward to the dresser against the wall.",
+                        "Put the tennis racket on the dresser, to the right of the laptop."
+                    ],
+                    "task_desc":"Move a tennis racket from the floor to a dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Dresser",
+                "TennisRacket"
+            ]
+        },
+        "train/pick_and_place_simple-CellPhone-None-Drawer-324/trial_T20190907_225624_710237/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3SFPSMFRSRTB3_31LM9EDVOO9Z65L5BJIRC88YLBJNJ9",
+                    "high_descs":[
+                        "Turn left, proceed to dresser.",
+                        "Pick up phone from in front of the alarm clocks on the dresser.",
+                        "Turn around, approach the dresser.",
+                        "Open the bottom right hand drawer of dresser, put phone in drawer in the top left hand corner.  Shut the drawer."
+                    ],
+                    "task_desc":"Put phone from dresser into drawer.",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3MLUEOP3CCLXL_3OVR4I9USS0U6KFCO4N4A0EK8PFQ47",
+                    "high_descs":[
+                        "Turn around and walk to the bed then hang a right and walk to the dresser across the room",
+                        "Pick up the cellphone  that is sitting on the dresser",
+                        "take a step back from the dresser",
+                        "Open the very bottom right drawer on the dresser and place the cellphone in the back left corner then close the drawer"
+                    ],
+                    "task_desc":"Place a cellphone into a drawer",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1MKCTVKE7J0ZP_3X66WABAJZZIBZ2ULUD96HICO9KG35",
+                    "high_descs":[
+                        "Turn around, move forward, then turn right to approach the dresser.",
+                        "Pick up the cell phone on the dresser, in front of the clock.",
+                        "Turn around, move forward, then turn back around to face the dresser.",
+                        "Put the cell phone in the bottom right drawer, behind the keys."
+                    ],
+                    "task_desc":"Put a cell phone in the drawer.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CellPhone",
+                "Drawer"
+            ]
+        },
+        "train/pick_two_obj_and_place-CellPhone-None-Bed-324/trial_T20190907_143501_605409/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A6U2C66WQ7QQN_3RYC5T2D76AG7EGVZ34SIOZKVRERP5",
+                    "high_descs":[
+                        "Turn to the left and walk to the dresser",
+                        "Pick up the blue cell phone from the dresser",
+                        "Turn to the left, walk a few steps, turn to the left, face the bed",
+                        "Put the cell phone on to the bed",
+                        "Turn to the left, walk to the dresser, turn to the left",
+                        "Pick up the blue cell phone from the dresser",
+                        "Turn to the left, walk a few steps, turn to the left, face the bed",
+                        "Put the cell phone on to the bed"
+                    ],
+                    "task_desc":"Put both blue cell phone's on to the bed",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A11IIS435RPN2O_3KKG4CDWKLFOELYQ72CIO5OVYAG94F",
+                    "high_descs":[
+                        "Turn left a go towards the chest.",
+                        "Pick up the second cell phone from the chest.",
+                        "Turn around and go towards the bed.",
+                        "Put the cell phone on the bed.",
+                        "Turn around and go back to the chest.",
+                        "Pick up the cell phone on the chest.",
+                        "Turn around and go towards the bed.",
+                        "Put the cell phone on the bed."
+                    ],
+                    "task_desc":"Bring Cell Phones on the bed from the Chest.",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CellPhone",
+                "Bed"
+            ]
+        },
+        "valid_seen/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233817_198528/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A6U2C66WQ7QQN_32EYX73OY3QTZJORGP3MSUMJ3NWURO",
+                    "high_descs":[
+                        "Turn to the left, head to the dresser",
+                        "Take the blue cell phone from the dresser",
+                        "Take a few steps to the left",
+                        "Put the blue cell phone on the bed"
+                    ],
+                    "task_desc":"Take the blue cell phone from the dresser, put it on the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_32Q90QCQ1V2QNJEA05FKN0E2M7FKEB",
+                    "high_descs":[
+                        "Go left and then turn left again to face the dresser.",
+                        "Pick the phone up from the dresser.",
+                        "Go left and then turn left to face the bed.",
+                        "Put the phone down on the bed."
+                    ],
+                    "task_desc":"Put a phone on a bed.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_3BDCF01OG0BZDUDJL63F93JXTJ8YLQ",
+                    "high_descs":[
+                        "turn left, walk to the dresser on the left",
+                        "grab the phone on the dresser",
+                        "turn left, walk to the end of the bed on the left",
+                        "put the phone on the bed"
+                    ],
+                    "task_desc":"move the phone from the dresser to the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Dresser",
+                "CellPhone",
+                "Bed"
+            ]
+        },
+        "tests_seen/trial_T20190907_233839_144519/traj_data.json":{
+            "tasks":[
+                {
+                    "high_descs":[
+                        "Go to the right and stand in front of the dresser where the phone sits.",
+                        "Pick the phone up from the dresser.",
+                        "Turn around and face the bed.",
+                        "Put the phone down on the bed."
+                    ],
+                    "task_desc":"Put a phone on a bed."
+                },
+                {
+                    "high_descs":[
+                        "Walk to the drawers on your right.",
+                        "Open a drawer and take the phone out of the drawer.",
+                        "Move to the front of your bed.",
+                        "Place the phone on the bed."
+                    ],
+                    "task_desc":"Move a phone from the drawer to the bed."
+                },
+                {
+                    "high_descs":[
+                        "Turn to your right and walk to the end of the dresser closest to you, then turn to your left so that you are facing it. ",
+                        "Pick up the cell phone on the dresser, between the pencil and the keys.",
+                        "Turn around and go to the bed.",
+                        "Put the cell phone on the bed, to the left of the green pillow in the center. "
+                    ],
+                    "task_desc":"Put a cell phone on the bed. "
+                }
+            ],
+            "relative_objects":[
+                "Pillow",
+                "CellPhone"
+            ]
+        },
+        "tests_seen/trial_T20190907_225552_472573/traj_data.json":{
+            "tasks":[
+                {
+                    "high_descs":[
+                        "Turn around to face the dresser with a lamp on it.",
+                        "Pick the phone up from the dresser.",
+                        "Back up to face the drawers of the dresser.",
+                        "Open the lowest drawer on the right and put the phone in and shut the drawer."
+                    ],
+                    "task_desc":"Put a phone in a drawer."
+                },
+                {
+                    "high_descs":[
+                        "turn left and head to the book shelf, then hang a left once you pass the bed and walk to the dresser",
+                        "Pick up the cell phone that is sitting to the left of the book",
+                        "Take a step back and continue to look at the dresser",
+                        "Open the very bottom right drawer and place the cellphone in the left back corner then close the drawer"
+                    ],
+                    "task_desc":"Place a cellphone into a drawer"
+                },
+                {
+                    "high_descs":[
+                        "Turn to your left, take two steps forward, turn left, and take a step to face the cabinet.",
+                        "Pick up the cell phone on the front edge of the top of the cabinet.",
+                        "Turn around from your right and face the same cabinet.",
+                        "Pull out bottom right shelf, place the phone in it, and close it."
+                    ],
+                    "task_desc":"Pick up the phone from the top of the cabinet and put inside a shelf."
+                }
+            ],
+            "relative_objects":[
+                "CellPhone"
+            ]
+        }
+    }
+}

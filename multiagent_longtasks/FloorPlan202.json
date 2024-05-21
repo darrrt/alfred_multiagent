@@ -1,0 +1,448 @@
+{
+    "scene_name":"FloorPlan202",
+    "trials":{
+        "train/look_at_obj_in_light-Laptop-None-FloorLamp-202/trial_T20190907_204105_603210/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A36DK84J5YJ942_3E1QT0TDFSQI8NEVNZ88IA33JT88IR",
+                    "high_descs":[
+                        "Move to the desk on the other side of the coffee table",
+                        "Pick up the laptop from the desk",
+                        "Move to the lamp to the left of the desk",
+                        "Turn on the lamp"
+                    ],
+                    "task_desc":"Inspect a laptop with a tall lamp.",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2KAGFQU28JY43_3X31TUMD7032NO2G9HW6VG8NMRG1LY",
+                    "high_descs":[
+                        "Turn left and walk to the end of the couch, then left again to walk around the table and turn to the TV on your right. ",
+                        "Pick up the lap top on the entertainment stand below the TV. ",
+                        "Turn to your left and walk to the lamp in the right corner of the room. ",
+                        "Turn on the lamp in the right corner of the room. "
+                    ],
+                    "task_desc":"Turn on the lamp in the right corner of the room while holding a lap top. ",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "assignment_id":"A1198W1SPF1R4_33SA9F9TR0BHIJ8RPJYNBB8X9DREW2",
+                    "high_descs":[
+                        "Turn left towards the wall, then turn left again towards the TV, close the console on the TV stand.",
+                        "Take the console from the TV stand.",
+                        "Turn left towards the wall near the window, then turn right towards the floor lamp. Put the console close to the floor lamp.",
+                        "Turn on the floor lamp using the console as a remote control."
+                    ],
+                    "task_desc":"Turn on the floor lamp using the console as a remote control.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "RemoteControl",
+                "Laptop"
+            ]
+        },
+        "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A16184N1RO5OJV_30LSNF239XC7M8C67IZ78JQ0XMV2IJ",
+                    "high_descs":[
+                        "Walk straight until the end of the gray couch and face the books on the couch. ",
+                        "Pick up the remote control from the couch. ",
+                        "Turn around and face the table in front of the couch. ",
+                        "Put the remote control near the plant on top of the table",
+                        "Walk slightly to the right, go straight and turn left to go to the TV. ",
+                        "Pick up another remote control from the TV cabinet. ",
+                        "Turn around, walk straight and turn right to go back to the table. ",
+                        "Put the remote control on top of the table "
+                    ],
+                    "task_desc":"Put 2 remote controls on the table in front of the couch. ",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "RemoteControl"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1SX8IVV82M0LW_3CFVK00FWO2XUA3DFN8NQCZ4UH1L6F",
+                    "high_descs":[
+                        "Walk to the white loveseat.",
+                        "Grab the remote from the loveseat.",
+                        "Walk to the couch in front of the box.",
+                        "Place the remote inside the box.",
+                        "Grab the box with the remote in it.",
+                        "Walk to the white loveseat again.",
+                        "Place the box on the loveseat."
+                    ],
+                    "task_desc":"Put a remote in a box and return the remote to its original place.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_3N4BPTXIOB97CFBWQ5UPRI0585BUKO",
+                    "high_descs":[
+                        "Turn to the right and find the chair on the left.",
+                        "Pick up the remote from the chair.",
+                        "Carry the remote and take a few steps to the left to the couch.",
+                        "Place the remote in the box on the couch.",
+                        "Pick up the box from the couch.",
+                        "Carry the box a few steps to the right to go back to the chair.",
+                        "Place the box on the chair."
+                    ],
+                    "task_desc":"Place a remote in a box and move them to the chair.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_3IKZ72A5B7XJ13Z9STR6XAG6SD1NFN",
+                    "high_descs":[
+                        "Walk forward, then hang a right and walk across the room, turn left and walk up to the chair.",
+                        "Pick up the remote off of the seat of the chair.",
+                        "Turn left and walk forward, then turn right to face the blue couch.",
+                        "Put the remote in the cardboard box that is on the seat of the couch.",
+                        "Pick up the cardboard box with the remote in it.",
+                        "Walk back over to the chair.",
+                        "Put the cardboard box with the remote in it on the seat of the chair."
+                    ],
+                    "task_desc":"Put a cardboard box with a remote in it on a chair.",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "RemoteControl",
+                "Box"
+            ]
+        },
+        "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2MHM7JK1T9XHR_35LDD5557DLOZ76NH33308JBUWMKMP",
+                    "high_descs":[
+                        "Walk forward, turn left, walk forward towards the wall, turn right to face the TV stand.",
+                        "Pick up the watch from the TV stand.",
+                        "Turn around to face the standing lamp in the corner.",
+                        "Hold the watch up and turn on the lamp."
+                    ],
+                    "task_desc":"Turn the floor lamp on while holding a watch.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_3F1567XTNZMV3QLO5ZJVR8P0T2X9QV",
+                    "high_descs":[
+                        "Walk ahead and then hang left to the far end of the TV stand.",
+                        "Pick up the watch on the TV stand.",
+                        "Turn around and walk to the lamp.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Look at a watch by the light of a lamp.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_3IAEQB9FMH1CQDURTON35TQC8RTWD9",
+                    "high_descs":[
+                        "Turn left, walk to the other side of the TV cabinet",
+                        "Grab the watch on the cabinet",
+                        "Turn around to the floor lamp",
+                        "Turn on the floor lamp"
+                    ],
+                    "task_desc":"Grab the watch from the TV cabinet, turn on the floor lamp",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "RemoteControl",
+                "Watch"
+            ]
+        },
+        "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AM2KK02JXXW48_37TRT2X24T8X5WW88TDILD84465JBK",
+                    "high_descs":[
+                        "Turn right and move to the book on the chair. ",
+                        "Pick up the book on the chair. ",
+                        "Turn left and bring the book to the blue couch. ",
+                        "Put the book on the blue couch to the left of the computer. "
+                    ],
+                    "task_desc":"Put a book on the blue couch. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_3TPWUS5F8CI2LLODTSSSLN8UOOKCWN",
+                    "high_descs":[
+                        "turn right to the sofa",
+                        "grab the book on the sofa",
+                        "turn left, walk to the grey sofa on the right",
+                        "put the book down on the sofa by the computer"
+                    ],
+                    "task_desc":"move the book from the white sofa to the grey sofa",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1DMXEJGJY02E1_3Z7ISHFUH3C43D35N3WUI56TFY08ZY",
+                    "high_descs":[
+                        "Turn around to face the chair.",
+                        "Pick up the book on the chair.",
+                        "Move to the left to face the middle of the couch.",
+                        "Put the book on the couch."
+                    ],
+                    "task_desc":"Move the book from the chair to the couch.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_36PW28KO42DKB65OOE2VTMB6HMZAEI",
+                    "high_descs":[
+                        "Turn to the right and face the striped chair.",
+                        "Pick the book up from the chair.",
+                        "Go left and turn to the right to face the couch.",
+                        "Put the book on the couch to the left of the computer."
+                    ],
+                    "task_desc":"Put a book on a couch.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2A4UAFZ5LW71K_3RKNTXVS3PF2J48VZ8QIK0ZF4X5A4C",
+                    "high_descs":[
+                        "walk forward a couple steps, stop to face the chair on the right",
+                        "pick up the book that is on the chair",
+                        "turn left, walk forward, stop to face the couch on the right",
+                        "put the book on the couch"
+                    ],
+                    "task_desc":"move a book from the chair to the couch",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_3W2LOLRXLEWFWNJFMBZKM7DL1M5KR4",
+                    "high_descs":[
+                        "Turn to the right to find the stripped chair.",
+                        "Pick up the book from the chair.",
+                        "Take the book, turn to the left and find the blue couch.",
+                        "Place the book on the couch, to the left of the laptop."
+                    ],
+                    "task_desc":"Move a book from the chair to the couch.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Book"
+            ]
+        },
+        "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2A4UAFZ5LW71K_3BDCF01OG0L7YJZHHESWAP3ZN6SYLH",
+                    "high_descs":[
+                        "walk forward, turn left, take a few steps, turn right to face TV stand",
+                        "pick up the keys that are on the TV stand",
+                        "turn left, walk across to wall, turn right, walk to lamp in the corner, hold keys up",
+                        "turn the lamp on"
+                    ],
+                    "task_desc":"examine the keys with the lamp",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_3TE3O85733ZS0W1NTDIXNXBTEJNR2K",
+                    "high_descs":[
+                        "Move to the TV stand on the left.",
+                        "Pick up the keys on the TV stand.",
+                        "Turn right, move to the tall lamp on the floor, in the corner.",
+                        "Turn on the tall lamp on the floor. "
+                    ],
+                    "task_desc":"Examine the keys by the light of the tall lamp. ",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3C81THYYSBGVD_3K5TEWLKGY2O4OW6R08ZBA7DOLXIVF",
+                    "high_descs":[
+                        "Move forward, then left and face the tv to your right.",
+                        "Grab the keys from the tv stand in front of you.",
+                        "Turn left then face the lamp on your right.",
+                        "Turn on the lamp in front of you."
+                    ],
+                    "task_desc":"Turn on a lamp and take your keys.",
+                    "votes":[
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3PPLDHC3CG0YN_308Q0PEVBB4Q7HJ3OZ33JSIGXT19ID",
+                    "high_descs":[
+                        "Turn around, turn left at the striped chair, turn right and face the left side of the couch. ",
+                        "Pick up the keys from the front edge of the couch. ",
+                        "Turn right, turn right at the curtains, walk to the lamp and look up at it. ",
+                        "Turn on the lamp. "
+                    ],
+                    "task_desc":"Pick up the keys and turn on the lamp. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A272X64FOZFYLB_3JJVG1YBEEOXJM3LFZY5LP91G7XB5E",
+                    "high_descs":[
+                        "Turn around and walk forward to the armchair, then turn left and walk to the blue sofa.",
+                        "Pick up the key chain on the sofa near the purple pillow.",
+                        "Turn right and walk forward to the wall, then turn right and walk to the lamp in the corner.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Examine a key chain by the light of a floor lamp.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3R19ZA45J8915_3XC1O3LBOVDBHX0N785X28BK84RTL4",
+                    "high_descs":[
+                        "Turn around completely, walk up to the striped chair, make a left, and walk over to the far left couch cushion. ",
+                        "Pick up the set of keys that are on the couch cushion. ",
+                        "Turn to the right, walk up to the curtains, then turn right and walk up to the floor lamp.",
+                        "Turn on the floor lamp."
+                    ],
+                    "task_desc":"Examine a set of keys using the light of a floor lamp. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1RLO9LNUJIW5S_3AQF3RZ55B9JF7FFPKU6WLEMRZF6FK",
+                    "high_descs":[
+                        "Walk to the coffee table then take a step to your left and walk to the coffee table then turn right to face it.",
+                        "Pick up the credit card farthest to the right.",
+                        "Turn left and walk to the curtains and then turn left and walk to the chair.",
+                        "Put the credit card near the edge of the cushion below the remote."
+                    ],
+                    "task_desc":"Put a credit card on the chair.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A31681CCEVDIH3_3X0H8UUIT4FQDRZ7MM791EWE4RYSWM",
+                    "high_descs":[
+                        "Walk to the coffee table.",
+                        "Pick up the furthest credit card to the right on the coffee table.",
+                        "Turn around and walk to the striped armchair.",
+                        "Set the credit card down on the seat of the striped armchair."
+                    ],
+                    "task_desc":"Move a credit card from the coffee table to the striped armchair.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1SX8IVV82M0LW_34S6N1K2ZYALCO9S7EO8OP8WX97HLR",
+                    "high_descs":[
+                        "Walk to the coffee table on the cards' side.",
+                        "Grab the right card from the table.",
+                        "Walk to the white chair on your left.",
+                        "Place the card on the chair."
+                    ],
+                    "task_desc":"Move a card from the table to the chair.",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CreditCard"
+            ]
+        }
+    }
+}

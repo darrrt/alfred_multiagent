@@ -1,0 +1,629 @@
+{
+    "scene_name":"FloorPlan224",
+    "trials":{
+        "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_32EYX73OY301K8APCXS3TG6LXLSURD",
+                    "high_descs":[
+                        "Walk ahead a step, then turn left and walk a few steps, then turn right and walk to the front side of the dresser on the right.",
+                        "Pick up the box on the dresser.",
+                        "Turn around and walk to the couch, then turn left and walk to the chair on the right side of the fire place.",
+                        "Place the box on the chair, to the left of the remote control."
+                    ],
+                    "task_desc":"Place a box on a chair.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3Z9WI9EOZ2FASIRAMEC79PVH8L6KHJ",
+                    "high_descs":[
+                        "Go left towards the striped carpet and then turn right and face the black dresser.",
+                        "Pick the box up from the dresser.",
+                        "Turn around and cross the room and turn left and then face the brown chair in the corner.",
+                        "Put the box down on the chair."
+                    ],
+                    "task_desc":"Put a box in a chair.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A20FCMWP43CVIU_3RANCT1ZVI8E41T0G06DT11HFZ0UBB",
+                    "high_descs":[
+                        "walk to face bureau with box",
+                        "pick up box from bureau",
+                        "walk to face chair to the right of fireplace",
+                        "place box in chair"
+                    ],
+                    "task_desc":"put box on living room chair",
+                    "votes":[
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box",
+                "Chair"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"ANBWJZYU2A68T_379J5II41R79SEIQHDG23MBJ55QEL7",
+                    "high_descs":[
+                        "Turn to your left to face the cabinet a laptop and a monitor",
+                        "Pick up the open box from the counter",
+                        "Turn around, walk to the sofa, turn left, and go to the smaller couch by the fireplace",
+                        "Put the box on the couch"
+                    ],
+                    "task_desc":"To put an empty box on the couch by the fireplace",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1RLO9LNUJIW5S_3SKRO2GZ74IZO76WKP9MH2FARYL1KG",
+                    "high_descs":[
+                        "Turn left and take a small step to your left.",
+                        "Pick up the cardboard box that's in front of the tv.",
+                        "Turn around and walk to the couch then turn left and walk to the chair in the comer.",
+                        "Put the box on the chair's cushion."
+                    ],
+                    "task_desc":"Put a box on the chair.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A20FCMWP43CVIU_3TEM0PF1Q8OR3CF4WPJZZK1A2WH0DW",
+                    "high_descs":[
+                        "walk to face tv stand",
+                        "pick up box from tv stand",
+                        "walk to face plush chair near fireplace",
+                        "put box on chair"
+                    ],
+                    "task_desc":"put box on living room chair",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box"
+            ]
+        },
+        "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1MKCTVKE7J0ZP_3A0EX8ZRNB5N0LR7UTELV0NSGJWBY5",
+                    "high_descs":[
+                        "Turn left, go through the doorway, then turn left, then turn right to go toward the lamp.",
+                        "Pick up the remote on the table, next to the lamp.",
+                        "Turn around, go left, walk forward, then turn left and look up at the lamp.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Examine a remote in the lamp light.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_3ON104KXQNDZQHBY0DMA2PW6VKAW4I",
+                    "high_descs":[
+                        "Move to the small table with the remote on it. ",
+                        "Pick up the remote from the table. ",
+                        "Bring the remote to the tall lamp next to the window. ",
+                        "Turn on the tall lamp. "
+                    ],
+                    "task_desc":"Examine the remote under the light of the tall lamp. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1RLO9LNUJIW5S_3YW4XOSQKT256EPAIVO7M346YKOU13",
+                    "high_descs":[
+                        "Turn left and walk until you move past the wall on your left then turn left and walk until you are almost to the rocking chair then turn right and walk to the table with the lamp on it.",
+                        "Pick up the remote on the edge of the stand.",
+                        "Turn right and walk over to the light in the corner then turn left to face the wall.",
+                        "Turn the light on."
+                    ],
+                    "task_desc":"Inspect a remote by lamp light.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "RemoteControl"
+            ]
+        },
+        "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A320QA9HJFUOZO_3483FV8BEH0RTOH55HQIBG0VNZE26A",
+                    "high_descs":[
+                        "Turn around and walk over to the small side table by the dog bed",
+                        "Pick up the remote next to the lamp from the side table",
+                        "Turn right and walk over to the floor lamp in the corner by the window",
+                        "Turn on the floor lamp"
+                    ],
+                    "task_desc":"Examine the remote under the light of the lamp",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"ARL7HOWLEHNOP_35L9RVQFCRZGAPAOKKRSEQKDF34UHA",
+                    "high_descs":[
+                        "Turn right, walk across the room, then turn right and walk to the black end table.",
+                        "Grab the remote control on the black end table.",
+                        "Turn around, then turn left and walk to the tall lamp in the left corner of the room.",
+                        "Turn on the light and examine the remote control."
+                    ],
+                    "task_desc":"Examine the remote control by the light of the tall lamp.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_3HRMW88U197MMHZJDATLHO42G0SM01",
+                    "high_descs":[
+                        "Turn to the right and go to the side table along the wall.",
+                        "Pick up the remote from the table.",
+                        "Turn to the right, and find the other table that is by the window.",
+                        "Turn the lamp on with the remote."
+                    ],
+                    "task_desc":"Turning a lamp on.",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "RemoteControl"
+            ]
+        },
+        "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AO33H4GL9KZX9_3Z2R0DQ0JKVV63AKBZ9GN4S859Q2E8",
+                    "high_descs":[
+                        "Turn around and go to the left side of the mantle of the fireplace.",
+                        "Pick up the gray bowl on the mantle.",
+                        "Go to the other side of the living room to the small black cabinet.",
+                        "Place the bowl on the top of the cabinet. ",
+                        "Turn left to go to the right side of the mantle of the fire place.",
+                        "Pick up the brown bowl on the mantle.",
+                        "Turn around and go back to the small black cabinet.",
+                        "Place the brown bowl to the left of the gray bowl."
+                    ],
+                    "task_desc":"Move the bowls from the mantle to the cabinet.",
+                    "votes":[
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Vase"
+            ]
+        },
+        "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3BZVFD82AVLT8_38SKSKU7R4EDNUYEHOHCNFP93EYLIN",
+                    "high_descs":[
+                        "Turn around then head into the room to your right then turn right and go to the left side of the dresser.  ",
+                        "Pick up the cell phone that's laying next to the keys. ",
+                        "Turn to your right then head towards the desk before turning left, then turn right and go to the lamp by the window. ",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Turn on the lamp while holding a cell phone.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_3KB8R4ZV1HONEU670NSFO0GOB6QBGT",
+                    "high_descs":[
+                        "Turn around, walk out of the room, turn right, walk to the black cabinet",
+                        "Grab the phone on the cabinet",
+                        "Turn right, walk back to the room, walk to the corner with a floor lamp",
+                        "Turn on the floor lamp"
+                    ],
+                    "task_desc":"Grab the phone from the black cabinet, turn on the floor lamp",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A13OOAT2ORKH6V_3Q8GYXHFESJ8829TXR5JVNVH4JF5CI",
+                    "high_descs":[
+                        "Turn right, walk straight, before you reach the chairs, turn right, walk straight, turn right to face the door, walk straight, turn right to face the table.",
+                        "Pick up the phone from the table.",
+                        "Turn right, walk straight toward the fireplace, before you reach the fireplace, turn left, walk straight to the small stand, turn right and walk to the lamp.",
+                        "With the phone in hand, turn on the lamp."
+                    ],
+                    "task_desc":"With a phone in hand turn on the lamp.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CellPhone",
+                "Vase"
+            ]
+        },
+        "train/look_at_obj_in_light-KeyChain-None-FloorLamp-224/trial_T20190909_033136_421246/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A31681CCEVDIH3_31N2WW6R9UHKIOSX6IW8PI22HCN3FT",
+                    "high_descs":[
+                        "Turn around to walk across the room to the middle of three tables against the wall.",
+                        "Pick up the keys next to the smartphone.",
+                        "Turn right and walk forwards to reach the tall lamp in the corner.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Look at some keys under a lit tall lamp.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2Z43TA0WZ0EG0_39RP059MEKKVRTOR7YFR2RKN25IBM5",
+                    "high_descs":[
+                        "Turn around and head towards the black in table in between the gold garbage can and bow.",
+                        "Grab the set of keys in between the phone and remote.",
+                        "Turn around and go left towards the white lamp next to the chair.",
+                        "Turn the lamp on."
+                    ],
+                    "task_desc":"Pick up the keys and turn the lamp on.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1HKHM4NVAO98H_3K3R2QNK8EUVG8E3IGSH2V6RRREU92",
+                    "high_descs":[
+                        "turn around and walk to the end of the room where the black cabinet is",
+                        "grab the keys off of the black cabinet",
+                        "move to the end of the right side of the room",
+                        "turn on the lamp there"
+                    ],
+                    "task_desc":"turn on the lamp in corner of the room while holding some keys",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "RemoteControl",
+                "CellPhone",
+                "KeyChain"
+            ]
+        },
+        "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1NWXL4QO30M8U_36H9ULYP65BNID8ODVZE43ZPJLAFJ9",
+                    "high_descs":[
+                        "Turn around and walk across the room, then turn right to face the table. ",
+                        "Pick up the keys on the table. ",
+                        "Turn around and walk to the couch. ",
+                        "Put the keys on the edge of the couch. ",
+                        "Turn left and walk across the room, then turn turn right and take one step, then turn left to face the chair. ",
+                        "Pick up the keys that are near the cell phone on the chair.",
+                        "Turn right and walk to the couch, then turn right and take one step, then turn left and take three steps, then turn left and walk to the couch.",
+                        "Place the keys to the right of the other set of keys on the couch."
+                    ],
+                    "task_desc":"To move the keys to the couch.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1GVTH5YS3WOK0_39O5D9O87W95UNMPJ8HQGQXXQBDC30",
+                    "high_descs":[
+                        "Turn right, take a few steps forward, turn right towards the sofa, and then turn left towards a brown chair. ",
+                        "Pick up the left set of keys on the chair.",
+                        "Turn around, and walk towards the end of the sofa next to the wall.",
+                        "Place the set of keys in front of the newsletter on the sofa.",
+                        "Turn around and walk to the tv stand.",
+                        "Pick up the set of keys to the right of the newsletter.",
+                        "Turn around and walk to the grey long sofa.",
+                        "Place the set of keys behind the other set on the sofa."
+                    ],
+                    "task_desc":"Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3JZLYQ606HJJR_3F0BG9B9MS40Y9OHHC25QY1WY0B7Y0",
+                    "high_descs":[
+                        "Move across the room to the tan chair on the right side of the fireplace. ",
+                        "Pick up the keys that are on the left side of the chair. ",
+                        "Move to the sofa that has two computers on it. ",
+                        "Place the keys on the far right side of the couch. ",
+                        "Turn around and move forward until you reach the black stand with the TV on it. ",
+                        "Pick up the keys that are on the top of the stand.",
+                        "Turn around and move forward to the couch.",
+                        "Place the keys on the far right side near the other keys. "
+                    ],
+                    "task_desc":"Move 2 sets of keys from a chair & TV stand to the right hand side of the sofa. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015731_474534/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3JZLYQ606HJJR_31Q0U3WYDSW383DE5NVWCBQMRFX17R",
+                    "high_descs":[
+                        "Move across  the grey room to the black stand that the TV is on. ",
+                        "Pick up the keys that are by the newspaper. ",
+                        "Turn around and move across the blue room to the sofa. ",
+                        "Place the keys on the right hand side of the remote that is on the sofa. ",
+                        "Move across the blue room into the yellow room until you are in front of the three black stands.  You want to move to the middle stand. ",
+                        "Pick up the keys that are on far left side toward the back of the middle black stand. ",
+                        "Turn around and cross through the yellow room to the blue room.  Move to the couch. ",
+                        "Place the keys near the front of the left sofa cushion. "
+                    ],
+                    "task_desc":"Move 2 sets of keys from 2 different rooms to the couch in the blue room.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1K5ILJMG439M5_3WMOAN2SREE8X0LZS8WAFWJSG52VNS",
+                    "high_descs":[
+                        "Go to the console table and face the far left end of it.",
+                        "Pick up the white phone from under the television.",
+                        "Turn around and bring the phone with you over to the black sofa.",
+                        "Put the phone down on the left seat cushion.",
+                        "Turn left and cross the room to go to the black table with the golden statue on it.",
+                        "Pick up the white phone sitting to the right of the statue.",
+                        "Bring the phone with you back to the black sofa.",
+                        "Put the phone down on the right seat cushion."
+                    ],
+                    "task_desc":"Move the phones to the sofa.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Sofa",
+                "CellPhone"
+            ]
+        },
+        "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190907_194445_206988/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1WJU1IQ3UTRC6_37M28K1J0TUSMMRG2FDMQ2OYMVMJA5",
+                    "high_descs":[
+                        "Walk forward to the carpet, turn right and walk to the dresser and face it.",
+                        "Pick up the phone that is on the left.",
+                        "Turn around and walk to the sofa.",
+                        "Put the phone on the sofa.",
+                        "Turn around and walk back to the dresser.",
+                        "Pick up the second phone from the dresser.",
+                        "Turn around and walk to the sofa.",
+                        "Put the phone on the sofa."
+                    ],
+                    "task_desc":"Take both phones from the dresser and set them on the sofa.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CellPhone"
+            ]
+        },
+        "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2XSGALF8O9ISQ_3TMSXRD2X9HIYIEFDV384RP3K791WY",
+                    "high_descs":[
+                        "Turn to the left and walk down the hallway, turn to the right and walk into the living room, now turn right and face the black table",
+                        "Pick up the newspaper that is on the table",
+                        "Walk to the end of the table near the wall",
+                        "Open the top drawer on the second row from the wall and place the paper in it, now close the drawer",
+                        "Turn and look toward the door, then go back to the table and look at the other newspaper",
+                        "Pick up the newspaper on the table",
+                        "Turn around and look around the room, turn back to the table",
+                        "Open the top drawer in the second row from the wall and place the paper on top of the other paper, now close the drawer"
+                    ],
+                    "task_desc":"Gather up the newspapers in the living room and place them in a drawer",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Newspaper",
+                "Dresser",
+                "Drawer"
+            ]
+        },
+        "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_33LKR6A5KHBYRQWJEYNEIT26AADT1D",
+                    "high_descs":[
+                        "Turn ahead and walk towards the fireplace, then walk left to the cabinet with the newspaper on it.",
+                        "Pick up the newspaper on the cabinet.",
+                        "Turn around and walk ahead, then veer right to the couch.",
+                        "Place the newspaper on the couch, to the left of the leftmost laptop."
+                    ],
+                    "task_desc":"Place a newspaper on a couch.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2TBXASXZIRNNW_37M28K1J0T407BDEYN23RO80G1AAJT",
+                    "high_descs":[
+                        "Walk over to the black box with a newspaper on it.",
+                        "Grab the newspaper.",
+                        "Walk over to the couch.",
+                        "Place the newspaper next to the left laptop."
+                    ],
+                    "task_desc":"Place the newspaper next to the left laptop.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A31681CCEVDIH3_386PBUZZXIOH3U4IVERT02OBAESJL5",
+                    "high_descs":[
+                        "Turn around to walk across the room to the small black dresser on the right out of three.",
+                        "Pick up the newspaper from the dresser.",
+                        "Turn around to walk across the room to reach the black couch in the far corner.",
+                        "Set the newspaper down on the black couch."
+                    ],
+                    "task_desc":"Move a newspaper from a dresser to a black couch.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Newspaper",
+                "Laptop"
+            ]
+        },
+        "tests_seen/trial_T20190909_033231_419824/traj_data.json":{
+            "tasks":[
+                {
+                    "high_descs":[
+                        "Walk forward and turn left before you reach the chairs, then walk to the small black dresser to the right of the empty box on the floor.",
+                        "Pick up the key chain from the dresser.",
+                        "Turn right and walk forward to the tall lamp in the corner.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Examine a key chain by the light of a floor lamp."
+                },
+                {
+                    "high_descs":[
+                        "Move forward and turn left to locate the small black table on the floor.",
+                        "Pick up the keys from the top of the table.",
+                        "Hold the keys and take a few steps to the right, to the lamp in the corner.",
+                        "Hold the keys and turn on the lamp."
+                    ],
+                    "task_desc":"Pick up keys and turn on the lamp."
+                },
+                {
+                    "high_descs":[
+                        "Move straight back then turn left to face the black night stand",
+                        "Pick up the keys on top of the black night stand",
+                        "Turn and move to the large floor lamp in the corner of the room by the window",
+                        "Turn on the lamp"
+                    ],
+                    "task_desc":"Carry keys while turning on a lamp"
+                }
+            ],
+            "relative_objects":[
+                "KeyChain"
+            ]
+        },
+        "tests_seen/trial_T20190907_144205_767755/traj_data.json":{
+            "tasks":[
+                {
+                    "high_descs":[
+                        "Walk to the chair on the right of the fire place that has a laptop on it.",
+                        "Pick up the cell phone that is behind the laptop on the chair.",
+                        "Turn around and walk to the floor lamp in the right corner of the other room.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Examine a cell phone by the light of a floor lamp."
+                },
+                {
+                    "high_descs":[
+                        "Walk forward to the middle of the room and then turn right and walk to the wall, then turn left and walk to the chair. ",
+                        "Pick up the cell phone from behind the laptop. ",
+                        "Turn left and walk across the room, then turn right and walk to the lamp in the corner. ",
+                        "Turn on the lamp. "
+                    ],
+                    "task_desc":"To use the lamp to see the cell phone. "
+                },
+                {
+                    "high_descs":[
+                        "Go ahead towards the fireplace, and locate the small chair.",
+                        "Pick up the cell phone from the chair.",
+                        "Take the phone, turn around and go to the right across the room. Find the big windows and the lamp in the corner.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Turning on a lamp."
+                }
+            ],
+            "relative_objects":[
+                "CellPhone",
+                "FloorLamp"
+            ]
+        }
+    }
+}

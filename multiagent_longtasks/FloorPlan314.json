@@ -1,0 +1,1196 @@
+{
+    "scene_name":"FloorPlan314",
+    "trials":{
+        "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3IX2EGZR7EAS6SZV0YOPMEXAGU7JRX",
+                    "high_descs":[
+                        "Turn left and face the green dresser with the clock on it.",
+                        "Pick the clock up from the dresser.",
+                        "Turn around and face the desk.",
+                        "Put the clock on the desk."
+                    ],
+                    "task_desc":"Put a clock on a desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_3QY7M81QHADDZTLY95QVIC6NU7G7KO",
+                    "high_descs":[
+                        "Move forward to the window, turn left, go to the green table with the clock on it. ",
+                        "Pick up the clock on the table. ",
+                        "Turn around, bring the clock to the desk.",
+                        "Put the clock on the desk."
+                    ],
+                    "task_desc":"Put a clock on the desk. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2KAGFQU28JY43_3TR2532VISLZK91B8ALRBJ6EK7WJ62",
+                    "high_descs":[
+                        "Walk to the heat register and then turn to your left and go to the dresser across from you. ",
+                        "Pick up the alarm clock on the back, right corner of the dresser. ",
+                        "Turn around and go to the desk across the room. ",
+                        "Place the alarm clock on the desk, right in front of the desk chair. "
+                    ],
+                    "task_desc":"Put the alarm clock on the desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "AlarmClock",
+                "Desk"
+            ]
+        },
+        "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185938_027368/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3MLUEOP3CCLXL_34J10VATJIPWZG0P51EP5N857SJIQK",
+                    "high_descs":[
+                        "Walk forward and turn left to face the green night stand",
+                        "Pick up the clock that is sitting on the night stand",
+                        "Turn around and go to the desk in front of you",
+                        "Place the clock on the desk, on top of the pencil. "
+                    ],
+                    "task_desc":"Place a clock on a desk",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3NGI5ARFTWW0ZY3CXHEUDJ19LVQ1PQ",
+                    "high_descs":[
+                        "Go forward and turn to the left to face the dresser with a clock on it.",
+                        "Pick the clock up from the dresser.",
+                        "Turn around and cross the room to stand in front of the desk.",
+                        "Put the clock down on the desk."
+                    ],
+                    "task_desc":"Put a clock on a desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A98E8M4QLI9RS_3OE22WJIGLF187VPZI33OQWG1N1QUV",
+                    "high_descs":[
+                        "move forward across the room, stopping at the dresser on the left, turn left to face the dresser",
+                        "pick up the clock that is on the right back corner of the dresser",
+                        "turn around and move forward to the desk",
+                        "put the clock on to the desk in front of the chair"
+                    ],
+                    "task_desc":"put the clock on to the desk",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "AlarmClock",
+                "Desk"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2KAGFQU28JY43_3ERMJ6L4D1904SZ3Y9EUW3EPPSG7MX",
+                    "high_descs":[
+                        "Turn to your right and walk to the cardboard box on the floor, in front of the dresser. ",
+                        "Pick up the cardboard box from the floor. ",
+                        "Turn to your right and go towards the window, then make a right and go straight to the desk.",
+                        "Place the cardboard box on the desk between the credit card and the keys. ",
+                        "Move over to the far left end of the desk. ",
+                        "Pick up the credit card on the desk, closest to you. ",
+                        "Move over to your right so that you are in front of the cardboard box. ",
+                        "Place the credit card in the cardboard box and shut the top. "
+                    ],
+                    "task_desc":"Close a cardboard box containing a credit card. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1ZE52NWZPN85P_3QUO65DNQX5Q26WBOXMIYZHES2FOUG",
+                    "high_descs":[
+                        "Turn to your right and then turn left to face the box",
+                        "Pick up the box from off of the floor",
+                        "Turn to your right twice so that you are facing the desk",
+                        "Set the box down on top of the desk",
+                        "Take a step to your left",
+                        "Pick up a credit card from the desk",
+                        "Take a step to your right",
+                        "Put the credit card in the box and close it"
+                    ],
+                    "task_desc":"Put a credit card in a box and close it",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A36DK84J5YJ942_3WS1NTTKE1TGG772RNP8MYKTKCHF0F",
+                    "high_descs":[
+                        "move to the dresser to the right of you",
+                        "pick up a box from the ground",
+                        "move to the desk at the foot of the bed",
+                        "put the box on the desk",
+                        "move to the left side of the desk",
+                        "pick up a card from the desk",
+                        "move to the right side of the desk",
+                        "put the card in the box and close it"
+                    ],
+                    "task_desc":"Put a closed box on the desk with a card inside.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box",
+                "CreditCard"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230441_606276/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_33PPUNGG3BMALII1MC2U9M1Y565RZ6",
+                    "high_descs":[
+                        "Turn left and walk towards the door, then hang a right and walk up to the cardboard box on the ground.",
+                        "Pick up the cardboard box off of the ground.",
+                        "Turn right and walk over to the wall, then turn right and walk up to the desk.",
+                        "Put the cardboard box on the desk.",
+                        "Turn around and take a step forward, then turn left and begin walking across the room, hang a left and walk up to the wooden desk.",
+                        "Pick up the leftmost credit card off of the wooden desk.",
+                        "Turn around and walk forward, then turn right and walk over to the wall, turn right again and walk up to the wooden desk.",
+                        "Put the credit card into the cardboard box that is on the wooden desk."
+                    ],
+                    "task_desc":"Close the cardboard box on the wooden desk with a credit card in it.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2ALWT2BUSXD83_3634BBTX0RBRN2OIVDEES2KP66IFIU",
+                    "high_descs":[
+                        "Walk forwards towards the box on the ground.",
+                        "Pick up the box on the ground. ",
+                        "Turn around and walk to the desk.",
+                        "Place the box on the desk.",
+                        "Turn to your right and take a step.",
+                        "grab the credit card on the desk.",
+                        "Take a step backwards.",
+                        "Place the credit card in the box on the desk."
+                    ],
+                    "task_desc":"Place a box with a credit card in it on the desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A36DK84J5YJ942_3ITXP059PZ0WMIDAJFZDB2I48BWJSO",
+                    "high_descs":[
+                        "move to the left of the dresser ahead of you",
+                        "pick up a box from the ground",
+                        "move to the dresser at the foot of the bed",
+                        "put the box on the dresser",
+                        "move to the right of the dresser at the foot of the bed",
+                        "pick up a card from the desk",
+                        "move to the dresser at the foot of the bed",
+                        "put the card in the box on the dresser"
+                    ],
+                    "task_desc":"Put a card in a box on a dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box",
+                "CreditCard"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230535_660589/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_32Z9ZLUT1O1LXKQROYFJFKSOYSFHO6",
+                    "high_descs":[
+                        "Turn right and walk ahead, veering left to the left side of the desk.",
+                        "Pick up the box on the ground.",
+                        "Turn around and veer left to the desk.",
+                        "Place the box on the desk to the right of the gray and red objects.",
+                        "Take a step right.",
+                        "Pick up the blue credit card on the desk.",
+                        "Take a step to the left.",
+                        "Place the credit card in the box on the desk."
+                    ],
+                    "task_desc":"Place a box with a credit card in it on a desk.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3JZLYQ606HJJR_3WMOAN2SREE8X0LZS8WAFWJSGYAVNM",
+                    "high_descs":[
+                        "Move across room to the small gray filing cabinet. ",
+                        "Pick up the box that is on the floor on the left side of the cabinet. ",
+                        "Turn around and move to the brown desk that is across the room. ",
+                        "Place the empty box on the desk. ",
+                        "Turn to the right and move to the right hand side of the desk. ",
+                        "Pick up the blue credit card off of the desk. ",
+                        "Move to the left side of the desk. ",
+                        "Place the credit card inside the box. Close the box top. "
+                    ],
+                    "task_desc":"Move an empty box to the desk to place a credit card in the box to secure the lid. ",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A27AK750Y9M9KH_3J2UYBXQQOTKXEERQUM4SS7GRC060N",
+                    "high_descs":[
+                        "Go straight and head towards the cardboard box on the floor and in front of the wall to the right. ",
+                        "Pick up the cardboard box from the floor. ",
+                        "Turn right and head towards the desk on the right with a chair underneath it. ",
+                        "Place the cardboard box on the desk.",
+                        "Turn around to face the right side of the desk, to the right of the chair. ",
+                        "Pick up the credit card that is on top of the desk. ",
+                        "Turn around to face the left side of the desk again, in front of the chair. ",
+                        "Place the credit card inside the cardboard box and close the box."
+                    ],
+                    "task_desc":"Fetch a cardboard box and place a credit card in it. ",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box",
+                "CreditCard"
+            ]
+        },
+        "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052251_363374/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AISNLDPD2DFEG_333U7HK6ICWQKTUSMP4OG3W47F4JDQ",
+                    "high_descs":[
+                        "Turn around, go forward, turn right and go to the desk",
+                        "Pick up the ball on the floor beside the desk",
+                        "Turn around, go forward, turn left, go forward, turn left in front of the bed",
+                        "Put the ball on the bed"
+                    ],
+                    "task_desc":"Bring the ball to the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A255A9FFZD8PQW_3EQHHY4HQV9LPEPYZD12LEGW26M5GX",
+                    "high_descs":[
+                        "Turn around completely and walk forward. Turn to the right and walk to the dresser.",
+                        "Open the drawer and take out a basketball.",
+                        "Turn around and walk forward then turn left and walk to the bed. Turn left again to face the bed.",
+                        "Place the basketball on the bed between the pillow and computer. "
+                    ],
+                    "task_desc":"Move a basketball to the bed. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_3HYA4D452U0NCHAG6ATM5MD8HHX2FW",
+                    "high_descs":[
+                        "Turn around, move to the desk next to the bed on the right.",
+                        "Pick up the basketball on the floor. ",
+                        "Turn around, bring the basketball to the side of the bed.",
+                        "Put the basketball on the bed, left of the computer. "
+                    ],
+                    "task_desc":"Put a basketball on the bed. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Bed",
+                "BasketBall"
+            ]
+        },
+        "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_3JZQSN0I3TRDRBIN5PEB7Q79R0SFGI",
+                    "high_descs":[
+                        "Walk over to the right side of the wooden desk.",
+                        "Pick up the basketball that is on the ground to the right of the wooden desk.",
+                        "Turn around and walk across the room, then hang a left and walk up to the side of the bed.",
+                        "Put the basketball on the bed."
+                    ],
+                    "task_desc":"Move a basketball to the bed.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3U84XHCDIFU3KCG3B06H1TQODZ0Z4O",
+                    "high_descs":[
+                        "Move to the back right of the room facing the floor between the bed and desk",
+                        "Pick up the basketball on the floor",
+                        "Carry the basketball to the blue bed",
+                        "Place the basketball in front of the purple pillow closest to the laptop"
+                    ],
+                    "task_desc":"Move a basketball to the bed",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3JC6VJ2SAE0KFNCVDD9SPS5T4AR5A1",
+                    "high_descs":[
+                        "Go forward and then right to face the dresser to the left of the bed.",
+                        "Pick the basketball up from the floor in between the dresser and the bed.",
+                        "Turn around and face the right side of the bed.",
+                        "Put the basketball on the bed."
+                    ],
+                    "task_desc":"Put a basketball away.",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Bed",
+                "BasketBall"
+            ]
+        },
+        "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2CT57W84KXX25_30IQTZXKANNXGTYNRHVUS5K0O1UX09",
+                    "high_descs":[
+                        "Go to the grey dresser. ",
+                        "Pick up the pencil to the right on top of the dresser. ",
+                        "Walk over to the desk.",
+                        "Put the pencil on the disk in front of the chair. ",
+                        "Go back to the grey dresser.",
+                        "Pick up the pencil off of the dresser.",
+                        "Go back to the desk.",
+                        "Set the pencil on the desk to the left of the disk."
+                    ],
+                    "task_desc":"Put both pencils on the desk. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3UF6XXFFRR237_382M9COHEKW4QFJMUJJMTNN0OPPEUW",
+                    "high_descs":[
+                        "Turn left and walk across the room, turn left again and face the filing cabinet.",
+                        "Pick up the pencil on the right side of the cabinet.",
+                        "Turn around, cross the room and stand behind the red office chair.",
+                        "Put the pencil on top of the CD on the desk closest to the chair.",
+                        "Turn around and walk back to the filing cabinet.",
+                        "Pick up the remaining pencil from the top of the cabinet.",
+                        "Turn around and walk back to the desk, standing behind the red chair.",
+                        "Place the pencil on the desk to the left of the CD with the first pencil on it"
+                    ],
+                    "task_desc":"Move the pencil to the desk across the room.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Pencil"
+            ]
+        },
+        "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_045011_990789/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1S1K7134S2VUC_3OJSZ2ATDVD2WLEX6AX8F1333GZ75I",
+                    "high_descs":[
+                        "Move to the low file cabinet.",
+                        "Pick up the pencil, that is nearest the book, from the file cabinet.",
+                        "Turn right, move to the desk near the chair.",
+                        "Place the pencil on the desk, to the left of the CD.",
+                        "Turn left and move to the low file cabinet.",
+                        "Pick up the pencil on the low file cabinet.",
+                        "Turn right, move to the desk near the chair.",
+                        "Place the pencil on the desk left of the first pencil."
+                    ],
+                    "task_desc":"Place the pencils on the low file cabinet onto the desk.",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1O3TWBUDONVLO_36U2A8VAG4GOTOV106REU36I4A6KYU",
+                    "high_descs":[
+                        "Take two steps and turn left and walk forward to face a cabinet.",
+                        "Pick up the top pencil on the table.",
+                        "Turn to the right, walk across the room, turn to the right, walk across the room to face the table.",
+                        "Place the pencil on the table.",
+                        "Turn to the right, take a step, turn to the right walk across the room to face a cabinet.",
+                        "Pick up the pencil laying on the cabinet.",
+                        "Turn to the right, walk across the room, turn to the right, walk across the room to face the table.",
+                        "Place the pencil on the table."
+                    ],
+                    "task_desc":"To move 2 pencils one at a time from a cabinet to a table.",
+                    "votes":[
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Pencil",
+                "Pen"
+            ]
+        },
+        "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2DN53DIE3049T_338JKRMM29Q4G5IOANZIFBSL3A2HAT",
+                    "high_descs":[
+                        "Turn to the left, walk to the book The Human Error on the desk",
+                        "Pick up the book from the shelf",
+                        "Turn to the left, walk to the bed",
+                        "Place the book on the bed",
+                        "Walk back to the book shelf",
+                        "Pick up the second copy of the book from the shelf",
+                        "Turn to the left, walk back to the bed",
+                        "Place the book on the bed next to the other one"
+                    ],
+                    "task_desc":"Place books on the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Book"
+            ]
+        },
+        "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A30M9SZYJKFDS9_3R2UR8A0ID7Q4ZC4PAMMJS0KGI4OX9",
+                    "high_descs":[
+                        "turn to the left go forward",
+                        "pick up the book that is on the desk",
+                        "turn around to the left go left go forward turn to the left towards the bed",
+                        "put the book on top of the bed",
+                        "turn to the left go right ",
+                        "pick up the book that is on the desk",
+                        "turn to the right go right turn to the left go left",
+                        "put the book on the bed"
+                    ],
+                    "task_desc":"put 2 books on top of the bed",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Book"
+            ]
+        },
+        "train/look_at_obj_in_light-BasketBall-None-DeskLamp-314/trial_T20190907_142455_846808/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_3137ONMDKJMLLXIRAEU5P8M9FBNGEZ",
+                    "high_descs":[
+                        "turn around to the night stand",
+                        "grab the basketball on the floor",
+                        "turn up to the top of the night stand ",
+                        "turn on the lamp on the night stand"
+                    ],
+                    "task_desc":"grab the basketball on the floor, turn on the lamp",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3NKQQ8O391MZY95MYO82N55FO47UDK",
+                    "high_descs":[
+                        "Turn around and stand in front of the dresser next to the bed.",
+                        "Pick up the basketball from the floor.",
+                        "Look up at the lamp on the dresser.",
+                        "Turn on the light on the left side of the dresser."
+                    ],
+                    "task_desc":"Turn on a light with a ball in hand.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3F51C49T9A34D_3RYC5T2D76AG7EGVZ34SIOZKVPLPR6",
+                    "high_descs":[
+                        "turn to the right and take a step forward and turn to the right and go forward to the basketball",
+                        "look down to the basketball and pick up the basket ball",
+                        "turn on the lamp on the desk",
+                        "look at the basketball"
+                    ],
+                    "task_desc":"Turn on the light to examine the basketball",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CellPhone",
+                "Pencil",
+                "Pen",
+                "BasketBall"
+            ]
+        },
+        "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213211_644003/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3E4GGUZ1TB8YS32U7LKJLZ5DPV52KP",
+                    "high_descs":[
+                        "Move towards the wooden dresser on the side closest to the bed",
+                        "Pick up the basketball on the floor between the bed and the dresser",
+                        "Carry the basketball to the green side table",
+                        "Place the basketball on top of the green table between the red item and the keys"
+                    ],
+                    "task_desc":"Move a basketball from the floor to a table",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A272X64FOZFYLB_3NLZY2D53S6Q4SMXUWMLWHGVU00QL4",
+                    "high_descs":[
+                        "Turn around and walk to the basketball on the floor by the bed.",
+                        "Pick up the basketball from the floor.",
+                        "Turn around and walk to the green dresser by the wall.",
+                        "Put the basketball on the dresser, to the right of the keys."
+                    ],
+                    "task_desc":"Move a basketball from the floor to a dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3QIYRE09Y6YSBO51LUCL88CCRKP1N5",
+                    "high_descs":[
+                        "Turn around and go to the right to face the desk.",
+                        "Pick the basketball up from the floor to the right of the desk.",
+                        "Turn around and face the green dresser.",
+                        "Put the basketball down on the dresser."
+                    ],
+                    "task_desc":"Put a basketball on a dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "BasketBall"
+            ]
+        },
+        "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213239_957946/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3483FV8BEH0RTOH55HQIBG0VO2M62T",
+                    "high_descs":[
+                        "Move across the room between the bed and the night stand",
+                        "Pick up the basketball on the floor to the left of the bed",
+                        "Carry the basketball to the green table",
+                        "Place the basketball on top of the green table"
+                    ],
+                    "task_desc":"Move the basketball to the green table",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2KAGFQU28JY43_3G2UL9A02GVYFPEBBT7D77H3ZIN76P",
+                    "high_descs":[
+                        "Turn around and walk to the desk by the bed. ",
+                        "Pick up the basketball on the floor, between the bed and the desk. ",
+                        "Turn around and walk to the green dresser against the wall. ",
+                        "Place the basketball on top of the green dresser. "
+                    ],
+                    "task_desc":"Put a basketball on the green dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3R19ZA45J8915_3GM6G9ZBKQEN2QWABCHV1Z67EF2MTZ",
+                    "high_descs":[
+                        "Turn to your right, move forward, and walk over to the desk that is to the right of you. ",
+                        "Pick up the basketball that is on the floor between the desk and the bed. ",
+                        "Turn around and walk over to the green dresser in front of you. ",
+                        "Place the basketball on top of the green dresser. "
+                    ],
+                    "task_desc":"Move a basketball to the top of the dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "BasketBall"
+            ]
+        },
+        "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-314/trial_T20190908_042438_590230/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3HL8HNGX48IYC1VFRJ81F9LMNFD9FL",
+                    "high_descs":[
+                        "Move to the wooden desk to the left of the large bedroom window",
+                        "Pick up the clock on top of the left side of the desk",
+                        "Carry the clock over to the opposite end of the desk where the desk lamp is",
+                        "Turn on the desk lamp"
+                    ],
+                    "task_desc":"Carry a clock while turning on a lamp",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A13OOAT2ORKH6V_3KV0LJBBH52AMBJI7NC01K5PQ2OMRL",
+                    "high_descs":[
+                        "Look down, turn right, walk straight to the window, turn right when you reach the window and walk straight to the desk and look up.",
+                        "Pick up the clock on the desk.",
+                        "Look down, turn right, walk straight to the bed, turn right to face the cabinet, walk straight, turn left to face the bed, walk straight, when you reach the bed turn left.",
+                        "Look up and turn the lamp on the desk on."
+                    ],
+                    "task_desc":"With a clock in hand turn the lamp on.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3UF6XXFFRR237_3U84XHCDIFU3KCG3B06H1TQODSF4ZU",
+                    "high_descs":[
+                        "go the left side of the desk",
+                        "pick up the stamp",
+                        "go the right side of the desk",
+                        "turn on the lamp on the desk"
+                    ],
+                    "task_desc":"get a stamp and turn on a lamp",
+                    "votes":[
+                        1,
+                        1,
+                        0
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Pencil",
+                "AlarmClock",
+                "Pen"
+            ]
+        },
+        "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000909_944053/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3F51C49T9A34D_36TFCYNS47R8RT4JPP2FYXJHAWKXHR",
+                    "high_descs":[
+                        "turn to the right twice and take a step and turn to the left go to the box on the floor",
+                        "pick up the box from the floor",
+                        "turn to the right and go to the wall and turn to the right and go to the desk",
+                        "put the box on the desk right of the other stuff"
+                    ],
+                    "task_desc":"Place a box on a desk",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2BLQ1GVEHJR8T_39PAAFCODPH6SDQJP4IMOVPK5F3VTS",
+                    "high_descs":[
+                        "Face right and go to the cardboard box against the wall in front of you.",
+                        "Pick up the box.",
+                        "Turn right and go to the window, then right again and to to the desk.",
+                        "Put the box on the right side of the desktop."
+                    ],
+                    "task_desc":"Move an empty cardboard box to a desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_3PM8NZGV81XL4M3M8FP97BBI1J8QX8",
+                    "high_descs":[
+                        "Turn around, move to face the box on the floor to the left.",
+                        "Pick up the box on the floor. ",
+                        "Turn around, bring the box to the desk. ",
+                        "Put the box on the right side of the desk. "
+                    ],
+                    "task_desc":"Put a box on a desk. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box",
+                "Desk"
+            ]
+        },
+        "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000932_597189/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A20FCMWP43CVIU_352YTHGROYUHTRG95E0A1MMJH1DH4U",
+                    "high_descs":[
+                        "turn left, walk through room, turn right to face box on floor to the left of the dresser drawers",
+                        "pick up the box from the floor",
+                        "turn around, walk to face the desk",
+                        "put the box on the desk on the left side"
+                    ],
+                    "task_desc":"put a box on a desk",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_3FTOP5WARI5WL9TYADGT1WCLDH2J0M",
+                    "high_descs":[
+                        "Walk ahead and veer left to the opposite side of the dresser.",
+                        "Pick up the box on the floor.",
+                        "Turn around and veer left to the desk.",
+                        "Place the box on the left side of the desk near the back side."
+                    ],
+                    "task_desc":"Place a box on a desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AJQGWGESKQT4Y_3FTOP5WARI5WL9TYADGT1WCLDH30J4",
+                    "high_descs":[
+                        "Go left and then right to face the box on the floor next to the dresser.",
+                        "Pick the box up from the floor.",
+                        "Go right and then right again to face the desk and chair.",
+                        "Put the box down on the desk."
+                    ],
+                    "task_desc":"Put a box on a desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box",
+                "Desk"
+            ]
+        },
+        "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000943_623511/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1O3TWBUDONVLO_3JZQSN0I3TRDRBIN5PEB7Q79RS2GFD",
+                    "high_descs":[
+                        "Turn right to face the empty box on the floor.",
+                        "Pick up the empty box on the floor.",
+                        "Turn around and walk across the room to face the desk.",
+                        "Place the empty box on the back right corner of the desk."
+                    ],
+                    "task_desc":"To move an empty box from the floor to a desk.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_3R3YRB5GRIK1022AEEH0X4X93K4UAE",
+                    "high_descs":[
+                        "Walk towards the door, then hang a right and walk up to cardboard box on the ground.",
+                        "Pick up the cardboard box off of the ground.",
+                        "Turn right and walk across the room, then hang a right and walk up to the wooden desk.",
+                        "Put the cardboard box on the desk behind the credit card."
+                    ],
+                    "task_desc":"Move a cardboard box to the wooden desk.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A13OOAT2ORKH6V_3XCC1ODXDOS17QHAZGJHITPU03LRQD",
+                    "high_descs":[
+                        "Look down, walk straight, turn right to face the box on the floor, walk straight to it and look down at the box.",
+                        "Pick up the box on the floor.",
+                        "Look up, turn right, walk straight to the window, turn right when you reach the window, walk straight to the desk and look down at the desk.",
+                        "Place the empty box on the desk."
+                    ],
+                    "task_desc":"Place an empty box on the desk.",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Box",
+                "Desk"
+            ]
+        },
+        "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3C81THYYSBGVD_3QAVNHZ3EPV6211E18EG73LSKFQALK",
+                    "high_descs":[
+                        "Turn right and face the box in front of you.",
+                        "Take the phone off the table in front of you.",
+                        "Turn left then face the bed to your left.",
+                        "Place the phone on the bed in front of you.",
+                        "Turn left and face the table to your left.",
+                        "Take the phone from the table in front of you.",
+                        " Turn left and face the bed to your left.",
+                        "Place the phone on the bed in front of you."
+                    ],
+                    "task_desc":"Place phone on bed.",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CellPhone"
+            ]
+        },
+        "train/pick_and_place_simple-Book-None-Desk-314/trial_T20190911_015042_291676/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2A4UAFZ5LW71K_3G0WWMR1UYBODHBG2HRHAV4MTOONQA",
+                    "high_descs":[
+                        "take a step forward, turn left, walk forward, turn left to face bed",
+                        "pick up the book that is on the bed",
+                        "turn left, walk across room, turn right to face desk",
+                        "put the book on the desk"
+                    ],
+                    "task_desc":"move a book from the bed to the desk",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2871R3LEPWMMK_3I33IC7ZWIT01FF6R2WBS7MJEB82AO",
+                    "high_descs":[
+                        "Turn left and hang a left at the door to reach the bed.",
+                        "Pick up the book on the bed in between the pillow and the cell phone.",
+                        "Turn left, cross the room and turn right at the window to face the wooden desk.",
+                        "Put the book on the wooden desk in front of the red clock."
+                    ],
+                    "task_desc":"Place a book on a desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_3LS2AMNW5IH6V2BS3WRUPK4RJYMOQJ",
+                    "high_descs":[
+                        "Walk forward, then turn left and walk towards the door, turn left again to face the bed.",
+                        "Pick up the book off of the bed.",
+                        "Walk over to the wooden desk in the corner of the room to your left.",
+                        "Put the book on the wooden desk."
+                    ],
+                    "task_desc":"Move a book to a wooden desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Desk",
+                "Bed",
+                "Book"
+            ]
+        },
+        "train/pick_and_place_simple-Book-None-Desk-314/trial_T20190908_111952_629798/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2KAGFQU28JY43_3K4J6M3CXHKQG9NDQHH0UBGKOTHAGH",
+                    "high_descs":[
+                        "Turn to your right and go to the head of the bed. ",
+                        "Pick up the book on the front, right corner of the bed.",
+                        "Turn to your left and go to the end of the room then turn to your right and go to the desk in front of you. ",
+                        "Place the book on the desk, in front of the office chair."
+                    ],
+                    "task_desc":"Place a book on the desk.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3R19ZA45J8915_3KAKFY4PGXT4SFUN7Q2TSFFUXWP3IE",
+                    "high_descs":[
+                        "Turn around, walk to the door, then turn left to face the bed. ",
+                        "Pick up the book that is on the side of the bed. ",
+                        "Turn left, walk to the window, then turn right to face the desk.",
+                        "Place the book down on the desk, to the left of the laptop."
+                    ],
+                    "task_desc":"Move a book to the desk.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2A4UAFZ5LW71K_33IZTU6J84S52R4XWR3V3XALDPIXSQ",
+                    "high_descs":[
+                        "turn right, turn right, take a step, turn left to face the bed",
+                        "pick up the book that is on the bed",
+                        "turn left, walk across the room, turn right, walk to the desk",
+                        "put the book on the desk "
+                    ],
+                    "task_desc":"move book from bed to desk",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Bed",
+                "Desk",
+                "Book"
+            ]
+        },
+        "valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3MLUEOP3CCLXL_3M68NM076KO8X8YQK75JCO830N46RW",
+                    "high_descs":[
+                        "Turn right and walk to the green stand then take a left and walk to the trash can that is on the right in the corner of the room",
+                        "Pick up the CD that is in the trash can",
+                        "Turn around and cross the room the green stand then turn right and head to the desk.",
+                        "Turn on the lamp that is sitting on the desk"
+                    ],
+                    "task_desc":"Examine a CD by a lamp",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_3VZLGYJEYORUIE4DVB8MY4NM68XZXN",
+                    "high_descs":[
+                        "Turn right and begin walking across the room, then hang a left and walk over to the small bin below the mirror to the right of the door.",
+                        "Pick up the disc that is in the small bin in the corner of the room.",
+                        "Turn right and walk towards the bed, then hang a left and walk over to the lamp on the wooden desk.",
+                        "Turn on the lamp on the wooden desk."
+                    ],
+                    "task_desc":"Examine a disc in the light of a lamp.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2A4UAFZ5LW71K_39GHHAVOMI8DKXBZTE3VDZ2YULB4J0",
+                    "high_descs":[
+                        "turn right, walk across room towards dresser, turn left, walk across room, turn right, turn left, go to the mirror",
+                        "pick up the CD that is in the trash below the mirror",
+                        "turn around, walk across the room, turn right, walk across the room to the dresser",
+                        "turn the lamp on"
+                    ],
+                    "task_desc":"examine a CD with a lamp",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1MKCTVKE7J0ZP_3GD6L00D3VEMT6K19TXLVTNCMVD1M5",
+                    "high_descs":[
+                        "Turn around, go straight, then turn left to go toward the door.",
+                        "Take the CD from the trash can, under the mirror.",
+                        "Turn around, then turn right to go to the desk with the lamp.",
+                        "Turn on the lamp."
+                    ],
+                    "task_desc":"Examine a CD in the light.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_3ZAZR5XV04Z6FGTI4FCZKR2C5VEZC0",
+                    "high_descs":[
+                        "Move to the trash bin against the wall underneath the mirror",
+                        "Pick up the CD that is sitting in the trash bin",
+                        "Carry the CD to the right side of the wood desk where the desk lamp is sitting",
+                        "Turn on the desk lamp"
+                    ],
+                    "task_desc":"Carry a CD while turning on a desk lamp",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_3LBXNTKX0UCFCNM0RDENLGLTR5O9XX",
+                    "high_descs":[
+                        "turn right, turn left, walk to the corner with a trash bin",
+                        "grab the disc from the trash bin",
+                        "turn around, walk to the dresser",
+                        "turn on the lamp on the dresser"
+                    ],
+                    "task_desc":"grab the disc from the trash bin, turn on the lamp on the dresser",
+                    "votes":[
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Pencil",
+                "CD",
+                "CreditCard",
+                "Pen"
+            ]
+        },
+        "tests_seen/trial_T20190908_185956_956216/traj_data.json":{
+            "tasks":[
+                {
+                    "high_descs":[
+                        "Turn around and go forward toward the wall, then turn left to face the green dresser.",
+                        "Pick up the alarm clock on top of the green dresser.",
+                        "Turn around and go forward to the desk.",
+                        "Put the alarm clock on the desk."
+                    ],
+                    "task_desc":"Move the alarm clock to the desk."
+                },
+                {
+                    "high_descs":[
+                        "turn around, walk across the room, turn left, walk to the dresser",
+                        "pick up the clock that is on the dresser",
+                        "turn around, walk to the desk",
+                        "put the clock on the desk"
+                    ],
+                    "task_desc":"move the clock from the dresser to the desk"
+                },
+                {
+                    "high_descs":[
+                        "Turn around, move to face the shelf on the left.",
+                        "Pick up the clock on the shelf. ",
+                        "Turn around, bring the clock over to the desk in the corner.",
+                        "Put the clock on the desk, right of the book."
+                    ],
+                    "task_desc":"Move a clock to the desk. "
+                }
+            ],
+            "relative_objects":[
+                "AlarmClock",
+                "Desk"
+            ]
+        },
+        "tests_seen/trial_T20190908_052238_998113/traj_data.json":{
+            "tasks":[
+                {
+                    "high_descs":[
+                        "Turn to your right and go to the small, open area between the desk and the bed. ",
+                        "Pick up the basketball on the floor, between the desk and the bed. ",
+                        "Move over to the bed to the right of you. ",
+                        "Place the basketball on the bed."
+                    ],
+                    "task_desc":"Put a basketball on the bed. "
+                },
+                {
+                    "high_descs":[
+                        "Move to the left of the bed by the floor where the basketball is",
+                        "Pick up the basketball on the floor",
+                        "Carry the basketball to the side of the bed where the pillow is",
+                        "Place the basketball to the right of the purple pillow"
+                    ],
+                    "task_desc":"Move a basketball to the bed"
+                },
+                {
+                    "high_descs":[
+                        "Turn right and head to the desk",
+                        "Pick up the basketball that is to the right of the desk",
+                        "Turn around and cross the room, hang left and more forward then take a right once you have passed half the bed. ",
+                        "Place the basketball on the bed to the right of the purple pillow"
+                    ],
+                    "task_desc":"Place a basketball on a bed"
+                }
+            ],
+            "relative_objects":[
+                "Bed",
+                "BasketBall"
+            ]
+        }
+    }
+}

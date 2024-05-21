@@ -1,0 +1,704 @@
+{
+    "scene_name":"FloorPlan301",
+    "trials":{
+        "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011401_611613/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3C81THYYSBGVD_3T3IWE1XG9EM8UG0ZDDTJUAEIB7QTL",
+                    "high_descs":[
+                        "Turn around, then right and face the desk to your right.",
+                        "Take the pencil off of the desk in front of you.",
+                        "Face the top shelf of the desk.",
+                        "Place the pencil on the top shelf of the desk in front of you.",
+                        "Turn around then left and face the desk with the lamp in front of you.",
+                        "Take the pencil from the desk in front of you.",
+                        "Turn around then face the desk on your right.",
+                        "Place the pencil on the top shelf of the desk in front of you."
+                    ],
+                    "task_desc":"Move pencil to the top shelf of the desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Pencil"
+            ]
+        },
+        "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3C81THYYSBGVD_3WYGZ5XF3Z6ZIR5QX8O6D32JHM8SKD",
+                    "high_descs":[
+                        "Turn right and face the desk on your left.",
+                        "Take the pencil from the desk in front of you.",
+                        "Look up at the shelves in front of you.",
+                        "Place the pencil on the top shelf in front of you.",
+                        "Turn right and face the dresser in front of you.",
+                        "Take the blue pencil off the dresser in front of you.",
+                        "Turn around and face the desk on your right.",
+                        "Place the pencil on the top shelf of the desk in front of you."
+                    ],
+                    "task_desc":"Move pencil to the top self of the desk.",
+                    "votes":[
+                        0,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Statue",
+                "Pencil",
+                "Desk"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190908_160414_444492/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_30OG32W0SX2ZGELBTQWHGEF8APLENI",
+                    "high_descs":[
+                        "Walk towards the purple wall, then turn right and walk over to the white desk.",
+                        "Pick up the black pen off of the white desk.",
+                        "Turn around and walk towards the black trash can, then turn left and walk over to the tall white dresser next to the bed.",
+                        "Put the pen in the grey bowl on the dresser.",
+                        "Pick up the grey bowl with the pen in it off of the dresser.",
+                        "Turn around and walk over to the far wall, then turn right to face the desk.",
+                        "Put the grey bowl with the pen in it on the desk to the right of the blue pencil."
+                    ],
+                    "task_desc":"Put a grey bowl with a black pen in it on the desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_36U2A8VAG4QWEDHZWEGVVPQKY6BKYO",
+                    "high_descs":[
+                        "Move forward to the box, turn right, go to the pen on the desk.",
+                        "Pick up the pen on the desk. ",
+                        "Turn right, bring the pen to the tall white dresser, left of the bed.",
+                        "Put the pen in the bowl on the dresser.",
+                        "Pick up the bowl with pen on the dresser. ",
+                        "Turn around, bring the bowl back to the desk on the right.",
+                        "Put the bowl with pen on the desk, left of the watch."
+                    ],
+                    "task_desc":"Put a bowl with a pen in it, on the desk. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A255A9FFZD8PQW_3ON104KXQNN7B6XWWLBR3BG8QCT4WR",
+                    "high_descs":[
+                        "Turn to the right and then move forward. Turn left then right again and face the desk. ",
+                        "Pick the pen from the desk. ",
+                        "Turn to the right and go forward to the dresser. ",
+                        "Place the pen in the bowl. ",
+                        "Pick up the pen and bowl from the shelf.",
+                        "Turn to the left and go forward. Turn to the right and face the desk.",
+                        "Place the bowl and pen on the desk. "
+                    ],
+                    "task_desc":"Move a bowl and pen on to a desk. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Bowl",
+                "Pen"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_172609_111077/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AFPMG8TLP1TND_3EFVCAY5L60MONKZ1PIPVX25Q3O8JH",
+                    "high_descs":[
+                        "walk straight towards the bed then turn right and walk straight towards the wall and turn right and walk to the desk",
+                        "pick up the pencil on the shelf of the desk",
+                        "turn around and then turn left and walk straight to the bed then turn left and walk to the window and turn right and walk straight to the dresser ",
+                        "put the pencil down inside the bowl on the dresser",
+                        "pick up the bowl and the pencil on the dresser together",
+                        "turn right and then turn right again and walk straight towards the wall and turn right towards the desk",
+                        "put the bowl and the pencil down onto the desk"
+                    ],
+                    "task_desc":"put a bowl and pencil together onto the desk",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3PPLDHC3CG0YN_3RANCT1ZVI8E41T0G06DT11HFP7UBY",
+                    "high_descs":[
+                        "Turn right, turn right to face the left side of the desk. ",
+                        "Pick up the pen from the second shelf. ",
+                        "Turn and walk to the tall dresser at the foot of the bed. ",
+                        "Put the pen in the bowl to the right of the lamp. ",
+                        "Pick up the bowl from the dresser. ",
+                        "Turn around and walk back to the desk. ",
+                        "Put the bowl down on the desk to the right of the mug. "
+                    ],
+                    "task_desc":"To put a pen in a bowl and put the bowl on the desk. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1G1OO4IWM8EP5_3XUHV3NRVNP7AZ67FR8170CZBKC5HY",
+                    "high_descs":[
+                        "Turn right and walk to the wall on the other side of the room.  Turn right at the wall and walk to the desk.",
+                        "Pick up the pen on the first upper shelf of the desk.",
+                        "Turn around, take a step and turn left.  Walk to the other side of the room to the dresser.",
+                        "Put the pen standing straight up on the bowl on the dresser.",
+                        "Pick up the bowl with the pen standing in it.",
+                        "Turn around and walk to the other side of the room to the desk.  Turn toward the desk.",
+                        "Put the bowl with the pen down on the desk."
+                    ],
+                    "task_desc":"Put a pen in a bowl sitting on a dresser and move it to a desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Bowl",
+                "Desk",
+                "Pencil",
+                "Pen"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_120324_851568/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_37U1UTWH9YD3MB3C9URYXOOW0JL8RA",
+                    "high_descs":[
+                        "Walk forward, turn right and walk over to the white desk.",
+                        "Pick up the pen off of the shelving unit behind the desk.",
+                        "Walk over to the white dresser at the end of the bed.",
+                        "Put the pen in the grey bowl on the white dresser.",
+                        "Pick up the grey bowl with the black pen in it.",
+                        "Turn around and walk towards the wall, then turn right to face the desk.",
+                        "Put the grey bowl with the black pen in it on the desk."
+                    ],
+                    "task_desc":"Put a grey bowl with a black pen in it on the desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A17TKHT8FEVH0R_3M1CVSFP63WHTYHRTDMCOPKMULZQAB",
+                    "high_descs":[
+                        "Turn right and go to the left side of the desk",
+                        "Grab the pencil that's on the shelf",
+                        "Turn right and go to the drawer",
+                        "Put the pencil in the bowl on top of the drawer",
+                        "Grab the bowl off of the drawer",
+                        "Turn around and go to the desk",
+                        "Put the bowl on the desk to the left of the white mug"
+                    ],
+                    "task_desc":"Putting a bowl with a pencil in it on the desk",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_3QXNC7EIPLMF0M2NK9EXDOIKBZE093",
+                    "high_descs":[
+                        "Turn to the right and face the white desk in the corner.",
+                        "Pick up the pen from the shelf of the white desk.",
+                        "Carry the pen and turn to the right to move to the tall dresser.",
+                        "Place the pen in the bowl on top of the dresser.",
+                        "Pick up the bowl from the top of the dresser.",
+                        "Carry the bowl and turn around then turn right to face the white desk.",
+                        "Place the bowl and pen on the desk, to the left side."
+                    ],
+                    "task_desc":"Move a bowl and pen to the desk.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Bowl",
+                "Pen"
+            ]
+        },
+        "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180223_908386/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1VAL7L9L79IN0_3TR2532VISBRZKFDC2WAAXMBNA96J6",
+                    "high_descs":[
+                        "Walk to the waste bin to your right and then turn right again and walk to the white desk.",
+                        "Grab the watch on the top shelf of the desk.",
+                        "Walk to the white drawers on your right.",
+                        "Put the watch on top of the drawer and under the lamp.",
+                        "Turn around and walk back to the white desk.",
+                        "Grab the other watch on the lowest shelf of the desk.",
+                        "Walk back to the white drawers on your right.",
+                        "Put the watch on top of the drawer and to the right of the other watch."
+                    ],
+                    "task_desc":"Put both of the watches on the desk onto the drawer.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "AlarmClock",
+                "Watch"
+            ]
+        },
+        "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180154_425245/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1ELPYAFO7MANS_3P59JYT76O1XVMSH1UYBMQS98I12TK",
+                    "high_descs":[
+                        "Turn around and veer right to the white desk with shelves.",
+                        "Pick up the left watch.",
+                        "Turn right and walk to the night stand at the foot of the bed.",
+                        "Place the watch on the night stand in front of the set of books.",
+                        "Look down at the drawers.",
+                        "Open the bottom right drawer and take out the watch.",
+                        "Look back up at the counter.",
+                        "Place the watch on top of the cell phone on the counter."
+                    ],
+                    "task_desc":"Place to watches on top of a cabinet.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Dresser",
+                "Watch"
+            ]
+        },
+        "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AM2KK02JXXW48_35GMH2SV3HY9DAZPYX7DUHVB51VOEI",
+                    "high_descs":[
+                        "Move over to the white dresser.",
+                        "Open the top left shelf and pick up the box of tissues in it. ",
+                        "Bring the tissues to the top of the dresser. ",
+                        "Put the tissues on the top of the dresser."
+                    ],
+                    "task_desc":"Put the tissue box on the top of the dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_3NLZY2D53S6Q4SMXUWMLWHGVTYKLQE",
+                    "high_descs":[
+                        "Go to the right and locate the tall dresser.",
+                        "Open the top left drawer, and take out the tissues.",
+                        "Take the tissues and turn to the right and back up.",
+                        "Put the tissues on top of the dresser."
+                    ],
+                    "task_desc":"Place tissues on top of the dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1GVTH5YS3WOK0_3WAKVUDHUZXJH04C7B5GNDVJ1ZD7UO",
+                    "high_descs":[
+                        "Turn right and head towards the dresser.",
+                        "Pull out the top left drawer and take out the tissue box from the drawer.",
+                        "Close the drawer and look up at the top of the dresser.",
+                        "Place the tissue box in front of the red card on the top of the dresser."
+                    ],
+                    "task_desc":"Place the tissue box on top of the dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "TissueBox"
+            ]
+        },
+        "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221445_679815/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A1P0XSCJ9XAV74_3018Q3ZVOL79KAATAKMVSTAPVEOARZ",
+                    "high_descs":[
+                        "Turn left to walk towards the bean bag. Make a right and then turn left to face the window, turning right again to go towards the chest of drawers.",
+                        "Open the left top drawer and take out the tissue box inside it shut the drawer.",
+                        "Turn right to face the bed and then to the left back towards the chest of drawers holding the box lower.",
+                        "Place the tissue box on top of the chest of drawers on the CD."
+                    ],
+                    "task_desc":"To take out the tissue box to place it on top of drawers.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1MKCTVKE7J0ZP_3LUY3GC632H6PVWGQP6MD78KTNAP79",
+                    "high_descs":[
+                        "Turn left, then turn right, to go around the bed and to the dresser to the left of the bed. ",
+                        "Open the top left drawer of the dresser.",
+                        "Remove the tissue box from in the drawer.",
+                        "Place the tissue box on top of the dresser, on the compact disk on the left."
+                    ],
+                    "task_desc":"Put a tissue box on the dresser. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1HKHM4NVAO98H_3QAPZX2QN7UWFDVQ3SA12FQ4AYF200",
+                    "high_descs":[
+                        "turn left and move around to the foot of the bed",
+                        "open the top left drawer of the dresser and get the box of tissues out",
+                        "move to the right a bit and face the dresser",
+                        "place the box of tissues on top of the dresser"
+                    ],
+                    "task_desc":"place a box of tissues on top of the dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "TissueBox",
+                "Dresser",
+                "Drawer"
+            ]
+        },
+        "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221500_723697/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"AD0NVUGLDYDYN_32KTQ2V7RGW4IBNWD6CEAZ5VJ599MP",
+                    "high_descs":[
+                        "Turn right, walk to the white dresser",
+                        "Open the bottom drawer on the right, grab the tissue box, close the drawer",
+                        "Walk to the left a bit, facing the dresser",
+                        "Put the tissue box on the car key"
+                    ],
+                    "task_desc":"Move the tissue box from the bottom right drawer to the dresser top",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3F7G1FSFWQPLE_3C8HJ7UOPABJO259H46DNN7OY8RMZB",
+                    "high_descs":[
+                        "Turn right then walk over to the tall white dresser.",
+                        "Open the bottom right drawer of the dresser and remove the tissue box inside.",
+                        "Turn left and walk towards the wall, then turn right to face the dresser again.",
+                        "Place the tissue box on the white dresser on top of the keys."
+                    ],
+                    "task_desc":"Place a tissue box on the top of a white dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1HKHM4NVAO98H_3HMIGG0U4ON4YNT0RHUB4YXR8AE8Y0",
+                    "high_descs":[
+                        "go over to the bedroom dresser",
+                        "grab a box of tissues out from the bottom right drawer",
+                        "move a bit to face the center of the dresser",
+                        "place the box of tissues on top of the dresser"
+                    ],
+                    "task_desc":"place a box of tissues on top of the dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "TissueBox",
+                "Dresser"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_062011_223446/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A13OOAT2ORKH6V_384PI804XVSX51YMTFEOUJNA3Q50SM",
+                    "high_descs":[
+                        "Look down, turn right and walk straight to the desk and look down again.",
+                        "Pick up the pen on the desk.",
+                        "Look up, turn around and walk to the other side of the desk to your right where the mug is placed.",
+                        "Place the pen inside the mug.",
+                        "Pick up the mug with the pen inside.",
+                        "Turn around, and walk to the clothing cabinet to the far left next to the bed.",
+                        "Place the mug next to the phone on top of the clothing cabinet."
+                    ],
+                    "task_desc":"Place a mug with a pen inside on top of the clothing cabinet.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"AM2KK02JXXW48_3AMW0RGHOGT3D5A124CSAQECO00PNZ",
+                    "high_descs":[
+                        "Turn right, move to the desk.",
+                        "Pick up the pen on the desk. ",
+                        "Bring the pen to the mug on the right side of the desk. ",
+                        "Put the pen in the mug on the desk.",
+                        "Pick up the mug with pencil on the desk. ",
+                        "Bring the mug with pencil right to the tall dresser next to the bed. ",
+                        "Put the mug with pencil on the top of the dresser, left of the phone. "
+                    ],
+                    "task_desc":"Put a mug with pencil on the dresser, left of the phone. ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3PPRVK6XK6GP5_3WJ1OXY92D7BNUHV7J5C2YZM0IE8AP",
+                    "high_descs":[
+                        "Turn to your right and approach the black chair.",
+                        "Pick up the pen from the desk.",
+                        "Turn around to look at the door then turn right and walk to the wall, then back to the desk.",
+                        "Put the pen into the cup.",
+                        "Pick up the pen with the pen in it.",
+                        "Turn around then walk to the left to the chest of drawers.",
+                        "Place the cup on the chest of drawers to the left of the phone."
+                    ],
+                    "task_desc":"Move a pen and cup from the desk to the chest of drawers.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Mug",
+                "Pencil",
+                "Pen"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022553_890007/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A2871R3LEPWMMK_3PMBY0YE2AUZUEX3WP7H8PKLKRSC9V",
+                    "high_descs":[
+                        "Head right at the wall and walk to the white dresser.",
+                        "Open the top left drawer, pick up the black pen inside and close the drawer.",
+                        "Turn around and walk to the white desk on the right.",
+                        "Put the pen inside the far right white mug on the desk.",
+                        "Pick up the mug with the pen from the desk.",
+                        "Turn around and head left to the white dresser.",
+                        "Put the mug with the pen on the right side of the dresser to the left of the silver disc."
+                    ],
+                    "task_desc":"Place a mug with a pen on a dresser.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A24RGLS3BRZ60J_3ZAZR5XV049E05FG0N1GLDMEZU1ZCI",
+                    "high_descs":[
+                        "Move forward and turn to the right. Face the tall white dresser.",
+                        "Open the top left drawer and take out a pen. Shut the drawer.",
+                        "Carry the pen and turn around. Turn to the right and face the desk.",
+                        "Place the pen in the cup, on the right side of the desk.",
+                        "Pick up the cup from the right side of the desk.",
+                        "Carry the cup and turn to the right. Move to the tall dresser.",
+                        "Place the cup on the top of the dresser, on the right side."
+                    ],
+                    "task_desc":"Move a pen and cup to a dresser.",
+                    "votes":[
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A2A028LRDJB7ZB_336KAV9KYTJ1XXD978ARVT4QHACY2B",
+                    "high_descs":[
+                        "Turn right then head to the cabinet drawer at the end of the bed",
+                        "Open the first drawer on the left, pick up the pen then close the drawer",
+                        "Turn right then head to the desk",
+                        "Put the pen in the mug",
+                        "Pick up the mug with pen on the desk",
+                        "Turn right then head to the cabinet drawer at the end of the bed",
+                        "Put the mug with pen on top of the cabinet "
+                    ],
+                    "task_desc":"Put the mug with pen on top of the cabinet ",
+                    "votes":[
+                        1,
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "Mug",
+                "Pen"
+            ]
+        },
+        "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022706_734543/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A320QA9HJFUOZO_3LO69W1SU647CSEHN86Q3PWVID1GL6",
+                    "high_descs":[
+                        "Walk forward to the white desk",
+                        "Pick up the left most pen from the desk",
+                        "Put the pen in the left most white mug on the desk",
+                        "Pick up the left most white mug from the desk",
+                        "Turn right and walk forward to the tall white dresser",
+                        "Put the mug down on top of the dresser"
+                    ],
+                    "task_desc":"Put the mug with pen on the white dresser",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1CY7IOJ9YH136_3MTMREQS4Y9MDVDD5MLIGE28IPCWAN",
+                    "high_descs":[
+                        "go to right side of black desk chair",
+                        "pick up pen from desk in front of white mug",
+                        "place pen in white mug on desk",
+                        "pick up white mug with pen from desk",
+                        "turn right, go to white dresser to the left of bed",
+                        "place mug with pen on top of CD on white dresser "
+                    ],
+                    "task_desc":"place mug with pen on top of CD on white dresser ",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A1RLO9LNUJIW5S_3PIWWX1FJMXB84GISTFGKNBJ6GZJJX",
+                    "high_descs":[
+                        "Take a step to your right.",
+                        "Pick up the pen that's in front of you that's under the mug.",
+                        "Put the pencil in the mug that was above it.",
+                        "Pick up the mug with the pencil in it.",
+                        "Turn right and take a step to your right then walk two steps and take a step to your left then walk to the white dresser.",
+                        "Put the mug to the right of the phone."
+                    ],
+                    "task_desc":"Put a mug with a pencil in it on the dresser.",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "CD",
+                "Pen",
+                "Mug",
+                "Pencil",
+                "Dresser"
+            ]
+        },
+        "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json":{
+            "tasks":[
+                {
+                    "assignment_id":"A38Z99XF4NDNH0_31EUONYN2YKQFLLBTNWNULJX6Z9VOD",
+                    "high_descs":[
+                        "Move to the foot of the bed",
+                        "Pick up the laptop that is on the left side of the bed",
+                        "Carry the laptop to the right side of the white dresser",
+                        "Turn on the lamp that is sitting on top of the dresser"
+                    ],
+                    "task_desc":"Carry a laptop while turning on a light",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A3PPLDHC3CG0YN_3U8YCDAGXSXD7WXB5302YXO7R2MQ0S",
+                    "high_descs":[
+                        "Turn left and face the foot of the bed. ",
+                        "Close the top of the lap top to the left of the cell phone, and pick it up. ",
+                        "Turn left and face the white dresser with the lamp on it. ",
+                        "Turn the lamp on. "
+                    ],
+                    "task_desc":"To get the lap top and turn the lamp on. ",
+                    "votes":[
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "assignment_id":"A30M9SZYJKFDS9_3Z9WI9EOZ2527T5CQ6NQ83BFEM9KHR",
+                    "high_descs":[
+                        "turn to the left towards the dresser",
+                        "face the bed close the lap top on the left and  pick it up from the bed ",
+                        "turn around to the left  ",
+                        "turn on the lamp on the dresser"
+                    ],
+                    "task_desc":"pick up the lap top turn on the lamp",
+                    "votes":[
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "relative_objects":[
+                "AlarmClock",
+                "Laptop"
+            ]
+        },
+        "tests_seen/trial_T20190906_180309_726338/traj_data.json":{
+            "tasks":[
+                {
+                    "high_descs":[
+                        "turn around make a left to face white dresser",
+                        "pick up watch closest to you below the phone ",
+                        "turn around then turn left move forward toward dresser ",
+                        "place watch on top of dresser directly next to the left of the pen",
+                        "open second drawer from the top on the left side of the dresser and pick up the watch in it",
+                        "place the watch on top of the dresser to the right of the pen so the watch is standing upright "
+                    ],
+                    "task_desc":"to move a watch from the desk to the dresser"
+                },
+                {
+                    "high_descs":[
+                        "Take a couple steps forward and then turn and move to the left to stand facing the desk.",
+                        "Pick up the left watch that's in front of the phone.",
+                        "Turn right and cross the room to stand in front of the tall white dresser beyond the foot of the bed.",
+                        "Open the second drawer from the top on the left and set the watch inside. ",
+                        "Take the watch back out of the drawer. ",
+                        "Set it on top of the dresser directly to the right of the other watch already there. "
+                    ],
+                    "task_desc":"One of the watches from the desk should end up on top of the white dresser. "
+                }
+            ],
+            "relative_objects":[
+                "Watch"
+            ]
+        }
+    }
+}
