@@ -36,9 +36,9 @@
                 "Put the pillow from the bed to the couch"
             ],
             "relative_objects":[
-                "Chair",
                 "Pillow",
-                "Bed"
+                "Bed",
+                "Chair"
             ]
         },
         "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json":{
@@ -58,8 +58,8 @@
                 "Put a cushion on the chair."
             ],
             "relative_objects":[
-                "Chair",
-                "Pillow"
+                "Pillow",
+                "Chair"
             ]
         },
         "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json":{
@@ -98,5 +98,197 @@
                 "Pillow"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Move the smartphone from the black side table to the bed."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put CD's away in black table."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move pillow from bed to chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104920_763828/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a purple pillow to the seat of a chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the purple pillows to the arm chair from the bed."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_121849_514225/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Put the phone down on the chair. ",
+                "Moving 2 CDs to the nightstand"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the phone down on the chair. ",
+                "Put CD's away in black table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Moving 2 cd's to a table beside the bed",
+                "Put the phone down on the chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a cushion on a chair.",
+                "Move the smartphone from the black side table to the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104900_888704/traj_data.json",
+                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Moving 2 CDs to the nightstand",
+                "Move the smartphone from the black side table to the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json",
+                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "move the phone from the chair to the bed",
+                "Moving 2 CDs to the nightstand",
+                "Move the purple pillows to the arm chair from the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Bed-321/trial_T20190908_231504_321117/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json",
+                    "tests_seen/trial_T20190907_121849_514225/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Moving 2 cd's to a table beside the bed",
+                "Put the phone down on the chair. ",
+                "Move a purple pillow to the seat of a chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the phone from the chair to the bed",
+                "Moving 2 cd's to a table beside the bed",
+                "Move a purple pillow to the seat of a chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Bed-321/trial_T20190908_231504_321117/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the phone down on the chair. ",
+                "Place a cushion on a chair.",
+                "Moving 2 cd's to a table beside the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104900_888704/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the phone from the chair to the bed",
+                "Move a purple pillow to the seat of a chair.",
+                "Moving 2 CDs to the nightstand"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Bed-321/trial_T20190908_231504_321117/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

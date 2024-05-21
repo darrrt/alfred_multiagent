@@ -60,8 +60,8 @@
                 "put pencil on top of bureau"
             ],
             "relative_objects":[
-                "Pencil",
-                "Dresser"
+                "Dresser",
+                "Pencil"
             ]
         },
         "train/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071051_120393/traj_data.json":{
@@ -71,8 +71,8 @@
                 "Place a pencil on a dresser."
             ],
             "relative_objects":[
-                "Pencil",
-                "Dresser"
+                "Dresser",
+                "Pencil"
             ]
         },
         "train/pick_and_place_simple-Pen-None-Shelf-330/trial_T20190908_145416_946403/traj_data.json":{
@@ -152,12 +152,12 @@
                 "Put a phone on the dresser."
             ],
             "relative_objects":[
-                "KeyChain",
+                "Pillow",
                 "Book",
-                "Laptop",
+                "KeyChain",
                 "CellPhone",
-                "AlarmClock",
-                "Pillow"
+                "Laptop",
+                "AlarmClock"
             ]
         },
         "train/pick_two_obj_and_place-KeyChain-None-Dresser-330/trial_T20190908_132529_662268/traj_data.json":{
@@ -175,8 +175,8 @@
                 "Put the bowl with pencil on the larger drawer"
             ],
             "relative_objects":[
-                "Pencil",
                 "Dresser",
+                "Pencil",
                 "Bowl"
             ]
         },
@@ -187,9 +187,9 @@
                 "place a disk on a shelf"
             ],
             "relative_objects":[
-                "AlarmClock",
+                "CD",
                 "Shelf",
-                "CD"
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201356_091911/traj_data.json":{
@@ -199,9 +199,9 @@
                 "Place a CD on a bookshelf."
             ],
             "relative_objects":[
-                "AlarmClock",
                 "CD",
-                "Book"
+                "Book",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201313_428328/traj_data.json":{
@@ -219,13 +219,12 @@
                 "Move the pens to the bedside table."
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "tests_seen/trial_T20190908_120823_704930/traj_data.json":{
             "tasks":[
-                "Gather both pens from the shelf and counter and put them on the nightstand to the left of the bed.",
                 "Put the pens on the table beside the bed. "
             ],
             "relative_objects":[
@@ -254,5 +253,278 @@
                 "Bowl"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "take the keys from the arm chair, put them on the night stand"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-330/trial_T20190908_132834_404830/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the pens to the bedside table."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_120920_075460/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a bowl with a credit card in it on the dresser that has a red book on it."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-330/trial_T20190907_035059_143638/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the pens on the table beside the bed. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_120823_704930/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a bowl with a CD on the bedside table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CD-Bowl-SideTable-330/trial_T20190907_223831_750006/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "take the keys from the arm chair, put them on the night stand",
+                "Put the pens on the table beside the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-330/trial_T20190908_132834_404830/traj_data.json",
+                    "tests_seen/trial_T20190908_120823_704930/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a glass bowl with a pencil in it on the black dresser. ",
+                "Put keys on a night stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-Dresser-330/trial_T20190907_163716_768151/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-330/trial_T20190908_132741_547490/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "take the keys from the arm chair, put them on the night stand",
+                "Put a glass bowl with a pencil in it on the black dresser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-330/trial_T20190908_132834_404830/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-Dresser-330/trial_T20190907_163716_768151/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a glass bowl with a pencil in it on the black dresser. ",
+                "Put the pens on the table beside the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-Dresser-330/trial_T20190907_163716_768151/traj_data.json",
+                    "tests_seen/trial_T20190908_120823_704930/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pen to a bowl in a cabinet.",
+                "Move a pencil to the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-330/trial_T20190908_145416_946403/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071208_686774/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Place keys on a dresser",
+                "Put a bowl with a pen in it on a night stand.",
+                "Place pencil on brown dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-330/trial_T20190908_132529_662268/traj_data.json",
+                    "tests_seen/trial_T20190908_135917_098236/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071051_120393/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a cell phone on a dresser.",
+                "Place a CD on a shelf.",
+                "Put a glass bowl with a pen in it on an end table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-330/trial_T20190909_064424_789194/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201328_424086/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-SideTable-330/trial_T20190908_140214_441167/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put keys on a night stand.",
+                "Move a pen to a bowl in a cabinet.",
+                "Put the CD on the upper shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-330/trial_T20190908_132741_547490/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-330/trial_T20190908_145416_946403/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201313_428328/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a CD on a shelf.",
+                "Put the pens on the table beside the bed. ",
+                "Put a glass bowl with a pencil in it on the black dresser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201328_424086/traj_data.json",
+                    "tests_seen/trial_T20190908_120823_704930/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-Dresser-330/trial_T20190907_163716_768151/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put keys on a night stand.",
+                "Put a bowl with a credit card inside on top of the dresser.",
+                "Move a pencil to the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-330/trial_T20190908_132741_547490/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-330/trial_T20190909_192407_939684/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071208_686774/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put the pens on the table beside the bed. ",
+                "Move a smartphone from the brown armchair to the top of the wide black dresser.",
+                "Put the bowl with cd on the side table",
+                "Place pencil on brown dresser"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_120823_704930/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-330/trial_T20190909_052323_195252/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CD-Bowl-SideTable-330/trial_T20190908_002918_347755/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071051_120393/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put keys on a night stand.",
+                "Put a bowl with a credit card inside on top of the dresser.",
+                "Put the pens on the table beside the bed. ",
+                "Place a disc on the shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-330/trial_T20190908_132741_547490/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-330/trial_T20190909_192407_939684/traj_data.json",
+                    "tests_seen/trial_T20190908_120823_704930/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201356_091911/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the CD on the upper shelf",
+                "Move a smartphone from the brown armchair to the top of the wide black dresser.",
+                "Put a glass bowl with a pen in it on an end table.",
+                "Place pencil on brown dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201313_428328/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-330/trial_T20190909_052323_195252/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-SideTable-330/trial_T20190908_140214_441167/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071051_120393/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the bowl with a credit card on the dresser.",
+                "Place a disc on the shelf.",
+                "Move the pens to the bedside table.",
+                "take the keys from the arm chair, put them on the night stand"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-330/trial_T20190909_192750_830230/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201356_091911/traj_data.json",
+                    "tests_seen/trial_T20190908_120920_075460/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-330/trial_T20190908_132834_404830/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pencil to the dresser.",
+                "Put the pens on the table beside the bed. ",
+                "Put a bowl with a credit card inside on top of the dresser.",
+                "Put the CD on the upper shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Dresser-330/trial_T20190909_071208_686774/traj_data.json",
+                    "tests_seen/trial_T20190908_120823_704930/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-330/trial_T20190909_192407_939684/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-330/trial_T20190906_201313_428328/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

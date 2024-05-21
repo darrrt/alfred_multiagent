@@ -8,8 +8,8 @@
                 "move the candle from the tub to the toilet"
             ],
             "relative_objects":[
-                "Toilet",
-                "Candle"
+                "Candle",
+                "Toilet"
             ]
         },
         "tests_unseen/trial_T20190906_175851_641650/traj_data.json":{
@@ -22,9 +22,9 @@
                 "Put a washed rag on a shelf."
             ],
             "relative_objects":[
+                "HandTowel",
                 "Towel",
-                "Cloth",
-                "HandTowel"
+                "Cloth"
             ]
         },
         "tests_unseen/trial_T20190906_175831_724598/traj_data.json":{
@@ -143,8 +143,8 @@
                 "Wash a soap bar to use in the tub."
             ],
             "relative_objects":[
-                "Bathtub",
                 "Cloth",
+                "Bathtub",
                 "SoapBar"
             ]
         },
@@ -169,8 +169,8 @@
             ],
             "relative_objects":[
                 "TissueBox",
-                "SoapBottle",
-                "SprayBottle"
+                "SprayBottle",
+                "SoapBottle"
             ]
         },
         "tests_unseen/trial_T20190907_071843_438620/traj_data.json":{
@@ -197,8 +197,7 @@
         },
         "tests_unseen/trial_T20190907_002230_575700/traj_data.json":{
             "tasks":[
-                "Arranging tissue boxes in a bathroom.",
-                "put both of the tissue boxes on top of the bathroom toilet"
+                "Arranging tissue boxes in a bathroom."
             ],
             "relative_objects":[
                 "TissueBox",
@@ -212,8 +211,8 @@
                 "Move the candle from the tub to the toilet."
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "Candle"
+                "Candle",
+                "ToiletPaper"
             ]
         },
         "tests_unseen/trial_T20190908_045900_272790/traj_data.json":{
@@ -241,9 +240,9 @@
                 "Get a wash cloth wet to put in the tub. "
             ],
             "relative_objects":[
+                "HandTowel",
                 "Towel",
-                "Cloth",
-                "HandTowel"
+                "Cloth"
             ]
         },
         "tests_unseen/trial_T20190908_125119_212943/traj_data.json":{
@@ -275,5 +274,369 @@
                 "SoapBar"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put a box of tissues on the lid of the toilet tank."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190909_075611_325782/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a spray bottle on the toilet. "
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190907_071807_498508/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the bars of soap to the tub."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_114400_475494/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a box of tissues on the lid of the toilet tank."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190909_075611_325782/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the clean cloth on the lower shelf"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190906_175831_724598/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Put a spray bottle on the toilet. ",
+                "Put a wet bar of soap in the tub."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190907_071807_498508/traj_data.json",
+                    "tests_unseen/trial_T20190908_123406_806951/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a wet bar of soap in the tub.",
+                "Put a wet washcloth in the tub."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_123406_806951/traj_data.json",
+                    "tests_unseen/trial_T20190907_174408_206977/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a spray bottle on the toilet. ",
+                "Put a clean bar of soap in a tub."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190907_071807_498508/traj_data.json",
+                    "tests_unseen/trial_T20190908_124807_847088/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box of tissues on a toilet tank.",
+                "Put the rinsed soap bar on the bottom shelf"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190909_075519_322891/traj_data.json",
+                    "tests_unseen/trial_T20190908_125051_986015/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To wash the towel.",
+                "clean up the spray bottles and put them on top of the toilet "
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190906_175851_641650/traj_data.json",
+                    "tests_unseen/trial_T20190908_110528_569140/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put a box of tissues on the lid of the toilet tank.",
+                "clean up the spray bottles and put them on top of the toilet ",
+                "Put a clean bar of soap in a tub."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190909_075611_325782/traj_data.json",
+                    "tests_unseen/trial_T20190908_110528_569140/traj_data.json",
+                    "tests_unseen/trial_T20190908_124807_847088/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a candle on top of a toilet",
+                "clean up the spray bottles and put them on top of the toilet ",
+                "To wash the towel."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_045838_263858/traj_data.json",
+                    "tests_unseen/trial_T20190908_110528_569140/traj_data.json",
+                    "tests_unseen/trial_T20190906_175851_641650/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place tissue boxes on the back of a toilet. ",
+                "Put a spray bottle on the toilet. ",
+                "Put a wet washcloth in the tub."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190907_002139_205274/traj_data.json",
+                    "tests_unseen/trial_T20190907_071807_498508/traj_data.json",
+                    "tests_unseen/trial_T20190907_174408_206977/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To wash the towel.",
+                "To move a tissue box to the back of the toilet. ",
+                "Move the purple spray can from the gray can to the back of the toilet"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190906_175851_641650/traj_data.json",
+                    "tests_unseen/trial_T20190909_075542_549772/traj_data.json",
+                    "tests_unseen/trial_T20190907_071843_438620/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the clean cloth on the lower shelf",
+                "Put a wet bar of soap in the tub.",
+                "Put a box of tissues on the lid of the toilet tank."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190906_175831_724598/traj_data.json",
+                    "tests_unseen/trial_T20190908_123406_806951/traj_data.json",
+                    "tests_unseen/trial_T20190909_075611_325782/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put a box of tissues on the lid of the toilet tank.",
+                "Put a candle on a toilet tank.",
+                "Put a wet washcloth in the tub.",
+                "Put the rinsed soap bar on the bottom shelf"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190909_075611_325782/traj_data.json",
+                    "tests_unseen/trial_T20190908_045822_527043/traj_data.json",
+                    "tests_unseen/trial_T20190907_174408_206977/traj_data.json",
+                    "tests_unseen/trial_T20190908_125051_986015/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the clean cloth on the lower shelf",
+                "Put a wet bar of soap in the tub.",
+                "Put a spray bottle on the toilet. ",
+                "Place tissue boxes on the back of a toilet. "
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190906_175831_724598/traj_data.json",
+                    "tests_unseen/trial_T20190908_123406_806951/traj_data.json",
+                    "tests_unseen/trial_T20190907_071807_498508/traj_data.json",
+                    "tests_unseen/trial_T20190907_002139_205274/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To wash the towel.",
+                "Put a spray bottle on the toilet. ",
+                "Put a wet bar of soap in the tub.",
+                "Put a candle on the toilet."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190906_175851_641650/traj_data.json",
+                    "tests_unseen/trial_T20190907_071807_498508/traj_data.json",
+                    "tests_unseen/trial_T20190908_123406_806951/traj_data.json",
+                    "tests_unseen/trial_T20190908_045900_272790/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Arranging tissue boxes in a bathroom.",
+                "Move the bars of soap to the tub.",
+                "Put a candle on a toilet tank.",
+                "Put a clean rag on the bench."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190907_002230_575700/traj_data.json",
+                    "tests_unseen/trial_T20190908_114400_475494/traj_data.json",
+                    "tests_unseen/trial_T20190908_045822_527043/traj_data.json",
+                    "tests_unseen/trial_T20190906_175911_563263/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a wet bar of soap in the tub.",
+                "Move a bottle from the trash can to the shelf between the boxes of tissue.",
+                "Put a candle on a toilet tank.",
+                "Put a clean towel in the tub."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_123406_806951/traj_data.json",
+                    "tests_unseen/trial_T20190909_044412_092826/traj_data.json",
+                    "tests_unseen/trial_T20190908_045822_527043/traj_data.json",
+                    "tests_unseen/trial_T20190907_174500_858143/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put a wet washcloth in the tub.",
+                "Put a box of tissues on the lid of the toilet tank.",
+                "Put the rinsed soap bar on the bottom shelf",
+                "Put a candle on the toilet.",
+                "Move the purple spray bottle from the shelf to the back of the toilet."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190907_174408_206977/traj_data.json",
+                    "tests_unseen/trial_T20190909_075611_325782/traj_data.json",
+                    "tests_unseen/trial_T20190908_125051_986015/traj_data.json",
+                    "tests_unseen/trial_T20190908_045900_272790/traj_data.json",
+                    "tests_unseen/trial_T20190907_071825_279908/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean bar of soap in a tub.",
+                "Put a wet washcloth in the tub.",
+                "Put a candle on the toilet.",
+                "Move the purple spray bottle from the shelf to the back of the toilet.",
+                "Put a box of tissues on the lid of the toilet tank."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_124807_847088/traj_data.json",
+                    "tests_unseen/trial_T20190907_174408_206977/traj_data.json",
+                    "tests_unseen/trial_T20190908_045900_272790/traj_data.json",
+                    "tests_unseen/trial_T20190907_071825_279908/traj_data.json",
+                    "tests_unseen/trial_T20190909_075611_325782/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean bar of soap on the shelf. ",
+                "Move the purple spray bottle from the shelf to the back of the toilet.",
+                "Put a candle on the toilet.",
+                "Arranging tissue boxes in a bathroom.",
+                "Put a clean rag on the bench."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_125119_212943/traj_data.json",
+                    "tests_unseen/trial_T20190907_071825_279908/traj_data.json",
+                    "tests_unseen/trial_T20190908_045900_272790/traj_data.json",
+                    "tests_unseen/trial_T20190907_002230_575700/traj_data.json",
+                    "tests_unseen/trial_T20190906_175911_563263/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Arranging tissue boxes in a bathroom.",
+                "Put a clean rag on the bench.",
+                "Put a clean bar of soap in a tub.",
+                "Put a candle on the toilet.",
+                "Move the purple spray bottle from the shelf to the back of the toilet."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190907_002230_575700/traj_data.json",
+                    "tests_unseen/trial_T20190906_175911_563263/traj_data.json",
+                    "tests_unseen/trial_T20190908_124807_847088/traj_data.json",
+                    "tests_unseen/trial_T20190908_045900_272790/traj_data.json",
+                    "tests_unseen/trial_T20190907_071825_279908/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the rinsed soap bar on the bottom shelf",
+                "clean up the spray bottles and put them on top of the toilet ",
+                "Put a candle on a toilet tank.",
+                "Put a box of tissues on the lid of the toilet tank.",
+                "Put a clean towel in the tub."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_125051_986015/traj_data.json",
+                    "tests_unseen/trial_T20190908_110528_569140/traj_data.json",
+                    "tests_unseen/trial_T20190908_045822_527043/traj_data.json",
+                    "tests_unseen/trial_T20190909_075611_325782/traj_data.json",
+                    "tests_unseen/trial_T20190907_174500_858143/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

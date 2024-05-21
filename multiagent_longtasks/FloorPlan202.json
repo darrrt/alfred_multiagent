@@ -27,8 +27,8 @@
                 "Put a cardboard box with a remote in it on a chair."
             ],
             "relative_objects":[
-                "Box",
-                "RemoteControl"
+                "RemoteControl",
+                "Box"
             ]
         },
         "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json":{
@@ -38,8 +38,8 @@
                 "Grab the watch from the TV cabinet, turn on the floor lamp"
             ],
             "relative_objects":[
-                "Watch",
-                "RemoteControl"
+                "RemoteControl",
+                "Watch"
             ]
         },
         "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json":{
@@ -85,5 +85,224 @@
                 "CreditCard"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put a credit card on the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a remote in a box and return the remote to its original place."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn the floor lamp on while holding a watch."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn the floor lamp on while holding a watch."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "examine the keys with the lamp",
+                "Inspect a laptop with a tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-202/trial_T20190907_204105_603210/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a credit card on the chair.",
+                "Put 2 remote controls on the table in front of the couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a credit card on the chair.",
+                "Put 2 remote controls on the table in front of the couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put 2 remote controls on the table in front of the couch. ",
+                "Pick up the keys and turn on the lamp. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put a remote in a box and return the remote to its original place.",
+                "Pick up the keys and turn on the lamp. ",
+                "Put a credit card on the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a book on the blue couch. ",
+                "examine the keys with the lamp",
+                "Put a credit card on the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put 2 remote controls on the table in front of the couch. ",
+                "Put a credit card on the chair.",
+                "examine the keys with the lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put 2 remote controls on the table in front of the couch. ",
+                "examine the keys with the lamp",
+                "Put a book on the blue couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put a credit card on the chair.",
+                "Put 2 remote controls on the table in front of the couch. ",
+                "examine the keys with the lamp",
+                "Put a book on the blue couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the keys and turn on the lamp. ",
+                "Put a credit card on the chair.",
+                "Put a book on the blue couch. ",
+                "Turn the floor lamp on while holding a watch."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn the floor lamp on while holding a watch.",
+                "examine the keys with the lamp",
+                "Put a credit card on the chair.",
+                "Put a book on the blue couch. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the keys and turn on the lamp. ",
+                "Put 2 remote controls on the table in front of the couch. ",
+                "Put a book on the blue couch. ",
+                "Put a credit card on the chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[]
 }

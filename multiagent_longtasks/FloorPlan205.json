@@ -8,9 +8,9 @@
                 "Putting a cardboard box with a set of keys in it on the couch"
             ],
             "relative_objects":[
+                "Chair",
                 "Box",
-                "KeyChain",
-                "Chair"
+                "KeyChain"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_105338_371212/traj_data.json":{
@@ -20,9 +20,9 @@
                 "Move keys to a box on the chair "
             ],
             "relative_objects":[
+                "Chair",
                 "Box",
-                "KeyChain",
-                "Chair"
+                "KeyChain"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_105101_647626/traj_data.json":{
@@ -64,8 +64,8 @@
                 "Put a box on the couch next to the laptop"
             ],
             "relative_objects":[
-                "Box",
-                "Laptop"
+                "Laptop",
+                "Box"
             ]
         },
         "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json":{
@@ -126,8 +126,8 @@
                 "Move the box on the sofa to the round table. "
             ],
             "relative_objects":[
-                "Box",
-                "CreditCard"
+                "CreditCard",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json":{
@@ -137,8 +137,8 @@
                 "Put a box with credit card on the small, round, black table. "
             ],
             "relative_objects":[
-                "Box",
-                "CreditCard"
+                "CreditCard",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190912_004956_443783/traj_data.json":{
@@ -148,10 +148,10 @@
                 "Move a box and keys from a sofa to a table"
             ],
             "relative_objects":[
-                "Box",
+                "CreditCard",
                 "Pillow",
-                "KeyChain",
-                "CreditCard"
+                "Box",
+                "KeyChain"
             ]
         },
         "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json":{
@@ -162,5 +162,262 @@
                 "Watch"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Move an empty box to the sofa"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214755_478301/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Moving a laptop from a table to a chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a cardboard box with keys in it on a red chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_105338_371212/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a card on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190912_004956_443783/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a card on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190912_004956_443783/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Pick up the keys near the lamp to turn it off.",
+                "Put a cardboard box with a credit card in it on a round black table."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Take the box from the kitchen table, put it on the red couch",
+                "move the computer from the table to the chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the keys near the lamp to turn it off.",
+                "Take the box from the kitchen table, put it on the red couch"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn off the floor lamp with a watch in hand. ",
+                "Pick up the keys near the lamp to turn it off."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a card on a table.",
+                "move the computer from the table to the chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190912_004956_443783/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Examine a key chain by the dim natural light of a living room.",
+                "Take the box from the kitchen table, put it on the red couch",
+                "Moving a laptop from a table to a chair. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Moving a laptop from a table to a chair. ",
+                "Take the box from the kitchen table, put it on the red couch",
+                "Pick up the keys near the lamp to turn it off."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a key chain by the dim natural light of a living room.",
+                "Turn off the floor lamp with a watch in hand. ",
+                "Put a cardboard box with a credit card in it on a round black table."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a cardboard box with a credit card in it on a round black table.",
+                "Pick up the keys near the lamp to turn it off.",
+                "Moving a laptop from a table to a chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the keys near the lamp to turn it off.",
+                "Turn off the floor lamp with a watch in hand. ",
+                "Put a box with a credit card in it, on top of the table beside the TV cabinet. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190911_191424_759852/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Examine a key chain by the dim natural light of a living room.",
+                "Put a box with a credit card in it, on top of the table beside the TV cabinet. ",
+                "move the computer from the table to the chair",
+                "Pick up watches from the table, one-at-a-time, put them on the TV stand."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190911_191424_759852/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Moving a laptop from a table to a chair. ",
+                "Put a box with a credit card in it, on top of the table beside the TV cabinet. ",
+                "Examine a key chain by the dim natural light of a living room.",
+                "Pick up watches from the table, one-at-a-time, put them on the TV stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190911_191424_759852/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the computer from the table to the chair",
+                "Examine a key chain by the dim natural light of a living room.",
+                "Pick up watches from the table, one-at-a-time, put them on the TV stand.",
+                "Take the box from the kitchen table, put it on the red couch"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the keys near the lamp to turn it off.",
+                "Take the box from the kitchen table, put it on the red couch",
+                "Turn off the floor lamp with a watch in hand. ",
+                "Moving a laptop from a table to a chair. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

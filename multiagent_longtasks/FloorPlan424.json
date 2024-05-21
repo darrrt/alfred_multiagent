@@ -8,11 +8,11 @@
                 "Get a towel out of the drawer to soak it, then put it back in the drawer."
             ],
             "relative_objects":[
-                "SoapBottle",
-                "SprayBottle",
+                "HandTowel",
                 "Towel",
                 "Cloth",
-                "HandTowel"
+                "SprayBottle",
+                "SoapBottle"
             ]
         },
         "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022321_380927/traj_data.json":{
@@ -22,9 +22,9 @@
                 "Place a clean rag in a cabinet."
             ],
             "relative_objects":[
+                "HandTowel",
                 "Towel",
-                "Cloth",
-                "HandTowel"
+                "Cloth"
             ]
         },
         "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022345_347148/traj_data.json":{
@@ -34,11 +34,11 @@
                 "Put a cleaned cloth rag in a cabinet."
             ],
             "relative_objects":[
-                "SoapBottle",
-                "SoapBar",
+                "HandTowel",
                 "Towel",
                 "Cloth",
-                "HandTowel"
+                "SoapBar",
+                "SoapBottle"
             ]
         },
         "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021537_611374/traj_data.json":{
@@ -48,9 +48,9 @@
                 "Put the plunger under the sink"
             ],
             "relative_objects":[
-                "Plunger",
+                "Sink",
                 "Cabinet",
-                "Sink"
+                "Plunger"
             ]
         },
         "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_062908_529599/traj_data.json":{
@@ -80,8 +80,8 @@
                 "place the toilet paper roll with the toilet paper in the bathroom sink cabinet"
             ],
             "relative_objects":[
-                "Towel",
-                "ToiletPaper"
+                "ToiletPaper",
+                "Towel"
             ]
         },
         "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_203003_627271/traj_data.json":{
@@ -121,8 +121,8 @@
                 "Put a clean cloth on the counter."
             ],
             "relative_objects":[
-                "Towel",
                 "HandTowel",
+                "Towel",
                 "Cloth"
             ]
         },
@@ -133,9 +133,9 @@
                 "Place a clean rag on a counter."
             ],
             "relative_objects":[
+                "HandTowel",
                 "Towel",
-                "Cloth",
-                "HandTowel"
+                "Cloth"
             ]
         },
         "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405/traj_data.json":{
@@ -191,16 +191,16 @@
                 "Move soap from counter to sink, followed by moving to cupboard below sink "
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "Candle",
-                "Plunger",
-                "ScrubBrush",
-                "SoapBar",
-                "SprayBottle",
-                "SoapBottle",
+                "HandTowel",
                 "Towel",
                 "Cloth",
-                "HandTowel"
+                "Plunger",
+                "SoapBar",
+                "ScrubBrush",
+                "SprayBottle",
+                "ToiletPaper",
+                "SoapBottle",
+                "Candle"
             ]
         },
         "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214946_567644/traj_data.json":{
@@ -233,15 +233,256 @@
                 "Place the bottle from the sink to the toilet basin."
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "Plunger",
-                "ScrubBrush",
-                "SoapBar",
-                "SoapBottle",
+                "HandTowel",
                 "Towel",
                 "Cloth",
-                "HandTowel"
+                "Plunger",
+                "SoapBar",
+                "ScrubBrush",
+                "ToiletPaper",
+                "SoapBottle"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "place a soap dispenser on top of the toilet"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put toilet paper rolls in a cabinet under the sink."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a plunger in the cabinet beneath the sink"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021510_064551/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a clean rag on a counter."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a plunger in the cabinet beneath the sink"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021510_064551/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "move the plunger from behind the toilet to the cabinet",
+                "Put a clean bar of soap in a cabinet."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_062908_529599/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214946_567644/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean blue rag on the counter.",
+                "Move a plunger to the cabinet"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_100512_362932/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021537_611374/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean bar of soap in a cabinet.",
+                "Move a plunger to the cabinet"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214946_567644/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021537_611374/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the toilet paper rolls inside the sink cabinet",
+                "Move a plunger to the cabinet"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202903_584090/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021537_611374/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the toilet paper rolls inside the sink cabinet",
+                "Put a plunger in the cabinet beneath the sink"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202903_584090/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021510_064551/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "move the plunger from behind the toilet to the cabinet",
+                "Put a wet soap on the counter. ",
+                "Place the toilet paper in the cabinet."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_062908_529599/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405/traj_data.json",
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_203003_627271/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean wash cloth on the counter.",
+                "place a soap dispenser on top of the toilet",
+                "Put a cleaned bar of soap on a counter."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_100632_546757/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a rinse off bar of soap in to the cabinet",
+                "Put the toilet paper rolls inside the sink cabinet",
+                "Place a clean rag on a counter."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_215019_162873/traj_data.json",
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202903_584090/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the toilet paper in the cabinet.",
+                "Put a cleaned bar of soap on a counter.",
+                "Put a plunger in the cabinet beneath the sink"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_203003_627271/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021510_064551/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the toilet paper rolls inside the sink cabinet",
+                "Place a clean rag on a counter.",
+                "Rinse off the soap and place it on the counter."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202903_584090/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074045_109439/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "move the plunger from behind the toilet to the cabinet",
+                "Place the toilet paper in the cabinet.",
+                "Place a clean rag on a counter.",
+                "Put a wet soap on the counter. "
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_062908_529599/traj_data.json",
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_203003_627271/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a wet soap on the counter. ",
+                "Place a clean rag on a counter.",
+                "Put a plunger in the cabinet beneath the sink",
+                "Put the toilet paper rolls inside the sink cabinet"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021510_064551/traj_data.json",
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202903_584090/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a rinse off bar of soap in to the cabinet",
+                "Put toilet paper rolls in a cabinet under the sink.",
+                "Put a plunger in the cabinet beneath the sink",
+                "wash the cloth from the cabinet, put it back"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_215019_162873/traj_data.json",
+                    "valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021510_064551/traj_data.json",
+                    "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022436_073995/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

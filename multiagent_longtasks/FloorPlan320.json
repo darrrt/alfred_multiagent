@@ -1,16 +1,6 @@
 {
     "scene_name":"FloorPlan320",
     "trials":{
-        "train/pick_two_obj_and_place-CellPhone-None-Shelf-320/trial_T20190908_053533_960820/traj_data.json":{
-            "tasks":[
-                "Put both cell phones next to each other on the shelf"
-            ],
-            "relative_objects":[
-                "Pen",
-                "Pencil",
-                "CellPhone"
-            ]
-        },
         "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190918_223544_338918/traj_data.json":{
             "tasks":[
                 "Move the keys on the desk to the middle of the desk."
@@ -35,8 +25,8 @@
                 "Carry a CD while turning on a lamp"
             ],
             "relative_objects":[
-                "DeskLamp",
-                "CD"
+                "CD",
+                "DeskLamp"
             ]
         },
         "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json":{
@@ -69,11 +59,11 @@
                 "Move a box from the desktop to the top shelf of the desk"
             ],
             "relative_objects":[
-                "KeyChain",
-                "CreditCard",
                 "Book",
-                "Laptop",
+                "KeyChain",
                 "CellPhone",
+                "CreditCard",
+                "Laptop",
                 "AlarmClock"
             ]
         },
@@ -84,8 +74,8 @@
                 "turn on a lamp while holding a pencil"
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111515_777825/traj_data.json":{
@@ -95,11 +85,303 @@
                 "Put pen on table and nightstand and turn the light on."
             ],
             "relative_objects":[
-                "KeyChain",
-                "CellPhone",
+                "Pen",
                 "Pencil",
-                "Pen"
+                "CellPhone",
+                "KeyChain"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Examine a pencil under the lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111515_777825/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Get CD to turn the light on."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a pencil under the lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111515_777825/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the keys on the desk to the middle of the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190918_223544_338918/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "move the clock from the table to the dresser",
+                "Move the keys to the desk from the shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190919_032916_694260/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the keys to the desk from the shelf.",
+                "Examine the middle pillow from the bed under the light of a small lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190919_032916_694260/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a clock on a shelf",
+                "Get CD to turn the light on."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121158_600571/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn on the desk lamp. ",
+                "move the clock from the table to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111534_544781/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "move the clock from the table to the dresser",
+                "Examine the middle pillow from the bed under the light of a small lamp.",
+                "Examine a pencil under the lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json",
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111515_777825/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Get CD to turn the light on.",
+                "move the clock from the table to the dresser",
+                "Examine the middle pillow from the bed under the light of a small lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a pencil under the lamp.",
+                "move the clock from the table to the dresser",
+                "Examine the middle pillow from the bed under the light of a small lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111515_777825/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the keys to the desk from the shelf.",
+                "move the clock from the table to the dresser",
+                "Examine the middle pillow from the bed under the light of a small lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190919_032916_694260/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move the keys on the desk to the middle of the desk.",
+                "Turn on the desk lamp. ",
+                "Get CD to turn the light on.",
+                "move the clock from the table to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190918_223544_338918/traj_data.json",
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111534_544781/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the clock from the table to the dresser",
+                "Turn on the desk lamp. ",
+                "Move the keys on the desk to the middle of the desk.",
+                "Get CD to turn the light on."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111534_544781/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190918_223544_338918/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the clock from the table to the dresser",
+                "Get CD to turn the light on.",
+                "Examine the middle pillow from the bed under the light of a small lamp.",
+                "Move the keys to the desk from the shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190919_032916_694260/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the keys on the desk to the middle of the desk.",
+                "Examine the middle pillow from the bed under the light of a small lamp.",
+                "Get CD to turn the light on.",
+                "move the clock from the table to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190918_223544_338918/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Examine the middle pillow from the bed under the light of a small lamp.",
+                "Get CD to turn the light on.",
+                "Move the keys on the desk to the middle of the desk.",
+                "move the clock from the table to the dresser",
+                "Turn on the desk lamp. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190918_223544_338918/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111534_544781/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn on the desk lamp. ",
+                "Get CD to turn the light on.",
+                "Examine the middle pillow from the bed under the light of a small lamp.",
+                "Move the keys to the desk from the shelf.",
+                "move the clock from the table to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111534_544781/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190919_032916_694260/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the clock from the table to the dresser",
+                "Examine the middle pillow from the bed under the light of a small lamp.",
+                "Get CD to turn the light on.",
+                "Move the keys on the desk to the middle of the desk.",
+                "Turn on the desk lamp. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190918_223544_338918/traj_data.json",
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111534_544781/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn on the desk lamp. ",
+                "Examine the middle pillow from the bed under the light of a small lamp.",
+                "move the clock from the table to the dresser",
+                "Get CD to turn the light on.",
+                "Move the keys to the desk from the shelf."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111534_544781/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190919_032916_694260/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[]
 }

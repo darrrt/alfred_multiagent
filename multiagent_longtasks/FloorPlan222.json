@@ -36,8 +36,8 @@
                 "Retrieve a remote control, put in box, put box on coffee table."
             ],
             "relative_objects":[
-                "Box",
-                "RemoteControl"
+                "RemoteControl",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190909_053343_721331/traj_data.json":{
@@ -47,8 +47,8 @@
                 "put box and remote onto coffee table"
             ],
             "relative_objects":[
-                "Box",
-                "RemoteControl"
+                "RemoteControl",
+                "Box"
             ]
         },
         "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-222/trial_T20190909_060904_620677/traj_data.json":{
@@ -77,8 +77,8 @@
                 "Put a remote in the box and move them to the couch."
             ],
             "relative_objects":[
-                "Box",
-                "RemoteControl"
+                "RemoteControl",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-RemoteControl-Box-Sofa-222/trial_T20190907_210439_150864/traj_data.json":{
@@ -88,9 +88,9 @@
                 "Put a box with a remote control in it on the couch."
             ],
             "relative_objects":[
-                "Box",
                 "RemoteControl",
-                "Pillow"
+                "Pillow",
+                "Box"
             ]
         },
         "train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032356_906995/traj_data.json":{
@@ -154,8 +154,8 @@
                 "Move a box and remote to a chair."
             ],
             "relative_objects":[
-                "Box",
-                "RemoteControl"
+                "RemoteControl",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-222/trial_T20190908_052505_074311/traj_data.json":{
@@ -165,8 +165,8 @@
                 "Place a box with a remote on a different couch."
             ],
             "relative_objects":[
-                "Box",
-                "RemoteControl"
+                "RemoteControl",
+                "Box"
             ]
         },
         "valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051800_233558/traj_data.json":{
@@ -196,10 +196,356 @@
                 "Pick up a remote and put it in an empty cardboard box to put in the coffee table."
             ],
             "relative_objects":[
-                "Box",
                 "RemoteControl",
-                "CoffeeTable"
+                "CoffeeTable",
+                "Box"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put the remote in the box, and put the box on the coffee table. "
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190909_173505_631675/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a box with a remote inside to a chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-222/trial_T20190908_052446_462074/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a remote on an ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190910_020335_505993/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put 2 newspapers on top of a big black couch"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-222/trial_T20190908_144619_633437/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a remote control on a seat."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-222/trial_T20190906_201531_220119/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Place news paper on center table.",
+                "Put a remote control on a seat."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205451_924838/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-222/trial_T20190906_201531_220119/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a remote on an ottoman.",
+                "Moving a figurine from an end table to a coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190910_020335_505993/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a remote on an ottoman.",
+                "Put a watch on the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190910_020335_505993/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032408_369750/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a watch to a small wooden table.",
+                "Move a box with a remote inside to a chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_060047_228723/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-222/trial_T20190908_052446_462074/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the remote in the box, put the box on the couch",
+                "Place news paper on the center table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-Sofa-222/trial_T20190907_210439_150864/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205516_497013/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Move a watch to a small wooden table.",
+                "Put a remote in a box then put the box on a couch",
+                "Moving a figurine from an end table to a coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_060047_228723/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-222/trial_T20190908_052505_074311/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a watch on the coffee table. ",
+                "Place news paper on center table.",
+                "Put keys from a coffee table and a love seat respectively on a single sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032408_369750/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205451_924838/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-222/trial_T20190909_100237_670347/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a remote on an ottoman.",
+                "Moving a figurine from an end table to a coffee table. ",
+                "Take the keys from the coffee table and the TV stand, place on the love seat."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190909_053343_721331/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-222/trial_T20190909_061545_282829/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put keys from a coffee table and a love seat respectively on a single sofa.",
+                "put 2 newspapers on top of a big black couch",
+                "Place a box with a remote on an ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-222/trial_T20190909_100237_670347/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-222/trial_T20190908_144619_633437/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190909_053343_721331/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Moving a figurine from an end table to a coffee table. ",
+                "Put keys from a coffee table and a love seat respectively on a single sofa.",
+                "Put the remote in the box, and put the box on the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-222/trial_T20190909_100237_670347/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190909_173505_631675/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move a watch to the coffee table",
+                "Place news paper on center table.",
+                "Moving a figurine from an end table to a coffee table. ",
+                "Put a remote control on a seat."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032356_906995/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205451_924838/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-222/trial_T20190906_201531_220119/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a watch to the coffee table",
+                "Put keys from a coffee table and a love seat respectively on a single sofa.",
+                "Put the remote in the box, put the box on the couch",
+                "Place news paper on the center table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032356_906995/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-222/trial_T20190909_100237_670347/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-Sofa-222/trial_T20190907_210439_150864/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205516_497013/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a watch to the coffee table",
+                "put 2 newspapers on top of a big black couch",
+                "Put keys from a coffee table and a love seat respectively on a single sofa.",
+                "Put a remote in a box then put the box on a couch"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032356_906995/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-222/trial_T20190908_144619_633437/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-222/trial_T20190909_100237_670347/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-222/trial_T20190908_052505_074311/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a watch to a small wooden table.",
+                "Place a box with a remote on an ottoman.",
+                "Place news paper on center table.",
+                "Moving a figurine from an end table to a coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_060047_228723/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190909_053343_721331/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205451_924838/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place news paper on center table.",
+                "Put the remote in the box, put the box on the couch",
+                "Moving a figurine from an end table to a coffee table. ",
+                "Put a watch on the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205451_924838/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-Sofa-222/trial_T20190907_210439_150864/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032408_369750/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Moving a figurine from an end table to a coffee table. ",
+                "Place news paper on center table.",
+                "Move a watch to the coffee table",
+                "Place a box with a remote on an ottoman.",
+                "Take the keys from the coffee table and the TV stand, place on the love seat."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205451_924838/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032356_906995/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190909_053343_721331/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-222/trial_T20190909_061545_282829/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place news paper on the center table.",
+                "Put the remote in the box, and put the box on the coffee table. ",
+                "Moving a figurine from an end table to a coffee table. ",
+                "Put one watch on the end tale. ",
+                "Put keys from a coffee table and a love seat respectively on a single sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205516_497013/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-222/trial_T20190909_173505_631675/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-222/trial_T20190909_100237_670347/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a box with a remote inside to a chair. ",
+                "Place news paper on center table.",
+                "Moving a figurine from an end table to a coffee table. ",
+                "Put keys from a coffee table and a love seat respectively on a single sofa.",
+                "Put a watch on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-222/trial_T20190908_052446_462074/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205451_924838/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-222/trial_T20190909_100237_670347/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051800_233558/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Moving a figurine from an end table to a coffee table. ",
+                "Put a watch on a table.",
+                "Place news paper on the center table.",
+                "Take the keys from the coffee table and the TV stand, place on the love seat.",
+                "Put a remote control on a seat."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-222/trial_T20190907_131249_788749/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051800_233558/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-CoffeeTable-222/trial_T20190908_205516_497013/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-222/trial_T20190909_061545_282829/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-222/trial_T20190906_201531_220119/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

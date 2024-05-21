@@ -54,8 +54,8 @@
                 "Examine a newspaper by the light of a floor lamp"
             ],
             "relative_objects":[
-                "FloorLamp",
-                "Newspaper"
+                "Newspaper",
+                "FloorLamp"
             ]
         },
         "valid_unseen/look_at_obj_in_light-Laptop-None-FloorLamp-219/trial_T20190906_180922_517529/traj_data.json":{
@@ -98,8 +98,7 @@
         "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json":{
             "tasks":[
                 "Look at the box of tissues under the light of the lamp.",
-                "Examine a box of tissues by the light of a tall lamp.",
-                "To perform an task using both hands."
+                "Examine a box of tissues by the light of a tall lamp."
             ],
             "relative_objects":[
                 "TissueBox"
@@ -132,8 +131,8 @@
                 "Put a watch in a safe. "
             ],
             "relative_objects":[
-                "Box",
                 "Watch",
+                "Box",
                 "KeyChain"
             ]
         },
@@ -155,8 +154,8 @@
                 "place a watch in a safe box"
             ],
             "relative_objects":[
-                "Box",
                 "Watch",
+                "Box",
                 "KeyChain"
             ]
         },
@@ -168,21 +167,305 @@
             ],
             "relative_objects":[
                 "RemoteControl",
-                "Vase",
-                "CreditCard",
-                "CellPhone",
                 "TissueBox",
                 "Watch",
-                "Newspaper"
-            ]
-        },
-        "valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163327_486300/traj_data.json":{
-            "tasks":[
-                "Move both pillows from the blue chair to the tan sofa."
-            ],
-            "relative_objects":[
-                "Pillow"
+                "Newspaper",
+                "Vase",
+                "CellPhone",
+                "CreditCard"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Examine a credit card by the light of a tall lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-CreditCard-None-FloorLamp-219/trial_T20190909_103628_479585/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Hold a remote and turn on the lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-RemoteControl-None-FloorLamp-219/trial_T20190909_032721_511027/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up laptop and turn on lamp"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-Laptop-None-FloorLamp-219/trial_T20190906_180922_517529/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a watch to the inside of a small safe."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Hold a remote and turn on the lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-RemoteControl-None-FloorLamp-219/trial_T20190909_032721_511027/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Place keys in the safe.",
+                "Hold a remote and turn on the lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-RemoteControl-None-FloorLamp-219/trial_T20190909_032721_511027/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a set of keys on a chair.",
+                "Pick up laptop and turn on lamp"
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-219/trial_T20190909_042101_443154/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Laptop-None-FloorLamp-219/trial_T20190906_180922_517529/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a vase in a safe.",
+                "Move a watch to the inside of a small safe."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a vase in a safe.",
+                "Examine a newspaper by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a watch to the inside of a small safe.",
+                "Put a vase in a safe."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Look at the box of tissues under the light of the lamp.",
+                "Examine a newspaper by the light of a floor lamp.",
+                "Place a watch inside a safe."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074643_810052/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up laptop and turn on lamp",
+                "Examine a newspaper by the light of a floor lamp.",
+                "Place keys in the safe."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-Laptop-None-FloorLamp-219/trial_T20190906_180922_517529/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json",
+                    "valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Hold a remote and turn on the lamp.",
+                "Examine a newspaper by the light of a floor lamp.",
+                "Look at the box of tissues under the light of the lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-RemoteControl-None-FloorLamp-219/trial_T20190909_032721_511027/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the watch from the cabinet to the safe",
+                "Put a vase in a safe.",
+                "Examine a newspaper by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074556_124850/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Look at the box of tissues under the light of the lamp.",
+                "Examine a newspaper by the light of a floor lamp.",
+                "Put a vase in a safe."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Examine a newspaper by the light of a floor lamp.",
+                "Put a vase in a safe.",
+                "Place a box with a set of keys on a chair.",
+                "Look at the box of tissues under the light of the lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/traj_data.json",
+                    "valid_unseen/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-219/trial_T20190909_042101_443154/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a newspaper by the light of a floor lamp.",
+                "Look at the box of tissues under the light of the lamp.",
+                "Put a vase in a safe.",
+                "Place keys in the safe."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/traj_data.json",
+                    "valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Hold a remote and turn on the lamp.",
+                "Put a vase in a safe.",
+                "Put a cardboard box with keys in it on the seat of a blue chair.",
+                "Examine a newspaper by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-RemoteControl-None-FloorLamp-219/trial_T20190909_032721_511027/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/traj_data.json",
+                    "valid_unseen/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-219/trial_T20190918_185132_685516/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a vase in a safe.",
+                "Look at the box of tissues under the light of the lamp.",
+                "Hold a remote and turn on the lamp.",
+                "Examine a key chain by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-RemoteControl-None-FloorLamp-219/trial_T20190909_032721_511027/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-KeyChain-None-FloorLamp-219/trial_T20190909_103507_522012/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a cardboard box with keys in it on the seat of a blue chair.",
+                "Look at the box of tissues under the light of the lamp.",
+                "Put a vase in a safe.",
+                "Examine a newspaper by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-219/trial_T20190918_185132_685516/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Examine a newspaper by the light of a floor lamp.",
+                "Hold a remote and turn on the lamp.",
+                "Look at the box of tissues under the light of the lamp.",
+                "Place keys in the safe.",
+                "Put a vase in a safe."
+            ],
+            "orign":[
+                [
+                    "valid_unseen/look_at_obj_in_light-Newspaper-None-FloorLamp-219/trial_T20190907_170955_824797/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-RemoteControl-None-FloorLamp-219/trial_T20190909_032721_511027/traj_data.json",
+                    "valid_unseen/look_at_obj_in_light-TissueBox-None-FloorLamp-219/trial_T20190906_213948_501157/traj_data.json",
+                    "valid_unseen/pick_two_obj_and_place-KeyChain-None-Safe-219/trial_T20190909_012027_782483/traj_data.json",
+                    "valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205204_244321/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

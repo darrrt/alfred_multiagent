@@ -8,10 +8,10 @@
                 "take the credit card from one desk and put it on the shelf of the other."
             ],
             "relative_objects":[
-                "Shelf",
-                "CreditCard",
                 "Desk",
-                "Book"
+                "CreditCard",
+                "Book",
+                "Shelf"
             ]
         },
         "train/pick_and_place_simple-CreditCard-None-Shelf-307/trial_T20190908_141030_925653/traj_data.json":{
@@ -21,9 +21,9 @@
                 "Place a credit card on a shelf."
             ],
             "relative_objects":[
-                "Shelf",
                 "CreditCard",
-                "Book"
+                "Book",
+                "Shelf"
             ]
         },
         "train/pick_and_place_simple-CreditCard-None-Shelf-307/trial_T20190908_141017_721379/traj_data.json":{
@@ -33,10 +33,10 @@
                 "take the bank card from the desk, put it on the desk shelf"
             ],
             "relative_objects":[
-                "Shelf",
-                "CreditCard",
                 "Desk",
-                "Book"
+                "CreditCard",
+                "Book",
+                "Shelf"
             ]
         },
         "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json":{
@@ -46,8 +46,8 @@
                 "Carry a tennis racket while turning on a light"
             ],
             "relative_objects":[
-                "DeskLamp",
-                "TennisRacket"
+                "TennisRacket",
+                "DeskLamp"
             ]
         },
         "train/look_at_obj_in_light-CD-None-DeskLamp-307/trial_T20190906_200412_559520/traj_data.json":{
@@ -67,8 +67,8 @@
                 "Put a bowl with a credit card in it on the desk"
             ],
             "relative_objects":[
-                "CreditCard",
                 "Desk",
+                "CreditCard",
                 "Bowl"
             ]
         },
@@ -112,8 +112,8 @@
                 "To put a card in a bowl plus move them to the left desk."
             ],
             "relative_objects":[
-                "CreditCard",
                 "Desk",
+                "CreditCard",
                 "Bowl"
             ]
         },
@@ -124,8 +124,8 @@
                 "Turn on the desk lamp. "
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "train/pick_two_obj_and_place-Laptop-None-Desk-307/trial_T20190909_005000_349735/traj_data.json":{
@@ -133,8 +133,8 @@
                 "Place lap tops on the desk."
             ],
             "relative_objects":[
-                "Laptop",
-                "Desk"
+                "Desk",
+                "Laptop"
             ]
         },
         "train/pick_and_place_simple-Pencil-None-Desk-307/trial_T20190909_075126_209289/traj_data.json":{
@@ -165,9 +165,9 @@
                 "Move a credit card from one desk to an adjacent desk."
             ],
             "relative_objects":[
+                "Desk",
                 "CreditCard",
-                "Laptop",
-                "Desk"
+                "Laptop"
             ]
         },
         "train/pick_two_obj_and_place-AlarmClock-None-Desk-307/trial_T20190907_013719_752378/traj_data.json":{
@@ -196,8 +196,8 @@
                 "Move the pens from the small desk and the large desk into the top large desk drawer."
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "train/pick_two_obj_and_place-Pen-None-Drawer-307/trial_T20190909_055453_986512/traj_data.json":{
@@ -237,9 +237,9 @@
                 "Put an alarm clock on the desk."
             ],
             "relative_objects":[
-                "AlarmClock",
+                "Desk",
                 "CD",
-                "Desk"
+                "AlarmClock"
             ]
         },
         "tests_seen/trial_T20190907_143702_923249/traj_data.json":{
@@ -248,8 +248,8 @@
                 "place a credit card on the right side of the larger desk"
             ],
             "relative_objects":[
-                "CreditCard",
                 "Pen",
+                "CreditCard",
                 "Desk"
             ]
         },
@@ -263,12 +263,12 @@
             ],
             "relative_objects":[
                 "RemoteControl",
-                "Pencil",
-                "CreditCard",
                 "Book",
-                "CellPhone",
                 "Cloth",
-                "Pen"
+                "Pencil",
+                "Pen",
+                "CellPhone",
+                "CreditCard"
             ]
         },
         "tests_seen/trial_T20190919_040146_329866/traj_data.json":{
@@ -288,9 +288,337 @@
                 "Place a pencil on a desk."
             ],
             "relative_objects":[
-                "Pencil",
-                "Desk"
+                "Desk",
+                "Pencil"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put the alarm clock on the large wooden desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072303_146844/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the bowl with credit card on the study table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Desk-307/trial_T20190908_132717_173929/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "re arranging clocks in a room."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-AlarmClock-None-Desk-307/trial_T20190907_013719_752378/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on the large desk. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_075104_529646/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Get the black pens and place in the top drawer of the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Drawer-307/trial_T20190909_055453_986512/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Take a CD to a new desk",
+                "Put the alarm clock on the large wooden desk"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-307/trial_T20190906_200412_559520/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072303_146844/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Carry an alarm clock to place on top of a CD that is on top of a desk",
+                "Move a pencil to a different desk. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072329_828593/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-307/trial_T20190909_075126_209289/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place lap tops on the desk.",
+                "Examine a tennis racket by the light of a desk lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-307/trial_T20190909_005000_349735/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move an alarm clock from a table to a desk",
+                "Place lap tops on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072317_014092/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-307/trial_T20190909_005000_349735/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move an alarm clock from a table to a desk",
+                "Examine the white rag by the light of the lamp on the desk. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072317_014092/traj_data.json",
+                    "train/look_at_obj_in_light-Cloth-None-DeskLamp-307/trial_T20190907_133721_464394/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put a bowl with a card in it on the small desk. ",
+                "Put the alarm clock on the large wooden desk",
+                "Examine the white rag by the light of the lamp on the desk. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-SideTable-307/trial_T20190909_145014_643118/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072303_146844/traj_data.json",
+                    "train/look_at_obj_in_light-Cloth-None-DeskLamp-307/trial_T20190907_133721_464394/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move an alarm clock from a table to a desk",
+                "Put a bowl with a credit card in it on the small desk. ",
+                "Get the black pens and place in the top drawer of the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072317_014092/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-SideTable-307/trial_T20190909_144724_449929/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Drawer-307/trial_T20190909_055453_986512/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a tennis racket by the light of a desk lamp.",
+                "Get the black pens and place in the top drawer of the desk.",
+                "Carry an alarm clock to place on top of a CD that is on top of a desk"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Drawer-307/trial_T20190909_055453_986512/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072329_828593/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a bowl with a credit card in it on a desk.",
+                "Examine a tennis racket by the light of a desk lamp.",
+                "Examine a pencil by the light of a desk lamp."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190919_040146_329866/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "train/look_at_obj_in_light-Pencil-None-DeskLamp-307/trial_T20190909_014346_726857/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a tennis racket by the light of a desk lamp.",
+                "move an alarm clock from a table to a desk",
+                "To put a credit card in a bowl and put the bowl down on the desk. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072317_014092/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Desk-307/trial_T20190919_011916_023298/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move a pencil to a different desk. ",
+                "Examine a tennis racket by the light of a desk lamp.",
+                "Put a bowl with a card in it on the small desk. ",
+                "move an alarm clock from a table to a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-307/trial_T20190909_075126_209289/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-SideTable-307/trial_T20190909_145014_643118/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072317_014092/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Take a CD to a new desk",
+                "Examine a tennis racket by the light of a desk lamp.",
+                "To move a credit card to a desk. ",
+                "move an alarm clock from a table to a desk"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-307/trial_T20190906_200412_559520/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "tests_seen/trial_T20190907_143702_923249/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072317_014092/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a glass bowl with a credit card in it on a wooden table.",
+                "Move the pens from the small desk and the large desk into the top large desk drawer.",
+                "Examine the white rag by the light of the lamp on the desk. ",
+                "Examine a tennis racket by the light of a desk lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-SideTable-307/trial_T20190909_145133_564616/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Drawer-307/trial_T20190919_075916_872303/traj_data.json",
+                    "train/look_at_obj_in_light-Cloth-None-DeskLamp-307/trial_T20190907_133721_464394/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on the large desk. ",
+                "Examine a tennis racket by the light of a desk lamp.",
+                "re arranging clocks in a room.",
+                "To retrieve a credit card and place it on the desk. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_075104_529646/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "train/pick_two_obj_and_place-AlarmClock-None-Desk-307/trial_T20190907_013719_752378/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-307/trial_T20190907_143649_550638/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a tennis racket by the light of a desk lamp.",
+                "Get the black pens and place in the top drawer of the desk.",
+                "move an alarm clock from a table to a desk",
+                "Put a bowl with a credit card in it on the small desk. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Drawer-307/trial_T20190909_055453_986512/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072317_014092/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-SideTable-307/trial_T20190909_144724_449929/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Examine the white rag by the light of the lamp on the desk. ",
+                "Put the bowl with credit card on the study table",
+                "Put the alarm clock on the large wooden desk",
+                "Examine a tennis racket by the light of a desk lamp.",
+                "Move the pens from the small desk and the large desk into the top large desk drawer."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Cloth-None-DeskLamp-307/trial_T20190907_133721_464394/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Desk-307/trial_T20190908_132717_173929/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072303_146844/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Drawer-307/trial_T20190919_075916_872303/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the bowl with credit card on the study table",
+                "re arranging clocks in a room.",
+                "Take a CD to a new desk",
+                "Examine the white rag by the light of the lamp on the desk. ",
+                "Examine a tennis racket by the light of a desk lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Desk-307/trial_T20190908_132717_173929/traj_data.json",
+                    "train/pick_two_obj_and_place-AlarmClock-None-Desk-307/trial_T20190907_013719_752378/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-307/trial_T20190906_200412_559520/traj_data.json",
+                    "train/look_at_obj_in_light-Cloth-None-DeskLamp-307/trial_T20190907_133721_464394/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pencil to a different desk. ",
+                "Put the alarm clock on the large wooden desk",
+                "Examine a tennis racket by the light of a desk lamp.",
+                "Put the credit card from the table to  the book shelf",
+                "Get the black pens and place in the top drawer of the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-307/trial_T20190909_075126_209289/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072303_146844/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-307/trial_T20190907_164320_377785/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Shelf-307/trial_T20190908_141045_644908/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Drawer-307/trial_T20190909_055453_986512/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

@@ -8,9 +8,9 @@
                 "Moving a bowl to the shelf."
             ],
             "relative_objects":[
-                "Shelf",
                 "Mug",
-                "Bowl"
+                "Bowl",
+                "Shelf"
             ]
         },
         "train/pick_heat_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_211214_598438/traj_data.json":{
@@ -63,9 +63,9 @@
                 "Heat a plate to put in the sink."
             ],
             "relative_objects":[
+                "Pot",
                 "Kettle",
-                "Plate",
-                "Pot"
+                "Plate"
             ]
         },
         "train/pick_heat_then_place_in_recep-Plate-None-SinkBasin-7/trial_T20190908_053317_597357/traj_data.json":{
@@ -126,12 +126,12 @@
                 "Put some cold lettuce on the counter."
             ],
             "relative_objects":[
-                "Knife",
-                "Plate",
                 "PepperShaker",
+                "Plate",
+                "Knife",
                 "SaltShaker",
-                "Lettuce",
-                "ButterKnife"
+                "ButterKnife",
+                "Lettuce"
             ]
         },
         "train/pick_cool_then_place_in_recep-LettuceSliced-None-CounterTop-7/trial_T20190908_033950_103965/traj_data.json":{
@@ -152,8 +152,8 @@
                 "drop a cooled lettuce slice on the table"
             ],
             "relative_objects":[
-                "Plate",
                 "Spoon",
+                "Plate",
                 "Lettuce"
             ]
         },
@@ -164,8 +164,8 @@
                 "Put the bowl with water on the shelf rack"
             ],
             "relative_objects":[
-                "SoapBottle",
-                "Bowl"
+                "Bowl",
+                "SoapBottle"
             ]
         },
         "train/pick_clean_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190908_152810_145685/traj_data.json":{
@@ -175,10 +175,10 @@
                 "Place a cleaned bowl on a shelf"
             ],
             "relative_objects":[
-                "DishSponge",
                 "Knife",
-                "SoapBottle",
-                "Bowl"
+                "Bowl",
+                "DishSponge",
+                "SoapBottle"
             ]
         },
         "train/pick_clean_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190908_152915_959135/traj_data.json":{
@@ -189,8 +189,8 @@
             ],
             "relative_objects":[
                 "ButterKnife",
-                "DishSponge",
-                "Bowl"
+                "Bowl",
+                "DishSponge"
             ]
         },
         "train/pick_cool_then_place_in_recep-Bowl-None-Microwave-7/trial_T20190908_230837_778972/traj_data.json":{
@@ -200,8 +200,8 @@
                 "Place a chilled container in a microwave."
             ],
             "relative_objects":[
-                "Cup",
-                "Bowl"
+                "Bowl",
+                "Cup"
             ]
         },
         "train/pick_cool_then_place_in_recep-Bowl-None-Microwave-7/trial_T20190908_231310_981246/traj_data.json":{
@@ -211,8 +211,8 @@
                 "put a chilled dish into a microwave"
             ],
             "relative_objects":[
-                "Microwave",
-                "Bowl"
+                "Bowl",
+                "Microwave"
             ]
         },
         "train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195/traj_data.json":{
@@ -263,8 +263,8 @@
                 "Put the chilled cabbage in the sink"
             ],
             "relative_objects":[
-                "Plate",
                 "Sink",
+                "Plate",
                 "Lettuce"
             ]
         },
@@ -298,9 +298,9 @@
                 "pick up the knife from the sink. cut the apple and put the knife in the microwave. Pick up a piece of the apple and put it in the microwave too."
             ],
             "relative_objects":[
+                "Knife",
                 "Plate",
                 "Apple",
-                "Knife",
                 "Microwave"
             ]
         },
@@ -325,8 +325,8 @@
             ],
             "relative_objects":[
                 "Knife",
-                "Pan",
-                "Tomato"
+                "Tomato",
+                "Pan"
             ]
         },
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-CounterTop-7/trial_T20190908_235555_653612/traj_data.json":{
@@ -338,8 +338,8 @@
             "relative_objects":[
                 "Pot",
                 "Knife",
-                "Pan",
-                "Tomato"
+                "Tomato",
+                "Pan"
             ]
         },
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-CounterTop-7/trial_T20190918_143259_481377/traj_data.json":{
@@ -362,8 +362,8 @@
                 "Place an egg on the counter in to the fridge"
             ],
             "relative_objects":[
-                "Fridge",
-                "Egg"
+                "Egg",
+                "Fridge"
             ]
         },
         "train/pick_and_place_simple-Egg-None-Fridge-7/trial_T20190919_044140_870607/traj_data.json":{
@@ -421,9 +421,9 @@
                 "Wash a knife and tomato slice, put the tomato on the table."
             ],
             "relative_objects":[
-                "DishSponge",
                 "Knife",
-                "Tomato"
+                "Tomato",
+                "DishSponge"
             ]
         },
         "train/pick_heat_then_place_in_recep-Plate-None-Fridge-7/trial_T20190909_082335_735663/traj_data.json":{
@@ -453,10 +453,10 @@
                 "Put a heated plate in the fridge."
             ],
             "relative_objects":[
-                "Kettle",
-                "Plate",
                 "Pot",
-                "Knife"
+                "Knife",
+                "Plate",
+                "Kettle"
             ]
         },
         "train/pick_two_obj_and_place-Bread-None-Fridge-7/trial_T20190907_101103_987850/traj_data.json":{
@@ -484,8 +484,8 @@
                 "Place a slice of heated bread next to the coffee mug on the kitchen table. "
             ],
             "relative_objects":[
-                "Plate",
                 "Mug",
+                "Plate",
                 "Bread"
             ]
         },
@@ -496,9 +496,9 @@
                 "place a microwaved slice of bread on top of the kitchen table"
             ],
             "relative_objects":[
+                "Knife",
                 "Plate",
                 "Bread",
-                "Knife",
                 "Pan"
             ]
         },
@@ -593,8 +593,8 @@
                 "Put a chilled loaf of bread on the round wooden table."
             ],
             "relative_objects":[
-                "Bread",
                 "Knife",
+                "Bread",
                 "Pan"
             ]
         },
@@ -605,8 +605,8 @@
                 "Put a butter knife in a wooden cup in the sink."
             ],
             "relative_objects":[
-                "Cup",
-                "Knife"
+                "Knife",
+                "Cup"
             ]
         },
         "train/pick_heat_then_place_in_recep-Mug-None-Shelf-7/trial_T20190907_022308_669309/traj_data.json":{
@@ -616,8 +616,8 @@
                 "Place a heated mug on the top shelf of the shelving unit."
             ],
             "relative_objects":[
-                "Cup",
-                "Mug"
+                "Mug",
+                "Cup"
             ]
         },
         "train/pick_heat_then_place_in_recep-Mug-None-Shelf-7/trial_T20190907_022345_834766/traj_data.json":{
@@ -627,8 +627,8 @@
                 "Place a heated mug on a shelf."
             ],
             "relative_objects":[
-                "Mug",
-                "Kettle"
+                "Kettle",
+                "Mug"
             ]
         },
         "train/pick_heat_then_place_in_recep-Mug-None-Shelf-7/trial_T20190907_022430_495851/traj_data.json":{
@@ -638,9 +638,9 @@
                 "Put a heated mug on the wooded rack. "
             ],
             "relative_objects":[
+                "Kettle",
                 "Cup",
-                "Mug",
-                "Kettle"
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-AppleSliced-Pot-Fridge-7/trial_T20190908_152223_666030/traj_data.json":{
@@ -657,13 +657,12 @@
         "train/pick_and_place_with_movable_recep-AppleSliced-Pot-Fridge-7/trial_T20190918_160809_847364/traj_data.json":{
             "tasks":[
                 "Place a pot, containing an apple section, into the refrigerator.",
-                "cut an apple, put a slice in a caldron and put both in the fridge",
                 "Put a knife and a pot with an apple slice in the fridge"
             ],
             "relative_objects":[
                 "Pot",
-                "Apple",
-                "Knife"
+                "Knife",
+                "Apple"
             ]
         },
         "train/pick_and_place_with_movable_recep-AppleSliced-Pot-Fridge-7/trial_T20190918_234921_161910/traj_data.json":{
@@ -674,8 +673,8 @@
             ],
             "relative_objects":[
                 "Pot",
-                "Apple",
-                "Knife"
+                "Knife",
+                "Apple"
             ]
         },
         "train/pick_cool_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_231129_582705/traj_data.json":{
@@ -758,8 +757,8 @@
                 "Place a microwaved plate on a shelf."
             ],
             "relative_objects":[
-                "Plate",
-                "Pot"
+                "Pot",
+                "Plate"
             ]
         },
         "train/pick_and_place_with_movable_recep-DishSponge-Pot-DiningTable-7/trial_T20190909_061528_164423/traj_data.json":{
@@ -770,8 +769,8 @@
             ],
             "relative_objects":[
                 "Pot",
-                "DishSponge",
-                "Pan"
+                "Pan",
+                "DishSponge"
             ]
         },
         "train/pick_and_place_with_movable_recep-DishSponge-Pot-DiningTable-7/trial_T20190909_061616_878239/traj_data.json":{
@@ -792,9 +791,9 @@
                 "Place a heated mug into a coffee maker"
             ],
             "relative_objects":[
+                "Kettle",
                 "Cup",
-                "Mug",
-                "Kettle"
+                "Mug"
             ]
         },
         "train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_071055_483693/traj_data.json":{
@@ -804,15 +803,14 @@
                 "get the mug from the coffee machine, chill it, then put it back"
             ],
             "relative_objects":[
-                "Cup",
-                "Mug"
+                "Mug",
+                "Cup"
             ]
         },
         "train/pick_and_place_with_movable_recep-Potato-Pot-Fridge-7/trial_T20190908_095042_930685/traj_data.json":{
             "tasks":[
                 "Put a potato in a pot in the fridge",
-                "place a potato inside a pot inside the fridge",
-                "Pick up a potato, pot, place both into the fridge"
+                "place a potato inside a pot inside the fridge"
             ],
             "relative_objects":[
                 "Pot",
@@ -828,8 +826,8 @@
             ],
             "relative_objects":[
                 "Pot",
-                "Potato",
-                "Pan"
+                "Pan",
+                "Potato"
             ]
         },
         "train/pick_and_place_with_movable_recep-Potato-Pot-Fridge-7/trial_T20190908_223840_799895/traj_data.json":{
@@ -861,8 +859,8 @@
                 "Place a heated mug in a coffee maker."
             ],
             "relative_objects":[
-                "Mug",
-                "Kettle"
+                "Kettle",
+                "Mug"
             ]
         },
         "train/pick_heat_then_place_in_recep-PotatoSliced-None-DiningTable-7/trial_T20190908_032630_694906/traj_data.json":{
@@ -872,8 +870,8 @@
                 "Placing a cooked slice of potato on a table"
             ],
             "relative_objects":[
-                "Plate",
                 "Knife",
+                "Plate",
                 "Potato"
             ]
         },
@@ -884,10 +882,10 @@
                 "Slice a potato, microwave a slice, put the slice on the table"
             ],
             "relative_objects":[
-                "Plate",
                 "Knife",
-                "Potato",
-                "Pan"
+                "Plate",
+                "Pan",
+                "Potato"
             ]
         },
         "train/pick_clean_then_place_in_recep-Kettle-None-DiningTable-7/trial_T20190907_144235_625346/traj_data.json":{
@@ -898,8 +896,8 @@
             ],
             "relative_objects":[
                 "Pot",
-                "Kettle",
-                "Spoon"
+                "Spoon",
+                "Kettle"
             ]
         },
         "train/pick_clean_then_place_in_recep-Kettle-None-DiningTable-7/trial_T20190907_144338_014196/traj_data.json":{
@@ -960,8 +958,8 @@
                 "Put a pan with a slice of lettuce in it inside the fridge. "
             ],
             "relative_objects":[
-                "Lettuce",
-                "Pan"
+                "Pan",
+                "Lettuce"
             ]
         },
         "train/pick_and_place_with_movable_recep-LettuceSliced-Pan-Fridge-7/trial_T20190907_213935_432753/traj_data.json":{
@@ -971,9 +969,9 @@
                 "Put a pan with a knife and lettuce slice in the fridge."
             ],
             "relative_objects":[
-                "Lettuce",
                 "Knife",
-                "Pan"
+                "Pan",
+                "Lettuce"
             ]
         },
         "train/pick_and_place_with_movable_recep-LettuceSliced-Pan-Fridge-7/trial_T20190907_215228_921033/traj_data.json":{
@@ -995,8 +993,8 @@
                 "Put the chilled mug on the shelf rack"
             ],
             "relative_objects":[
-                "Shelf",
-                "Mug"
+                "Mug",
+                "Shelf"
             ]
         },
         "train/pick_cool_then_place_in_recep-Mug-None-Shelf-7/trial_T20190908_193015_839594/traj_data.json":{
@@ -1006,8 +1004,8 @@
                 "Place a chilled mug on a shelf"
             ],
             "relative_objects":[
-                "Cup",
-                "Mug"
+                "Mug",
+                "Cup"
             ]
         },
         "train/pick_cool_then_place_in_recep-Mug-None-Shelf-7/trial_T20190908_135638_621187/traj_data.json":{
@@ -1017,8 +1015,8 @@
                 "Put a chilled mug on the shelf."
             ],
             "relative_objects":[
-                "Cup",
-                "Mug"
+                "Mug",
+                "Cup"
             ]
         },
         "train/pick_heat_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_144243_812132/traj_data.json":{
@@ -1028,8 +1026,8 @@
                 "Put a warmed plate in the cabinet next to the stove."
             ],
             "relative_objects":[
-                "Plate",
-                "Knife"
+                "Knife",
+                "Plate"
             ]
         },
         "train/pick_heat_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_144322_406779/traj_data.json":{
@@ -1085,9 +1083,9 @@
             ],
             "relative_objects":[
                 "Fridge",
-                "Microwave",
+                "Tomato",
                 "Pan",
-                "Tomato"
+                "Microwave"
             ]
         },
         "train/pick_heat_then_place_in_recep-Tomato-None-Fridge-7/trial_T20190909_022805_528384/traj_data.json":{
@@ -1097,8 +1095,8 @@
                 "put heated tomato in fridge"
             ],
             "relative_objects":[
-                "Spatula",
                 "Knife",
+                "Spatula",
                 "Pan",
                 "Tomato"
             ]
@@ -1123,11 +1121,11 @@
                 "Wash a knife and plate and put them away. "
             ],
             "relative_objects":[
-                "Knife",
                 "Plate",
+                "Knife",
+                "Spatula",
                 "SoapBottle",
-                "DishSponge",
-                "Spatula"
+                "DishSponge"
             ]
         },
         "train/pick_and_place_with_movable_recep-ButterKnife-Cup-DiningTable-7/trial_T20190908_232510_740466/traj_data.json":{
@@ -1137,8 +1135,8 @@
                 "Put a cup with a knife in it on the table."
             ],
             "relative_objects":[
-                "Cup",
-                "Knife"
+                "Knife",
+                "Cup"
             ]
         },
         "train/pick_and_place_with_movable_recep-ButterKnife-Cup-DiningTable-7/trial_T20190909_083946_401098/traj_data.json":{
@@ -1148,8 +1146,8 @@
                 "Put the cup with a knife in it on the table."
             ],
             "relative_objects":[
-                "Cup",
-                "Knife"
+                "Knife",
+                "Cup"
             ]
         },
         "train/pick_clean_then_place_in_recep-Kettle-None-Shelf-7/trial_T20190907_200421_808214/traj_data.json":{
@@ -1170,9 +1168,9 @@
                 "Bring the potato over to the table, put it down next to the lettuce. "
             ],
             "relative_objects":[
+                "Lettuce",
                 "Plate",
-                "Potato",
-                "Lettuce"
+                "Potato"
             ]
         },
         "train/pick_heat_then_place_in_recep-Potato-None-DiningTable-7/trial_T20190907_030654_844245/traj_data.json":{
@@ -1214,9 +1212,9 @@
                 "Put a cup with a knife in it in the sink."
             ],
             "relative_objects":[
-                "Cup",
                 "Sink",
-                "Knife"
+                "Knife",
+                "Cup"
             ]
         },
         "valid_seen/pick_cool_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_231206_512424/traj_data.json":{
@@ -1269,9 +1267,9 @@
                 "Put a knife and cup in the sink"
             ],
             "relative_objects":[
-                "Cup",
                 "Knife",
-                "Bowl"
+                "Bowl",
+                "Cup"
             ]
         },
         "tests_seen/trial_T20190908_032235_790554/traj_data.json":{
@@ -1283,8 +1281,8 @@
             "relative_objects":[
                 "Plate",
                 "ButterKnife",
-                "Potato",
-                "Pan"
+                "Pan",
+                "Potato"
             ]
         },
         "tests_seen/trial_T20190907_051429_475883/traj_data.json":{
@@ -1319,5 +1317,450 @@
                 "Potato"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Place a warm plate in a tall cabinet."
+            ],
+            "orign":[
+                [
+                    "train/pick_heat_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_144322_406779/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Cool bread in fridge. "
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Bread-None-CounterTop-7/trial_T20190909_021904_818116/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a pot, containing an apple section, into the refrigerator."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-AppleSliced-Pot-Fridge-7/trial_T20190918_160809_847364/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put an orange cup and knife onto a table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-ButterKnife-Cup-DiningTable-7/trial_T20190909_083946_401098/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a cleaned bowl on a shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190908_152949_169018/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Place a chilled plate in a microwave.",
+                "Place a washed kettle on the second shelf from the bottom across from the door."
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Plate-None-Microwave-7/trial_T20190909_130503_412416/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-Shelf-7/trial_T20190907_200421_808214/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "cook a tomato then put it away inside the fridge",
+                "Place the plate in the fridge."
+            ],
+            "orign":[
+                [
+                    "train/pick_heat_then_place_in_recep-Tomato-None-Fridge-7/trial_T20190909_022805_528384/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Warm a plate then put it away.",
+                "Heat and then chill a tomato."
+            ],
+            "orign":[
+                [
+                    "train/pick_heat_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_144243_812132/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Tomato-None-Fridge-7/trial_T20190909_022842_145387/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "cook a tomato then put it away inside the fridge",
+                "Place a cleaned bowl on a shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_heat_then_place_in_recep-Tomato-None-Fridge-7/trial_T20190909_022805_528384/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190908_152949_169018/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put an egg on the top shelf inside the fridge.",
+                "Put a clean plate in the microwave."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Egg-None-Fridge-7/trial_T20190919_044140_870607/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Plate-None-Microwave-7/trial_T20190907_170059_704503/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Washed a slice tomato and place it back on the circle table.",
+                "Put chilled lettuce into the sink.",
+                "Place an egg in the fridge."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-TomatoSliced-None-DiningTable-7/trial_T20190907_071833_893483/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Lettuce-None-SinkBasin-7/trial_T20190909_001013_347160/traj_data.json",
+                    "tests_seen/trial_T20190919_025204_596754/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a chilled loaf of bread on a table.",
+                "cook a tomato then put it away inside the fridge",
+                "Put a heated mug on the coffee machine. "
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Bread-None-DiningTable-7/trial_T20190908_003406_355799/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Tomato-None-Fridge-7/trial_T20190909_022805_528384/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_105411_917940/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a chilled pot on the stove. ",
+                "place the tomato on the counter ",
+                "Put a heated plate on the table."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_051429_475883/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Tomato-None-CounterTop-7/trial_T20190906_185127_887683/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Plate-None-DiningTable-7/trial_T20190907_223811_005665/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a chilled pot on the stove. ",
+                "Heat the white cup from table in the microwave, put it on the shelf",
+                "Place a cooked slice of potato on the table"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_051429_475883/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Mug-None-Shelf-7/trial_T20190907_022308_669309/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-PotatoSliced-None-DiningTable-7/trial_T20190908_032410_853210/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a warmed pan in a cabinet.",
+                "place a cooled clear bowl inside the microwave",
+                "Place a washed kettle on the second shelf from the bottom across from the door."
+            ],
+            "orign":[
+                [
+                    "train/pick_heat_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_144205_820330/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bowl-None-Microwave-7/trial_T20190908_230837_778972/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-Shelf-7/trial_T20190907_200421_808214/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put an egg on the top shelf inside the fridge.",
+                "Put a heated coffee cup on the top shelf.",
+                "Put the chilled bowl in the microwave",
+                "Place a chilled plate in a microwave."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Egg-None-Fridge-7/trial_T20190919_044140_870607/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Mug-None-Shelf-7/trial_T20190907_022430_495851/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bowl-None-Microwave-7/trial_T20190908_231310_981246/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Plate-None-Microwave-7/trial_T20190909_130503_412416/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a cold apple slice in the microwave.",
+                "Place a clean kettle on top of the table.",
+                "Cool down a cup from the shelf.",
+                "Put an egg in the fridge."
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-AppleSliced-None-Microwave-7/trial_T20190912_053322_303385/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-DiningTable-7/trial_T20190907_144338_014196/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_222304_743502/traj_data.json",
+                    "train/pick_and_place_simple-Egg-None-Fridge-7/trial_T20190906_164825_242073/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a chilled pan on a kitchen table",
+                "Put a cold plate in the microwave.",
+                "Place a cold apple slice in the microwave.",
+                "grab the wine bottle from the sink under the sink, put it on the shelf"
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_cool_then_place_in_recep-Pan-None-DiningTable-7/trial_T20190908_232648_241836/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Plate-None-Microwave-7/trial_T20190909_130643_778745/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-AppleSliced-None-Microwave-7/trial_T20190912_053322_303385/traj_data.json",
+                    "train/pick_and_place_simple-WineBottle-None-Shelf-7/trial_T20190908_114629_589874/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a knife in a cup in the sink. ",
+                "Put chilled lettuce into the sink.",
+                "To heat a plate and put it in the sink. ",
+                "Put an egg on the top shelf inside the fridge."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-ButterKnife-Cup-SinkBasin-7/trial_T20190908_233623_218810/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Lettuce-None-SinkBasin-7/trial_T20190909_001013_347160/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Plate-None-SinkBasin-7/trial_T20190908_154638_808308/traj_data.json",
+                    "train/pick_and_place_simple-Egg-None-Fridge-7/trial_T20190919_044140_870607/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a wine bottle on the second from the bottom shelf, in the kitchen. ",
+                "cool the cup in the refrigerator, put the cup in the coffee machine",
+                "Move a pot and sponge to the table. ",
+                "Put a chilled pan on a kitchen table"
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-WineBottle-None-Shelf-7/trial_T20190907_200154_378982/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_071121_293695/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-DishSponge-Pot-DiningTable-7/trial_T20190909_061616_878239/traj_data.json",
+                    "valid_seen/pick_cool_then_place_in_recep-Pan-None-DiningTable-7/trial_T20190908_232648_241836/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Place a heated plate on the counter.",
+                "Place a cleaned bowl on a shelf",
+                "Heat and then chill a tomato.",
+                "To chill a loaf of bread and put it on the counter. ",
+                "place a microwaved cup on the brown shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_heat_then_place_in_recep-Plate-None-CounterTop-7/trial_T20190909_100702_050461/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190908_152949_169018/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Tomato-None-Fridge-7/trial_T20190909_022842_145387/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bread-None-CounterTop-7/trial_T20190909_012427_332210/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_211214_598438/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To put a pot with a cleaning sponge on the table",
+                "To put the bread in the fridge.",
+                "To chill a mug and place it on the shelf. ",
+                "Place a cleaned bowl on a shelf",
+                "Put a cold plate in the microwave."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-DishSponge-Pot-DiningTable-7/trial_T20190909_061528_164423/traj_data.json",
+                    "train/pick_two_obj_and_place-Bread-None-Fridge-7/trial_T20190907_101103_987850/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Mug-None-Shelf-7/trial_T20190908_193123_092416/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190908_152949_169018/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Plate-None-Microwave-7/trial_T20190909_130643_778745/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Cool down a cup from the shelf.",
+                "Chill the bread from the counter in the fridge and put it to the left of the stove.",
+                "Put the clean plate on shelf rack",
+                "Putting a pan with sliced lettuce inside in the fridge",
+                "place pot inside a fridge with a potato in it"
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_222304_743502/traj_data.json",
+                    "valid_seen/pick_cool_then_place_in_recep-Bread-None-CounterTop-7/trial_T20190909_045605_307949/traj_data.json",
+                    "tests_seen/trial_T20190908_225901_435079/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-LettuceSliced-Pan-Fridge-7/trial_T20190907_214322_904680/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Potato-Pot-Fridge-7/trial_T20190908_223840_799895/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a rinsed tomato slice on the table.",
+                "Place the kettle with water on the circle table.",
+                "Place a cleaned bowl on a shelf",
+                "Place the plate in the fridge.",
+                "Put an egg in the fridge."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-TomatoSliced-None-DiningTable-7/trial_T20190907_072143_717065/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-DiningTable-7/trial_T20190907_144235_625346/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190908_152949_169018/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195/traj_data.json",
+                    "train/pick_and_place_simple-Egg-None-Fridge-7/trial_T20190906_164825_242073/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Taking the orange cup to place it on the brown shelf.",
+                "Place a heated coffee mug in a coffeemaker",
+                "Warm the plate, place it on the top shelf.",
+                "To chill a loaf of bread and put it on the counter. ",
+                "Put the bowl on the middle wooden shelf. "
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_222334_320065/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_123421_558588/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Plate-None-Shelf-7/trial_T20190906_193957_675049/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bread-None-CounterTop-7/trial_T20190909_012427_332210/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190906_185932_528745/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[
+        {
+            "task_list":[
+                "Put a chilled loaf of bread on a table.",
+                "Put a warm plate in the sink.",
+                "grab the wine bottle from the sink under the sink, put it on the shelf",
+                "Washed a slice tomato and place it back on the circle table.",
+                "Put the clean tea kettle on the table.",
+                "Place an egg in the fridge."
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Bread-None-DiningTable-7/trial_T20190908_003406_355799/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Plate-None-SinkBasin-7/trial_T20190908_053229_447871/traj_data.json",
+                    "train/pick_and_place_simple-WineBottle-None-Shelf-7/trial_T20190908_114629_589874/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-TomatoSliced-None-DiningTable-7/trial_T20190907_071833_893483/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-DiningTable-7/trial_T20190907_144410_055395/traj_data.json",
+                    "tests_seen/trial_T20190919_025204_596754/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place an egg in the fridge.",
+                "Put a fry pan containing a knife and slice of lettuce, in the refrigerator. ",
+                "To put the bread in the fridge.",
+                "place pot inside a fridge with a potato in it",
+                "Place the plate in the fridge.",
+                "Place a heated coffee mug in a coffeemaker"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190919_025204_596754/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-LettuceSliced-Pan-Fridge-7/trial_T20190907_213935_432753/traj_data.json",
+                    "train/pick_two_obj_and_place-Bread-None-Fridge-7/trial_T20190907_101103_987850/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Potato-Pot-Fridge-7/trial_T20190908_223840_799895/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Plate-None-Shelf-7/trial_T20190907_124749_594195/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-7/trial_T20190908_123421_558588/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a chilled pot on the stove. ",
+                "Put the bowl on the middle wooden shelf. ",
+                "Put a warm mug on a shelf.",
+                "To put the bread in the fridge.",
+                "place a microwaved cup on the brown shelf",
+                "Put a clean pan in a microwave."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_051429_475883/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190906_185932_528745/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Mug-None-Shelf-7/trial_T20190907_022345_834766/traj_data.json",
+                    "train/pick_two_obj_and_place-Bread-None-Fridge-7/trial_T20190907_101103_987850/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_211214_598438/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Plate-None-Microwave-7/trial_T20190907_170244_518138/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Heat up a potato, bring it to the table",
+                "Put a chilled pot on the stove. ",
+                "Put a chilled white mug on the middle shelf of a wooden shelving unit.",
+                "Slice a tomato, cook a slice of tomato",
+                "Place a cleaned bowl on a shelf",
+                "grab the wine bottle from the sink under the sink, put it on the shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_heat_then_place_in_recep-Potato-None-DiningTable-7/trial_T20190907_030654_844245/traj_data.json",
+                    "tests_seen/trial_T20190907_051429_475883/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Mug-None-Shelf-7/trial_T20190908_193015_839594/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-CounterTop-7/trial_T20190918_143028_727790/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Bowl-None-Shelf-7/trial_T20190908_152949_169018/traj_data.json",
+                    "train/pick_and_place_simple-WineBottle-None-Shelf-7/trial_T20190908_114629_589874/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

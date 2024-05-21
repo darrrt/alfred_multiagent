@@ -14,8 +14,8 @@
                 "Put bowls on the desk."
             ],
             "relative_objects":[
-                "Laptop",
-                "Bowl"
+                "Bowl",
+                "Laptop"
             ]
         },
         "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190907_212826_574375/traj_data.json":{
@@ -61,8 +61,8 @@
                 "Put a cell phone on the desk."
             ],
             "relative_objects":[
-                "CellPhone",
-                "Desk"
+                "Desk",
+                "CellPhone"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202538_399742/traj_data.json":{
@@ -101,8 +101,8 @@
                 "Get the dish with the pen to the desk"
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-327/trial_T20190907_020411_580940/traj_data.json":{
@@ -134,10 +134,10 @@
                 "Move a pencil and bowl to a different desk."
             ],
             "relative_objects":[
-                "Bowl",
-                "Pencil",
+                "Desk",
                 "Book",
-                "Desk"
+                "Pencil",
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Bowl-Desk-327/trial_T20190908_224017_303977/traj_data.json":{
@@ -158,12 +158,12 @@
                 "move forward to the desk and pick up the cd and then turn on the lamp."
             ],
             "relative_objects":[
-                "CD",
                 "Pencil",
-                "Laptop",
+                "Pen",
                 "CellPhone",
-                "AlarmClock",
-                "Pen"
+                "CD",
+                "Laptop",
+                "AlarmClock"
             ]
         },
         "train/pick_two_obj_and_place-CellPhone-None-Dresser-327/trial_T20190908_042509_028087/traj_data.json":{
@@ -184,5 +184,297 @@
                 "KeyChain"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Place pencils in a drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To put a pencil in a bowl as well as move it to the left side of the computer table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-Desk-327/trial_T20190908_031004_339280/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the pens on the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190907_212826_574375/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pu the cup with pencil on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-Desk-327/trial_T20190908_224017_303977/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the pens on the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190907_212826_574375/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Move the cell phone from the shelves to desk.",
+                "Place pencils in a drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162400_978293/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the pencils in different places on the desk. ",
+                "Collect the pens and put them on the top of the chest."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-327/trial_T20190911_224556_462302/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190912_025637_251961/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move cell phones to dresser.",
+                "Examine the keys under the light of the table lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-327/trial_T20190908_042509_028087/traj_data.json",
+                    "valid_seen/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202601_548273/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the phone to the desk",
+                "Put bowls on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162420_449542/traj_data.json",
+                    "train/pick_two_obj_and_place-Bowl-None-Desk-327/trial_T20190908_040620_961547/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place pencils in a drawer",
+                "Put bowls on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json",
+                    "train/pick_two_obj_and_place-Bowl-None-Desk-327/trial_T20190908_040620_961547/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Place the pencils in different places on the desk. ",
+                "put a bowl with a pen in it on the computer desk",
+                "Put a phone on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-327/trial_T20190911_224556_462302/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-327/trial_T20190907_020501_280258/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162342_304038/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the pens on the dresser",
+                "Move cell phones to dresser.",
+                "Place pencils in a drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190907_212826_574375/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-327/trial_T20190908_042509_028087/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the pens on the dresser",
+                "Move the cell phone from the shelves to desk.",
+                "Pu the cup with pencil on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190907_212826_574375/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162400_978293/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-Desk-327/trial_T20190908_224017_303977/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Inspect keys near a lit lamp.",
+                "Place pencils in a drawer",
+                "Move cell phones to dresser."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202538_399742/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-327/trial_T20190908_042509_028087/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine the keys under the light of the table lamp",
+                "Place pencils in a drawer",
+                "Move the phone to the desk"
+            ],
+            "orign":[
+                [
+                    "valid_seen/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202601_548273/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162420_449542/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Examine the keys under the light of the table lamp",
+                "Move cell phones to dresser.",
+                "Put a bowl with a pen in it on a dresser.",
+                "Place the pencils in different places on the desk. "
+            ],
+            "orign":[
+                [
+                    "valid_seen/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202601_548273/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-327/trial_T20190908_042509_028087/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Dresser-327/trial_T20190909_033345_561751/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-327/trial_T20190911_224556_462302/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place pencils in a drawer",
+                "Put the pens on the dresser",
+                "Move the cell phone from the shelves to desk.",
+                "Examine the keys under the light of the table lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190907_212826_574375/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162400_978293/traj_data.json",
+                    "valid_seen/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202601_548273/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the phone to the desk",
+                "put a bowl with a pen in it on the computer desk",
+                "Inspect keys near a lit lamp.",
+                "Place the pencils in different places on the desk. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162420_449542/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-327/trial_T20190907_020501_280258/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202538_399742/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-327/trial_T20190911_224556_462302/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the phone to the desk",
+                "Collect the pens and put them on the top of the chest.",
+                "Put bowls on the desk.",
+                "Inspect keys near a lit lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162420_449542/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190912_025637_251961/traj_data.json",
+                    "train/pick_two_obj_and_place-Bowl-None-Desk-327/trial_T20190908_040620_961547/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202538_399742/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place pencils in a drawer",
+                "Move cell phones to dresser.",
+                "Put the pens on the dresser",
+                "Examine the keys under the light of the table lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-327/trial_T20190908_042509_028087/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190907_212826_574375/traj_data.json",
+                    "valid_seen/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202601_548273/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Inspect keys near a lit lamp.",
+                "Put bowls on the desk.",
+                "Put the pens on the dresser",
+                "Move the cell phone from the shelves to desk.",
+                "Place pencils in a drawer"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-327/trial_T20190906_202538_399742/traj_data.json",
+                    "train/pick_two_obj_and_place-Bowl-None-Desk-327/trial_T20190908_040620_961547/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190907_212826_574375/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162400_978293/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Drawer-327/trial_T20190908_103604_088470/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

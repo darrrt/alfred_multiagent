@@ -8,9 +8,9 @@
                 "Place a black cup with a pencil on the dresser."
             ],
             "relative_objects":[
-                "Pencil",
+                "Pen",
                 "Mug",
-                "Pen"
+                "Pencil"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-323/trial_T20190908_022633_257511/traj_data.json":{
@@ -20,9 +20,9 @@
                 "Put a mug with a pencil in it on top of a dresser."
             ],
             "relative_objects":[
-                "Pencil",
+                "Dresser",
                 "Mug",
-                "Dresser"
+                "Pencil"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-323/trial_T20190908_022729_383819/traj_data.json":{
@@ -32,8 +32,8 @@
                 "Place a mug on a dresser."
             ],
             "relative_objects":[
-                "Pencil",
-                "Mug"
+                "Mug",
+                "Pencil"
             ]
         },
         "train/look_at_obj_in_light-Pen-None-DeskLamp-323/trial_T20190908_125547_889154/traj_data.json":{
@@ -43,9 +43,9 @@
                 "take the red pen from the night stand, turn on the lamp"
             ],
             "relative_objects":[
-                "AlarmClock",
+                "Pen",
                 "CellPhone",
-                "Pen"
+                "AlarmClock"
             ]
         },
         "train/look_at_obj_in_light-Bowl-None-DeskLamp-323/trial_T20190908_024052_230550/traj_data.json":{
@@ -55,19 +55,19 @@
                 "With a bowl in hand, turn on the lamp on the small table."
             ],
             "relative_objects":[
-                "CD",
-                "Pencil",
-                "CreditCard",
-                "KeyChain",
-                "Book",
-                "Laptop",
-                "CellPhone",
-                "TeddyBear",
-                "AlarmClock",
                 "Pillow",
-                "Bowl",
+                "Book",
+                "TeddyBear",
+                "Pencil",
+                "KeyChain",
+                "Pen",
+                "CellPhone",
+                "CreditCard",
                 "Mug",
-                "Pen"
+                "CD",
+                "Bowl",
+                "Laptop",
+                "AlarmClock"
             ]
         },
         "train/look_at_obj_in_light-Laptop-None-DeskLamp-323/trial_T20190908_014226_839563/traj_data.json":{
@@ -77,14 +77,14 @@
                 "Examine the laptop by the light of the lamp."
             ],
             "relative_objects":[
+                "Book",
                 "Pencil",
                 "KeyChain",
-                "Book",
-                "Laptop",
+                "Pen",
                 "CellPhone",
-                "AlarmClock",
                 "Mug",
-                "Pen"
+                "Laptop",
+                "AlarmClock"
             ]
         },
         "train/look_at_obj_in_light-Laptop-None-DeskLamp-323/trial_T20190908_014241_887170/traj_data.json":{
@@ -94,9 +94,9 @@
                 "Carry a laptop while turning on a lamp"
             ],
             "relative_objects":[
-                "AlarmClock",
+                "CellPhone",
                 "Laptop",
-                "CellPhone"
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005542_694744/traj_data.json":{
@@ -116,9 +116,9 @@
                 "Move a CD from the desk to the top of the dresser. "
             ],
             "relative_objects":[
-                "CD",
+                "Desk",
                 "Dresser",
-                "Desk"
+                "CD"
             ]
         },
         "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005514_476729/traj_data.json":{
@@ -136,8 +136,8 @@
                 "Put the credit cards from the desk in the corner into the safe."
             ],
             "relative_objects":[
-                "KeyChain",
-                "CreditCard"
+                "CreditCard",
+                "KeyChain"
             ]
         },
         "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001424_961488/traj_data.json":{
@@ -155,9 +155,9 @@
                 "Place a mug with a pencil on a wooden desk."
             ],
             "relative_objects":[
-                "AlarmClock",
+                "Mug",
                 "Pencil",
-                "Mug"
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190918_181136_220658/traj_data.json":{
@@ -177,8 +177,8 @@
                 "Place keys in a safe"
             ],
             "relative_objects":[
-                "KeyChain",
-                "Safe"
+                "Safe",
+                "KeyChain"
             ]
         },
         "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190908_115121_030635/traj_data.json":{
@@ -211,8 +211,8 @@
                 "Move a CD from the desk to a safe."
             ],
             "relative_objects":[
-                "CD",
                 "Safe",
+                "CD",
                 "Desk"
             ]
         },
@@ -223,8 +223,8 @@
                 "put the disc on the cabinet to the safe"
             ],
             "relative_objects":[
-                "CD",
-                "Safe"
+                "Safe",
+                "CD"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-323/trial_T20190907_190012_475054/traj_data.json":{
@@ -234,8 +234,8 @@
                 "Take the coffee cup with the pen inside to the desk. "
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_simple-CellPhone-None-Safe-323/trial_T20190907_234431_849819/traj_data.json":{
@@ -280,9 +280,282 @@
                 "Move a coffee mug with a pencil inside of it from a table to a bedroom desk"
             ],
             "relative_objects":[
-                "Pencil",
-                "Mug"
+                "Mug",
+                "Pencil"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put the credit cards from the desk in the corner into the safe."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001319_237371/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "examine a pen with a lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-323/trial_T20190908_125547_889154/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Take the coffee cup from the night stand to the desk. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-323/trial_T20190907_074743_568636/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the CD that's on top of the desk to on top of the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005459_168199/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a notebook computer by the light of a lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-323/trial_T20190908_014226_839563/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Move the CD from the desk to the top of the dresser.",
+                "Move a set of keys to a safe."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005542_694744/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190908_115121_030635/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the car keys and put them in the white safe.",
+                "Place a cup with a pencil inside, on the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190918_181154_498986/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-323/trial_T20190908_022633_257511/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Secure credit cards in safe. ",
+                "Move the CD that's on top of the desk to on top of the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001424_961488/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005459_168199/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Secure credit cards in safe. ",
+                "Place a CD on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001424_961488/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005514_476729/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the CD that's on top of the desk to on top of the dresser.",
+                "Put the cellphone in the safe. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005459_168199/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Safe-323/trial_T20190907_234526_733036/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Examine a mug by the light of a desk lamp",
+                "Put the credit cards from the desk in the corner into the safe.",
+                "Move the CD from the desk to the top of the dresser."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Mug-None-DeskLamp-323/trial_T20190907_041046_628363/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001319_237371/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005542_694744/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Take the coffee cup from the night stand to the desk. ",
+                "Place a phone in a safe",
+                "Move the CD that's on top of the desk to on top of the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-323/trial_T20190907_074743_568636/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Safe-323/trial_T20190907_234512_145231/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005459_168199/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a phone in a safe",
+                "Take the coffee cup from the night stand to the desk. ",
+                "Secure credit cards in safe. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Safe-323/trial_T20190907_234512_145231/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-323/trial_T20190907_074743_568636/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001424_961488/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a phone in a safe",
+                "Move the CD that's on top of the desk to on top of the dresser.",
+                "Move the keys from the desk to the safe."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Safe-323/trial_T20190907_234512_145231/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005459_168199/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190918_181136_220658/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a phone in a safe",
+                "Examine a mug by the light of a desk lamp",
+                "Secure credit cards in safe. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Safe-323/trial_T20190907_234512_145231/traj_data.json",
+                    "train/look_at_obj_in_light-Mug-None-DeskLamp-323/trial_T20190907_041046_628363/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001424_961488/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move a set of keys to a safe.",
+                "Move the CD from the desk to the top of the dresser.",
+                "Place a phone in a safe",
+                "Put a cup containing a pencil on the dresser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190908_115121_030635/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005542_694744/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Safe-323/trial_T20190907_234512_145231/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-323/trial_T20190908_022708_274581/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Secure credit cards in safe. ",
+                "Put a mug with a pen in it on a table.",
+                "take the computer from the bed to turn on the lamp",
+                "Pick up the car keys and put them in the white safe."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001424_961488/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-323/trial_T20190907_190012_475054/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-323/trial_T20190908_014241_887170/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190918_181154_498986/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Secure credit cards in safe. ",
+                "Examine a mug by the light of a desk lamp",
+                "Move the CD from the desk to the top of the dresser.",
+                "Put the cell phone in the white safe, close the door"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Safe-323/trial_T20190907_001424_961488/traj_data.json",
+                    "train/look_at_obj_in_light-Mug-None-DeskLamp-323/trial_T20190907_041046_628363/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005542_694744/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Safe-323/trial_T20190907_234431_849819/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a set of keys to a safe.",
+                "take the computer from the bed to turn on the lamp",
+                "Move the CD that's on top of the desk to on top of the dresser.",
+                "Put a mug with a pen in it on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190908_115121_030635/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-323/trial_T20190908_014241_887170/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005459_168199/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-323/trial_T20190907_190012_475054/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "examine a pen with a lamp",
+                "Move a set of keys to a safe.",
+                "Place a CD on a dresser.",
+                "Place a cup with a pencil inside, on the dresser."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pen-None-DeskLamp-323/trial_T20190908_125547_889154/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Safe-323/trial_T20190908_115121_030635/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-323/trial_T20190908_005514_476729/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-323/trial_T20190908_022633_257511/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

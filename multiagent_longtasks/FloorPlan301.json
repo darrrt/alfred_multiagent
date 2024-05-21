@@ -14,9 +14,9 @@
                 "Move pencil to the top self of the desk."
             ],
             "relative_objects":[
+                "Desk",
                 "Pencil",
-                "Statue",
-                "Desk"
+                "Statue"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190908_160414_444492/traj_data.json":{
@@ -37,9 +37,9 @@
                 "Put a pen in a bowl sitting on a dresser and move it to a desk."
             ],
             "relative_objects":[
-                "Pencil",
-                "Desk",
                 "Pen",
+                "Desk",
+                "Pencil",
                 "Bowl"
             ]
         },
@@ -54,22 +54,13 @@
                 "Bowl"
             ]
         },
-        "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180223_908386/traj_data.json":{
-            "tasks":[
-                "Put both of the watches on the desk onto the drawer."
-            ],
-            "relative_objects":[
-                "AlarmClock",
-                "Watch"
-            ]
-        },
         "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180154_425245/traj_data.json":{
             "tasks":[
                 "Place to watches on top of a cabinet."
             ],
             "relative_objects":[
-                "Watch",
-                "Dresser"
+                "Dresser",
+                "Watch"
             ]
         },
         "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json":{
@@ -89,9 +80,9 @@
                 "place a box of tissues on top of the dresser"
             ],
             "relative_objects":[
+                "Dresser",
                 "TissueBox",
-                "Drawer",
-                "Dresser"
+                "Drawer"
             ]
         },
         "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221500_723697/traj_data.json":{
@@ -101,8 +92,8 @@
                 "place a box of tissues on top of the dresser"
             ],
             "relative_objects":[
-                "TissueBox",
-                "Dresser"
+                "Dresser",
+                "TissueBox"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_062011_223446/traj_data.json":{
@@ -112,9 +103,9 @@
                 "Move a pen and cup from the desk to the chest of drawers."
             ],
             "relative_objects":[
-                "Pencil",
+                "Pen",
                 "Mug",
-                "Pen"
+                "Pencil"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022553_890007/traj_data.json":{
@@ -124,8 +115,8 @@
                 "Put the mug with pen on top of the cabinet "
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022706_734543/traj_data.json":{
@@ -135,11 +126,11 @@
                 "Put a mug with a pencil in it on the dresser."
             ],
             "relative_objects":[
-                "CD",
                 "Pencil",
+                "Pen",
                 "Dresser",
                 "Mug",
-                "Pen"
+                "CD"
             ]
         },
         "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json":{
@@ -149,8 +140,8 @@
                 "pick up the lap top turn on the lamp"
             ],
             "relative_objects":[
-                "AlarmClock",
-                "Laptop"
+                "Laptop",
+                "AlarmClock"
             ]
         },
         "tests_seen/trial_T20190906_180309_726338/traj_data.json":{
@@ -162,5 +153,369 @@
                 "Watch"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put a grey bowl with a black pen in it on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190908_160414_444492/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a mug with a pen on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022553_890007/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a mug with a pen inside on top of the clothing cabinet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_062011_223446/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the tissue box on the top of the dresser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a grey bowl with a black pen in it on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_120324_851568/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "put a bowl and pencil together onto the desk",
+                "to move a watch from the desk to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_172609_111077/traj_data.json",
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a grey bowl with a black pen in it on the desk.",
+                "Move the tissue box from the bottom right drawer to the dresser top"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_120324_851568/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221500_723697/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a mug with a pen inside on top of the clothing cabinet.",
+                "Carry a laptop while turning on a light"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_062011_223446/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To take out the tissue box to place it on top of drawers.",
+                "Carry a laptop while turning on a light"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221445_679815/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move pencil to the top self of the desk.",
+                "to move a watch from the desk to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json",
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Carry a laptop while turning on a light",
+                "Place a mug with a pen inside on top of the clothing cabinet.",
+                "to move a watch from the desk to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_062011_223446/traj_data.json",
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a mug with a pen inside on top of the clothing cabinet.",
+                "Carry a laptop while turning on a light",
+                "To take out the tissue box to place it on top of drawers."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_062011_223446/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221445_679815/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "to move a watch from the desk to the dresser",
+                "Carry a laptop while turning on a light",
+                "Place a mug with a pen on a dresser."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022553_890007/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "to move a watch from the desk to the dresser",
+                "Carry a laptop while turning on a light",
+                "Move pencil to the top self of the desk."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Carry a laptop while turning on a light",
+                "Put the mug with pen on the white dresser",
+                "to move a watch from the desk to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022706_734543/traj_data.json",
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "To take out the tissue box to place it on top of drawers.",
+                "Carry a laptop while turning on a light",
+                "Place a mug with a pen on a dresser.",
+                "Move pencil to the top self of the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221445_679815/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022553_890007/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Carry a laptop while turning on a light",
+                "Put the tissue box on the top of the dresser. ",
+                "Move pencil to the top self of the desk.",
+                "Place to watches on top of a cabinet."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json",
+                    "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180154_425245/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place to watches on top of a cabinet.",
+                "put a bowl and pencil together onto the desk",
+                "Put the tissue box on the top of the dresser. ",
+                "Carry a laptop while turning on a light"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180154_425245/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_172609_111077/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place to watches on top of a cabinet.",
+                "Carry a laptop while turning on a light",
+                "Move pencil to the top self of the desk.",
+                "Put a grey bowl with a black pen in it on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180154_425245/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_120324_851568/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place to watches on top of a cabinet.",
+                "Carry a laptop while turning on a light",
+                "Put the tissue box on the top of the dresser. ",
+                "Move pencil to the top shelf of the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180154_425245/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011401_611613/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put a grey bowl with a black pen in it on the desk.",
+                "Place to watches on top of a cabinet.",
+                "Carry a laptop while turning on a light",
+                "Put the tissue box on the top of the dresser. ",
+                "Move pencil to the top self of the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_120324_851568/traj_data.json",
+                    "train/pick_two_obj_and_place-Watch-None-Dresser-301/trial_T20190906_180154_425245/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To take out the tissue box to place it on top of drawers.",
+                "to move a watch from the desk to the dresser",
+                "Place a mug with a pen on a dresser.",
+                "Carry a laptop while turning on a light",
+                "Move pencil to the top self of the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221445_679815/traj_data.json",
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-301/trial_T20190909_022553_890007/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "to move a watch from the desk to the dresser",
+                "Move pencil to the top self of the desk.",
+                "Put a grey bowl with a black pen in it on the desk.",
+                "Carry a laptop while turning on a light",
+                "Put the tissue box on the top of the dresser. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011323_432966/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190908_160414_444492/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To take out the tissue box to place it on top of drawers.",
+                "Move pencil to the top shelf of the desk.",
+                "Put a grey bowl with a black pen in it on the desk.",
+                "to move a watch from the desk to the dresser",
+                "Carry a laptop while turning on a light"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221445_679815/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011401_611613/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190911_120324_851568/traj_data.json",
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move pencil to the top shelf of the desk.",
+                "Put a grey bowl with a black pen in it on the desk.",
+                "Put the tissue box on the top of the dresser. ",
+                "Carry a laptop while turning on a light",
+                "to move a watch from the desk to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Shelf-301/trial_T20190909_011401_611613/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Desk-301/trial_T20190908_160414_444492/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-Dresser-301/trial_T20190906_221513_072505/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-301/trial_T20190907_185618_889790/traj_data.json",
+                    "tests_seen/trial_T20190906_180309_726338/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

@@ -8,8 +8,8 @@
                 "place a carton with a watch in it on the table"
             ],
             "relative_objects":[
-                "Box",
-                "Watch"
+                "Watch",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-228/trial_T20190908_215623_067168/traj_data.json":{
@@ -19,8 +19,8 @@
                 "Put a cardboard box with a watch in it on the table."
             ],
             "relative_objects":[
-                "Box",
-                "Watch"
+                "Watch",
+                "Box"
             ]
         },
         "train/look_at_obj_in_light-Watch-None-FloorLamp-228/trial_T20190907_172716_701600/traj_data.json":{
@@ -61,8 +61,8 @@
                 "Turn a lamp on with keys in hand."
             ],
             "relative_objects":[
-                "Box",
                 "Plate",
+                "Box",
                 "KeyChain"
             ]
         },
@@ -125,8 +125,8 @@
                 "Put the plate with wrist watch on the center table"
             ],
             "relative_objects":[
-                "Plate",
-                "Watch"
+                "Watch",
+                "Plate"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-228/trial_T20190908_235519_761542/traj_data.json":{
@@ -136,8 +136,8 @@
                 "Put a plate with a watch on it on the coffee table."
             ],
             "relative_objects":[
-                "Plate",
-                "Watch"
+                "Watch",
+                "Plate"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-Sofa-228/trial_T20190908_153153_601583/traj_data.json":{
@@ -147,8 +147,8 @@
                 "Put a box with a credit card in it on the red couch. "
             ],
             "relative_objects":[
-                "Box",
-                "CreditCard"
+                "CreditCard",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-228/trial_T20190907_194425_124590/traj_data.json":{
@@ -158,8 +158,8 @@
                 "Put the wrist watch on a plate behind the computer monitor."
             ],
             "relative_objects":[
-                "Plate",
-                "Watch"
+                "Watch",
+                "Plate"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-228/trial_T20190908_130200_176412/traj_data.json":{
@@ -180,10 +180,10 @@
                 "Put a box with keys in it on the couch."
             ],
             "relative_objects":[
-                "Box",
                 "RemoteControl",
-                "KeyChain",
-                "Laptop"
+                "Laptop",
+                "Box",
+                "KeyChain"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-228/trial_T20190909_010447_443796/traj_data.json":{
@@ -218,5 +218,230 @@
                 "KeyChain"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Place a box with keys in it on the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-CoffeeTable-228/trial_T20190908_004155_444217/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place tray with keys on coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-228/trial_T20190909_010419_678976/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a statue on the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-228/trial_T20190906_185451_580211/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the keys on the sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-228/trial_T20190908_122649_115988/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To put a watch on a plate plus move them to the living room table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-228/trial_T20190908_235519_761542/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Turn on a lamp as you hold keys.",
+                "Put a statue on the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-228/trial_T20190907_055122_673179/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-228/trial_T20190906_185451_580211/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move keys and a plate to the coffee table.",
+                "Put a box with a watch in it on the table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-228/trial_T20190909_010447_443796/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-228/trial_T20190908_215623_067168/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a plate with a watch on it on the table.",
+                "Put a box containing a credit card on the couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-228/trial_T20190907_194425_124590/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Sofa-228/trial_T20190908_153153_601583/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place statues on the table.",
+                "Place a watch in the box and place on the table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Statue-None-DiningTable-228/trial_T20190906_222705_543880/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-228/trial_T20190908_215647_492785/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move keys and a plate to the coffee table.",
+                "Examine a watch by the light of a floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-228/trial_T20190909_010447_443796/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-228/trial_T20190907_172716_701600/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put a statue on the coffee table.",
+                "Place a watch in the box and place on the table. ",
+                "Move keys and a plate to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-228/trial_T20190906_185451_580211/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-228/trial_T20190908_215647_492785/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-228/trial_T20190909_010447_443796/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place tray with keys on coffee table",
+                "Place statues on the table.",
+                "Put a box with a watch in it on the table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-228/trial_T20190909_010419_678976/traj_data.json",
+                    "train/pick_two_obj_and_place-Statue-None-DiningTable-228/trial_T20190906_222705_543880/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-228/trial_T20190908_215623_067168/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a statue on the coffee table.",
+                "Examine a watch by the light of a floor lamp",
+                "place tray with keys on coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-228/trial_T20190906_185451_580211/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-228/trial_T20190907_172716_701600/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-228/trial_T20190909_010419_678976/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a plate with a watch on it on the table.",
+                "Put a box containing a credit card on the couch. ",
+                "Turn on a lamp as you hold keys."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-228/trial_T20190907_194425_124590/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Sofa-228/trial_T20190908_153153_601583/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-228/trial_T20190907_055122_673179/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with keys in it on a table.",
+                "Put a statue on the coffee table.",
+                "Put a plate with a watch on it on the table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-CoffeeTable-228/trial_T20190918_185454_494409/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-228/trial_T20190906_185451_580211/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-228/trial_T20190907_194425_124590/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put a box containing a credit card on the couch. ",
+                "Move the keys from the brown table to the red sofa.",
+                "Place statues on the table.",
+                "To put a watch on a plate plus move them to the living room table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Sofa-228/trial_T20190908_153153_601583/traj_data.json",
+                    "tests_seen/trial_T20190908_122604_076897/traj_data.json",
+                    "train/pick_two_obj_and_place-Statue-None-DiningTable-228/trial_T20190906_222705_543880/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-228/trial_T20190908_235519_761542/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a box containing a credit card on the couch. ",
+                "To move a set of keys to the couch. ",
+                "To put a watch on a plate plus move them to the living room table.",
+                "Place statues on the table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Sofa-228/trial_T20190908_153153_601583/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-228/trial_T20190908_122625_912366/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-228/trial_T20190908_235519_761542/traj_data.json",
+                    "train/pick_two_obj_and_place-Statue-None-DiningTable-228/trial_T20190906_222705_543880/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

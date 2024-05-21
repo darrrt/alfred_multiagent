@@ -33,9 +33,9 @@
             ],
             "relative_objects":[
                 "AlarmClock",
+                "Book",
                 "Pillow",
-                "KeyChain",
-                "Book"
+                "KeyChain"
             ]
         },
         "train/look_at_obj_in_light-Laptop-None-DeskLamp-317/trial_T20190909_001842_530744/traj_data.json":{
@@ -45,8 +45,8 @@
                 "Examine a computer by the light of the lamp in the corner. "
             ],
             "relative_objects":[
-                "Cloth",
                 "Book",
+                "Cloth",
                 "Laptop"
             ]
         },
@@ -113,8 +113,8 @@
                 "Examine a grey box by the light of a nightstand lamp"
             ],
             "relative_objects":[
-                "AlarmClock",
-                "Box"
+                "Box",
+                "AlarmClock"
             ]
         },
         "train/look_at_obj_in_light-CD-None-DeskLamp-317/trial_T20190908_032847_688091/traj_data.json":{
@@ -124,8 +124,8 @@
                 "Pick up the disc in the light."
             ],
             "relative_objects":[
-                "AlarmClock",
-                "CD"
+                "CD",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033450_287042/traj_data.json":{
@@ -169,16 +169,8 @@
                 "Place a cell phone on a night stand"
             ],
             "relative_objects":[
-                "AlarmClock",
-                "CellPhone"
-            ]
-        },
-        "train/pick_two_obj_and_place-KeyChain-None-Drawer-317/trial_T20190912_073129_052747/traj_data.json":{
-            "tasks":[
-                "put both sets of keys in the top drawer of the dresser"
-            ],
-            "relative_objects":[
-                "KeyChain"
+                "CellPhone",
+                "AlarmClock"
             ]
         },
         "train/pick_two_obj_and_place-KeyChain-None-Drawer-317/trial_T20190911_161750_831181/traj_data.json":{
@@ -188,15 +180,370 @@
             "relative_objects":[
                 "KeyChain"
             ]
-        },
-        "tests_seen/trial_T20190911_111120_037082/traj_data.json":{
-            "tasks":[
-                "put both CDs inside the safe on the ground"
+        }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Place a CD in a safe"
             ],
-            "relative_objects":[
-                "CD",
-                "Safe"
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190918_155029_622888/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a cell phone on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033503_132415/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the books to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a set of keys on a dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190908_062357_662469/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the books to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json"
+                ]
             ]
         }
-    }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "turn on the lamp on the night stand, grab the disc on the right",
+                "Place a cell phone on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-317/trial_T20190908_032847_688091/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033503_132415/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put keys on the dresser. ",
+                "Inspect a clock near a lit lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190910_184933_511149/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a cell phone on a dresser.",
+                "Place a set of keys on a dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033503_132415/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190908_062357_662469/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick the rags up off the floor and place them on the dresser.",
+                "Move the books to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_043257_624123/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a green and white rag on top of a dresser",
+                "turn on the lamp on the night stand, grab the disc on the right"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_102018_685821/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-317/trial_T20190908_032847_688091/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "To move the CD from the drawer to the safe.",
+                "Put a phone on a dresser.",
+                "Inspect a clock near a lit lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190906_180452_867280/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033554_295049/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a set of keys on a dresser",
+                "turn on the lamp on the night stand, grab the disc on the right",
+                "Place a green and white rag on top of a dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190908_062357_662469/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-317/trial_T20190908_032847_688091/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_102018_685821/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the phone from the bed to the nightstand",
+                "Put keys on the dresser. ",
+                "Pick the rags up off the floor and place them on the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-SideTable-317/trial_T20190909_234733_582011/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190910_184933_511149/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_043257_624123/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a CD in a safe",
+                "Move the phone from the bed to the dresser.",
+                "Pick the rags up off the floor and place them on the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190918_155029_622888/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033450_287042/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_043257_624123/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To move the CD from the drawer to the safe.",
+                "Inspect a clock near a lit lamp.",
+                "Move keys from a side table to a dresser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190906_180452_867280/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190910_183541_490131/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Inspect a laptop by lamp light.",
+                "Put a phone on a dresser.",
+                "Place a CD in a safe",
+                "Inspect a clock near a lit lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-317/trial_T20190909_001842_530744/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033554_295049/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190918_155029_622888/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a CD in a safe",
+                "Put the keys into the dresser drawer",
+                "Move the books to the dresser",
+                "Place a cell phone on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190918_155029_622888/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Drawer-317/trial_T20190911_161750_831181/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033503_132415/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a set of keys on a dresser",
+                "turn on the lamp on the night stand, grab the disc on the right",
+                "Pick the rags up off the floor and place them on the dresser.",
+                "Put a phone on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190908_062357_662469/traj_data.json",
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-317/trial_T20190908_032847_688091/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_043257_624123/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033554_295049/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a green and white rag on top of a dresser",
+                "Move keys from a side table to a dresser. ",
+                "Move the phone from the bed to the dresser.",
+                "Move the books to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_102018_685821/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190910_183541_490131/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033450_287042/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the books to the dresser",
+                "Place a green and white rag on top of a dresser",
+                "Move keys from a side table to a dresser. ",
+                "To move the CD from the drawer to the safe."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_102018_685821/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190910_183541_490131/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190906_180452_867280/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Place a cell phone on a dresser.",
+                "Inspect a clock near a lit lamp.",
+                "Pick the rags up off the floor and place them on the dresser.",
+                "Move the books to the dresser",
+                "Place a CD in a safe"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033503_132415/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_043257_624123/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190918_155029_622888/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Inspect a clock near a lit lamp.",
+                "To move the CD from the drawer to the safe.",
+                "Pick the rags up off the floor and place them on the dresser.",
+                "Move the phone from the bed to the dresser.",
+                "Move keys from a side table to a dresser. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190906_180452_867280/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_043257_624123/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033450_287042/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190910_183541_490131/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "turn on the lamp on the night stand, grab the disc on the right",
+                "Put a phone on a dresser.",
+                "Place a set of keys on a dresser",
+                "Pick the rags up off the floor and place them on the dresser.",
+                "Move the books to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CD-None-DeskLamp-317/trial_T20190908_032847_688091/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033554_295049/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190908_062357_662469/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_043257_624123/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a set of keys on a dresser",
+                "Place a CD in a safe",
+                "Inspect a clock near a lit lamp.",
+                "Put a phone on a dresser.",
+                "Move the books to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-317/trial_T20190908_062357_662469/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190918_155029_622888/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033554_295049/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a green and white rag on top of a dresser",
+                "Move the books to the dresser",
+                "Inspect a clock near a lit lamp.",
+                "Put a phone on a dresser.",
+                "To move the CD from the drawer to the safe."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Dresser-317/trial_T20190908_102018_685821/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Dresser-317/trial_T20190908_144510_731798/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-317/trial_T20190909_070740_947572/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Dresser-317/trial_T20190908_033554_295049/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Safe-317/trial_T20190906_180452_867280/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

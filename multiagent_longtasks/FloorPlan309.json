@@ -39,14 +39,6 @@
                 "Laptop"
             ]
         },
-        "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151029_702790/traj_data.json":{
-            "tasks":[
-                "Place both laptops on the counter."
-            ],
-            "relative_objects":[
-                "Laptop"
-            ]
-        },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json":{
             "tasks":[
                 "Move a pen and mug to a dresser. ",
@@ -54,8 +46,8 @@
                 "Put a pen in a cup to move them to the desk."
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json":{
@@ -65,10 +57,10 @@
                 "Put a pen in a cup on the desk."
             ],
             "relative_objects":[
-                "Pencil",
+                "Pen",
                 "Mug",
-                "Laptop",
-                "Pen"
+                "Pencil",
+                "Laptop"
             ]
         },
         "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json":{
@@ -108,8 +100,8 @@
                 "Pick up the pillow from the bed, then turn on the lamp next to the bed."
             ],
             "relative_objects":[
-                "AlarmClock",
-                "Pillow"
+                "Pillow",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-Pencil-None-SideTable-309/trial_T20190909_040329_875526/traj_data.json":{
@@ -120,18 +112,18 @@
             ],
             "relative_objects":[
                 "RemoteControl",
-                "KeyChain",
-                "Pencil",
-                "CreditCard",
-                "CD",
-                "Book",
-                "Laptop",
-                "CellPhone",
-                "TeddyBear",
-                "AlarmClock",
                 "Pillow",
+                "Book",
+                "TeddyBear",
+                "Pencil",
+                "KeyChain",
+                "Pen",
+                "CellPhone",
+                "CreditCard",
                 "Mug",
-                "Pen"
+                "CD",
+                "Laptop",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json":{
@@ -168,9 +160,373 @@
             ],
             "relative_objects":[
                 "Bed",
-                "Laptop",
-                "CellPhone"
+                "CellPhone",
+                "Laptop"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put 2 phone side by side on the side of a bed with no lap top on it. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the laptops from the bed to the shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pair of keys to a side table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pair of keys to a side table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a pencil on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-SideTable-309/trial_T20190909_040329_875526/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "put a pencil on the desk",
+                "Move a pair of keys to a side table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn on the bedroom lamp.",
+                "examine keys with the lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a set of keys to the bedside table. ",
+                "Put the cell phones on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on the shelf. ",
+                "examine keys with the lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "examine keys with the lamp",
+                "Put 2 phone side by side on the side of a bed with no lap top on it. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Move a set of keys to the bedside table. ",
+                "Put a pencil on the shelf. ",
+                "Move the laptops from the bed to the shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pencil from the table to the counter. ",
+                "Move a pen and mug to a dresser. ",
+                "Turn on the bedroom lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on the shelf. ",
+                "Put 2 phone side by side on the side of a bed with no lap top on it. ",
+                "Move a pair of keys to a side table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the cell phones on the bed.",
+                "put mug and pen on top of bureau",
+                "examine keys with the lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn on the bedroom lamp.",
+                "examine keys with the lamp",
+                "Put a pencil on the shelf. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put the cell phones on the bed.",
+                "put mug and pen on top of bureau",
+                "Turn on the bedroom lamp.",
+                "examine keys with the lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the cell phones on the bed.",
+                "Move a pen and mug to a dresser. ",
+                "Inspect keys by lamp light.",
+                "put a pencil on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094219_644881/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pen and mug to a dresser. ",
+                "Move a set of keys to the bedside table. ",
+                "Move a pencil from the table to the counter. ",
+                "Put 2 phone side by side on the side of a bed with no lap top on it. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the cell phones on the bed.",
+                "Turn on the bedroom lamp.",
+                "examine keys with the lamp",
+                "put a pencil on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pen and mug to a dresser. ",
+                "Put the cell phones on the bed.",
+                "Inspect keys by lamp light.",
+                "Move a pencil from the table to the counter. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094219_644881/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "examine keys with the lamp",
+                "Turn on the bedroom lamp.",
+                "Put 2 phone side by side on the side of a bed with no lap top on it. ",
+                "Move a pen and mug to a dresser. ",
+                "Put a pencil on the shelf. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a pencil on the desk",
+                "Move a pen and mug to a dresser. ",
+                "Move a pair of keys to a side table. ",
+                "Put the cell phones on the bed.",
+                "Move the laptops from the bed to the shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pen and mug to a dresser. ",
+                "put a pencil on the desk",
+                "Turn on the bedroom lamp.",
+                "Put 2 phone side by side on the side of a bed with no lap top on it. ",
+                "Move a set of keys to the bedside table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Turn on the bedroom lamp.",
+                "Move a pen and mug to a dresser. ",
+                "Put 2 phone side by side on the side of a bed with no lap top on it. ",
+                "Move a set of keys to the bedside table. ",
+                "put a pencil on the desk"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on the shelf. ",
+                "Inspect keys by lamp light.",
+                "Put the cell phones on the bed.",
+                "Move a pen and mug to a dresser. ",
+                "Turn on the bedroom lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094219_644881/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

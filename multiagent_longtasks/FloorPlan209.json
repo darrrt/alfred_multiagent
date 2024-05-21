@@ -76,10 +76,229 @@
                 "Place a bowl and a pot onto a coffee table."
             ],
             "relative_objects":[
+                "RemoteControl",
                 "Watch",
-                "Vase",
-                "RemoteControl"
+                "Vase"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put a book on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a book on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Carry a remote to the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062307_151182/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a book on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Put a green vase and golden disk onto the coffee table.",
+                "Place a pitcher on a coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-209/trial_T20190906_192228_459297/traj_data.json",
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a pitcher on a coffee table.",
+                "Move the remote to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062250_692710/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a bowl and a pot onto a coffee table.",
+                "Put a book on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-209/trial_T20190906_192308_359944/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the remote to the coffee table.",
+                "Place a pitcher on a coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062250_692710/traj_data.json",
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Move the remote to the coffee table.",
+                "Move a vase to a different table",
+                "Place a pitcher on a coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062250_692710/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-SideTable-209/trial_T20190909_053413_979971/traj_data.json",
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a book on the couch.",
+                "Carry a remote to the coffee table",
+                "Move a vase to a different table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062307_151182/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-SideTable-209/trial_T20190909_053413_979971/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a pitcher on a coffee table.",
+                "Move the remote to the coffee table.",
+                "Put a book on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062250_692710/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a pitcher on a coffee table.",
+                "Move a book from a coffee table to a sofa.",
+                "Put a green vase and golden disk onto the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035152_742504/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-209/trial_T20190906_192228_459297/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Place a pitcher on a coffee table.",
+                "Move a book from a coffee table to a sofa.",
+                "Move a vase to a different table",
+                "Carry a remote to the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035152_742504/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-SideTable-209/trial_T20190909_053413_979971/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062307_151182/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the remote to the coffee table.",
+                "Place a pitcher on a coffee table.",
+                "Put a green vase and golden disk onto the coffee table.",
+                "Put a book on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062250_692710/traj_data.json",
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-209/trial_T20190906_192228_459297/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a pitcher on a coffee table.",
+                "Put a book on the couch.",
+                "Put a green vase and golden disk onto the coffee table.",
+                "Move the remote to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-209/trial_T20190906_192228_459297/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062250_692710/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a book on the couch.",
+                "Place a pitcher on a coffee table.",
+                "Carry a remote to the coffee table",
+                "Move a vase to a different table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394/traj_data.json",
+                    "train/pick_and_place_simple-WateringCan-None-CoffeeTable-209/trial_T20190908_134558_175024/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-CoffeeTable-209/trial_T20190909_062307_151182/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-SideTable-209/trial_T20190909_053413_979971/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[]
 }

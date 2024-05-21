@@ -1,15 +1,6 @@
 {
     "scene_name":"FloorPlan421",
     "trials":{
-        "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133141_157068/traj_data.json":{
-            "tasks":[
-                "Put both green sponges on either side of the empty sink.",
-                "Move both sponges to either side of the sink furthest from the toilet."
-            ],
-            "relative_objects":[
-                "DishSponge"
-            ]
-        },
         "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json":{
             "tasks":[
                 "Move the sponges from inside the sinks."
@@ -25,8 +16,8 @@
                 "move towel from towel rack to sink"
             ],
             "relative_objects":[
-                "Towel",
-                "HandTowel"
+                "HandTowel",
+                "Towel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145525_802579/traj_data.json":{
@@ -36,8 +27,8 @@
                 "Place a towel on a counter."
             ],
             "relative_objects":[
-                "Towel",
-                "HandTowel"
+                "HandTowel",
+                "Towel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145453_953814/traj_data.json":{
@@ -75,8 +66,8 @@
                 "Put a bottle in a trash can."
             ],
             "relative_objects":[
-                "SoapBottle",
-                "SprayBottle"
+                "SprayBottle",
+                "SoapBottle"
             ]
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-421/trial_T20190908_151607_287067/traj_data.json":{
@@ -144,14 +135,6 @@
                 "SoapBar"
             ]
         },
-        "tests_seen/trial_T20190908_133250_885504/traj_data.json":{
-            "tasks":[
-                "Put both bars of soap next to the sink on the right"
-            ],
-            "relative_objects":[
-                "SoapBar"
-            ]
-        },
         "tests_seen/trial_T20190908_133119_538038/traj_data.json":{
             "tasks":[
                 "Get the soap out of the sinks to the counter.",
@@ -183,5 +166,351 @@
                 "SprayBottle"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Move toilet paper from the trash to the toilet paper holder"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a rinsed off bar of soap inside of the garbage bin"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-421/trial_T20190907_090017_388504/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the pump bottle in the garbage can."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-421/trial_T20190908_045256_126150/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a soap dispenser in a trash can"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_045222_151120/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the sponges from inside the sinks."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Get the soap out of the sinks to the counter.",
+                "Move a spray bottle to the trash bin."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_133119_538038/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move toilet paper from the trash to the toilet paper holder",
+                "remove the towel from the rack and put it on the sink counter"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145525_802579/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a soap dispenser in a trash can",
+                "put a roll of toilet paper along with an empty toilet paper roll in to the drawer"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_045222_151120/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-421/trial_T20190908_151607_287067/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move toilet paper from the trash to the toilet paper holder",
+                "Get the soap out of the sinks to the counter."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json",
+                    "tests_seen/trial_T20190908_133119_538038/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put soap near the sink. ",
+                "Move a spray bottle to the trash bin."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SoapBar-None-CounterTop-421/trial_T20190908_133156_866013/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "place a rinsed off bar of soap inside of the garbage bin",
+                "Move toilet paper from the trash to the toilet paper holder",
+                "remove the towel from the rack and put it on the sink counter"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-421/trial_T20190907_090017_388504/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145525_802579/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a rinsed off bar of soap inside of the garbage bin",
+                "Move toilet paper from the trash to the toilet paper holder",
+                "Move the towel from the towel holder to the sink counter. "
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-421/trial_T20190907_090017_388504/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145510_995239/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "remove the towel from the rack and put it on the sink counter",
+                "place a rinsed off bar of soap inside of the garbage bin",
+                "put a roll of toilet paper along with an empty toilet paper roll in to the drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145525_802579/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-421/trial_T20190907_090017_388504/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-421/trial_T20190908_151607_287067/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a spray bottle to the trash bin.",
+                "Put a soap dispenser in a trash can",
+                "Move the sponges from inside the sinks."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json",
+                    "tests_seen/trial_T20190908_045222_151120/traj_data.json",
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a soap dispenser in a trash can",
+                "put a roll of toilet paper along with an empty toilet paper roll in to the drawer",
+                "remove the towel from the rack and put it on the sink counter"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_045222_151120/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-421/trial_T20190908_151607_287067/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145525_802579/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "remove the towel from the rack and put it on the sink counter",
+                "Put 2 soaps in the drawer",
+                "Put the pump bottle in the garbage can.",
+                "Put an empty toilet paper roll on the toilet paper dispenser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145525_802579/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-Drawer-421/trial_T20190908_130615_278829/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-421/trial_T20190908_045256_126150/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182507_445544/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move toilet paper from the trash to the toilet paper holder",
+                "place a rinsed off bar of soap inside of the garbage bin",
+                "Move the sponges from inside the sinks.",
+                "Move the spray bottle from the toilet to next to the sink. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-421/trial_T20190907_090017_388504/traj_data.json",
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-421/trial_T20190907_152459_993909/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a rinsed off bar of soap inside of the garbage bin",
+                "Move a spray bottle to the trash bin.",
+                "Put a towel on the counter.",
+                "Move toilet paper from the trash to the toilet paper holder"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-421/trial_T20190907_090017_388504/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145453_953814/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Get the soap out of the sinks to the counter.",
+                "Move the sponges from inside the sinks.",
+                "Move a spray bottle to the trash bin.",
+                "Move the towel from the towel holder to the sink counter. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_133119_538038/traj_data.json",
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145510_995239/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the sponges from inside the sinks.",
+                "Put soap near the sink. ",
+                "Move the towel from the towel holder to the sink counter. ",
+                "Put the pump bottle in the garbage can."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-CounterTop-421/trial_T20190908_133156_866013/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145510_995239/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-421/trial_T20190908_045256_126150/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Move the towel from the towel holder to the sink counter. ",
+                "Move a spray bottle to the trash bin.",
+                "Put 2 soaps in the drawer",
+                "Move toilet paper from the trash to the toilet paper holder",
+                "Move the sponges from inside the sinks."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145510_995239/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-Drawer-421/trial_T20190908_130615_278829/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json",
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move toilet paper from the trash to the toilet paper holder",
+                "remove the towel from the rack and put it on the sink counter",
+                "Move a spray bottle to the trash bin.",
+                "Put soap near the sink. ",
+                "Move the sponges from inside the sinks."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145525_802579/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-CounterTop-421/trial_T20190908_133156_866013/traj_data.json",
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a towel on the counter.",
+                "Move the sponges from inside the sinks.",
+                "Get the soap out of the sinks to the counter.",
+                "Put an empty toilet paper roll on the toilet paper dispenser. ",
+                "Move a spray bottle to the trash bin."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145453_953814/traj_data.json",
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json",
+                    "tests_seen/trial_T20190908_133119_538038/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182507_445544/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move toilet paper from the trash to the toilet paper holder",
+                "Put soap near the sink. ",
+                "Move a spray bottle to the trash bin.",
+                "Move the sponges from inside the sinks.",
+                "Put a towel on the counter."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-421/trial_T20190906_182536_996833/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-CounterTop-421/trial_T20190908_133156_866013/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-421/trial_T20190908_121956_973687/traj_data.json",
+                    "train/pick_two_obj_and_place-DishSponge-None-CounterTop-421/trial_T20190908_133246_536746/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-421/trial_T20190909_145453_953814/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

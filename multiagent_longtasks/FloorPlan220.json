@@ -26,8 +26,8 @@
                 "Place a box with a CD in it on a dresser."
             ],
             "relative_objects":[
-                "Box",
-                "Candle"
+                "Candle",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090345_790163/traj_data.json":{
@@ -37,8 +37,8 @@
                 "To pack, store items to organize the orientation."
             ],
             "relative_objects":[
-                "Box",
-                "Candle"
+                "Candle",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090406_975780/traj_data.json":{
@@ -48,8 +48,8 @@
                 "Place box with candle on the white table"
             ],
             "relative_objects":[
-                "Box",
-                "Candle"
+                "Candle",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-RemoteControl-Box-Sofa-220/trial_T20190907_022853_966852/traj_data.json":{
@@ -59,8 +59,8 @@
                 "Put the remote in the box on the green couch. "
             ],
             "relative_objects":[
-                "Box",
-                "RemoteControl"
+                "RemoteControl",
+                "Box"
             ]
         },
         "train/pick_and_place_simple-CreditCard-None-Sofa-220/trial_T20190909_110935_672411/traj_data.json":{
@@ -70,9 +70,9 @@
                 "Move the credit card to the couch"
             ],
             "relative_objects":[
-                "Sofa",
+                "CreditCard",
                 "CoffeeTable",
-                "CreditCard"
+                "Sofa"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_142512_565699/traj_data.json":{
@@ -102,9 +102,9 @@
                 "move a box from the coffee table to the couch"
             ],
             "relative_objects":[
+                "CoffeeTable",
                 "Box",
-                "Sofa",
-                "CoffeeTable"
+                "Sofa"
             ]
         },
         "train/pick_and_place_simple-Box-None-Sofa-220/trial_T20190907_165527_462462/traj_data.json":{
@@ -114,9 +114,9 @@
                 "Move a box from the coffee table to the sofa."
             ],
             "relative_objects":[
+                "CoffeeTable",
                 "Box",
-                "Sofa",
-                "CoffeeTable"
+                "Sofa"
             ]
         },
         "tests_seen/trial_T20190908_004650_624437/traj_data.json":{
@@ -129,5 +129,278 @@
                 "RemoteControl"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put the candle with box on the white cabinet. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190906_213833_564527/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a box with a candle in it on top of the white cabinet"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090406_975780/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine keys using lamp light."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_005348_966665/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put 2 tissue boxes on top of the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145607_044709/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine keys using lamp light."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_005348_966665/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Move the kleenex box to the coffee table",
+                "Examine a remote control by the light of a floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145750_484036/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine keys using lamp light.",
+                "Put the candle with box on the white cabinet. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_005348_966665/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190906_213833_564527/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the kleenex box to the coffee table",
+                "place a box with a candle in it on top of the white cabinet"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145750_484036/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090406_975780/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a credit card from a coffee table to a sofa.",
+                "place a box with a candle in it on top of the white cabinet"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-220/trial_T20190909_110935_672411/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090406_975780/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a remote control by the light of a floor lamp",
+                "place a candle in a carton on the white cupboard"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090345_790163/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Move a credit card from a coffee table to a sofa.",
+                "Examine keys using lamp light.",
+                "Put the candle with box on the white cabinet. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-220/trial_T20190909_110935_672411/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_005348_966665/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190906_213833_564527/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a candle in a carton on the white cupboard",
+                "Examine a remote control by the light of a floor lamp",
+                "Look at keys by the illumination of a lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090345_790163/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_142512_565699/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put 2 tissue boxes on top of the coffee table",
+                "Examine a remote control by the light of a floor lamp",
+                "place a candle in a carton on the white cupboard"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145607_044709/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090345_790163/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a box with a candle in it on top of the white cabinet",
+                "Examine a remote control by the light of a floor lamp",
+                "Examine keys using lamp light."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090406_975780/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_005348_966665/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine keys using lamp light.",
+                "put 2 tissue boxes on top of the coffee table",
+                "Examine a remote control by the light of a floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_005348_966665/traj_data.json",
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145607_044709/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "put 2 tissue boxes on top of the coffee table",
+                "Put the candle with box on the white cabinet. ",
+                "Examine a remote control by the light of a floor lamp",
+                "Look at keys by the illumination of a lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145607_044709/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190906_213833_564527/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_142512_565699/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a remote control by the light of a floor lamp",
+                "Put the candle with box on the white cabinet. ",
+                "Move the kleenex box to the coffee table",
+                "Look at keys by the illumination of a lamp."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190906_213833_564527/traj_data.json",
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145750_484036/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_142512_565699/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine keys using lamp light.",
+                "Put the candle with box on the white cabinet. ",
+                "Examine a remote control by the light of a floor lamp",
+                "put 2 tissue boxes on top of the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_005348_966665/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190906_213833_564527/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145607_044709/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Look at keys by the illumination of a lamp.",
+                "Put the candle with box on the white cabinet. ",
+                "Examine a remote control by the light of a floor lamp",
+                "Move a credit card from a coffee table to a sofa."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_142512_565699/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190906_213833_564527/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-220/trial_T20190909_110935_672411/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a box with a candle in it on top of the white cabinet",
+                "Look at keys by the illumination of a lamp.",
+                "Examine a remote control by the light of a floor lamp",
+                "Move the kleenex box to the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090406_975780/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_142512_565699/traj_data.json",
+                    "tests_seen/trial_T20190908_004650_624437/traj_data.json",
+                    "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145750_484036/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

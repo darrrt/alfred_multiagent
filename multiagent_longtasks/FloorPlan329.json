@@ -8,8 +8,8 @@
                 "drop a mug with a pen in it on the table"
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_033435_139611/traj_data.json":{
@@ -19,8 +19,8 @@
                 "Put a pen and cup on a bedside table."
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_033459_623204/traj_data.json":{
@@ -30,8 +30,8 @@
                 "Place a mug with a pen in it on a night table."
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_two_obj_and_place-CellPhone-None-Drawer-329/trial_T20190909_002000_414199/traj_data.json":{
@@ -48,9 +48,9 @@
                 "place a cup with a pen in it in front of the computer"
             ],
             "relative_objects":[
+                "Pen",
                 "Mug",
-                "Laptop",
-                "Pen"
+                "Laptop"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-DiningTable-329/trial_T20190906_203225_714252/traj_data.json":{
@@ -60,12 +60,12 @@
                 "place a cup with a pen in it down on the desk at the foot of the bed"
             ],
             "relative_objects":[
-                "Pencil",
-                "Laptop",
-                "Bed",
                 "Desk",
+                "Pencil",
+                "Bed",
+                "Pen",
                 "Mug",
-                "Pen"
+                "Laptop"
             ]
         },
         "train/pick_and_place_simple-Pen-None-SideTable-329/trial_T20190907_133455_179363/traj_data.json":{
@@ -78,8 +78,8 @@
                 "Put a pen on a night stand."
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-SideTable-329/trial_T20190909_013608_170798/traj_data.json":{
@@ -99,9 +99,9 @@
                 "Move an alarm clock from a night stand to a table."
             ],
             "relative_objects":[
-                "AlarmClock",
                 "Pillow",
-                "Book"
+                "Book",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-DiningTable-329/trial_T20190909_011727_722798/traj_data.json":{
@@ -142,8 +142,8 @@
             ],
             "relative_objects":[
                 "Pen",
-                "Pencil",
                 "CreditCard",
+                "Pencil",
                 "CellPhone"
             ]
         },
@@ -173,8 +173,8 @@
                 "Put a phone on the desk."
             ],
             "relative_objects":[
-                "CellPhone",
-                "Desk"
+                "Desk",
+                "CellPhone"
             ]
         },
         "train/pick_two_obj_and_place-Pen-None-SideTable-329/trial_T20190906_203209_061579/traj_data.json":{
@@ -211,8 +211,8 @@
                 "Put a mug on the stand."
             ],
             "relative_objects":[
-                "CD",
-                "Mug"
+                "Mug",
+                "CD"
             ]
         },
         "tests_seen/trial_T20190909_013645_008319/traj_data.json":{
@@ -232,8 +232,8 @@
                 "Put a clock on the nightstand."
             ],
             "relative_objects":[
-                "AlarmClock",
-                "Pillow"
+                "Pillow",
+                "AlarmClock"
             ]
         },
         "tests_seen/trial_T20190907_133507_260131/traj_data.json":{
@@ -253,9 +253,376 @@
                 "Move a cellphone to a desk."
             ],
             "relative_objects":[
-                "CellPhone",
-                "Desk"
+                "Desk",
+                "CellPhone"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Move the pen from the Black desk to the black end table that sits beside the bed."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_133507_260131/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the cup with a pencil in front of the laptop on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-DiningTable-329/trial_T20190906_203225_714252/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a CD on a table."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-Mug-None-SideTable-329/trial_T20190909_032340_274147/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Gathering pens to move from desk to night stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-SideTable-329/trial_T20190906_203138_714800/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a card from the nightstand to the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_013555_714877/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Place a clock on the night stand",
+                "Place phone in the cabinet by the bed."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_013645_008319/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Drawer-329/trial_T20190909_002000_414199/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the card from the cabinet top and put it on the table",
+                "Place a black cup with a pen on the bedside table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_033459_623204/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the pen from the table to the night stand.",
+                "Place a CD on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-SideTable-329/trial_T20190907_133455_179363/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Mug-None-SideTable-329/trial_T20190909_032340_274147/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the pen with the coffee mug to a new location.",
+                "Place a clock on the night stand"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-DiningTable-329/trial_T20190906_203156_360427/traj_data.json",
+                    "tests_seen/trial_T20190909_013645_008319/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a mug with a pen in it on a night table.",
+                "Move an alarm clock to the nightstand. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_011830_889238/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-SideTable-329/trial_T20190909_013608_170798/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Pick up the card from the cabinet top and put it on the table",
+                "Move cd from table to nightstand.",
+                "Move the pen from the Black desk to the black end table that sits beside the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-SideTable-329/trial_T20190908_002233_981326/traj_data.json",
+                    "tests_seen/trial_T20190907_133507_260131/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a clock on a desk",
+                "Place the cup with a pencil in front of the laptop on the desk.",
+                "Place phone in the cabinet by the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-DiningTable-329/trial_T20190909_011821_404731/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-DiningTable-329/trial_T20190906_203225_714252/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Drawer-329/trial_T20190909_002000_414199/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move an alarm clock to the nightstand. ",
+                "Move the pen with the coffee mug to a new location.",
+                "Pick up the card from the cabinet top and put it on the table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-SideTable-329/trial_T20190909_013608_170798/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-DiningTable-329/trial_T20190906_203156_360427/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a CD on a table.",
+                "Put a credit card on the table.",
+                "Move the pen from the Black desk to the black end table that sits beside the bed."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-Mug-None-SideTable-329/trial_T20190909_032340_274147/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_013611_626994/traj_data.json",
+                    "tests_seen/trial_T20190907_133507_260131/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a black cup with a pen on the bedside table.",
+                "Place a clock on the night stand",
+                "Pick up the card from the cabinet top and put it on the table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_033459_623204/traj_data.json",
+                    "tests_seen/trial_T20190909_013645_008319/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put the phone on the desk. ",
+                "Gather pens from the desk to be place on the night stand by the bed.",
+                "Move cd from table to nightstand.",
+                "Place a clock on the night stand"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_074109_560186/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-SideTable-329/trial_T20190906_203209_061579/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-SideTable-329/trial_T20190908_002233_981326/traj_data.json",
+                    "tests_seen/trial_T20190909_013645_008319/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the card from the cabinet top and put it on the table",
+                "Place phone in the cabinet by the bed.",
+                "put a clock on a desk",
+                "Put a mug with a pen in it on the night stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Drawer-329/trial_T20190909_002000_414199/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-DiningTable-329/trial_T20190909_011821_404731/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_033435_139611/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place an alarm clock on the desk.",
+                "Gathering pens to move from desk to night stand.",
+                "Pick up the card from the cabinet top and put it on the table",
+                "move a magazine from the bed to the table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-DiningTable-329/trial_T20190909_011727_722798/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-SideTable-329/trial_T20190906_203138_714800/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a credit card on the table.",
+                "Place an alarm clock on the desk.",
+                "Place a cell phone on a table.",
+                "Place a black cup with a pen on the bedside table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_013611_626994/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-DiningTable-329/trial_T20190909_011727_722798/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-DiningTable-329/trial_T20190909_074056_730233/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_033459_623204/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the card from the cabinet top and put it on the table",
+                "Put the phone on the desk. ",
+                "Place a mug with a pen in it on a night table.",
+                "Place an alarm clock on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json",
+                    "tests_seen/trial_T20190909_074109_560186/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_011830_889238/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-DiningTable-329/trial_T20190909_011727_722798/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "move the disc from the cabinet to the night stand",
+                "Place a cell phone on a table.",
+                "move a magazine from the bed to the table",
+                "Pick up the card from the cabinet top and put it on the table",
+                "Move an alarm clock to the nightstand. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-SideTable-329/trial_T20190908_002246_523800/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-DiningTable-329/trial_T20190909_074056_730233/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-SideTable-329/trial_T20190909_013608_170798/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a clock on a desk",
+                "Place phone in the cabinet by the bed.",
+                "Place a black cup with a pen on the bedside table.",
+                "Move cd from table to nightstand.",
+                "Pick up the card from the cabinet top and put it on the table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-DiningTable-329/trial_T20190909_011821_404731/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Drawer-329/trial_T20190909_002000_414199/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-329/trial_T20190908_033459_623204/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-SideTable-329/trial_T20190908_002233_981326/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the phone on the desk. ",
+                "Put a credit card on the table.",
+                "Move an alarm clock to the nightstand.",
+                "Move the pen from the table to the night stand.",
+                "Place a CD on a table."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_074109_560186/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_013611_626994/traj_data.json",
+                    "tests_seen/trial_T20190909_013620_927181/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-SideTable-329/trial_T20190907_133455_179363/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Mug-None-SideTable-329/trial_T20190909_032340_274147/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the phone on the desk. ",
+                "Pick up the card from the cabinet top and put it on the table",
+                "Place an alarm clock on the desk.",
+                "Place a CD on a table.",
+                "Move the pen from the Black desk to the black end table that sits beside the bed."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_074109_560186/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-DiningTable-329/trial_T20190909_011727_722798/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Mug-None-SideTable-329/trial_T20190909_032340_274147/traj_data.json",
+                    "tests_seen/trial_T20190907_133507_260131/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[
+        {
+            "task_list":[
+                "Pick up the card from the cabinet top and put it on the table",
+                "move a magazine from the bed to the table",
+                "Place a clock on the night stand",
+                "Move the pen from the table to the night stand.",
+                "Place a cell phone on a table.",
+                "move the disc from the cabinet to the night stand"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-DiningTable-329/trial_T20190909_003233_231673/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/traj_data.json",
+                    "tests_seen/trial_T20190909_013645_008319/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-SideTable-329/trial_T20190907_133455_179363/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-DiningTable-329/trial_T20190909_074056_730233/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-SideTable-329/trial_T20190908_002246_523800/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

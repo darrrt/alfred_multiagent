@@ -35,8 +35,8 @@
                 "Place a credit card on a chair."
             ],
             "relative_objects":[
-                "Chair",
-                "CreditCard"
+                "CreditCard",
+                "Chair"
             ]
         },
         "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json":{
@@ -59,5 +59,225 @@
                 "RemoteControl"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Examine the vase in the light by the couch. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine the vase in the light by the couch. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the laptop from the desk to the center of the sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Examine the vase in the light by the couch. ",
+                "Move the laptop from the desk to the center of the sofa."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Putting newspapers on the chair",
+                "Move the laptop from the desk to the center of the sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074201_426995/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the laptop from the desk to the center of the sofa.",
+                "Getting the newspaper ready to be read"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put the remote on the couch.",
+                "Getting the newspaper ready to be read",
+                "Put a credit card on a chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a credit card on a chair. ",
+                "Examine the vase in the light by the couch. ",
+                "Put the remote on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the laptop from the desk to the center of the sofa.",
+                "Getting the newspaper ready to be read",
+                "Put a credit card on a chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Getting the newspaper ready to be read",
+                "Put a credit card on a chair. ",
+                "Move the laptop from the desk to the center of the sofa.",
+                "Examine the vase in the light by the couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a credit card on a chair. ",
+                "Move the laptop from the desk to the center of the sofa.",
+                "Examine the vase in the light by the couch. ",
+                "Getting the newspaper ready to be read"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the laptop from the desk to the center of the sofa.",
+                "Examine the vase in the light by the couch. ",
+                "Put the remote on the couch.",
+                "Putting newspapers on the chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074201_426995/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Getting the newspaper ready to be read",
+                "Put a credit card on a chair. ",
+                "Put the remote on the couch.",
+                "Move the laptop from the desk to the center of the sofa.",
+                "Examine the vase in the light by the couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the laptop from the desk to the center of the sofa.",
+                "Put a credit card on a chair. ",
+                "Getting the newspaper ready to be read",
+                "Put the remote on the couch.",
+                "Examine the vase in the light by the couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the laptop from the desk to the center of the sofa.",
+                "Examine the vase in the light by the couch. ",
+                "Getting the newspaper ready to be read",
+                "Put the remote on the couch.",
+                "Put a credit card on a chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json"
+                ]
+            ]
+        }
+    ]
 }

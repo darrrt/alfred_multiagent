@@ -29,8 +29,8 @@
                 "Move a racket from the floor to the bed."
             ],
             "relative_objects":[
-                "Bed",
-                "TennisRacket"
+                "TennisRacket",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203047_953959/traj_data.json":{
@@ -40,8 +40,8 @@
                 "Pick up a racket and move it to the bed."
             ],
             "relative_objects":[
-                "Bed",
-                "TennisRacket"
+                "TennisRacket",
+                "Bed"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190909_145723_528863/traj_data.json":{
@@ -51,8 +51,8 @@
                 "Put a pen in a mug, on the dresser. "
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190906_190353_820051/traj_data.json":{
@@ -62,8 +62,8 @@
                 "place down a cup with a pen in it on the dresser"
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031758_208825/traj_data.json":{
@@ -112,7 +112,6 @@
         },
         "train/pick_two_obj_and_place-CellPhone-None-Bed-324/trial_T20190907_143501_605409/traj_data.json":{
             "tasks":[
-                "Put both blue cell phone's on to the bed",
                 "Bring Cell Phones on the bed from the Chest."
             ],
             "relative_objects":[
@@ -153,5 +152,197 @@
                 "CellPhone"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put a phone on a bed."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_233839_144519/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the tennis racket on the bed, by the cell phone. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203129_545065/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a tennis racket on the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031822_994450/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move a phone from the dresser to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Bed-324/trial_T20190907_233803_611728/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a phone in a drawer."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_225552_472573/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Put a pen in a mug on the dresser. ",
+                "Put a racket on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190909_145723_528863/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203109_390266/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put phone from dresser into drawer.",
+                "Stand the tennis racket on the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Drawer-324/trial_T20190907_225624_710237/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031811_820988/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the tennis racket on the bed, by the cell phone. ",
+                "Set the red pen that's inside the mug onto the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203129_545065/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190906_190353_820051/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put phone from dresser into drawer.",
+                "Put a racket on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Drawer-324/trial_T20190907_225624_710237/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203109_390266/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Set the red pen that's inside the mug onto the desk.",
+                "Bring Cell Phones on the bed from the Chest."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190906_190353_820051/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-324/trial_T20190907_143501_605409/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put a racket on a dresser.",
+                "Put a phone in a drawer.",
+                "Set the red pen that's inside the mug onto the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031758_208825/traj_data.json",
+                    "tests_seen/trial_T20190907_225552_472573/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190906_190353_820051/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a racket on a dresser.",
+                "Put a pen in a mug on the dresser. ",
+                "Put a phone on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031758_208825/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190909_145723_528863/traj_data.json",
+                    "tests_seen/trial_T20190907_233839_144519/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pen in a mug on the dresser. ",
+                "pick up a tennis racket under the bed and put it on top of the bed",
+                "Put a phone on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190909_145723_528863/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203047_953959/traj_data.json",
+                    "tests_seen/trial_T20190907_233839_144519/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pen in a mug on the dresser. ",
+                "Put a phone in a drawer.",
+                "Stand the tennis racket on the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190909_145723_528863/traj_data.json",
+                    "tests_seen/trial_T20190907_225552_472573/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Dresser-324/trial_T20190908_031811_820988/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Set the red pen that's inside the mug onto the desk.",
+                "Put a phone in a drawer.",
+                "pick up a tennis racket under the bed and put it on top of the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-324/trial_T20190906_190353_820051/traj_data.json",
+                    "tests_seen/trial_T20190907_225552_472573/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-324/trial_T20190907_203047_953959/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

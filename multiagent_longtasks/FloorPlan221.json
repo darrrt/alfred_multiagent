@@ -28,8 +28,8 @@
                 "Examine a credit card by the light of a tall lamp."
             ],
             "relative_objects":[
-                "KeyChain",
-                "CreditCard"
+                "CreditCard",
+                "KeyChain"
             ]
         },
         "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json":{
@@ -71,8 +71,8 @@
                 "Look at a remote control under the light of a lamp."
             ],
             "relative_objects":[
-                "FloorLamp",
-                "RemoteControl"
+                "RemoteControl",
+                "FloorLamp"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-221/trial_T20190906_185419_750853/traj_data.json":{
@@ -118,5 +118,197 @@
                 "KeyChain"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Examine a set of keys by the light of a tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-221/trial_T20190909_060027_710921/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Use the remote to turn the light on"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-221/trial_T20190909_102109_109171/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a plate with car keys on it on a coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-221/trial_T20190906_185438_727520/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a set of keys by the light of a tall lamp."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_060010_825835/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a plate with keys down on the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-221/trial_T20190906_185419_750853/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "To put a plate with keys on it on the table to the left of the TV.",
+                "Use the remote to turn the light on"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-SideTable-221/trial_T20190908_090523_517361/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-221/trial_T20190909_102109_109171/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "To put keys on a plate as well as set them on the desk.",
+                "Examine an empty box by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-SideTable-221/trial_T20190908_090434_438779/traj_data.json",
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a set of keys by the light of a floor lamp",
+                "Examine an empty box by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-221/trial_T20190909_055949_932969/traj_data.json",
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a set of keys by the light of a tall lamp.",
+                "Examine an empty box by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_060010_825835/traj_data.json",
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a plate with car keys on it on a coffee table.",
+                "Examine an empty box by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-221/trial_T20190906_185438_727520/traj_data.json",
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Examine an empty box by the light of a floor lamp.",
+                "Use the remote to turn the light on",
+                "To put keys on a plate as well as set them on the desk."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-221/trial_T20190909_102109_109171/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-SideTable-221/trial_T20190908_090434_438779/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "place a plate with keys down on the coffee table",
+                "Use the remote to turn the light on",
+                "Examine an empty box by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Plate-CoffeeTable-221/trial_T20190906_185419_750853/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-221/trial_T20190909_102109_109171/traj_data.json",
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine an empty box by the light of a floor lamp.",
+                "Examine a set of keys by the light of a tall lamp.",
+                "Use the remote to turn the light on"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-221/trial_T20190909_060027_710921/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-221/trial_T20190909_102109_109171/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine an empty box by the light of a floor lamp.",
+                "Examine a set of keys by the light of a tall lamp.",
+                "Use the remote to turn the light on"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json",
+                    "tests_seen/trial_T20190909_060010_825835/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-221/trial_T20190909_102109_109171/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Use the remote to turn the light on",
+                "Examine an empty box by the light of a floor lamp.",
+                "Examine a set of keys by the light of a floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-221/trial_T20190909_102109_109171/traj_data.json",
+                    "train/look_at_obj_in_light-Box-None-FloorLamp-221/trial_T20190908_063823_792284/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-221/trial_T20190909_055949_932969/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

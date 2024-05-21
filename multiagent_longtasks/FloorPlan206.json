@@ -48,8 +48,8 @@
             ],
             "relative_objects":[
                 "RemoteControl",
-                "Pillow",
-                "CreditCard"
+                "CreditCard",
+                "Pillow"
             ]
         },
         "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024648_216020/traj_data.json":{
@@ -59,8 +59,8 @@
                 "Place a gold bottle on a coffee table."
             ],
             "relative_objects":[
-                "Vase",
-                "Statue"
+                "Statue",
+                "Vase"
             ]
         },
         "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json":{
@@ -84,5 +84,224 @@
                 "Sofa"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put the credit cards on the blue sofa"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Sofa-206/trial_T20190906_203503_354880/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the box to the sofa."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move vase from the entertainment center to the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Look at keys under a tall lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045244_155119/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Put the credit cards on the blue sofa",
+                "examine keys with a lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Sofa-206/trial_T20190906_203503_354880/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045258_125220/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the credit cards on the blue sofa",
+                "Move the round gold object from the shelf to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Sofa-206/trial_T20190906_203503_354880/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024648_216020/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the box to the sofa.",
+                "Put the credit cards on the blue sofa"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-Sofa-206/trial_T20190906_203503_354880/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move vase from the entertainment center to the coffee table",
+                "Look at keys under a tall lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045244_155119/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Move a credit card to an armchair.",
+                "Look at keys under a tall lamp",
+                "move vase from the entertainment center to the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-206/trial_T20190909_023714_997770/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045244_155119/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "examine keys with a lamp",
+                "Move a credit card to an armchair.",
+                "Move the box to the sofa."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045258_125220/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-206/trial_T20190909_023714_997770/traj_data.json",
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move vase from the entertainment center to the coffee table",
+                "Move the box to the sofa.",
+                "Put the credit cards on the blue sofa"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json",
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-Sofa-206/trial_T20190906_203503_354880/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the box to the sofa.",
+                "move vase from the entertainment center to the coffee table",
+                "Move a credit card to an armchair."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-206/trial_T20190909_023714_997770/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "move vase from the entertainment center to the coffee table",
+                "Move a credit card to an armchair.",
+                "Move the box to the sofa.",
+                "Look at keys under a tall lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-206/trial_T20190909_023714_997770/traj_data.json",
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045244_155119/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the box to the sofa.",
+                "Put the credit cards on the blue sofa",
+                "move vase from the entertainment center to the coffee table",
+                "Look at keys in the light of a lamp. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-Sofa-206/trial_T20190906_203503_354880/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045229_128065/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "examine keys with a lamp",
+                "Put the credit cards on the blue sofa",
+                "Move the box to the sofa.",
+                "move vase from the entertainment center to the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045258_125220/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-Sofa-206/trial_T20190906_203503_354880/traj_data.json",
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024707_531392/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Look at keys under a tall lamp",
+                "Move the round gold object from the shelf to the coffee table.",
+                "Move the box to the sofa.",
+                "Move a credit card to an armchair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-206/trial_T20190908_045244_155119/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-206/trial_T20190909_024648_216020/traj_data.json",
+                    "tests_seen/trial_T20190909_102158_210566/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-206/trial_T20190909_023714_997770/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[]
 }

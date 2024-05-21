@@ -36,8 +36,8 @@
                 "Put the alarm clock on the desk."
             ],
             "relative_objects":[
-                "AlarmClock",
-                "Desk"
+                "Desk",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-Desk-310/trial_T20190908_002100_024659/traj_data.json":{
@@ -95,9 +95,9 @@
                 "Get a disc from the desk and put it in the other cabinet on the desk."
             ],
             "relative_objects":[
-                "Shelf",
+                "Desk",
                 "CD",
-                "Desk"
+                "Shelf"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151339_403808/traj_data.json":{
@@ -117,8 +117,8 @@
                 "Place a clock in a cabinet"
             ],
             "relative_objects":[
-                "AlarmClock",
-                "Cabinet"
+                "Cabinet",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151357_096210/traj_data.json":{
@@ -138,8 +138,8 @@
                 "Put a pen on a desk."
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "train/pick_and_place_simple-Pen-None-Desk-310/trial_T20190908_030156_053101/traj_data.json":{
@@ -160,8 +160,8 @@
                 "Put a pencil on a desk."
             ],
             "relative_objects":[
-                "Pencil",
                 "Pen",
+                "Pencil",
                 "Desk"
             ]
         },
@@ -172,8 +172,8 @@
                 "move the pencil to the desk"
             ],
             "relative_objects":[
-                "Pencil",
-                "Desk"
+                "Desk",
+                "Pencil"
             ]
         },
         "train/pick_and_place_simple-Book-None-Desk-310/trial_T20190909_121828_424706/traj_data.json":{
@@ -195,9 +195,9 @@
                 "Put the book from the bed in the upper left cabinet over the desk."
             ],
             "relative_objects":[
-                "Cabinet",
                 "Bed",
-                "Book"
+                "Book",
+                "Cabinet"
             ]
         },
         "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154222_896076/traj_data.json":{
@@ -268,8 +268,8 @@
                 "Move a baseball bat to the bed. "
             ],
             "relative_objects":[
-                "Pillow",
                 "BaseballBat",
+                "Pillow",
                 "Bed"
             ]
         },
@@ -291,8 +291,8 @@
                 "put a pen inside a shelf"
             ],
             "relative_objects":[
-                "Shelf",
-                "Pen"
+                "Pen",
+                "Shelf"
             ]
         },
         "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113609_142533/traj_data.json":{
@@ -302,11 +302,11 @@
                 "Place a pen on a desk."
             ],
             "relative_objects":[
-                "CD",
-                "Pencil",
                 "Book",
-                "Laptop",
-                "Pen"
+                "Pencil",
+                "Pen",
+                "CD",
+                "Laptop"
             ]
         },
         "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json":{
@@ -326,12 +326,615 @@
                 "Move a pencil from a small black bin to a wooden desk."
             ],
             "relative_objects":[
-                "Pencil",
-                "CreditCard",
                 "Book",
-                "AlarmClock",
-                "Pen"
+                "Pencil",
+                "Pen",
+                "CreditCard",
+                "AlarmClock"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Place a pencil on a desk."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-Pencil-None-Desk-310/trial_T20190909_113054_894334/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move pen from desk to shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the clock from the table onto the top shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151357_096210/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a set of keys on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a pencil on a desk."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-Pencil-None-Desk-310/trial_T20190909_113054_894334/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "move a bat from the floor to the bed",
+                "Place a set of keys on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move pen from desk to shelf",
+                "move a bat from the floor to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move pen from desk to shelf",
+                "Take a set of keys to the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113535_223329/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_125324_094909/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a blue pen on a desk",
+                "Put a bat on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Desk-310/trial_T20190908_030156_053101/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013655_956829/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the book in the desk cabinet",
+                "Put a bat on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154222_896076/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013655_956829/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Place a CD in a cabinet.",
+                "Put the clock on the desk",
+                "Place a pencil on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125911_803188/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151339_403808/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-310/trial_T20190909_142909_426067/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the clock from the table to the cabinet above",
+                "Move a pencil from the desk to the desk shelf",
+                "move a bat from the floor to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151407_969856/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Shelf-310/trial_T20190908_023553_529151/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Placing a tennis racket on a table. ",
+                "Place a set of keys on a desk",
+                "Place a clock on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-310/trial_T20190909_115859_563203/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a CD in a cabinet.",
+                "Carry a clock to the desk",
+                "Place a set of keys on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125911_803188/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-310/trial_T20190908_002100_024659/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the clock from the table to the cabinet above",
+                "move book from bed to desk",
+                "Place a credit card on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151407_969856/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-310/trial_T20190909_121828_424706/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033219_058539/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move the phones from the bed to the end table. ",
+                "Move a pencil from the desk to the desk shelf",
+                "Put a credit card on a desk.",
+                "Put a cd on a shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-SideTable-310/trial_T20190908_123211_754215/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Shelf-310/trial_T20190908_023553_529151/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033230_602789/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_130024_429688/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the phones from the bed to the end table. ",
+                "Placing a tennis racket on a table. ",
+                "Move a book into a cabinet.",
+                "Place a set of keys on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-SideTable-310/trial_T20190908_123211_754215/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154238_160623/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move keys from the shelf to the desk.",
+                "move book from bed to desk",
+                "Move the phones from the bed to the end table. ",
+                "Carry a clock to the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-310/trial_T20190909_121828_424706/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-SideTable-310/trial_T20190908_123211_754215/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-310/trial_T20190908_002100_024659/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a book into a cabinet.",
+                "Put a cd on a shelf.",
+                "Put a credit card on a desk.",
+                "Place a set of keys on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154238_160623/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_130024_429688/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033230_602789/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on a desk.",
+                "Move the clock from the table to the cabinet above",
+                "move a bat from the floor to the bed",
+                "Place a CD in a cabinet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-310/trial_T20190909_142857_563593/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151407_969856/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125911_803188/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Take a set of keys to the desk",
+                "move a bat from the floor to the bed",
+                "Carry a clock to the desk",
+                "Place a CD in a cabinet.",
+                "Move the phones from the bed to the end table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_125324_094909/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-310/trial_T20190908_002100_024659/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125911_803188/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-SideTable-310/trial_T20190908_123211_754215/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the book in the desk cabinet",
+                "Put a bat on a bed.",
+                "Place the clock from the table onto the top shelf.",
+                "Put a CD back in it's original spot. ",
+                "Placing a tennis racket on a table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154222_896076/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013655_956829/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151357_096210/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125951_058277/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move keys from the shelf to the desk.",
+                "Place the clock from the table onto the top shelf.",
+                "Put the book in the desk cabinet",
+                "Place a pencil on a desk",
+                "Put a bat on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151357_096210/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154222_896076/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-310/trial_T20190909_142909_426067/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013655_956829/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the clock on the desk",
+                "Place a CD in a cabinet.",
+                "move a bat from the floor to the bed",
+                "Place a credit card on the desk",
+                "Place a set of keys on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151339_403808/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125911_803188/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033219_058539/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the clock from the table onto the top shelf.",
+                "move pen from desk to shelf",
+                "Place a CD in a cabinet.",
+                "Put a credit card on a desk.",
+                "Put the book in the desk cabinet"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151357_096210/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113535_223329/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125911_803188/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033230_602789/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154222_896076/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[
+        {
+            "task_list":[
+                "Put the clock on the desk",
+                "Placing a tennis racket on a table. ",
+                "Place a pencil on a desk",
+                "Put a CD back in it's original spot. ",
+                "Take a set of keys to the desk",
+                "move a bat from the floor to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151339_403808/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-310/trial_T20190909_142909_426067/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125951_058277/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_125324_094909/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move pen from desk to shelf",
+                "Placing a tennis racket on a table. ",
+                "move a bat from the floor to the bed",
+                "Put a cd on a shelf.",
+                "Place a set of keys on a desk",
+                "Move a pencil from the desk to the desk shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_130024_429688/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Shelf-310/trial_T20190908_023553_529151/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the clock on the desk",
+                "Placing a tennis racket on a table. ",
+                "Place a set of keys on a desk",
+                "Put the book in the desk cabinet",
+                "move pen from desk to shelf",
+                "Move a pencil from the desk to the desk shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151339_403808/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154222_896076/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Shelf-310/trial_T20190908_023553_529151/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Placing a tennis racket on a table. ",
+                "Move a wooden bat from the ground to a bed.",
+                "Move a pencil from the desk to the desk shelf",
+                "Place the clock from the table onto the top shelf.",
+                "move book from desk to cabinet",
+                "Put a credit card on a desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013645_463866/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Shelf-310/trial_T20190908_023553_529151/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151357_096210/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154212_187931/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033230_602789/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move book from bed to desk",
+                "move pen from desk to shelf",
+                "Put a credit card on a desk.",
+                "Place a CD in a cabinet.",
+                "Place a set of keys on a desk",
+                "Move the phones from the bed to the end table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Desk-310/trial_T20190909_121828_424706/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113535_223329/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033230_602789/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125911_803188/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-SideTable-310/trial_T20190908_123211_754215/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_7":[
+        {
+            "task_list":[
+                "Put a bat on a bed.",
+                "Place a credit card on the desk",
+                "move book from desk to cabinet",
+                "Placing a tennis racket on a table. ",
+                "move pen from desk to shelf",
+                "Put a cd on a shelf.",
+                "Put the clock on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013655_956829/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033219_058539/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154212_187931/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_130024_429688/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151339_403808/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a CD back in it's original spot. ",
+                "Move keys from the shelf to the desk.",
+                "move a bat from the floor to the bed",
+                "Place a blue pen on a desk",
+                "Move a pencil from the desk to the desk shelf",
+                "Put a credit card on a desk.",
+                "Placing a tennis racket on a table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125951_058277/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124631_281710/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Desk-310/trial_T20190908_030156_053101/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Shelf-310/trial_T20190908_023553_529151/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033230_602789/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a pencil from the desk to the desk shelf",
+                "Take a set of keys to the desk",
+                "move pen from desk to shelf",
+                "Move the phones from the bed to the end table. ",
+                "Carry a clock to the desk",
+                "move book from desk to cabinet",
+                "Put a cd on a shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Shelf-310/trial_T20190908_023553_529151/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_125324_094909/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-SideTable-310/trial_T20190908_123211_754215/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-310/trial_T20190908_002100_024659/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154212_187931/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_130024_429688/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move a bat from the floor to the bed",
+                "Placing a tennis racket on a table. ",
+                "Put the book in the desk cabinet",
+                "Put a cd on a shelf.",
+                "move pen from desk to shelf",
+                "Put a credit card on a desk.",
+                "Move the clock from the table to the cabinet above"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154222_896076/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_130024_429688/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033230_602789/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151407_969856/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_8":[
+        {
+            "task_list":[
+                "Move the phones from the bed to the end table. ",
+                "Placing a tennis racket on a table. ",
+                "Place a credit card on the desk",
+                "Place a set of keys on a desk",
+                "Pick a pencil in the dustbin and place it on the table",
+                "move a bat from the floor to the bed",
+                "Place a CD in a cabinet.",
+                "Move the clock from the table to the cabinet above"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-SideTable-310/trial_T20190908_123211_754215/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033219_058539/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Desk-310/trial_T20190908_030223_620154/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013633_346723/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-310/trial_T20190908_125911_803188/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151407_969856/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move pen from desk to shelf",
+                "Put a bat on a bed.",
+                "move book from desk to cabinet",
+                "Place a set of keys on a desk",
+                "Place the clock from the table onto the top shelf.",
+                "Placing a tennis racket on a table. ",
+                "Move a pencil from the desk to the desk shelf",
+                "Put a credit card on a desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-310/trial_T20190909_013655_956829/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Cabinet-310/trial_T20190908_154212_187931/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-310/trial_T20190908_124646_907558/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Shelf-310/trial_T20190907_151357_096210/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-SideTable-310/trial_T20190907_040931_725020/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Shelf-310/trial_T20190908_023553_529151/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Desk-310/trial_T20190908_033230_602789/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_9":[]
 }

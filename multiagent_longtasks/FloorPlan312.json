@@ -30,9 +30,9 @@
             ],
             "relative_objects":[
                 "Pen",
-                "Bed",
+                "Desk",
                 "CellPhone",
-                "Desk"
+                "Bed"
             ]
         },
         "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json":{
@@ -62,9 +62,9 @@
                 "Move a book from the desk to the bed."
             ],
             "relative_objects":[
-                "Bed",
+                "Desk",
                 "Book",
-                "Desk"
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103648_829231/traj_data.json":{
@@ -93,8 +93,8 @@
                 "place a basket ball on top of the desk"
             ],
             "relative_objects":[
-                "Basketball",
-                "Desk"
+                "Desk",
+                "Basketball"
             ]
         },
         "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195104_190977/traj_data.json":{
@@ -104,16 +104,8 @@
                 "Put the basketball on the edge of the desk"
             ],
             "relative_objects":[
-                "BasketBall",
-                "Desk"
-            ]
-        },
-        "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035112_615160/traj_data.json":{
-            "tasks":[
-                "Put both phones on the bed."
-            ],
-            "relative_objects":[
-                "CellPhone"
+                "Desk",
+                "BasketBall"
             ]
         },
         "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json":{
@@ -140,9 +132,301 @@
                 "Toss the basketball on the desk."
             ],
             "relative_objects":[
-                "BasketBall",
-                "Desk"
+                "Desk",
+                "BasketBall"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put a book on the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103648_829231/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a book on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103725_745160/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Putting the cell phones on the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the clocks on the bedside table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a book on to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103710_898411/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Put a book on the bed. ",
+                "Putting the cell phones on the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103648_829231/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the clocks on the bedside table. ",
+                "Place a basketball on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195054_730437/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a book on to the bed",
+                "Put the pens on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103710_898411/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the clocks on the bedside table. ",
+                "Place a book on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103725_745160/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Set a basketball on the desk.",
+                "Place one cell phone on bed next to blue book, place one cell phone on top of blue book on bed"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190906_195043_806438/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035023_577812/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put the clocks on the bedside table. ",
+                "Put the pens on the desk",
+                "Place a basketball on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195054_730437/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a basketball on the desk.",
+                "Put the clocks on the bedside table. ",
+                "get a phone and put it on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195054_730437/traj_data.json",
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Set a basketball on the desk.",
+                "Put the pens on the desk",
+                "Putting the cell phones on the bed"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190906_195043_806438/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a book on the bed. ",
+                "Move a phone from the bed to the desk.",
+                "Put the clocks on the bedside table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103648_829231/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021807_843876/traj_data.json",
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Putting the cell phones on the bed",
+                "Put the pens on the desk",
+                "Set a basketball on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "tests_seen/trial_T20190906_195043_806438/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put the pens on the desk",
+                "Put the clocks on the bedside table. ",
+                "Place a basketball on the desk.",
+                "Place one cell phone on bed next to blue book, place one cell phone on top of blue book on bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195054_730437/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035023_577812/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the clocks on the bedside table. ",
+                "Put the pens on the desk",
+                "Put the basketball on the desk. ",
+                "get a phone and put it on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195104_190977/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the clocks on the bedside table. ",
+                "Put the pens on the desk",
+                "Put the basketball on the desk. ",
+                "Putting the cell phones on the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195104_190977/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the pens on the desk",
+                "Putting the cell phones on the bed",
+                "Put the basketball on the desk. ",
+                "Put the clocks on the bedside table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195104_190977/traj_data.json",
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the pens on the desk",
+                "Put the basketball on the desk. ",
+                "Putting the cell phones on the bed",
+                "Put a book on the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195104_190977/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103648_829231/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Set a basketball on the desk.",
+                "Put the pens on the desk",
+                "Put a book on the bed. ",
+                "Put the clocks on the bedside table. ",
+                "Putting the cell phones on the bed"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190906_195043_806438/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103648_829231/traj_data.json",
+                    "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

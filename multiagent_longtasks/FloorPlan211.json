@@ -44,8 +44,8 @@
                 "Put a newspaper on the couch."
             ],
             "relative_objects":[
-                "Newspaper",
                 "RemoteControl",
+                "Newspaper",
                 "Sofa"
             ]
         },
@@ -68,8 +68,8 @@
                 "put the remote in a box on the coffee table and close it up."
             ],
             "relative_objects":[
-                "Box",
-                "RemoteControl"
+                "RemoteControl",
+                "Box"
             ]
         },
         "train/look_at_obj_in_light-Laptop-None-FloorLamp-211/trial_T20190908_115814_287048/traj_data.json":{
@@ -80,8 +80,8 @@
             ],
             "relative_objects":[
                 "RemoteControl",
-                "Laptop",
-                "CellPhone"
+                "CellPhone",
+                "Laptop"
             ]
         },
         "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-211/trial_T20190908_012307_913456/traj_data.json":{
@@ -122,8 +122,8 @@
                 "examine blue plate with the lamp"
             ],
             "relative_objects":[
-                "Plate",
-                "Vase"
+                "Vase",
+                "Plate"
             ]
         },
         "tests_seen/trial_T20190907_155502_604907/traj_data.json":{
@@ -155,5 +155,278 @@
                 "Plate"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Move a plate with a phone on it to a side table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-211/trial_T20190908_012205_528141/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a bowl with a phone it it on the table."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_012244_364797/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put box on table and put remote in box"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-211/trial_T20190909_002955_304595/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a key chain by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_011838_777820/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Inspect a lap top near a lit lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-211/trial_T20190908_115814_287048/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Examine a set of keys using the light of a floor lamp.",
+                "Place newspaper next to blue plate, place newspaper on top of blue plate"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_040147_087650/traj_data.json",
+                    "tests_seen/trial_T20190907_155441_973789/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put box on table and put remote in box",
+                "Examine the plate under the light of the lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-211/trial_T20190909_002955_304595/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a set of keys using the light of a floor lamp.",
+                "Examine the plate under the light of the lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_040147_087650/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Take the newspapers on the chair and the TV stand to the coffee table.",
+                "Examine the plate under the light of the lamp."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_155502_604907/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine the plate under the light of the lamp.",
+                "Examine a set of keys using the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_040147_087650/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Examine the plate under the light of the lamp.",
+                "Inspect a lap top near a lit lamp.",
+                "Move a newspaper from a TV stand to a sofa."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-211/trial_T20190908_115814_287048/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Sofa-211/trial_T20190906_175004_203092/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a plate with a phone on it to a side table.",
+                "Put box on table and put remote in box",
+                "Examine a key chain by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-211/trial_T20190908_012205_528141/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-211/trial_T20190909_002955_304595/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_011838_777820/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a bowl with a phone it it on the table.",
+                "Examine a set of keys using the light of a floor lamp.",
+                "Move the newspaper to the couch."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_012244_364797/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_040147_087650/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Sofa-211/trial_T20190906_174949_956681/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a key chain by the light of a floor lamp.",
+                "Put box on table and put remote in box",
+                "Place newspaper next to blue plate, place newspaper on top of blue plate"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_011838_777820/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-211/trial_T20190909_002955_304595/traj_data.json",
+                    "tests_seen/trial_T20190907_155441_973789/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a newspaper from a TV stand to a sofa.",
+                "Move a plate with a plate on it to the black end table",
+                "Examine a key chain by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Newspaper-None-Sofa-211/trial_T20190906_175004_203092/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-211/trial_T20190908_012307_913456/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_011838_777820/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Examine a set of keys using the light of a floor lamp.",
+                "Examine the plate under the light of the lamp.",
+                "Take the newspapers on the chair and the TV stand to the coffee table.",
+                "Put box on table and put remote in box"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_040147_087650/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json",
+                    "tests_seen/trial_T20190907_155502_604907/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-211/trial_T20190909_002955_304595/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Inspect a lap top near a lit lamp.",
+                "Move a newspaper from a TV stand to a sofa.",
+                "Examine a key chain by the light of a floor lamp.",
+                "Examine the plate under the light of the lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-211/trial_T20190908_115814_287048/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Sofa-211/trial_T20190906_175004_203092/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_011838_777820/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put box on table and put remote in box",
+                "Examine the plate under the light of the lamp.",
+                "Move the newspaper to the couch.",
+                "Examine a key chain by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-211/trial_T20190909_002955_304595/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Sofa-211/trial_T20190906_174949_956681/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_011838_777820/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the newspaper to the couch.",
+                "Examine a key chain by the light of a floor lamp.",
+                "Put a bowl with a phone it it on the table.",
+                "Put box on table and put remote in box"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Newspaper-None-Sofa-211/trial_T20190906_174949_956681/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_011838_777820/traj_data.json",
+                    "tests_seen/trial_T20190908_012244_364797/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-CoffeeTable-211/trial_T20190909_002955_304595/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a key chain by the light of a floor lamp.",
+                "Take the newspapers on the chair and the TV stand to the coffee table.",
+                "Inspect a lap top near a lit lamp.",
+                "Examine the plate under the light of the lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-211/trial_T20190909_011838_777820/traj_data.json",
+                    "tests_seen/trial_T20190907_155502_604907/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-211/trial_T20190908_115814_287048/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-211/trial_T20190907_131058_267698/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

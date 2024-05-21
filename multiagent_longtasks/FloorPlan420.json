@@ -50,10 +50,10 @@
                 "Move the candle from the tub to the table."
             ],
             "relative_objects":[
-                "SoapBottle",
+                "Candle",
                 "ToiletPaper",
-                "SoapBar",
-                "Candle"
+                "SoapBottle",
+                "SoapBar"
             ]
         },
         "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json":{
@@ -94,8 +94,8 @@
                 "Move a towel to the top of a toilet"
             ],
             "relative_objects":[
-                "Towel",
-                "HandTowel"
+                "HandTowel",
+                "Towel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120247_920758/traj_data.json":{
@@ -105,9 +105,9 @@
                 "Put a towel on the toilet tank lid. "
             ],
             "relative_objects":[
+                "HandTowel",
                 "Towel",
-                "Cloth",
-                "HandTowel"
+                "Cloth"
             ]
         },
         "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693/traj_data.json":{
@@ -117,9 +117,9 @@
                 "Put a dispenser on the end table."
             ],
             "relative_objects":[
+                "ScrubBrush",
                 "Towel",
                 "SprayBottle",
-                "ScrubBrush",
                 "SoapBottle"
             ]
         },
@@ -167,10 +167,10 @@
                 "To move a roll of toilet paper plus an empty roll to the black table."
             ],
             "relative_objects":[
-                "Towel",
-                "Cloth",
+                "ToiletPaper",
                 "HandTowel",
-                "ToiletPaper"
+                "Towel",
+                "Cloth"
             ]
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json":{
@@ -187,8 +187,8 @@
                 "Put the purple cloths on the small table"
             ],
             "relative_objects":[
-                "Cloth",
-                "HandTowel"
+                "HandTowel",
+                "Cloth"
             ]
         },
         "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json":{
@@ -207,8 +207,8 @@
                 "Put a towel in the green bin. "
             ],
             "relative_objects":[
-                "Towel",
-                "HandTowel"
+                "HandTowel",
+                "Towel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json":{
@@ -218,8 +218,8 @@
                 "Move the towel to the green bin."
             ],
             "relative_objects":[
-                "Towel",
-                "HandTowel"
+                "HandTowel",
+                "Towel"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-420/trial_T20190908_043134_210616/traj_data.json":{
@@ -358,5 +358,297 @@
                 "SoapBar"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put away clean rags"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a towel in the garbage."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153250_839048/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a clean bar of soap into a small green trash can."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201041_787997/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put away clean rags"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a candle to the black table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Place soap in the sink.",
+                "Move a candle to the black table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182100_214449/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a cleaned soap bar into a rubbish bin.",
+                "Move a purple rag to the black table."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201001_681922/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-SideTable-420/trial_T20190909_091108_122104/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean bar of soap on the toilet.",
+                "Put the purple cloths on the small table"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-420/trial_T20190908_043134_210616/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean bar of soap on the toilet tank.",
+                "Move a candle to the black table. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_043026_789897/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place an empty toilet paper roll on a toilet paper holder.",
+                "Put 2 pink soaps in the green trash can next to the toilet. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155604_414982/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-GarbageCan-420/trial_T20190908_143343_213116/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Throw away a rinsed bar of soap into a green wastebasket.",
+                "Put away clean rags",
+                "Move a candle to the black table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the empty toilet paper tube on the toilet paper holder.",
+                "Place soap in the sink.",
+                "get the hand towel from the towel rod and stand it up on the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155546_250341/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182159_811957/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120310_753481/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "take the hand towel and throw it away.",
+                "Putting a bottle of lotion on the black table",
+                "Place an empty toilet paper roll on a toilet paper holder."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063550_595984/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155604_414982/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move spray bottle from table to back of toilet",
+                "Place a towel on a toilet tank.",
+                "Put a clean bar of soap on the toilet tank."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113842_397571/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120224_333615/traj_data.json",
+                    "tests_seen/trial_T20190908_043026_789897/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a rag on a table.",
+                "Put a candle on a table.",
+                "Put a clean bar of soap on the toilet tank."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Cloth-None-SideTable-420/trial_T20190909_091135_148287/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json",
+                    "tests_seen/trial_T20190908_043026_789897/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Place the empty toilet paper tube on the toilet paper holder.",
+                "Put a bottle on a table.",
+                "Throw away a rinsed bar of soap into a green wastebasket.",
+                "Put the purple cloths on the small table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155546_250341/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean bar of soap on the toilet tank.",
+                "Move toilet paper and empty roll to black table.",
+                "Move a purple rag to the black table.",
+                "Put a candle on a table."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_043026_789897/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193854_783741/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-SideTable-420/trial_T20190909_091108_122104/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "take the hand towel and throw it away.",
+                "Place an empty toilet paper roll on a toilet paper holder.",
+                "Place a clean bar of soap into a small green trash can.",
+                "Move a candle to the black table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155604_414982/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201041_787997/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Throw away a rinsed bar of soap into a green wastebasket.",
+                "Put the purple cloths on the small table",
+                "Put a bottle on a table.",
+                "put empty and full toilet paper rolls on table"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a clean bar of soap on the toilet tank.",
+                "Put a towel on the back of the toilet. ",
+                "put empty and full toilet paper rolls on table",
+                "Place a spray bottle on the back of a toilet"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_043026_789897/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120247_920758/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113828_525912/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "put 2 soap bars inside the green trash can",
+                "put empty and full toilet paper rolls on table",
+                "Put a bottle on a table.",
+                "Put the purple cloths on the small table",
+                "Move a candle to the black table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SoapBar-None-GarbageCan-420/trial_T20190908_143325_889991/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

@@ -26,17 +26,21 @@ max_tasks_per_env=5
 max_tasks_composed=10
 np.random.seed(42)
 for scene_name in scene_dict.keys():
+    
     with open(os.path.join(root_path,'../../multiagent_longtasks/{}.json'.format(scene_name)),'r') as f :
         task_config=json.load(f)
     
-    select_pool_names=list(task_config["trials"].keys())
+    select_pool_names=np.sort(list(task_config["trials"].keys()))
     select_pool=np.arange(0,len(select_pool_names),step=1,dtype=np.int16)
     
-    for n_task in range(max_tasks_composed):
-        for task_id in range(len(select_pool_names)/2,max_tasks_per_env):
+    for n_task in range(1,min(max_tasks_composed,len(select_pool_names))):
+        
+        task_config["tasks_{}".format(n_task)]=[]
+        for task_id in range(min(int(len(select_pool_names)/2),max_tasks_per_env)):
+            print(scene_name,'n_task',n_task,'NO.',task_id)
             compose_check=False
             test_time=0
-            while compose_check==False and test_time<10:
+            while compose_check==False and test_time<100:
                 compose_check=True
                 test_time+=1
                 ran_select=np.random.choice(select_pool,size=n_task,replace=False)
@@ -48,6 +52,11 @@ for scene_name in scene_dict.keys():
                         break
                     else:
                         used_objs=used_objs|possible_obj
+            if compose_check:
+                task_config["tasks_{}".format(n_task)].append({
+                    "task_list":[task_config["trials"][select_pool_names[idx]]["tasks"][0] for idx in ran_select],
+                    "orign":[select_pool_names[ran_select].tolist()]
+                })
     with open(os.path.join(root_path,'../../multiagent_longtasks/{}.json'.format(scene_name)),'w') as f :
         f.write(json.dumps(task_config,sort_keys=False,indent=4,separators=(',',':')))
     

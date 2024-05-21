@@ -19,13 +19,12 @@
         },
         "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034356_767031/traj_data.json":{
             "tasks":[
-                "Move the laptops from the sofa to the foot rest.",
-                "Close and move both laptops from the couch to the ottoman."
+                "Move the laptops from the sofa to the foot rest."
             ],
             "relative_objects":[
-                "Sofa",
                 "Ottoman",
-                "Laptop"
+                "Laptop",
+                "Sofa"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Plate-CoffeeTable-203/trial_T20190907_203410_039885/traj_data.json":{
@@ -69,8 +68,8 @@
             ],
             "relative_objects":[
                 "RemoteControl",
-                "KeyChain",
-                "CreditCard"
+                "CreditCard",
+                "KeyChain"
             ]
         },
         "train/pick_and_place_simple-KeyChain-None-Ottoman-203/trial_T20190908_140430_032812/traj_data.json":{
@@ -91,8 +90,8 @@
             ],
             "relative_objects":[
                 "RemoteControl",
-                "KeyChain",
-                "CreditCard"
+                "CreditCard",
+                "KeyChain"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-203/trial_T20190909_060050_754328/traj_data.json":{
@@ -112,8 +111,8 @@
                 "Put a phone in a bowl on the coffee table. "
             ],
             "relative_objects":[
-                "CellPhone",
-                "Bowl"
+                "Bowl",
+                "CellPhone"
             ]
         },
         "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190025_596359/traj_data.json":{
@@ -144,15 +143,6 @@
             ],
             "relative_objects":[
                 "Bowl"
-            ]
-        },
-        "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-203/trial_T20190906_182910_532448/traj_data.json":{
-            "tasks":[
-                "Put both remotes on the foot rest. ",
-                "Put both the remotes on the foot stool"
-            ],
-            "relative_objects":[
-                "RemoteControl"
             ]
         },
         "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_190823_442359/traj_data.json":{
@@ -230,5 +220,410 @@
                 "Plate"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put a computer on the ottoman. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110656_971485/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a cell phone in a bowl to the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190025_596359/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put 2 lap tops on a foot stool"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034519_385647/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a bowl with a pencil on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-203/trial_T20190908_140741_719621/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put 2 lap tops on a foot stool"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034519_385647/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Pick up a credit card and view it in the light of the lamp",
+                "Put a computer on the ottoman. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-203/trial_T20190909_052719_823536/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110656_971485/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up a credit card and view it in the light of the lamp",
+                "Move the laptops from the sofa to the foot rest."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-203/trial_T20190909_052719_823536/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034356_767031/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Putting a bowl with a pencil in it on the coffee table",
+                "Move the laptops from the sofa to the foot rest."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-203/trial_T20190908_140937_602898/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034356_767031/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Locate keys and turn on the lamp.",
+                "Putting a bowl with a pencil in it on the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-203/trial_T20190909_060050_754328/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-203/trial_T20190908_140937_602898/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a plate and pencil on a table. ",
+                "Put a computer on the ottoman. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Plate-CoffeeTable-203/trial_T20190907_203410_039885/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110606_176017/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put a computer on the ottoman. ",
+                "Put a grey plate with a pencil on it on the coffee table.",
+                "Move a cell phone in a bowl to the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110656_971485/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Plate-CoffeeTable-203/trial_T20190907_211333_922716/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190025_596359/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "moving the laptop. ",
+                "Put the keys on the ottoman.",
+                "Place a bowl with a pencil on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034427_986385/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Ottoman-203/trial_T20190908_123712_283630/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-203/trial_T20190908_140741_719621/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Locate keys and turn on the lamp.",
+                "Put 2 lap tops on a foot stool",
+                "Put a plate with tissues on it onto the dining table."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-203/trial_T20190909_060050_754328/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034519_385647/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-TissueBox-Plate-DiningTable-203/trial_T20190909_141915_002879/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Putting a bowl with a pencil in it on the coffee table",
+                "Locate keys and turn on the lamp.",
+                "Pick up a credit card and view it in the light of the lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-203/trial_T20190908_140937_602898/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-203/trial_T20190909_060050_754328/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-203/trial_T20190909_052719_823536/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put 2 lap tops on a foot stool",
+                "move keys from coffee table to ottoman",
+                "Place bowls on a table"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034519_385647/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Ottoman-203/trial_T20190908_140430_032812/traj_data.json",
+                    "train/pick_two_obj_and_place-Bowl-None-CoffeeTable-203/trial_T20190907_153529_699181/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move the newspaper from the chair to ottoman.",
+                "Putting a bowl with a pencil in it on the coffee table",
+                "Put a plate with tissues on it onto the dining table.",
+                "Put a computer on the ottoman. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_173724_161102/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-203/trial_T20190908_140937_602898/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-TissueBox-Plate-DiningTable-203/trial_T20190909_141915_002879/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110656_971485/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the keys on the ottoman.",
+                "Put a computer on the ottoman. ",
+                "Put a newspaper on the ottoman.",
+                "Put a plate with tissues on it onto the dining table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Ottoman-203/trial_T20190908_123712_283630/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110656_971485/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_190823_442359/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-TissueBox-Plate-DiningTable-203/trial_T20190909_141915_002879/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a computer on the ottoman. ",
+                "Put a plate and pencil on a table. ",
+                "Put a newspaper on the ottoman.",
+                "Move a cell phone in a bowl to the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110606_176017/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Plate-CoffeeTable-203/trial_T20190907_203410_039885/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_190823_442359/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190025_596359/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the newspaper from the chair to ottoman.",
+                "Put 2 lap tops on a foot stool",
+                "Place bowls on a table",
+                "Put a plate with tissues on it onto the dining table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_173724_161102/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034519_385647/traj_data.json",
+                    "train/pick_two_obj_and_place-Bowl-None-CoffeeTable-203/trial_T20190907_153529_699181/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-TissueBox-Plate-DiningTable-203/trial_T20190909_141915_002879/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the keys on the ottoman.",
+                "Put a computer on the ottoman. ",
+                "Put a newspaper on the ottoman.",
+                "Place a bowl with a pencil on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Ottoman-203/trial_T20190908_123712_283630/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110606_176017/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_190823_442359/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-203/trial_T20190908_140741_719621/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put a grey plate with a pencil on it on the coffee table.",
+                "Put the keys on the ottoman.",
+                "Put a computer on the ottoman. ",
+                "Move the newspaper from the chair to ottoman.",
+                "Move a cell phone in a bowl to the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Plate-CoffeeTable-203/trial_T20190907_211333_922716/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Ottoman-203/trial_T20190908_123712_283630/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110656_971485/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_173724_161102/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190025_596359/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a computer on the ottoman. ",
+                "Pick up a credit card and view it in the light of the lamp",
+                "Move a cell phone in a bowl to the coffee table. ",
+                "Locate keys and turn on the lamp.",
+                "Put a grey plate with a pencil on it on the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110656_971485/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-203/trial_T20190909_052719_823536/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190025_596359/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-203/trial_T20190909_060050_754328/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Plate-CoffeeTable-203/trial_T20190907_211333_922716/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a bowl with a phone in it on a coffee table.",
+                "move keys from coffee table to ottoman",
+                "Move the laptops from the sofa to the foot rest.",
+                "Put a grey plate with a pencil on it on the coffee table.",
+                "Move the newspaper from the chair to ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190100_142881/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Ottoman-203/trial_T20190908_140430_032812/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034356_767031/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Plate-CoffeeTable-203/trial_T20190907_211333_922716/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_173724_161102/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a bowl with a phone in it on a coffee table.",
+                "Put a computer on the ottoman. ",
+                "Put the keys on the ottoman.",
+                "Put a plate with tissues on it onto the dining table.",
+                "Put a newspaper on the ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190100_142881/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110606_176017/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Ottoman-203/trial_T20190908_123712_283630/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-TissueBox-Plate-DiningTable-203/trial_T20190909_141915_002879/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_190823_442359/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the newspaper from the chair to ottoman.",
+                "Put a grey plate with a pencil on it on the coffee table.",
+                "Pick up the keys and then turn the lamp on behind the blue chair.",
+                "Move a cell phone in a bowl to the coffee table. ",
+                "Put a computer on the ottoman. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_173724_161102/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Plate-CoffeeTable-203/trial_T20190907_211333_922716/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-203/trial_T20190909_060210_354107/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190025_596359/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-203/trial_T20190908_110606_176017/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[
+        {
+            "task_list":[
+                "Pick up a credit card and view it in the light of the lamp",
+                "Move the laptops from the sofa to the foot rest.",
+                "Putting a bowl with a pencil in it on the coffee table",
+                "Put a plate with tissues on it onto the dining table.",
+                "Locate keys and turn on the lamp.",
+                "Put a newspaper on the ottoman."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-203/trial_T20190909_052719_823536/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034356_767031/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-203/trial_T20190908_140937_602898/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-TissueBox-Plate-DiningTable-203/trial_T20190909_141915_002879/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-203/trial_T20190909_060050_754328/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_190823_442359/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up a credit card and view it in the light of the lamp",
+                "Move the plate from the coffee table to the dining table, put the tissue box in the plate",
+                "Put 2 lap tops on a foot stool",
+                "Place a bowl with a phone in it on a coffee table.",
+                "Move the newspaper from the chair to ottoman.",
+                "Locate keys and turn on the lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-203/trial_T20190909_052719_823536/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-TissueBox-Plate-DiningTable-203/trial_T20190907_104230_556185/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Ottoman-203/trial_T20190907_034519_385647/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-CoffeeTable-203/trial_T20190906_190100_142881/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-203/trial_T20190908_173724_161102/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-203/trial_T20190909_060050_754328/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

@@ -8,8 +8,8 @@
                 "Place a trophy on the dresser."
             ],
             "relative_objects":[
-                "Dresser",
-                "Statue"
+                "Statue",
+                "Dresser"
             ]
         },
         "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122415_877633/traj_data.json":{
@@ -19,8 +19,8 @@
                 "Pick up a statue to move to the dresser."
             ],
             "relative_objects":[
-                "Dresser",
-                "Statue"
+                "Statue",
+                "Dresser"
             ]
         },
         "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_061008_714389/traj_data.json":{
@@ -62,8 +62,8 @@
                 "Take a magazine to the dresser."
             ],
             "relative_objects":[
-                "KeyChain",
-                "Book"
+                "Book",
+                "KeyChain"
             ]
         },
         "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json":{
@@ -73,8 +73,8 @@
                 "move pen from desk to shelf"
             ],
             "relative_objects":[
-                "Box",
-                "Pen"
+                "Pen",
+                "Box"
             ]
         },
         "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145438_983650/traj_data.json":{
@@ -84,8 +84,8 @@
                 "Put a pair of CD's away in a chest of drawers"
             ],
             "relative_objects":[
-                "AlarmClock",
-                "CD"
+                "CD",
+                "AlarmClock"
             ]
         },
         "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145411_508522/traj_data.json":{
@@ -101,8 +101,8 @@
                 "Putting away CD's in the dresser drawer"
             ],
             "relative_objects":[
-                "CD",
-                "Dresser"
+                "Dresser",
+                "CD"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437/traj_data.json":{
@@ -112,8 +112,8 @@
                 "move an alarm clock to dresser drawers"
             ],
             "relative_objects":[
-                "AlarmClock",
-                "Dresser"
+                "Dresser",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json":{
@@ -133,8 +133,8 @@
                 "Place an alarm clock on a dresser."
             ],
             "relative_objects":[
-                "AlarmClock",
-                "Book"
+                "Book",
+                "AlarmClock"
             ]
         },
         "tests_seen/trial_T20190908_182629_798623/traj_data.json":{
@@ -144,11 +144,284 @@
                 "Pick up a laptop from the bed, turn on the lamp"
             ],
             "relative_objects":[
+                "Pen",
                 "AlarmClock",
-                "KeyChain",
                 "Laptop",
-                "Pen"
+                "KeyChain"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Move one of the book on the bed to the dresser by the key chain"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Dresser-319/trial_T20190906_204338_649353/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a laptop by the light of a lamp. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_182629_798623/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a CD in the book shelf. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_060915_412301/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move an alarm clock to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190910_195319_108102/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a clock to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Put a pen in a box.",
+                "Put a CD in the book shelf. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_060915_412301/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the CDs away.",
+                "Examine a laptop by the light of a lamp. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145411_508522/traj_data.json",
+                    "tests_seen/trial_T20190908_182629_798623/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pen in a box.",
+                "Put a CD on the book shelf. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_061008_714389/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the CD from the dresser to the entertainment center",
+                "Examine a laptop by the light of a lamp. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_060942_585532/traj_data.json",
+                    "tests_seen/trial_T20190908_182629_798623/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a laptop by the light of a lamp. ",
+                "Putting away CD's in the dresser drawer"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_182629_798623/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145515_348252/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "move statue from window to dresser",
+                "Move one of the book on the bed to the dresser by the key chain",
+                "Put a pen in a box."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122415_877633/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Dresser-319/trial_T20190906_204338_649353/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a CD on the book shelf. ",
+                "Move a clock to the dresser",
+                "move the statue from the window to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_061008_714389/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122723_912052/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move statue from window to dresser",
+                "Examine a laptop by the light of a lamp. ",
+                "Put the CDs away."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122415_877633/traj_data.json",
+                    "tests_seen/trial_T20190908_182629_798623/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145411_508522/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pen in a box.",
+                "Move one of the book on the bed to the dresser by the key chain",
+                "Place an alarm clock on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Dresser-319/trial_T20190906_204338_649353/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the statue from the window to the dresser",
+                "Move a clock to the dresser",
+                "Put a pen in a box."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122723_912052/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put a pen in a box.",
+                "Put the CDs away.",
+                "move statue from window to dresser",
+                "Move a clock to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145411_508522/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122415_877633/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pen in a box.",
+                "Move one of the book on the bed to the dresser by the key chain",
+                "Move a clock to the dresser",
+                "Put the CDs away."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Dresser-319/trial_T20190906_204338_649353/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145411_508522/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a clock to the dresser",
+                "move the statue from the window to the dresser",
+                "Move the CD from the dresser to the entertainment center",
+                "Move one of the book on the bed to the dresser by the key chain"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122723_912052/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_060942_585532/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Dresser-319/trial_T20190906_204338_649353/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move statue from window to dresser",
+                "Put a CD in the book shelf. ",
+                "Move a clock to the dresser",
+                "Put a pen in a box."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122415_877633/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_060915_412301/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a clock to the dresser",
+                "Put a CD in the book shelf. ",
+                "Put a pen in a box.",
+                "move statue from window to dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_060915_412301/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122415_877633/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

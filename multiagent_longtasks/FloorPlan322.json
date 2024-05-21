@@ -29,9 +29,9 @@
                 "Grab the cup with a pencil and put it on the dresser. "
             ],
             "relative_objects":[
-                "AlarmClock",
+                "Mug",
                 "Pencil",
-                "Mug"
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-322/trial_T20190907_044544_187398/traj_data.json":{
@@ -41,16 +41,15 @@
                 "Put a mug with pencil on the black dresser."
             ],
             "relative_objects":[
-                "Pencil",
                 "Cabinet",
+                "Pencil",
+                "Pen",
                 "Dresser",
-                "Mug",
-                "Pen"
+                "Mug"
             ]
         },
         "train/pick_two_obj_and_place-KeyChain-None-Dresser-322/trial_T20190908_051200_050277/traj_data.json":{
             "tasks":[
-                "Place both keys on top of the black dresser.",
                 "Move keys to a table in your bedroom"
             ],
             "relative_objects":[
@@ -73,23 +72,6 @@
                 "KeyChain"
             ]
         },
-        "train/pick_two_obj_and_place-CellPhone-None-Bed-322/trial_T20190906_181130_177836/traj_data.json":{
-            "tasks":[
-                "Place both cell phones in the room on the edge of the bed."
-            ],
-            "relative_objects":[
-                "Bed",
-                "CellPhone"
-            ]
-        },
-        "train/pick_two_obj_and_place-CellPhone-None-Bed-322/trial_T20190906_181156_010327/traj_data.json":{
-            "tasks":[
-                "Place both of the blue smartphones on the bed."
-            ],
-            "relative_objects":[
-                "CellPhone"
-            ]
-        },
         "train/pick_and_place_simple-Pencil-None-SideTable-322/trial_T20190908_112657_423751/traj_data.json":{
             "tasks":[
                 "Retrieve a pencil and put it on the nightstand near the window.",
@@ -97,8 +79,8 @@
                 "Move a pencil to the nightstand. "
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "train/pick_and_place_simple-Pencil-None-SideTable-322/trial_T20190908_112718_743066/traj_data.json":{
@@ -108,14 +90,14 @@
                 "Move the pencil from the dresser to the nightstand."
             ],
             "relative_objects":[
-                "KeyChain",
-                "Pencil",
-                "CreditCard",
                 "Book",
-                "Laptop",
-                "AlarmClock",
                 "Cloth",
-                "Pen"
+                "Pencil",
+                "KeyChain",
+                "Pen",
+                "CreditCard",
+                "Laptop",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-BaseballBat-None-Bed-322/trial_T20190908_115207_881340/traj_data.json":{
@@ -167,8 +149,8 @@
                 "Place a pencil on a nightstand."
             ],
             "relative_objects":[
-                "Pencil",
-                "Pen"
+                "Pen",
+                "Pencil"
             ]
         },
         "train/pick_two_obj_and_place-BaseballBat-None-Bed-322/trial_T20190907_040609_515967/traj_data.json":{
@@ -178,8 +160,8 @@
                 "Put 2 baseball bats on a bed."
             ],
             "relative_objects":[
-                "Pillow",
-                "BaseballBat"
+                "BaseballBat",
+                "Pillow"
             ]
         },
         "train/pick_two_obj_and_place-BaseballBat-None-Bed-322/trial_T20190907_040655_418034/traj_data.json":{
@@ -199,21 +181,20 @@
                 "Put a pencil inside a cup and place the cup on the nightstand."
             ],
             "relative_objects":[
-                "Pencil",
+                "Pen",
                 "Mug",
-                "Pen"
+                "Pencil"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-322/trial_T20190908_203742_396526/traj_data.json":{
             "tasks":[
-                "Move a pencil to a cup and move them both to a dresser.",
                 "Place a mug with a pen on a nightstand.",
                 "Place a cup containing a pen onto the nightstand."
             ],
             "relative_objects":[
-                "Pencil",
+                "Pen",
                 "Mug",
-                "Pen"
+                "Pencil"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-322/trial_T20190908_203615_072050/traj_data.json":{
@@ -223,8 +204,8 @@
                 "Putting a black mug with a pen in it on a nightstand"
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_simple-KeyChain-None-SideTable-322/trial_T20190909_091715_713301/traj_data.json":{
@@ -268,5 +249,278 @@
                 "CellPhone"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put a cup with a pencil in it on the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-322/trial_T20190907_044544_187398/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a mug and pen to the night stand. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-322/trial_T20190908_203615_072050/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on the lamp table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-SideTable-322/trial_T20190908_112718_743066/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a set of keys onto a arm chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-322/trial_T20190908_223340_751080/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on the lamp table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-SideTable-322/trial_T20190908_112718_743066/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Take the bat from the floor, put it on the bed",
+                "Move a mug and pen to the night stand. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_115134_001298/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-322/trial_T20190908_203615_072050/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a bat on the bed.",
+                "Take the pen out of the waste basket and put it in the bedside table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-322/trial_T20190908_115207_881340/traj_data.json",
+                    "train/pick_and_place_simple-Pen-None-SideTable-322/trial_T20190909_055242_347953/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place bats on a bed",
+                "put 2 set of keys on top of a dresser "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-BaseballBat-None-Bed-322/trial_T20190907_040609_515967/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-322/trial_T20190908_051029_553111/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the bat from the floor to the bed",
+                "Put a set of keys down on the nightstand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-322/trial_T20190908_115151_138786/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-322/trial_T20190909_091715_713301/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move keys from dresser to table",
+                "move the phone from the dresser to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-322/trial_T20190909_091659_910683/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Bed-322/trial_T20190907_163944_460921/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Take the bat from the floor, put it on the bed",
+                "move phone from the dresser to the bed",
+                "Place a mug with a pen on a nightstand."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_115134_001298/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Bed-322/trial_T20190907_163932_211569/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-322/trial_T20190908_203742_396526/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the phone from the sofa chair to the bed",
+                "Move keys to a table in your bedroom",
+                "Move a mug and pen to the night stand. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_164001_509050/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-322/trial_T20190908_051200_050277/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-322/trial_T20190908_203615_072050/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put 2 set of keys on top of a dresser ",
+                "Place baseball bats on a bed",
+                "Put the mug with a pencil on the top of the drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-322/trial_T20190908_051029_553111/traj_data.json",
+                    "train/pick_two_obj_and_place-BaseballBat-None-Bed-322/trial_T20190907_040655_418034/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-322/trial_T20190907_044602_801023/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the keys on top drawer",
+                "Put the mug with a pencil on the top of the drawer",
+                "Place bats on a bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-322/trial_T20190908_051114_312895/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-322/trial_T20190907_044602_801023/traj_data.json",
+                    "train/pick_two_obj_and_place-BaseballBat-None-Bed-322/trial_T20190907_040609_515967/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a set of keys onto a arm chair.",
+                "Put a cup with a pencil in it on the dresser.",
+                "move the phone from the sofa chair to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-322/trial_T20190908_223340_751080/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-322/trial_T20190907_044544_187398/traj_data.json",
+                    "tests_seen/trial_T20190907_164001_509050/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "move the phone from the dresser to the bed",
+                "Put the mug with a pencil on the top of the drawer",
+                "Take the bat from the floor, put it on the bed",
+                "Put the keys on top drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Bed-322/trial_T20190907_163944_460921/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-322/trial_T20190907_044602_801023/traj_data.json",
+                    "tests_seen/trial_T20190908_115134_001298/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-322/trial_T20190908_051114_312895/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move keys from dresser to table",
+                "move the phone from the dresser to the bed",
+                "Move a mug and pen to the night stand. ",
+                "Put a bat on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-322/trial_T20190909_091659_910683/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Bed-322/trial_T20190907_163944_460921/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-322/trial_T20190908_203615_072050/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-322/trial_T20190908_115207_881340/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move keys to a table in your bedroom",
+                "Place bats on a bed",
+                "Put a black mug, with a red pen in it, on the nightstand.",
+                "move the phone from the sofa chair to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-322/trial_T20190908_051200_050277/traj_data.json",
+                    "train/pick_two_obj_and_place-BaseballBat-None-Bed-322/trial_T20190907_040609_515967/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-322/trial_T20190908_203547_041542/traj_data.json",
+                    "tests_seen/trial_T20190907_164001_509050/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Retrieve a pencil and put it on the nightstand near the window.",
+                "move the phone from the sofa chair to the bed",
+                "Place a set of keys onto a arm chair.",
+                "Place baseball bats on a bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-SideTable-322/trial_T20190908_112657_423751/traj_data.json",
+                    "tests_seen/trial_T20190907_164001_509050/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-322/trial_T20190908_223340_751080/traj_data.json",
+                    "train/pick_two_obj_and_place-BaseballBat-None-Bed-322/trial_T20190907_040655_418034/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a cup with a pencil in it on the dresser.",
+                "move the phone from the sofa chair to the bed",
+                "move the bat from the floor to the bed",
+                "put 2 set of keys on top of a dresser "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Dresser-322/trial_T20190907_044544_187398/traj_data.json",
+                    "tests_seen/trial_T20190907_164001_509050/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-322/trial_T20190908_115151_138786/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-322/trial_T20190908_051029_553111/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

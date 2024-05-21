@@ -19,8 +19,8 @@
                 "Place a mug with a pen in it on a nightstand."
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json":{
@@ -30,8 +30,8 @@
                 "put cup and pen on night stand"
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190912_065434_217065/traj_data.json":{
@@ -57,8 +57,8 @@
                 "Move the tennis racket from the floor to the middle of the bed."
             ],
             "relative_objects":[
-                "Bed",
-                "TennisRacket"
+                "TennisRacket",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034307_425012/traj_data.json":{
@@ -68,8 +68,8 @@
                 "Move the tennis racket from the floor to the bed."
             ],
             "relative_objects":[
-                "Bed",
-                "TennisRacket"
+                "TennisRacket",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034232_707821/traj_data.json":{
@@ -79,8 +79,8 @@
                 "Put a racket on a bed."
             ],
             "relative_objects":[
-                "Bed",
-                "TennisRacket"
+                "TennisRacket",
+                "Bed"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-328/trial_T20190907_195337_637170/traj_data.json":{
@@ -90,9 +90,9 @@
                 "Put the mug with pen on the desk"
             ],
             "relative_objects":[
+                "Pen",
                 "Mug",
                 "Bed",
-                "Pen",
                 "Desk"
             ]
         },
@@ -103,8 +103,8 @@
                 "Put the pen in the black mug, put them on the desk"
             ],
             "relative_objects":[
-                "Mug",
-                "Pen"
+                "Pen",
+                "Mug"
             ]
         },
         "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json":{
@@ -159,10 +159,10 @@
                 "Use the light from the lamp to look at the tennis racket."
             ],
             "relative_objects":[
-                "AlarmClock",
                 "TennisRacket",
+                "Book",
                 "Laptop",
-                "Book"
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033509_300729/traj_data.json":{
@@ -175,11 +175,11 @@
                 "Place a CD behind the tissues on the small table next to the bed."
             ],
             "relative_objects":[
-                "CD",
-                "Pencil",
-                "CellPhone",
                 "TissueBox",
-                "Pen"
+                "Pencil",
+                "Pen",
+                "CellPhone",
+                "CD"
             ]
         },
         "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033442_349858/traj_data.json":{
@@ -209,14 +209,378 @@
                 "get the laptop and examine it under the lamp"
             ],
             "relative_objects":[
-                "KeyChain",
-                "CD",
                 "Book",
-                "Laptop",
-                "AlarmClock",
+                "KeyChain",
+                "Pen",
                 "Mug",
-                "Pen"
+                "CD",
+                "Laptop",
+                "AlarmClock"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Place the CD from the desk to the night stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033353_099987/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up a computer and turn a lamp on."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_201611_659235/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Look at a box of tissues in the light."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a tennis racket on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034232_707821/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine an alarm clock using the light of a lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-328/trial_T20190908_175825_024532/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Put a cup with a pen on the desk to the left of the bed.",
+                "Look at a box of tissues in the light."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-328/trial_T20190907_195337_637170/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the CD from the desk to the night stand.",
+                "Pick up a tennis racket, turn on the lamp on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033353_099987/traj_data.json",
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-328/trial_T20190907_083746_459297/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put an ink pen inside a coffee mug on the nightstand and move them onto the desk.",
+                "Look at a box of tissues in the light."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-328/trial_T20190918_144347_921327/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a mug with a pen in it on a night stand.",
+                "Turn on a desk lamp, pick up a box of tissues"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201322_516201/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Look at a box of tissues in the light.",
+                "Put the books on the bed."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Move the discs to the desk.",
+                "Look at a box of tissues in the light.",
+                "Put an ink pen inside a coffee mug on the nightstand and move them onto the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-328/trial_T20190918_144347_921327/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine an alarm clock using the light of a lamp.",
+                "put a coffee cup with a pen in it on the nightstand",
+                "Put the books on the bed."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-328/trial_T20190908_175825_024532/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145051_133749/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put tennis racket on bed",
+                "Look at a box of tissues in the light.",
+                "Place the CD from the desk to the night stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034252_030067/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033353_099987/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the discs to the desk.",
+                "Put the books on the bed.",
+                "Turn on a desk lamp, pick up a box of tissues"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201322_516201/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the books on the bed.",
+                "Put a mug with a pen in it on a night stand.",
+                "Turn on a desk lamp, pick up a box of tissues"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201322_516201/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Put a mug with a pen in it on a night stand.",
+                "Look at a box of tissues in the light.",
+                "Place a tennis racket on a bed.",
+                "Move the books from the desk to the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034307_425012/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190912_065434_217065/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up a tennis racket, turn on the lamp on the desk",
+                "Look at a box of tissues in the light.",
+                "Put a mug with a pen in it on a night stand.",
+                "Move the discs to the desk."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-328/trial_T20190907_083746_459297/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put tennis racket on bed",
+                "take the computer to the lamp to examine",
+                "Put a mug with a pen in it on a night stand.",
+                "Put the books on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034252_030067/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-328/trial_T20190908_201601_178214/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "take the computer to the lamp to examine",
+                "Move the books from the desk to the bed. ",
+                "Put a tennis racket on the bed.",
+                "put a coffee cup with a pen in it on the nightstand"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-DeskLamp-328/trial_T20190908_201601_178214/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190912_065434_217065/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034232_707821/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145051_133749/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put an ink pen inside a coffee mug on the nightstand and move them onto the desk.",
+                "Examine an alarm clock using the light of a lamp.",
+                "Move the CD onto the night stand.",
+                "Put a tennis racket on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-328/trial_T20190918_144347_921327/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-328/trial_T20190908_175825_024532/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033442_349858/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034232_707821/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put a mug with a pen in it on a night stand.",
+                "Place a tennis racket on a bed.",
+                "Move the books from the desk to the bed. ",
+                "Look at a box of tissues in the light.",
+                "Move the discs to the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034307_425012/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190912_065434_217065/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put tennis racket on bed",
+                "Put a mug with a pen in it on a night stand.",
+                "Examine an alarm clock using the light of a lamp.",
+                "Place the CD from the desk to the night stand.",
+                "Put the books on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034252_030067/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-328/trial_T20190908_175825_024532/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033353_099987/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a mug with a pen in it on a night stand.",
+                "Move the discs to the desk.",
+                "Turn on a desk lamp, pick up a box of tissues",
+                "Move the books from the desk to the bed. ",
+                "Place a tennis racket on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201322_516201/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190912_065434_217065/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034307_425012/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the discs to the desk.",
+                "Put an ink pen inside a coffee mug on the nightstand and move them onto the desk.",
+                "Place a tennis racket on a bed.",
+                "Turn on a desk lamp, pick up a box of tissues",
+                "Put the books on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-328/trial_T20190918_144347_921327/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034307_425012/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201322_516201/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put tennis racket on bed",
+                "Put the books on the bed.",
+                "Move the discs to the desk.",
+                "Turn on a desk lamp, pick up a box of tissues",
+                "Put a mug with a pen in it on a night stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034252_030067/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201322_516201/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

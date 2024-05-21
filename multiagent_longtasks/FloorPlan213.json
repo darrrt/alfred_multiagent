@@ -28,9 +28,9 @@
                 "Put a box with a watch it on the red chair."
             ],
             "relative_objects":[
-                "Box",
                 "Watch",
-                "Chair"
+                "Chair",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-213/trial_T20190909_161552_523960/traj_data.json":{
@@ -40,8 +40,8 @@
                 "put a box with a watch in it on a chair"
             ],
             "relative_objects":[
-                "Box",
-                "Watch"
+                "Watch",
+                "Box"
             ]
         },
         "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json":{
@@ -81,10 +81,10 @@
                 "pick up the credit cards and place them in the drawer"
             ],
             "relative_objects":[
-                "Box",
                 "RemoteControl",
                 "CreditCard",
-                "Book"
+                "Book",
+                "Box"
             ]
         },
         "train/pick_two_obj_and_place-CreditCard-None-Drawer-213/trial_T20190909_020235_777494/traj_data.json":{
@@ -139,8 +139,8 @@
                 "Place a cardboard box, containing a credit card box, on the dresser, by the trophy. "
             ],
             "relative_objects":[
-                "Box",
-                "CreditCard"
+                "CreditCard",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Box-CoffeeTable-213/trial_T20190907_100715_338052/traj_data.json":{
@@ -151,9 +151,9 @@
                 "Place a box with a watch in it next to the book on the wooden table."
             ],
             "relative_objects":[
-                "Box",
                 "Watch",
-                "Book"
+                "Book",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Box-CoffeeTable-213/trial_T20190907_100736_457719/traj_data.json":{
@@ -165,8 +165,8 @@
                 "Put a wrist watch in a box, place the box on the coffee table"
             ],
             "relative_objects":[
-                "Box",
-                "Watch"
+                "Watch",
+                "Box"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-213/trial_T20190908_203732_806577/traj_data.json":{
@@ -214,9 +214,250 @@
                 "Put a box with a watch in it on the chair."
             ],
             "relative_objects":[
-                "Box",
-                "Watch"
+                "Watch",
+                "Box"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Move a watch to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010748_137974/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "pick up the credit cards and place them in the drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Drawer-213/trial_T20190909_020407_284128/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a cardboard box with a watch inside of it on the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Box-CoffeeTable-213/trial_T20190907_100736_457719/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a watch on a coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010823_096862/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the keys on the middle chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-213/trial_T20190907_001825_048110/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Move keys and a box to a table.",
+                "Move a watch to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Dresser-213/trial_T20190908_190207_387917/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010748_137974/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a box with a watch on a chair.",
+                "Examine a credit card by the light of a tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-213/trial_T20190909_161753_482457/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Look at keys using the lamp.",
+                "Place a box with a watch on a chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-213/trial_T20190908_203732_806577/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-213/trial_T20190909_161753_482457/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a cardboard box with a watch inside of it on the coffee table.",
+                "Examine a credit card by the light of a tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Box-CoffeeTable-213/trial_T20190907_100736_457719/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the keys on the chair. ",
+                "place box with watch on red chair "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_001809_887455/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-213/trial_T20190909_161552_523960/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put the keys on the chair. ",
+                "Put a cardboard box with a watch inside of it on the coffee table.",
+                "Examine a credit card by the light of a tall lamp."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_001809_887455/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Box-CoffeeTable-213/trial_T20190907_100736_457719/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a watch on a coffee table",
+                "To put the keys in a box. ",
+                "Examine a credit card by the light of a tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010823_096862/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Dresser-213/trial_T20190908_081801_821508/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Look at keys using the lamp.",
+                "Examine a credit card by the light of a tall lamp.",
+                "Place a watch on a coffee table"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-213/trial_T20190908_203732_806577/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010823_096862/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a watch on a coffee table",
+                "clean up credit cards and put them into the drawer",
+                "Move keys and a box to a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010823_096862/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-Drawer-213/trial_T20190909_020235_777494/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Dresser-213/trial_T20190908_190207_387917/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a credit card by the light of a tall lamp.",
+                "Look at keys using the lamp.",
+                "place box with watch on red chair "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-213/trial_T20190908_203732_806577/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Box-DiningTable-213/trial_T20190909_161552_523960/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "clean up credit cards and put them into the drawer",
+                "Place 2 cardboard boxes on the table.",
+                "Place a watch on a coffee table",
+                "Put the keys on the middle chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-Drawer-213/trial_T20190909_020235_777494/traj_data.json",
+                    "train/pick_two_obj_and_place-Box-None-CoffeeTable-213/trial_T20190906_200820_481009/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010823_096862/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-213/trial_T20190907_001825_048110/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a credit card by the light of a tall lamp.",
+                "Gather boxes to be placed on the coffee table. ",
+                "Move a watch to the coffee table.",
+                "Look at keys using the lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Box-None-CoffeeTable-213/trial_T20190906_200927_069627/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010748_137974/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-213/trial_T20190908_203732_806577/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a watch to the coffee table.",
+                "grab the key chain from the sofa, turn on the floor lamp",
+                "Examine a credit card by the light of a tall lamp.",
+                "Gather boxes to be placed on the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-213/trial_T20190909_010748_137974/traj_data.json",
+                    "valid_seen/look_at_obj_in_light-KeyChain-None-FloorLamp-213/trial_T20190908_203806_730562/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-213/trial_T20190909_144511_768997/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Box-None-CoffeeTable-213/trial_T20190906_200927_069627/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

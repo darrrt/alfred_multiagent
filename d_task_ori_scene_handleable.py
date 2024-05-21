@@ -20,6 +20,8 @@ def check_task(task_instruction):
         return False
     if "another" in task_instruction:
         return False
+    if "both" in task_instruction:
+        return False
     return True
 
 for scene_name in scene_dict.keys():

@@ -1,14 +1,6 @@
 {
     "scene_name":"FloorPlan208",
     "trials":{
-        "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-208/trial_T20190908_004505_362807/traj_data.json":{
-            "tasks":[
-                "Place both remotes from the black table on the black ottoman."
-            ],
-            "relative_objects":[
-                "RemoteControl"
-            ]
-        },
         "train/pick_and_place_simple-KeyChain-None-Sofa-208/trial_T20190909_065845_651712/traj_data.json":{
             "tasks":[
                 "Put the keys on the couch",
@@ -68,8 +60,8 @@
                 "Examine a credit card in the light of a tall lamp."
             ],
             "relative_objects":[
-                "FloorLamp",
-                "CreditCard"
+                "CreditCard",
+                "FloorLamp"
             ]
         },
         "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172059_337617/traj_data.json":{
@@ -109,8 +101,8 @@
             ],
             "relative_objects":[
                 "Pillow",
-                "Sofa",
-                "Ottoman"
+                "Ottoman",
+                "Sofa"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-208/trial_T20190908_214759_978695/traj_data.json":{
@@ -121,10 +113,10 @@
             ],
             "relative_objects":[
                 "KeyChain",
-                "CreditCard",
-                "Laptop",
+                "Box",
                 "Statue",
-                "Box"
+                "CreditCard",
+                "Laptop"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-208/trial_T20190908_214733_334294/traj_data.json":{
@@ -139,13 +131,12 @@
         },
         "train/pick_two_obj_and_place-Pillow-None-Ottoman-208/trial_T20190908_091502_530886/traj_data.json":{
             "tasks":[
-                "place both pillows on top of the leg rest in front of the chair",
                 "Pick up the pillows on the sofa, move them to the ottoman."
             ],
             "relative_objects":[
-                "Chair",
                 "Pillow",
-                "Ottoman"
+                "Ottoman",
+                "Chair"
             ]
         },
         "train/pick_two_obj_and_place-Pillow-None-Ottoman-208/trial_T20190907_030106_770418/traj_data.json":{
@@ -214,5 +205,333 @@
                 "Vase"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "The ro"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pillow-None-Ottoman-208/trial_T20190907_030106_770418/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the pillows on the sofa, move them to the ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pillow-None-Ottoman-208/trial_T20190908_091502_530886/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a remote control from a dining table to an ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Ottoman-208/trial_T20190909_100923_960630/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put keys on a couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-208/trial_T20190909_065831_439704/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a plaid cushion to the ottoman"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172125_756234/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Pick up the pillows on the sofa, move them to the ottoman.",
+                "Move the keys from the top of the black table to the drawer inside."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pillow-None-Ottoman-208/trial_T20190908_091502_530886/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Drawer-208/trial_T20190909_013444_420195/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up a vase, open the blinds on the window",
+                "Move a remote control from a dining table to an ottoman."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Ottoman-208/trial_T20190909_100923_960630/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine the credit card by light of the floor lamp.",
+                "Move a plaid cushion to the ottoman"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172125_756234/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine the credit card by light of the floor lamp.",
+                "Move remotes to chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000903_032547/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a plaid cushion to the ottoman",
+                "Move remotes to chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172125_756234/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000903_032547/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "put a cushion on an ottoman",
+                "Move remotes to chair.",
+                "Hold a set of keys and turn on a lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172113_458319/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000903_032547/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-208/trial_T20190908_214733_334294/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a remote to the ottoman.",
+                "Examine the credit card by light of the floor lamp.",
+                "Put the keys on the couch"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Ottoman-208/trial_T20190909_100851_710423/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-208/trial_T20190909_065845_651712/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the keys in the drawer.",
+                "Place a throw pillow on the foot stool.",
+                "Move remotes to chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Drawer-208/trial_T20190909_013535_240007/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172059_337617/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000903_032547/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine the credit card by light of the floor lamp.",
+                "Put the remotes on the same chair.",
+                "Pick up a vase, open the blinds on the window"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000931_826783/traj_data.json",
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up a vase, open the blinds on the window",
+                "Move the left-most set of keys from the lounge chair to the couch.",
+                "Move a remote to the ottoman."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-208/trial_T20190909_065914_603852/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Ottoman-208/trial_T20190909_100851_710423/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move a plaid cushion to the ottoman",
+                "Hold a set of keys and turn on a lamp.",
+                "Put the remotes on the same chair.",
+                "Pick up a vase, open the blinds on the window"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172125_756234/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-208/trial_T20190908_214733_334294/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000931_826783/traj_data.json",
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine the credit card by light of the floor lamp.",
+                "Move a remote to the ottoman.",
+                "Pick up the pillows on the sofa, move them to the ottoman.",
+                "Put keys on a couch."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Ottoman-208/trial_T20190909_100851_710423/traj_data.json",
+                    "train/pick_two_obj_and_place-Pillow-None-Ottoman-208/trial_T20190908_091502_530886/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-208/trial_T20190909_065831_439704/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a throw pillow on the foot stool.",
+                "Move remotes to chair.",
+                "Move the left-most set of keys from the lounge chair to the couch.",
+                "Pick up a vase, open the blinds on the window"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172059_337617/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000903_032547/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-208/trial_T20190909_065914_603852/traj_data.json",
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the remotes on the same chair.",
+                "Pick up a vase, open the blinds on the window",
+                "Move the keys from the top of the black table to the drawer inside.",
+                "The ro"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000931_826783/traj_data.json",
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Drawer-208/trial_T20190909_013444_420195/traj_data.json",
+                    "train/pick_two_obj_and_place-Pillow-None-Ottoman-208/trial_T20190907_030106_770418/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a cushion on an ottoman",
+                "Hold a set of keys and turn on a lamp.",
+                "Examine the credit card by light of the floor lamp.",
+                "Pick up a vase, open the blinds on the window"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172113_458319/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-208/trial_T20190908_214733_334294/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json",
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Move a remote to the ottoman.",
+                "Pick up a vase, open the blinds on the window",
+                "Put the keys in the drawer.",
+                "Place a throw pillow on the foot stool.",
+                "Examine the credit card by light of the floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Ottoman-208/trial_T20190909_100851_710423/traj_data.json",
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Drawer-208/trial_T20190909_013535_240007/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172059_337617/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a plaid cushion to the ottoman",
+                "Move the left-most set of keys from the lounge chair to the couch.",
+                "Pick up a vase, open the blinds on the window",
+                "Put the remotes on the same chair.",
+                "Examine the credit card by light of the floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172125_756234/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-208/trial_T20190909_065914_603852/traj_data.json",
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000931_826783/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a cushion on an ottoman",
+                "Move remotes to chair.",
+                "Examine the credit card by light of the floor lamp.",
+                "Pick up a vase, open the blinds on the window",
+                "Move keys to a drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172113_458319/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000903_032547/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-208/trial_T20190906_205653_775860/traj_data.json",
+                    "tests_seen/trial_T20190907_161434_277973/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Drawer-208/trial_T20190909_013503_131014/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }

@@ -79,8 +79,8 @@
                 "Place a candle holder with a candle on a toilet."
             ],
             "relative_objects":[
-                "TissueBox",
-                "Candle"
+                "Candle",
+                "TissueBox"
             ]
         },
         "train/pick_two_obj_and_place-Candle-None-Shelf-429/trial_T20190909_075128_271977/traj_data.json":{
@@ -110,18 +110,9 @@
                 "Place a rinsed bar of soap on a dresser."
             ],
             "relative_objects":[
-                "Cloth",
                 "HandTowel",
+                "Cloth",
                 "SoapBar"
-            ]
-        },
-        "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-429/trial_T20190909_065955_824764/traj_data.json":{
-            "tasks":[
-                "Put both bottles of cleaner in the trash can by the toilet."
-            ],
-            "relative_objects":[
-                "SoapBottle",
-                "SprayBottle"
             ]
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-429/trial_T20190909_031746_098278/traj_data.json":{
@@ -160,9 +151,9 @@
                 "Put clean soap on the back of the toilet. "
             ],
             "relative_objects":[
+                "ToiletPaper",
                 "Cloth",
-                "SoapBar",
-                "ToiletPaper"
+                "SoapBar"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-429/trial_T20190906_222344_438646/traj_data.json":{
@@ -172,10 +163,10 @@
                 "Put clean soap on top of a toilet."
             ],
             "relative_objects":[
-                "Cloth",
                 "Sink",
-                "SoapBar",
-                "Toilet"
+                "Toilet",
+                "Cloth",
+                "SoapBar"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015556_293557/traj_data.json":{
@@ -238,8 +229,8 @@
                 "put the cup on top of the water tank"
             ],
             "relative_objects":[
-                "Plunger",
-                "ToiletPaper"
+                "ToiletPaper",
+                "Plunger"
             ]
         },
         "train/pick_and_place_simple-ToiletPaper-None-Toilet-429/trial_T20190907_215111_218053/traj_data.json":{
@@ -297,5 +288,315 @@
                 "ToiletPaper"
             ]
         }
-    }
+    },
+    "tasks_1":[
+        {
+            "task_list":[
+                "Put soap on the back of the toilet. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a wet bar of soap in the bath tub. "
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-429/trial_T20190908_050653_143252/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place the soap from the tub on top of the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-429/trial_T20190906_222257_632416/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put soap on the back of the toilet. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place an empty roll and full roll on the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-429/trial_T20190909_031623_121989/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_2":[
+        {
+            "task_list":[
+                "Place the soap from the tub on top of the toilet.",
+                "move the candlesticks from the toilet to the shelf "
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-429/trial_T20190906_222257_632416/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-429/trial_T20190909_075128_271977/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move toilet paper and a roll to the toilet. ",
+                "Move lotion to back of toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-429/trial_T20190909_031746_098278/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190906_201712_940852/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a wet bar of soap in the bath tub. ",
+                "Put the green cloths on the small white cabinet"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-429/trial_T20190908_050653_143252/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175307_066697/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Remove soap from toilet and place in bathtub.",
+                "Move toilet paper from container to back of toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-429/trial_T20190909_011450_324635/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-Toilet-429/trial_T20190907_215111_218053/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a wet bar of soap in a waste basket",
+                "move empty toilet paper roll from table to back of toilet"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015333_203352/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-Toilet-429/trial_T20190907_215139_316260/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Place the soap from the tub on top of the toilet.",
+                "Move toilet paper from container to back of toilet.",
+                "Put soap on the back of the toilet. "
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-429/trial_T20190906_222257_632416/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-Toilet-429/trial_T20190907_215111_218053/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move lotion to back of toilet.",
+                "Put the green cloths on the small white cabinet",
+                "Move toilet paper and a roll to the toilet. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190906_201712_940852/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175307_066697/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-429/trial_T20190909_031746_098278/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the green cloths on the small white cabinet",
+                "Put a clean bar of soap in the tub.",
+                "Place an empty roll and full roll on the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175307_066697/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-429/trial_T20190908_050719_138425/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-429/trial_T20190909_031623_121989/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the green cloths on the small white cabinet",
+                "Put soap on the back of the toilet. ",
+                "Take the toilet paper tube off the floor, put it on top of the toilet"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175307_066697/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-Toilet-429/trial_T20190907_215125_124054/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place spray bottles on the back of a toilet",
+                "put a rinsed bar of soap in to the trash can",
+                "Place an empty roll and full roll on the toilet."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033843_707544/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015556_293557/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-429/trial_T20190909_031623_121989/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Take the rags out of of the tub and to the hamper.",
+                "Put the spray bottles on the back of the toilet.",
+                "move the candlesticks from the toilet to the shelf ",
+                "Pick up the toilet paper roll and put in on the counter with the yellow bottle."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175331_995578/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033947_142227/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-429/trial_T20190909_075128_271977/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-Shelf-429/trial_T20190908_082604_481663/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the green cloths on the small white cabinet",
+                "Put soap on the back of the toilet. ",
+                "Move the toilet paper to the shelf. ",
+                "Place the soap from the tub on top of the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175307_066697/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-Shelf-429/trial_T20190908_082550_884968/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-429/trial_T20190906_222257_632416/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the toilet paper to the shelf. ",
+                "Place a wet bar of soap in a waste basket",
+                "move the candlesticks from the toilet to the shelf ",
+                "Put soap on the back of the toilet. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-Shelf-429/trial_T20190908_082550_884968/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015333_203352/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-429/trial_T20190909_075128_271977/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the toilet paper to the shelf. ",
+                "Move the nail polish to the back of the toilet. ",
+                "Place spray bottles on the back of a toilet",
+                "put a rinsed bar of soap in to the trash can"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-Shelf-429/trial_T20190908_082550_884968/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-Toilet-429/trial_T20190908_052308_217335/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033843_707544/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015556_293557/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the toilet paper to the shelf. ",
+                "Put soap on the back of the toilet. ",
+                "Put the spray bottles on the back of the toilet.",
+                "Remove soap from toilet and place in bathtub."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-Shelf-429/trial_T20190908_082550_884968/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033947_142227/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-429/trial_T20190909_011450_324635/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put the green cloths on the small white cabinet",
+                "Put the spray bottles on the back of the toilet.",
+                "move the candlesticks from the toilet to the shelf ",
+                "Move the toilet paper to the shelf. ",
+                "put a rinsed bar of soap in to the trash can"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175307_066697/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033947_142227/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-429/trial_T20190909_075128_271977/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-Shelf-429/trial_T20190908_082550_884968/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015556_293557/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the nail polish to the back of the toilet. ",
+                "put a rinsed bar of soap in to the trash can",
+                "Take the rags out of of the tub and to the hamper.",
+                "Put soap on the back of the toilet. ",
+                "Put the spray bottles on the back of the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-Toilet-429/trial_T20190908_052308_217335/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015556_293557/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175331_995578/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033947_142227/traj_data.json"
+                ]
+            ]
+        }
+    ],
+    "tasks_6":[],
+    "tasks_7":[],
+    "tasks_8":[],
+    "tasks_9":[]
 }
