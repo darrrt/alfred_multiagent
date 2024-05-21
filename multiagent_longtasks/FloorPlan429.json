@@ -3,70 +3,9 @@
     "trials":{
         "train/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033947_142227/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3NG53N1RLY0AP91Z0UYSR74F5ZS8PC",
-                    "high_descs":[
-                        "Turn left, then turn left again, then turn right to go to the counter next to the sink.",
-                        "Pick up the left most spray bottle from the counter.",
-                        "Turn around, then go right to go to the toilet.",
-                        "Put the spray bottle on the back of the toilet, toward the center.",
-                        "Return to the counter, next to the sink.",
-                        "Pick up the spray bottle, on top of the counter.",
-                        "Turn around and return to the toilet.",
-                        "Place the spray bottle on the back of the toilet, next to the other spray bottle."
-                    ],
-                    "task_desc":"Put the spray bottles on the back of the toilet.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2Q3FS9G8ITCN7_3VA45EW49Q4AT95DM9CYNXCHGGPO19",
-                    "high_descs":[
-                        "Turn around to the left and walk over to the white stand beside the tub. ",
-                        "Pick up the cleaning bottle closest to the edge of the stand top. ",
-                        "Turn around to the right and walk to the toilet. ",
-                        "Place the cleaner bottle on the toilet tank. ",
-                        "Back away from the toilet, turn to the left, and walk back to the white stand. ",
-                        "Pick up the remaining cleaner bottle. ",
-                        "Turn around to the right and walk back to the toilet. ",
-                        "Place the cleaner bottle onto the toilet tank. "
-                    ],
-                    "task_desc":"Moving cleaner bottles from a bathroom stand to the toilet tank. ",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2JBNDG0U9IA6I_3LRLIPTPETQNX6XYK0DYRHOB1KAAKJ",
-                    "high_descs":[
-                        "Turn around and walk straight then face the right at the small white counter",
-                        "Pick up the yellow spray bottle on the left",
-                        "Turn around and walk straight to the side of the toilet",
-                        "Place the bottle on the top toilet lid",
-                        "Turn around and walk straight then face the small white counter",
-                        "Pick up the yellow spray bottle from the counter",
-                        "Turn around and walk straight to the side of the toilet",
-                        "Place the bottle on the top toilet lid"
-                    ],
-                    "task_desc":"Put the spray bottles on the toilet lid",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the spray bottles on the back of the toilet.",
+                "Moving cleaner bottles from a bathroom stand to the toilet tank. ",
+                "Put the spray bottles on the toilet lid"
             ],
             "relative_objects":[
                 "SprayBottle"
@@ -74,104 +13,20 @@
         },
         "train/pick_and_place_simple-ToiletPaper-None-Shelf-429/trial_T20190908_082604_481663/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"ADXRJFEHIDXRE_33FBRBDW6RQZG9ETRX138TPA0BD8CL",
-                    "high_descs":[
-                        "Walk forward toward the counter, then turn right and walk to the toilet paper roll holder on the wall.",
-                        "Pick up the toilet paper roll on the ground to the left of the toilet.",
-                        "Turn around and walk back to the first counter.",
-                        "Put the toilet paper roll on the counter to the left of the yellow bottle."
-                    ],
-                    "task_desc":"Pick up the toilet paper roll and put in on the counter with the yellow bottle.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_37Q970SNZHZXCQJ4PYIO8O6K88U1SP",
-                    "high_descs":[
-                        "Walk forward then turn right and walk up to the wall left of the toilet",
-                        "Pick up the toilet paper roll from the ground left of the toilet",
-                        "Turn left and walk up to the first small white cabinet on the right",
-                        "Put the toilet paper roll on top of the white cabinet"
-                    ],
-                    "task_desc":"Put the toilet paper roll on top of the white cabinet",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2RQMEPIHW5BOS_3T111IHZ5HH30GMMEMXCXKJ7KJA9RV",
-                    "high_descs":[
-                        "Walk to the wall, turn right, and walk to the toilet.",
-                        "Pick up the tube.",
-                        "Turn around and walk to the first table on the right, then face the table.",
-                        "Put the tube on the table."
-                    ],
-                    "task_desc":"Put a cardboard tube on the right-hand table.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Pick up the toilet paper roll and put in on the counter with the yellow bottle.",
+                "Put the toilet paper roll on top of the white cabinet",
+                "Put a cardboard tube on the right-hand table."
             ],
             "relative_objects":[
-                "SoapBottle",
-                "ToiletPaper"
+                "ToiletPaper",
+                "SoapBottle"
             ]
         },
         "train/pick_and_place_simple-ToiletPaper-None-Shelf-429/trial_T20190908_082550_884968/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1M682B2WUSYJP_36V4Q8R5ZNRIVZQGQGCHXGFMOWGQMB",
-                    "high_descs":[
-                        "Move forward to the toilet paper holder",
-                        "Pick up the toilet paper on the holder.",
-                        "Turn around and walk forward until you reach the empty shelf, then turn right.",
-                        "Place the toilet paper on the empty shelf. "
-                    ],
-                    "task_desc":"Move the toilet paper to the shelf. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3ERET4BTVP0HDC9RO2OFW8XTPQ59KP",
-                    "high_descs":[
-                        "Walk forward to the wall left of the toilet",
-                        "Pick up the toilet paper roll from the toilet paper roll holder",
-                        "Turn around and walk to the first white shelf",
-                        "Put the toilet paper on the shelf"
-                    ],
-                    "task_desc":"Put the toilet paper on the white shelf",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2Q3FS9G8ITCN7_3A0EX8ZRNBFVLAD5Q132WM7UB5GYBI",
-                    "high_descs":[
-                        "Walk to the toilet paper holder that is on the wall to the left of the toilet. ",
-                        "Remove the roll of toilet paper. ",
-                        "Turn around to the left and walk to the white cabinet that is closest to the toilet. ",
-                        "Place the roll of toilet paper on top of the cabinet. "
-                    ],
-                    "task_desc":"Move a roll of toilet paper from a holder to the top of a cabinet. ",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Move the toilet paper to the shelf. ",
+                "Put the toilet paper on the white shelf",
+                "Move a roll of toilet paper from a holder to the top of a cabinet. "
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -179,24 +34,7 @@
         },
         "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-429/trial_T20190909_011450_324635/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3ZWMVK6GNTJ8_3AQF3RZ55B9JF7FFPKU6WLEMR166FF",
-                    "high_descs":[
-                        "Turn left and move to the left side of the toilet.",
-                        "Pick up the bar soap next to the wall off the top of toilet.",
-                        "Turn around and move to the bathtub.",
-                        "Place the bar soap down in the bathtub.",
-                        "turn around and move back to the toilet.",
-                        "Pick up the bar soap off the top of the toilet.",
-                        "Move back to the bathtub.",
-                        "Place the bar soap down into the bottom of the bathtub."
-                    ],
-                    "task_desc":"Remove soap from toilet and place in bathtub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Remove soap from toilet and place in bathtub."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -204,111 +42,21 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-429/trial_T20190908_050653_143252/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2KAGFQU28JY43_35K3O9HUAEUF7XMWZUON7NMXEM8FE0",
-                    "high_descs":[
-                        "Turn to your right and go to the sink, then turn to the shelf on your right.",
-                        "Pick up the bar of soap, to the left of the yellow spray bottles on the white shelf. ",
-                        "Turn back to the sink, to your right. ",
-                        "Place the soap in the sink, turn the water on, rinse the sink, turn the water off, and remove the bar of soap from the sink. ",
-                        "Turn around and go to the bath tub on your right. ",
-                        "Place the bar of soap in the bath tub, between the two rags. "
-                    ],
-                    "task_desc":"Put a wet bar of soap in the bath tub. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_35USIKEBNUXNIA6YR0O2343TZF3N6R",
-                    "high_descs":[
-                        "Turn right and walk over to the sink then turn right.",
-                        "Pick up the bar of soap off of the white box in front of you.",
-                        "Turn left to face the sink.",
-                        "Put the bar of soap in the sink and turn on the water, after a couple seconds turn off the water and remove the bar of soap.",
-                        "Walk over to the side of the tub and look down into the tub.",
-                        "Put the clean bar of soap in the tub."
-                    ],
-                    "task_desc":"Put a clean bar of soap in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3MH9DQ757ZT2ATFD0E9ATQ8C1OWUGN",
-                    "high_descs":[
-                        "Turn right, hang a right at the sink to face the white desk.",
-                        "Pick up the pink bar of soap to the left of the spray bottles on the desk.",
-                        "Turn left to face the sink.",
-                        "Put the bar of soap in the sink, rinse it for a few seconds and pick it back up.",
-                        "Turn around, hang a right around the edge of the tub and turn right just before the toilet to face the tub.",
-                        "Put the rinsed bar of soap to the right of the other bar of soap next to the green towel."
-                    ],
-                    "task_desc":"Place a rinsed bar of soap in a tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a wet bar of soap in the bath tub. ",
+                "Put a clean bar of soap in the tub.",
+                "Place a rinsed bar of soap in a tub."
             ],
             "relative_objects":[
-                "Towel",
                 "SoapBottle",
+                "Towel",
                 "SoapBar"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-429/trial_T20190908_050624_219664/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AO33H4GL9KZX9_33TIN5LC07R4CSCAW90P4US2TZ29YZ",
-                    "high_descs":[
-                        "Turn left and go to the bath tub on the other side. ",
-                        "Pick up and pink bar soap in the bath tub.",
-                        "Turn right and go to the sink. ",
-                        "Wash the pink bar soap in the sink with running water.",
-                        "Turn left and go back to the bath tub. ",
-                        "Place the soap in the bath tub. "
-                    ],
-                    "task_desc":"Put the washed soap in the bath tub. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AKW57KYG90X61_37Q970SNZHPPR1X6TQT772MIE32S1H",
-                    "high_descs":[
-                        "turn left and move to he bath tub",
-                        "pick up the soap from the tub",
-                        "turn right and head to the sink",
-                        "place the soap in the sink and wet it",
-                        "turn around and head to the tub",
-                        "place the soap in the tub"
-                    ],
-                    "task_desc":"place a wet soap in the tub",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3JMSRU9HQLB43U8MZ9TRP9PJ2F5EVU",
-                    "high_descs":[
-                        "Turn left and face the tub in front of you.",
-                        "Take the soap from the tub in front of you.",
-                        "Turn right then face the sink to your left.",
-                        "Clean the soap in the sink in front of you and take it out.",
-                        "Turn around, turn right, then face the tub on your right.",
-                        "Place the soap in the tub in front of you."
-                    ],
-                    "task_desc":"Place clean soap in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the washed soap in the bath tub. ",
+                "place a wet soap in the tub",
+                "Place clean soap in the tub."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -316,54 +64,9 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-429/trial_T20190908_050719_138425/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_345LHZDED091GH3P5Z2QAWJ3XJQU3E",
-                    "high_descs":[
-                        "Walk towards the door, then hang a left and walk up to the sink, after that turn right and walk forward.",
-                        "Pick up the bar of soap off of the white box in front of you.",
-                        "Turn left to face the sink.",
-                        "Put the bar of soap in the sink then turn on the water, after a couple second turn off the water and remove the clean bar of soap.",
-                        "Walk over to the tub.",
-                        "Put the clean bar of soap in the tub."
-                    ],
-                    "task_desc":"Put a clean bar of soap in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A32W24TWSWXW_3483FV8BEH0RTOH55HQIBG0VOJE26F",
-                    "high_descs":[
-                        "Take six steps forward then turn left for six steps, turn right and stop.",
-                        "Pick up the pink soap from the white counter top.",
-                        "Turn left to face the sink.",
-                        "Place the soap vertically in the sink, to the left of the drain, turn on the water to fill the sink halfway, turn off the water and drain, pick up the soap.",
-                        "Turn around and take three steps, turn right for seven steps, turn right to face the bathtub.",
-                        "Place the soap in the tub, near the front and about halfway between the far right green item and the end of the tub, on the right."
-                    ],
-                    "task_desc":"Put a bar of pink soap in the bathtub",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1AKL5YH9NLD2V_3KKG4CDWKLFOELYQ72CIO5OVYXQ94Z",
-                    "high_descs":[
-                        "Turn left and walk to the soap below the towel.",
-                        "Pick up the soap next to the tissues.",
-                        "Turn left and look at the sink.",
-                        "Rinse the soap in the sink and then pick up the soap from the sink.",
-                        "Turn left and walk to the middle of the tub.",
-                        "Place the soap in the middle of the tub."
-                    ],
-                    "task_desc":"Place a rinsed bar of soap in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a clean bar of soap in the tub.",
+                "Put a bar of pink soap in the bathtub",
+                "Place a rinsed bar of soap in the tub."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -371,93 +74,18 @@
         },
         "train/pick_and_place_simple-Candle-None-Toilet-429/trial_T20190908_052308_217335/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A255A9FFZD8PQW_3P1L2B7AD46NJG9HFJUH7CLVFIZLOA",
-                    "high_descs":[
-                        "Turn around completely and walk towards the white shelf. Step to the right.",
-                        "Pick up the bottle of nail polish. ",
-                        "Turn complete around and walk forward. Make a left at the bath tub. Then turn right and face the toilet. ",
-                        "Place the nail polish on the back end of the toilet. "
-                    ],
-                    "task_desc":"Move the nail polish to the back of the toilet. ",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3M0BCWMB8YDJBGW7FSWXA32C6QPBWU",
-                    "high_descs":[
-                        "turn around, walk forward to white shelf, take a step to the left",
-                        "pick up the bottle of nail polish that is on the shelf",
-                        "turn around, walk towards sink, turn left before the tub, walk forward, turn left to face toilet",
-                        "put the bottle of nail polish on the back of the toilet"
-                    ],
-                    "task_desc":"move nail polish to the back of the toilet",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        0
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3X87C8JFV92LTU3LAD839PESHJOSQC",
-                    "high_descs":[
-                        "Turn around and walk to the left white dresser.",
-                        "Pick up the gold candle holder with the candle in front of the box of tissues on the dresser.",
-                        "Turn around and walk  to the white toilet on the left.",
-                        "Place the candle holder with the candle on the far right side of the toilet tank."
-                    ],
-                    "task_desc":"Place a candle holder with a candle on a toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the nail polish to the back of the toilet. ",
+                "move nail polish to the back of the toilet",
+                "Place a candle holder with a candle on a toilet."
             ],
             "relative_objects":[
-                "Candle",
-                "TissueBox"
+                "TissueBox",
+                "Candle"
             ]
         },
         "train/pick_two_obj_and_place-Candle-None-Shelf-429/trial_T20190909_075128_271977/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AFPMG8TLP1TND_3U84XHCDIF4B512178VY2FAQ7JCZ41",
-                    "high_descs":[
-                        "turn right then walk straight then turn right and walk straight towards the toilet and turn right",
-                        "pick up the candle on the top of the toilet ",
-                        "turn right and walk straight towards the shelf ",
-                        "put the candle down on top of the shelf",
-                        "turn left and walk straight towards the tub and turn left and walk straight towards the toilet ",
-                        "pick up the candle on the top of the toilet",
-                        "turn around and walk straight then turn right then turn left and walk straight towards the shelf",
-                        "put the candle stick down on the top of the shelf"
-                    ],
-                    "task_desc":"move the candlesticks from the toilet to the shelf ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "move the candlesticks from the toilet to the shelf "
             ],
             "relative_objects":[
                 "Candle"
@@ -465,138 +93,31 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Shelf-429/trial_T20190909_042350_986623/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_34QN5IT0T2IFMHJDFH8JDSN9RXV80T",
-                    "high_descs":[
-                        "Turn around and face the white cabinet with a tissue box on it.",
-                        "Pick the soap up from the white cabinet.",
-                        "Turn to face the sink.",
-                        "Put the soap in the sink and turn the water on and then off and pick the soap up again.",
-                        "Turn to the right to face the white cabinet.",
-                        "Put the soap on the cabinet."
-                    ],
-                    "task_desc":"Put a clean bar of soap on a cabinet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3FQ5JJ512OF22EDLPC7KE9SDUQZNK1",
-                    "high_descs":[
-                        "Turn right at the sink and walk to the white dresser.",
-                        "Pick up the bar of soap on the left side of the dresser.",
-                        "Turn left to face the sink.",
-                        "Put the bar of soap inside the sink, rinse it for a few seconds and pick it back up.",
-                        "Turn around and walk to the white dresser on the left.",
-                        "Put the rinsed bar of soap on the right side of the dresser in front of the pink bottle."
-                    ],
-                    "task_desc":"Place a rinsed bar of soap on a dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3LEIZ60CDMQC278DO3RPJNL6TAT9Z8",
-                    "high_descs":[
-                        "Turn right and face the white cabinet.",
-                        "Pick up the bar of soap on the cabinet.",
-                        "Turn left and face the sink.",
-                        "Wash the bar of soap.",
-                        "Turn right.",
-                        "Place the soap on the cabinet, on the right side, in front of the pink soap container."
-                    ],
-                    "task_desc":"Place a rinsed bar of soap on a cabinet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a clean bar of soap on a cabinet.",
+                "Place a rinsed bar of soap on a dresser.",
+                "Place a rinsed bar of soap on a cabinet."
             ],
             "relative_objects":[
-                "Cloth",
                 "Towel",
+                "Cloth",
                 "SoapBar"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Shelf-429/trial_T20190909_100836_067219/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_37KGEN7NJ6H3GQMEIJPKEFJ7OEDPP5",
-                    "high_descs":[
-                        "Turn to the left, then left again and locate the trash can on the floor.",
-                        "Pick up the bar of soap from the toilet tank.",
-                        "Carry the bar of soap and turn around. Move across the room and turn left to locate the sink.",
-                        "Place the soap in the sink and turn on the water. Turn off the water and pick up the soap.",
-                        "Carry the soap and turn around but face to the left right away, with the yellow spray bottle.",
-                        "Place the bar of soap on the shelf, to the left of the bottle."
-                    ],
-                    "task_desc":"Rinse a bar of soap and place it on the shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3ZWMVK6GNTJ8_3MH9DQ757Z3AVI1BWMYRUCSEV4LUG5",
-                    "high_descs":[
-                        "Turn around and head to the trash can on the right side of the toilet.",
-                        "Pick up the bar of soap off the top of the toilet.",
-                        "Turn around and head to the front of the sink.",
-                        "Place the soap in the sink and turn the water on and wash off the bar soap and remove it after you turn the water off.",
-                        "Turn around to the table underneath the towel.",
-                        "Place the soap on of the table between the candle and cleaning spray bottle."
-                    ],
-                    "task_desc":"Wash off bar of soap and put on table beneath the towel.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3NAPMVF0ZZ6IIDH8KZKRIGKTDAR270",
-                    "high_descs":[
-                        "Turn left, hang a left at the tub and walk to the gray bin by the wall next to the toilet.",
-                        "Pick up the bar of soap from the right side of the toilet tank.",
-                        "Turn around and walk to the sink on the left.",
-                        "Put the bar of soap inside the sink, rinse it for a few seconds and pick it back up.",
-                        "Turn around and walk to the white dresser on the left.",
-                        "Put the rinsed bar of soap in between the spray bottle and the candle on the right side of the dresser."
-                    ],
-                    "task_desc":"Place a rinsed bar of soap on a dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Rinse a bar of soap and place it on the shelf.",
+                "Wash off bar of soap and put on table beneath the towel.",
+                "Place a rinsed bar of soap on a dresser."
             ],
             "relative_objects":[
+                "Cloth",
                 "HandTowel",
-                "SoapBar",
-                "Cloth"
+                "SoapBar"
             ]
         },
         "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-429/trial_T20190909_065955_824764/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"ALZDJ7DBWN919_39K0FND3AK6Q8JJZ1KFV7G0HKO4MAU",
-                    "high_descs":[
-                        "Walk to the door and turn right.",
-                        "Pick up the cleaner from the white cabinet.",
-                        "Walk to the trash can next to the toilet.",
-                        "Put the bottle of cleaner in the trash can.",
-                        "Walk back to the cabinet with the other bottle of cleaner.",
-                        "Pick up the other bottle of cleaner.",
-                        "Return to the trash can with the cleaner in it.",
-                        "Put the second bottle of cleaner in the trash can."
-                    ],
-                    "task_desc":"Put both bottles of cleaner in the trash can by the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put both bottles of cleaner in the trash can by the toilet."
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -605,42 +126,8 @@
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-429/trial_T20190909_031746_098278/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A255A9FFZD8PQW_3FPRZHYEP1Y9ELEN6X1C745O57L3VT",
-                    "high_descs":[
-                        "Turn around to the left  and walk around the toilet. Turn left to face the trash can.",
-                        "Take out the toilet paper from the trash can. ",
-                        "Turn to the right and face the toilet.",
-                        "Place the toilet paper on the back end of the toilet.",
-                        "Walk around to the other side of the toilet.",
-                        "Pick up the empty toilet paper roll off of the floor. ",
-                        "Turn around to the left  and walk around the toilet. Turn left to face the toilet. ",
-                        "Place the empty toilet paper roll on the back end of the toilet. "
-                    ],
-                    "task_desc":"Move toilet paper and a roll to the toilet. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_3J4Q2Z4UT1UE0BKUUII46EHDM8XWQV",
-                    "high_descs":[
-                        "turn to face trash bin next to toilet",
-                        "pick up toilet paper from bin",
-                        "move to face toilet",
-                        "put toilet paper on toilet tank top",
-                        "move to face left side of toilet",
-                        "pick up toilet roll on ground next to toilet",
-                        "walk to face right side of toilet",
-                        "put toilet roll on toilet tank top"
-                    ],
-                    "task_desc":"put toilet paper and roll on toilet tank",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move toilet paper and a roll to the toilet. ",
+                "put toilet paper and roll on toilet tank"
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -648,42 +135,8 @@
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-429/trial_T20190909_031623_121989/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A13OOAT2ORKH6V_38YMOXR4MXQLQT1AF946090MM6MW6X",
-                    "high_descs":[
-                        "Walk to the small bucket next to the toilet to your left .",
-                        "Grab the roll of toilet paper in the bucket.",
-                        "Turn to face the toilet to your left.",
-                        "Place the roll of toilet paper on top of the toilet.",
-                        "Turn left and then walk to your right to the side of the toilet where the plunger is.",
-                        "Grab the empty roll on the floor next the toilet.",
-                        "Turn around, walk straight, make a quick left, walk straight, make a  left when you reach the tub, walk straight to the bucket and turn left when you reach the bucket.",
-                        "Place the empty roll next to the full roll on the toilet."
-                    ],
-                    "task_desc":"Place an empty roll and full roll on the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_3HPZF4IVNPKEVF5B41ZX76DCT08YC1",
-                    "high_descs":[
-                        "Turn left and step forward to face the trash can on the floor.",
-                        "Pick up the roll of toilet paper in the trash can on the floor.",
-                        "Turn left to face the back of the toilet.",
-                        "Place the toilet paper on the back of the toilet.",
-                        "Walk around to face the left side of the toilet.",
-                        "Pick up the empty roll on the floor.",
-                        "Look to the right to face the back of the sink.",
-                        "Place the empty roll on the back of the sink."
-                    ],
-                    "task_desc":"To put a roll of toilet paper and an empty roll on the back of the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place an empty roll and full roll on the toilet.",
+                "To put a roll of toilet paper and an empty roll on the back of the toilet."
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -691,72 +144,10 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-429/trial_T20190906_222257_632416/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"ACSS93E03ZUGX_3IUZPWIU1ROK4J01L59Q96L2S0AKWU",
-                    "high_descs":[
-                        "Turn to the right and walk towards the tub.",
-                        "Pick up the bar of soap in the tub.",
-                        "Go to the right and place the bar of soup in the sink.",
-                        "Fill the sink up with water and remove the soap.",
-                        "Turn to the left and walk towards the toilet.",
-                        "Place the soap on top of the toilet."
-                    ],
-                    "task_desc":"Place the soap from the tub on top of the toilet.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_3EJJQNKU9UMOUXI7GQWN9FXT8A4HR9",
-                    "high_descs":[
-                        "Turn around, go to the right side of the bath tub.",
-                        "Take the pink soap to the right of the rag from the bath tub.",
-                        "Go to the sink to the right of the bath tub.",
-                        "Wash the soap in the sink. Take the soap from the sink.",
-                        "Turn left, go to the toilet on the other side of the bathroom.",
-                        "Put the soap on top of the tank of the toilet."
-                    ],
-                    "task_desc":"Put a clean bar of soap on the tank of a toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_3VELCLL3GN0GNWSKN6T80333PTZ1FU",
-                    "high_descs":[
-                        "Walk over to the foot of the bath tub.",
-                        "Pick up the bar of soap in the bath tub.",
-                        "Walk around to face the sink at the foot of the bath tub.",
-                        "Put the soap in the sink and run some water and then remove the soap.",
-                        "Walk around the tub to the toilet on the other side of the room.",
-                        "Place the soap on the back of the toilet next to the other soap."
-                    ],
-                    "task_desc":"Wash a bar of soap in the sink, as well as place it on the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_33IZTU6J84IXH2IZ0JEE2BQJIKNXSN",
-                    "high_descs":[
-                        "turn around and walk forwards a bit, then turn left and walk over to the bathtub on the left",
-                        "grab the soap out of the bathtub",
-                        "turn right and walk to the end of the room, and then turn left and walk over to the sink",
-                        "wash the soap out in the sink, then pick it back up",
-                        "turn around and walk to the toilet on the right side of the room",
-                        "place the soap on top of the toilet"
-                    ],
-                    "task_desc":"placed rinsed off soap on top of the toilet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place the soap from the tub on top of the toilet.",
+                "Put a clean bar of soap on the tank of a toilet.",
+                "Wash a bar of soap in the sink, as well as place it on the toilet.",
+                "placed rinsed off soap on top of the toilet"
             ],
             "relative_objects":[
                 "SoapBar"
@@ -764,172 +155,34 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-429/trial_T20190906_222320_965631/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"ACSS93E03ZUGX_3QRYMNZ7F1YTK8HANDWVEEV7I70TNX",
-                    "high_descs":[
-                        "Turn around and face towards the tub.",
-                        "Pick up the soap from the tub.",
-                        "Move to the right and face the sink.",
-                        "Place the soap in the sink, run the water filling up the sink, drain the water and remove the soap.",
-                        "Move to the left and face the toilet.",
-                        "Place the soap on top of the toilet."
-                    ],
-                    "task_desc":"Move the wet soap from the tub to the toilet.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3X31TUMD7032NO2G9HW6VG8NLT41LP",
-                    "high_descs":[
-                        "Go to the tub.",
-                        "Pick up the soap in the tub.",
-                        "Bring the soap to the sink.",
-                        "Wet the soap with water in the sink.",
-                        "Bring the soap to the toilet.",
-                        "Put the soap on the toilet tank lid. "
-                    ],
-                    "task_desc":"Put wet soap on the toilet tank lid. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3XLBSAQ9Z7T03ZYMDY4O45AY3N57Z2",
-                    "high_descs":[
-                        "Turn around to the tub behind you.",
-                        "Pick up the soap from inside the tub, to the right of the soap.",
-                        "Turn to the right, then left, and go to the sink next to the tub.",
-                        "Wash the soap in the sink.",
-                        "Turn around and go right, to the toilet.",
-                        "Place the sink on the back of the toilet, to the right of the spray bottle. "
-                    ],
-                    "task_desc":"Put clean soap on the back of the toilet. ",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move the wet soap from the tub to the toilet.",
+                "Put wet soap on the toilet tank lid. ",
+                "Put clean soap on the back of the toilet. "
             ],
             "relative_objects":[
                 "Cloth",
-                "ToiletPaper",
-                "SoapBar"
+                "SoapBar",
+                "ToiletPaper"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-429/trial_T20190906_222344_438646/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A22ON3MIIG0IJA_34HJIJKLP8DMBSBTA3HEGNDSO6D4VB",
-                    "high_descs":[
-                        "Turn right to face the bathtub.",
-                        "Pick up the bar of soap from the bathtub.",
-                        "Turn right and walk to the wall, then turn left and go to the sink.",
-                        "Put the soap in the sink, wash it off, then pick it back up.",
-                        "Turn around and turn right, walk past the bathtub to the trash can on the floor. Turn left to face the toilet.",
-                        "Put the bar of soap on top of the toilet."
-                    ],
-                    "task_desc":"Put a clean bar of soap on top of the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1PF01FF85HUY4_3ITXP059PZ0WMIDAJFZDB2I47W2JSZ",
-                    "high_descs":[
-                        "Turn to the right and face the tub.",
-                        "Look to the floor and grab the soap.",
-                        "Turn right and then left to go to the sink.",
-                        "Put the soap into the sink and turn the water on.",
-                        "Grab the soap and go to the toilet.",
-                        "Put the soap down on the floor. "
-                    ],
-                    "task_desc":"Grab the soap from the tub put it in the sink. Put it on the floor by the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_3OSWBBLG1HERFDZH3TJP7C4JHTGDX0",
-                    "high_descs":[
-                        "Turn right and face the rear of the bath tub.",
-                        "Take the pink soap bar from the bath tub.",
-                        "Go to the sink to the right of the tub.",
-                        "Place the soap in the sink. Turn the water on and off. Take the soap from the sink.",
-                        "Turn left and go to the right side of the toilet, then face the toilet.",
-                        "Put the soap on top of the toilet next to the pink soap."
-                    ],
-                    "task_desc":"Put clean soap on top of a toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a clean bar of soap on top of the toilet.",
+                "Grab the soap from the tub put it in the sink. Put it on the floor by the toilet.",
+                "Put clean soap on top of a toilet."
             ],
             "relative_objects":[
                 "Cloth",
-                "Toilet",
                 "Sink",
-                "SoapBar"
+                "SoapBar",
+                "Toilet"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015556_293557/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A98E8M4QLI9RS_31HQ4X3T3V1A2XN8I807S3FY6OJSLQ",
-                    "high_descs":[
-                        "turn around and move forward to the sink that is to the right of the bath tub, turn right to face the white cabinet",
-                        "pick up the pink bar of soap that is on the cabinet",
-                        "turn to the left to face the sink",
-                        "put the bar of soap in to the sink, rinse it off and remove the soap from the sink",
-                        "turn around and then turn to the right to move forward to the trash can that is under the window and to the right of the toilet",
-                        "put the bar of soap in to the trash can"
-                    ],
-                    "task_desc":"put a rinsed bar of soap in to the trash can",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_351SEKWQS38O6QMBLU6XXH8N5Q1DML",
-                    "high_descs":[
-                        "turn to face radiator cover next to sink",
-                        "pick up soap bar from radiator cover",
-                        "turn to face sink",
-                        "wash soap in sink, pick up soap from sink",
-                        "walk to face garbage bin next to toilet",
-                        "put soap bar inside bin"
-                    ],
-                    "task_desc":"put wash soap bar in garbage bin",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3A9AA95ATZDZNG4VY4G6G9EQXEDP5K",
-                    "high_descs":[
-                        "Turn around and move toward the sink, turn right to face the shelf on the wall.",
-                        "Pick up the bar of soap from the left side of the shelf.",
-                        "Carry the soap and turn to the sink on the right. ",
-                        "Place the soap inside the sink and turn on the water. Turn off the water and pick up the soap.",
-                        "Hold the soap and turn around. Turn right and move back to the trash can.",
-                        "Place the soap inside the trash can."
-                    ],
-                    "task_desc":"Rinse a bar of soap and throw it away.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put a rinsed bar of soap in to the trash can",
+                "put wash soap bar in garbage bin",
+                "Rinse a bar of soap and throw it away."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -937,57 +190,9 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-429/trial_T20190909_015333_203352/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F51C49T9A34D_35BLDD71I9OAZELGR4WLB5A3K1MVZI",
-                    "high_descs":[
-                        "turn to the left and take a few steps and turn to the left and go to the waste basket on the floor next to the toilet",
-                        "pick up the bar of soap from the toilet tank",
-                        "turn to the right twice and go to the front of the sink and turn to the left and go to the sink",
-                        "put the bar of soap in the sink and turn on the water to fill the sink and turn off and drain water and pick up the soap from the sink",
-                        "turn to the left twice and take a few steps and turn to the right and go to the waste basket on the floor next to the toilet",
-                        "put the bar of soap in the waste basket"
-                    ],
-                    "task_desc":"Place a wet bar of soap in a waste basket",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3OYZK65C2G39N_3U0SRXB7CGWOPIQGFWGHFLERPHZRN2",
-                    "high_descs":[
-                        "   turn    and walk to the   toilet   ",
-                        "get the  soap off the back of the toilet",
-                        "turn and walk to the sink",
-                        "put the soap into the sink  turn the water on turn the water off pick up the soap",
-                        "turn and face the waste basket  walk to the waste basket",
-                        "  put the soap into the waste basket"
-                    ],
-                    "task_desc":"put the wet soap into the waste basket ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36A780ODXBDEH_32XVDSJFP2O13GOVO5MG1YHJ8ZJM2S",
-                    "high_descs":[
-                        "Turn left twice and go to the trash bin near the toilet.",
-                        "Pick up the soap in the trash bin.",
-                        "Turn around and go to the sink on the opposite side of the room.",
-                        "Rinse the soap in the sink, then turn the water off and pick the soap back up.",
-                        "Turn around and go back to the trash bin near the toilet.",
-                        "Put the soap back in to the trash bin."
-                    ],
-                    "task_desc":"Rinse the bar of soap from the trash bin and put it back in the trash bin.",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Place a wet bar of soap in a waste basket",
+                "put the wet soap into the waste basket ",
+                "Rinse the bar of soap from the trash bin and put it back in the trash bin."
             ],
             "relative_objects":[
                 "Cloth",
@@ -996,48 +201,9 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190911_233539_300314/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3PH3VY7DJOEFTEZNL6C0WL9FWDJZWZ",
-                    "high_descs":[
-                        "Turn around and go to the dresser directly in front of you.",
-                        "Take the soap bottle from the dresser.",
-                        "Turn around, go toward the tub in front of you, then turn left and left again to reach the toilet.",
-                        "Place the soap on the back of the toilet, to the left of the cylinder. "
-                    ],
-                    "task_desc":"Put soap on the back of the toilet. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A22ON3MIIG0IJA_3VJ40NV2QL4B2THMOSW8T3VC8DMOTG",
-                    "high_descs":[
-                        "Turn right and walk to the stand with the soap dispenser on it, then turn right to face it.",
-                        "Pick up the soap dispenser from the stand.",
-                        "Turn around and walk to the bathtub then turn left and walk to the wall then turn left and face the toilet.",
-                        "Put the soap dispenser on top of the toilet tank."
-                    ],
-                    "task_desc":"Put a soap dispenser on top of the toilet tank.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3YT88D1N0BFNDLYDBLYO49A5U8R3KK",
-                    "high_descs":[
-                        "Turn right and walk toward the closer bottle of soap.",
-                        "Pick up the bottle of soap.",
-                        "Turn around and walk to the toilet.",
-                        "Put the bottle of soap on the top of the toilet, to the left of the empty toilet paper roll."
-                    ],
-                    "task_desc":"Put a bottle of soap on the top of the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put soap on the back of the toilet. ",
+                "Put a soap dispenser on top of the toilet tank.",
+                "Put a bottle of soap on the top of the toilet."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -1045,99 +211,21 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190906_201712_940852/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A23HZ18KTCK2DA_3FTF2T8WLUZ0NNHAH8I1JX7MHBD9WE",
-                    "high_descs":[
-                        "Turn and go to the white cabinet that is to the right of the sink.",
-                        "Pick up the purple bottle of lotion that is on the white cabinet. ",
-                        "Turn around and move to the toilet.",
-                        "Place the bottle of lotion on the back of the toilet.  Place it to the right of the candle."
-                    ],
-                    "task_desc":"Move lotion to back of toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A22ON3MIIG0IJA_3L2IS5HSFDZ8KLWZNIM5JAH91KMUN2",
-                    "high_descs":[
-                        "Turn left and walk to the corner then turn left and walk to the sink, then turn right to face the shelf.",
-                        "Pick up the soap dispenser from the shelf.",
-                        "Turn around and walk past the bathtub to the toilet.",
-                        "Put the soap dispenser on top of the water tank of the toilet."
-                    ],
-                    "task_desc":"Put a soap dispenser on the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3VNXK88KKFZN8YH5RYD5XVO8A2P9VI",
-                    "high_descs":[
-                        "Turn left, turn left, then turn right to go to the shelf near the sink.",
-                        "Pick up the hand soap from the shelf, across from the soap bar. ",
-                        "Turn around, then turn left toward the toilet.",
-                        "Place the hand soap on the back of the toilet, to the right of the candle. "
-                    ],
-                    "task_desc":"Put hand soap on the back of the toilet. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move lotion to back of toilet.",
+                "Put a soap dispenser on the toilet.",
+                "Put hand soap on the back of the toilet. "
             ],
             "relative_objects":[
-                "SoapBottle",
+                "SoapBar",
                 "HandTowel",
-                "SoapBar"
+                "SoapBottle"
             ]
         },
         "train/pick_and_place_simple-ToiletPaper-None-Toilet-429/trial_T20190907_215125_124054/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_31JLPPHS2XB63CJS9DQHBQREFDP3OT",
-                    "high_descs":[
-                        "Turn to the left, pick up the toilet paper tube",
-                        "Turn around, walk to the bath tub",
-                        "Turn around, face the toilet",
-                        "Put the toilet paper tube on top of the toilet"
-                    ],
-                    "task_desc":"Take the toilet paper tube off the floor, put it on top of the toilet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3PJ71Z61R7J7MM17KKTGQ7HSMV691C",
-                    "high_descs":[
-                        "Turn around to the left and find the toilet plunger.",
-                        "Pick up the toilet paper roll from the floor.",
-                        "Take the roll and move to the right so that you're facing the other side of the toilet.",
-                        "Place the roll on the back of the toilet."
-                    ],
-                    "task_desc":"Pick up an empty toilet paper roll and place it on the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3PPTZCWALT1A9H319XDU4WRT9ACQZT",
-                    "high_descs":[
-                        "Turn left and walk slightly forward to the toilet paper holder.",
-                        "Pick up the empty toilet paper roll from the floor.",
-                        "Turn around and walk to the other side of the toilet.",
-                        "Put the toilet paper roll on the top of the toilet, to the left of the soap bottle."
-                    ],
-                    "task_desc":"Move an empty roll of toilet paper from the floor to the top of a toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Take the toilet paper tube off the floor, put it on top of the toilet",
+                "Pick up an empty toilet paper roll and place it on the toilet.",
+                "Move an empty roll of toilet paper from the floor to the top of a toilet."
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -1145,55 +233,9 @@
         },
         "train/pick_and_place_simple-ToiletPaper-None-Toilet-429/trial_T20190907_215139_316260/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_30JNVC0ORC1OIW373B7N4PNODL3HQ4",
-                    "high_descs":[
-                        "turn left, walk forward, stop to face the first white table on the right",
-                        "pick up the empty toilet paper roll that is on the table",
-                        "turn around, walk towards bath tub, turn left, walk forward, turn left to face toilet ",
-                        "put the empty toilet paper roll on the back of the toilet"
-                    ],
-                    "task_desc":"move empty toilet paper roll from table to back of toilet",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3WSELTNVR6JM0PNLE9RQS8B7KXATAH",
-                    "high_descs":[
-                        "Move to the small white table against the wall on the right side",
-                        "Pick up the cardboard tube on top of the white table",
-                        "Carry the white tube to the toilet ",
-                        "Place the tube on the far left on top of the toilet tank"
-                    ],
-                    "task_desc":"Move a cardboard tube to set on top of the toilet tank",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A30M9SZYJKFDS9_3DH6GAKTY16JIJUN07UOHIUV8RYYZP",
-                    "high_descs":[
-                        "cross the room to the left ",
-                        "face the white table pick up the cup from the table ",
-                        "turn to the left towards the bath tub turn to the left go to the left ",
-                        "face the toilet leave the cup on top of the water tank "
-                    ],
-                    "task_desc":"put the cup on top of the water tank",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "move empty toilet paper roll from table to back of toilet",
+                "Move a cardboard tube to set on top of the toilet tank",
+                "put the cup on top of the water tank"
             ],
             "relative_objects":[
                 "Plunger",
@@ -1202,48 +244,9 @@
         },
         "train/pick_and_place_simple-ToiletPaper-None-Toilet-429/trial_T20190907_215111_218053/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3SFPSMFRSRTB3_3JWH6J9I9VUTOMNTNR5AEKPLDZJBN7",
-                    "high_descs":[
-                        "Turn away from tub and towards the container on the floor with toilet paper in it.",
-                        "Pick up roll of toilet paper from container on the floor.",
-                        "Turn around towards the toilet.",
-                        "Place toilet paper on the back of the toilet."
-                    ],
-                    "task_desc":"Move toilet paper from container to back of toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3KJYX6QCMCSCEAUEDA4IMP2B77PJVC",
-                    "high_descs":[
-                        "Turn to your left and walk up to the bin that is sitting on the right side of the toilet. ",
-                        "Pick up the roll of toilet paper from the bin. ",
-                        "Walk towards the toilet that is to the left of the bin. ",
-                        "Place the toilet paper on the back of the toilet. "
-                    ],
-                    "task_desc":"Move a roll of toilet paper to the toilet. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1WJU1IQ3UTRC6_3LRKMWOKB8YTHY1G7MNT8ETQT662Z3",
-                    "high_descs":[
-                        "Turn left and go to the toilet.",
-                        "Take the toilet paper out of the bin.",
-                        "Turn around to see the toilet.",
-                        "Put the toilet paper on top of the toilet water tank."
-                    ],
-                    "task_desc":"Put the toilet paper on the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move toilet paper from container to back of toilet.",
+                "Move a roll of toilet paper to the toilet. ",
+                "Put the toilet paper on the toilet."
             ],
             "relative_objects":[
                 "TissueBox",
@@ -1252,24 +255,7 @@
         },
         "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175307_066697/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3M0NZ3JDP4FLGVK3P5PR6LW2DI5Z5D",
-                    "high_descs":[
-                        "Walk forward to the edge of the bathtub",
-                        "Pick up the right most green cloth from the bathtub",
-                        "Turn right and walk over to the small white cabinet by the door",
-                        "Put the cloth down on top of the white cabinet",
-                        "Turn left and walk back over to face the side of the bathtub",
-                        "Pick up the left most green cloth from the tub",
-                        "Turn right and walk back to the white cabinet",
-                        "Put the green cloth down on the cabinet just left of the other cloth"
-                    ],
-                    "task_desc":"Put the green cloths on the small white cabinet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the green cloths on the small white cabinet"
             ],
             "relative_objects":[
                 "Cloth"
@@ -1277,24 +263,7 @@
         },
         "train/pick_two_obj_and_place-Cloth-None-Shelf-429/trial_T20190907_175331_995578/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AO33H4GL9KZX9_3A1PQ49WVKY01SJQIWH83OFG5AL1H5",
-                    "high_descs":[
-                        "Turn left and go to the bath tub.",
-                        "Pick up the green rag inside the tub.",
-                        "Turn right and go to the other side of the bathroom to the hamper.",
-                        "Place the rag on top of the hamper. ",
-                        "Turn around and go back to the bath tub. ",
-                        "Pick up the green rag in the tub. ",
-                        "Take the green rag to the hamper on the right side of the bathroom. ",
-                        "Place the green rag to the left of the green rag on the top of the hamper. "
-                    ],
-                    "task_desc":"Take the rags out of of the tub and to the hamper.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Take the rags out of of the tub and to the hamper."
             ],
             "relative_objects":[
                 "Cloth"
@@ -1302,73 +271,17 @@
         },
         "valid_seen/pick_two_obj_and_place-SprayBottle-None-Toilet-429/trial_T20190907_033843_707544/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_37TD41K0AKQ9E4749NIROY59IC3SC5",
-                    "high_descs":[
-                        "Turn right and walk to the long stand that is along the wall across the room",
-                        "Pick up the spray bottle that is closest to the wall.",
-                        "Turn around and cross the room then turn left to face the side of the toilet",
-                        "Place the spray bottle on the back of the toilet",
-                        "Turn around and cross the room then turn right and walk to the long stand along the wall, the stand that is on the left",
-                        "Pick up the yellow spray bottle.",
-                        "Turn around and walk to the long stand and then turn left and walk across the room then turn left to face the side of the toilet",
-                        "Place the spray bottle on the back to the toilet to the left of the other spray bottle"
-                    ],
-                    "task_desc":"Place spray bottles on the back of a toilet",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2CT57W84KXX25_3GLB5JMZF0CGTR4REJJLJQ4OFZAGDU",
-                    "high_descs":[
-                        "Turn around in the bathroom",
-                        "Walk over to the counter ",
-                        "Grab the yellow spray bottle and walk it over to the toilet",
-                        "Put the yellow spray bottle on the back of the toilet",
-                        "turn around and go back to the counter",
-                        "look at the other spray bottle",
-                        "Pick that spray bottle up and carry it to the toilet",
-                        "Place that spray bottle on the back of the toilet with the other one"
-                    ],
-                    "task_desc":"Gather cleaning supplies up",
-                    "votes":[
-                        1,
-                        1,
-                        0,
-                        1,
-                        1,
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place spray bottles on the back of a toilet",
+                "Gather cleaning supplies up"
             ],
             "relative_objects":[
-                "SprayBottle",
-                "Cloth"
+                "Cloth",
+                "SprayBottle"
             ]
         },
         "tests_seen/trial_T20190909_011332_145768/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn left then face the sink on your left.",
-                        "Grab the soap from the sink in front of you.",
-                        "Turn around, turn right and face the tub to your right.",
-                        "Place the soap inside of the tub in front of you.",
-                        "Turn right then face the sink on your left.",
-                        "Grab the soap from the sink in front of you.",
-                        "Turn around, turn right and face the tub to your right.",
-                        "Place the soap inside of the tub in front of you."
-                    ],
-                    "task_desc":"Place soap in the tub."
-                }
+                "Place soap in the tub."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -1376,33 +289,9 @@
         },
         "tests_seen/trial_T20190908_082615_786892/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn to the left, walk to the toilet paper holder.",
-                        "Remove the toilet paper from the holder",
-                        "Turn around, walk the toilet paper to the first cabinet on the right",
-                        "Set the toilet paper down on the cabinet."
-                    ],
-                    "task_desc":"Replace the toilet paper in the bathroom"
-                },
-                {
-                    "high_descs":[
-                        "Turn around, hang a right at the white dresser and walk to the wall next to the toilet.",
-                        "Pick up the roll of toilet paper from the black metal holder on the wall to the left of the toilet.",
-                        "Turn around and hang at the right to face the first white dresser on the left.",
-                        "Put the roll of toilet paper on the right side of the dresser to the right of the box of tissues."
-                    ],
-                    "task_desc":"Place a roll of toilet paper on a dresser."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and cross the room to the toilet",
-                        "take the toilet paper from off the holder",
-                        "Turn around and cross the room to the cabinet",
-                        "place toilet paper on the cabinet"
-                    ],
-                    "task_desc":"Take the toilet paper off the holder and move it to the cabinet"
-                }
+                "Replace the toilet paper in the bathroom",
+                "Place a roll of toilet paper on a dresser.",
+                "Take the toilet paper off the holder and move it to the cabinet"
             ],
             "relative_objects":[
                 "ToiletPaper"

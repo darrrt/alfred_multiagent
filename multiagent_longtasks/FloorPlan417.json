@@ -3,24 +3,7 @@
     "trials":{
         "train/pick_two_obj_and_place-SprayBottle-None-Cabinet-417/trial_T20190909_112708_722705/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A28Q5S6WK94WUN_3NPI0JQDARW18IFLZ0Y4JPK4DQRPTL",
-                    "high_descs":[
-                        "go to the sink",
-                        "pick up the purple spray bottle sitting on the sink",
-                        "turn around and go back to the sink",
-                        "open the cabinet under the sink place the bottle inside and close the door",
-                        "go to the trash can ",
-                        "take the purple spray bottle out of the trash ",
-                        "carry the bottle over to the sink",
-                        "open the cabinet and set the bottle inside with the other one and close the door"
-                    ],
-                    "task_desc":"put both bottles in the cabinet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put both bottles in the cabinet"
             ],
             "relative_objects":[
                 "SprayBottle"
@@ -28,48 +11,9 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-417/trial_T20190909_120149_080996/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2TBXASXZIRNNW_3DR23U6WE85XBRQVQMITPDL0ZIATEN",
-                    "high_descs":[
-                        "Head over to the toilet.",
-                        "Grab the spray bottle.",
-                        "Walk over to the trash can.",
-                        "Place the bottle into the trash can."
-                    ],
-                    "task_desc":"Place the bottle into the trash can.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3E337GFOLCZX0SH2ZLM5GH0KNGYGNL",
-                    "high_descs":[
-                        "turn around to face the toilet",
-                        "pick up the soap bottle that is on the back of the toilet",
-                        "turn around, take a few steps, turn left, walk forward, turn right, walk to trash can",
-                        "put the soap bottle in the trash can"
-                    ],
-                    "task_desc":"move soap bottle from back of toilet to trash can",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3EA3QWIZ4LM9RWSHM58KASJSRB1IT5",
-                    "high_descs":[
-                        "Turn around the face the toilet.",
-                        "Pick up the bottle of lotion on the toilet.",
-                        "Turn around and walk to the trash can.",
-                        "Put the bottle of lotion in the trash can."
-                    ],
-                    "task_desc":"Throw away a bottle of lotion.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place the bottle into the trash can.",
+                "move soap bottle from back of toilet to trash can",
+                "Throw away a bottle of lotion."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -77,48 +21,9 @@
         },
         "train/pick_and_place_simple-Candle-None-CounterTop-417/trial_T20190909_142300_396155/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AKW57KYG90X61_3180JW2OT733151X3RBMJDSEOP0J5R",
-                    "high_descs":[
-                        "move left to the sink",
-                        "pick up the candle from the cupboard under the sink",
-                        "move up to the side of the sink",
-                        "place the candle at the side of the sink"
-                    ],
-                    "task_desc":"place a candle at the side of the sink",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3A4NIXBJ79Q742A3YB4LGUGSE8NMLC",
-                    "high_descs":[
-                        "Move left then straight to the cupboard under the left sink",
-                        "Open the cupboard, remove the green candle inside then shut the cupboard",
-                        "Move to face the counter top between the two sinks",
-                        "Place the candle stick on top of the counter between the two bathroom sinks"
-                    ],
-                    "task_desc":"Move a candle to the bathroom counter",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3D3VGR7TA36HLEX6XDW267GLK9Q3RY",
-                    "high_descs":[
-                        "Turn left and walk forward to the sink on the left.",
-                        "Take out the candle from the cabinet on the right below the sink, then close the cabinet.",
-                        "Turn right and walk forward very slightly, then turn left towards the counter top.",
-                        "Put the candle on the front of the counter, in between the two sinks."
-                    ],
-                    "task_desc":"Move a candle from a cabinet to a counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "place a candle at the side of the sink",
+                "Move a candle to the bathroom counter",
+                "Move a candle from a cabinet to a counter."
             ],
             "relative_objects":[
                 "Candle"
@@ -126,48 +31,9 @@
         },
         "train/pick_and_place_simple-Candle-None-CounterTop-417/trial_T20190909_142316_108523/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_32N49TQG3J99Y6D8FCGMUCJUBP0AVZ",
-                    "high_descs":[
-                        "Move left then face the back of the toilet",
-                        "Pick up the green candle on top of the toilet tank",
-                        "Carry the green candle over to the counter top between the sinks",
-                        "Place the candle on top of the counter to the left of the purple spray bottle"
-                    ],
-                    "task_desc":"Move a candle to the bathroom counter top",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_35LDD5557DVWKWSLDBSK1U3DP8RKMG",
-                    "high_descs":[
-                        "Turn left and walk to the toilet",
-                        "Pick up the green candle that is sitting on the back of the toilet",
-                        "Turn around and head across the room, hang a left and walk to the counter in the middle of the sinks",
-                        "Place the green candle on the counter in the middle of the sinks to the left of the spray bottle"
-                    ],
-                    "task_desc":"Place a candle on a counter",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A22ON3MIIG0IJA_3Q5C1WP23PSW6OLTD25GFDWSU7V512",
-                    "high_descs":[
-                        "Turn left and walk to the toilet.",
-                        "Pick up the green candle from the top of the toilet.",
-                        "Turn around and walk to the midpoint between the toilet and the door, then turn left and walk to the counter.",
-                        "Put the green candle on the counter beside the spray bottle and in front of the toilet paper."
-                    ],
-                    "task_desc":"Put a candle on the counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a candle to the bathroom counter top",
+                "Place a candle on a counter",
+                "Put a candle on the counter."
             ],
             "relative_objects":[
                 "Candle"
@@ -175,48 +41,9 @@
         },
         "train/pick_and_place_simple-Candle-None-CounterTop-417/trial_T20190909_142343_223524/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3AZHRG4CU7BTLKD730DNMBFYBI830F",
-                    "high_descs":[
-                        "Turn left, hang a right at the wall and walk to the white toilet.",
-                        "Pick up the green candle in the middle from the toilet tank.",
-                        "Turn around and walk to the middle of the vanity in between the sinks.",
-                        "Place the green candle in between the sinks on the vanity counter."
-                    ],
-                    "task_desc":"Place a green candle on a counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3OXV7EAXLHHOZVZM5PT4VCPPOMZ63Q",
-                    "high_descs":[
-                        "Make a right around the corner to reach the toilet.",
-                        "Pick up the candle from the back of the toilet.",
-                        "Turn right to walk back to the sinks.",
-                        "Set the candle down in between the two sinks."
-                    ],
-                    "task_desc":"Move a candle from the toilet tank lid to the sink countertop.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3TDXMTX3CEL3PYH5QS0RZIRE73VI6Z",
-                    "high_descs":[
-                        "Move to the left and face the toilet.",
-                        "Pick the candle up from the back of the table.",
-                        "Go to the right and cross the room to face the counter between the sinks.",
-                        "Put the candle down on the counter between the sinks."
-                    ],
-                    "task_desc":"Put a candle on a counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a green candle on a counter.",
+                "Move a candle from the toilet tank lid to the sink countertop.",
+                "Put a candle on a counter."
             ],
             "relative_objects":[
                 "Candle"
@@ -224,24 +51,7 @@
         },
         "train/pick_two_obj_and_place-SprayBottle-None-Toilet-417/trial_T20190908_071724_127813/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AO33H4GL9KZX9_3RGU30DZTDPTON05ZI3RZTJYGT1JMD",
-                    "high_descs":[
-                        "Turn right and go to the brown trash can on the floor next to the bathroom door. ",
-                        "Pick up the purple and white spray bottle out of the trash can.",
-                        "Turn around and go to the front of the toilet. ",
-                        "Place the spray cleaner on the top of the toilet tank on the left of the toilet paper.",
-                        "Turn around and go back to the brown trash can on the floor. ",
-                        "Pick up the remaining purple and white spray bottle out of the trash can. ",
-                        "Turn around and go back to the toilet. ",
-                        "Place the second spray bottle on the right of the first bottle and next to the toilet paper. "
-                    ],
-                    "task_desc":"Move the spray cleaners to the toilet tank. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the spray cleaners to the toilet tank. "
             ],
             "relative_objects":[
                 "Toilet",
@@ -250,24 +60,7 @@
         },
         "train/pick_two_obj_and_place-SprayBottle-None-Toilet-417/trial_T20190908_071856_380211/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2YUCJ28XANFOX_336KAV9KYT9TC8RBB0LAU7KONS6Y28",
-                    "high_descs":[
-                        "turn right and go to the sink",
-                        "At the sink pick the bottle off of the counter",
-                        "Turn around and then go right to go to the toilet",
-                        "Place the bottle on the back of the toilet",
-                        "Turn around and cross the bathroom turn right and go back to the sink",
-                        "Pick up the other bottle that is on the counter",
-                        "Turn around and go right to the toilet ",
-                        "Place the second bottle on the toilet"
-                    ],
-                    "task_desc":"Place both bottles on the back of the toilet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place both bottles on the back of the toilet"
             ],
             "relative_objects":[
                 "SprayBottle"
@@ -275,126 +68,31 @@
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Cabinet-417/trial_T20190909_115038_213553/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AFPMG8TLP1TND_3DR23U6WE85XBRQVQMITPDL0ZKPETR",
-                    "high_descs":[
-                        "turn left and walk straight a bit then turn left towards the toilet",
-                        "pick up the toilet paper roll off the toilet",
-                        "turn left and walk straight then turn left again and walk straight towards the table and turn left and walk straight then turn right and walk straight then turn right towards the table",
-                        "open the cabinet below the sink and put the toilet paper roll inside and close the door",
-                        "turn around and walk straight then turn right towards the toilet",
-                        "pick up the toilet paper roll off the toilet",
-                        "turn around and walk straight then turn right towards the toilet",
-                        "open the cabinet below the sink and put the toilet paper roll inside and close the door"
-                    ],
-                    "task_desc":"move the toilet paper rolls from the top of the toilet to the cabinet below the sink",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "move the toilet paper rolls from the top of the toilet to the cabinet below the sink"
             ],
             "relative_objects":[
-                "Sink",
                 "Cabinet",
-                "ToiletPaper"
+                "ToiletPaper",
+                "Sink"
             ]
         },
         "train/pick_and_place_simple-SprayBottle-None-CounterTop-417/trial_T20190909_091329_750799/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"ANBWJZYU2A68T_31Q0U3WYDS6BTSZC1VKDDXAOLC471V",
-                    "high_descs":[
-                        "Turn right and walk to the flush toilet",
-                        "Pick up the pink cleaner from the toilet ",
-                        "Turn around and go to the sink",
-                        "Put the cleaner on the counter between the sinks"
-                    ],
-                    "task_desc":"Place a cleaner on the sink counter",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_36U2A8VAG4QWEDHZWEGVVPQKYHNYK0",
-                    "high_descs":[
-                        "Turn right and face the back of the toilet.",
-                        "Pick the purple bottle up from the back of the toilet.",
-                        "Turn around and then go to the left to face the counter in between the two sinks.",
-                        "Put the bottle on the counter in between the two sinks."
-                    ],
-                    "task_desc":"Put a bottle on the counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3Z7EFSHGNC5PVAF1Z5DVOS63R2BXC7",
-                    "high_descs":[
-                        "Turn around facing the right side of the top of the toilet tank",
-                        "Pick up the purple bottle on top of the toilet tank",
-                        "Carry the purple bottle to the sink counter top between the two sinks",
-                        "Place the spray bottle on top of the counter right of the toilet paper"
-                    ],
-                    "task_desc":"Move a spray bottle to the counter",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a cleaner on the sink counter",
+                "Put a bottle on the counter.",
+                "Move a spray bottle to the counter"
             ],
             "relative_objects":[
-                "SoapBottle",
                 "SprayBottle",
-                "Cloth"
+                "Cloth",
+                "SoapBottle"
             ]
         },
         "train/pick_and_place_simple-SoapBottle-None-CounterTop-417/trial_T20190908_135156_352630/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3PPLDHC3CG0YN_3CFJTT4SXWHMTYVA925J5WRA2YII75",
-                    "high_descs":[
-                        "Turn and walk to the sinks on the right. ",
-                        "Open the cabinet door on the left side under the sink on the right, pick up a bottle, close the door. ",
-                        "Move to the counter between the two sinks. ",
-                        "Place the bottle down on the counter between the two sinks. "
-                    ],
-                    "task_desc":"To move a bottle from the cabinet to the counter. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1NWXL4QO30M8U_3R8YZBNQ9K9ZAWJTMAASEYIWT847Q2",
-                    "high_descs":[
-                        "Turn right and take one step, then turn right and walk to the sink. ",
-                        "Open the cabinet that is to the right of the pink bar of soap, below the sink and take out the bottle that is inside.",
-                        "Turn left and take one step, then turn right to face the counter.",
-                        "Put the bottle down on the counter to the right of the pink bar of soap. "
-                    ],
-                    "task_desc":"Move the bottle the counter top.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3WJEQKOXABTTCUXA8YWXNOCEM491AJ",
-                    "high_descs":[
-                        "Turn around completely and walk up to the bathroom counter.",
-                        "Take out the lotion bottle that is in the left-hand cabinet under the right-hand sink.",
-                        "Move over to the left a bit.",
-                        "Place the lotion bottle down on the bathroom counter, to the right of the bar soap. "
-                    ],
-                    "task_desc":"Move a bottle of lotion to the bathroom counter. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "To move a bottle from the cabinet to the counter. ",
+                "Move the bottle the counter top.",
+                "Move a bottle of lotion to the bathroom counter. "
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -402,78 +100,10 @@
         },
         "train/pick_and_place_simple-Plunger-None-Cabinet-417/trial_T20190907_123042_656948/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_39DD6S19JSSLCEDW06IUAF2FQ1DEZI",
-                    "high_descs":[
-                        "Go left to stand in front of the toilet.",
-                        "Pick the red plunger up from the floor.",
-                        "Turn around and go left to stand in front of the sink.",
-                        "Open the lower, right cabinet door and put the plunger in and shut the door."
-                    ],
-                    "task_desc":"Put a plunger in a cabinet.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3UOUJI6MTGVDWFA3PO9EHC874OTXU3",
-                    "high_descs":[
-                        "turn to the left and go forward to the toilet",
-                        "pick up the plunger on the right side of the toilet",
-                        "turn completely around facing the other direction and go forward a few steps and turn to the left and go forward to the sink cabinet",
-                        "open the right hand side door of the sink cabinet and place the plunger inside and close the door"
-                    ],
-                    "task_desc":"Place the plunger underneath the sink in the cabinet",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3KKG4CDWKLFOELYQ72CIO5OVY9E496",
-                    "high_descs":[
-                        "Turn to the left, walk to the toilet",
-                        "Pick up the plunger next to the toilet",
-                        "Turn around, walk to the sink on the left",
-                        "Put the plunger in the cabinet"
-                    ],
-                    "task_desc":"Take the plunger next to the toilet, put it under the sink",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A23HZ18KTCK2DA_3FUI0JHJP0FHHNQ6QF6PNNT3KMN33S",
-                    "high_descs":[
-                        "Turn around to go the the toilet.",
-                        "Pick up the plunger that is on the right side of the toilet.",
-                        "With the plunger in hand turn to go to the sink.",
-                        "Place the plunger in the cabinet under the sink on the right side. "
-                    ],
-                    "task_desc":"Put plunger away.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a plunger in a cabinet.",
+                "Place the plunger underneath the sink in the cabinet",
+                "Take the plunger next to the toilet, put it under the sink",
+                "Put plunger away."
             ],
             "relative_objects":[
                 "Plunger"
@@ -481,100 +111,27 @@
         },
         "train/pick_and_place_simple-Plunger-None-Cabinet-417/trial_T20190907_123007_667071/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A320QA9HJFUOZO_39GAF6DQWUH5JTEANLYCIP6PDHAV1N",
-                    "high_descs":[
-                        "Turn left and walk up to the toilet",
-                        "Pick up the plunger from beside the toilet",
-                        "Turn around and walk over to the left most sink by the shower",
-                        "Open the bottom right cabinet under the left sink and put the plunger in it"
-                    ],
-                    "task_desc":"Put the plunger in the bathroom cabinet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3LS2AMNW5I7YADPU7O2DOYKPPY1QO3",
-                    "high_descs":[
-                        "Turn to the left and stand in front of the toilet.",
-                        "Pick up the red plunger on the floor to the right.",
-                        "Turn around and go left to stand in front of the sink.",
-                        "Open the cabinet on the bottom left and put the plunger in and shut the door."
-                    ],
-                    "task_desc":"Put a plunger in a cabinet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AWEPZMK7825JQ_3UWN2HHPU1MS584VYDR549ZLHETNSQ",
-                    "high_descs":[
-                        "Turn left and walk towards the toilet.",
-                        "Pick up the plunger that is to the right of the toilet.",
-                        "Turn around and walk forward, then turn left and face the sink.",
-                        "Open the right sink cabinet door and place the plunger inside the cabinet, then close the door."
-                    ],
-                    "task_desc":"Move the plunger from the floor into the cabinet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the plunger in the bathroom cabinet",
+                "Put a plunger in a cabinet.",
+                "Move the plunger from the floor into the cabinet."
             ],
             "relative_objects":[
-                "Cabinet",
-                "Plunger"
+                "Plunger",
+                "Cabinet"
             ]
         },
         "train/pick_two_obj_and_place-SoapBottle-None-Cabinet-417/trial_T20190909_122015_285026/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_33LKR6A5KH1Q61ALIQYXH7I4F751T9",
-                    "high_descs":[
-                        "Move to in between to two sinks to the right of the shower",
-                        "Pick up dispenser from off of the counter",
-                        "Move to the right side of the sink cabinets",
-                        "Open cabinet door and place dispenser inside and close door",
-                        "Move to the counter space in between the two sinks to the right of the shower",
-                        "Pick up the other dispenser from up off the counter",
-                        "Move to the right side of the sink cabinets",
-                        "Open cabinet door and place dispenser inside next to the other one and close door"
-                    ],
-                    "task_desc":"Put both dispensers on the bathroom counter into the right hand side sink cabinet. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put both dispensers on the bathroom counter into the right hand side sink cabinet. "
             ],
             "relative_objects":[
-                "SoapBottle",
-                "SoapBar"
+                "SoapBar",
+                "SoapBottle"
             ]
         },
         "train/pick_two_obj_and_place-SoapBottle-None-Cabinet-417/trial_T20190909_211711_664720/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"ACSS93E03ZUGX_3UN61F00HZ6CE4YCFOVEKIU33ZWR5H",
-                    "high_descs":[
-                        "Turn to the right and face the toilet.",
-                        "Pick up the soap on top of the toilet.",
-                        "Turn the left and face the sink on top of the cabinet.",
-                        "Place the soap in the cabinet under the sink .",
-                        "Turn to the right and face the trash can.",
-                        "Pick up the soap from the trash can.",
-                        "Turn to the left and face the cabinet under the sink.",
-                        "Place the soap in the cabinet under the sink."
-                    ],
-                    "task_desc":"Place the soaps in the cabinet under the sink.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place the soaps in the cabinet under the sink."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -582,145 +139,30 @@
         },
         "train/pick_two_obj_and_place-SoapBottle-None-Cabinet-417/trial_T20190906_192320_630856/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2MHM7JK1T9XHR_35BLDD71I9E2EPZIVW74AJQ1PZ8VZ2",
-                    "high_descs":[
-                        "Turn left and walk to face the space between the sinks.",
-                        "Pick up the soap dispenser sitting between the sinks.",
-                        "Turn left and move to face the sink on the left and the cabinet below it.",
-                        "Open the cabinet door on the right, place the soap dispenser inside, and close the door.",
-                        "Turn around and walk to the toilet.",
-                        "Pick up the soap dispenser sitting on the toilet's water tank.",
-                        "Turn around and head left towards the sink and cabinet on the left.",
-                        "Open the right cabinet door, place the soap dispenser inside, and close the door."
-                    ],
-                    "task_desc":"put the soap dispensers in the cabinet under the sink.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3KV0LJBBH52AMBJI7NC01K5PPSEMRQ",
-                    "high_descs":[
-                        "Turn left and walk to the two sinks.",
-                        "Pick up the soap from the center of the two sinks.",
-                        "Turn around, then right to face the left sink.",
-                        "Open the cabinet below the sink and place the soap inside and close it.",
-                        "Turn left, then right to face the toilet.",
-                        "Pick up the soap from the top of the toilet tank.",
-                        "Turn around then walk left to be in front of the sink.",
-                        "Put the soap inside the cabinet under the sink and close it."
-                    ],
-                    "task_desc":"Put soap pumps in the cabinet under the left sink.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put the soap dispensers in the cabinet under the sink.",
+                "Put soap pumps in the cabinet under the left sink."
             ],
             "relative_objects":[
-                "SoapBottle",
-                "SoapBar"
+                "SoapBar",
+                "SoapBottle"
             ]
         },
         "train/pick_and_place_simple-SoapBottle-None-Cabinet-417/trial_T20190910_084745_955519/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AUTYWXILTACCR_3KYQYYSHYYO4L4LP22WTOZDQ6KJOD5",
-                    "high_descs":[
-                        "Turn around, then walk to the counter on your right.",
-                        "Pick up the tan bottle from between the sinks.",
-                        "Look towards the cabinet underneath the sink on the right.",
-                        "Place the bottle in the cabinet."
-                    ],
-                    "task_desc":"Place a bottle in a cabinet.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3A0VPWPASCO9J_3OS46CRSLIG0QFF7TRATDLX6LOK6VI",
-                    "high_descs":[
-                        "Go to the vanity.",
-                        "Pick up the lotion on the counter between the two sinks.",
-                        "Move away from the vanity.",
-                        "Put the lotion in the cabinet under the sink on the right."
-                    ],
-                    "task_desc":"Put a bottle of lotion in the cabinet.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1DMXEJGJY02E1_3L4PIM1GQWXAGS8WQQ0BVFSWZUPRY3",
-                    "high_descs":[
-                        "Turn around and face the counter.",
-                        "Pick up the bottle of soap.",
-                        "Move to your right.",
-                        "Open the rightmost cabinet and put the soap inside."
-                    ],
-                    "task_desc":"Put the soap in the right cabinet.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place a bottle in a cabinet.",
+                "Put a bottle of lotion in the cabinet.",
+                "Put the soap in the right cabinet."
             ],
             "relative_objects":[
-                "SoapBottle",
-                "SoapBar"
+                "SoapBar",
+                "SoapBottle"
             ]
         },
         "train/pick_and_place_simple-Cloth-None-Toilet-417/trial_T20190908_163225_559074/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3R19ZA45J8915_3H7XDTSHKFINNMQGRMDSC0DBGHJWGN",
-                    "high_descs":[
-                        "Walk forward a few steps, then turn left and walk up to the left-hand sink. ",
-                        "Open the right-hand side cabinet, take out the red rag that is in the cabinet, and close the door. ",
-                        "Turn around completely, walk to the wall, then turn right and walk up to the toilet. ",
-                        "Place the rag on the back of the toilet, to the left of the purple spray bottle. "
-                    ],
-                    "task_desc":"Move a rag to the back of the toilet. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A255A9FFZD8PQW_3VNXK88KKF9VTN33N62MYH8A5VOV9N",
-                    "high_descs":[
-                        "Turn to the right and walk forward to the sinks. ",
-                        "Open the cabinet under the sink and take out a red wash cloth. ",
-                        "Turn around completely and walk forward. Turn right and head to the toilet. ",
-                        "Place the wash cloth on the back end of the toilet seat. "
-                    ],
-                    "task_desc":"Move a wash cloth to the back end of a toilet seat. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A98E8M4QLI9RS_3WOKGM4L747I796TMYXFAED96YUO0Z",
-                    "high_descs":[
-                        "turn to the left and move to the counter between the two sinks",
-                        "open the right cabinet door underneath the sink on the left, pick up the red cloth from the cabinet and close the door",
-                        "turn around and move across the room and turn right to move to the toilet",
-                        "put the cloth on to the back of the toilet to the left of the spray bottle"
-                    ],
-                    "task_desc":"put a cloth on the back of the toilet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a rag to the back of the toilet. ",
+                "Move a wash cloth to the back end of a toilet seat. ",
+                "put a cloth on the back of the toilet"
             ],
             "relative_objects":[
                 "Cloth"
@@ -728,48 +170,9 @@
         },
         "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-417/trial_T20190908_185320_708158/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3A1COHJ8NMCICS3BHHQNIY2OJXM8HP",
-                    "high_descs":[
-                        "Turn to the right and stand in front of the counter between the two sinks.",
-                        "Pick up the empty roll from the counter.",
-                        "Turn around and then go to the right to stand in front of the toilet paper holder on the wall to the left of the toilet.",
-                        "Put the roll on the toilet paper holder."
-                    ],
-                    "task_desc":"Put an empty roll on a toilet paper holder.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3HUTX6F6VX4HIUN95DCCSGMM9JCO2U",
-                    "high_descs":[
-                        "Go to the sink on your right. ",
-                        "Pick up the empty tube on the sink. ",
-                        "Turn around, bring the tube to the toilet on the right. ",
-                        "Put the empty tube on the toilet paper holder, left of the toilet. "
-                    ],
-                    "task_desc":"Put an empty tube on the toilet paper holder. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36DK84J5YJ942_3LUY3GC632H6PVWGQP6MD78KU4R7P7",
-                    "high_descs":[
-                        "move to the counter in between the two sinks",
-                        "pick up a roll from the counter",
-                        "move to the toilet to the left of you",
-                        "put the roll on the toilet"
-                    ],
-                    "task_desc":"Put a roll on the back of the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put an empty roll on a toilet paper holder.",
+                "Put an empty tube on the toilet paper holder. ",
+                "Put a roll on the back of the toilet."
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -777,48 +180,9 @@
         },
         "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-417/trial_T20190908_043909_541721/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3DEL4X4EL92UDOU8ZP63KXEK015XYG",
-                    "high_descs":[
-                        "Turn to the toilet to your left. ",
-                        "Grab the empty toilet paper roll, on the back of the toilet, behind the full toilet paper roll. ",
-                        "Turn to the toilet paper dispenser, hanging from the wall, to your left.",
-                        "Put the empty toilet paper roll on the toilet paper holder, hanging from the wall. "
-                    ],
-                    "task_desc":"Put a toilet paper roll on the toilet paper holder. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3TE3O85733PKF7FPX5TGMBRRK4N2R4",
-                    "high_descs":[
-                        "Turn left towards the toilet.",
-                        "Pick up the empty roll of toilet paper from the top of the toilet.",
-                        "Walk slightly to the left to the empty toilet paper holder.",
-                        "Put the empty roll of toilet paper on the toilet paper holder."
-                    ],
-                    "task_desc":"Put an empty roll of toilet paper on a toilet paper holder.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_3VNL7UK1XI0HWG4TPPDI69MYHUHTFM",
-                    "high_descs":[
-                        "Turn left and face the toilet",
-                        "Pick up the empty toilet paper roll that is sitting behind the full roll of toilet paper on the back of the toilet",
-                        "Take a step to the left and continue to face the toilet",
-                        "Put the empty toilet paper roll on the toilet paper holder that is hanging on the wall to the left"
-                    ],
-                    "task_desc":"Put an empty toilet paper roll on a toilet paper holder",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a toilet paper roll on the toilet paper holder. ",
+                "Put an empty roll of toilet paper on a toilet paper holder.",
+                "Put an empty toilet paper roll on a toilet paper holder"
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -826,42 +190,8 @@
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-CounterTop-417/trial_T20190906_224412_871995/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_3D8YOU6S9H10D0Q7O10OHZVN6VCU69",
-                    "high_descs":[
-                        "Move to the toilet to the left of the shower",
-                        "Pick up the toilet paper roll to the left of the toilet",
-                        "Move to the counter in between the two sinks",
-                        "Put the roll onto the counter",
-                        "Move to the same toilet again",
-                        "Pick up the full toilet paper roll from the shelf above.",
-                        "Move to the counter in between the two sinks again",
-                        "Put the full roll behind the empty one on the counter"
-                    ],
-                    "task_desc":"Put an empty roll as well as an full roll of toilet paper on the bathroom counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3UWN2HHPU1MS584VYDR549ZLGIANSE",
-                    "high_descs":[
-                        "Move over to the toilet.",
-                        "Pick up empty toilet paper roll on the floor. ",
-                        "Bring empty roll to the sink. ",
-                        "Put empty roll on the counter between the sinks. ",
-                        "Move over to the toilet. ",
-                        "Pick up toilet paper from toilet tank lid. ",
-                        "Bring toilet paper over to counter. ",
-                        "Put toilet paper on counter next to soap. "
-                    ],
-                    "task_desc":"Bring toilet paper to counter. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put an empty roll as well as an full roll of toilet paper on the bathroom counter.",
+                "Bring toilet paper to counter. "
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -869,42 +199,8 @@
         },
         "train/pick_two_obj_and_place-Cloth-None-Toilet-417/trial_T20190908_152140_753366/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1NWXL4QO30M8U_3SITXWYCNY06L5NVL5H0D80L92MXBH",
-                    "high_descs":[
-                        "Turn around and take one step, then turn left to face the sink.",
-                        "Look down and open the second cabinet from the left and take out the red cloth and then close the cabinet.",
-                        "Look up and turn around and walk across the room, then turn right and walk to the toilet and look up.",
-                        "Put the red cloth on top of the toilet. ",
-                        "Turn around and take three steps, then turn left and walk to the counter. ",
-                        "Open the second cabinet from the right and take out the red cloth, and then close the cabinet.",
-                        "Look up and then turn around and walk across the room, then turn right and walk to the toilet and look up.",
-                        "Put the red cloth on top of the toilet."
-                    ],
-                    "task_desc":"Put the red towels on the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AO33H4GL9KZX9_3SLE99ER0Q4VQ0NAMN5LATGWH30ZBY",
-                    "high_descs":[
-                        "Turn right and go to the right cabinet below the left sink.",
-                        "Pick up the red rag inside the right cabinet.",
-                        "Turn around and go to the front of the toilet on the right.",
-                        "Place the red rag on the top of the tank on the left of the spray bottle. ",
-                        "Turn around and go to the left cabinet below the sink on the right",
-                        "Pick up the red rag inside the left cabinet.",
-                        "Turn around and go back to the toilet.",
-                        "Place the red rag on top of the first red rag on the top of the tank."
-                    ],
-                    "task_desc":"Move the red rags from the cabinet to the top of the toilet tank.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the red towels on the toilet.",
+                "Move the red rags from the cabinet to the top of the toilet tank."
             ],
             "relative_objects":[
                 "Towel",
@@ -913,48 +209,9 @@
         },
         "train/pick_and_place_simple-Cloth-None-SinkBasin-417/trial_T20190908_120409_207224/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3R19ZA45J8915_3RXCAC0YIUGCXLUYTJXMYKAPY5S8GM",
-                    "high_descs":[
-                        "Turn around and walk over to the right-hand side of the bathroom counter. ",
-                        "Take the red rag out of the far right cabinet before closing the door. ",
-                        "Place the rag in the right-hand sink."
-                    ],
-                    "task_desc":"Place a rag in one of the bathroom sinks.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3ZSY5X72N02673QSGBGUUAEWFJEOR8",
-                    "high_descs":[
-                        "Turn around and face the cabinet below the sink and on the far right.",
-                        "Open the cabinet under the sink and on the far right and pick up the red cloth.",
-                        "Put the cloth in the sink."
-                    ],
-                    "task_desc":"Put a cloth in a sink.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AHBWX3WYMAB0E_3PEIJLRY6WKY98L6GWDW0MD6J2VWXL",
-                    "high_descs":[
-                        "Turn around and walk across the room to the sink on the right.",
-                        "Take the red cloth out of the right lower cabinet.",
-                        "Put the cloth into the sink."
-                    ],
-                    "task_desc":"Put a red cloth into the sink.",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Place a rag in one of the bathroom sinks.",
+                "Put a cloth in a sink.",
+                "Put a red cloth into the sink."
             ],
             "relative_objects":[
                 "Cloth"
@@ -962,75 +219,18 @@
         },
         "train/pick_and_place_simple-Cloth-None-SinkBasin-417/trial_T20190908_120422_949453/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3R19ZA45J8915_37FMASSAYFI9VAY0MJHZAYD6LOOIB6",
-                    "high_descs":[
-                        "Turn around, walk a few steps, then turn right and walk over to the bathroom sinks. ",
-                        "Open the left cabinet under the right sink and take out the red rag that is inside.",
-                        "Move over to stand directly in front of the right hand sink.",
-                        "Put the red rag in the sink."
-                    ],
-                    "task_desc":"Move a rag from a cabinet to the sink.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3H8DHMCCWC2TG2M80ITHI4GJGDPDKJ",
-                    "high_descs":[
-                        "Turn around and cross the room to the sink on the right.",
-                        "Open the second cabinet from the right under the sink and get the red rag.",
-                        "Walk to the front of the sink on the right.",
-                        "Put the red rag in the right sink basin."
-                    ],
-                    "task_desc":"Put the red rag under the sink into the sink basin.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3LS2AMNW5IH6V2BS3WRUPK4RJXWOQR",
-                    "high_descs":[
-                        "Turn around and walk forward, then hang a right and walk up to the counter and look down at the lower cabinets.",
-                        "Open the second cabinet door from the right and take out the red rag, then close the door.",
-                        "Turn right and walk over to the wall, then turn left to face the sink.",
-                        "Put the red rag in the rightmost sink basin."
-                    ],
-                    "task_desc":"Move a red rag into a sink.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a rag from a cabinet to the sink.",
+                "Put the red rag under the sink into the sink basin.",
+                "Move a red rag into a sink."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Cloth"
+                "Cloth",
+                "HandTowel"
             ]
         },
         "valid_seen/pick_two_obj_and_place-SoapBar-None-Toilet-417/trial_T20190908_191330_157502/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1E0WK5W1BFPWR_3JCG6DTRV6H9GEO8I9JYEPZRY43QQ2",
-                    "high_descs":[
-                        "Turn to the right toward the the second sink.",
-                        "Pick up the soap from the sink.",
-                        "Turn around and move toward the toilet on the opposite corner of the room.",
-                        "Place the soap on top of the toilet tank.",
-                        "Turn around and move to the right sink on the left. ",
-                        "Take out the soap from the left cupboard underneath the sink.",
-                        "Turn around and move toward the toilet on the opposite corner of the room.",
-                        "Place the soap next to the other soap on top of the toilet tank."
-                    ],
-                    "task_desc":"Organize the bars of soap on top of the toilet tank.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Organize the bars of soap on top of the toilet tank."
             ],
             "relative_objects":[
                 "ToiletPaper",
@@ -1039,51 +239,9 @@
         },
         "valid_seen/pick_and_place_simple-SoapBottle-None-CounterTop-417/trial_T20190910_112922_368384/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_32ZKVD547IEU57GH1GAC6SBH25H3BF",
-                    "high_descs":[
-                        "Turn left and walk to the right sink.",
-                        "Open the bottom left cabinet and take out the closest soap container.",
-                        "Take a step left.",
-                        "Place the soap container on the counter in between the two sinks."
-                    ],
-                    "task_desc":"Place a soap container on a counter.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A11IIS435RPN2O_3FIUS151DYTRQ00GCH9AQXRNMNEGGH",
-                    "high_descs":[
-                        "One step ahead then turn right, go towards the sink.",
-                        "Open the left side cabinet and pick up the white hand soap bottle in front.",
-                        "Turn left take one step then turn right in front of the counter.",
-                        "Put the hand soap bottle left side of the right sink."
-                    ],
-                    "task_desc":"Place the hand Soap bottle on the sink.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A11LSO6D7BMY99_3FUI0JHJP0PP2CC4MNV6O9D5EEH333",
-                    "high_descs":[
-                        "turn to your left to the double sinks",
-                        "open the cabinet below the sink; remove the pump bottle",
-                        "go between the two sinks",
-                        "place the pump bottle on the counter top between the sinks"
-                    ],
-                    "task_desc":"PUt a pump bottle on the sink",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place a soap container on a counter.",
+                "Place the hand Soap bottle on the sink.",
+                "PUt a pump bottle on the sink"
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -1091,32 +249,8 @@
         },
         "tests_seen/trial_T20190909_114939_704661/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn around and go face the red trash can that's sitting to the left of the door.",
-                        "Grab the cardboard cylinder that's in the trash can.",
-                        "With the cardboard in hand, turn and move to face the leftmost bathroom sink.",
-                        "Open the left cabinet door under the left sink and put the cardboard in it.",
-                        "Turn around and then go right so that you're facing the toilet.",
-                        "Grab the roll of toilet paper off of the wall holder.",
-                        "Bring the toilet paper over to the same cabinet.",
-                        "Put it inside to the left of the cardboard."
-                    ],
-                    "task_desc":"Put away the toilet paper."
-                },
-                {
-                    "high_descs":[
-                        "turn around, go to red bin to the right",
-                        "pick up orange cup from red bin",
-                        "turn around, go to lower cabinet to the left of sink with pink sponge",
-                        "open cabinet, place orange cup in front right corner of cabinet, close cabinet",
-                        "turn around, go to toilet to the right",
-                        "pick up toilet paper from holder to the left of toilet",
-                        "turn around, go to lower left cabinet with pink sponge and orange cup",
-                        "open cabinet, put toilet paper to the left of orange cup, close cabinet"
-                    ],
-                    "task_desc":"place orange cup and toilet paper in lower left cabinet"
-                }
+                "Put away the toilet paper.",
+                "place orange cup and toilet paper in lower left cabinet"
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -1124,19 +258,7 @@
         },
         "tests_seen/trial_T20190908_152216_758421/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn right walk forward then face the cabinet on the right below the sink",
-                        "Open the cabinet, pick up the red cloth",
-                        "Turn left then walk toward the toilet tank",
-                        "Put the red cloth on the tank",
-                        "Turn round to your right then walk forward head to the cabinet sink",
-                        "Open the left side cabinet below the right sink and pick up the red cloth",
-                        "Turn around to your left head back to the toilet tank",
-                        "Put the red cloth beside the other cloth on the tank"
-                    ],
-                    "task_desc":"Put the red cloth beside the other cloth on the tank"
-                }
+                "Put the red cloth beside the other cloth on the tank"
             ],
             "relative_objects":[
                 "Cloth"
@@ -1144,33 +266,9 @@
         },
         "tests_seen/trial_T20190907_123030_356914/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "step forward to the door handle and turn to the left and go forward to the toilet",
-                        "pick up the plunger from the right side of the toilet",
-                        "turn completely around facing the other way and take a few steps forward and turn to the left and go forward to the sink cabinet",
-                        "open the right hand side of the sink cabinet and place the plunger in the cabinet and close the door"
-                    ],
-                    "task_desc":"Place the plunger underneath the sink in the cabinet"
-                },
-                {
-                    "high_descs":[
-                        "Turn left and head to the toilet.",
-                        "Pick up the plunger on the ground.",
-                        "Turn around and bring the plunger to the sink.",
-                        "Put the plunger in the right cabinet under the left sink. "
-                    ],
-                    "task_desc":"Put a plunger in the cabinet. "
-                },
-                {
-                    "high_descs":[
-                        "Turn left and go to the toilet.",
-                        "Pick up the plunger from the floor.",
-                        "Turn around and then left to go to the sinks.",
-                        "Open the cabinet under the left sink and put the plunger inside."
-                    ],
-                    "task_desc":"Put the plunger in the left cabinet."
-                }
+                "Place the plunger underneath the sink in the cabinet",
+                "Put a plunger in the cabinet. ",
+                "Put the plunger in the left cabinet."
             ],
             "relative_objects":[
                 "Plunger"
@@ -1178,29 +276,13 @@
         },
         "tests_seen/trial_T20190908_135226_283490/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "turn around, head to the sink",
-                        "open the cabinet, take the air freshener from the cabinet, close the cabinet",
-                        "take a few steps to the left",
-                        "put the air freshener on the counter"
-                    ],
-                    "task_desc":"take the air freshener out of the cabinet, put it on the counter"
-                },
-                {
-                    "high_descs":[
-                        "go to the sink with the double sinks",
-                        "open the cabinet below the sinks, remove a pump bottle from the cabinet",
-                        "face the sinks so you are between them",
-                        "place the pump bottle on the counter top between the sinks"
-                    ],
-                    "task_desc":"Place a pump bottle on a couter top"
-                }
+                "take the air freshener out of the cabinet, put it on the counter",
+                "Place a pump bottle on a couter top"
             ],
             "relative_objects":[
-                "SoapBottle",
+                "SoapBar",
                 "SprayBottle",
-                "SoapBar"
+                "SoapBottle"
             ]
         }
     }

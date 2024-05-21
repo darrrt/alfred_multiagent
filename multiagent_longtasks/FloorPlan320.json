@@ -3,24 +3,7 @@
     "trials":{
         "train/pick_two_obj_and_place-CellPhone-None-Shelf-320/trial_T20190908_053533_960820/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3TK8OJTYM4280LXC8N92JLONGD2PV3",
-                    "high_descs":[
-                        "Turn to the left",
-                        " take a few steps to the bed",
-                        "Take the white cell phone from the bed",
-                        "Turn around to face the wall",
-                        "Take several steps to the desk",
-                        "Put the white cell phone on the shelf on the desk",
-                        "Take the white cell phone from next to the laptop",
-                        "Put it next to the other cell phone"
-                    ],
-                    "task_desc":"Put both cell phones next to each other on the shelf",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put both cell phones next to each other on the shelf"
             ],
             "relative_objects":[
                 "Pen",
@@ -30,24 +13,7 @@
         },
         "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190918_223544_338918/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_3UWN2HHPU1MS584VYDR549ZLHVPSNP",
-                    "high_descs":[
-                        "move to the desk to the right of the bed",
-                        "pick up keys from the desk",
-                        "move to the middle of the desk",
-                        "put the keys in the middle of the desk",
-                        "move to the desk to the right of the bed",
-                        "pick up keys from the desk",
-                        "move to the middle of the desk",
-                        "put the keys in the middle of the desk"
-                    ],
-                    "task_desc":"Move the keys on the desk to the middle of the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the keys on the desk to the middle of the desk."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -55,42 +21,8 @@
         },
         "train/pick_two_obj_and_place-KeyChain-None-Desk-320/trial_T20190919_032916_694260/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A23HZ18KTCK2DA_3IKZ72A5B7XJ13Z9STR6XAG6S54FN2",
-                    "high_descs":[
-                        "Turn and go to the right side of the desk.",
-                        "Pick up the keys that are on the top shelf of the desk on the right side.",
-                        "With the keys in hand turn and ",
-                        "Place the keys on the main part of the desk to the right of the lap top.",
-                        "Turn and move over so you are facing the lamp that is on the back of the desk.",
-                        "Grab the set of keys that are to the right of the lamp on the top shelf of the desk.",
-                        "With the keys in hand turn and move over to your right so you are in front of the lap top.",
-                        "Place the keys in front of the book that is to the left of the lap top."
-                    ],
-                    "task_desc":"Move the keys to the desk from the shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36DK84J5YJ942_3RANCT1ZVIY6JC72KSHWSFHFL30UBM",
-                    "high_descs":[
-                        "move to the desk to the right of the bed",
-                        "pick up keys from the desk ",
-                        "move to the middle of the desk",
-                        "put the keys on the desk",
-                        "move to the desk to the right of the bed",
-                        "pick up keys from the desk ",
-                        "move to the middle of the desk",
-                        "put the keys on the desk"
-                    ],
-                    "task_desc":"Rearrange the keys on the desk to the right of the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the keys to the desk from the shelf.",
+                "Rearrange the keys on the desk to the right of the bed."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -98,98 +30,20 @@
         },
         "train/look_at_obj_in_light-CD-None-DeskLamp-320/trial_T20190907_224439_174735/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A23HZ18KTCK2DA_3ATTHHXXWD58NOF3V7K0Y9KWAAFXI2",
-                    "high_descs":[
-                        "Turn and go to the bench that is in front of the window.",
-                        "Pick up the CD that is on the bench.",
-                        "With the CD in hand turn and go to the desk.",
-                        "While holding the CD turn the light on that is on the desk."
-                    ],
-                    "task_desc":"Get CD to turn the light on.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3W2LOLRXLEWFWNJFMBZKM7DL1X0KRL",
-                    "high_descs":[
-                        "turn to the left and go to the bed and turn to the left facing the chest",
-                        "take the CD from the top of the chest",
-                        "turn to the left and take a few steps and turn to the left and go past clear the bed and turn to the left and go to the desk",
-                        "turn on the lamp on the desk"
-                    ],
-                    "task_desc":"Examine a CD by the light of a desk lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3Y5140Z9D0X3EFDC9GAJ4WYT8BWPIW",
-                    "high_descs":[
-                        "Move to the left facing the wood table with the CD on top of it",
-                        "Pick up the CD sitting on top of the table ",
-                        "Carry the CD over to the top shelf of the wooden desk where the lamp is",
-                        "Turn on the lamp"
-                    ],
-                    "task_desc":"Carry a CD while turning on a lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Get CD to turn the light on.",
+                "Examine a CD by the light of a desk lamp",
+                "Carry a CD while turning on a lamp"
             ],
             "relative_objects":[
-                "CD",
-                "DeskLamp"
+                "DeskLamp",
+                "CD"
             ]
         },
         "train/look_at_obj_in_light-Pillow-None-DeskLamp-320/trial_T20190906_225859_247598/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3EO896NRAZCX1IQP8F43L7EQ9IGTJ4",
-                    "high_descs":[
-                        "Walk over to the wooden desk, then turn left and walk up to the bed.",
-                        "Pick up the middle pillow off of the bed.",
-                        "Turn around and take a step, then turn left to face the desk.",
-                        "Turn on the small lamp that is on top of the wooden desk."
-                    ],
-                    "task_desc":"Examine the middle pillow from the bed under the light of a small lamp.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_3EQHHY4HQV9LPEPYZD12LEGW1NC5GK",
-                    "high_descs":[
-                        "Turn left to the bed",
-                        "Grab the green pillow on the bed that is nearest to the edge",
-                        "Turn right to the table",
-                        "Turn on the lamp on the table"
-                    ],
-                    "task_desc":"Grab the green pillow, turn on the lamp on the table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3ZGVPD4G6WYN1XVTQ17P912GSH3TZ1",
-                    "high_descs":[
-                        "Walk forward towards the desk, then turn left to face the bed.",
-                        "Take the pillow from the bed.",
-                        "Turn right, then left to face the desk.",
-                        "Turn on the lamp on the right side of the desk."
-                    ],
-                    "task_desc":"Turn on a desk lamp.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Examine the middle pillow from the bed under the light of a small lamp.",
+                "Grab the green pillow, turn on the lamp on the table",
+                "Turn on a desk lamp."
             ],
             "relative_objects":[
                 "Pillow"
@@ -197,58 +51,9 @@
         },
         "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121126_621870/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_32M8BPYGAW3X12KD6XKWANK174SGI6",
-                    "high_descs":[
-                        "turn right to the table",
-                        "grab the clock on the table",
-                        "turn right, walk to the dresser",
-                        "put the clock on the dresser"
-                    ],
-                    "task_desc":"move the clock from the table to the dresser",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3DBQWDE4Y9FRZ66KMHEXBYPT3VUN5Z",
-                    "high_descs":[
-                        "Turn right and move to the white table.",
-                        "Pick up the clock on the front of the table next to the CD.",
-                        "Turn right and bring the clock to the dresser.",
-                        "Put the clock on the dresser. "
-                    ],
-                    "task_desc":"Put a clock on the dresser. ",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1AKL5YH9NLD2V_3O6CYIULEGIY7F5DFJDSFTU0VSJWUH",
-                    "high_descs":[
-                        "Turn right to face the clock on the white table.",
-                        "Pick up the clock next to the CD on the table.",
-                        "Turn right and walk to the wooden dresser.",
-                        "Place the clock to the right of the chess board on the wooden dresser."
-                    ],
-                    "task_desc":"Place a clock on the wooden dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "move the clock from the table to the dresser",
+                "Put a clock on the dresser. ",
+                "Place a clock on the wooden dresser."
             ],
             "relative_objects":[
                 "AlarmClock"
@@ -256,150 +61,27 @@
         },
         "train/pick_and_place_simple-AlarmClock-None-Shelf-320/trial_T20190907_121158_600571/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_358010RM5HAD9UZ3UEJJDYAQIXHXVB",
-                    "high_descs":[
-                        "Turn around and walk to the desk across the room",
-                        "Pick up the clock that is sitting on the desk",
-                        "Take a step to your left",
-                        "Place the clock on the shelf above the desk"
-                    ],
-                    "task_desc":"Place a clock on a shelf",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3NJM2BJS4ZNC1CRCH6EXTT0YVRMPCA",
-                    "high_descs":[
-                        "Turn left, head to the door, turn left, head to the desk.",
-                        "Pick up the clock on the desk. ",
-                        "Bring the clock to the right side of the desk.",
-                        "Put the clock on the upper shelf of the desk. "
-                    ],
-                    "task_desc":"Put a clock on the the upper shelf of the desk. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3BQU611VFS1PBR42OX895DZBK7Z99Q",
-                    "high_descs":[
-                        "Turn around and walk to the desk.",
-                        "Pick up the alarm clock from the desk.",
-                        "Walk to the right side of the desk.",
-                        "Put the alarm clock on the far right side of the top shelf of the desk."
-                    ],
-                    "task_desc":"Place an alarm clock on the top shelf of a desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3NGMS9VZTOZ7DBMSU58TP57XQ3XFFO",
-                    "high_descs":[
-                        "Move to the wood desk by the desk chair",
-                        "Pick up the clock on top of the desk",
-                        "Carry the clock to the right side of the desk",
-                        "Place the clock on the right side of the top desk shelf"
-                    ],
-                    "task_desc":"Move a clock from the desk top to the desk shelf",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AWEPZMK7825JQ_3H8DHMCCWCSLVD0A4A40HIWHMHXKD9",
-                    "high_descs":[
-                        "Turn left and take a step toward the door, then turn left and walk to the desk.",
-                        "Pick up the box to the right of the phone on the desk.",
-                        "Turn right, take a step forward, and turn back towards the desk.",
-                        "Put the box on the shelf on top of the desk."
-                    ],
-                    "task_desc":"Move the box to the top shelf of the desk.",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3PGS1Q1XAY79I_3PWWM24LHVFEX20TYWNGVUWMUVP82Q",
-                    "high_descs":[
-                        "While facing the window, turn left and walk towards the door, hang a left and walk to the desk.",
-                        "Pick up the pink and gold box to the right of the white cell phone.",
-                        "Move to stand directly in front of the right side of the desk.",
-                        "Place the pink and gold box on the top back shelf of the desk, so that it is positioned between the yellow pencil and the blue pen on the desktop below."
-                    ],
-                    "task_desc":"Move a box from the desktop to the top shelf of the desk",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Place a clock on a shelf",
+                "Put a clock on the the upper shelf of the desk. ",
+                "Place an alarm clock on the top shelf of a desk.",
+                "Move a clock from the desk top to the desk shelf",
+                "Move the box to the top shelf of the desk.",
+                "Move a box from the desktop to the top shelf of the desk"
             ],
             "relative_objects":[
+                "KeyChain",
                 "CreditCard",
                 "Book",
                 "Laptop",
-                "AlarmClock",
                 "CellPhone",
-                "KeyChain"
+                "AlarmClock"
             ]
         },
         "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111534_544781/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3B1NLC6UG2NX3DTFF0ZXK65FNF3GPP",
-                    "high_descs":[
-                        "Go towards the bed then turn right and go to the white table ahead of you. ",
-                        "Pick up the pen behind the alarm clock, on the very back of the white table. ",
-                        "Turn around and walk across the room to the desk. ",
-                        "Turn the lamp on the top of the desk on. "
-                    ],
-                    "task_desc":"Turn on the desk lamp. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2RUHO7I7Y4XFA_3WLEIWSYHR8FB2NKX8639T9NR6T2HU",
-                    "high_descs":[
-                        "Go towards the blue bed but turn left before getting to it and head to the white desk.",
-                        "Pick up the blue pen sitting on the white desk.",
-                        "Turn around and go to the wooden desk directly across the room from the white desk.",
-                        "Put the blue pen on the wooden desk next to the laptop."
-                    ],
-                    "task_desc":"Pick up the blue pen and put it on the wooden desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3WQQ9FUS6DLG64MNDX58X9JSIS58BA",
-                    "high_descs":[
-                        "walk over to the table on the left side of the room",
-                        "grab the pencil off of the table there",
-                        "turn around and walk over to the desk at the end of the room",
-                        "turn on the lamp on top of the desk"
-                    ],
-                    "task_desc":"turn on a lamp while holding a pencil",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Turn on the desk lamp. ",
+                "Pick up the blue pen and put it on the wooden desk.",
+                "turn on a lamp while holding a pencil"
             ],
             "relative_objects":[
                 "Pencil",
@@ -408,58 +90,15 @@
         },
         "train/look_at_obj_in_light-Pen-None-DeskLamp-320/trial_T20190908_111515_777825/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2RQMEPIHW5BOS_3LEP4MGT3JRSNZIEU5GOJ1XTTJCDBV",
-                    "high_descs":[
-                        "Turn right, walk to the table, turn right, walk to nightstand.",
-                        "Pick up the pencil.",
-                        "Turn around, walk to the table, turn left, and walk to the desk.",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Examine a pencil under the lamp.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AKW57KYG90X61_33ISQZVXPSD1SC4689H8AFLTQHJCCA",
-                    "high_descs":[
-                        "turn around to the cupboard",
-                        "pick up the pen on the cupboard",
-                        "turn right and head to the lamp on the cupboard",
-                        "turn on the lamp"
-                    ],
-                    "task_desc":"turn on  a lamp while holding a pen",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2NGMLBFZ3YQP5_3S06PH7KSUVRA10MS8NZDPKK7701DF",
-                    "high_descs":[
-                        "Turn right walk to white table, turn left, walk forward to the window.",
-                        "Pick up pen from the wooden chest in front of the window.",
-                        "Turn right, walk past the bed, turn left, go to where the nightstand abuts the desk.",
-                        "Put pen across the place the nightstand and the desk meet."
-                    ],
-                    "task_desc":"Put pen on table and nightstand and turn the light on.",
-                    "votes":[
-                        1,
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Examine a pencil under the lamp.",
+                "turn on  a lamp while holding a pen",
+                "Put pen on table and nightstand and turn the light on."
             ],
             "relative_objects":[
+                "KeyChain",
                 "CellPhone",
                 "Pencil",
-                "Pen",
-                "KeyChain"
+                "Pen"
             ]
         }
     }

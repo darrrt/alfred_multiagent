@@ -3,113 +3,20 @@
     "trials":{
         "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-328/trial_T20190908_175825_024532/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3R19ZA45J8915_3NKQQ8O391W7JYRKUWXJORPHI9LUD5",
-                    "high_descs":[
-                        "Turn around completely, walk forward a few steps, then turn right and walk up to the nightstand. ",
-                        "Pick up the clock that is sitting on the nightstand. ",
-                        "Turn around completely, walk forward a few steps, turn to the right, walk to the wall, then turn to the right to face the desk. ",
-                        "Turn on the lamp that is sitting on the desk."
-                    ],
-                    "task_desc":"Examine an alarm clock using the light of a lamp.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3Y9N9SS8L12NK4E1FC1I1IZH5W23D7",
-                    "high_descs":[
-                        "Turn around and walk forward just past the bed, then turn right and walk to the small night stand to the left of the bed.",
-                        "Pick up the alarm clock from the night stand.",
-                        "Turn left and walk to the lamp on the left side of the desk.",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Examine an alarm clock by the light of a desk lamp.",
-                    "votes":[
-                        1,
-                        1,
-                        0,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1CPNA5L0J834N_3WRFBPLXRDFW6G5E46FLXNBBJ8K3NL",
-                    "high_descs":[
-                        "look down and turn around to your left then go right at the edge of the bed walk towards the night stand",
-                        "pick up alarm clock from night stand ",
-                        "turn left and turn around  walk forward and then turn right and walk towards the trash can  turn right towards the table ",
-                        "shine the light from the alarm clock onto the table "
-                    ],
-                    "task_desc":"to shine alarm clock light on the table ",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Examine an alarm clock using the light of a lamp.",
+                "Examine an alarm clock by the light of a desk lamp.",
+                "to shine alarm clock light on the table "
             ],
             "relative_objects":[
-                "AlarmClock",
-                "DeskLamp"
+                "DeskLamp",
+                "AlarmClock"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145051_133749/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3UF6XXFFRR237_39ZSFO5CABNKMKRC4SJURPKUN5VUJK",
-                    "high_descs":[
-                        "go to the middle of the desk",
-                        "pick up the ink pen between the clocks",
-                        "put the pen in the cup between the clocks ",
-                        "pick up the cup with the pen",
-                        "take the cup to the nightstand to the right of the desk",
-                        "put the cup on the stand"
-                    ],
-                    "task_desc":"put a coffee cup with a pen in it on the nightstand",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_3IXEICO795ATYCXGK4ZVDPTNILGT6Y",
-                    "high_descs":[
-                        "Turn around to face the desk.",
-                        "Pick up the pen on the desk.",
-                        "Place the pen in the cup on the desk.",
-                        "Pick up the cup with a pen in it.",
-                        "Step right to face the side table.",
-                        "Place the cup on the side table."
-                    ],
-                    "task_desc":"To put a pen in a cup plus move it to the side table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3ZAZR5XV049E05FG0N1GLDMEZ3QZCP",
-                    "high_descs":[
-                        "Turn right and walk to the desk, facing it.",
-                        "Pick up the pen behind the black mug.",
-                        "Place the pen in the mug.",
-                        "Pick up the mug.",
-                        "Walk two steps right.",
-                        "Place the mug on the nightstand by the bed, on top of the CD."
-                    ],
-                    "task_desc":"Place a mug with a pen in it on a nightstand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put a coffee cup with a pen in it on the nightstand",
+                "To put a pen in a cup plus move it to the side table.",
+                "Place a mug with a pen in it on a nightstand."
             ],
             "relative_objects":[
                 "Mug",
@@ -118,60 +25,9 @@
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-328/trial_T20190909_145028_554600/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A272X64FOZFYLB_3I0BTBYZA0CU1NAVSL6DC5BBKK0Y0F",
-                    "high_descs":[
-                        "Walk to the right side of the desk in front of you.",
-                        "Pick up the pen closest to the front of the laptop on the desk.",
-                        "Walk to the left side of the same desk.",
-                        "Put the pen in the mug that is on the desk.",
-                        "Pick up the mug from the desk.",
-                        "Turn right and walk to the night stand that is to the left of the bed.",
-                        "Put the mug on the night stand, to the left of the keys."
-                    ],
-                    "task_desc":"Put a mug with a pen in it on a night stand.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3X0H8UUIT4FQDRZ7MM791EWE445WSN",
-                    "high_descs":[
-                        "Turn right and go to the bed, then turn left and go toward the wall, then turn left to face the desk.",
-                        "Pick up the leftmost pen on the desk.",
-                        "Turn left and step forward, then turn right and go to the wall, then turn right to face the desk.",
-                        "Put the pen in the mug on the desk.",
-                        "Pick up the mug from the desk.",
-                        "Turn around and move forward, then turn left and go to bed, then turn left to face the nightstand.",
-                        "Put the mug on the nightstand."
-                    ],
-                    "task_desc":"Put a mug with a pen in it on the nightstand.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_37UQDCYH60MRF4FA8942KLH4AHF7VQ",
-                    "high_descs":[
-                        "walk to face right side of desk",
-                        "pick up white pen from desk",
-                        "walk to face desk",
-                        "put pen inside cup on desk",
-                        "pick up cup from desk",
-                        "walk to face night stand",
-                        "put cup on night stand"
-                    ],
-                    "task_desc":"put cup and pen on night stand",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put a mug with a pen in it on a night stand.",
+                "Put a mug with a pen in it on the nightstand.",
+                "put cup and pen on night stand"
             ],
             "relative_objects":[
                 "Mug",
@@ -180,29 +36,7 @@
         },
         "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190912_065434_217065/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3T9K2RY06UO14_3QY7M81QHA35E4Z0DX1EHQML06GK72",
-                    "high_descs":[
-                        "Turn around and go to the desk.",
-                        "Pick up a book on the desk. ",
-                        "Turn around and go to the bed.",
-                        "Put the book on the bed. ",
-                        "Turn around and go to the desk.",
-                        "Pick up a book on the desk. ",
-                        "Turn around and go to the bed.",
-                        "Put the book on the bed. "
-                    ],
-                    "task_desc":"Move the books from the desk to the bed. ",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Move the books from the desk to the bed. "
             ],
             "relative_objects":[
                 "Book"
@@ -210,24 +44,7 @@
         },
         "train/pick_two_obj_and_place-Book-None-Bed-328/trial_T20190907_060344_224282/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3XM0HYN6NNGRYABQDXKSJH01G46PEC",
-                    "high_descs":[
-                        "Turn around, go straight, then turn right to face the desk.",
-                        "Pick up the book on the desk, to the right.",
-                        "Turn around, then go left to approach the bed.",
-                        "Put the book in the center of the bed.",
-                        "Turn around and go to the desk behind you.",
-                        "Pick up the book on the desk.",
-                        "Go to the bed to your right.",
-                        "Place the book on the bed, in front of the pillow."
-                    ],
-                    "task_desc":"Put the books on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the books on the bed."
             ],
             "relative_objects":[
                 "Book"
@@ -235,48 +52,9 @@
         },
         "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034252_030067/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A20FCMWP43CVIU_33C7UALJVOPFT64VB0CJRX6JWO018M",
-                    "high_descs":[
-                        "walk to face corner with tennis racket and plant",
-                        "pick up tennis racket from floor",
-                        "walk to face left side of bed",
-                        "put tennis racket on bed"
-                    ],
-                    "task_desc":"put tennis racket on bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3G5F9DBFOSOO8TLMLIQEBY6YOBQVHD",
-                    "high_descs":[
-                        "Turn around to face the corner of the room and look down at the floor.",
-                        "Pick up the tennis racket leaning against the wall to the left of the plant.",
-                        "Turn around, hang a right at the edge of the bed and walk to the side of the bed on the right.",
-                        "Put the tennis racket in the middle of the bed between two books."
-                    ],
-                    "task_desc":"Place a tennis racket on a bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3KRVW3HTZQCU8F5TIK1MSGUN6TXSMG",
-                    "high_descs":[
-                        "Turn around to face the wall and floor.",
-                        "Pick up the tennis racket from the floor.",
-                        "Turn and walk around the bed, hanging a right, stopping to face the bed before the nightstand.",
-                        "Set the tennis racket down on the middle of the bed."
-                    ],
-                    "task_desc":"Move the tennis racket from the floor to the middle of the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put tennis racket on bed",
+                "Place a tennis racket on a bed.",
+                "Move the tennis racket from the floor to the middle of the bed."
             ],
             "relative_objects":[
                 "Bed",
@@ -285,48 +63,9 @@
         },
         "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034307_425012/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_37WLF8U1WSHUVT7TQVL3CY6RZ0AK6O",
-                    "high_descs":[
-                        "Walk to the bed, then walk to the right of the bed into the corner with the tennis racket.",
-                        "Pick up the tennis racket on the floor.",
-                        "Walk around the bed, to the side you were originally on.",
-                        "Place the racket on the bed to the right of the pink pillow."
-                    ],
-                    "task_desc":"Place a tennis racket on a bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3H7XDTSHKFINNMQGRMDSC0DBGLJWGV",
-                    "high_descs":[
-                        "Turn right and walk forward then turn left and walk up to the tennis racket in the corner",
-                        "Pick up the tennis racket from the floor",
-                        "Turn around and walk around to face the side of the bed",
-                        "Put the tennis racket on the bed"
-                    ],
-                    "task_desc":"Put the tennis racket on the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3U5JL4WY5N0M062M6Q7D5UUFZII4XB",
-                    "high_descs":[
-                        "Make a right, then a left around the bed to reach the corner of the room.",
-                        "Pick up the tennis racket from the floor.",
-                        "Turn around, making a right around the bed to face it.",
-                        "Set the tennis racket down in the middle of the bed."
-                    ],
-                    "task_desc":"Move the tennis racket from the floor to the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a tennis racket on a bed.",
+                "Put the tennis racket on the bed",
+                "Move the tennis racket from the floor to the bed."
             ],
             "relative_objects":[
                 "Bed",
@@ -335,48 +74,9 @@
         },
         "train/pick_and_place_simple-TennisRacket-None-Bed-328/trial_T20190909_034232_707821/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A22ON3MIIG0IJA_378XPAWRUF44C0T8G5H3FNT03E5AIL",
-                    "high_descs":[
-                        "Turn left and walk to the wall, then turn left and walk to the corner.",
-                        "Pick up the tennis racket from the floor.",
-                        "Turn around and walk to the far corner of the bed then turn right and walk to the bed stand and turn right to face the bed.",
-                        "Put the racket on the bed in between the pillow and the book."
-                    ],
-                    "task_desc":"Put a tennis racket on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3MMN5BL1W2VQOYKES50LK8MBED63M7",
-                    "high_descs":[
-                        "turn left and walk to the end of the room, then take a left and walk to the other end of the room",
-                        "grab the tennis racket off of the floor there",
-                        "turn around and walk over the foot of the bed, then take a right and walk over to the side of the bed on your right",
-                        "place the tennis racket on top of the bed"
-                    ],
-                    "task_desc":"place a tennis racket on top of the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3N1FSUEFL8R820X5FQ61BNRNJZ5D4F",
-                    "high_descs":[
-                        "Go left and then left again to face the racket and plant in the corner.",
-                        "Pick the racket up from the corner of the room.",
-                        "Turn around and go right and then right again and turn to face the bed.",
-                        "Put the racket on the bed."
-                    ],
-                    "task_desc":"Put a racket on a bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a tennis racket on the bed.",
+                "place a tennis racket on top of the bed",
+                "Put a racket on a bed."
             ],
             "relative_objects":[
                 "Bed",
@@ -385,121 +85,22 @@
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-328/trial_T20190907_195337_637170/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_3AZHRG4CU71L0VR97SO6LPVWHEX03W",
-                    "high_descs":[
-                        "Move to the right side of the desk to the left of the window",
-                        "Pick up a pen from the desk",
-                        "Turn to the right of you",
-                        "Put the pen in a cup on the end table",
-                        "Pick up the cup with pen from the end table",
-                        "Move to the middle of the desk to the left",
-                        "Put the cup on the desk"
-                    ],
-                    "task_desc":"Put a cup with a pen on the desk to the left of the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1OWHPMKE7YAGL_3PH3VY7DJOEFTEZNL6C0WL9FXEFWZV",
-                    "high_descs":[
-                        "Turn to the right, go forward, turn to the left, go to the night stand, turn to the left and go to the desk ",
-                        "Pick up the pen that is on the right behind the box of tissues. ",
-                        "Turn to the night stand that is on the right. ",
-                        "Put the pen in the leftmost cup on the night stand. ",
-                        "Pick up the cup that has the pen in it. ",
-                        "Turn around and go forward, hang a right and go to the garbage can, hang a right and go to the desk where the chair is. ",
-                        "Put the cup on the desk to the right of the pencil."
-                    ],
-                    "task_desc":"Put a cup with a pen in it on a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3UOUJI6MTGVDWFA3PO9EHC874YNXUH",
-                    "high_descs":[
-                        "Cross the room and head to the right side of the desk, then face the end of the desk",
-                        "Pick up the right pen beside the tissue box on the desk",
-                        "Turn to your right then look down face the side table",
-                        "Put the pen in the mug which is closer to the desk on the table",
-                        "Pick up the mug with pen on the table",
-                        "Turn to your left then walk across the room, head to chair in front of the desk",
-                        "Put the mug with pen on the middle side of the desk"
-                    ],
-                    "task_desc":"Put the mug with pen on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a cup with a pen on the desk to the left of the bed.",
+                "Put a cup with a pen in it on a desk.",
+                "Put the mug with pen on the desk"
             ],
             "relative_objects":[
-                "Desk",
                 "Mug",
+                "Bed",
                 "Pen",
-                "Bed"
+                "Desk"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-328/trial_T20190918_144347_921327/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3UF6XXFFRR237_3G2UL9A02GVYFPEBBT7D77H3ZG176Z",
-                    "high_descs":[
-                        "Turn left and walk to the desk.",
-                        "Pick up the ink pen from the desk.",
-                        "Turn back to your right to face the nightstand.",
-                        "Place the ink pen in the black coffee mug on the nightstand.",
-                        "Pick up the mug with the ink pen in it.",
-                        "Turn around and walk toward the trash can and turn right to face the desk chair.",
-                        "Set the mug to the left of the chair on the desk."
-                    ],
-                    "task_desc":"Put an ink pen inside a coffee mug on the nightstand and move them onto the desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1AKL5YH9NLD2V_3OLQQLKKNV6VCZ8SIKF8MLEP7BTJEB",
-                    "high_descs":[
-                        "Walk until you reach the window and then turn left to look at the desk.",
-                        "Pick up the pen behind the computer on the desk.",
-                        "Turn right to look at the mug on the nightstand.",
-                        "Put the pen in the mug.",
-                        "Pick up the mug from the nightstand.",
-                        "Turn left and walk to the desk with the computer on it.",
-                        "Place the mug in front of the white pen on the desk."
-                    ],
-                    "task_desc":"Place a mug with a pen in it in front of the white pen on the desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3FTF2T8WLUZ0NNHAH8I1JX7MI9ZW9K",
-                    "high_descs":[
-                        "Walk to the nightstand",
-                        "Turn to the left",
-                        " take the pen off of the desk",
-                        "Put the pen in the black mug on the nightstand",
-                        "Take the black mug from the nightstand",
-                        "Turn around, walk to the desk",
-                        "Put the black mug on the desk"
-                    ],
-                    "task_desc":"Put the pen in the black mug, put them on the desk",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put an ink pen inside a coffee mug on the nightstand and move them onto the desk.",
+                "Place a mug with a pen in it in front of the white pen on the desk.",
+                "Put the pen in the black mug, put them on the desk"
             ],
             "relative_objects":[
                 "Mug",
@@ -508,42 +109,8 @@
         },
         "train/pick_two_obj_and_place-CD-None-Desk-328/trial_T20190919_024555_043153/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1K5ILJMG439M5_30IQTZXKANX51IKLNPKBTR42IXGX0K",
-                    "high_descs":[
-                        "Turn to your left and move to face the bedside table straight ahead.",
-                        "Pick up the disc that's on the front left corner of the table.",
-                        "Bring the disc with you and move so that you're facing the large desk with the laptop on it.",
-                        "Place the disc on the edge of the desk so that it's to the left of the laptop and in front of the pencils.",
-                        "Turn to your left and face the waste bin.",
-                        "Pick up the disc that's in the bin.",
-                        "Bring the disc with you and turn to face the desk again.",
-                        "Put the disc down on the edge of the desk so that it's to the right of the laptop and in front of the coffee mug."
-                    ],
-                    "task_desc":"Move the discs to the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AO33H4GL9KZX9_3PB5A5BD0YX8X7PFJE5GKKEUNNFG74",
-                    "high_descs":[
-                        "Turn left and go to the small wooden end table on the left side of the bed. ",
-                        "Pick up the CD on the top of the end table. ",
-                        "Turn around and go to the front of the desk with a computer on top. ",
-                        "Place the CD on the top of the desk near the edge on the left side of the computer.",
-                        "Turn left to go to the green trash can on the floor. ",
-                        "Pick up the CD inside the trash can. ",
-                        "Turn right to go back to the desk.",
-                        "Place the CD on the right side of the desk near the edge. "
-                    ],
-                    "task_desc":"Move the CDs to the desk. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the discs to the desk.",
+                "Move the CDs to the desk. "
             ],
             "relative_objects":[
                 "CD"
@@ -551,48 +118,9 @@
         },
         "train/look_at_obj_in_light-Laptop-None-DeskLamp-328/trial_T20190908_201601_178214/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3UF6XXFFRR237_374TNBHA8EMIPGFU9J0SRB2TXCOYQF",
-                    "high_descs":[
-                        "go to the desk",
-                        "pick up the computer from the desk",
-                        "take the computer to the lamp",
-                        "turn on the lamp"
-                    ],
-                    "task_desc":"take the computer to the lamp to examine",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3907X2AHF3W7OJL8GLE8I2BED002P2",
-                    "high_descs":[
-                        "Turn around and go to the desk across from you. ",
-                        "Shut the laptop on the desk and pick it up. ",
-                        "Move over to the far, left end of the desk, where it meets the wall. ",
-                        "Turn on the lamp in the back, left corner of the desk. "
-                    ],
-                    "task_desc":"Turn on the desk lamp. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_3V5Q80FXI0I0HUGLINH15Z8D85A23U",
-                    "high_descs":[
-                        "Turn right and walk to the desk on your right, turn to face the desk",
-                        "Close the laptop that is sitting on the desk and pick it up",
-                        "Turn left and walk to the wall then turn right and face the desk",
-                        "Turn on the lamp that is sitting on the desk"
-                    ],
-                    "task_desc":"Examine a laptop under a lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "take the computer to the lamp to examine",
+                "Turn on the desk lamp. ",
+                "Examine a laptop under a lamp"
             ],
             "relative_objects":[
                 "DeskLamp",
@@ -601,45 +129,9 @@
         },
         "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201322_516201/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_36DSNE9QZ8FHOQLHCYI4RX83BC7JOL",
-                    "high_descs":[
-                        "Move across the room to the left side of the wood desk where the lamp is",
-                        "Turn on the lamp sitting on top of the desk",
-                        "Pick up the tissue box to the right of the pen on the desk"
-                    ],
-                    "task_desc":"Turn on a desk lamp, pick up a box of tissues",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_37KGEN7NJ67VV10GMB03DTZ5UGDPPC",
-                    "high_descs":[
-                        "walk towards the desk, turn left, take a step, turn right, ",
-                        "turn the lamp on",
-                        "pick up the tissue box that is on the desk"
-                    ],
-                    "task_desc":"examine a tissue box with a lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36DK84J5YJ942_3NS0A6KXC7PJWS9N618IAINR3OAZGG",
-                    "high_descs":[
-                        "Move to the desk ahead of you",
-                        "Turn on the lamp",
-                        "Pick up the tissue from the desk"
-                    ],
-                    "task_desc":"Inspect the tissue with the lamp on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Turn on a desk lamp, pick up a box of tissues",
+                "examine a tissue box with a lamp",
+                "Inspect the tissue with the lamp on the desk."
             ],
             "relative_objects":[
                 "TissueBox",
@@ -648,48 +140,9 @@
         },
         "train/look_at_obj_in_light-TissueBox-None-DeskLamp-328/trial_T20190907_201338_131288/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3CCZ6YKWRA06A42QL7VSTXU9YA959M",
-                    "high_descs":[
-                        "Turn to the right, to face the night stand next to the bed.",
-                        "Pick up the box of tissues on the night stand.",
-                        "Turn around, move forward, then turn right to go toward the wall, then turn right to face the desk.",
-                        "Turn on the lamp on the desk."
-                    ],
-                    "task_desc":"Look at a box of tissues in the light.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3YDTZAI2W0X6PGVV3PXP9Z6C02841P",
-                    "high_descs":[
-                        "take a step forward and turn to the right and go to the night stand",
-                        "pick up the box of tissue",
-                        "turn to the left twice and go forward a few steps and turn to the right and go to the wall and turn to the right and go to the desk",
-                        "turn on the lamp light on the desk"
-                    ],
-                    "task_desc":"examine a box of tissue by the desk lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3ZSANO2JCIOGHGRE0P8SW4QCFS3SFU",
-                    "high_descs":[
-                        "Turn right and walk slightly forward to the night stand with the tissue box.",
-                        "Pick up the tissue box from the night stand.",
-                        "Turn left and walk to the lamp on the left side of the desk.",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Examine a tissue box by the light of a desk lamp.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Look at a box of tissues in the light.",
+                "examine a box of tissue by the desk lamp",
+                "Examine a tissue box by the light of a desk lamp."
             ],
             "relative_objects":[
                 "TissueBox",
@@ -698,240 +151,42 @@
         },
         "train/look_at_obj_in_light-TennisRacket-None-DeskLamp-328/trial_T20190907_083746_459297/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3PGS1Q1XAY79I_31N2WW6R9U7CXZ6ZAA7ROWI0N8V3FW",
-                    "high_descs":[
-                        "Turn around and walk to the bedroom door, hang a left and walk towards the tennis racket. ",
-                        "Pick up the tennis racket leaning against the wall.",
-                        "Turn around and walk towards the green trash can, hang a right at the trash can and walk to the desk.",
-                        "Turn on the lamp located at the left rear of the desk top."
-                    ],
-                    "task_desc":"Pick up a tennis racket, turn on the lamp on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3MRNMEIQW8NWFJISPAG1WI9WBHGDLJ",
-                    "high_descs":[
-                        "Turn around on you left walk towards the wall",
-                        "Pick up the racket on the floor",
-                        "Turn around to your left walk straight then head to the table with a lamp",
-                        "Turn on the lamp"
-                    ],
-                    "task_desc":"Examine the racket by the light.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AWEPZMK7825JQ_3TEM0PF1Q8EJINT60HUIYYH88J0D05",
-                    "high_descs":[
-                        "Turn left and step toward the wall, then turn left and walk towards the wall.",
-                        "Pick up the tennis racket that is leaning against the wall.",
-                        "Turn around and walk toward the wall, then turn right and walk to the desk.",
-                        "Turn on the lamp that is on the desk."
-                    ],
-                    "task_desc":"Turn on the desk lamp while holding a tennis racket.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3IKZ72A5B7XJ13Z9STR6XAG6ST1NFJ",
-                    "high_descs":[
-                        "Turn around and cross the room to stand in front of the racket on the floor.",
-                        "Pick the racket up from the floor.",
-                        "Turn around and cross the room to stand in front of the lamp on the desk.",
-                        "Turn the lamp on."
-                    ],
-                    "task_desc":"Turn a lamp on with a racket in hand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AFU00NU09CFXE_3OSWBBLG1HERFDZH3TJP7C4JIVKXDT",
-                    "high_descs":[
-                        "Cross the room to stand in front of the plant in the corner just beyond the bed. ",
-                        "Pick up the tennis racket from the floor. ",
-                        "Turn and carry the tennis racket to the desk, which is against the wall to the right of the green trash bin. ",
-                        "Turn on the light on the desk while still holding the racket."
-                    ],
-                    "task_desc":"Turn the light on that's on the desk. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1DMXEJGJY02E1_3X66WABAJZZIBZ2ULUD96HICOTN3GZ",
-                    "high_descs":[
-                        "Turn around and go to the corner.",
-                        "Pick up the tennis racket on the floor.",
-                        "Turn around and go to the desk.",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Use the light from the lamp to look at the tennis racket.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Pick up a tennis racket, turn on the lamp on the desk",
+                "Examine the racket by the light.",
+                "Turn on the desk lamp while holding a tennis racket.",
+                "Turn a lamp on with a racket in hand.",
+                "Turn the light on that's on the desk. ",
+                "Use the light from the lamp to look at the tennis racket."
             ],
             "relative_objects":[
-                "Book",
                 "AlarmClock",
                 "TennisRacket",
-                "Laptop"
+                "Laptop",
+                "Book"
             ]
         },
         "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033509_300729/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_38F71OA9GWDDJLE9GSC6KVR6NZDMFW",
-                    "high_descs":[
-                        "Go to the desk, to your right.",
-                        "Pick up the CD on the desk.",
-                        "Turn around, then turn left, then go forward, then turn left to face the night stand.",
-                        "Place the CD on the night stand, behind the box of tissues."
-                    ],
-                    "task_desc":"Put a CD on the night stand.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1DMXEJGJY02E1_39KFRKBFIQC7JFGGYYJ71KNROAAYOC",
-                    "high_descs":[
-                        "Turn to the right and go to the desk.",
-                        "Pick up the CD from the left side of the desk.",
-                        "Turn right and go to the night table.",
-                        "Put the CD down on the night table."
-                    ],
-                    "task_desc":"Move a CD from the desk to the night table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A11IIS435RPN2O_30LB5CDZNFRMLOY2SZJFPQ0BW5MZ0A",
-                    "high_descs":[
-                        "Turn Right and go towards the computer table.",
-                        "Pick up the CD from the table",
-                        "Turn right go to the Night stand.",
-                        "Place the CD on the night stand behind the Tissue paper box."
-                    ],
-                    "task_desc":"Move the CD from Computer Table to the night stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3EA3QWIZ4LC1676JQXJ396ZQX3AIT1",
-                    "high_descs":[
-                        "Turn right and walk to the desk.",
-                        "Pick up the CD that is to the left of the laptop on the desk.",
-                        "Turn right and walk to the night stand which is to the left of the bed.",
-                        "Put the CD on the night stand, behind the tissue box."
-                    ],
-                    "task_desc":"Move a CD from a desk to a night stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3VJ40NV2QL4B2THMOSW8T3VC9C4OTX",
-                    "high_descs":[
-                        "Go to the desk on the right",
-                        "Take the CD from the desk",
-                        "Head to the bed",
-                        "Put the CD on the night stand next to the bed"
-                    ],
-                    "task_desc":"Take the CD from the desk, put it on the night stand",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1AKL5YH9NLD2V_3ZAZR5XV04Z6FGTI4FCZKR2C5QZCZO",
-                    "high_descs":[
-                        "Turn right and walk to the CD to the left of the computer on the desk.",
-                        "Pick up the CD from the desk.",
-                        "Turn right and walk to the small table next to the bed.",
-                        "Place the CD behind the tissues on the small table."
-                    ],
-                    "task_desc":"Place a CD behind the tissues on the small table next to the bed.",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Put a CD on the night stand.",
+                "Move a CD from the desk to the night table.",
+                "Move the CD from Computer Table to the night stand.",
+                "Move a CD from a desk to a night stand.",
+                "Take the CD from the desk, put it on the night stand",
+                "Place a CD behind the tissues on the small table next to the bed."
             ],
             "relative_objects":[
-                "TissueBox",
-                "Pen",
                 "CD",
                 "Pencil",
-                "CellPhone"
+                "CellPhone",
+                "TissueBox",
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033442_349858/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ZVC2VT88SYEP_3GDTJDAPVXS4464M8E60A3AK0RN8MG",
-                    "high_descs":[
-                        "Turn around, face the computer desk.",
-                        "Pick up the CD nearest to the wall.",
-                        "Turn right, walk towards the bed, turn left towards the night stand ",
-                        "Place the CD on the night stand."
-                    ],
-                    "task_desc":"Move the CD onto the night stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3JV9LGBJWWV7XOVG4SX1UKGNJAMGOQ",
-                    "high_descs":[
-                        "Turn around and face the desk.",
-                        "Pick up the CD in front of the black cup on the desk.",
-                        "Turn right, head towards the bed, and then turn left to face the night stand.",
-                        "Place the CD in front of the cup on the night stand."
-                    ],
-                    "task_desc":"Transfer a CD from the desk to the night stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3LBXNTKX0UCFCNM0RDENLGLTRZE9XB",
-                    "high_descs":[
-                        "Turn around to face the front of the wood desk",
-                        "Pick up the CD that is on the desk closest to the wall",
-                        "Carry the CD and move to the night stand that is to the right of the desk",
-                        "Place the CD on the far left side of the night stand"
-                    ],
-                    "task_desc":"Move a CD from the desk to the night stand",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the CD onto the night stand.",
+                "Transfer a CD from the desk to the night stand.",
+                "Move a CD from the desk to the night stand"
             ],
             "relative_objects":[
                 "CD"
@@ -939,51 +194,9 @@
         },
         "train/pick_and_place_simple-CD-None-SideTable-328/trial_T20190907_033353_099987/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3LQ8PUHQFO9B1YFOQ32EVNW2M4GIHI",
-                    "high_descs":[
-                        "Turn around, take a step towards the bed, turn left towards the space in between the two desks, and turn left to face the long desk.",
-                        "Pick up the middle CD on the desk.",
-                        "Turn left, take a step forward, and turn around to face the small table with the alarm clock.",
-                        "Place the CD to the left of the alarm clock."
-                    ],
-                    "task_desc":"Place the CD from the desk to the night stand.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3T9K2RY06UO14_3QRYMNZ7F1YTK8HANDWVEEV7JX7TNL",
-                    "high_descs":[
-                        "Turn around and go to the table by the window.",
-                        "Pick up a DVD on the table. ",
-                        "Turn around and go to the nightstand by the bed.",
-                        "Put the DVD on the nightstand. "
-                    ],
-                    "task_desc":"Move a DVD from the table to the nightstand. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3BF51CHDTYR0U3Y8MDD8PJW609N0HR",
-                    "high_descs":[
-                        "Go to the right and stand in front of the table with discs on it.",
-                        "Pick the disc on the left up from the table.",
-                        "Move to stand in front of the night stand.",
-                        "Put the disc on the night stand."
-                    ],
-                    "task_desc":"Put a disc on a night stand.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place the CD from the desk to the night stand.",
+                "Move a DVD from the table to the nightstand. ",
+                "Put a disc on a night stand."
             ],
             "relative_objects":[
                 "CD"
@@ -991,42 +204,18 @@
         },
         "tests_seen/trial_T20190908_201611_659235/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Go right and face the desk with the computer on it.",
-                        "Close the computer and pick it up from the desk.",
-                        "Move to the left and face the lamp on the desk.",
-                        "Turn the lamp on."
-                    ],
-                    "task_desc":"Pick up a computer and turn a lamp on."
-                },
-                {
-                    "high_descs":[
-                        "Make a right and walk to the desk across the room.",
-                        "Close the laptop on the desk, picking it up afterwards.",
-                        "Walk to the left side of the desk.",
-                        "Turn on the lamp on the desk."
-                    ],
-                    "task_desc":"Pick up a laptop, turn on the lamp on the desk."
-                },
-                {
-                    "high_descs":[
-                        "approach the middle of the desk",
-                        "close the computer and pick it up ",
-                        "take the computer to the the far left side of the desk",
-                        "turn on the lamp to examine the computer"
-                    ],
-                    "task_desc":"get the laptop and examine it under the lamp"
-                }
+                "Pick up a computer and turn a lamp on.",
+                "Pick up a laptop, turn on the lamp on the desk.",
+                "get the laptop and examine it under the lamp"
             ],
             "relative_objects":[
-                "Pen",
+                "KeyChain",
+                "CD",
                 "Book",
                 "Laptop",
                 "AlarmClock",
                 "Mug",
-                "CD",
-                "KeyChain"
+                "Pen"
             ]
         }
     }

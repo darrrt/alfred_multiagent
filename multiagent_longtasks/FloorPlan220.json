@@ -3,111 +3,27 @@
     "trials":{
         "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145750_484036/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2YUCJ28XANFOX_3C5W7UE9CIH24WRSCU79ROBFLGJMXI",
-                    "high_descs":[
-                        "cross the room to the chest of drawers",
-                        "pick up the kleenex box sitting on the chest of drawers",
-                        "turn around and go to the coffee table",
-                        "place the kleenex box on the coffee table",
-                        "go to the end table against the wall ",
-                        "pick up the kleenex box on the end table",
-                        "turn around and go back to the coffee table",
-                        "place the kleenex box on the coffee table "
-                    ],
-                    "task_desc":"Move the kleenex box to the coffee table",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move the kleenex box to the coffee table"
             ],
             "relative_objects":[
-                "CoffeeTable",
-                "TissueBox"
+                "TissueBox",
+                "CoffeeTable"
             ]
         },
         "train/pick_two_obj_and_place-TissueBox-None-CoffeeTable-220/trial_T20190909_145607_044709/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A30M9SZYJKFDS9_3JAOYWH7VLVSXIR9920GB8A8E9Z9LJ",
-                    "high_descs":[
-                        "go forward turn to the left go left towards the dresser",
-                        "pick up the tissue box from the dresser ",
-                        "turn to the right go right turn to the left towards a coffee table",
-                        "put the tissue box on top of the coffee table",
-                        "turn to the left go right turn to the left towards the white table",
-                        "pick up a box tissue from the white table",
-                        "turn to the left go right turn to the left",
-                        "put the other box tissue on top other coffee table"
-                    ],
-                    "task_desc":"put 2 tissue boxes on top of the coffee table",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "put 2 tissue boxes on top of the coffee table"
             ],
             "relative_objects":[
-                "CoffeeTable",
-                "TissueBox"
+                "TissueBox",
+                "CoffeeTable"
             ]
         },
         "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190906_213833_564527/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_3DIP6YHAPF96SIC9RGIHXV5BQXX8E7",
-                    "high_descs":[
-                        "Turn to face the TV.",
-                        "Pick up the candle in front of the TV.",
-                        "Bring the candle to the coffee table. ",
-                        "Put the candle in the box on the coffee table.",
-                        "Pick up the box from the coffee table. ",
-                        "Bring the box to the white cabinet.",
-                        "But the box on the white cabinet. "
-                    ],
-                    "task_desc":"Put the candle with box on the white cabinet. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_3IKZ72A5B7XJ13Z9STR6XAG6RXBNF0",
-                    "high_descs":[
-                        "Turn around and go to the black TV stand.",
-                        "Take the candle from the black TV stand.",
-                        "Turn around, walk straight, then turn left to the coffee table.",
-                        "Put the candle in the box on the left of the coffee table.",
-                        "Take the box from the coffee table.",
-                        "Turn left, go to the white stand to the right of the TV.",
-                        "Put the box on the left side of the white stand."
-                    ],
-                    "task_desc":"Put a box with a candle in it on a stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3R6BYFZZPATODXDDUZEFVC74T75FXO",
-                    "high_descs":[
-                        "Turn around and walk to the left side of the TV stand.",
-                        "Pick up the candle.",
-                        "Turn around and veer left to the coffee table.",
-                        "Place the candle in the box.",
-                        "Pick up the box.",
-                        "Turn around and veer right to the small dresser.",
-                        "Put the box on the dresser."
-                    ],
-                    "task_desc":"Place a box with a CD in it on a dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the candle with box on the white cabinet. ",
+                "Put a box with a candle in it on a stand.",
+                "Place a box with a CD in it on a dresser."
             ],
             "relative_objects":[
                 "Box",
@@ -116,60 +32,9 @@
         },
         "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090345_790163/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AKW57KYG90X61_3K9FOBBF2K051V95E4U4SNLQONMNLI",
-                    "high_descs":[
-                        "move forward towards a table, turn left and locate a white cupboard",
-                        "pick the candle on top of the cupboard",
-                        "turn around and head for the sofa",
-                        "place the candle in the carton on the sofa",
-                        "pick up the carton from the sofa",
-                        "turn left and head back to the white cupboard",
-                        "place the carton on the white cupboard"
-                    ],
-                    "task_desc":"place a candle in a carton on the white cupboard",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AKVQTFH16ICGZ_3M81GAB8A30ERJ0L3JXRIEKQH36BQF",
-                    "high_descs":[
-                        "Go over to the white dresser, to your far left, by the window",
-                        "Pick up the candle that's in front of the plant.",
-                        "Turn to your right and take the candle to the box on the couch.",
-                        "Put the candle in the box",
-                        "Pick up the box with the candle in it",
-                        "Turn to your left and go back to the white dresser you found the candle on.",
-                        "Put the box down on the dresser, to the left of the plant."
-                    ],
-                    "task_desc":"Putting a candle in a box, putting the box away",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2Y3P7DG0HC2B9_3PQ8K71NH01HLTOC8909X3LFV5FAAW",
-                    "high_descs":[
-                        "Walk over to the left and cross the room with an right turn.",
-                        "Narrow the search walk and make an patrol to the short white dresser.",
-                        "Take only the white candle that is placed of the top of the white dresser.",
-                        "Turn to the right  and patrol with the candle to the couch with the box.",
-                        "Pack it in the open  box and carry it in hand.",
-                        "Turn left and pace around to the white dresser.",
-                        "Turn left, place the box on the white dresser."
-                    ],
-                    "task_desc":"To pack, store items to organize the orientation.",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "place a candle in a carton on the white cupboard",
+                "Putting a candle in a box, putting the box away",
+                "To pack, store items to organize the orientation."
             ],
             "relative_objects":[
                 "Box",
@@ -178,57 +43,9 @@
         },
         "train/pick_and_place_with_movable_recep-Candle-Box-SideTable-220/trial_T20190908_090406_975780/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_358UUM7WR2KR18CV3HABI28ZU4OR7R",
-                    "high_descs":[
-                        "move around the coffee table to face the front of it",
-                        "pick the candle up off of the table",
-                        "move to the left a bit and face the table again",
-                        "place the candle inside of the box on the table",
-                        "pick the box up from the table",
-                        "move over to the left side wall with the white cabinet",
-                        "place the box on top of the white cabinet"
-                    ],
-                    "task_desc":"place a box with a candle in it on top of the white cabinet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3M23Y66PO5OKYNY3ZW5O2YDZLTGS66",
-                    "high_descs":[
-                        "Turn right and walk around the coffee table to the side opposite the couch.",
-                        "Pick up the candle closest to the cardboard box on the coffee table.",
-                        "Turn left and walk over to the cardboard box on the coffee table.",
-                        "Place the candle inside the cardboard box.",
-                        "Pick up the cardboard box with the candle in it and golden hand in it.",
-                        "Turn left and walk over to the white end table with the car keys and potted plant on it.",
-                        "Place the cardboard box with the candle and golden hand in it onto the white end table to the left of the potted plant."
-                    ],
-                    "task_desc":"Place a cardboard box with a candle as well as a golden hand in it onto a white end table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1CY7IOJ9YH136_3X73LLYYQ4V3FZQFNJF60VSJ78NNHP",
-                    "high_descs":[
-                        "Go to the coffee table on your left",
-                        "Pick up the candle sitting next to the box",
-                        "Go to the box sitting on the coffee table",
-                        "Place the candle in the box",
-                        "Pick up the box on the coffee table",
-                        "Go to the white table with the plant on the left",
-                        "Put box down on white table"
-                    ],
-                    "task_desc":"Place box with candle on the white table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "place a box with a candle in it on top of the white cabinet",
+                "Place a cardboard box with a candle as well as a golden hand in it onto a white end table.",
+                "Place box with candle on the white table"
             ],
             "relative_objects":[
                 "Box",
@@ -237,165 +54,32 @@
         },
         "train/pick_and_place_with_movable_recep-RemoteControl-Box-Sofa-220/trial_T20190907_022853_966852/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A10GZ0SWBZIRBK_31HQ4X3T3VR2H81AM0BQRHVWBL1LSX",
-                    "high_descs":[
-                        "Turn left twice then walk to the white table",
-                        "Pick up the remote on the table",
-                        "Turn to the box on the table",
-                        "Place the remote in the box",
-                        "Pick up the box from the table",
-                        "Turn left then turn right and walk towards the couch",
-                        "Place the box on the left cushion"
-                    ],
-                    "task_desc":"Put a box with a remote in it on the couch.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A10AVWALIHR4UQ_3DQQ64TANJ2LFAXHYXEY5N71MGJWPM",
-                    "high_descs":[
-                        "Turn left, move past the white chair, then turn left and move to the white coffee table.",
-                        "Pick up the gray remote control to the right of the cardboard box from the coffee table.",
-                        "Move toward the left side of the coffee table so that you are in front of the cardboard box.",
-                        "Place the remote control in the cardboard box.",
-                        "Pick up the cardboard box containing the remote control from the coffee table.",
-                        "Move around the coffee table, passing the shelves and cabinet, and move to the center of the striped couch in front of the window, then turn left and face the couch.",
-                        "Place the cardboard box containing the remote control on the left side of the couch."
-                    ],
-                    "task_desc":"Place a cardboard box containing a remote control on the couch.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3B3WTRP3DEJEB7J33OTUVQRXD14295",
-                    "high_descs":[
-                        "Move to the coffee table.",
-                        "Pick up the remote from the coffee table.",
-                        "Move to the box on the coffee table.",
-                        "Put the remote in the box on the table.",
-                        "Pick up the box from the table.",
-                        "Bring the box to the green couch. ",
-                        "Put the box on the green couch. "
-                    ],
-                    "task_desc":"Put the remote in the box on the green couch. ",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Put a box with a remote in it on the couch.",
+                "Place a cardboard box containing a remote control on the couch.",
+                "Put the remote in the box on the green couch. "
             ],
             "relative_objects":[
-                "RemoteControl",
-                "Box"
+                "Box",
+                "RemoteControl"
             ]
         },
         "train/pick_and_place_simple-CreditCard-None-Sofa-220/trial_T20190909_110935_672411/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A272X64FOZFYLB_32UTUBMZ7JNEHGI0LQGIPN30T7VVBP",
-                    "high_descs":[
-                        "Walk forward past the sofa, then turn right and walk to the blue credit card on the coffee table next to you.",
-                        "Pick up the credit card from the coffee table.",
-                        "Turn right and walk to the center of the sofa.",
-                        "Put the credit card on the sofa, in the center between the two seats."
-                    ],
-                    "task_desc":"Move a credit card from a coffee table to a sofa.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_36W0OB37HZ55HDQWMFFHW4JUCV8ZHB",
-                    "high_descs":[
-                        "Take a step to your left then walk past the coffee table then turn right and take a step then turn right to face the coffee table.",
-                        "Pick up the credit card that's in front of you on the coffee table.",
-                        "Turn right and walk to the couch then take a large step to your left to face the middle of the couch.",
-                        "Put the credit card near the edge of the couch in the middle of the cushions."
-                    ],
-                    "task_desc":"Put a credit card on the couch.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2YUCJ28XANFOX_3J88R45B2JP8PZO54AZ18S5AQMGXPD",
-                    "high_descs":[
-                        "Cross the living room to the coffee table",
-                        "pick up the credit card sitting on the coffee table",
-                        "cross over to the couch",
-                        "set the credit card on the couch"
-                    ],
-                    "task_desc":"Move the credit card to the couch",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a credit card from a coffee table to a sofa.",
+                "Put a credit card on the couch.",
+                "Move the credit card to the couch"
             ],
             "relative_objects":[
-                "CoffeeTable",
                 "Sofa",
+                "CoffeeTable",
                 "CreditCard"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_142512_565699/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3NJM2BJS4ZNC1CRCH6EXTT0YV6ECPJ",
-                    "high_descs":[
-                        "Walk ahead and the turn left at the couch. Go ahead to the white dresser.",
-                        "Pick up the keys to the left of the remote.",
-                        "Turn around and walk straight past the couch to the lamp.",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Look at keys by the illumination of a lamp.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3WJ1OXY92DX325VXBBGV1CFK6TS8AS",
-                    "high_descs":[
-                        "Move to the left then straight back and to the far left again to the white side table",
-                        "Pick up the keys sitting on top of the table",
-                        "Carry the keys to the large floor lamp next to the window",
-                        "Turn on the lamp"
-                    ],
-                    "task_desc":"Turn on a lamp while carrying keys",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1SX8IVV82M0LW_3907X2AHF3MZ3UZAKDPRHGRCJM72PK",
-                    "high_descs":[
-                        "Walk to the small table with a plant on it.",
-                        "Grab some keys off the table.",
-                        "Walk to the lamp on the right of the couch.",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Examine some keys under a lamp's light.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Look at keys by the illumination of a lamp.",
+                "Turn on a lamp while carrying keys",
+                "Examine some keys under a lamp's light."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -403,51 +87,9 @@
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-220/trial_T20190908_005348_966665/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2ALWT2BUSXD83_3VJ40NV2QL4B2THMOSW8T3VC9NAOTP",
-                    "high_descs":[
-                        "Walk ahead to the sofa. ",
-                        "grab the keys from the sofa.",
-                        "Turn around and walk to the lamp.",
-                        "Examine the keys using the lamp light."
-                    ],
-                    "task_desc":"Examine keys using lamp light.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3UF6XXFFRR237_3ZR9AIQJUEQ6IRAD76TPVUN2VMR40Z",
-                    "high_descs":[
-                        "walk over to the blue sofa",
-                        "pick up the set of keys that are on the couch",
-                        "take the keys over to lamp and hold them near the bulb",
-                        "pull the chain to turn on the lamp while holding the keys up"
-                    ],
-                    "task_desc":"get the keys from the sofa and look at them under the lamp across the room ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3Y54SXRO1O26FY1JKE8HS9N1R94UTE",
-                    "high_descs":[
-                        "Walk forward a few steps, then turn right to face the blue sofa. ",
-                        "Pick up the keys that are lying on the sofa. ",
-                        "Turn completely around and walk over to the floor lamp that is directly across from you on the other side of the room.",
-                        "Turn the floor lamp on."
-                    ],
-                    "task_desc":"Examine a set of keys under the light of a floor lamp.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Examine keys using lamp light.",
+                "get the keys from the sofa and look at them under the lamp across the room ",
+                "Examine a set of keys under the light of a floor lamp."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -455,141 +97,33 @@
         },
         "train/pick_and_place_simple-Box-None-Sofa-220/trial_T20190907_165554_112021/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A272X64FOZFYLB_31LM9EDVOO9Z65L5BJIRC88YL1JNJP",
-                    "high_descs":[
-                        "Turn left and walk to the empty box on the coffee table.",
-                        "Pick up the empty box from the coffee table.",
-                        "Walk to the center of the sofa behind the coffee table.",
-                        "Put the empty box on the right seat of the sofa."
-                    ],
-                    "task_desc":"Move an empty box from a coffee table to a sofa.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3L6L49WXW3E5DYWE4CZ1CPJTCJB548",
-                    "high_descs":[
-                        "Move to the coffee table facing the empty box on top of the table",
-                        "Pick up the empty box on the left side of the table ",
-                        "Carry the empty box to the green sofa",
-                        "Place the empty box on top of the sofa on the right side"
-                    ],
-                    "task_desc":"Move an empty box to the green sofa",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3S3AMIZX3XM3CFOMCXN2TZJ9HD8CDI",
-                    "high_descs":[
-                        "turn around, take a right after coffee table, walk forward a few steps, turn to face the coffee table on the right",
-                        "pick up the box that is on the table",
-                        "turn left, turn right after coffee table, turn right, walk forward between couch and coffee table, turn left to face the couch",
-                        "put the box on the couch"
-                    ],
-                    "task_desc":"move a box from the coffee table to the couch",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move an empty box from a coffee table to a sofa.",
+                "Move an empty box to the green sofa",
+                "move a box from the coffee table to the couch"
             ],
             "relative_objects":[
-                "CoffeeTable",
+                "Box",
                 "Sofa",
-                "Box"
+                "CoffeeTable"
             ]
         },
         "train/pick_and_place_simple-Box-None-Sofa-220/trial_T20190907_165527_462462/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3I0BTBYZA02MGYOXWDHWBJR9QC4Y06",
-                    "high_descs":[
-                        "Go straight to the table in front of the couch",
-                        "Take the box from the table",
-                        "Go to the other side of the table",
-                        "Put the box on the couch"
-                    ],
-                    "task_desc":"Take the box from the table, put it on the couch",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1DMXEJGJY02E1_3M68NM076KO8X8YQK75JCO830S76R9",
-                    "high_descs":[
-                        "Turn right to face the coffee table.",
-                        "Pick up the box from the table.",
-                        "Walk about the table and go to the couch.",
-                        "Put the box on the couch."
-                    ],
-                    "task_desc":"Put the box on the couch.",
-                    "votes":[
-                        1,
-                        0,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AFU00NU09CFXE_3V5Q80FXI08SW5UNMFSK4DOBEH532H",
-                    "high_descs":[
-                        "Move to stand in front of the coffee table, so you're facing the sofa.",
-                        "Pick up the open box from the coffee table.",
-                        "Carry the box around the coffee table, so you're standing between the table and sofa, facing the sofa. ",
-                        "Place the box on the right cushion of the sofa."
-                    ],
-                    "task_desc":"Move a box from the coffee table to the sofa.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Take the box from the table, put it on the couch",
+                "Put the box on the couch.",
+                "Move a box from the coffee table to the sofa."
             ],
             "relative_objects":[
-                "CoffeeTable",
+                "Box",
                 "Sofa",
-                "Box"
+                "CoffeeTable"
             ]
         },
         "tests_seen/trial_T20190908_004650_624437/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "turn to the left and go to the sofa and turn to the right and go the the other end of the sofa and turn to the left",
-                        "pick up the remote control from the sofa",
-                        "turn to the right and step forward to go past the sofa and turn to the left and go to the floor lamp",
-                        "turn on the floor lamp"
-                    ],
-                    "task_desc":"Examine a remote control by the light of a floor lamp"
-                },
-                {
-                    "high_descs":[
-                        "Turn to your left and walk over to face the striped green couch. ",
-                        "Pick up the remote that is sitting on the couch. ",
-                        "Walk over to the floor lamp that sits to the right of the striped green couch. ",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Inspect a remote using the light of a lamp. "
-                },
-                {
-                    "high_descs":[
-                        "Walk to the sofa with a remote on it.",
-                        "Grab the remote off the sofa.",
-                        "Walk to the lamp on the right of the sofa.",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Examine a remote under a lamp's light."
-                }
+                "Examine a remote control by the light of a floor lamp",
+                "Inspect a remote using the light of a lamp. ",
+                "Examine a remote under a lamp's light."
             ],
             "relative_objects":[
                 "RemoteControl"

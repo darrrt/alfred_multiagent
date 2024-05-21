@@ -3,82 +3,23 @@
     "trials":{
         "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_33C7UALJVOF78HIXFSN2QBMH2ZL18W",
-                    "high_descs":[
-                        "Move to the right facing the left side of the desk",
-                        "Pick up the brown plate on the edge of the desk",
-                        "Carry the brown plate upward to the top shelf of the desk where the lamp is",
-                        "Turn on the lamp"
-                    ],
-                    "task_desc":"Carry a brown plate while turning on a lamp",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"ACSS93E03ZUGX_3RJSC4XJ13BOEAEDLBCZ0MTGVHG05S",
-                    "high_descs":[
-                        "Turn around to face the corner of the brown desk.",
-                        "Pick up the brown bowl from off of the desk.",
-                        "Turn to the left to face the wall next to the desk.",
-                        "Turn the light on behind the desk."
-                    ],
-                    "task_desc":"Turn the light on behind the desk while holding the bowl.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3UF6XXFFRR237_3VELCLL3GN0GNWSKN6T80333P3Y1FD",
-                    "high_descs":[
-                        "walk over to the corner of the table standing next to the trash bin",
-                        "pick up the brown bowl from the table",
-                        "walk the bowl across the room near the window to raise it up toward the lamp",
-                        "turn the lap on to examine the bowl"
-                    ],
-                    "task_desc":"get a bowl from the table to examine it under the lamp",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Carry a brown plate while turning on a lamp",
+                "Turn the light on behind the desk while holding the bowl.",
+                "get a bowl from the table to examine it under the lamp"
             ],
             "relative_objects":[
-                "CreditCard",
-                "Pencil",
-                "Bowl",
-                "Statue",
-                "Mug",
                 "CD",
-                "CellPhone"
+                "Pencil",
+                "CreditCard",
+                "CellPhone",
+                "Statue",
+                "Bowl",
+                "Mug"
             ]
         },
         "train/pick_two_obj_and_place-Book-None-Drawer-304/trial_T20190908_022158_405498/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1NWXL4QO30M8U_37Z929RLGCPQ0L9FV9DHD85D6D6STL",
-                    "high_descs":[
-                        "Turn left and take one step, then turn right and walk across the room. ",
-                        "Turn right to face the table and pick up the book.",
-                        "Turn to the right and take one step, then turn to the left and walk across the room, then turn left and walk to the desk.",
-                        "Open the bottom drawer and put the book inside. ",
-                        "Turn around and take two steps, then turn left to face the bed. ",
-                        "Take the book on the bed. ",
-                        "Turn left and take two steps, then turn right and walk across the room, then turn left to face the desk. ",
-                        "Open the bottom drawer and put the book in the drawer. "
-                    ],
-                    "task_desc":"To put the books away.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "To put the books away."
             ],
             "relative_objects":[
                 "Book"
@@ -86,48 +27,9 @@
         },
         "train/look_at_obj_in_light-Book-None-DeskLamp-304/trial_T20190908_083428_569431/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3GGAI1SQEYPE1YGXLYBMDBQ5KG2MCN",
-                    "high_descs":[
-                        "Turn right and walk forward then turn right again and walk to the desk, turning left to face it",
-                        "Pick up the book from the desk",
-                        "Turn left and walk over to the lamp on the left side of the desk",
-                        "Turn the lamp on"
-                    ],
-                    "task_desc":"Examine the book under the light of the lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36A780ODXBDEH_3IJXV6UZ10AWBHFPIG3PADIA38LRII",
-                    "high_descs":[
-                        "Turn right and head to the desk in the opposite corner of the room.",
-                        "Pick up the book on the desk to the left of the CD.",
-                        "turn left and move to face the trash bin to the left of the desk.",
-                        "Observe the book in your possession."
-                    ],
-                    "task_desc":"Pick up the book on the desk and observe it.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2NGMLBFZ3YQP5_3OUYGIZWRAP0S9IU1YAUZEIZGWG0P4",
-                    "high_descs":[
-                        "Turn right, walk to the chair, turn right, walk to desk, turn left to face desk.",
-                        "Pick up book that is to the right of the pen.",
-                        "Turn left, walk past end of desk, turn right to face heating unit.",
-                        "Put the book on the heating unit."
-                    ],
-                    "task_desc":"Put a book on the heating unit.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Examine the book under the light of the lamp",
+                "Pick up the book on the desk and observe it.",
+                "Put a book on the heating unit."
             ],
             "relative_objects":[
                 "Book"
@@ -135,48 +37,9 @@
         },
         "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3QBD8R3Z240RL82W9RV0LVJKSD84O1",
-                    "high_descs":[
-                        "Turn around and look down at the basketball.",
-                        "Pick up the basketball from the floor.",
-                        "Turn to the right, and then the left to go over to the bed.",
-                        "Put the basketball on the bed."
-                    ],
-                    "task_desc":"Put a basketball on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3TE3O85733PKF7FPX5TGMBRRJMX2RD",
-                    "high_descs":[
-                        "Turn right and walk to the wall, then turn right again and look down.",
-                        "Pick up the basketball that is on the ground next to the bed.",
-                        "Turn right and begin walking across the room, then hang a left and walk over to the middle of the bed.",
-                        "Place the basketball on the bed in front of the red pillow."
-                    ],
-                    "task_desc":"Move a basketball from the ground to the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3YHH42UU5EW2GZHYDYS6HBPDGTY0L5",
-                    "high_descs":[
-                        "Turn around and face the end of the bed behind you",
-                        "Look down and pick up the basketball from the floor",
-                        "Walk around the side of the bed and turn left to face it",
-                        "Put the basketball down on the bed in front of the red pillow"
-                    ],
-                    "task_desc":"Put the basketball on the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a basketball on the bed.",
+                "Move a basketball from the ground to the bed.",
+                "Put the basketball on the bed"
             ],
             "relative_objects":[
                 "Bed",
@@ -185,48 +48,9 @@
         },
         "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_003009_003004/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_35L9RVQFCRZGAPAOKKRSEQKDF25HUW",
-                    "high_descs":[
-                        "Turn around and head towards the wall.",
-                        "Pick up the basketball on the ground.",
-                        "Turn around and head towards the bed on your left.",
-                        "Place the basketball on the bed in front of the first laptop."
-                    ],
-                    "task_desc":"Place the basketball on the ground onto the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3DBQWDE4Y9FRZ66KMHEXBYPT2WR5NF",
-                    "high_descs":[
-                        "Go behind you to the space between the the desk and the bed.",
-                        "Pick up the basketball from the floor near the bed.",
-                        "Take the basketball to the bed.",
-                        "Put the basketball on the bed, to the right of the nearest laptop. "
-                    ],
-                    "task_desc":"Put the basketball on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3EWIJTFFVROOAT76WC524GZT7X40ER",
-                    "high_descs":[
-                        "Turn around and approach the wall between the desk and the bed",
-                        "Pick up the basketball from the floor near the bed",
-                        "Walk around to the side of the bed",
-                        "Put the ball down on the bed between the two laptops"
-                    ],
-                    "task_desc":"Put the basketball on the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place the basketball on the ground onto the bed.",
+                "Put the basketball on the bed.",
+                "Put the basketball on the bed"
             ],
             "relative_objects":[
                 "Bed",
@@ -235,48 +59,9 @@
         },
         "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"APRZ7BR8C0ZMQ_39PAAFCODPH6SDQJP4IMOVPK412VTY",
-                    "high_descs":[
-                        "Turn to the right 3 times, look down",
-                        "Pick up basketball from the floor.",
-                        "Carry the basketball across the room to the bed.",
-                        "Set the basketball on top of the bed, beside the red pillow to the right."
-                    ],
-                    "task_desc":"Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3IUZPWIU1ROK4J01L59Q96L2SXEWK4",
-                    "high_descs":[
-                        "Turn around head towards the basketball on the floor.",
-                        "Pick up the basketball from the floor.",
-                        "Turn right and head towards the middle of the bed, turn left to face the bed.",
-                        "Place the basketball next to the book on the bed."
-                    ],
-                    "task_desc":"Place the basketball on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3STRJBFXOZ8SC2W7Q04FMME3O32KT8",
-                    "high_descs":[
-                        "Turn around and walk to the basketball.",
-                        "Pick up the basketball from the floor.",
-                        "Turn right and walk to the middle of the bottom bed.",
-                        "Put the basketball on the bottom bed."
-                    ],
-                    "task_desc":"Move a basketball from the floor to the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow.",
+                "Place the basketball on the bed.",
+                "Move a basketball from the floor to the bed."
             ],
             "relative_objects":[
                 "Pillow",
@@ -285,152 +70,32 @@
         },
         "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2RQMEPIHW5BOS_3IAS3U3I0I75KPKYXGW7NI6PWSAB27",
-                    "high_descs":[
-                        "Walk to the middle of the room, turn left, and walk to the bed.",
-                        "Pick up the book.",
-                        "Turn left and walk to the desk.",
-                        "Put the book on the desk."
-                    ],
-                    "task_desc":"Put a book on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3K2755HG5VUI0GUUZ72K2ROE8HWDF5",
-                    "high_descs":[
-                        "Walk forward then turn left on the bed",
-                        "Pick up the book on the bed ",
-                        "Turn left then turn right face the desk on your left",
-                        "Put the book on the desk beside the bowl"
-                    ],
-                    "task_desc":"Put the book on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3Z7ISHFUH3MCO2P3JBLBJRQV9VKZ80",
-                    "high_descs":[
-                        "Walk towards the wall, then turn left and walk up to the bed.",
-                        "Pick up the book off of the bed.",
-                        "Turn left and walk over to the chair, then turn right and walk up to the wall, turn left again and walk over to the wooden desk.",
-                        "Put the book on the desk to the right of the wooden bowl."
-                    ],
-                    "task_desc":"Move a book to a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a book on the desk.",
+                "Put the book on the desk",
+                "Move a book to a desk."
             ],
             "relative_objects":[
-                "Desk",
-                "Book"
+                "Book",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141325_880062/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3UF6XXFFRR237_30BUDKLTXGMVQPF5PQ0VMXFMJZ55ET",
-                    "high_descs":[
-                        "walk over to the bed",
-                        "pick up the book from the bed",
-                        "take the book to the desk",
-                        "place the book on the desk to the left of the white mug"
-                    ],
-                    "task_desc":"get the book from the bed and put it on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3KJYX6QCMC2KZZGC9ITZNBMD1VTVJ1",
-                    "high_descs":[
-                        "Turn around and walk to the bed.",
-                        "Pick up the book from the bed.",
-                        "Turn left and cross the room to the desk.",
-                        "Put the book down on the desk near the pencil."
-                    ],
-                    "task_desc":"Move the book from the bed to the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3NQL1CS15UZAUOBBVIU2XY11EZBYV7",
-                    "high_descs":[
-                        "turn around, face the bed",
-                        "take the book from the bed",
-                        "turn left, head across the room to the desk",
-                        "put the book on the desk"
-                    ],
-                    "task_desc":"take the book from the bed, put it on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "get the book from the bed and put it on the desk.",
+                "Move the book from the bed to the desk.",
+                "take the book from the bed, put it on the desk"
             ],
             "relative_objects":[
-                "Desk",
                 "Bed",
-                "Book"
+                "Book",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2KAGFQU28JY43_379J5II41R79SEIQHDG23MBJ5PAELV",
-                    "high_descs":[
-                        "Turn around and walk to the bed across the room . ",
-                        "Pick up the book, to the left of the laptop, on the bed. ",
-                        "Turn to your left and go to the wooden desk. ",
-                        "Place the book in the desk, in front of the statue on the left. "
-                    ],
-                    "task_desc":"Put a book on the desk. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3ZV9H2YQQGYMTAESW768T6O2C7Q3WO",
-                    "high_descs":[
-                        "Turn around, walk to the wall, then turn right to face the foot of the bed. ",
-                        "Pick up the book that is on the foot of the bed. ",
-                        "Turn around completely and walk up to the desk.",
-                        "Place the book down on the desk, in front of the left statue."
-                    ],
-                    "task_desc":"Move a book to the desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3OHYZ19UGFWE8M4BE0U8ZKPMFFGOAQ",
-                    "high_descs":[
-                        "Turn around and walk to the foot of the bed.",
-                        "Pick up the book on the bed.",
-                        "Turn around and face the desk.",
-                        "Place the book on the desk in front of the left trophy."
-                    ],
-                    "task_desc":"Place a book on a desk.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Put a book on the desk. ",
+                "Move a book to the desk.",
+                "Place a book on a desk."
             ],
             "relative_objects":[
                 "Book"
@@ -438,48 +103,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A13OOAT2ORKH6V_3634BBTX0RBRN2OIVDEES2KP6Y5FI1",
-                    "high_descs":[
-                        "Turn left to face the bad, walk to the bed, when you reach the bed, turn left to the desk, walk straight, turn right and walk to the wall, turn left to face the desk and look up.",
-                        "Pick up the keys on the desk shelf.",
-                        "Look down, turn right to face the wall, walk straight and turn left to face the desk and look down.",
-                        "Place the keys on the desk table."
-                    ],
-                    "task_desc":"Place keys on the desk table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3BDCF01OG0BZDUDJL63F93JXTD5LYY",
-                    "high_descs":[
-                        "Go left and then left again and turn to face the desk with a clock on it.",
-                        "Pick the keys up from the desk.",
-                        "Move to the right and face the right side of the desk.",
-                        "Put the keys down on the desk."
-                    ],
-                    "task_desc":"Put keys on a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3ZGVPD4G6WYN1XVTQ17P912GTLMTZT",
-                    "high_descs":[
-                        "turn to the left and go forward to the bed and turn to the left and take a few steps and turn to the right and take a few steps and turn to the left and step to the desk",
-                        "pick up the set of keys from the top shelf of the desk",
-                        "turn to the right and take a step and turn to the left",
-                        "put the set of keys on the desk"
-                    ],
-                    "task_desc":"Place a set of keys on the desk from the top shelf of the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place keys on the desk table.",
+                "Put keys on a desk.",
+                "Place a set of keys on the desk from the top shelf of the desk"
             ],
             "relative_objects":[
                 "KeyChain"
@@ -487,48 +113,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_379J5II41RX17PWSL5RL20RHBYXEL3",
-                    "high_descs":[
-                        "Move across the room to the far left side of the wooden desk",
-                        "Pick up the keys sitting on the top shelf of the desk by the statue ",
-                        "Move back down to the desk top under the shelf",
-                        "Place the keys on the desk to the right of the book"
-                    ],
-                    "task_desc":"Move keys from the desk shelf to the desk top",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_39ASUFLU60OW7JDHZOU9DUM4I6NEX3",
-                    "high_descs":[
-                        "Turn around, head to the desk",
-                        "Take the keys from the top shelf of the desk",
-                        "Take a couple steps to the right, face the desk",
-                        "Put the keys on the desk"
-                    ],
-                    "task_desc":"Take the keys from the shelf, put them on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3R0T90IZ1VT6OZYDENOAZKM6U4CCGE",
-                    "high_descs":[
-                        "Turn left and begin walking across the room, then hang a left and walk to the wall in between the bed and desk, then turn left walk over to the desk and look up.",
-                        "Pick up the car keys that are on top of the desk to the right of the statue.",
-                        "Turn left and take a step forward, then turn right and look down at the desk.",
-                        "Place the keys on the front edge of the desk in front of you to the right of the book."
-                    ],
-                    "task_desc":"Move keys to a wooden desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move keys from the desk shelf to the desk top",
+                "Take the keys from the shelf, put them on the desk",
+                "Move keys to a wooden desk."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -536,54 +123,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3IQ1VMJRYW13GAE7G3M918AVQPO9AC",
-                    "high_descs":[
-                        "Move to the right side of the wooden desk ",
-                        "Pick up the keys that are on the top shelf of the wooden desk",
-                        "Move to face the right side of the desk top",
-                        "Place the keys on top of the desk to the left of the clock"
-                    ],
-                    "task_desc":"Move the keys from the desk shelf to the desk top",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3PMBY0YE2AKR9PB50HI0730JQS6C9E",
-                    "high_descs":[
-                        "Walk to the right side of the desk.",
-                        "Pick up the keys from the top shelf of the desk.",
-                        "Move slightly to the left and back up very slightly from the desk.",
-                        "Put the keys on the desk, to the left of the alarm clock."
-                    ],
-                    "task_desc":"Move a set of keys from the top shelf of a desk to the center portion of the desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_3XXU1SWE8PCLKGQUG73G8X92NTF0AS",
-                    "high_descs":[
-                        "Step to the right and look up to face the top shelf.",
-                        "Pick up the keys on the top shelf.",
-                        "Look down to face the surface of the desk.",
-                        "Place the keys on the desk to the left of the clock."
-                    ],
-                    "task_desc":"To move some keys from the top shelf to the bottom shelf of a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the keys from the desk shelf to the desk top",
+                "Move a set of keys from the top shelf of a desk to the center portion of the desk.",
+                "To move some keys from the top shelf to the bottom shelf of a desk."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -591,51 +133,9 @@
         },
         "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F51C49T9A34D_3IHR8NYAMAI968EXOR8FAVOA3ME4P1",
-                    "high_descs":[
-                        "go forward to the bed and turn to the left and go to the chair and turn to the right and go to the wall and turn to the left and go to the desk",
-                        "pick up the clock on the desk",
-                        "turn to the right twice and take a step and turn to the right and go forward past the desk and turn to the right and take a step",
-                        "turn on the light on the top shelf on the desk"
-                    ],
-                    "task_desc":"Examine a clock by the light of a desk lamp",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3QRYMNZ7F1YTK8HANDWVEEV7J6QNTG",
-                    "high_descs":[
-                        "Walk over to the desk on your left. ",
-                        "Pick up the alarm clock that is on the desk. ",
-                        "Move over to the far left side of the desk. ",
-                        "Turn on the lamp. "
-                    ],
-                    "task_desc":"Inspect an alarm clock using the light of a lamp. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3VE8AYVF8PEYYWC5MR2NFDQB32C8FY",
-                    "high_descs":[
-                        "Go left and face the desk.",
-                        "Pick the clock up from the desk.",
-                        "Go to the right of the desk and look up.",
-                        "Turn the lamp on."
-                    ],
-                    "task_desc":"Turn a lamp on with a clock in hand.",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Examine a clock by the light of a desk lamp",
+                "Inspect an alarm clock using the light of a lamp. ",
+                "Turn a lamp on with a clock in hand."
             ],
             "relative_objects":[
                 "AlarmClock",
@@ -644,54 +144,9 @@
         },
         "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_33OOO72IVK2AT4KJYNNHY31VK09TCX",
-                    "high_descs":[
-                        "Move to the right side of the wooden desk",
-                        "Pick up the clock sitting on the top desk shelf to the right",
-                        "Carry the clock over to the left side of the desk shelf",
-                        "Turn on the lamp sitting on the top desk shelf"
-                    ],
-                    "task_desc":"Turn on a light while holding a clock",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3UWN2HHPU1MS584VYDR549ZLHLJSNZ",
-                    "high_descs":[
-                        "Head left to the desk",
-                        "Take the alarm clock from the shelf",
-                        "Head to the left",
-                        "Facing the trash can, turn on the lamp"
-                    ],
-                    "task_desc":"Take the alarm clock off the shelf, turn on the lamp",
-                    "votes":[
-                        1,
-                        0,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_37XITHEISZQXDP7RUYIMYO0DWM0CR5",
-                    "high_descs":[
-                        "Turn left and walk forward to the right side of the desk against the wall.",
-                        "Pick up the alarm clock which is on the top shelf of the desk.",
-                        "Walk to the left side of the desk and stand to the left of the lamp on the top shelf of the desk.",
-                        "Turn on the lamp."
-                    ],
-                    "task_desc":"Examine an alarm clock by the light of a desk lamp.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Turn on a light while holding a clock",
+                "Take the alarm clock off the shelf, turn on the lamp",
+                "Examine an alarm clock by the light of a desk lamp."
             ],
             "relative_objects":[
                 "AlarmClock",
@@ -700,42 +155,8 @@
         },
         "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190907_054125_590269/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1K5ILJMG439M5_3MH9DQ757ZT2ATFD0E9ATQ8C11CUGT",
-                    "high_descs":[
-                        "Turn left and take a step to the trash can.",
-                        "Pick up the book to the right of the smartphone on the left side of the desk.",
-                        "Go over to the bed and face the mattress.",
-                        "Put the book on the edge of the bed so it's in between the three laptops.",
-                        "Go back to the desk, but face the right edge of the desk this time.",
-                        "Pick up the book that's in front of the coffee mug.",
-                        "Go back to the bed and face the mattress again.",
-                        "Put the book down in front of the previous book."
-                    ],
-                    "task_desc":"Move the books to the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2CT57W84KXX25_3SB4CE2TJYCTH6W5JJSNHBWDXNGXAA",
-                    "high_descs":[
-                        "Walk over to the table",
-                        "Pick the book up from the table",
-                        "Carry it to the bed",
-                        "Place the book on the bed",
-                        "Walk over to the table and grab another book",
-                        "Carry that book over to the bed",
-                        "Place that book on the bed",
-                        "Put it in between the computers "
-                    ],
-                    "task_desc":"Putting the books on the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the books to the bed.",
+                "Putting the books on the bed"
             ],
             "relative_objects":[
                 "Book"
@@ -743,42 +164,8 @@
         },
         "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190908_104725_283867/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_32SVAV9L3IQH18PRZULZAV79QSF3AG",
-                    "high_descs":[
-                        "Turn around, go straight to the wall, turn left to face the desk.",
-                        "Take the book most to the right from the desk.",
-                        "Turn around, go straight to the bed, turn right, go straight past the bed, turn left, go straight, turn left to face the side of the bed.",
-                        "Put the book on the bed.",
-                        "Turn left, go straight to the garbage can to the left of the desk.",
-                        "Take the book on the left of the desk.",
-                        "Turn around, go back to the side of the bed and face the bed.",
-                        "Put the book to the right of the other book."
-                    ],
-                    "task_desc":"Put 2 books on a bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3EJJQNKU9UMOUXI7GQWN9FXT9AURHA",
-                    "high_descs":[
-                        "Turn around and walk forward then turn left to face the desk",
-                        "Pick up the right most book from the desk",
-                        "Turn around and walk over to the side of the bed",
-                        "Put the book down on the bed",
-                        "Turn left and walk back over to the desk",
-                        "Pick up the left most book from the desk",
-                        "Turn right and walk back over to the side of the bed",
-                        "Put the book down on the bed just right of the other book"
-                    ],
-                    "task_desc":"Put the books on the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put 2 books on a bed.",
+                "Put the books on the bed"
             ],
             "relative_objects":[
                 "Book"

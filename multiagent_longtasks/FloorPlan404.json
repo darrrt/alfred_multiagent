@@ -3,33 +3,9 @@
     "trials":{
         "tests_unseen/trial_T20190908_045822_527043/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn left, go forward to the wall.",
-                        "Take the candle from the corner of the tub rim.",
-                        "Turn around, go forward to the door, turn left, go forward to the plunger on the floor.",
-                        "Put the candle on the toilet tank's right side."
-                    ],
-                    "task_desc":"Put a candle on a toilet tank."
-                },
-                {
-                    "high_descs":[
-                        "turn left to the tub",
-                        "grab the candle by the tub",
-                        "turn around, walk across the room to the toilet",
-                        "put the candle on the toilet"
-                    ],
-                    "task_desc":"move the candle from the tub to the toilet"
-                },
-                {
-                    "high_descs":[
-                        "turn left and walk towards the bathtub",
-                        "pick up the candle from the tub",
-                        "turn around and walk towards the door. make a left and walk forward to the toilet",
-                        "place the candle on the toilet"
-                    ],
-                    "task_desc":"move the candle from the tub to the toilet"
-                }
+                "Put a candle on a toilet tank.",
+                "move the candle from the tub to the toilet",
+                "move the candle from the tub to the toilet"
             ],
             "relative_objects":[
                 "Toilet",
@@ -38,147 +14,27 @@
         },
         "tests_unseen/trial_T20190906_175851_641650/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn around and walk to the bathtub. ",
-                        "Pick up the yellow towel on the right in the bathtub. ",
-                        "Turn around and walk to the sink. ",
-                        "Place the yellow towel in the sink, turn on the water for three seconds, then turn the water off and take the towel. ",
-                        "Turn around and walk across the room. ",
-                        "Put the yellow towel on the bottom shelf, to the left of the box of tissue. "
-                    ],
-                    "task_desc":"To wash the towel."
-                },
-                {
-                    "high_descs":[
-                        "move to the tub to the left of you",
-                        "pick up a rag from the tub",
-                        "move to the sink to the right",
-                        "clean the rag in the sink",
-                        "move to the shelf behind you",
-                        "put the rag on the shelf"
-                    ],
-                    "task_desc":"Put a cleaned rag on the shelf."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and take a step to your left.",
-                        "Pick up the wash cloth that's to the right of the other one.",
-                        "Turn around and take two steps then turn left and walk to the garbage that's to the left of the toilet.",
-                        "Get the cloth wet in the sink.",
-                        "Turn around and walk to the shelves.",
-                        "Put the wet cloth to the left of the tissues on the bottom shelf."
-                    ],
-                    "task_desc":"Put a wet wash cloth on a shelf."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and walk to the center of the tub.",
-                        "Pick up the yellow wash cloth to the right of another.",
-                        "Turn around and walk so you are facing the garbage to the left of the toilet.",
-                        "Put the wash cloth in the sink and get it wet.",
-                        "Turn around and make your way to the shelf running along the wall on the floor.",
-                        "Place the wash cloth to the left of the box of tissues."
-                    ],
-                    "task_desc":"Place a wet wash cloth on a shelf in the bathroom."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and walk to the bath tub.",
-                        "Pick up the dirty rag on the right inside of the bath tub.",
-                        "Turn around, then walk across the room and turn left towards the sink.",
-                        "Rinse the dirty rag in the sink.",
-                        "Pick up the rag, then turn around and walk towards the shelves.",
-                        "Place the rag on the bottom shelf."
-                    ],
-                    "task_desc":"Place a clean rag on the bathroom shelf."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and walk to the tub.",
-                        "Pick up the yellow rag on the right.",
-                        "Turn right and walk to the sink.",
-                        "Wash the rag in the sink.",
-                        "Turn around and walk to the wall with the two shelves.",
-                        "Place the yellow rag to the left of the tissue box on the bottom shelf."
-                    ],
-                    "task_desc":"Put a washed rag on a shelf."
-                }
+                "To wash the towel.",
+                "Put a cleaned rag on the shelf.",
+                "Put a wet wash cloth on a shelf.",
+                "Place a wet wash cloth on a shelf in the bathroom.",
+                "Place a clean rag on the bathroom shelf.",
+                "Put a washed rag on a shelf."
             ],
             "relative_objects":[
                 "Towel",
-                "HandTowel",
-                "Cloth"
+                "Cloth",
+                "HandTowel"
             ]
         },
         "tests_unseen/trial_T20190906_175831_724598/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Walk over to the shelf left of the bath tub",
-                        "Pick up the yellow cloth from the shelf",
-                        "Turn around and go to the sink",
-                        "Wash the cloth in the sink and pick it up again",
-                        "Turn around and walk back to the white shelf",
-                        "Put the yellow cloth on the lower shelf left of the spray bottle"
-                    ],
-                    "task_desc":"Place the clean cloth on the lower shelf"
-                },
-                {
-                    "high_descs":[
-                        "Walk forward and to the right to face the two shelves.",
-                        "Pick the yellow rag up off the top shelf.",
-                        "Turn around and veer left to the sink.",
-                        "Wash the rag in the sink and pick it back up.",
-                        "Turn around and go back to the wall with the two shelves.",
-                        "Place the yellow rag to the left of the purple bottom on the bottom shelf."
-                    ],
-                    "task_desc":"Put a clean rag on a shelf."
-                },
-                {
-                    "high_descs":[
-                        "Turn to the right and then the left to face the top white shelf with the yellow cloth.",
-                        "Pick the yellow towel up from the shelf.",
-                        "Turn around and cross the room to face the sink.",
-                        "Put the cloth in the sink and turn the water on and then off and then pick up the cloth from the sink.",
-                        "Turn around and cross the room to face the white shelves.",
-                        "Put the cloth on the bottom shelf to the left of the blue bottle."
-                    ],
-                    "task_desc":"Put a clean cloth on a shelf."
-                },
-                {
-                    "high_descs":[
-                        "Turn right, head towards the tub, then turn left and go to the yellow rag on the white shelf.",
-                        "Pick up the yellow rag on the shelf. ",
-                        "Turn around, bring the rag to the sink. ",
-                        "Wash the rag in the sink with water. ",
-                        "Take the cleaned rag back to the white shelf.",
-                        "Put the cleaned rag on the bottom shelf next to the spray bottle. "
-                    ],
-                    "task_desc":"Put a cleaned rag on the bottom shelf. "
-                },
-                {
-                    "high_descs":[
-                        "Walk forward and slightly to the right towards the yellow cloth by the wall.",
-                        "Pick up the yellow cloth from the shelf.",
-                        "Turn around and walk to the sink.",
-                        "Put the cloth in the sink, rinse it off, and take it out of the sink.",
-                        "Turn around and walk to the spray bottle on the shelf near the floor.",
-                        "Put the cloth on that shelf, in front of and between the spray bottle and empty roll of toilet paper."
-                    ],
-                    "task_desc":"Put a cleaned yellow cloth on a shelf near the floor."
-                },
-                {
-                    "high_descs":[
-                        "Turn right, walk across the room, turn left and walk to the shelves.",
-                        "Pick up the wash cloth on the shelf.",
-                        "Turn around and walk towards the sink.",
-                        "Place the wash cloth in the sink and turn on the water. Remove the wash cloth.",
-                        "Turn around and walk to the shelves.",
-                        "Place the wash cloth on the bottom shelf."
-                    ],
-                    "task_desc":"Wet the wash cloth."
-                }
+                "Place the clean cloth on the lower shelf",
+                "Put a clean rag on a shelf.",
+                "Put a clean cloth on a shelf.",
+                "Put a cleaned rag on the bottom shelf. ",
+                "Put a cleaned yellow cloth on a shelf near the floor.",
+                "Wet the wash cloth."
             ],
             "relative_objects":[
                 "Cloth"
@@ -186,33 +42,9 @@
         },
         "tests_unseen/trial_T20190909_075519_322891/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn around and walk to the white shelves on the wall to the left.",
-                        "Pick up the far left box of tissues on the bottom shelf.",
-                        "Turn left, hang a left at the door and walk to the toilet.",
-                        "Put the box of tissues on the back side of the toilet tank in between the spray bottle and the empty roll of toilet paper."
-                    ],
-                    "task_desc":"Place a box of tissues on a toilet tank."
-                },
-                {
-                    "high_descs":[
-                        "Turn around completely and turn right and face the white shelves",
-                        "Pick up the tissue box from the shelf. ",
-                        "Turn to the left and then turn again to face the toilet.",
-                        "Place the tissue box on the back end of the toilet."
-                    ],
-                    "task_desc":"Move the tissue box to the back end of the toilet. "
-                },
-                {
-                    "high_descs":[
-                        "Turn around and walk left to the shelves on the wall.",
-                        "Pick up the leftmost tissue box on the bottom shelf.",
-                        "Turn around and walk to the toilet.",
-                        "Place the tissue box on the toilet behind the purple spray bottle."
-                    ],
-                    "task_desc":"Place a tissue box on a toilet tank."
-                }
+                "Place a box of tissues on a toilet tank.",
+                "Move the tissue box to the back end of the toilet. ",
+                "Place a tissue box on a toilet tank."
             ],
             "relative_objects":[
                 "TissueBox"
@@ -220,39 +52,9 @@
         },
         "tests_unseen/trial_T20190908_125051_986015/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Walk forward to the bathtub",
-                        "Pick up the soap bar from the left side of the bathtub",
-                        "Turn right and walk over to the sink",
-                        "Wash the soap bar under the water in the sink and remove it",
-                        "Turn around and walk over to the white wall shelf",
-                        "Put the soap bar on the bottom shelf"
-                    ],
-                    "task_desc":"Put the rinsed soap bar on the bottom shelf"
-                },
-                {
-                    "high_descs":[
-                        "Take a step forward to the bath tub.",
-                        "Pick up the soap from the edge of the tub. ",
-                        "Hold the soap and turn around, then left to go to the sink.",
-                        "Place the soap in the sink and turn on water. Turn off the water and pick up the soap.",
-                        "Carry the soap and turn around to the shelf.",
-                        "Place the soap on the bottom shelf by the floor."
-                    ],
-                    "task_desc":"Rinse the soap and place on the shelf."
-                },
-                {
-                    "high_descs":[
-                        "Walk ahead to the bathtub.",
-                        "Pick up the soap on the tub lip.",
-                        "Turn right and walk to the sink.",
-                        "Rinse the soap in the sink.",
-                        "Turn around and walk to the shelves.",
-                        "Place the soap on the bottom shelf to the right of the empty toilet paper roll."
-                    ],
-                    "task_desc":"Place a rinsed bar of soap on a shelf."
-                }
+                "Put the rinsed soap bar on the bottom shelf",
+                "Rinse the soap and place on the shelf.",
+                "Place a rinsed bar of soap on a shelf."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -260,36 +62,9 @@
         },
         "tests_unseen/trial_T20190908_124807_847088/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Go to the right and face the right side of the sink.",
-                        "Pick the soap up from the counter.",
-                        "Put the soap in the sink and turn the water off and then on and pick the soap back up.",
-                        "Turn to the left and face the tub.",
-                        "Put the soap in the tub."
-                    ],
-                    "task_desc":"Put a clean bar of soap in a tub."
-                },
-                {
-                    "high_descs":[
-                        "Turn right and go to the sink",
-                        "Pick up the bar of soap from the edge of the sink",
-                        "Put the bar of soap in the sink and turn on the water, then turn off the water and pick up the bar of soap",
-                        "Turn around, then turn right and go to the bath tub",
-                        "Put the bar of soap in the bath tub"
-                    ],
-                    "task_desc":"Put a clean wet bar of soap in the bath tub"
-                },
-                {
-                    "high_descs":[
-                        "Turn to your right and go to the sink across the room. ",
-                        "Pick up the bar of soap on the front, right corner of the sink. ",
-                        "Place it in the sink, turn the water on and rinse the bar of soap, turn the water off, and remove the bar of soap from the sink.",
-                        "Go to the bathtub on your left. ",
-                        "Place the bar of soap in the bathtub, between the two rags. "
-                    ],
-                    "task_desc":"Put a bar of soap in the bathtub."
-                }
+                "Put a clean bar of soap in a tub.",
+                "Put a clean wet bar of soap in the bath tub",
+                "Put a bar of soap in the bathtub."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -297,75 +72,21 @@
         },
         "tests_unseen/trial_T20190909_075542_549772/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn and walk to the shelves on the left, and look up at the top shelf. ",
-                        "Pick up the tissue box to the right of the rag. ",
-                        "Walk over to the toilet and face the back of the toilet. ",
-                        "Put the tissue box down behind the spray bottle on the back of the toilet. "
-                    ],
-                    "task_desc":"To move a tissue box to the back of the toilet. "
-                },
-                {
-                    "high_descs":[
-                        "Turn left and walk to the shelves then take a step to your left.",
-                        "Loop up high and grab the box of tissues that are up there.",
-                        "Turn left and walk to the door then turn left and walk forward to the space to the right of the toilet.",
-                        "Put the box of tissues above the purple spray bottle on it's end so it's sitting behind the bottle vertically.."
-                    ],
-                    "task_desc":"Put a box of tissues on the toilet."
-                },
-                {
-                    "high_descs":[
-                        "turn around, go to top white shelf above blue bottle",
-                        "pick up tissue box from top shelf",
-                        "turn around, go to right side of toilet",
-                        "place tissue box on toilet behind purple bottle"
-                    ],
-                    "task_desc":"place tissue box behind purple bottle on toilet"
-                }
+                "To move a tissue box to the back of the toilet. ",
+                "Put a box of tissues on the toilet.",
+                "place tissue box behind purple bottle on toilet"
             ],
             "relative_objects":[
-                "SoapBottle",
                 "TissueBox",
-                "ToiletPaper"
+                "ToiletPaper",
+                "SoapBottle"
             ]
         },
         "tests_unseen/trial_T20190908_123406_806951/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn right and take a step then turn left and walk to the tub.",
-                        "Pick up the pink bar of soap that's in front of you.",
-                        "Turn right then take two steps to your right so you face the left side of the sink then take a step towards it..",
-                        "Get the bar of soap wet in the sink and then pick it back up and shut off the water.",
-                        "Walk back to where you got the soap.",
-                        "Put the bar of soap in the middle of the tub just above the side of it so it's in the tub proper near the middle."
-                    ],
-                    "task_desc":"Put a wet bar of soap in the tub."
-                },
-                {
-                    "high_descs":[
-                        "Move to the right and face the tub.",
-                        "Pick the soap up from the tub.",
-                        "Turn around and turn to the left to face the right side of the sink.",
-                        "Put the soap in the sink and turn the water on and then off and pick the soap up again.",
-                        "Turn to the left to face the tub.",
-                        "Put the soap in the tub."
-                    ],
-                    "task_desc":"Put a clean bar of soap in the tub."
-                },
-                {
-                    "high_descs":[
-                        "Turn to the right and take one step, then turn to the left and walk to the bathtub.",
-                        "Pick up the pink soap that is in the bathtub.",
-                        "Turn around and take two steps, then turn left and walk to the sink.",
-                        "Put the soap in the sink, then turn on the faucet for three seconds, then turn the water off and pick up the soap. ",
-                        "Turn around and take one step, then turn right and walk across the room.",
-                        "Put the soap down in the bathtub."
-                    ],
-                    "task_desc":"Wash the sink out."
-                }
+                "Put a wet bar of soap in the tub.",
+                "Put a clean bar of soap in the tub.",
+                "Wash the sink out."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -373,116 +94,32 @@
         },
         "tests_unseen/trial_T20190907_002139_205274/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn right and walk to the white shelf on your left.",
-                        "Pick up the left tissue box on the top shelf.",
-                        "Turn around and walk over the the toilet that is in front of you.",
-                        "Place tissue box on top of the back of the toilet",
-                        "Turn around and walk over to the white shelf in front of you.",
-                        "Pick up the left tissue box that is on the top shelf.",
-                        "Turn back around and walk to the toilet that is in front of you.",
-                        "Place tissue box on top of the back of the toilet, on its side"
-                    ],
-                    "task_desc":"Place tissue boxes on the back of a toilet. "
-                }
+                "Place tissue boxes on the back of a toilet. "
             ],
             "relative_objects":[
-                "Toilet",
-                "TissueBox"
+                "TissueBox",
+                "Toilet"
             ]
         },
         "tests_unseen/trial_T20190907_071807_498508/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn left and head to the shelf past the tub.",
-                        "Pick up the purple spray bottle on the shelf. ",
-                        "Turn left, go to wall, turn left, go to the toilet.",
-                        "Put the bottle on the toilet."
-                    ],
-                    "task_desc":"Put a spray bottle on the toilet. "
-                },
-                {
-                    "high_descs":[
-                        "Move to the shelf to the left of the tub on the right hand side.",
-                        "Pick up the spray bottle from the shelf.",
-                        "Move to the toilet behind you on the right side.",
-                        "Place the bottle on the back of the toilet."
-                    ],
-                    "task_desc":"Put a purple spray bottle on the back of the toilet."
-                },
-                {
-                    "high_descs":[
-                        "Go forward and turn left to face the white shelf.",
-                        "Pick up the purple bottle from the shelf.",
-                        "Turn around and face the toilet.",
-                        "Put the bottle on the back of the toilet."
-                    ],
-                    "task_desc":"Put a bottle on the back of a toilet."
-                },
-                {
-                    "high_descs":[
-                        "walk towards tub, turn left, walk forward",
-                        "pick up spray bottle from bottom shelf",
-                        "turn left, walk towards the door, turn left, walk across the room",
-                        "put the spray bottle on the back of the toilet"
-                    ],
-                    "task_desc":"move spray bottle from shelf to back of toilet"
-                },
-                {
-                    "high_descs":[
-                        "Walk forward and turn right to face the shelves.",
-                        "Pick up the spray bottle from the bottom shelf.",
-                        "Turn left and stand in front of the toilet.",
-                        "Put the bottle on the back of the toilet."
-                    ],
-                    "task_desc":"Put the spray bottle on the back of the toilet."
-                },
-                {
-                    "high_descs":[
-                        "Move forward, hang a left when you reach the tub, and walk up to the white shelving. ",
-                        "Pick up the spray bottle from the bottom shelf.",
-                        "Turn to your left, walk towards the door, and then walk up to the toilet on your left. ",
-                        "Place the spray bottle between the soap dispenser and the bar of soap on the back of the toilet. "
-                    ],
-                    "task_desc":"Move a spray bottle to the back of the toilet. "
-                }
+                "Put a spray bottle on the toilet. ",
+                "Put a purple spray bottle on the back of the toilet.",
+                "Put a bottle on the back of a toilet.",
+                "move spray bottle from shelf to back of toilet",
+                "Put the spray bottle on the back of the toilet.",
+                "Move a spray bottle to the back of the toilet. "
             ],
             "relative_objects":[
-                "SprayBottle",
-                "ToiletPaper"
+                "ToiletPaper",
+                "SprayBottle"
             ]
         },
         "tests_unseen/trial_T20190907_071825_279908/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn to your right and walk towards the shelves and look up at the purple bottle.",
-                        "Take the spray bottle on the shelf.",
-                        "Bring it down and turn left and go towards the door. Turn left and walk towards the plunger and raise the bottle up.",
-                        "Place the purple bottle on the back of the toilet."
-                    ],
-                    "task_desc":"Move the purple spray bottle from the shelf to the back of the toilet."
-                },
-                {
-                    "high_descs":[
-                        "turn right and walk to the shelves along the wall and look up",
-                        "pick up the purple spray bottle on the top shelf",
-                        "look back down turn left and walk to the toilet",
-                        "place the purple spray bottle on to the reservoir of the toilet"
-                    ],
-                    "task_desc":"place a purple spray bottle on to the reservoir of the toilet"
-                },
-                {
-                    "high_descs":[
-                        "turn to the right and go forward to the shelves",
-                        "take the purple spray bottle from the top shelf",
-                        "turn to the left and move forward to the door and turn to the left and move forward to the toilet",
-                        "place the spray bottle on the toilet basin"
-                    ],
-                    "task_desc":"Place the spray bottle on the toilet basin"
-                }
+                "Move the purple spray bottle from the shelf to the back of the toilet.",
+                "place a purple spray bottle on to the reservoir of the toilet",
+                "Place the spray bottle on the toilet basin"
             ],
             "relative_objects":[
                 "Toilet",
@@ -491,39 +128,9 @@
         },
         "tests_unseen/trial_T20190907_174408_206977/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Walk forward to the tub.",
-                        "Pick up the yellow washcloth in the tub.",
-                        "Turn around and walk to the right side of the sink on your left and face the garbage to the left of the toilet.",
-                        "Get the wash cloth wet in the sink and pick it back up and close the tap.",
-                        "Go back to where you got the yellow cloth.",
-                        "Put the yellow cloth back where you got it."
-                    ],
-                    "task_desc":"Put a wet washcloth in the tub."
-                },
-                {
-                    "high_descs":[
-                        "Walk across the room to the bath tub. ",
-                        "Pick up the yellow rag in the center of the bath tub. ",
-                        "Turn around and go to the sink on your left. ",
-                        "Place the yellow rag in the sink, turn the water on, rinse the rag out, turn the water off, and remove the rag. ",
-                        "Turn around and walk back to the bath tub to your right. ",
-                        "Put the yellow rag back in the bath tub. "
-                    ],
-                    "task_desc":"Put a clean, yellow rag in the bath tub. "
-                },
-                {
-                    "high_descs":[
-                        "Walk to the tub.",
-                        "Take the washcloth out of the tub.",
-                        "Turn right and go to the sink.",
-                        "Put the washcloth in the sink, wash it and pick it back up.",
-                        "Go back to the tub.",
-                        "Put the washcloth back in the tub."
-                    ],
-                    "task_desc":"Rinse the washcloth in the sink and put it back in the tub."
-                }
+                "Put a wet washcloth in the tub.",
+                "Put a clean, yellow rag in the bath tub. ",
+                "Rinse the washcloth in the sink and put it back in the tub."
             ],
             "relative_objects":[
                 "Cloth"
@@ -531,111 +138,24 @@
         },
         "tests_unseen/trial_T20190908_123519_305249/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn to your left and go to the garbage can on the floor, between the ink and the toilet.",
-                        "Pull out the bar of soap from the garbage can. ",
-                        "Place the bar of soap in the sink, turn the water on, rinse off the bar of soap, turn the water off, and remove the bar of soap from the sink.",
-                        "Turn to your left and go to the bathtub across from you. ",
-                        "Place the bar of soap to the left of the three rags, in the bathtub."
-                    ],
-                    "task_desc":"Put a clean bar of soap in the bathtub."
-                },
-                {
-                    "high_descs":[
-                        "Turn left and walk up to the trash bin right of the bathroom sink",
-                        "Pick up the soap bar from the trash bin",
-                        "Wash the soap bar in the sink and remove it",
-                        "Turn left and walk up to the side of the bathtub",
-                        "Put the soap bar in the bathtub"
-                    ],
-                    "task_desc":"Put the cleaned soap bar in the bathtub"
-                },
-                {
-                    "high_descs":[
-                        "Walk to the edge of the kitchen sink on your left.",
-                        "Grab a soap bar from the trash can.",
-                        "Put the soap bar under the faucet, wash it, then grab it.",
-                        "Walk to the tub on your left.",
-                        "Place the soap bar in the tub."
-                    ],
-                    "task_desc":"Wash a soap bar to use in the tub."
-                }
+                "Put a clean bar of soap in the bathtub.",
+                "Put the cleaned soap bar in the bathtub",
+                "Wash a soap bar to use in the tub."
             ],
             "relative_objects":[
-                "Cloth",
                 "Bathtub",
+                "Cloth",
                 "SoapBar"
             ]
         },
         "tests_unseen/trial_T20190906_175911_563263/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn left and walk over to the bath mat. Then turn right and face the bath tub.",
-                        "Pick up the yellow rag from the bath tub.",
-                        "Turn around and walk towards the toilet, then turn left and move towards the sink.",
-                        "Drop the rag in the sink and wash it off with water.",
-                        "Turn around and walk to the bench on floor against the wall on the other side of the room.",
-                        "Put the rag on the bench next to the candle."
-                    ],
-                    "task_desc":"Put a clean rag on the bench."
-                },
-                {
-                    "high_descs":[
-                        "Take a step left.",
-                        "Pick up the yellow rag.",
-                        "Turn around and walk to the sink on the left.",
-                        "Wash the rag in the sink and pick it back up.",
-                        "Turn around and walk to the wall with two shelves.",
-                        "Place the rag on the bottom shelf to the left of the candle."
-                    ],
-                    "task_desc":"Place a rag on shelf."
-                },
-                {
-                    "high_descs":[
-                        "Move slightly to the left and stand in front of the bath tub.",
-                        "Pick up the yellow cloth from the bath tub basin.",
-                        "Turn right and walk to the sink.",
-                        "Put the cloth in the sink, rinse it off, and take it out of the sink.",
-                        "Turn around and walk forward to the shelf close to the floor containing the candle.",
-                        "Put the cloth on the shelf, to the left of the candle."
-                    ],
-                    "task_desc":"Put a cleaned yellow cloth on a shelf close to the floor."
-                },
-                {
-                    "high_descs":[
-                        "Turn left and take one step, then turn right to face the bathtub. ",
-                        "Pick up the yellow cloth in the middle of the bathtub. ",
-                        "Turn around and take two steps, then turn left to face the sink. ",
-                        "Place the yellow cloth in the sink, turn on the water for two seconds, then turn the water off and pick up the yellow cloth. ",
-                        "Turn left and take one step, then turn left and walk across the room. ",
-                        "Place the yellow cloth on the middle of the bottom shelf. "
-                    ],
-                    "task_desc":"To wash the yellow cloth. "
-                },
-                {
-                    "high_descs":[
-                        "Move slightly left then turn back right to face the bathtub",
-                        "Pick up the yellow cloth from the tub",
-                        "Turn around and walk up to the sink",
-                        "Wash the yellow cloth under water in the sink then remove it",
-                        "Turn around and walk up to the white shelves against the wall",
-                        "Put the cloth down on the bottom shelf"
-                    ],
-                    "task_desc":"Put the washed yellow cloth on the shelf"
-                },
-                {
-                    "high_descs":[
-                        "Turn left and move to the center of the tub.",
-                        "Pick up the yellow wash cloth in the tub.",
-                        "Turn around and face the waste paper basket between the sink and the tub.",
-                        "Put the wash cloth in the sink and get it wet.",
-                        "Turn left and walk until you hit the tub and then turn and walk to the shelf near the floor.",
-                        "Put the wash cloth to the left of the white and orange object."
-                    ],
-                    "task_desc":"Put a wet wash cloth on a shelf in the bathroom."
-                }
+                "Put a clean rag on the bench.",
+                "Place a rag on shelf.",
+                "Put a cleaned yellow cloth on a shelf close to the floor.",
+                "To wash the yellow cloth. ",
+                "Put the washed yellow cloth on the shelf",
+                "Put a wet wash cloth on a shelf in the bathroom."
             ],
             "relative_objects":[
                 "Towel",
@@ -644,69 +164,21 @@
         },
         "tests_unseen/trial_T20190909_044412_092826/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn around and walk across the room to the trash can next to the toilet.",
-                        "Pick up the bottle from the trash can.",
-                        "Turn around and walk to the shelves on the opposite wall.",
-                        "Set the bottle down in between the two boxes of tissue."
-                    ],
-                    "task_desc":"Move a bottle from the trash can to the shelf between the boxes of tissue."
-                },
-                {
-                    "high_descs":[
-                        "Turn around completely and walk forward to the silver bin.",
-                        "Pick up the soap dispenser from the silver bin.",
-                        "Turn around completely and walk to the white shelves.",
-                        "Place the soap dispenser on the bottom shelf next to the tissues. "
-                    ],
-                    "task_desc":"Move a soap dispenser to a shelf. "
-                }
+                "Move a bottle from the trash can to the shelf between the boxes of tissue.",
+                "Move a soap dispenser to a shelf. "
             ],
             "relative_objects":[
+                "TissueBox",
                 "SoapBottle",
-                "SprayBottle",
-                "TissueBox"
+                "SprayBottle"
             ]
         },
         "tests_unseen/trial_T20190907_071843_438620/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn right and walk in the direction of the sink.",
-                        "Pick up the purple spray bottle from the inside of the gray can located between the sink and the toilet.",
-                        "Turn around and walk towards the direction of the door.",
-                        "Walk to the area between the wall and the toilet and place the spray can on the back of the toilet to the right of the yellow rag as you are facing the toilet. "
-                    ],
-                    "task_desc":"Move the purple spray can from the gray can to the back of the toilet"
-                },
-                {
-                    "high_descs":[
-                        "Turn right and walk up to the trash bin right of the sink",
-                        "Pick up the purple spray bottle from the trash bin",
-                        "Turn right and walk around to the far side of the toilet",
-                        "Put the purple spray bottle on top of the back of the toilet"
-                    ],
-                    "task_desc":"Put the purple spray bottle on the toilet"
-                },
-                {
-                    "high_descs":[
-                        "walk forward, turn right, walk towards sink,",
-                        "pick up the spray bottle that is in the trash",
-                        "walk around the toilet, face the toilet",
-                        "place the spray bottle on the back of the toilet"
-                    ],
-                    "task_desc":"get a spray bottle to put on the back of the toilet"
-                },
-                {
-                    "high_descs":[
-                        "turn right, walk towards sink",
-                        "pick up the spray bottle that is in the trash can",
-                        "turn to the right, go past toilet, turn left, face the  wall",
-                        "put spray bottle on the back of the toilet"
-                    ],
-                    "task_desc":"get a spray bottle from trash to put on the back of the toilet"
-                }
+                "Move the purple spray can from the gray can to the back of the toilet",
+                "Put the purple spray bottle on the toilet",
+                "get a spray bottle to put on the back of the toilet",
+                "get a spray bottle from trash to put on the back of the toilet"
             ],
             "relative_objects":[
                 "SprayBottle"
@@ -714,33 +186,9 @@
         },
         "tests_unseen/trial_T20190909_075611_325782/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Make a left to walk to the wall across from the toilet.",
-                        "Pick up the box of tissues on the right.",
-                        "Turn around to walk towards the toilet.",
-                        "Put the box of tissues down on the lid of the toilet tank."
-                    ],
-                    "task_desc":"Put a box of tissues on the lid of the toilet tank."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and go to the shelf's on the wall, to the left of the bath tub, across the room. ",
-                        "Pick up the box of tissue on the right. ",
-                        "Turn around and go to the toilet across the room, in the right corner. ",
-                        "Place the box of tissue on the back, right side of the toilet. "
-                    ],
-                    "task_desc":"Put a box of tissue on the back of the toilet. "
-                },
-                {
-                    "high_descs":[
-                        "Turn around and walk to the front of the toilet, then turn right and walk to the floor mat then turn left and walk to the shelf.",
-                        "Pick up the tissue box from the shelf that is between the other tissue box and the rag.",
-                        "Turn left and walk to the corner then turn left and walk to the toilet.",
-                        "Put the tissue box on top of the toilet tank."
-                    ],
-                    "task_desc":"Put a box of tissues on top of the toilet."
-                }
+                "Put a box of tissues on the lid of the toilet tank.",
+                "Put a box of tissue on the back of the toilet. ",
+                "Put a box of tissues on top of the toilet."
             ],
             "relative_objects":[
                 "TissueBox",
@@ -749,32 +197,8 @@
         },
         "tests_unseen/trial_T20190907_002230_575700/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Look right and then look back left to where you were.",
-                        "Pick up the box of tissues.",
-                        "Then turn left, go to the door, turn left again until facing the toilet.",
-                        "Put the tissue box on top of the toilet.",
-                        "Turn left, go forward and turn left again until facing the white shelf again.",
-                        "Look up and grab the other box of tissues.",
-                        "Turn left, go forward and turn left again until facing the toilet.",
-                        "Put the second box of toilets on the toilet as well."
-                    ],
-                    "task_desc":"Arranging tissue boxes in a bathroom."
-                },
-                {
-                    "high_descs":[
-                        "walk over to the bathroom shelves",
-                        "pick up a box of tissues",
-                        "bring the box of tissues over to the toilet",
-                        "put the box of tissues on top of the toilet",
-                        "turn around and walk back over to the bathroom shelves",
-                        "pick up the box of tissues off the top shelf",
-                        "walk back over to the toilet",
-                        "put the tissue box on its side next to the other tissue box"
-                    ],
-                    "task_desc":"put both of the tissue boxes on top of the bathroom toilet"
-                }
+                "Arranging tissue boxes in a bathroom.",
+                "put both of the tissue boxes on top of the bathroom toilet"
             ],
             "relative_objects":[
                 "TissueBox",
@@ -783,68 +207,20 @@
         },
         "tests_unseen/trial_T20190908_045838_263858/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn right, walk straight, turn left to the bath tub",
-                        "Pick up the candle on the tub",
-                        "Turn left, walk straight, turn left to the toilet",
-                        "Put the candle on top of the toilet"
-                    ],
-                    "task_desc":"Put a candle on top of a toilet"
-                },
-                {
-                    "high_descs":[
-                        "Head across the room to the bathtub",
-                        "Pick up the candle that is sitting on the edge of the bathtub",
-                        "Turn around and cross the room, then turn left and face the toilet",
-                        "Place the candle on the back of the toilet to the right of the purple spray bottles"
-                    ],
-                    "task_desc":"Place a candle on the back of a toilet"
-                },
-                {
-                    "high_descs":[
-                        "Walk to the edge of the tub in front of the candle.",
-                        "Grab the candle off the tub.",
-                        "Walk to the right edge of the toilet.",
-                        "Place the candle on the right edge of the toilet."
-                    ],
-                    "task_desc":"Move the candle from the tub to the toilet."
-                }
+                "Put a candle on top of a toilet",
+                "Place a candle on the back of a toilet",
+                "Move the candle from the tub to the toilet."
             ],
             "relative_objects":[
-                "Candle",
-                "ToiletPaper"
+                "ToiletPaper",
+                "Candle"
             ]
         },
         "tests_unseen/trial_T20190908_045900_272790/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Move the left and turn to face the white shelves.",
-                        "Pick up the candle from the top shelf.",
-                        "Turn left and then left again to stand facing the toilet.",
-                        "Put the candle on the back of the toilet."
-                    ],
-                    "task_desc":"Put a candle on the toilet."
-                },
-                {
-                    "high_descs":[
-                        "Head to the shelf on the left with the candle.",
-                        "Pick up the candle on the shelf. ",
-                        "Turn around and bring the candle to the toilet.",
-                        "Put the candle on the toilet tank lid. "
-                    ],
-                    "task_desc":"Put a candle on the toilet tank lid. "
-                },
-                {
-                    "high_descs":[
-                        "Turn right and then left then left to the shelf  ",
-                        "pick up the candle from where it is sitting on the top shelf",
-                        "Turn left and cross the bathroom to the toilet ",
-                        "place candle on the back of the toilet "
-                    ],
-                    "task_desc":"Move the candle to the back of the toilet"
-                }
+                "Put a candle on the toilet.",
+                "Put a candle on the toilet tank lid. ",
+                "Move the candle to the back of the toilet"
             ],
             "relative_objects":[
                 "Candle"
@@ -852,19 +228,7 @@
         },
         "tests_unseen/trial_T20190908_110528_569140/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "turn around towards the tub then turn left and walk straight to the shelf",
-                        "pick up the cleaning spray bottle off of the shelf",
-                        "turn left then walk straight towards the door then turn left and walk straight towards the toilet ",
-                        "put the cleaning spray bottle on top of the toilet",
-                        "turn left then walk straight towards the tub then turn left and walk to the shelf and look up",
-                        "pick up the spray bottle on the top shelf",
-                        "turn left towards the door and walk straight then turn left again and walk straight towards the toilet",
-                        "put the cleaning spray bottle on the top of the toilet next to the toilet paper"
-                    ],
-                    "task_desc":"clean up the spray bottles and put them on top of the toilet "
-                }
+                "clean up the spray bottles and put them on top of the toilet "
             ],
             "relative_objects":[
                 "SprayBottle"
@@ -872,81 +236,21 @@
         },
         "tests_unseen/trial_T20190907_174500_858143/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn around and go left to face the tub.",
-                        "Take the yellow towel on the right out of the tub.",
-                        "Turn around and face the sink.",
-                        "Put the yellow towel in the sink and turn the water on and then turn the water off and pick the towel up.",
-                        "Turn to the left and face the tub.",
-                        "Put the towel in the tub."
-                    ],
-                    "task_desc":"Put a clean towel in the tub."
-                },
-                {
-                    "high_descs":[
-                        "Turn to your right walk straight then left face the tub",
-                        "Pick up the right rag on the tub",
-                        "Turn to your right and head to the sink",
-                        "Put the rag in the sink and rinse it",
-                        "Turn to your left and head to the tub",
-                        "Put the clean rag in the tub"
-                    ],
-                    "task_desc":"Clean the rag to put back in the tub"
-                },
-                {
-                    "high_descs":[
-                        "Move to stand in front of the tub. ",
-                        "Pick up the rightmost wash cloth from inside the tub. ",
-                        "Carry the wash cloth to stand by the sink. ",
-                        "Place the wash cloth in the sink, turn on the water to get it wet, and then remove it from the sink. ",
-                        "Carry the wash cloth back to the tub. ",
-                        "Place the wash cloth on top of the other one that's in the tub."
-                    ],
-                    "task_desc":"Get a wash cloth wet to put in the tub. "
-                }
+                "Put a clean towel in the tub.",
+                "Clean the rag to put back in the tub",
+                "Get a wash cloth wet to put in the tub. "
             ],
             "relative_objects":[
                 "Towel",
-                "HandTowel",
-                "Cloth"
+                "Cloth",
+                "HandTowel"
             ]
         },
         "tests_unseen/trial_T20190908_125119_212943/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn around and go to the shelves on the wall, across from you. ",
-                        "Pick up the bar of soap, to the right of the box of tissues, on the bottom shelf.",
-                        "Turn around and go to the sink across the room from you. ",
-                        "Place the bar of soap in the sink, turn the water on, rinse off the bar of soap, turn the water off, and remove the bar of soap from the sink. ",
-                        "Turn around and go back to the shelf on the wall. ",
-                        "Place the bar of soap back on the bottom shelf, to the right of the tissue box. "
-                    ],
-                    "task_desc":"Put a clean bar of soap on the shelf. "
-                },
-                {
-                    "high_descs":[
-                        "Turn around, move to the shelf.",
-                        "Pick up the soap on the lower shelf.",
-                        "Turn around, bring the soap to the sink. ",
-                        "Wash the soap in the sink. ",
-                        "Bring the washed soap back to the shelf behind you.",
-                        "Put the washed soap on the lower shelf. "
-                    ],
-                    "task_desc":"Put washed soap on the lower shelf. "
-                },
-                {
-                    "high_descs":[
-                        "Turn around and walk to the bar of soap on the shelf near the floor.",
-                        "Pick up the bar of soap from the shelf.",
-                        "Turn around and walk forward to the sink.",
-                        "Put the bar of soap in the sink, rinse it off, and take it back out.",
-                        "Turn around and walk back across the room to the shelf near the floor.",
-                        "Put the bar of soap on the shelf near the floor, to the right of the tissues."
-                    ],
-                    "task_desc":"Put a cleaned bar of soap on a shelf near the floor."
-                }
+                "Put a clean bar of soap on the shelf. ",
+                "Put washed soap on the lower shelf. ",
+                "Put a cleaned bar of soap on a shelf near the floor."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -954,54 +258,18 @@
         },
         "tests_unseen/trial_T20190909_044327_889269/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn around and walk forward to reach the bathroom sink.",
-                        "Pick up the soap dispenser in the trash can.",
-                        "Turn left, step forward, turn left and walk to the bathroom shelves.",
-                        "Place the soap dispenser on the bottom shelf to the right of the nail polish."
-                    ],
-                    "task_desc":"Pick up soap dispenser from the trash and place on bathroom shelf."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and walk to the sink.",
-                        "Pick up the soap dispenser that's in the garbage by the toilet.",
-                        "Turn around and walk to the shelves.",
-                        "Put the soap dispenser to the right of the orange thing on the bottom shelf."
-                    ],
-                    "task_desc":"Put a soap dispenser on the shelf."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and walk up to the trash bin by the sink",
-                        "Pick up the pump bottle from the trash bin",
-                        "Turn around and walk across to the white shelves",
-                        "Put the pump bottle on the bottom shelf"
-                    ],
-                    "task_desc":"Put the pump bottle on the bottom shelf"
-                }
+                "Pick up soap dispenser from the trash and place on bathroom shelf.",
+                "Put a soap dispenser on the shelf.",
+                "Put the pump bottle on the bottom shelf"
             ],
             "relative_objects":[
-                "SoapBottle",
-                "Cloth"
+                "Cloth",
+                "SoapBottle"
             ]
         },
         "tests_unseen/trial_T20190908_114400_475494/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Move over to the bathtub and face it so that you're looking down just to the left of where the shower curtain is.",
-                        "Pick up the soap bar that's on the edge of the tub.",
-                        "Take a step to the left with the soap bar.",
-                        "Put the soap bar in the tub so that it's to the left of the yellow wash cloth.",
-                        "Go to your left and face the shelves.",
-                        "Pick up the soap bar that's on the top shelf to the right of the spray bottle.",
-                        "Bring the soap bar back over to the bathtub.",
-                        "Put the second bar of soap in the tub so that it's between the first and the yellow wash cloth."
-                    ],
-                    "task_desc":"Move the bars of soap to the tub."
-                }
+                "Move the bars of soap to the tub."
             ],
             "relative_objects":[
                 "SoapBar"

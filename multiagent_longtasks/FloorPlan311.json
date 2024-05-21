@@ -3,161 +3,23 @@
     "trials":{
         "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3MMN5BL1W2LI39YGWXB4JM28HDB3MA",
-                    "high_descs":[
-                        "Turn to the right and walk to the green chair.",
-                        "Pick up the cell phone.",
-                        "Turn left and walk forward until you get to the table on the right.",
-                        "Place the phone into the bowl closest to you.",
-                        "Pick up the bowl.",
-                        "Turn right and walk to the TV stand.",
-                        "Place the bowl on the left side of the TV."
-                    ],
-                    "task_desc":"Place a bowl with a cell phone in it on a counter.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3R2PKQ87NZPXTCGZH0IRNS4X0VKMI5",
-                    "high_descs":[
-                        "Turn and walk over to the green chair next to the round side table",
-                        "Pick up the cell phone from the green chair",
-                        "Turn left and walk over to the large table",
-                        "Set the phone into the nearest bowl on the table",
-                        "Pick up the bowl with the phone in it",
-                        "Turn around and walk over to the TV cabinet",
-                        "Place the bowl on top of the TV cabinet"
-                    ],
-                    "task_desc":"Place a bowl with phone in it on the TV cabinet",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36DK84J5YJ942_37ZHEEHM6Z3ZI6RTSR9F045JP0I37U",
-                    "high_descs":[
-                        "move to the chair to the right of you",
-                        "pick up a phone from the chair",
-                        "move to the desk to the left of you",
-                        "put the phone in a bowl on the desk",
-                        "pick up the bowl with the phone",
-                        "move to the TV stand",
-                        "put the bowl on the TV stand"
-                    ],
-                    "task_desc":"Put bowl with a phone on the TV stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_384PI804XVIPKCCOX7P7TX3892QS0Q",
-                    "high_descs":[
-                        "Turn right and walk to the green chair.",
-                        "Pick up the cell phone on the chair.",
-                        "Turn left and walk to the table with the two red chairs.",
-                        "Place the phone in the bowl closest to you on the table.",
-                        "Pick up the bowl.",
-                        "Take a few steps right and face the TV.",
-                        "Place the bowl on the TV stand on the left side."
-                    ],
-                    "task_desc":"Place a bowl with a phone in it on a TV stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1OWHPMKE7YAGL_3EWIJTFFVROOAT76WC524GZT8B50EL",
-                    "high_descs":[
-                        "Back up, turn around, go forward, take a left and go forward to the green chair. ",
-                        "Pick up the cell phone that is on the chair. ",
-                        "Turn around, go forward, then hang a right and go forward, go to the dining table on the right where the computer is. ",
-                        "Put the cell phone in the bowl that is in front of the leftmost chair.",
-                        "Pick up the bowl containing the cell phone from the table. ",
-                        "Turn around, go forward then hang a left, go forward to the table where the TV is that will be on the left. ",
-                        "Put the bowl on the far left side of the table in front of the TV."
-                    ],
-                    "task_desc":"Put a bowl containing a cell phone on a table. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AFU00NU09CFXE_3DR23U6WE8VPQ24XUETCOR1X294TEX",
-                    "high_descs":[
-                        "Turn around and move to stand directly in front of the green chair. ",
-                        "Pick the cell phone up from the chair that's to the right of the remote control. ",
-                        "Turn and cross the room towards the door and stop when you're next to the table on the right and facing it. ",
-                        "Set the phone in the bowl closest to you. ",
-                        "Pick the bowl up, keeping the phone inside it. ",
-                        "Turn around the cross the room until you get to the dresser with the TV on top, and then face it. ",
-                        "Set the bowl with the phone in it on top of the dresser to the left of the TV."
-                    ],
-                    "task_desc":"The cell phone will be moved from the chair to a bowl to end up on top of the dresser. ",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place a bowl with a cell phone in it on a counter.",
+                "Place a bowl with phone in it on the TV cabinet",
+                "Put bowl with a phone on the TV stand.",
+                "Place a bowl with a phone in it on a TV stand.",
+                "Put a bowl containing a cell phone on a table. ",
+                "The cell phone will be moved from the chair to a bowl to end up on top of the dresser. "
             ],
             "relative_objects":[
-                "Bowl",
-                "CellPhone"
+                "CellPhone",
+                "Bowl"
             ]
         },
         "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1NWXL4QO30M8U_3P1L2B7AD46NJG9HFJUH7CLVFNZOLN",
-                    "high_descs":[
-                        "Turn around and walk halfway across the room before turning left to face the table. ",
-                        "Take the remote control near the lamp off of the table. ",
-                        "Turn to the right and walk forward to the television, then turn left to face it. ",
-                        "Place the remote control in front of the television, and near the credit card. "
-                    ],
-                    "task_desc":"To move the remote control near the television. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3VZLGYJEYORUIE4DVB8MY4NM60HZXR",
-                    "high_descs":[
-                        "turn around and walk forward, stop and face the table on the left",
-                        "pick up the remote that is on the table",
-                        "turn right and walk forward, stop and face the tv stand on the left",
-                        "put the remote down on the tv stand in front of the tv"
-                    ],
-                    "task_desc":"put a remote by a tv",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3W8CV64QJ5GIQXMLM9W1IUXZ37UH9L",
-                    "high_descs":[
-                        "Turn around and cross the room to face the brown table to your left.",
-                        "Pick up the remote control to the right of the small lamp on top of the table.",
-                        "Turn right, cross the room and turn left at the white end table on your left to reach the television.",
-                        "Put the remote control on the left side on top of the end table in front of the red card."
-                    ],
-                    "task_desc":"Put a remote control by the television.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "To move the remote control near the television. ",
+                "put a remote by a tv",
+                "Put a remote control by the television."
             ],
             "relative_objects":[
                 "RemoteControl",
@@ -166,503 +28,73 @@
         },
         "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_182030_725067/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A10AVWALIHR4UQ_345LHZDED091GH3P5Z2QAWJ2UEP3U7",
-                    "high_descs":[
-                        "Turn left and move across the room then turn right and face the table.",
-                        "Pick up the bowl in the middle of the table next to the phone.",
-                        "Turn right and move to the area in the room that has tiles and face the counter there.",
-                        "Place bowl on the counter to the right of the computer.",
-                        "Pick up pencil from the middle of the counter.",
-                        "Place the pencil in the bowl on the counter."
-                    ],
-                    "task_desc":"Place a pencil into a bowl.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"ARL7HOWLEHNOP_3JRJSWSMQK2KRL63FZNL6EXZ8QW3ER",
-                    "high_descs":[
-                        "Walk forward, turn left and walk across the room, then turn right and walk to the brown table.",
-                        "Pick up the right bowl on the table.",
-                        "Turn around, then turn right and walk towards the door, then turn left and walk to the counter with the laptop on it.",
-                        "Place the bowl on the counter right to the laptop.",
-                        "Pick up the blue pencil from the counter.",
-                        "Place the blue pencil on the bowl on the counter."
-                    ],
-                    "task_desc":"Put the pencil in the bowl on the counter.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A23HZ18KTCK2DA_3P4RDNWND8N7S4AEE35Z70CHZCSIJR",
-                    "high_descs":[
-                        "Turn and go to the table with the lamp on.",
-                        "Pick up the bowl that is in front of the cell phone on the table.",
-                        "With the bowl in hand go to the counter that has the big mirror above it.",
-                        "Place the bowl in hand place it in front of the object that is to the left of the lap top keyboard.",
-                        "Pick up the pencil that is on the counter in front of you.",
-                        "Place the pencil on the bowl that you just put down."
-                    ],
-                    "task_desc":"Move bowl to counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1NWXL4QO30M8U_3QILPRALQ8CAMOPMKFL0NIZK50Q8NB",
-                    "high_descs":[
-                        "Walk forward for two steps, then turn left and walk to the edge of the bed, then turn right and walk to the table. ",
-                        "Pick up the bowl that is closest to the lamp on the table. ",
-                        "Turn left and take two steps, then turn left and walk across the room. ",
-                        "Put the plate down on the counter. ",
-                        "Pick up the blue pencil to the right of the plate. ",
-                        "Place the pencil on the plate. "
-                    ],
-                    "task_desc":"To put the pencil on the plate.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MXBLYX2CDGTP_3XCC1ODXDOS17QHAZGJHITPU03WRQO",
-                    "high_descs":[
-                        "Turn left and walk past the bed, then turn right to the brown table with the lamp.",
-                        "Take one bowl from the table.",
-                        "Turn and walk towards the door on your left, then turn left and walk down the short hallway to the counter with the laptop on it.",
-                        "Put the bowl on the counter.",
-                        "Pick up the blue pencil from the counter.",
-                        "Put the blue pencil in the bowl."
-                    ],
-                    "task_desc":"Put the blue pencil in the bowl on the counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3QILPRALQ8CAMOPMKFL0NIZJ24K8N8",
-                    "high_descs":[
-                        "Move across the room to the black table. ",
-                        "Pick up the bowl on the right nearest the lamp. ",
-                        "Bring the bowl back towards the mirror. ",
-                        "Place the bowl down on the left side of the shelf. ",
-                        "Pick up the pencil from the shelf. ",
-                        "Place the pencil in the bowl on the shelf. "
-                    ],
-                    "task_desc":"Put the pencil in the bowl. ",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Place a pencil into a bowl.",
+                "Put the pencil in the bowl on the counter.",
+                "Move bowl to counter.",
+                "To put the pencil on the plate.",
+                "Put the blue pencil in the bowl on the counter.",
+                "Put the pencil in the bowl. "
             ],
             "relative_objects":[
-                "Bowl",
-                "Pencil"
+                "Pencil",
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_182005_438932/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AFU00NU09CFXE_3IRIK4HM3D14R6972AFONT9GX5K6C6",
-                    "high_descs":[
-                        "Move across the room towards the door, and turn left into the hallway on the left that's just past the table on the right. ",
-                        "Pick up the blue pencil from the counter in front of the mirror. ",
-                        "Turn around and walk back to the table and stand centered between the two chairs closest to you. ",
-                        "Set the pencil in the bowl closest to the lamp.",
-                        "Pick up the bowl with the pencil in it from the table. ",
-                        "Turn around and carry the bowl with the pencil in it back down the hallway to the counter in front of the mirror. ",
-                        "Set the bowl with the pencil in it on the counter. "
-                    ],
-                    "task_desc":"Move the blue pencil to be inside a bowl on the counter. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A28HB7240OFGEW_3W92K5RLWXY47BFTO80OLFJ5MHQV5F",
-                    "high_descs":[
-                        "Turn around and walk towards the door, then take a left and walk to the mirror.",
-                        "Pick up the pencil from the counter.",
-                        "Turn around and walk to the table with the two chairs.",
-                        "Put the pencil in the bowl closest to you.",
-                        "Pick up the bowl from the table.",
-                        "Walk back over to the mirror.",
-                        "Put the bowl down on the counter."
-                    ],
-                    "task_desc":"Place a bowl with a pencil inside it on the counter in front of the mirror.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3GD6L00D3VEMT6K19TXLVTNCM5FM1C",
-                    "high_descs":[
-                        "Turn right, hang a right at the end of the bed, turn left at the television stand and turn left just before the door to reach the white counter.",
-                        "Pick up the green pencil to the left of the cell phone.",
-                        "Turn around, hang a right at the end of the wall and turn left to face the wooden table.",
-                        "Put the pencil in the clear bowl in between the lamp and the other bowl.",
-                        "Pick up the bowl with the pencil inside from the table.",
-                        "Turn around, head right towards the door and turn left to return to the white counter.",
-                        "Place the bowl with the pencil inside on the counter in front of the cell phone."
-                    ],
-                    "task_desc":"Place a bowl with a pencil on a counter.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36DK84J5YJ942_3UN61F00HZ6CE4YCFOVEKIU348I5R0",
-                    "high_descs":[
-                        "move to the shelf behind the bed",
-                        "pick up a pencil from the shelf",
-                        "move to the desk to the left of the bed",
-                        "put the pencil in a bowl on the desk",
-                        "pick up the bowl with the pencil from the desk",
-                        "move to the shelf behind the bed",
-                        "put the bowl on the shelf"
-                    ],
-                    "task_desc":"Put a bowl with a pencil on the shelf behind the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3CP1TO84PWIVAKHR0YGDJAMUPK852U",
-                    "high_descs":[
-                        "Move back to the counter in front of the mirror.",
-                        "Pick up the blue pencil from the counter. ",
-                        "Bring the blue pencil to the long table. ",
-                        "Place the pencil in the bowl on the left.",
-                        "Pick up the bowl from the table. ",
-                        "Bring the bowl to the counter by the mirror. ",
-                        "Put the bowl down on the counter"
-                    ],
-                    "task_desc":"Bring the bowl to the counter. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the blue pencil to be inside a bowl on the counter. ",
+                "Place a bowl with a pencil inside it on the counter in front of the mirror.",
+                "Place a bowl with a pencil on a counter.",
+                "Put a bowl with a pencil on the shelf behind the bed.",
+                "Bring the bowl to the counter. "
             ],
             "relative_objects":[
-                "Bowl",
-                "Pencil"
+                "Pencil",
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_181947_674402/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3X0H8UUIT45IS2D9QEIS0SCCA4ZSWG",
-                    "high_descs":[
-                        "Turn right and veer right to the desk.",
-                        "Pick up the blue pencil.",
-                        "Look down at the desk.",
-                        "Place the pencil in the bowl on the left side of the desk.",
-                        "Pick up the bowl.",
-                        "Turn around and veer slightly right to the area with the tile with little squares on it.",
-                        "Place the bowl on the counter on top of the keys."
-                    ],
-                    "task_desc":"Place a bowl with a pencil in it on a counter.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3IKXWJKHW1XWC_31Z0PCVWUNW4HNPN76F6IH9GG3FT7O",
-                    "high_descs":[
-                        "Go left towards the head of the bed",
-                        "turn left and go towards the table",
-                        "pick up the pencil on the table",
-                        "place the pencil in the bowl that is on the table",
-                        "turn left and turn left again to face the bed ",
-                        "turn left and head towards the door, half way to the door stop",
-                        "Turn right, head towards the table, place the bowl with the pencil in it on the table"
-                    ],
-                    "task_desc":"To put the pencil in the bowl moving both items from the black table to the white one",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3ND9UOO81NJVOPIJ65LRO6YGFH2WLQ",
-                    "high_descs":[
-                        "Turn right, walk towards the top of the bed, and turn left towards the table.",
-                        "Pick up the pencil to the left of the lamp on the table.",
-                        "Walk a little backwards from the table.",
-                        "Place the pencil in the bowl on the table.",
-                        "Pick up the bowl with the pencil from the table.",
-                        "Turn left towards the door, hang left to enter the bathroom.",
-                        "Place the bowl on top of the keys."
-                    ],
-                    "task_desc":"Put the pencil on the to place it in the bathroom counter.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A98E8M4QLI9RS_3U088ZLJVNAIRTTXHCZ8QM6SCIB0W3",
-                    "high_descs":[
-                        "make a right before the bed and go across the room to the black desk on the right, turn to face the desk",
-                        "pick up the pencil that is to the left of the lamp",
-                        "back up slightly from the desk",
-                        "put the pencil in the clear bowl on the left corner of the desk",
-                        "pick up the bowl with the pencil",
-                        "turn around and walk toward the bathroom counter",
-                        "put the bowl with the pencil on top of the the keys that are in front of the phone on the counter"
-                    ],
-                    "task_desc":"put a bowl containing a pencil on top of the set of keys",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_3WRFBPLXRD5OLRJG8YQ4W1R9PDA3NO",
-                    "high_descs":[
-                        "walk toward the desk, stop in front of desk",
-                        "pick up the aqua pencil from the desk to the left of the table lamp",
-                        "continue to hold the pencil in front of the desk",
-                        "put the pencil in the bowl in front of the white mug on the desk",
-                        "pick up the bowl from the desk",
-                        "turn around and find the shelf with a mirror over it, stop at the shelf",
-                        "put the bowl on the shelf on top of the keys on the right of the shelf"
-                    ],
-                    "task_desc":"put a pencil and bowl on a set of keys",
-                    "votes":[
-                        0,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3TMFV4NEPBV09IY0CGCNJ1CBYBDW87",
-                    "high_descs":[
-                        "Turn around, take a few steps",
-                        "head to the black table with the lamp",
-                        "Take the blue pencil from the table",
-                        "Put the pencil in the bowl",
-                        "Take the bowl from the table",
-                        "Turn around, head in to the bathroom",
-                        "Put the bowl on the bathroom counter"
-                    ],
-                    "task_desc":"Put the blue pencil in the bowl, put the bowl on the bathroom counter",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place a bowl with a pencil in it on a counter.",
+                "To put the pencil in the bowl moving both items from the black table to the white one",
+                "Put the pencil on the to place it in the bathroom counter.",
+                "put a bowl containing a pencil on top of the set of keys",
+                "put a pencil and bowl on a set of keys",
+                "Put the blue pencil in the bowl, put the bowl on the bathroom counter"
             ],
             "relative_objects":[
-                "Bowl",
+                "KeyChain",
                 "Pencil",
-                "KeyChain"
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072141_716322/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A32W24TWSWXW_384PI804XVIPKCCOX7P7TX389A0S0G",
-                    "high_descs":[
-                        "Turn right and walk to the yellow dresser and stop.",
-                        "Pick up the credit card sitting on the front right of the dresser.",
-                        "Turn left and take six steps, turn left for two steps, turn right for nine steps, turn right again and take five steps, then turn right to face the table. ",
-                        "Place the credit in the glass bowl sitting on the left hand side of the table. ",
-                        "Pick up the bowl with the credit card in it.",
-                        "Turn right and walk five steps, turn left and take fourteen steps, and turn left to face the yellow dresser with the TV.",
-                        "Set down the glass bowl on the far left of the dress midway between the TV and the front edge of the dresser."
-                    ],
-                    "task_desc":"Put a glass bowl containing a credit card on the TV stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3A4NIXBJ79GZJDO523F4F8WQKJ9LMM",
-                    "high_descs":[
-                        "Turn to the right to find the TV.",
-                        "Pick up the credit card from in front of the TV.",
-                        "Carry the credit card and turn to the left, then right at the far side of the desk.",
-                        "Place the credit card in a bowl near the back of the desk.",
-                        "Pick up the bowl and credit card from the desk.",
-                        "Carry the bowl and turn to the right, then the left to the TV.",
-                        "Place the credit card and bowl on the table, to the left side of the TV."
-                    ],
-                    "task_desc":"Move a bowl and credit card to a table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3QBD8R3Z240RL82W9RV0LVJKTY64O6",
-                    "high_descs":[
-                        "Turn right and walk over to the white dresser.",
-                        "Pick up the credit card off of the dresser.",
-                        "Turn left and walk over to the far side of the dark wooden table.",
-                        "Put the credit card in the glass bowl that is on the table.",
-                        "Pick up the glass bowl with the credit card in it.",
-                        "Walk back over to the white dresser.",
-                        "Put the glass bowl with the credit card in it on the left side of the dresser."
-                    ],
-                    "task_desc":"Put a glass bowl with a credit card in it on a dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a glass bowl containing a credit card on the TV stand.",
+                "Move a bowl and credit card to a table.",
+                "Put a glass bowl with a credit card in it on a dresser."
             ],
             "relative_objects":[
-                "Bowl",
-                "CreditCard"
+                "CreditCard",
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3E7TUJ2EGF31EHHJ0DDBR9I1BCQD9R",
-                    "high_descs":[
-                        "Turn around and to the right, face the small white dresser with the TV on the short side.",
-                        "Pick up the credit card from the left side of the small dresser.",
-                        "Carry the credit card and turn right. Then turn right again and another right to face the short side of the dining table.",
-                        "Place the credit card in the dish closest to the short side. ",
-                        "Pick up the dish from the table.",
-                        "Carry the dish and turn right, then left to go back to the TV. Face the TV straight on.",
-                        "Place the dish on the dresser, to the left side."
-                    ],
-                    "task_desc":"Move a credit card and dish to a small dresser.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3LRKMWOKB8YTHY1G7MNT8ETQTM82Z1",
-                    "high_descs":[
-                        "Turn around, turn left and face the white tv stand to your right.",
-                        "Pick up the card on the white tv stand in front of you.",
-                        "Turn right, then right again, then right and face the black table on your right.",
-                        "Place the card in the bowl on the black table in front of you.",
-                        "Pick up the bowl from the black table in front of you.",
-                        "Turn right, then left and face the white tv stand on your left.",
-                        "Place the bowl with the card inside of it on the white tv stand in front of you."
-                    ],
-                    "task_desc":"Place a card in a bowl on a tv stand.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3B2X28YI3Z6T2Q3ZKI8ADVN1CA8B6A",
-                    "high_descs":[
-                        "turn around, take a step, turn left, walk to wall, turn right to face tv stand",
-                        "pick up the credit card that is on the tv stand",
-                        "turn around, take a few steps, turn right, walk forward, turn right after desk, walk forward, turn right to face desk",
-                        "put the credit card in the bowl that is on the desk",
-                        "pick up the bowl that is on the desk with the credit card in it",
-                        "turn right, walk forward, turn left, walk forward, turn left to face tv stand",
-                        "put the bowl on the tv stand"
-                    ],
-                    "task_desc":"put a bowl with credit card in it on tv stand",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a credit card and dish to a small dresser.",
+                "Place a card in a bowl on a tv stand.",
+                "put a bowl with credit card in it on tv stand"
             ],
             "relative_objects":[
-                "Bowl",
-                "CreditCard"
+                "CreditCard",
+                "Bowl"
             ]
         },
         "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_34YB12FSQ15JXLA4RCIO2GRIO20MGU",
-                    "high_descs":[
-                        "move to the TV stand to the left of the bed",
-                        "pick up a CD from the stand",
-                        "move to the table to the right of the bed",
-                        "put the CD on the table"
-                    ],
-                    "task_desc":"Put a CD on a table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3DHE4R9OCZSTQH6BHUZ4N7DKIXZ2GZ",
-                    "high_descs":[
-                        "Turn right, hang a right at the table, turn left at the end of the table and face the white television stand on the right.",
-                        "Pick up the silver disc next to the television on the stand.",
-                        "Turn right, hang a right around the end of the table and turn right to face the table in between the two red chairs.",
-                        "Put the disc on the table close to the edge near the left chair."
-                    ],
-                    "task_desc":"Put a disc on a table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3COPXFW7XETUKA309JVVHCD60OKPKO",
-                    "high_descs":[
-                        "Turn right walk forward, turn right walk straight then turn left stand on the left side of the tv stand",
-                        "Pick up the cd on the tv stand",
-                        "Turn right move forward then turn right head to the table ",
-                        "Put the cd on the table"
-                    ],
-                    "task_desc":"Put the cd from the tv stand on the table",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Put a CD on a table.",
+                "Put a disc on a table.",
+                "Put the cd from the tv stand on the table"
             ],
             "relative_objects":[
                 "CD"
@@ -670,114 +102,21 @@
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-311/trial_T20190909_152355_259303/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3NLZY2D53S6Q4SMXUWMLWHGVUL2QLC",
-                    "high_descs":[
-                        "Move forward, then left to move past the dining table, and then turn right and face the TV on the right.",
-                        "Pick up a pen from the front side of the white dresser.",
-                        "Carry the pen and turn right, then left to find the black table in the corner.",
-                        "Place the pen in the cup on the left side of the table.",
-                        "Pick up the cup from the left side of the table.",
-                        "Take the cup and turn to the left and face the front of the TV on the right side.",
-                        "Place the pen and cup in front of the TV on the left side."
-                    ],
-                    "task_desc":"Move a cup and pen to the dresser with the TV.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3VE8AYVF8PEYYWC5MR2NFDQB3KB8FX",
-                    "high_descs":[
-                        "Move forward then turn left head to the left side of the tv stand ",
-                        "Pick up the pen on the tv stand ",
-                        "Turn right then head to the side table beside the couch ",
-                        "Put the pen in the mug on the side table",
-                        "Pick up the mug with pen ",
-                        "Turn left then head in front of the tv stand",
-                        "Put the mug with pen on the left side of tv stand"
-                    ],
-                    "task_desc":"Put the mug with pen on the tv stand",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1SX8IVV82M0LW_3K2755HG5VKAFR8W3ZD3154CFFEFDP",
-                    "high_descs":[
-                        "Walk to the TV stand on the left.",
-                        "Grab the pen from the stand.",
-                        "Walk to the end table on the left.",
-                        "Place the pencil in the coffee mug.",
-                        "Grab the mug from the table.",
-                        "Walk to the front of the TV stand.",
-                        "Place the cup on the stand."
-                    ],
-                    "task_desc":"Put a pencil in a cup and move it to the stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a cup and pen to the dresser with the TV.",
+                "Put the mug with pen on the tv stand",
+                "Put a pencil in a cup and move it to the stand."
             ],
             "relative_objects":[
-                "Mug",
                 "Pencil",
+                "Mug",
                 "Pen"
             ]
         },
         "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_33C7UALJVOPFT64VB0CJRX6JWW7189",
-                    "high_descs":[
-                        "turn left, walk across room, turn left, walk to table",
-                        "pick up the mug that is on the table",
-                        "turn around, take a step, turn right, walk forward, turn right to face tv stand",
-                        "put the mug on the tv stand"
-                    ],
-                    "task_desc":"move mug from table to tv stand",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2TBXASXZIRNNW_3C44YUNSI4GURTJODAYPEL2IA3DPDA",
-                    "high_descs":[
-                        "Walk over to the lamp.",
-                        "Grab the cup.",
-                        "Walk over to the television.",
-                        "Place the cup on the tv stand."
-                    ],
-                    "task_desc":"Put the cup on the tv stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1CY7IOJ9YH136_3GNA64GUZHVKNS5AYHVVGE402IB5QJ",
-                    "high_descs":[
-                        "turn left, go to round table with lamp to the right of green chair",
-                        "pick up white coffee mug from behind lamp on round table",
-                        "turn left, go to white dresser with television on the right",
-                        "place white coffee mug to the right of keys on white dresser"
-                    ],
-                    "task_desc":"place white coffee mug on white dresser",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "move mug from table to tv stand",
+                "Put the cup on the tv stand.",
+                "place white coffee mug on white dresser"
             ],
             "relative_objects":[
                 "Mug"
@@ -785,54 +124,9 @@
         },
         "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A31681CCEVDIH3_3LBXNTKX0UMNXC8YNL34M25VLIQ9XM",
-                    "high_descs":[
-                        "Turn to walk to the small round white table in the corner of the room.",
-                        "Pick up the white cup from the table.",
-                        "Turn left to walk to the TV console.",
-                        "Set the white cup down on the TV console."
-                    ],
-                    "task_desc":"Move a white cup to the TV console.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3NVC2EB65TQQIF9SB8OWE39INW8Y3Y",
-                    "high_descs":[
-                        "Move forward toward the wall, then turn left to go to the black table.",
-                        "Pick up the mug from the black table.",
-                        "Turn around and step forward, then go to the right, then turn right at the entertainment center.",
-                        "Place the mug on the entertainment center, in front of the TV."
-                    ],
-                    "task_desc":"Put a mug on the entertainment center.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_39ASUFLU60Y4S8ZFVWJQEG66DUPXEY",
-                    "high_descs":[
-                        "Hang a left at the wall and walk to the round black table.",
-                        "Pick up the white mug from the round table.",
-                        "Turn around and walk to the television stand to the right.",
-                        "Put the white mug on the left side of the stand."
-                    ],
-                    "task_desc":"Place a white mug on a television stand.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a white cup to the TV console.",
+                "Put a mug on the entertainment center.",
+                "Place a white mug on a television stand."
             ],
             "relative_objects":[
                 "Mug"
@@ -840,84 +134,18 @@
         },
         "train/pick_and_place_with_movable_recep-Pen-Bowl-Dresser-311/trial_T20190908_170820_174380/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_3B837J3LDRNL5VILNSX3EFOXCDGSRI",
-                    "high_descs":[
-                        "Turn right, move to the left side of the TV stand, turn right to face the side of the TV.",
-                        "Pick up the pen on the TV stand. ",
-                        "Turn around, bring the pen to the bowl on the table.",
-                        "Put the pen in the bowl on the table.",
-                        "Pick up the bowl with pen on the table. ",
-                        "Bring the bowl to the TV stand on the right.",
-                        "Put the bowl on the TV stand. "
-                    ],
-                    "task_desc":"Put a bowl with pen in it on the TV stand. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3L0KT67Y8H7U2WU71NPXMBHUF0VYSQ",
-                    "high_descs":[
-                        "Walk up to the end of the bed, then turn right and walk towards the television, hang a left and walk up to the left end of the dresser the television is on.",
-                        "Pick up the black pen off of the dresser.",
-                        "Turn right and walk towards the bed, then hang a right and walk up to the table.",
-                        "Put the black pen in the glass bowl on the table.",
-                        "Pick up the glass bowl with the pen in it off of the table.",
-                        "Turn right and walk towards the wall, then turn left and walk up to the television.",
-                        "Put the glass bowl with the pen in it on the front left corner of the white dresser."
-                    ],
-                    "task_desc":"Put a glass bowl with a pen in it on a white dresser",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3PPLDHC3CG0YN_3QIYRE09Y680WDRZH2129UWELFFN14",
-                    "high_descs":[
-                        "Turn right, walk around the TV stand, turn right to face the TV stand. ",
-                        "Pick up the pen to the left of the keys. ",
-                        "Walk to the right side of the table. ",
-                        "Put the pen inside of the bowl to the right of the lap top. ",
-                        "Pick up the bowl from the table. ",
-                        "Walk to the front of the TV stand. ",
-                        "Place the bowl on the TV stand to the left of the set of keys. "
-                    ],
-                    "task_desc":"To put a pen in the bowl and place the bowl on the TV stand. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a bowl with pen in it on the TV stand. ",
+                "Put a glass bowl with a pen in it on a white dresser",
+                "To put a pen in the bowl and place the bowl on the TV stand. "
             ],
             "relative_objects":[
-                "Bowl",
-                "Pen"
+                "Pen",
+                "Bowl"
             ]
         },
         "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A30M9SZYJKFDS9_38YMOXR4MXGD54FCJ1FPZNGKSSI6WE",
-                    "high_descs":[
-                        "turn to the right go right towards the white table ",
-                        "pick up the credit card from the white table",
-                        "turn to the right go forward turn right towards to the black table ",
-                        "put the credit card on top of the black table",
-                        "turn around to the left go left forward towards the white table",
-                        "pick up the credit card from the white table",
-                        "turn around to the right forward across the room towards the black table",
-                        "put the credit card on top of the black table"
-                    ],
-                    "task_desc":"put 2 credit cards on top of the black table",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "put 2 credit cards on top of the black table"
             ],
             "relative_objects":[
                 "CreditCard"
@@ -925,31 +153,7 @@
         },
         "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2CT57W84KXX25_392CY0QWG48HPMRTBWIV1YNYHW54IN",
-                    "high_descs":[
-                        "Walk over to the green chair and close the computer",
-                        "Pick the computer up from the green chair",
-                        "Carry the computer over to the bed and place it on top of the bed next to the pillow",
-                        "Walk over to the table on the the other side of the room",
-                        "close the top on the computer",
-                        "Pick the computer up from the table",
-                        "Carry the computer over to the bed that has the other computer on it",
-                        "Place that computer on the opposite side of the pillow"
-                    ],
-                    "task_desc":"Gather the computers up and place them on the bed",
-                    "votes":[
-                        1,
-                        0,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Gather the computers up and place them on the bed"
             ],
             "relative_objects":[
                 "Bed",
@@ -958,24 +162,7 @@
         },
         "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3K5TEWLKGYSGJZA8VSJIAONBU8RVIZ",
-                    "high_descs":[
-                        "Turn around then turn left and face the black table to your left.",
-                        "Take the keys from the black table in front of you.",
-                        "Turn right then face the round table by the couch.",
-                        "Place the keys on the table in front of you.",
-                        "Turn around and face the green couch on your left.",
-                        "Take the keys from the green couch in front of you.",
-                        "Turn around and head towards the round black table in front of you.",
-                        "Place the keys on the black table in front of you."
-                    ],
-                    "task_desc":"Place keys on the table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place keys on the table."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -983,27 +170,7 @@
         },
         "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1NWXL4QO30M8U_3A4TN5196NZKOVTOYT6SKKY79OHCH9",
-                    "high_descs":[
-                        "Walk across the room, then turn left and face the chair. ",
-                        "Pick up the keys on the chair. ",
-                        "Turn right and take two steps, then turn left to face the table. ",
-                        "Put the keys on the lower edge of the table. ",
-                        "Turn right and take two steps, then turn left and walk across the room. ",
-                        "Take the keys that are behind the laptop on the chair. ",
-                        "Turn around and walk across the room. ",
-                        "Place the keys on the table. "
-                    ],
-                    "task_desc":"To put the keys on the table. ",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "To put the keys on the table. "
             ],
             "relative_objects":[
                 "KeyChain"

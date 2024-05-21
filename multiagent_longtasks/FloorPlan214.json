@@ -3,159 +3,24 @@
     "trials":{
         "train/pick_and_place_with_movable_recep-CreditCard-Plate-Shelf-214/trial_T20190906_182116_445685/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3HMIGG0U4ON4YNT0RHUB4YXR9KU8Y1",
-                    "high_descs":[
-                        "Turn to your right move slightly then face to right top shelf ",
-                        "Pick up the credit card beside the vase",
-                        "Turn to your right then walk straight turn left facing the center table",
-                        "Put the credit card on the left plate on the center table",
-                        "Pick up the plate with credit card ",
-                        "Turn to your left walk few steps then turn right walk towards the shelf",
-                        "Put the plate with credit card on the lower right side of the shelf"
-                    ],
-                    "task_desc":"Put the plate with credit card on the lower shelf",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3SFPSMFRSRTB3_3NJM2BJS4ZNC1CRCH6EXTT0YV6CCPH",
-                    "high_descs":[
-                        "Turn around to face shelf with vase.",
-                        "Pick up credit card from shelf, right of the vase.",
-                        "Turn right then left and proceed to coffee table.",
-                        "Place credit card on left side plate at bottom of table top.",
-                        "Pick up the plate with the credit card on it.",
-                        "Turn left and proceed to shelf.",
-                        "Place plate with credit card on the shelf, on the right hand side, on the right of the empty box."
-                    ],
-                    "task_desc":"Move credit card and plate to a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2XSGALF8O9ISQ_3TE22NPXPETNHFSEQ7GR7XDFCXE44K",
-                    "high_descs":[
-                        "Turn around and look at the shelf behind you",
-                        "Pick up the credit card from the shelf",
-                        "Turn back around and then turn to the left and walk toward the table",
-                        "Put the credit card on the plate on the left",
-                        "Pick up the plate on the left",
-                        "Turn around and then turn toward the right and walk to the shelf near the box",
-                        "Put the plate down on the shelf to the right of the box"
-                    ],
-                    "task_desc":"Get the credit card on a plate and next to the box",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3H8DHMCCWCSLVD0A4A40HIWGJ1NKDY",
-                    "high_descs":[
-                        "Turn around and step left to face the black shelf.",
-                        "Take the credit card off the shelf.",
-                        "Turn around and walk forward, hanging left to the short side of coffee table.",
-                        "Place the credit card on the white plate on the left.",
-                        "Pick up the plate.",
-                        "Turn left and walk back to where the black shelf is.",
-                        "Put the plate with the credit card on it on the right side of the bench under the shelf."
-                    ],
-                    "task_desc":"Put a plate with a credit card on it on a bench.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A28HB7240OFGEW_3PQMUDRV7UNBXTQ8WLKZVZXGJ26IIN",
-                    "high_descs":[
-                        "Turn around and walk over to the shelf above the bench.",
-                        "Pick up the credit card from the shelf.",
-                        "Turn around and walk over to the table in the middle of the floor.",
-                        "Put the credit card on the plate on the left side of the table.",
-                        "Pick up the plate from the table.",
-                        "Walk back over the bench under the shelf.",
-                        "Put the plate on the right side of the bench."
-                    ],
-                    "task_desc":"Put a white plate with a credit card on it on the bench.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3W92K5RLWXY47BFTO80OLFJ5MIXV5O",
-                    "high_descs":[
-                        "Turn right and then walk to the wall then turn right again to face the shelf hanging on the wall.",
-                        "Pick up the credit card to the right of the vase.",
-                        "Turn around and walk until you are even with the glass coffee table to your left and then turn to the left and walk forward so you are in front of the coffee table facing it.",
-                        "Put the credit card on top of the square white plate sitting to the left of another plate just like it.",
-                        "Pick up the plate with the credit card on top of it.",
-                        "Go back to where you were at the end of step 1.",
-                        "Place the plate with the credit card to the right of the box that is on the lower shelf."
-                    ],
-                    "task_desc":"Put a plate with a credit card on it on the shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the plate with credit card on the lower shelf",
+                "Move credit card and plate to a shelf.",
+                "Get the credit card on a plate and next to the box",
+                "Put a plate with a credit card on it on a bench.",
+                "Put a white plate with a credit card on it on the bench.",
+                "Put a plate with a credit card on it on the shelf."
             ],
             "relative_objects":[
                 "Box",
-                "CreditCard",
-                "Plate"
+                "Plate",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_simple-Newspaper-None-GarbageCan-214/trial_T20190907_181235_772324/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_30LSNF239XC7M8C67IZ78JQ0XRLI2Z",
-                    "high_descs":[
-                        "Turn left to the bottom black wall shelf",
-                        "Pick up the newspaper on the right of the bottom black shelf",
-                        "Carry the newspaper to the black garbage bin across the room",
-                        "Place the newspaper in the black garbage bin"
-                    ],
-                    "task_desc":"Place a newspaper in the garbage bin",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AKW57KYG90X61_3MH9DQ757ZT2ATFD0E9ATQ8C14TUGG",
-                    "high_descs":[
-                        "turn left and locate the stool",
-                        "pick up the news paper",
-                        "turn right towards the bin",
-                        "trash the news paper"
-                    ],
-                    "task_desc":"trash the news paper",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3QY7M81QHA35E4Z0DX1EHQML0BJ7K2",
-                    "high_descs":[
-                        "Walk forward slightly and turn left towards the newspaper near the wall.",
-                        "Pick up the newspaper from the shelf.",
-                        "Turn right and walk forward to the garbage can on the floor.",
-                        "Put the newspaper in the garbage can."
-                    ],
-                    "task_desc":"Move a newspaper from a shelf to a garbage can.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a newspaper in the garbage bin",
+                "trash the news paper",
+                "Move a newspaper from a shelf to a garbage can."
             ],
             "relative_objects":[
                 "Newspaper"
@@ -163,48 +28,9 @@
         },
         "train/pick_and_place_simple-Newspaper-None-GarbageCan-214/trial_T20190907_181248_411320/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3I02618YA3N8N68C3XZXNZM42WSUPY",
-                    "high_descs":[
-                        "Move across the room to the right side of the love seat",
-                        "Pick up the newspsper sitting on top of the love seat",
-                        "Carry the newspaper to the black trash bin to the right of the window",
-                        "Place the newspaper in the trash bin"
-                    ],
-                    "task_desc":"Move a newspaper to the trash bin",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3N2BF7Y2VTBXXH5FBI06NG3J3ISHMZ",
-                    "high_descs":[
-                        "turn to the left and take a step forward and turn to the right and go to the sofa",
-                        "pick up the newspaper from the sofa",
-                        "turn to the left twice and go forward to the end of the coffee table and turn to the right and go to the waste basket ",
-                        "place the newspaper in the waste basket"
-                    ],
-                    "task_desc":"Throw away a newspaper in a waste basket.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3TESA3PJ34RJPV6Q2FGJFLBFK44MMQ",
-                    "high_descs":[
-                        "Go forward and face the couch with the newspaper on it.",
-                        "Pick the newspaper up from the couch.",
-                        "Turn and go to the left to face the black trash can.",
-                        "Put the paper in the trash can."
-                    ],
-                    "task_desc":"Put a paper in a trash can.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a newspaper to the trash bin",
+                "Throw away a newspaper in a waste basket.",
+                "Put a paper in a trash can."
             ],
             "relative_objects":[
                 "Newspaper"
@@ -212,24 +38,7 @@
         },
         "train/pick_two_obj_and_place-Newspaper-None-ArmChair-214/trial_T20190909_011031_694881/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3SUWZRL0M14R9TFJU9A0E3TMF0JE6X",
-                    "high_descs":[
-                        "Go forward, then right and face the table on your right.",
-                        "Take the news paper off of the table in front of you.",
-                        "Turn left and face the couch on your left.",
-                        "Place the news paper on the couch in front of you.",
-                        "Turn left and face the couch on your right.",
-                        "Take the newspaper from the couch in front of you.",
-                        "Turn right and face the couch on your left.",
-                        "Place news paper on couch in front of you."
-                    ],
-                    "task_desc":"Place news paper on the small couch.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place news paper on the small couch."
             ],
             "relative_objects":[
                 "Newspaper"
@@ -237,42 +46,8 @@
         },
         "train/pick_two_obj_and_place-Newspaper-None-ArmChair-214/trial_T20190909_010843_771227/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3K2755HG5VUI0GUUZ72K2ROE8NGFD3",
-                    "high_descs":[
-                        "Move forward then face the black table on your right.",
-                        "Take the newspaper off of the table in front of you.",
-                        "Turn around and face the couch in front of you.",
-                        "Place the news paper on the couch in front of you.",
-                        "Turn around then right again and face the center table on your right.",
-                        "Take the news paper from the table in front of you.",
-                        "Turn right then face the couch on your left. ",
-                        "Place the news paper on the couch in front of you."
-                    ],
-                    "task_desc":"Move the news paper to the couch.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36A780ODXBDEH_3OXV7EAXLHHOZVZM5PT4VCPPOAR63U",
-                    "high_descs":[
-                        "Go forward towards the opposite end of the room and turn right towards the black shelf.",
-                        "Pick up the newspaper behind the statue on the black shelf.",
-                        "Turn around and go to the black lounge chair in the corner of the room.",
-                        "Put the newspaper down on the lounge chair to the left of the laptop.",
-                        "Turn around and head to the coffee table.",
-                        "Pick up the newspaper on the coffee table.",
-                        "Turn right and walk around the coffee table to the black lounge chair.",
-                        "Put the newspaper down on the lounge chair to the right of the laptop."
-                    ],
-                    "task_desc":"Move the newspapers from the coffee table and black shelf to the lounge chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the news paper to the couch.",
+                "Move the newspapers from the coffee table and black shelf to the lounge chair."
             ],
             "relative_objects":[
                 "Newspaper"
@@ -280,42 +55,8 @@
         },
         "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-214/trial_T20190909_020949_765614/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AFPMG8TLP1TND_3H7Z272LXAYDP57GQRWDXYANJ2TPLK",
-                    "high_descs":[
-                        "turn around and walk straight towards the wall and turn right and then walk straight to the shelf",
-                        "pick up the remote next to the statue on the shelf",
-                        "turn right and walk straight then turn right again and walk straight to the black chair",
-                        "put the remote down onto the black chair",
-                        "turn left then walk straight to the black couch and turn right",
-                        "pick up the remote next to the brown box on the couch",
-                        "turn right then walk straight to the wall then turn right again and then turn right again and right again towards the black chair",
-                        "put the remote down on the black chair next to the other remote"
-                    ],
-                    "task_desc":"clean up remote's and put them down on the black chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3ZGVPD4G6W8VMMHRM9W6ANMINDGZTA",
-                    "high_descs":[
-                        "Turn around and face the black table to your right.",
-                        "Take the remote from the black table in front of you.",
-                        "Turn around and face the couch in front of you.",
-                        "Place the remote on the couch in front of you.",
-                        "Turn left and face the couch to your right.",
-                        "Take the remote from the couch in front of you.",
-                        "Turn right and face the couch on your left.",
-                        "Place the remote on the couch in front of you."
-                    ],
-                    "task_desc":"Place remote on a different couch.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "clean up remote's and put them down on the black chair",
+                "Place remote on a different couch."
             ],
             "relative_objects":[
                 "RemoteControl"
@@ -323,42 +64,8 @@
         },
         "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-214/trial_T20190909_011022_706846/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1E0WK5W1BFPWR_3ND9UOO81NT39E4H2DA8PSIJCYOLW1",
-                    "high_descs":[
-                        "Turn around and move to the opposite corner of the room, facing the end table.",
-                        "Pick up the remote control on the left side from the end table.",
-                        "Turn around and move to the opposite corner of the room, facing the couch.",
-                        "Place the remote control on the edge of the couch seat.",
-                        "Turn around and move to the opposite corner of the room, facing the end table.",
-                        "Pick up the remote control from the end table.",
-                        "Turn around and move to the opposite corner of the room, facing the couch.",
-                        "Place the remote control beside the other remote control on the edge of the couch seat."
-                    ],
-                    "task_desc":"Take the remote controls and place them on the couch. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AFPMG8TLP1TND_3ZWFC4W1UXYC1QDZH8X47G5INOXRFB",
-                    "high_descs":[
-                        "turn around then walk straight and turn right then walk straight towards the couch then turn left towards the window then turn right towards the table",
-                        "pick up the remote next to the keys on the left",
-                        "turn right walk straight then turn right again and walk straight to the wall then turn left and walk straight to the black chair",
-                        "put the remote down on the black chair",
-                        "turn around then walk straight and turn right then walk straight towards the couch then turn left towards the window then turn right towards the table",
-                        "pick up the remote next to the keys on the table",
-                        "turn right walk straight then turn right again and walk straight to the wall then turn left and walk straight to the black chair",
-                        "put the remote down on the black chair to the right of the other remote"
-                    ],
-                    "task_desc":"move remote's from the table to the black chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Take the remote controls and place them on the couch. ",
+                "move remote's from the table to the black chair"
             ],
             "relative_objects":[
                 "RemoteControl"
@@ -366,48 +73,9 @@
         },
         "train/pick_and_place_simple-Pillow-None-ArmChair-214/trial_T20190909_010401_711637/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_373ERPL3YRZMKVV0CS2TOKKJEW5TRJ",
-                    "high_descs":[
-                        "Turn right and walk forward, then hang a right and walk up to the left end of the couch.",
-                        "Pick up the purple pillow off of the couch.",
-                        "Turn around and walk across the room, then hang a left and walk over to the black chair.",
-                        "Put the purple pillow standing up on the seat of the black chair."
-                    ],
-                    "task_desc":"Move a purple pillow from the couch to a black chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_3DH6GAKTY1GR38GLWFJ5I4EX2EZZYY",
-                    "high_descs":[
-                        "Turn around and head to the grey couch in front of you",
-                        "Pick up the purple pillow that is sitting on the left couch cushion",
-                        "Turn around and cross the room, take a left and walk to the grey arm chair",
-                        "Place the pillow on the grey arm chair, to the right of the keys that are also sitting on the arm chair"
-                    ],
-                    "task_desc":"Place a pillow on an armchair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"ACSS93E03ZUGX_3V5Q80FXI0I0HUGLINH15Z8D84432N",
-                    "high_descs":[
-                        "Turn around, go slightly to the left and then straight to face the purple pillow on the sofa.",
-                        "Pick the pillow up from off of the sofa.",
-                        "Turn around, go straight, and the to the left to face the grey arm chair.",
-                        "Place the pillow on the arm chair."
-                    ],
-                    "task_desc":"Move the purple pillow from the sofa to the grey arm chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a purple pillow from the couch to a black chair.",
+                "Place a pillow on an armchair",
+                "Move the purple pillow from the sofa to the grey arm chair."
             ],
             "relative_objects":[
                 "Pillow"
@@ -415,226 +83,43 @@
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Plate-CoffeeTable-214/trial_T20190909_111857_097992/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1CY7IOJ9YH136_38SKSKU7R4OL8JKCDW6TO19BXNULIY",
-                    "high_descs":[
-                        "go to black table with lamp to the right",
-                        "pick up credit card next to lamp",
-                        "go to white plate on black table with lamp",
-                        "place credit card on white plate on black table",
-                        "pick up white plate with credit card",
-                        "turn around, go to coffee table with newspaper",
-                        "place white plate to the left of newspaper on coffee table"
-                    ],
-                    "task_desc":"place white plate with newspaper on coffee table to the left of newspaper",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3TMSXRD2X9RQJ70D93SP5D95ETYW1N",
-                    "high_descs":[
-                        "Walk to the table and then turn to the black end table on your right. ",
-                        "Pick up the credit card on the back, right corner of the end table. ",
-                        "Move over as far as you can to the left of the end table. ",
-                        "Place the credit card on the white plate on the front left corner of the end table. ",
-                        "Pick up the white plate with the credit card on it from the end table. ",
-                        "Turn around and walk to the coffee table ahead, on your left. ",
-                        "Place the plate with the credit card on it on the coffee table to the left of the newspaper. "
-                    ],
-                    "task_desc":"Put a plate containing a credit card on the coffee table. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_338JKRMM29Q4G5IOANZIFBSL3YEHAH",
-                    "high_descs":[
-                        "walk to face side table to left of couch",
-                        "pick up credit card from table",
-                        "stand back from side table",
-                        "put credit card on white plate on table",
-                        "pick up white plate from table",
-                        "walk to face coffee table",
-                        "put white plate on coffee table"
-                    ],
-                    "task_desc":"put a white plate and credit card on coffee table",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "place white plate with newspaper on coffee table to the left of newspaper",
+                "Put a plate containing a credit card on the coffee table. ",
+                "put a white plate and credit card on coffee table"
             ],
             "relative_objects":[
                 "Newspaper",
-                "CreditCard",
-                "Plate"
+                "Plate",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Plate-CoffeeTable-214/trial_T20190909_004400_782702/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A13OOAT2ORKH6V_3PPTZCWALTBIU6PZ552B5IBV36RQZX",
-                    "high_descs":[
-                        "Look down, and walk to the small black table in the corner to your left.",
-                        "Grab the credit card on the small table.",
-                        "Turn around, walk to the top shelf to your right, then look up.",
-                        "Place the credit card on the plate on the top shelf.",
-                        "Grab the plate with the credit card on it.",
-                        "With the plate with the credit card on it, look down, turn around, and walk to the coffee table with the laptop on it.",
-                        "Place the plate with the credit card on it on the coffee table."
-                    ],
-                    "task_desc":"Place a plate with a credit card on it on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3XLBSAQ9Z738OOKK96T55RU0YGH7ZY",
-                    "high_descs":[
-                        "turn left and walk to the end of the room, then turn right and walk to the small glass table on the left side of the couch at the end of the room",
-                        "grab the credit card off of the glass table",
-                        "turn around and walk over to the shelves at the end of the room on the right",
-                        "place the credit card on a plate on the top shelf",
-                        "grab the plate off of the top shelf with the credit card on it",
-                        "turn right and walk over to the coffee table ahead on the right",
-                        "place the plate down on top of the coffee table "
-                    ],
-                    "task_desc":"place a plate with a credit card on it on top of the coffee table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3T9K2RY06UO14_3Z3ZLGNNSLLH9DI6KY721H6GOB63QR",
-                    "high_descs":[
-                        "Turn and go to the stand in the corner.",
-                        "Pick up the credit card on the stand.",
-                        "Turn and go to the shelf.",
-                        "Put the credit card on the plate on the shelf.",
-                        "Pick up the plate on the shelf. ",
-                        "Turn and go to the coffee table.",
-                        "Put the plate on the coffee table."
-                    ],
-                    "task_desc":"Move a plate with a credit card to the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a plate with a credit card on it on the coffee table.",
+                "place a plate with a credit card on it on top of the coffee table",
+                "Move a plate with a credit card to the coffee table."
             ],
             "relative_objects":[
+                "Plate",
                 "CoffeeTable",
-                "CreditCard",
-                "Plate"
+                "CreditCard"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Plate-CoffeeTable-214/trial_T20190909_004240_966926/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"ALKQPW0O9C98N_3FTOP5WARIF46YFW6L5A2IWN74VJ0M",
-                    "high_descs":[
-                        "Turn left to face shelves",
-                        "Pick up the credit card on the second shelf",
-                        "Move left to face the white plate on the bottom shelf",
-                        "Place the credit card on the white plate",
-                        "Pick up the credit card and plate",
-                        "Turn right and go to the coffee table on the right",
-                        "Place the credit card and plate on the coffee table to the left of the plant"
-                    ],
-                    "task_desc":"Put a credit card and plate on a coffee table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3LS2AMNW5IH6V2BS3WRUPK4RJ2CQOJ",
-                    "high_descs":[
-                        "Walk towards the chair, then hang a left and begin walking across the room, turn left to face the black shelf on the wall.",
-                        "Pick up the blue credit card off of the black shelf on the wall.",
-                        "Turn left and walk towards the wall, then turn right and look down at the bench.",
-                        "Put the credit card on the white plate that is on the bench.",
-                        "Pick up the white plate with the credit card on it.",
-                        "Turn right and walk over to the glass coffee table.",
-                        "Put the white plate with the credit card on it onto the coffee table."
-                    ],
-                    "task_desc":"Put a white plate with a credit card on it on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3XLBSAQ9Z738OOKK96T55RU0YGR7Z8",
-                    "high_descs":[
-                        "Turn around to your left face the top shelf",
-                        "Pick up the credit card on the top shefl",
-                        "Turn left then move slightly look down ",
-                        "Put the credit card on the plate",
-                        "Pick up the plate with credit card ",
-                        "Turn right then head to the center table ",
-                        "Put the plate with credit card on the center table"
-                    ],
-                    "task_desc":"Put the plate with credit card on the center table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a credit card and plate on a coffee table",
+                "Put a white plate with a credit card on it on the coffee table.",
+                "Put the plate with credit card on the center table"
             ],
             "relative_objects":[
-                "CreditCard",
-                "Plate"
+                "Plate",
+                "CreditCard"
             ]
         },
         "train/pick_two_obj_and_place-Vase-None-CoffeeTable-214/trial_T20190909_093918_758122/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AE861G0AY5RGT_3QJOXOW4XMITYW0BHPHH3ZQ85BOMER",
-                    "high_descs":[
-                        "Turn around and walk to the black lower shelf against the wall.",
-                        "Pick up the glass bowl on the left.",
-                        "Turn around and walk to the glass coffee table in the middle of the room.",
-                        "Put the glass bowl on the table to the right of the red bowl.",
-                        "Turn around and walk to the black lower shelf.",
-                        "Pick up the blue vase on the shelf.",
-                        "Turn right and walk to the glass coffee table in the middle of the room.",
-                        "Place the blue vase on the table to the left of the box."
-                    ],
-                    "task_desc":"Place a bowl and vase on a coffee table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2YUCJ28XANFOX_37FMASSAYFI9VAY0MJHZAYD6L53BIC",
-                    "high_descs":[
-                        "go across the living room to the shelf on the wall",
-                        "pick up the vase on the shelf",
-                        "take the vase over to the coffee table ",
-                        "set the vase down on the coffee table",
-                        "cross the room back to the shelf on the wall",
-                        "pick up the blue dish on the shelf",
-                        "take the blue dish across to the coffee table",
-                        "set the blue dish down on the coffee table "
-                    ],
-                    "task_desc":"Move the vase and blue dish from the shelf to coffee table",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Place a bowl and vase on a coffee table.",
+                "Move the vase and blue dish from the shelf to coffee table"
             ],
             "relative_objects":[
                 "Vase"
@@ -642,24 +127,7 @@
         },
         "train/pick_two_obj_and_place-Statue-None-SideTable-214/trial_T20190909_065508_033151/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A6SR4BU227GUH_3NKQQ8O391W7JYRKUWXJORPHIDTDU4",
-                    "high_descs":[
-                        "go to the middle of the room with the coffee table",
-                        "pick up the statue to the left of the white tea kettle",
-                        "turn around, then turn right towards the grey couch ",
-                        "place the statue on the black side table",
-                        "return to the coffee table",
-                        "pick up the white statue in front of the green statue on the coffee table",
-                        "return to the side table and face it ",
-                        "place the white statue on the side table to the left of the black statue"
-                    ],
-                    "task_desc":"\nMove the black and white statues from the coffee table to the couch side table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "\nMove the black and white statues from the coffee table to the couch side table"
             ],
             "relative_objects":[
                 "Statue"
@@ -667,42 +135,8 @@
         },
         "train/pick_two_obj_and_place-WateringCan-None-Shelf-214/trial_T20190907_031049_207882/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3JZLYQ606HJJR_34T446B1C3V9DVNS0LZ7ESZQMNYC0L",
-                    "high_descs":[
-                        "Turn to the left and move to the black cocktail table. ",
-                        "Pick up the white tea pot that is closest to you on the table.",
-                        "Turn around and move toward the table with the large brown box. ",
-                        "Put the tea pot on the table. ",
-                        "Turn around and go back to the black cocktail table. ",
-                        "Pick up the other white tea pot on the table.",
-                        "Move across the room to the low table with the big brown box. ",
-                        "Put the tea pot down on the table."
-                    ],
-                    "task_desc":"Moving fragile items to be packed. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3GNA64GUZHLC23JC296EFSKY7CW5QU",
-                    "high_descs":[
-                        "turn around and face the coffee table",
-                        "grab the white water spout off of the table",
-                        "turn around and walk over to the black cabinet on the floor",
-                        "place the water spout on top of the black cabinet",
-                        "turn around and move back over to the coffee table",
-                        "grab another water spout off of the coffee table",
-                        "turn left and move over to the black cabinet again",
-                        "place the water spout on the left side of the black cabinet"
-                    ],
-                    "task_desc":"place to white water spouts on top of the black cabinet on the floor",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Moving fragile items to be packed. ",
+                "place to white water spouts on top of the black cabinet on the floor"
             ],
             "relative_objects":[
                 "WateringCan",
@@ -711,24 +145,7 @@
         },
         "train/pick_two_obj_and_place-WateringCan-None-Shelf-214/trial_T20190907_031145_289164/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3HWRJOOET8JOB2RI5EOMEM5C2ZGES5",
-                    "high_descs":[
-                        "turn left and walk to the chair at the end of the room, then turn left and walk to the coffee table",
-                        "grab a water spout off of the coffee table",
-                        "turn around and walk to the wall, then turn right and walk over to the cabinet on the floor",
-                        "place the water spout on the right side of the cabinet, left of the plate",
-                        "turn around and walk over to the coffee table again on the left, face the right side of the coffee table this time",
-                        "grab the water spout off of the coffee table",
-                        "turn left and walk to the end of the room, then turn right and walk to the end of the room with the black cabinet",
-                        "place the water spout on top of the place on the right side of the cabinet"
-                    ],
-                    "task_desc":"place both of the water spouts on top of the black cabinet on the floor",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "place both of the water spouts on top of the black cabinet on the floor"
             ],
             "relative_objects":[
                 "WateringCan"
@@ -736,60 +153,9 @@
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-CoffeeTable-214/trial_T20190908_085632_183669/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3TXWC2NHN2HF1VMZTBXHNUO36M09SS",
-                    "high_descs":[
-                        "Turn around to your right then face the shelf ",
-                        "Pick up the credit card on the shelf",
-                        "Turn right then move forward, turn left head to the sofa on your right",
-                        "Put the credit card on the box at the sofa",
-                        "Pick up the box from the sofa",
-                        "Turn left walk straight then turn left, then face the table on your left",
-                        "Put the box with credit card on the right side of the table"
-                    ],
-                    "task_desc":"Put the box with credit card on the right side of the table",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3YMU66OBIQZ5QWVRWNRSBX3O1OGHG8",
-                    "high_descs":[
-                        "Turn right and walk towards the wall, then turn right and walk up to the black bench.",
-                        "Pick up the blue credit card off of the bench.",
-                        "Turn right and walk forward, then hang a right and walk towards the door, hang a left and walk over to the black couch with the cardboard box on its seat.",
-                        "Put the blue credit card in the cardboard box that is on the couch.",
-                        "Pick up the cardboard box with the credit card in it.",
-                        "Walk around to the far side of the coffee table.",
-                        "Put the cardboard box with the credit card in it on the right side of the coffee table."
-                    ],
-                    "task_desc":"Put a cardboard box with a credit card in it on the coffee table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3T9K2RY06UO14_3KKG4CDWKLPWZAKO3A1ZPR8XS6W49F",
-                    "high_descs":[
-                        "Turn and go to the table by the wall.",
-                        "Pick up the credit card on the table.",
-                        "Turn around and go to the sofa.",
-                        "Put the credit card in the box on the sofa.",
-                        "Pick up the box on the sofa.. ",
-                        "Turn and go to the coffee table.",
-                        "Put the box on the coffee table."
-                    ],
-                    "task_desc":"Move a box from the sofa to the coffee table. ",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put the box with credit card on the right side of the table",
+                "Put a cardboard box with a credit card in it on the coffee table.",
+                "Move a box from the sofa to the coffee table. "
             ],
             "relative_objects":[
                 "Box",
@@ -798,220 +164,35 @@
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-CoffeeTable-214/trial_T20190908_085443_413646/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_3OUYGIZWRAP0S9IU1YAUZEIZGZM0PG",
-                    "high_descs":[
-                        "Turn left to and look up to face the top shelf in the wall.",
-                        "Pick up the card on the top shelf in the wall.",
-                        "Step to the left and look down to face and empty box on the bottom shelf in the wall.",
-                        "Place the card in the empty box on the bottom shelf in the wall.",
-                        "Pick up the box with a card in it on the bottom shelf in the wall.",
-                        "Turn right and walk forward and turn right to face the living room table.",
-                        "Place the box with a card in it on the living room table."
-                    ],
-                    "task_desc":"To put a card in a box as well as re-locate them to the living room table.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A30M9SZYJKFDS9_3TR2532VISLZK91B8ALRBJ6EK2T6JC",
-                    "high_descs":[
-                        "turn to the left facing a shelf",
-                        "pick up a credit card that is on top of the shelf",
-                        "turn to the left facing a box on the bottom of the book shelf ",
-                        "put the credit card inside the box",
-                        "pick up the box from the book shelf ",
-                        "turn to the right across the room go right facing the black coffee table",
-                        "put the box on top of the coffee table"
-                    ],
-                    "task_desc":"put a box with 2 credit cards in it on top of the coffee table",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3LJ7UR74RK4HOCOI4KK47S3HX8GN4Q",
-                    "high_descs":[
-                        "Turn left to face the shelves.",
-                        "Pick up a credit card from the upper shelf.",
-                        "Walk to the left to reach the cardboard box.",
-                        "Put the credit card in the cardboard box.",
-                        "Pick up the cardboard box with the credit card in it.",
-                        "Turn right to walk to the coffee table.",
-                        "Set the box holding the credit card down on the coffee table."
-                    ],
-                    "task_desc":"Put a credit card in a cardboard box to put on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "To put a card in a box as well as re-locate them to the living room table.",
+                "put a box with 2 credit cards in it on top of the coffee table",
+                "Put a credit card in a cardboard box to put on the coffee table."
             ],
             "relative_objects":[
-                "CoffeeTable",
                 "Box",
+                "CoffeeTable",
                 "CreditCard"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-CoffeeTable-214/trial_T20190908_085616_038191/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3PPLDHC3CG0YN_3IQ1VMJRYWBB1Z05CBBQ2UUXKG09A3",
-                    "high_descs":[
-                        "Turn right and walk to the couch. ",
-                        "Pick up the credit card in front of the lap top. ",
-                        "Move right to face the box on the couch. ",
-                        "Place the credit card in the box on the couch. ",
-                        "Pick up the box from the couch. ",
-                        "Turn around and walk to the other side of the coffee table. ",
-                        "Put the box down on the right side of the coffee table. "
-                    ],
-                    "task_desc":"Put a credit card in a box and put the box on the coffee table. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3VZLGYJEYO1233QBRJX3ZQ7O05WXZB",
-                    "high_descs":[
-                        "Turn right, head to the couch with the computer on it. ",
-                        "Pick up the the blue credit card on the couch. ",
-                        "Bring the card to the right, to the box on the couch. ",
-                        "Put the card in the box on the couch. ",
-                        "Pick up the box with card on the couch. ",
-                        "Turn around, bring the box with card to the other side of the coffee table and face the table. ",
-                        "Put the box with keys down on the right side of the table. "
-                    ],
-                    "task_desc":"Put a box with keys in it, on the coffee table. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3SFPSMFRSRTB3_3JC6VJ2SAEAS0CYT9LY9QEPVYKEA5A",
-                    "high_descs":[
-                        "Turn right, go to couch.",
-                        "Pick up credit card from couch, to the right of the laptop.",
-                        "Move to center portion of couch, face couch.",
-                        "Place credit card in box on couch.",
-                        "Pick up box from couch with credit card in it.",
-                        "Turn around, go to end of room.  Turn left, move to center of coffee table on your left.  Turn left to face table.",
-                        "Put box on right lower area of table."
-                    ],
-                    "task_desc":"Put credit card in box, put box on table.",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put a credit card in a box and put the box on the coffee table. ",
+                "Put a box with keys in it, on the coffee table. ",
+                "Put credit card in box, put box on table."
             ],
             "relative_objects":[
                 "Box",
-                "CreditCard",
-                "KeyChain"
+                "KeyChain",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-ArmChair-214/trial_T20190906_182223_816635/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_382M9COHEKW4QFJMUJJMTNNZL3EEU8",
-                    "high_descs":[
-                        "Turn around and walk to the back left corner of the room, by the black bench.",
-                        "Pick up the credit card on the shelf.",
-                        "Turn right and walk to the coffee table.",
-                        "Put the credit card in the cardboard box.",
-                        "Pick up the box.",
-                        "Turn right and then hang left and go to the chair in the corner.",
-                        "Put the box on the chair."
-                    ],
-                    "task_desc":"Put a box with a credit card in it on a chair.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3LOTDFNYAAG9OX8NKUITTTTWIKZFWL",
-                    "high_descs":[
-                        "Turn around towards the other side of the room and look up to see the vase on the upper shelf.",
-                        "Grab the credit card next to the vase.",
-                        "Turn right, head towards the coffee table, stand in front of the opened box.",
-                        "Place the card in the box.",
-                        "Pick up the box with the card in it from the table.",
-                        "Turn right, then turn left towards the sofa chair.",
-                        "Place the box on the chair."
-                    ],
-                    "task_desc":"Place the box with the credit card on the leather chair.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_379J5II41RX17PWSL5RL20RHB9ELED",
-                    "high_descs":[
-                        "Turn around and head towards the brown shelf on the wall.",
-                        "Take the credit card to the right of a vase on the shelf.",
-                        "Turn right and walk to the coffee table on your right.",
-                        "Place the credit card in the box on the table.",
-                        "Pick up the box from the table.",
-                        "Turn right, walk to the wall, and then turn left to the sofa chair.",
-                        "Place the box on the chair."
-                    ],
-                    "task_desc":"Place the box with a credit card on the sofa chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3Z7ISHFUH3C43D35N3WUI56TFEQ8ZK",
-                    "high_descs":[
-                        "Turn right and walk to the wall then turn right and walk to the shelf in front of you.",
-                        "Pick up the credit card on the shelf by your head.",
-                        "Turn right and walk to the box that's on the table in front of you.",
-                        "Put the credit card in the box.",
-                        "Pick up the box with the credit card in it.",
-                        "Turn right and walk to the wall then turn left and walk to the chair.",
-                        "Put the box on the chair."
-                    ],
-                    "task_desc":"Put a box with a credit card in it on the chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A28HB7240OFGEW_36PW28KO42DKB65OOE2VTMB5E0QAEW",
-                    "high_descs":[
-                        "Turn around and walk over to the brown bench.",
-                        "Pick up the credit card from the shelf above the brown bench.",
-                        "Turn around and walk over to the table in the middle of the room with the open box.",
-                        "Put the credit card inside the open box.",
-                        "Pick up the box from the table.",
-                        "Turn around and walk over to the chair on the other side of the room.",
-                        "Put the box on the chair."
-                    ],
-                    "task_desc":"Place a box with a credit card inside on the chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a box with a credit card in it on a chair.",
+                "Place the box with the credit card on the leather chair.",
+                "Place the box with a credit card on the sofa chair.",
+                "Put a box with a credit card in it on the chair.",
+                "Place a box with a credit card inside on the chair."
             ],
             "relative_objects":[
                 "Box",
@@ -1020,57 +201,9 @@
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Plate-Shelf-214/trial_T20190908_221257_299998/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_3WQQ9FUS6DLG64MNDX58X9JSIYJB83",
-                    "high_descs":[
-                        "Turn right and step forward to face the platform on the floor.",
-                        "Pick up the keys on the platform on the floor.",
-                        "Turn around and step forward to face the living room table.",
-                        "place the keys on the plate on the living room table.",
-                        "Pick up the plate on the living room table.",
-                        "Turn around and step forward to face the platform on the floor.",
-                        "Put the plate with the keys on it on the platform on the floor."
-                    ],
-                    "task_desc":"To put keys on a plate and place them on the platform in the corner of the room.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A255A9FFZD8PQW_3X65QVEQI3EUVGYCLMA7DYBGKI6LCS",
-                    "high_descs":[
-                        "Turn to the right and walk forward to a black counter.",
-                        "Pick up the keys from the dresser. ",
-                        "Turn and walk to the right. Then turn left and face the coffee table. ",
-                        "Place the keys on the plate on the coffee table.",
-                        "Pick up the keys and plate from the coffee table.",
-                        "Turn and walk to the left. Then turn right and face the black counter.",
-                        "Place the plate and keys on the black counter. "
-                    ],
-                    "task_desc":"Move a plate and keys to a counter. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AFU00NU09CFXE_3XC1O3LBOVDBHX0N785X28BK83DTLO",
-                    "high_descs":[
-                        "Turn right and move to stand in front of the box on the black bench.",
-                        "Pick up the keys from beside the box on the bench.",
-                        "Turn right and carry the keys to the coffee table, standing in front of the white dish.",
-                        "Place the keys on the white dish on the table.",
-                        "Pick up the dish with the keys on it from the table.",
-                        "Turn right and carry the keys on the dish back to the black bench.",
-                        "Place the dish with the keys on top near the right end of the bench."
-                    ],
-                    "task_desc":"Move a plate beneath keys on a bench.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "To put keys on a plate and place them on the platform in the corner of the room.",
+                "Move a plate and keys to a counter. ",
+                "Move a plate beneath keys on a bench."
             ],
             "relative_objects":[
                 "Plate",
@@ -1079,60 +212,9 @@
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Plate-Shelf-214/trial_T20190908_221328_135625/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3NAPMVF0ZZ6IIDH8KZKRIGKTD7I72Q",
-                    "high_descs":[
-                        "turn around and walk to the end of the room, then turn right to face the black table at the end of the couch",
-                        "grab the keys off of the black table there",
-                        "turn right and walk over to the front of the coffee table on the right",
-                        "place the keys down on a plate on the coffee table",
-                        "pick up the plate with the keys on it off of the coffee table",
-                        "turn left and walk over to the not very tall table on the floor in the right side corner of the room",
-                        "place the plate down on that table there"
-                    ],
-                    "task_desc":"place a plate with keys on it on the small table in the corner of the room",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3Z4XG4ZF4BINJ7POITXQM6AK10GX85",
-                    "high_descs":[
-                        "Turn around and walk towards the window, then hang a right and walk up to the black table to the left of the couch.",
-                        "Pick up the set of keys off of the black table.",
-                        "Turn right and walk across the room, then hang a right and walk over to the side of the coffee table.",
-                        "Put the keys on the middle white plate on the coffee table.",
-                        "Pick up the white plate with the keys on it off of the coffee table.",
-                        "Turn left and walk towards the wall, then hang a right and walk up to the black bench.",
-                        "Put the white plate with the keys on it on the bench."
-                    ],
-                    "task_desc":"Put a white plate with keys on it on a bench.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_37C0GNLMHIUMHN1JYEZG8LB1FNUD6D",
-                    "high_descs":[
-                        "walk over to face side table on left side of long couch",
-                        "pick up keys from side table",
-                        "walk to face coffee table",
-                        "put keys on white plate on table",
-                        "pick up white plate from table",
-                        "walk to face black shelf near ground",
-                        "put white plate on black shelf"
-                    ],
-                    "task_desc":"put white plate and keys on black shelf",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "place a plate with keys on it on the small table in the corner of the room",
+                "Put a white plate with keys on it on a bench.",
+                "put white plate and keys on black shelf"
             ],
             "relative_objects":[
                 "Plate",
@@ -1141,228 +223,42 @@
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Plate-SideTable-214/trial_T20190908_024909_306927/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AUTYWXILTACCR_3GGAI1SQEYF6G9UZPQM5CP63Q2UCMG",
-                    "high_descs":[
-                        "Turn to your left and walk to the glass coffee table. ",
-                        "Pick up the credit card from the edge of the coffee table.",
-                        "Walk closer to the middle of the coffee table. ",
-                        "Place the credit card on the white plate on the table. ",
-                        "Pick up the white plate from the table. ",
-                        "Walk to the couch to the right of the table, then to the end table to the left of the couch. ",
-                        "Place the plate on the end table."
-                    ],
-                    "task_desc":"Place a plate with a credit card on it on a table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_3GS6S824STELCPL4II161Y26N8INWW",
-                    "high_descs":[
-                        "Turn left and walk across the room, then turn left and walk forward and turn left to face the living room table.",
-                        "Pick up the card on the living room table.",
-                        "Take a step to the right and face the card on the plate on the living room table.",
-                        "Take a step to the right and place the card on the plate on the living room table.",
-                        "Pick up the plate with the car on it on the table.",
-                        "Walk around the right side of the table and walk across the room, then turn left and walk forward to face the end table to the left of the couch.",
-                        "Place the plate with the card on it on the end table."
-                    ],
-                    "task_desc":"To put a card on a plate and move them to the end table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3DOCMVPBTQVVPVCQQHAJ5FPFUVBNN0",
-                    "high_descs":[
-                        "Turn left and walk towards the chair, then hang a left and walk up to the glass coffee table.",
-                        "Pick up the leftmost credit card off of the coffee table.",
-                        "Turn right and walk forward, then turn left to face the glass coffee table.",
-                        "Put the credit card on the white plate that is on the coffee table.",
-                        "Pick up the white plate with the credit card on it off of the coffee table.",
-                        "Turn right and walk around the coffee table to the black shelving unit that is to the left of the couch.",
-                        "Put the white plate with the credit card on it on top of the black shelving unit to the right of the lamp."
-                    ],
-                    "task_desc":"Put a white plate with a credit card on it on top of a black shelving unit.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place a plate with a credit card on it on a table.",
+                "To put a card on a plate and move them to the end table.",
+                "Put a white plate with a credit card on it on top of a black shelving unit."
             ],
             "relative_objects":[
-                "CreditCard",
-                "Plate"
+                "Plate",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Plate-SideTable-214/trial_T20190908_024824_684023/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A23HZ18KTCK2DA_3A9AA95ATZ3R2RIX2WRPFNUO3PS5P4",
-                    "high_descs":[
-                        "Turn right and go to the wall.  Turn right and face the table on the right side of it.",
-                        "Pick up the credit card that is to the right of the glass vase.",
-                        "With the credit card in hand move to face the same table but on the left side of it.",
-                        "Place the credit card on the plate that is on the table. ",
-                        "Pick up the plate with the credit card on it.",
-                        "With the plate in hand turn and go to the table that is next to the couch with the purple pillow on it.",
-                        "Place the plate to the right of the lamp that is on the table."
-                    ],
-                    "task_desc":"Place plate and credit card on table next to couch.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3V5Q80FXI08SW5UNMFSK4DOBEJS328",
-                    "high_descs":[
-                        "Turn right and walk to the corner of the room.",
-                        "Pick up the credit card on the shelf near the floor.",
-                        "Take a step left.",
-                        "Place the credit card on the white plate.",
-                        "Pick up the white plate.",
-                        "Turn right and walk straight towards the couch, and then go to the table to the left of the couch.",
-                        "Place the plate on the black table to the right of the lamp."
-                    ],
-                    "task_desc":"Place a plate with a credit card on it on a table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AU34T9OMHN4Z4_3W2LOLRXLEWFWNJFMBZKM7DL1YFRK9",
-                    "high_descs":[
-                        "Turn around and move between the wall to the right and a table to the left and come to a shelf on the right.",
-                        "Pick up a credit card from the shelf closest to the wall",
-                        "Move slightly to the left of where the credit card was picked up from",
-                        "Place the credit card on a plate just to the left in front of a tea pot ",
-                        "Pick up the white plate now holding the credit card from the cabinet",
-                        "Turn to the right keeping the wall to the left and straight to a black side table",
-                        "Place the plate with the card directly to the right of the lamp"
-                    ],
-                    "task_desc":"Placing a plate with a credit card on it on a side table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place plate and credit card on table next to couch.",
+                "Place a plate with a credit card on it on a table.",
+                "Placing a plate with a credit card on it on a side table"
             ],
             "relative_objects":[
-                "CreditCard",
-                "Plate"
+                "Plate",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Plate-SideTable-214/trial_T20190908_024936_413577/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_336KAV9KYT9TC8RBB0LAU7KONL72YZ",
-                    "high_descs":[
-                        "move to the couch behind the coffee table",
-                        "pick up a card from the couch",
-                        "turn around to the table",
-                        "put the card on a plate on the table",
-                        "pick up the plate from the table",
-                        "move to the end table to the left of the couch to the right",
-                        "put the plate on the end table"
-                    ],
-                    "task_desc":"Put a plate with a card on a end table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3R2PKQ87NZPXTCGZH0IRNS4Y350MIA",
-                    "high_descs":[
-                        "Turn around and walk to the couch on the back wall of the room to the left of the white door.",
-                        "Pick up the credit card to the right of the boxes on the couch.",
-                        "Turn around and face the coffee table.",
-                        "Place the credit card on the white plate.",
-                        "Pick up the white plate.",
-                        "Walk to the right of the table and ahead to the black table in the front right corner.",
-                        "Place the plate on the table to the right of the lamp."
-                    ],
-                    "task_desc":"Place a plate with a credit card on it on a table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3Y4W8Q93L21ZBOUM3EI7JR7Y2TMVDG",
-                    "high_descs":[
-                        "Turn right and walk to the coffee table. then turn right and walk past the coffee table then turn left and walk to the cardboard box on the middle of the couch and turn right to face it.",
-                        "Pick up the credit card to the right of the box.",
-                        "Turn around and take a step to your left.",
-                        "Put the credit card on the square white plate.",
-                        "Pick up the square white plate with the credit card on it.",
-                        "Turn right and walk past the coffee table on your left then turn left and walk to the black garbage then turn right and walk to the small black end table.",
-                        "Put the white plate on the black table back right corner."
-                    ],
-                    "task_desc":"Put a plate with a credit card on it on the table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a plate with a card on a end table.",
+                "Place a plate with a credit card on it on a table.",
+                "Put a plate with a credit card on it on the table."
             ],
             "relative_objects":[
-                "CreditCard",
-                "Plate"
+                "Plate",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_simple-Statue-None-SideTable-214/trial_T20190909_035314_885391/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_33PPUNGG3BWI674ZIKRBA8L0ZVOZR8",
-                    "high_descs":[
-                        "turn around, walk to the chair, turn left, walk forward, turn left to face the coffee table",
-                        "pick up the statue that is on the table",
-                        "turn right, walk two steps, turn left, walk forward to the small table, hold statue up to lamp",
-                        "turn the lamp on"
-                    ],
-                    "task_desc":"examine the statue with the lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3MB8LZR5BIKCEEA0DZR51HOOPVOLKM",
-                    "high_descs":[
-                        "Turn around and walk around the coffee table to face the middle of it.",
-                        "Pick up the black statue from the coffee table.",
-                        "Make a left and walk to the black side table next to the couch.",
-                        "Set the statue down on the side table."
-                    ],
-                    "task_desc":"Move a statue from the coffee table to the side table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3P529IW9K1C1YSIMCO08L4WJHZ7FLE",
-                    "high_descs":[
-                        "turn to the right twice and go to the chair and turn to the left and go to the end of the table and turn to the left facing the table",
-                        "pick up the dark statue of the person from the table",
-                        "turn to the right and take a few steps and turn to the left and go to the waste basket and turn to the right and go to the end table",
-                        "put the statue of the person on the end table"
-                    ],
-                    "task_desc":"Place a statue on a end table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "examine the statue with the lamp",
+                "Move a statue from the coffee table to the side table.",
+                "Place a statue on a end table"
             ],
             "relative_objects":[
                 "Statue"
@@ -1370,48 +266,9 @@
         },
         "train/pick_and_place_simple-Statue-None-SideTable-214/trial_T20190909_035300_008956/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A255A9FFZD8PQW_3CN4LGXD50FB0BSWBMTFO81O1NGY4D",
-                    "high_descs":[
-                        "Turn left and walk around the coffee table. Turn right to face the coffee table,",
-                        "Pick up the statue off of the coffee table.",
-                        "Turn around and walk left to the side table.",
-                        "Place the statue on the side table."
-                    ],
-                    "task_desc":"Move a statue to a side table. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3QHK8ZVMIP9BLB667MEC2E5Y20VBL6",
-                    "high_descs":[
-                        "Turn to your left and go around to the front of the coffee table in front of you. ",
-                        "Pick up the statue to the left of the newspaper on the table. ",
-                        "Turn to your left and go to the end table to the left of the couch across from you.",
-                        "Place the statue on the right front corner of the end table. "
-                    ],
-                    "task_desc":"Put the statue from the coffee table on the end table. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2Z43TA0WZ0EG0_3VE8AYVF8PO6JLY3IZR4GZADXYO8FZ",
-                    "high_descs":[
-                        "Head straight to the glass coffee table with the red bowl and man statue.",
-                        "Pick up the man statue from the glass coffee table.",
-                        "Turn left and head to the black side table next to the couch.",
-                        "Place the man statue on the black side table."
-                    ],
-                    "task_desc":"To move the man statue to the black side table. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a statue to a side table. ",
+                "Put the statue from the coffee table on the end table. ",
+                "To move the man statue to the black side table. "
             ],
             "relative_objects":[
                 "Statue"
@@ -1419,57 +276,9 @@
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-Shelf-214/trial_T20190909_044546_743610/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_36H9ULYP65LV32UM93OV5PJRD9NJFZ",
-                    "high_descs":[
-                        "turn around and walk over to the coffee table up ahead",
-                        "grab the credit card off of the coffee table",
-                        "turn left and walk over to the couch just up ahead",
-                        "place the credit card inside of the brown box on top of the couch there",
-                        "pick up the brown box with the credit card inside of it",
-                        "turn right and walk to the end of the room, then hang a right turn and walk over to the short floor table at the end of the room",
-                        "place the box down on top of the table top there"
-                    ],
-                    "task_desc":"place a box with a credit card in it on the short table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_3VAR3R6G1SS0PYBWH2AU3TJRPZN8OT",
-                    "high_descs":[
-                        "walk to face coffee table",
-                        "pick up credit card from table",
-                        "turn to face couch with box",
-                        "put credit card in box on sofa",
-                        "pick up box from sofa",
-                        "walk to face low black shelf",
-                        "put box on low black shelf"
-                    ],
-                    "task_desc":"put box and credit card on living room shelf",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3WQ3B2KGEB7YV422ECWTIZWK4VKB1W",
-                    "high_descs":[
-                        "Turn around and walk towards the coffee table.",
-                        "Pick up the credit card from the coffee table.",
-                        "Turn around to face the long couch with the cardboard box on it.",
-                        "Set the credit card down in the cardboard box.",
-                        "Pick up the cardboard box with the credit card in it.",
-                        "Hang a right to reach the black shelf in the corner of the room.",
-                        "Set the cardboard box with the credit card in it on the black shelf."
-                    ],
-                    "task_desc":"Put a credit card in a cardboard box to put on a black shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "place a box with a credit card in it on the short table",
+                "put box and credit card on living room shelf",
+                "Put a credit card in a cardboard box to put on a black shelf."
             ],
             "relative_objects":[
                 "Box",
@@ -1478,117 +287,21 @@
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-Shelf-214/trial_T20190909_033103_667362/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3PPLDHC3CG0YN_354P56DE9NUBNCY6EEZX9YXXB54S79",
-                    "high_descs":[
-                        "Walk over to face the coffee table. ",
-                        "Pick up the credit card to the left of the lap top. ",
-                        "Walk over to the open box on the coffee table. ",
-                        "Put the credit card inside of the box. ",
-                        "Pick up the box from the coffee table. ",
-                        "Turn left and walk to the brown shelf. ",
-                        "Put the box down on the right side of the shelf. "
-                    ],
-                    "task_desc":"To put a credit card inside a box and move the box to the shelf. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3SFPSMFRSRTB3_3BDCF01OG0L7YJZHHESWAP3ZNAXYLU",
-                    "high_descs":[
-                        "Turn left, proceed to center of coffee table on right, turn right to face coffee table.",
-                        "Pick up credit card from table, directly left of tea pot.",
-                        "Turn right, go to end of coffee table.  Turn left then left to face end of coffee table.",
-                        "Place credit card in box on coffee table.",
-                        "Pick up box and credit card from coffee table.  ",
-                        "Turn left, proceed to shelf against wall.",
-                        "Place box on right side of shelf, to the right of the newspapers."
-                    ],
-                    "task_desc":"Move credit card from table to coffee table, place it in a box, pick up box with credit card, move both to shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3HFNH7HEMK5I3PUUFDEMKBVPSJNGQU",
-                    "high_descs":[
-                        "Walk left and forward up to the coffee table",
-                        "Pick up the blue credit card from the table",
-                        "Turn right and walk around to face the right side of the coffee table",
-                        "Put the credit card in the cardboard box on the coffee table",
-                        "Pick up the cardboard box from the table",
-                        "Turn left and walk forward to the dark bench",
-                        "Put the box down on the dark bench"
-                    ],
-                    "task_desc":"Put the cardboard box with credit card on the dark bench",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "To put a credit card inside a box and move the box to the shelf. ",
+                "Move credit card from table to coffee table, place it in a box, pick up box with credit card, move both to shelf.",
+                "Put the cardboard box with credit card on the dark bench"
             ],
             "relative_objects":[
                 "Box",
-                "CreditCard",
-                "Shelf"
+                "Shelf",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-Shelf-214/trial_T20190909_044449_866486/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A19LVWX8ZLO6CS_39OWYR0EPNILYRPLV3PYFCYFQEOYF2",
-                    "high_descs":[
-                        "Step forward, turn right and walk to night stand to the left of the couch.",
-                        "Pick up the credit card on the right corner of the night stand.",
-                        "Turn right, step forward, turn right and walk to the end of the room, then hang left and walk to the coffee table. Turn left to face the table edge.",
-                        "Place the credit card inside the box.",
-                        "Pick up the box from the table.",
-                        "Turn around, step forward, turn right and walk to floor shelf.",
-                        "Place the box in between the salt shaker and the newspaper."
-                    ],
-                    "task_desc":"Place a credit card inside a box and take the box to a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3O7L7BFSHHG72DAKWAJPB6JROUZIEM",
-                    "high_descs":[
-                        "Turn right at the black bench, turn left to the window and walk to the small black table on the right.",
-                        "Pick up the blue credit card from the right corner of the table.",
-                        "Turn around, take a left at the black bench and walk to the coffee table on the left.",
-                        "Put the credit card inside the cardboard box on the table.",
-                        "Pick up the box with the credit card inside from the table.",
-                        "Turn around, take a right at the wall and walk to the black bench.",
-                        "Put the box with the credit card inside on the right side of the bench in between the newspaper and the remote control."
-                    ],
-                    "task_desc":"Place a box with a credit card on a bench.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3R9WASFE227L3HZQRPRHTJ7HW8QFZ8",
-                    "high_descs":[
-                        "Turn right and walk to the table to the left of the couch.",
-                        "Pick up the blue credit card on the table.",
-                        "Turn around and walk ahead, then left after passing the coffee table to the side of the table with the box.",
-                        "Place the credit card in the box on the table.",
-                        "Pick up the box.",
-                        "Turn left and walk to the black shelf in the corner.",
-                        "Place the box on the shelf, to the left of the newspaper."
-                    ],
-                    "task_desc":"Place a box with a credit card in it on a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a credit card inside a box and take the box to a shelf.",
+                "Place a box with a credit card on a bench.",
+                "Place a box with a credit card in it on a shelf."
             ],
             "relative_objects":[
                 "Box",
@@ -1597,48 +310,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-ArmChair-214/trial_T20190909_061209_612904/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A31681CCEVDIH3_36W0OB37HZ55HDQWMFFHW4JUCNRZHE",
-                    "high_descs":[
-                        "Make a left to walk around and face the coffee table.",
-                        "Pick up the keys from the coffee table.",
-                        "Turn around to face the armchair in the corner of the room.",
-                        "Set the keys down on the seat of the armchair."
-                    ],
-                    "task_desc":"Move keys from the coffee table to the armchair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3FIJLY1B6XVRPDXK4GTF2L53M99PFN",
-                    "high_descs":[
-                        "Turn left and walk to the couch, then turn right and take a step, and turn right again to face the coffee table.",
-                        "Pick up the keys on the coffee table.",
-                        "Turn left and walk to the chair in the left corner of the room.",
-                        "Place the keys on the chair."
-                    ],
-                    "task_desc":"Place a set of keys on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3K9FOBBF2KADMKV3ACJLT95SJQYLNW",
-                    "high_descs":[
-                        "Move to the coffee table in the middle of the room facing the keys on top of the table ",
-                        "Pick up the keys on the coffee table",
-                        "Carry the keys over to the grey chair in the corner of the room",
-                        "Place the keys on top of the chair"
-                    ],
-                    "task_desc":"Move keys to the chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move keys from the coffee table to the armchair.",
+                "Place a set of keys on a chair.",
+                "Move keys to the chair"
             ],
             "relative_objects":[
                 "KeyChain"
@@ -1646,51 +320,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-ArmChair-214/trial_T20190909_061144_774666/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3GU1KF0O4LS1CWL4ZE7JJVEI7AKPB6",
-                    "high_descs":[
-                        "Turn around, hang a right towards the couch and walk to the front of the coffee table on the right.",
-                        "Pick up the set of keys in front of the plant in the middle of the table.",
-                        "Head left to the wall, turn around and face the black chair on the right.",
-                        "Put the set of keys on the left side of the cushion on the chair."
-                    ],
-                    "task_desc":"Place a set of keys on a chair.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3TOK3KHVJW9WPK6D7XIOPTNWEFX7OL",
-                    "high_descs":[
-                        "turn around, take a few steps, turn right, walk to couch, turn right, turn right to face coffee table",
-                        "pick up the keys that are on the coffee table",
-                        "turn left, walk to the wall, turn to face chair on the left",
-                        "put the keys on the chair"
-                    ],
-                    "task_desc":"move keys from coffee table to chair",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A255A9FFZD8PQW_3Y9N9SS8L12NK4E1FC1I1IZH5ZA3DL",
-                    "high_descs":[
-                        "Go Forward and then go around the right side of the coffee table,",
-                        "Pick up keys from the coffee table.",
-                        "Go forward then turn left to face the armchair.",
-                        "Place the keys on the armchair. "
-                    ],
-                    "task_desc":"Move a set of keys to an armchair. ",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Place a set of keys on a chair.",
+                "move keys from coffee table to chair",
+                "Move a set of keys to an armchair. "
             ],
             "relative_objects":[
                 "KeyChain"
@@ -1698,48 +330,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-ArmChair-214/trial_T20190909_061223_922232/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_34Z02EIMIV4YK1B1IFJE4OJW59LT06",
-                    "high_descs":[
-                        "turn right, take a step, turn right, walk past coffee table and couch, turn left take a few steps, turn right, walk to the couch",
-                        "pick up the keys that are on the couch",
-                        "turn right, walk forward, turn right, walk across the room to the wall, turn left to face the chair",
-                        "put the keys on the chair"
-                    ],
-                    "task_desc":"move keys from the couch to the chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"ANBWJZYU2A68T_3BQU611VFSBXWGQ0K5XQ6ZJDE6999V",
-                    "high_descs":[
-                        "Turn around to go across the room to face the sofa with cushion on the left side",
-                        "Pick up the key-chain from the sofa",
-                        "Turn around and go to the opposite end of the room with a small single sofa",
-                        "Place the key-chain on the sofa"
-                    ],
-                    "task_desc":"Pick up the key-chain from the bigger sofa and put it on the smaller sofa",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3Z2R0DQ0JK53RSWI77YXOQCAZXC2E3",
-                    "high_descs":[
-                        "turn around and walk forwards past the coffee table, then take a left and walk to the corner of the coffee table, then a right and walk over to the couch cushions up ahead",
-                        "grab the keys off of the couch cushion",
-                        "turn right and walk to the other couch, then another right turn and walk over to the chair at the end of the room on the left, and turn left to face said chair",
-                        "place a keys down on top of the chair there"
-                    ],
-                    "task_desc":"place keys down on top of a chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "move keys from the couch to the chair",
+                "Pick up the key-chain from the bigger sofa and put it on the smaller sofa",
+                "place keys down on top of a chair"
             ],
             "relative_objects":[
                 "Newspaper",
@@ -1749,137 +342,29 @@
         },
         "train/pick_and_place_with_movable_recep-RemoteControl-Box-Shelf-214/trial_T20190907_160706_441090/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1S1K7134S2VUC_3TDXMTX3CEBV49V7UKBAYW7CDY06IL",
-                    "high_descs":[
-                        "Turn left, move to the coffee table, between the box and the statue.",
-                        "Pick up the remote from the coffee table.",
-                        "Turn right, move to the coffee table in front of the box.",
-                        "Place the remote in the box.",
-                        "Pick up the box with the remote in it.",
-                        "Turn right, move to the shelf opposite the door.",
-                        "Place the box on the shelf."
-                    ],
-                    "task_desc":"Place a box containing a remote onto a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AKW57KYG90X61_3U5NZHP4LUJ3IK2S3YSY4KXE8RGHPG",
-                    "high_descs":[
-                        "move forward towards the table",
-                        "pick up the remote from the table",
-                        "move right towards the carton on the table",
-                        "place the remote in the carton",
-                        "pick up the carton from the table",
-                        "move right towards the stand",
-                        "place the carton on the stand"
-                    ],
-                    "task_desc":"place a carton with a remote in it on the stand",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3WI0P0II6497IHD5UUDXIUIVHH3DRN",
-                    "high_descs":[
-                        "Turn to your left move forward then turn right face the center table",
-                        "Pick up the remote on the center table",
-                        "Turn to your right move few step and face the box on the table",
-                        "Put the remote in the box",
-                        "Pick up the  box with remote",
-                        "Turn to your right move forward towards the wall then face right",
-                        "Put the box with remote on the left corner"
-                    ],
-                    "task_desc":"Put the box with remote on the corner",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a box containing a remote onto a shelf.",
+                "place a carton with a remote in it on the stand",
+                "Put the box with remote on the corner"
             ],
             "relative_objects":[
-                "RemoteControl",
-                "Box"
+                "Box",
+                "RemoteControl"
             ]
         },
         "valid_seen/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-214/trial_T20190907_120634_187855/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A21KF567E8ZCLO_37M28K1J0TUSMMRG2FDMQ2OYLGEJA2",
-                    "high_descs":[
-                        "turn left and walk until the sofa",
-                        "pick up the remote from the sofa",
-                        "turn around, then turn left at the table and walk the remote towards the sofa",
-                        "put the remote in the box",
-                        "pick up the box with the remote in it",
-                        "turn around and walk towards the sofa chair ",
-                        "place the box onto the chair"
-                    ],
-                    "task_desc":"put a remote in a box, putting the box onto a chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1S1K7134S2VUC_3J88R45B2JF04A2782AK76L8W5UPXO",
-                    "high_descs":[
-                        "Turn left, move to the low shelf below the TV.",
-                        "Get the remote off of the shelf.",
-                        "Turn right, move to the couch.",
-                        "Place the remote in the box.",
-                        "Pick the box with the remote in it.",
-                        "Turn to the right, move past the couch, past the door and face the chair to the right of the door.",
-                        "Place the box on to the chair."
-                    ],
-                    "task_desc":"Box a remote control, move it near the door.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"ABQ4JY52NCREZ_3NVC2EB65TGIXQNUF0ZFDHPGTBHY34",
-                    "high_descs":[
-                        "Turn left and go to the bench across the room",
-                        "Pick up the remote control from the bench",
-                        "Turn left and go to the couch with a box on it",
-                        "Put the remote control in the box",
-                        "Pick up the box from the couch ",
-                        "Turn right and go to the armchair across the room",
-                        "Put the box on the armchair"
-                    ],
-                    "task_desc":"Packing a remote control",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put a remote in a box, putting the box onto a chair",
+                "Box a remote control, move it near the door.",
+                "Packing a remote control"
             ],
             "relative_objects":[
-                "RemoteControl",
-                "Box"
+                "Box",
+                "RemoteControl"
             ]
         },
         "tests_seen/trial_T20190909_010952_786146/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Face the top shelf with the remote in front of you.",
-                        "Take the remote from the shelf in front of you.",
-                        "Turn around and face the couch in front of you.",
-                        "Place the remote on the couch in front of you.",
-                        "Turn around and face the bottom shelf with the remote on the right in front of you.",
-                        "Take the remote on the right on the shelf in front of you.",
-                        "Turn around and face the couch in front of you.",
-                        "Place the remote on the couch in front of you."
-                    ],
-                    "task_desc":"Place the remote on the couch."
-                }
+                "Place the remote on the couch."
             ],
             "relative_objects":[
                 "RemoteControl"

@@ -3,34 +3,8 @@
     "trials":{
         "train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021820_773170/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3UF6XXFFRR237_3F6HPJW4JGHPN3WBWZ3M9AZ8CCF2W6",
-                    "high_descs":[
-                        "go the bookshelves on the wall",
-                        "pick up the phone from the shelf",
-                        "take the phone to the right side of the desk",
-                        "put the phone on the desk"
-                    ],
-                    "task_desc":"get a phone and put it on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AUTYWXILTACCR_3LKC68YZ3DK3UALGJX1JGN2BDHHOW4",
-                    "high_descs":[
-                        "Turn around and face the desk.",
-                        "Pick up the phone from the middle shelf on the desk.",
-                        "Walk around the desk and look at it from its right side.",
-                        "Place the phone on the desk."
-                    ],
-                    "task_desc":"Place a phone on a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "get a phone and put it on the desk",
+                "Place a phone on a desk."
             ],
             "relative_objects":[
                 "CellPhone"
@@ -38,127 +12,32 @@
         },
         "train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021807_843876/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_38SKSKU7R4EDNUYEHOHCNFP9322IL0",
-                    "high_descs":[
-                        "move to the bed to the right of the desk",
-                        "pick up a phone from the bed",
-                        "move to the desk behind you",
-                        "put the phone on the desk"
-                    ],
-                    "task_desc":"Move a phone from the bed to the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3LKC68YZ3DK3UALGJX1JGN2BDHUWOP",
-                    "high_descs":[
-                        "Turn right, walk forward to the desk, then turn right and walk to the bed.",
-                        "Pick up the closest cell phone from the bed.",
-                        "Turn around and walk to the right side of the desk.",
-                        "Put the cell phone on the desk, to the right of the blue pencil."
-                    ],
-                    "task_desc":"Move a cell phone from a bed to a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3V0Z7YWSI1HC8EW66PYQN8GU54L2V6",
-                    "high_descs":[
-                        "turn right, walk across to the desk, turn right, walk to the bed",
-                        "pick up the phone that is on the bed",
-                        "turn around, walk to the desk",
-                        "put the phone on the desk"
-                    ],
-                    "task_desc":"move a phone from the bed to the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a phone from the bed to the desk.",
+                "Move a cell phone from a bed to a desk.",
+                "move a phone from the bed to the desk"
             ],
             "relative_objects":[
-                "Desk",
+                "Bed",
                 "CellPhone",
-                "Bed"
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-CellPhone-None-Desk-312/trial_T20190908_021751_687867/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AKW57KYG90X61_3GNCZX450L4O8XUEXSI6NYAAV2PPAO",
-                    "high_descs":[
-                        "turn around and head to the bed",
-                        "pick up the phone from the bed",
-                        "turn around and head to the shelf",
-                        "drop the phone on the shelf"
-                    ],
-                    "task_desc":"drop the phone on the shelf",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3PJUZCGDJ9XPXMLSJ52V5H400AA98C",
-                    "high_descs":[
-                        "Go to the left and then turn left again to face the bed with the computers on it.",
-                        "Pick up the phone from the bed.",
-                        "Turn around and face the end of the desk.",
-                        "Put the pen down on the desk."
-                    ],
-                    "task_desc":"Put a pen on a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3R6BYFZZPATODXDDUZEFVC74UHEXF0",
-                    "high_descs":[
-                        "Turn around and walk forward to the right side of the desk, then turn right and walk to the bed.",
-                        "Pick up the cell phone from the bed.",
-                        "Turn around and walk to the CD on the desk.",
-                        "Put the cell phone on the desk, immediately to the right of the CD."
-                    ],
-                    "task_desc":"Move a cell phone from a bed to a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "drop the phone on the shelf",
+                "Put a pen on a desk.",
+                "Move a cell phone from a bed to a desk."
             ],
             "relative_objects":[
                 "Pen",
-                "Desk",
+                "Bed",
                 "CellPhone",
-                "Bed"
+                "Desk"
             ]
         },
         "train/pick_two_obj_and_place-Pen-None-Desk-312/trial_T20190911_155452_082222/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3DR23U6WE8VPQ24XUETCOR1Y5FQETL",
-                    "high_descs":[
-                        "Walk forward to the small side table by the bed",
-                        "Pick up the blue pen from the side table",
-                        "Turn left and walk up to the side of the desk",
-                        "Put the pen down on the desk next to the keys",
-                        "Walk forward and around to the far left side of the desk",
-                        "Pick up the blue pen behind the CD from the desk",
-                        "Turn right and walk back around to the right side of the desk",
-                        "Put the pen on the desk next to the other pen"
-                    ],
-                    "task_desc":"Put the pens on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the pens on the desk"
             ],
             "relative_objects":[
                 "Pen"
@@ -166,156 +45,33 @@
         },
         "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103710_898411/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A98E8M4QLI9RS_32M8BPYGAWD5MR6B259DB94311EGIJ",
-                    "high_descs":[
-                        "turn around and move to the right side of the desk",
-                        "face the desk long ways, pick up the book from the desk",
-                        "turn around and move forward to the bed",
-                        "put the book on the edge of the bed to the left of the cell phone"
-                    ],
-                    "task_desc":"put a book on to the bed",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3CFJTT4SXWHMTYVA925J5WRA2YY7IA",
-                    "high_descs":[
-                        "Turn around and walk over to the desk in front of you. ",
-                        "Pick up the book that sits on the desk in front of the chair. ",
-                        "Turn around and walk to the bed. ",
-                        "Place the book on the bed to the left of the cell phone."
-                    ],
-                    "task_desc":"Move a book to the bed. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"ARB8SJAWXUWTD_39LNWE0K4XNOR976MAYUFO5UA9VIUN",
-                    "high_descs":[
-                        "Turn and walk to the desk",
-                        "Pick up the book from the desk",
-                        "Walk to the bed",
-                        "Put the book on top of the bed"
-                    ],
-                    "task_desc":"Move a book from a desk to a bed",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "put a book on to the bed",
+                "Move a book to the bed. ",
+                "Move a book from a desk to a bed"
             ],
             "relative_objects":[
-                "Desk",
                 "Bed",
-                "Book"
+                "Book",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103725_745160/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_351SEKWQS38O6QMBLU6XXH8N5IZDM3",
-                    "high_descs":[
-                        "Turn around and veer left to the desk.",
-                        "Pick up the blue book on the desk.",
-                        "Turn around and walk to the bed.",
-                        "Place the book on the bed near the middle, close to the closest edge."
-                    ],
-                    "task_desc":"Place a book on a bed.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3LEIZ60CDMQC278DO3RPJNL6T1A9Z7",
-                    "high_descs":[
-                        "Turn around and then left to find the tall desk.",
-                        "Pick up the book that is in the middle of the desk.",
-                        "Carry the book and turn to the left and move toward the bed.",
-                        "Place the book on the bed, in the center."
-                    ],
-                    "task_desc":"Move a book from the desk to bed.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1SX8IVV82M0LW_3F6HPJW4JGRX8SI9S7S3AWJA6TU2WG",
-                    "high_descs":[
-                        "Walk to the edge of the computer desk behind you.",
-                        "Pick up a book from the desk.",
-                        "Walk to the blue bed behind you.",
-                        "Put the book on the bed."
-                    ],
-                    "task_desc":"Move a book from the desk to the bed.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place a book on a bed.",
+                "Move a book from the desk to bed.",
+                "Move a book from the desk to the bed."
             ],
             "relative_objects":[
                 "Bed",
-                "Desk",
-                "Book"
+                "Book",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-Book-None-Bed-312/trial_T20190908_103648_829231/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_3B2X28YI3Z6T2Q3ZKI8ADVN1CXJB6V",
-                    "high_descs":[
-                        "Turn right, move to the desk across the room.",
-                        "Pick up the book on the desk. ",
-                        "Turn around, bring the book to the bed.",
-                        "Put the book on the bed."
-                    ],
-                    "task_desc":"Put a book on the bed. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A9KPD7Y55PU9Q_3JCG6DTRV6H9GEO8I9JYEPZRYYWQQJ",
-                    "high_descs":[
-                        "Turn to the right and walk to the wooden desk with a black chair. ",
-                        "Pick up the blue design book that is on the desk. ",
-                        "Turn to the left and walk to the bed.",
-                        "Place the book on the blue cover on the bed. "
-                    ],
-                    "task_desc":"Pick up a book from the desk and take it to the bed. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3LOZAJ85YG4CXSNZ2COPCFXHFV82XH",
-                    "high_descs":[
-                        "Turn to your right and go to the night stand, then turn to your left and go to the side of the desk closest to you. ",
-                        "Pick up the book, in front of the chair, on the desk. ",
-                        "Turn around and go to the bed, behind you. ",
-                        "Place the book on the bed, in front of the computer. "
-                    ],
-                    "task_desc":"Put a book on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a book on the bed. ",
+                "Pick up a book from the desk and take it to the bed. ",
+                "Put a book on the bed."
             ],
             "relative_objects":[
                 "Pillow",
@@ -324,25 +80,7 @@
         },
         "train/pick_two_obj_and_place-AlarmClock-None-SideTable-312/trial_T20190908_024722_559979/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1NWXL4QO30M8U_3LRLIPTPETQNX6XYK0DYRHOB1U9AK2",
-                    "high_descs":[
-                        "Turn left and take one step, then turn left and walk to the desk. ",
-                        "Look down and take the clock from the shelf. ",
-                        "Turn right and walk to the bed, then turn left and walk to the bedside table. ",
-                        "Put the clock to the left of the lamp that is on the table. ",
-                        "Turn around and take one step, then turn right and walk across the room, then turn right. ",
-                        "Pick up the clock that is to the right of the CD.",
-                        "Turn around and take one step, then turn left and walk to the bed, then turn left and walk to the bedside table. ",
-                        "Place the clock on the bedside table directly next to the lamp. "
-                    ],
-                    "task_desc":"Put the clocks on the bedside table. ",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put the clocks on the bedside table. "
             ],
             "relative_objects":[
                 "AlarmClock"
@@ -350,48 +88,9 @@
         },
         "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195054_730437/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A10AVWALIHR4UQ_3570Y55XZS0JR2ZIAF6ZWBEPWS4YGH",
-                    "high_descs":[
-                        "Turn left and move toward the gray trash bin the corner and then turn right and move to the basketball on the floor next to the desk and then turn left.",
-                        "Pick up the basketball that is on top of the wire on the floor.",
-                        "Move towards the desk with the black chair.",
-                        "Place the basketball on the right corner of the desk facing the bed."
-                    ],
-                    "task_desc":"Place a basketball on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3ATTHHXXWD58NOF3V7K0Y9KW90WXIY",
-                    "high_descs":[
-                        "Move to the right of the computer desk.",
-                        "Pick up the basketball on the floor. ",
-                        "Bring the basketball to the desk. ",
-                        "Put the basketball on the desk. "
-                    ],
-                    "task_desc":"Put the basketball on the desk. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3PXX5PX6L0FM43T4EN05SE5LDQ0BAY",
-                    "high_descs":[
-                        "turn left and walk over to the computer desk on the right",
-                        "grab the basket ball on the floor next to the desk",
-                        "look up at the desk",
-                        "place the basket ball on top of the desk"
-                    ],
-                    "task_desc":"place a basket ball on top of the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a basketball on the desk.",
+                "Put the basketball on the desk. ",
+                "place a basket ball on top of the desk"
             ],
             "relative_objects":[
                 "Basketball",
@@ -400,74 +99,18 @@
         },
         "train/pick_and_place_simple-BasketBall-None-Desk-312/trial_T20190906_195104_190977/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_3K5TEWLKGYSGJZA8VSJIAONBTNXVIY",
-                    "high_descs":[
-                        "Move to the side of the desk.",
-                        "Pick up the basketball from the floor. ",
-                        "Move closer to the desk.",
-                        "Put the basketball on the desk. "
-                    ],
-                    "task_desc":"Put the basketball on the desk. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2BLQ1GVEHJR8T_3PXX5PX6L0FM43T4EN05SE5LDP3ABY",
-                    "high_descs":[
-                        "Turn around to your right and go to the wall at the right end of the desk, then turn to face the end of the desk.",
-                        "Pick up the basketball from the floor by the end of the desk.",
-                        "Move forward to the desk.",
-                        "Put the basketball on the desk in front of you."
-                    ],
-                    "task_desc":"Move a basketball from the floor to a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3SB5N7Y3O6LMU73X27VQ4JK5KF0G09",
-                    "high_descs":[
-                        "Turn around and approach the end of the tall desk",
-                        "Pick up the basketball on the ground near the end of the desk",
-                        "Look forward towards the desk",
-                        "Put the basketball on the edge of the desk"
-                    ],
-                    "task_desc":"Put the basketball on the edge of the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the basketball on the desk. ",
+                "Move a basketball from the floor to a desk.",
+                "Put the basketball on the edge of the desk"
             ],
             "relative_objects":[
-                "Desk",
-                "BasketBall"
+                "BasketBall",
+                "Desk"
             ]
         },
         "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035112_615160/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1DMXEJGJY02E1_3A0EX8ZRNB5N0LR7UTELV0NSH82BYQ",
-                    "high_descs":[
-                        "Move to the left and face the desk.",
-                        "Pick up the phone from the shelf on desk.",
-                        "Turn to the right and go to the bed.",
-                        "Put the phone on the bed in front of the lap tops.",
-                        "Turn around and go back to the desk.",
-                        "Pick up the phone on the desk.",
-                        "Return to the bed.",
-                        "Put the second phone on the bed to the left of the first phone."
-                    ],
-                    "task_desc":"Put both phones on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put both phones on the bed."
             ],
             "relative_objects":[
                 "CellPhone"
@@ -475,31 +118,7 @@
         },
         "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035047_863286/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2CT57W84KXX25_31LVTDXBLARQGT1X7BBL17Q0QIMLRC",
-                    "high_descs":[
-                        "turn to the left",
-                        "Walk to the desk ",
-                        "Pick up one of the cell phones",
-                        "turn around and then turn to your left",
-                        "Walk to the bed",
-                        "Put the phone down on the bed",
-                        "Walk back to the desk",
-                        "Pick another phone up from the desk and take it to the bed"
-                    ],
-                    "task_desc":"Putting the cell phones on the bed",
-                    "votes":[
-                        1,
-                        0,
-                        1,
-                        0,
-                        1,
-                        1,
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Putting the cell phones on the bed"
             ],
             "relative_objects":[
                 "CellPhone"
@@ -507,63 +126,22 @@
         },
         "train/pick_two_obj_and_place-CellPhone-None-Bed-312/trial_T20190907_035023_577812/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1CY7IOJ9YH136_3F0BG9B9MS40Y9OHHC25QY1WYTQ7Y1",
-                    "high_descs":[
-                        "turn to desk to the left",
-                        "pick up cell phone in front of books off of shelf",
-                        "go to bed to the right",
-                        "place cell phone on bed to the right of blue book",
-                        "turn around, go to left side of desk chair",
-                        "pick up cell phone to the left of the clock on desk",
-                        "go to bed to the right",
-                        "place cell phone on top of blue book on bed"
-                    ],
-                    "task_desc":"Place one cell phone on bed next to blue book, place one cell phone on top of blue book on bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place one cell phone on bed next to blue book, place one cell phone on top of blue book on bed"
             ],
             "relative_objects":[
-                "CellPhone",
-                "Book"
+                "Book",
+                "CellPhone"
             ]
         },
         "tests_seen/trial_T20190906_195043_806438/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn right and walk until you are even with the black garbage bag to your right then turn left and walk to the wall then turn left to face the desk.",
-                        "Pick up the basketball.",
-                        "Look up?",
-                        "Set the basketball on the desk top in front of you."
-                    ],
-                    "task_desc":"Set a basketball on the desk."
-                },
-                {
-                    "high_descs":[
-                        "walk over to the corner of the room with the black chair and desk",
-                        "pick up the basket ball to the right of the desk",
-                        "look up at the desk",
-                        "place the basketball on the desk"
-                    ],
-                    "task_desc":"place a basketball on the desk"
-                },
-                {
-                    "high_descs":[
-                        "Turn around from the wall and walk straight until you get to the black garbage bag. Make a left and walk towards the orange frame then turn to the left looking down at the floor.",
-                        "Pick up the basketball that is on the floor.",
-                        "Raise the ball up still close to you.",
-                        "Toss the ball on the desk that is in front of you."
-                    ],
-                    "task_desc":"Toss the basketball on the desk."
-                }
+                "Set a basketball on the desk.",
+                "place a basketball on the desk",
+                "Toss the basketball on the desk."
             ],
             "relative_objects":[
-                "Desk",
-                "BasketBall"
+                "BasketBall",
+                "Desk"
             ]
         }
     }

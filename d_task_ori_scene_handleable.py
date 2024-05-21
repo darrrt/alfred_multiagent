@@ -51,7 +51,7 @@ for scene_name in scene_dict.keys():
                 checked_tasks=[]
                 for task in turk_annotations["anns"]:
                     if check_task(task["task_desc"]):
-                        checked_tasks.append(task)
+                        checked_tasks.append(task["task_desc"])
                 if len(checked_tasks)>0:
                     task_config["trials"][trial_path]={}
                     task_config["trials"][trial_path]["tasks"]=checked_tasks

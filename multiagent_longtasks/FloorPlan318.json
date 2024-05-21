@@ -3,48 +3,9 @@
     "trials":{
         "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1P0XSCJ9XAV74_308Q0PEVBBUIMSX5SREMI6YE3OC9IH",
-                    "high_descs":[
-                        "Turn to your left then straight and back around to face the alarm clocks on the table.",
-                        "Pick up the alarm clock towards the back.",
-                        "Turn left with the alarm clock and walk straight and turn right facing the desk.",
-                        "Place the alarm clock on the desk in the front."
-                    ],
-                    "task_desc":"Take an alarm clock to move it to the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A4CHLWPHZIP7Y_3OLQQLKKNV6VCZ8SIKF8MLEP71OJEM",
-                    "high_descs":[
-                        "Turn around, turn right, and face the brown table.",
-                        "Pick up the clock on the left from the brown table.",
-                        "Turn left and go to the brown desk next to the brown table.",
-                        "Put the clock on the brown desk."
-                    ],
-                    "task_desc":"Put one clock on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3ZWFC4W1UXO4G1R1L08N6ULGTJ5FR0",
-                    "high_descs":[
-                        "Turn around towards the alarm clocks on the desk.",
-                        "Pick up the alarm clock which is closest to the wall.",
-                        "Walk to the left side of the desk, by the chair.",
-                        "Put the alarm clock on the front of the desk, to the right of the chair."
-                    ],
-                    "task_desc":"Move an alarm clock from one end of a desk to the other.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Take an alarm clock to move it to the desk.",
+                "Put one clock on the desk.",
+                "Move an alarm clock from one end of a desk to the other."
             ],
             "relative_objects":[
                 "AlarmClock"
@@ -52,85 +13,20 @@
         },
         "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190907_143604_622776/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AOWW3URQNRJ6U_31LVTDXBLARQGT1X7BBL17Q0QFTLRD",
-                    "high_descs":[
-                        "Walk forward and face left looking at the chair.",
-                        "Grab the clock off of the chair.",
-                        "Walk a step the the left and face the front of the desk.",
-                        "Place the clock on the desk."
-                    ],
-                    "task_desc":"Move a clock from a chair to a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3YZ8UPK3VW3PTHZ8YSDR3ZNX35YUCP",
-                    "high_descs":[
-                        "go forward to the wall and turn left and step forward to the desk end",
-                        "pick up the clock behind the book that is on the desk end",
-                        "turn to the left and go forward to the middle of the main desk",
-                        "place the clock near the edge of the main desk"
-                    ],
-                    "task_desc":"Put the clock on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a clock from a chair to a desk.",
+                "Put the clock on the desk"
             ],
             "relative_objects":[
                 "AlarmClock",
-                "Desk",
-                "Chair"
+                "Chair",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3BC8WZX3V6D1JRWACV8HNJZZW7KRRB",
-                    "high_descs":[
-                        "Turn right and walk to the wall then turn left and walk to the table.",
-                        "Pick up the alarm clock to the right of the other alarm clock.",
-                        "Take a step backwards and then take a step left.",
-                        "Put the alarm clock to the right of the book near the edge of the table."
-                    ],
-                    "task_desc":"Put an alarm clock on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3E1QT0TDFSQI8NEVNZ88IA33JJ58I4",
-                    "high_descs":[
-                        "Turn right and walk to the alarm clocks on the desk.",
-                        "Pick up the alarm clock closest to the wall.",
-                        "Walk to the left side of the same desk.",
-                        "Put the alarm clock on the desk, to the right of the textbook."
-                    ],
-                    "task_desc":"Move an alarm clock from one end of a desk to the other.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3RGU30DZTDPTON05ZI3RZTJYG1EMJ9",
-                    "high_descs":[
-                        "Move to the right side of the brown entry way table across from the wood door",
-                        "Pick up the clock sitting on the table that is closest to the wall",
-                        "Carry the clock to the desk with the green book on top of it",
-                        "Place the clock on the desk to the right of the green book"
-                    ],
-                    "task_desc":"Move a clock to the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put an alarm clock on the desk.",
+                "Move an alarm clock from one end of a desk to the other.",
+                "Move a clock to the desk"
             ],
             "relative_objects":[
                 "AlarmClock"
@@ -138,48 +34,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1K5ILJMG439M5_38F5OAUN5Q3MX3KQ3KNY5KQV21Z7HT",
-                    "high_descs":[
-                        "Go straight ahead so that you're facing the brown desk with the blue alarm clocks on it.",
-                        "Pick up the keys that are behind the pencil on the desk.",
-                        "Turn around with the keys and cross the room so that you're facing the yellow floral chair with the purple cushion.",
-                        "Put the keys on the seat of the cushion so that they are just to the left of the front left corner of the cushion."
-                    ],
-                    "task_desc":"Move the keys to the chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_39N5ACM9HHEIO3671UTNSPJSJIT9P8",
-                    "high_descs":[
-                        "Walk forward to the dresser to the right of the desk.",
-                        "Pick up the key chain from the dresser.",
-                        "Turn around and walk to the armchair containing the purple pillow.",
-                        "Put the key chain on the armchair, to the left and in front of the pillow."
-                    ],
-                    "task_desc":"Move a key chain from a dresser to an armchair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3WZ36BJEV67Z4OEBGVG3O5FFWLHTB7",
-                    "high_descs":[
-                        "Walk ahead to the counter.",
-                        "Pick up the set of keys on the counter.",
-                        "Turn left and then veer left to the chair with the purple pillow on it.",
-                        "Place the keys on the chair in front and to the left of the pillow."
-                    ],
-                    "task_desc":"Place keys on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the keys to the chair.",
+                "Move a key chain from a dresser to an armchair.",
+                "Place keys on a chair."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -187,48 +44,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A31681CCEVDIH3_37XITHEISZ05YETPQ673ZAKFQMQRC7",
-                    "high_descs":[
-                        "Walk forward to take a right at the smaller desk.",
-                        "Pick up the keys from the desk.",
-                        "Turn left to walk to the floral armchair.",
-                        "Set the keys down on the floral armchair."
-                    ],
-                    "task_desc":"Move some keys from a desk to the floral armchair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3IO1LGZLKCOA0S5SH6O0MTX048F868",
-                    "high_descs":[
-                        "Take a few steps ahead, then face the desk on the right.",
-                        "Pick up the keys on the desk.",
-                        "Take a step left.",
-                        "Place the keys on the chair, to the left of the CD."
-                    ],
-                    "task_desc":"Place a set of keys on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_3VELCLL3GNAO8LEIJEIP1PN5J1D1FL",
-                    "high_descs":[
-                        "Head forward then make a right before you get to the flower patterned chair to face the brown desk",
-                        "Pick up the keys that are sitting in front of the alarm clock on the brown desk",
-                        "Now turn left and walk to the flower patterned chair that is sitting next to the brown desk, turn to face the chair",
-                        "Place the keys on the chair to the left of the cd"
-                    ],
-                    "task_desc":"Place keys on a chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move some keys from a desk to the floral armchair.",
+                "Place a set of keys on a chair.",
+                "Place keys on a chair"
             ],
             "relative_objects":[
                 "KeyChain"
@@ -236,48 +54,9 @@
         },
         "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3DL65MZB8G6GPAOK40N303LWBWVECA",
-                    "high_descs":[
-                        "Walk ahead, then turn left to the dresser in front of you.",
-                        "Pick up the keys on the dresser.",
-                        "Turn around and veer right to the patterned chair.",
-                        "Place the keys on the chair, on the side opposite the cell phone."
-                    ],
-                    "task_desc":"Place a set of keys on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3HFNH7HEMK5I3PUUFDEMKBVPSRIQGF",
-                    "high_descs":[
-                        "Move forward then right facing the wooden table top against the wall",
-                        "Pick up the keys on top of the wooden table",
-                        "Carry the keys over to the flower chair left of the wooden table",
-                        "Place the keys on top of the flower chair"
-                    ],
-                    "task_desc":"Move the keys to a chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2YUCJ28XANFOX_3YJ6NA41JE77UFJGN6K0HJXVFN6PJK",
-                    "high_descs":[
-                        "cross the room to the desk",
-                        "pick the keys sitting on the desk up",
-                        "turn around and go to the chair beside the door",
-                        "place keys on the chair"
-                    ],
-                    "task_desc":"pick up keys and put them on the chair ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a set of keys on a chair.",
+                "Move the keys to a chair",
+                "pick up keys and put them on the chair "
             ],
             "relative_objects":[
                 "KeyChain"
@@ -285,124 +64,29 @@
         },
         "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A272X64FOZFYLB_34YB12FSQ15JXLA4RCIO2GRIOS3GM7",
-                    "high_descs":[
-                        "Walk forward to the tennis racket on the floor.",
-                        "Pick up the tennis racket from the floor.",
-                        "Turn around and walk forward to the desk.",
-                        "Put the tennis racket on the desk, in between the pencil and the credit card."
-                    ],
-                    "task_desc":"Move a tennis racket from the floor to a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3EKVH9QME1LQEXWKF4YWHMAN5V72DT",
-                    "high_descs":[
-                        "Turn to the left, take a couple steps, turn to the right",
-                        "pick up the tennis racket from between the two beds",
-                        "Turn around head to the desk",
-                        "Put the tennis racket on the desk"
-                    ],
-                    "task_desc":"Take the tennis racket from the floor, put it on the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_3OONKJ5DKF0B67N5O65NT9PQ3FXOBK",
-                    "high_descs":[
-                        "Take a step to your left then head forward to the tennis racket on the ground between the two bunk beds",
-                        "Pick up the tennis racket",
-                        "Turn around and walk to the desk ",
-                        "Place the tennis racket on the desk in front of the credit card"
-                    ],
-                    "task_desc":"Place a tennis racket on a desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a tennis racket from the floor to a desk.",
+                "Take the tennis racket from the floor, put it on the desk",
+                "Place a tennis racket on a desk"
             ],
             "relative_objects":[
-                "Desk",
-                "TennisRacket"
+                "TennisRacket",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1DMXEJGJY02E1_35H6S234SDHJSL0SN0SG9N378J5650",
-                    "high_descs":[
-                        "Walk forward and slightly to your right.",
-                        "Pick up the tennis racket from the floor.",
-                        "Turn around and walk to the desk.",
-                        "Put the racket on the desk."
-                    ],
-                    "task_desc":"Put the tennis racket on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3BWI6RSP7JQ2S47QHBQBJV9GGN07ED",
-                    "high_descs":[
-                        "Walk towards the tennis racket on the floor.",
-                        "Pick the racket up from the floor.",
-                        "Turn around and walk towards the desk.",
-                        "Place the racket on the table."
-                    ],
-                    "task_desc":"Transfer the tennis racket from the floor onto the table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3DEL4X4EL92UDOU8ZP63KXEK0SLXYE",
-                    "high_descs":[
-                        "Walk forward to the tennis racket on the floor.",
-                        "Pick up the tennis racket from the floor.",
-                        "Turn around and walk forward to the desk.",
-                        "Put the tennis racket on the desk, aligned with the middle of the chair."
-                    ],
-                    "task_desc":"Move a tennis racket from the floor to a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the tennis racket on the desk.",
+                "Transfer the tennis racket from the floor onto the table.",
+                "Move a tennis racket from the floor to a desk."
             ],
             "relative_objects":[
-                "Desk",
-                "TennisRacket"
+                "TennisRacket",
+                "Desk"
             ]
         },
         "train/pick_two_obj_and_place-Mug-None-Cabinet-318/trial_T20190910_055356_172564/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2ALWT2BUSXD83_3WYGZ5XF3ZWRX2JS10ZPCHIHNY4SK0",
-                    "high_descs":[
-                        "Turn to your right",
-                        "Pick up the leftmost cup on the desk",
-                        "Turn around and take a step before turning back towards the desk",
-                        "Open the desk drawer and place the cup inside before closing the drawer.",
-                        "Turn to your right and then back towards the desk.",
-                        "Pick up the cup that's on the desk",
-                        "Turn around and take a step before turning back towards the desk",
-                        "Open the desk drawer and place the cup inside before closing the drawer."
-                    ],
-                    "task_desc":"Pick up the cups on the desk and place them in the desk drawer.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Pick up the cups on the desk and place them in the desk drawer."
             ],
             "relative_objects":[
                 "Mug"
@@ -410,344 +94,51 @@
         },
         "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_35L9RVQFCRZGAPAOKKRSEQKDGSZUHK",
-                    "high_descs":[
-                        "Take a step right and walk to the table in front of you.",
-                        "Pick up the pencil that's near the top of the table.",
-                        "Look down.",
-                        "Put the pencil in the mug in front of you.",
-                        "Pick u the mug with the pencil in it.",
-                        "Adjust your position several steps to the left so you're standing in front of the chair to the left of the laptop.",
-                        "Put the mug to the left of the laptop."
-                    ],
-                    "task_desc":"Put a mug that's got a pencil in it on a desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3DYGAII7POPGVD1VMOFSDYPFZ6XPQP",
-                    "high_descs":[
-                        "turn right and walk to the wall, then turn left and walk to the right side of the desk",
-                        "pick the white pencil in the back off of the desk",
-                        "look down at the cup at the front of the desk",
-                        "place the pencil inside the cup",
-                        "pick the cup up with the pencil in it",
-                        "move over to the left side of the desk you're currently facing",
-                        "place the cup down on the desk to the left of the laptop"
-                    ],
-                    "task_desc":"place a cup with a pencil in it next to the laptop on the desk",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3T9K2RY06UO14_33CKWXB73M1PXHYCG7ENB1Z9OAM11H",
-                    "high_descs":[
-                        "Go forward to the cabinet of drawers. ",
-                        "Pick up the white pencil from the cabinet of drawers. ",
-                        "Find the coffee cup on the cabinet of drawers. ",
-                        "Put the pencil in the coffee cup. ",
-                        "Pick up the coffee cup from the table",
-                        "Turn left and go to the desk. ",
-                        "Put the cup next to the computer on the desk. "
-                    ],
-                    "task_desc":"Put the coffee cup next to the computer on the desk. ",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2RQMEPIHW5BOS_34T446B1C3V9DVNS0LZ7ESZQNPCC04",
-                    "high_descs":[
-                        "Walk to the desk.",
-                        "Pick up the white pencil in the back.",
-                        "Look down at the floor.",
-                        "Put the pencil in the mug,",
-                        "Pick up the mug on the desk.",
-                        "Turn left and walk across the room to the chair.",
-                        "Put the mug next to the laptop."
-                    ],
-                    "task_desc":"Put a pencil in a mug and put the mug next to the laptop.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a mug that's got a pencil in it on a desk.",
+                "place a cup with a pencil in it next to the laptop on the desk",
+                "Put the coffee cup next to the computer on the desk. ",
+                "Put a pencil in a mug and put the mug next to the laptop."
             ],
             "relative_objects":[
-                "Mug",
                 "Pencil",
+                "Mug",
                 "Laptop"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_3LOZAJ85YGU4C31164Z8BTDFLZWX2B",
-                    "high_descs":[
-                        "Turn left, head to the wall, turn left, go to the brown desk.",
-                        "Pick up the grey pencil on the desk. ",
-                        "Put the grey pencil in the mug on the desk. ",
-                        "Pick up the mug with pencil on the desk. ",
-                        "Turn left, bring the mug over to the desk with lamp on it, face the desk. ",
-                        "Put the mug on the desk to the left of the computer. "
-                    ],
-                    "task_desc":"Put a mug with pencil in it on the desk, left of the computer. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3QJOXOW4XM8LD7EDLHS02D66BYFMEV",
-                    "high_descs":[
-                        "turn left and walk to the end of the room, then turn left and face the desk there",
-                        "grab a white pencil off of the desk",
-                        "place the pencil inside of the white cup on the desk",
-                        "grab the white cup up off of the table",
-                        "move to the left side of the desk where the laptop is",
-                        "place the cup to the left of the laptop on the desk"
-                    ],
-                    "task_desc":"place a cup with a pencil in it on the desk next to the laptop",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_320DUZ38GA3TWD4JOF5WMOZ1KO0JGE",
-                    "high_descs":[
-                        "Turn left and walk to the desk containing the laptop.",
-                        "Pick up the pencil which is on the desk to the left.",
-                        "Put the pencil in the mug.",
-                        "Pick up the mug from the desk.",
-                        "Turn around and walk to the left side of the desk.",
-                        "Put the mug on the desk, to the left of the laptop."
-                    ],
-                    "task_desc":"Put a mug with a pencil in it on a desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3QIYRE09Y6YSBO51LUCL88CCRK61NM",
-                    "high_descs":[
-                        "Turn left and walk over to the wall, then hang a left and walk up to the wooden dresser.",
-                        "Pick up the white pencil off of the wooden dresser.",
-                        "Put the white pencil into the white mug on the wooden dresser.",
-                        "Pick up the white mug with the pencil in it.",
-                        "Turn around and begin walking forward, then turn right and walk over to the end of the wooden desk.",
-                        "Place the white mug with the pencil in it on the wooden desk to the left of the laptop."
-                    ],
-                    "task_desc":"Put a white mug with a pencil in it on the desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A6U2C66WQ7QQN_3DIP6YHAPF96SIC9RGIHXV5BRTN8EQ",
-                    "high_descs":[
-                        "Turn to the left, walk across the room",
-                        "Turn to the left, face the desk",
-                        "Pick up the white pencil, put it inside the white mug",
-                        "Pick up the white mug from the desk",
-                        "Turn to the left, take 2 steps, face the desk",
-                        "Put the white mug on to the desk next to the computer"
-                    ],
-                    "task_desc":"Put the white pencil inside the white mug, put it on the other side of the desk ",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Put a mug with pencil in it on the desk, left of the computer. ",
+                "place a cup with a pencil in it on the desk next to the laptop",
+                "Put a mug with a pencil in it on a desk.",
+                "Put a white mug with a pencil in it on the desk.",
+                "Put the white pencil inside the white mug, put it on the other side of the desk "
             ],
             "relative_objects":[
-                "Mug",
                 "Pencil",
+                "Mug",
                 "Laptop"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193928_556578/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_32RIADZISVL6J0UPG8C950TLQU6S42",
-                    "high_descs":[
-                        "Turn right, go to the wall, then turn left to face the desk.",
-                        "Pick up the pencil on the desk, nearest to the clock.",
-                        "Look up to view the mug on the desk.",
-                        "Put the pencil in the mug on the desk.",
-                        "Pick up the mug from the desk.",
-                        "Turn around, move forward, then turn right, move forward, then turn right to face the desk near the computer.",
-                        "Place the mug on the desk, in front of the computer."
-                    ],
-                    "task_desc":"Put a mug with a pencil in it on the desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36DK84J5YJ942_37QW5D2ZRJ3721HRSB2MMC9QSK7S8M",
-                    "high_descs":[
-                        "Move to the desk to the right of you on the right side.",
-                        "Pick up a pencil from the desk.",
-                        "Place the pencil in the cup on the desk.",
-                        "Move over slightly from your position.",
-                        "Pick up the cup from the desk.",
-                        "Move to the left side of the desk you're standing at.",
-                        "Place the cup in front of the laptop on the desk."
-                    ],
-                    "task_desc":"Put a pencil in a cup in front of the laptop.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2CT57W84KXX25_3Z9WI9EOZ2527T5CQ6NQ83BFE9RKHJ",
-                    "high_descs":[
-                        "Turn to the right",
-                        "Walk over to the table",
-                        "Pick up the pencil that is on the table",
-                        "Put the pencil into the white cup",
-                        "Pick the cup up that has the pencil in it",
-                        "Carry the coffee cup around the room ",
-                        "Take the coffee cup back to the table and put it down"
-                    ],
-                    "task_desc":"Putting the pencil in the cup ",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        0,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1OWHPMKE7YAGL_3UWN2HHPU1MS584VYDR549ZLHK2NSB",
-                    "high_descs":[
-                        "Turn to the right and go to the other end of the room, then turn left towards the table with the clock on it. ",
-                        "Pick up the white pencil that is closest to the clock. ",
-                        "Raise the pencil into the air.",
-                        "Put the pencil into the white mug that is on the table. ",
-                        "Pick up the white mug that is on the table. ",
-                        "Head to the desk on your left that has the computer on it. ",
-                        "Set the mug on the desk in front of the computer. "
-                    ],
-                    "task_desc":"Set a mug with a pencil in it on top of a desk. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_33ISQZVXPS3T7NI8C1SR9T1RWCOCC8",
-                    "high_descs":[
-                        "Turn right and walk to the wall then turn left and walk to the table with drawers.",
-                        "Pick up the pencil that's farthest to the left. ",
-                        "Look up.",
-                        "Put the pencil in the mug on the right edge of the table.",
-                        "Pick up the mug with the pencil in it.",
-                        "Take a step backwards then take a step left so you are standing slightly in front of the chair at the desk.",
-                        "Put the mug under the laptops left side."
-                    ],
-                    "task_desc":"Put a mug with a pencil in it on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a mug with a pencil in it on the desk.",
+                "Put a pencil in a cup in front of the laptop.",
+                "Putting the pencil in the cup ",
+                "Set a mug with a pencil in it on top of a desk. ",
+                "Put a mug with a pencil in it on the desk."
             ],
             "relative_objects":[
-                "Mug",
                 "Pencil",
-                "Desk",
-                "Laptop"
+                "Mug",
+                "Laptop",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190322_270194/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3RAYNQWYF8NVO_3HYA4D452U0NCHAG6ATM5MD8HZIF2U",
-                    "high_descs":[
-                        "Go across the room to the right side of the desk where there is a trash can.",
-                        "Pick up the disc from the desk.",
-                        "Go across the room to the dresser with 3 drawers.",
-                        "Place the disc on top of the dresser with 3 drawers beside the book."
-                    ],
-                    "task_desc":"Place the disc on the desk onto the dresser beside the book.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3JPSL1DZ5VGO5CI1HD5EJ95FVE6NAQ",
-                    "high_descs":[
-                        "Move forward, then turn left to go toward the wall, then turn left again to face the desk.",
-                        "Pick up the CD on the desk, to the right of the pencil.",
-                        "Turn left, then go straight to the dresser ahead.",
-                        "Put the CD on the dresser, to the right of the clock."
-                    ],
-                    "task_desc":"Put a CD on the dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3TDXMTX3CEBV49V7UKBAYW7CDWSI6L",
-                    "high_descs":[
-                        "Walk forward and go to the left toward the edge of the desk by the black bin.",
-                        "Pick up the closest CD from the desk.",
-                        "Turn left and walk to the dresser under the bed.",
-                        "Put the CD on the dresser, to the right of the alarm clock."
-                    ],
-                    "task_desc":"Move a CD from a desk to a dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place the disc on the desk onto the dresser beside the book.",
+                "Put a CD on the dresser.",
+                "Move a CD from a desk to a dresser."
             ],
             "relative_objects":[
                 "CD",
@@ -756,48 +147,9 @@
         },
         "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A98E8M4QLI9RS_326O153BMLFI9D808OTXJNJC2RLEDH",
-                    "high_descs":[
-                        "turn to the right to face the desk",
-                        "pick up the CD from the back of the desk",
-                        "turn around and move across the room to the brown dresser underneath the bunk bed",
-                        "put the CD on the right side of the front part of the dresser"
-                    ],
-                    "task_desc":"put a CD on to the dresser",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_36H9ULYP65BNID8ODVZE43ZPJCAFJR",
-                    "high_descs":[
-                        "Move to the desk on the right with the CD on top of it",
-                        "pick up the CD sitting on top of the desk",
-                        "Carry the CD to the tall wooden dresser",
-                        "Place the CD on the top right side of the dresser"
-                    ],
-                    "task_desc":"Move a CD to the dresser",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2KAGFQU28JY43_39LOEL67OVM3IKWC2W1LE41E0BV386",
-                    "high_descs":[
-                        "Turn to the desk on your right. ",
-                        "Pick up the CD on the back of the desk. ",
-                        "Turn around and walk to the dresser, under the bunk-bed.",
-                        "Place the CD on the right, front corner of the dresser."
-                    ],
-                    "task_desc":"Put the CD on the dresser, under the bunk-bed. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put a CD on to the dresser",
+                "Move a CD to the dresser",
+                "Put the CD on the dresser, under the bunk-bed. "
             ],
             "relative_objects":[
                 "CD"
@@ -805,51 +157,9 @@
         },
         "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_3JNQLM5FT739C9KCSLWK0ZISEXJ2L5",
-                    "high_descs":[
-                        "Move to the desk to the right of you",
-                        "Pick up a CD from the desk",
-                        "Move to the right side of the desk in front of you",
-                        "Put the CD on the desk"
-                    ],
-                    "task_desc":"Move a CD on the desk to the right.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_3W92K5RLWXY47BFTO80OLFJ6P5S5V8",
-                    "high_descs":[
-                        "turn right, walk to the table",
-                        "grab the disc on the table",
-                        "walk to the right a little",
-                        "put the disc on the table"
-                    ],
-                    "task_desc":"move the disc on the table to the right",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_39ZSFO5CABDC1V5E8KUDQ30ST0MJUT",
-                    "high_descs":[
-                        "walk forward a few steps, turn right, walk to the desk with a CD on it",
-                        "Pick up the CD that is on the desk",
-                        "walk to the small table to the right of the two desks",
-                        "put the CD on the table"
-                    ],
-                    "task_desc":"move a CD from a desk to a table",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move a CD on the desk to the right.",
+                "move the disc on the table to the right",
+                "move a CD from a desk to a table"
             ],
             "relative_objects":[
                 "CD"
@@ -857,25 +167,7 @@
         },
         "train/pick_two_obj_and_place-AlarmClock-None-Dresser-318/trial_T20190919_024708_968984/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A16184N1RO5OJV_3PJUZCGDJ9XPXMLSJ52V5H400B798B",
-                    "high_descs":[
-                        "Turn around and walk to the brown desk. ",
-                        "Pick up the alarm clock on top of the desk and that is the nearest to the wall. ",
-                        "Turn right and make a right turn near the AC. Go to the brown shelf. ",
-                        "Put the alarm clock on the shelf. ",
-                        "Walk back to the brown desk again. ",
-                        "Pick up another alarm clock from on top of the table. ",
-                        "Go back to the brown shelf. ",
-                        "Put the other alarm clock next to the other clock on the shelf. "
-                    ],
-                    "task_desc":"Put 2 alarm clock side by side on the brown shelf near the AC",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Put 2 alarm clock side by side on the brown shelf near the AC"
             ],
             "relative_objects":[
                 "AlarmClock"
@@ -883,44 +175,8 @@
         },
         "train/pick_two_obj_and_place-KeyChain-None-Dresser-318/trial_T20190907_181205_590674/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A320QA9HJFUOZO_38JBBYETQRR59HP7FDS4GJP6PGLE41",
-                    "high_descs":[
-                        "Walk a few feet left then turn right to face the desk",
-                        "Pick up the keys by the green book from the desk",
-                        "Turn right and walk back to the far right side of the desk",
-                        "Put the keys down on the desk",
-                        "Turn around and walk over to the floral print arm chair",
-                        "Pick up the keys from the chair",
-                        "Turn around and walk back to the far right side of the desk",
-                        "Put the keys on the desk just to the right of the other keys"
-                    ],
-                    "task_desc":"Put the keys on the desk",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3T9K2RY06UO14_3V0Z7YWSI1HC8EW66PYQN8GU5W32V8",
-                    "high_descs":[
-                        "Turn and go to the desk.",
-                        "Pick up the keys on the desk.",
-                        "Turn around and go to the chest of drawers.",
-                        "Put the keys on the chest of drawers.",
-                        "Turn around and go to the padded chair by the door.",
-                        "Pick up the keys on the padded chair by the door.",
-                        "Turn around and go to the chest of drawers.",
-                        "Put the keys on the chest of drawers."
-                    ],
-                    "task_desc":"Move keys to the chest of drawers. ",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Put the keys on the desk",
+                "Move keys to the chest of drawers. "
             ],
             "relative_objects":[
                 "KeyChain"
@@ -928,24 +184,7 @@
         },
         "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AO33H4GL9KZX9_39GHHAVOMI8DKXBZTE3VDZ2YU34J48",
-                    "high_descs":[
-                        "Turn left and go to the right side of the desk on the left.",
-                        "Pick up the blue pen on the left of the CD.",
-                        "Turn left and right and go to the front of the brown dresser. ",
-                        "Place the blue pen on the top of the brown dresser. ",
-                        "Turn right and go to left side of the desk on the left.",
-                        "Pick up the blue pen near the lamp.",
-                        "Turn around to go back to the brown dresser.",
-                        "Place the blue pen on the left of the first blue pen."
-                    ],
-                    "task_desc":"Put the blue pens on the top of the dresser. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the blue pens on the top of the dresser. "
             ],
             "relative_objects":[
                 "Pen"
@@ -953,101 +192,20 @@
         },
         "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_326O153BMLPQU2UY4WIEK93EWX0DE4",
-                    "high_descs":[
-                        "Turn around and walk to the table in the corner.",
-                        "Pick up the cell phone.",
-                        "Turn around and veer right to the multicolored chair.",
-                        "Place the cell phone on the chair, near the front left corner."
-                    ],
-                    "task_desc":"Place a cell phone on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_32KTQ2V7RG6C309U9E1VBLPXEEI9ME",
-                    "high_descs":[
-                        "Turn around and stand to face the right side of the desk.",
-                        "Pick the phone up from the desk.",
-                        "Turn around and face the chair with flowers on it that is behind.",
-                        "Put the phone on the chair."
-                    ],
-                    "task_desc":"Put a phone on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3QUO65DNQXFYNVI9K5BZZL1GMZFUOD",
-                    "high_descs":[
-                        "Turn around and take a step forward, then turn right and take a step forward, turn left and walk over to the wooden desk.",
-                        "Pick up the phone off of the wooden desk.",
-                        "Walk over to the flower chair behind you.",
-                        "Put the phone on the front edge of the chair."
-                    ],
-                    "task_desc":"Move a phone to a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a cell phone on a chair.",
+                "Put a phone on a chair.",
+                "Move a phone to a chair."
             ],
             "relative_objects":[
-                "CellPhone",
-                "Chair"
+                "Chair",
+                "CellPhone"
             ]
         },
         "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_33NF62TLXMT6JOM0AEFSL2BWLD6KJK",
-                    "high_descs":[
-                        "turn left, walk across the room to the dresser",
-                        "pick up the book that is on the dresser",
-                        "turn left, walk forward, turn left to face floral chair",
-                        "put the book on the chair"
-                    ],
-                    "task_desc":"move book from dresser to chair",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3UXUOQ9OKHO7NGCCXED6OY3RP6C7AL",
-                    "high_descs":[
-                        "Turn right to walk to the desk.",
-                        "Pick up the green book from the desk.",
-                        "Turn around to walk to the floral armchair.",
-                        "Set the green book down on the floral armchair."
-                    ],
-                    "task_desc":"Move a book from the desk to the floral armchair.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3HFNH7HEMK5I3PUUFDEMKBVPSRNQGK",
-                    "high_descs":[
-                        "Turn left and walk to the wooden desk ahead.",
-                        "Pick up the green book from the right side of the desk.",
-                        "Turn around and walk to the floral chair on the right against the wall.",
-                        "Put the book on the middle of the chair."
-                    ],
-                    "task_desc":"Place a book on a chair.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "move book from dresser to chair",
+                "Move a book from the desk to the floral armchair.",
+                "Place a book on a chair."
             ],
             "relative_objects":[
                 "Book"
@@ -1055,90 +213,12 @@
         },
         "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AIICJA0A5J8NF_3M81GAB8A30ERJ0L3JXRIEKQIHNQB4",
-                    "high_descs":[
-                        "Turn to the right, step closer to the desk. ",
-                        "Pick up the brown and black object on the desk. ",
-                        "Turn to the right, walk to the desk across the room. ",
-                        "Turn on the lamp on the desk. "
-                    ],
-                    "task_desc":"View the black and brown object in the light. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3PWWM24LHVFEX20TYWNGVUWMU5Y28D",
-                    "high_descs":[
-                        "Turn right and walk up to the wooden desk.",
-                        "Pick up the closest notebook off of the wooden desk.",
-                        "Turn right and walk over to the small lamp on a wooden desk.",
-                        "Turn on the light of the small lamp."
-                    ],
-                    "task_desc":"Examine a notebook in the light of a small lamp.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_3QIYRE09Y6YSBO51LUCL88CCRULN17",
-                    "high_descs":[
-                        "Turn to the right to face the side of the desk",
-                        "Pick up the clock that is sitting on the desk",
-                        "Turn to the right and cross the room to the desk",
-                        "Turn on the lamp that is sitting on the desk"
-                    ],
-                    "task_desc":"Look at a clock by the light of a lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A28HB7240OFGEW_3CFJTT4SXW7E899CDUG24A775LQI7L",
-                    "high_descs":[
-                        "Turn around and stand next to the desk.",
-                        "Pick up the package from the desk.",
-                        "Carry the package to the desk with the computer.",
-                        "Turn the lamp on the desk on."
-                    ],
-                    "task_desc":"Turn the lamp on while holding a package.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3J4Q2Z4UT1K6FMYWYATN5SXAPMBQWT",
-                    "high_descs":[
-                        "Turn to the right.",
-                        "Pick up the book on the counter.",
-                        "Turn right and walk to the desk.",
-                        "Turn on the desk light."
-                    ],
-                    "task_desc":"Look at a book under the light of a desk lamp.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3KWTYT0873K1B63ZA4YIY6L3VKXL5X",
-                    "high_descs":[
-                        "Turn to your right to face the end of the desk",
-                        "Pick up the book from the desk",
-                        "Turn right and walk over to the desk",
-                        "Turn on the lamp on the desk"
-                    ],
-                    "task_desc":"Examine the book under the light of the lamp",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "View the black and brown object in the light. ",
+                "Examine a notebook in the light of a small lamp.",
+                "Look at a clock by the light of a lamp",
+                "Turn the lamp on while holding a package.",
+                "Look at a book under the light of a desk lamp.",
+                "Examine the book under the light of the lamp"
             ],
             "relative_objects":[
                 "AlarmClock",
@@ -1147,57 +227,9 @@
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083114_148001/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3GNCZX450LEWTMGCT07NOKUCPITAP6",
-                    "high_descs":[
-                        "Turn right and walk up to the wooden desk",
-                        "Pick up the blue pen from the desk",
-                        "Put the pen in the mug on the desk",
-                        "Pick up the mug from the desk",
-                        "Turn around and walk over to the wooden dresser below the bunk bed",
-                        "Put the mug on the dresser"
-                    ],
-                    "task_desc":"Put the mug with pen on the dresser",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AFU00NU09CFXE_3X08E93BHY9NWEM4ORR22F19YVU66P",
-                    "high_descs":[
-                        "Turn right and move to stand in front of the brown desk.",
-                        "Pick up the blue pen from in front of the white mug on the desk.",
-                        "Place the pen inside the white mug on the desk.",
-                        "Pick up the mug with the pen inside from the desk.",
-                        "Turn right, and when you get to the rust-colored wall, turn right and move to the dark brown dresser.",
-                        "Place the mug with the pen inside on the brown dresser."
-                    ],
-                    "task_desc":"Move a mug with a pen in it to the dresser. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A17TKHT8FEVH0R_3RYC5T2D76KOS32TVBT9JAJMPMHRPV",
-                    "high_descs":[
-                        "Turn right and go to the brown desk",
-                        "Grab the blue pen off of the desk",
-                        "Put the pen in the white mug",
-                        "Grab the mug off of the desk",
-                        "Turn around and go to the brown drawer",
-                        "Put the mug on top of the drawer"
-                    ],
-                    "task_desc":"Putting a mug with a pen inside on a drawer",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put the mug with pen on the dresser",
+                "Move a mug with a pen in it to the dresser. ",
+                "Putting a mug with a pen inside on a drawer"
             ],
             "relative_objects":[
                 "Mug",
@@ -1206,150 +238,36 @@
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083127_735120/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2Q3FS9G8ITCN7_3Y9N9SS8L12NK4E1FC1I1IZH5PY3DP",
-                    "high_descs":[
-                        "Turn to the right and walk to the desk.",
-                        "Lift the blue pen from the desk.",
-                        "Move to the left so that you are behind the chair at the desk.",
-                        "Place the pen into the mug at the back of the dusk.",
-                        "Pick up the mug from the back of the desk.",
-                        "Turn to the right, walk to the wall, turn to the right, walk to the chest of drawers.",
-                        "Place the mug on the front right hand corner of the chest of drawers."
-                    ],
-                    "task_desc":"Move a mug containing a pen from a desk to a chest of drawers.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A98E8M4QLI9RS_3NVC2EB65TQQIF9SB8OWE39IND3Y3R",
-                    "high_descs":[
-                        "turn around and move forward to the right side of the desk",
-                        "pick up the blue pencil that is on the right side of the desk near the back",
-                        "move slightly to the left, still facing the desk",
-                        "put the pencil into the white coffee mug sitting on the back of the desk",
-                        "pick up the mug with the pencil inside of it",
-                        "turn around and move to the dresser that is under the bunk bed",
-                        "put the mug with the pencil inside of it on the right front corner of the dresser"
-                    ],
-                    "task_desc":"put a mug with a pencil on to the dresser",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3PXX5PX6L0PUPSF2AVPMT0PN8FRBA1",
-                    "high_descs":[
-                        "Turn right and walk to the right side of the desk.",
-                        "Pick up the blue pen on the desk.",
-                        "Look at the mug to the left.",
-                        "Put the blue pen in the mug.",
-                        "Pick up the mug.",
-                        "Turn around and veer left to the dresser.",
-                        "Put the mug on the front right corner of the dresser."
-                    ],
-                    "task_desc":"Place a mug with a pen in it on a dresser.",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Move a mug containing a pen from a desk to a chest of drawers.",
+                "put a mug with a pencil on to the dresser",
+                "Place a mug with a pen in it on a dresser."
             ],
             "relative_objects":[
-                "Mug",
                 "Pencil",
+                "Mug",
                 "Pen"
             ]
         },
         "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3EKVH9QME1VYZMIIBCNDI8UPZTX2DC",
-                    "high_descs":[
-                        "Turn left and walk to the wall, then turn left to the counter.",
-                        "Pick up the cell phone on the counter.",
-                        "Turn around and walk ahead and slightly right to the multicolored chair.",
-                        "Place the cell phone on the chair, to the left of the credit card and CD."
-                    ],
-                    "task_desc":"Place a cell phone on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3VHP9MDGRQB8VOOGZB79IL6WNY0FCL",
-                    "high_descs":[
-                        "Move to the right side of the wood desk top in the corner of the room",
-                        "Pick up the phone on top of the right side of the desk",
-                        "Carry the phone over to the single chair with flowers on it",
-                        "Place the phone on top of the chair to the left "
-                    ],
-                    "task_desc":"Move a phone to the chair",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3X08E93BHY9NWEM4ORR22F19YDV66Q",
-                    "high_descs":[
-                        "Turn left and then left again to face the desk with clocks and a phone on it.",
-                        "Pick the phone up from the brown desk.",
-                        "Turn around and face the chair with flowers on it.",
-                        "Put the phone on the chair."
-                    ],
-                    "task_desc":"Put a phone on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a cell phone on a chair.",
+                "Move a phone to the chair",
+                "Put a phone on a chair."
             ],
             "relative_objects":[
-                "CellPhone",
-                "Chair"
+                "Chair",
+                "CellPhone"
             ]
         },
         "tests_seen/trial_T20190908_005144_131948/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Walk forward, then turn right in between the beds.",
-                        "Pick up the tennis racket on the floor.",
-                        "Turn around and walk to the desk.",
-                        "Put the racket on the desk."
-                    ],
-                    "task_desc":"Put the tennis racket on the desk."
-                },
-                {
-                    "high_descs":[
-                        "Walk towards the middle of the two bunk beds and turn left to find a tennis racket on the floor.",
-                        "Pickup the tennis racket on the floor.",
-                        "Turn around and walk towards the desk.",
-                        "Place the racket to the left of the white cup."
-                    ],
-                    "task_desc":"Transfer the tennis racket from the floor onto the desk."
-                },
-                {
-                    "high_descs":[
-                        "Move forward to between the two wooden posts, turn left, head towards the tennis racket",
-                        "Pick up the tennis racket on the floor.",
-                        "Turn around, bring the racket to the desk across the room.",
-                        "Stand the racket on the desk. "
-                    ],
-                    "task_desc":"Stand a racket on a desk. "
-                }
+                "Put the tennis racket on the desk.",
+                "Transfer the tennis racket from the floor onto the desk.",
+                "Stand a racket on a desk. "
             ],
             "relative_objects":[
-                "Desk",
-                "TennisRacket"
+                "TennisRacket",
+                "Desk"
             ]
         }
     }

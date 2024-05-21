@@ -3,154 +3,31 @@
     "trials":{
         "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122723_912052/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AFPMG8TLP1TND_3DL65MZB8G6GPAOK40N303LWBXLCE0",
-                    "high_descs":[
-                        "turn around and walk straight towards the window",
-                        "pick up the statue on the window",
-                        "turn around and walk straight towards the bed then turn right then turn left then turn right towards the dresser",
-                        "put the statue down on the dresser"
-                    ],
-                    "task_desc":"move the statue from the window to the dresser",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3NS0A6KXC7ZRHHVL29XZB47TXVPGZN",
-                    "high_descs":[
-                        "Turn around, go to the statue on the shelf.",
-                        "Pick up the statue on the shelf. ",
-                        "Turn around, bring the statue to the dresser on the right.",
-                        "Put the statue on the dresser, right of the CD."
-                    ],
-                    "task_desc":"Put a statue on a dresser. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A10AVWALIHR4UQ_3X73LLYYQ45B0OCDJR4N1HCL2HZNHH",
-                    "high_descs":[
-                        "Turn around and move to the window to the left of the shelves.",
-                        "Pick up the bronze trophy from the sill in front of the window.",
-                        "Turn around, move towards the bed, then turn right and move to the white wooden dresser.",
-                        "Place the trophy between the CD and the set of keys on top of the dresser."
-                    ],
-                    "task_desc":"Place a trophy on the dresser.",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "move the statue from the window to the dresser",
+                "Put a statue on a dresser. ",
+                "Place a trophy on the dresser."
             ],
             "relative_objects":[
-                "Statue",
-                "Dresser"
+                "Dresser",
+                "Statue"
             ]
         },
         "train/pick_and_place_simple-Statue-None-Dresser-319/trial_T20190909_122415_877633/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_38F5OAUN5Q3MX3KQ3KNY5KQV22LH7R",
-                    "high_descs":[
-                        "turn right, walk to bed, turn left, walk to the window",
-                        "pick up the statue that is on the window ledge",
-                        "turn around, walk to bed, turn right, take a step, turn left, take a few steps, turn right, walk to the dresser",
-                        "put the statue on the dresser"
-                    ],
-                    "task_desc":"move statue from window to dresser",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3PPLDHC3CG0YN_39L1G8WVWTITS9YPZJHN0GY8GAQ31U",
-                    "high_descs":[
-                        "Turn right, turn left at the bed, turn right at the foot of the bed, turn left and walk to the windowsill. ",
-                        "Pick up the sculpture on the right. ",
-                        "Turn around and walk to the dresser on the right. ",
-                        "Put the sculpture down on the dresser to the left of the keys. "
-                    ],
-                    "task_desc":"To move a sculpture to the dresser. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3J88R45B2JP8PZO54AZ18S5AQLKXPF",
-                    "high_descs":[
-                        "Turn around to walk all the way across the room to the window with the two statues.",
-                        "Pick up the statue on the right.",
-                        "Turn around and make a right to reach the dresser.",
-                        "Set the statue down in between the two clocks on the dresser."
-                    ],
-                    "task_desc":"Pick up a statue to move to the dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "move statue from window to dresser",
+                "To move a sculpture to the dresser. ",
+                "Pick up a statue to move to the dresser."
             ],
             "relative_objects":[
-                "Statue",
-                "Dresser"
+                "Dresser",
+                "Statue"
             ]
         },
         "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_061008_714389/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3GNCZX450L4O8XUEXSI6NYAAVBEPAV",
-                    "high_descs":[
-                        "Turn around and go to the right end of of the dresser. ",
-                        "Pick up the CD on the dresser, behind the statue.",
-                        "Turn to your left and go to the book shelf, past the window. ",
-                        "Place the CD on the bottom, left shelf of the books on the book shelf."
-                    ],
-                    "task_desc":"Put a CD on the book shelf. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AISNLDPD2DFEG_3JV9LGBJWWV7XOVG4SX1UKGNJ2HGO5",
-                    "high_descs":[
-                        "Turn around, go to the wall, turn left",
-                        "Pick up the cd on the dresser",
-                        "Turn left, go forward, turn left in front of the shelf",
-                        "Put the cd on the bottom shelf"
-                    ],
-                    "task_desc":"Put the cd onto the shelf",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AKW57KYG90X61_3PQ8K71NH01HLTOC8909X3LFWQ5AAT",
-                    "high_descs":[
-                        "turn around and move the the cupboard",
-                        "pick up the disk from the cupboard",
-                        "turn around and head to the shelf",
-                        "place the disk at the bottom of the shelf"
-                    ],
-                    "task_desc":"place a disk at the bottom of  the shelf",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put a CD on the book shelf. ",
+                "Put the cd onto the shelf",
+                "place a disk at the bottom of  the shelf"
             ],
             "relative_objects":[
                 "CD",
@@ -159,48 +36,9 @@
         },
         "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_060942_585532/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2AXP68AJJ3B94_37WLF8U1WS7MA4LVUNWMBCMP5I9K6Q",
-                    "high_descs":[
-                        "Move to the dresser on the right",
-                        "Pick up the CD on the dresser",
-                        "Turn around and move to the entertainment center on the left",
-                        "Place the CD on the entertainment center"
-                    ],
-                    "task_desc":"Move the CD from the dresser to the entertainment center",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3FTYUGLFSX2IDUF7XN0UFTDZPE3D5S",
-                    "high_descs":[
-                        "Turn left and face the dresser with the clock and other items on it.",
-                        "Pick the disc up from the dresser.",
-                        "Go right and then turn right again before turning left to face the brown shelves.",
-                        "Put the disc on the bottom left shelf."
-                    ],
-                    "task_desc":"Put a disc on a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3NVC2EB65TGIXQNUF0ZFDHPGT7A3YU",
-                    "high_descs":[
-                        "Move to the left facing the dresser where the CD is",
-                        "Pick up the CD in the middle of the dresser",
-                        "Carry the CD to the wood shelving unit against the wall",
-                        "Place the CD on the bottom left cubby on the shelf"
-                    ],
-                    "task_desc":"Move a CD to the shelving unit",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the CD from the dresser to the entertainment center",
+                "Put a disc on a shelf.",
+                "Move a CD to the shelving unit"
             ],
             "relative_objects":[
                 "CD"
@@ -208,48 +46,9 @@
         },
         "train/pick_and_place_simple-CD-None-Shelf-319/trial_T20190908_060915_412301/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3634BBTX0RBRN2OIVDEES2KP6ECFI4",
-                    "high_descs":[
-                        "Turn to your right and go across the room to the dresser. ",
-                        "Pick up the CD, to the right of the pencil, on the dresser. ",
-                        "Turn around and go to the book shelf on your left, just past the window. ",
-                        "Place the CD on the bottom, left shelf, to the right of the books. "
-                    ],
-                    "task_desc":"Put a CD in the book shelf. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_36ZN444YTUFLTF1BUGX4FWT3YF5IOV",
-                    "high_descs":[
-                        "Move across the room to the right side of the white dresser top",
-                        "Pick up the CD on top of the dresser on the right side",
-                        "Carry the CD to the brown shelving unit against the wall",
-                        "Place the CD on the bottom left cubby of the shelf"
-                    ],
-                    "task_desc":"Move a CD to the shelving unit",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AISNLDPD2DFEG_3NPFYT4IZFLURX985JKXDX7GV6OGXC",
-                    "high_descs":[
-                        "Turn right, go to the front of the dresser",
-                        "Pick up the cd on the dresser",
-                        "Turn around, go forward, turn left in front of the shelf",
-                        "Put the cd on the bottom shelf"
-                    ],
-                    "task_desc":"Put a cd on the shelf",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a CD in the book shelf. ",
+                "Move a CD to the shelving unit",
+                "Put a cd on the shelf"
             ],
             "relative_objects":[
                 "CD",
@@ -258,107 +57,20 @@
         },
         "train/pick_and_place_simple-Book-None-Dresser-319/trial_T20190906_204338_649353/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_35H6S234SDHJSL0SN0SG9N37771566",
-                    "high_descs":[
-                        "Turn around, walk to the side of the bed",
-                        "Grab the book that is near the other side of the bed ",
-                        "Turn around and walk to the dresser",
-                        "Put the book down by the key chain"
-                    ],
-                    "task_desc":"Move one of the book on the bed to the dresser by the key chain",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_37WLF8U1WS7MA4LVUNWMBCMP4XDK6N",
-                    "high_descs":[
-                        "Turn around, walk towards the door, then turn left to face the bed.",
-                        "Pick up the book that is to the right on the laptop on the bed.",
-                        "Turn around and head towards the dresser.",
-                        "Place the book to the right of the keys on the dresser."
-                    ],
-                    "task_desc":"Place the book from the bed to the dresser.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3VAR3R6G1SIS49PYLULD27ZPUYO8OU",
-                    "high_descs":[
-                        "Turn around to the left and go to the table.",
-                        "Pick up the magazine from the table.",
-                        "Turn around find the dresser along the wall.",
-                        "Put the magazine on the top of the dresser."
-                    ],
-                    "task_desc":"Take a magazine to the dresser.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move one of the book on the bed to the dresser by the key chain",
+                "Place the book from the bed to the dresser.",
+                "Take a magazine to the dresser."
             ],
             "relative_objects":[
-                "Book",
-                "KeyChain"
+                "KeyChain",
+                "Book"
             ]
         },
         "train/pick_and_place_simple-Pen-None-Shelf-319/trial_T20190907_203129_732698/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3ATPCQ38JBRIHBMFOFEP0P3MZXQAYH",
-                    "high_descs":[
-                        "Turn left and face the dresser with the clock on it.",
-                        "Pick the pen up from the dresser.",
-                        "Turn around and the face the box on the floor.",
-                        "Put the pen in the box."
-                    ],
-                    "task_desc":"Put a pen in a box.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3FIJLY1B6XLJ4OBM884Y1ZL1S8TFPY",
-                    "high_descs":[
-                        "turn to the left and go to the dresser ",
-                        "pick up a pen from the dresser",
-                        "turn to the right and take a few steps and turn to the right and go to the middle of the bed and turn to the left and go to the box",
-                        "put the pen in the box"
-                    ],
-                    "task_desc":"Place a pen in a box.",
-                    "votes":[
-                        1,
-                        0,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3CCZ6YKWRA06A42QL7VSTXU9YJ6955",
-                    "high_descs":[
-                        "turn left, walk to the dresser",
-                        "pick up the pen that is on the dresser",
-                        "turn around, walk forward, turn left",
-                        "put the pen on the bottom shelf of the shelves in front of you"
-                    ],
-                    "task_desc":"move pen from desk to shelf",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a pen in a box.",
+                "Place a pen in a box.",
+                "move pen from desk to shelf"
             ],
             "relative_objects":[
                 "Box",
@@ -367,88 +79,18 @@
         },
         "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145438_983650/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_30MVJZJNHPUEH3HBA9ZMU7DEG7ZJ99",
-                    "high_descs":[
-                        "Turn left and walk towards the dresser.",
-                        "Pick up the CD from the dresser.",
-                        "Take a few steps to the left to face the alarm clock.",
-                        "Open up the bottom drawer below the alarm clock and place the CD in it.",
-                        "Look up at the CD next to the lamp.",
-                        "Pick up the CD.",
-                        "Look down towards the drawer below the alarm clock.",
-                        "Open up the bottom drawer below the alarm clock and place the CD in it."
-                    ],
-                    "task_desc":"Place the CDs inside the bottom drawer below the alarm clock.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_3VHHR074H6YGYAHIYXDFWQZ0P7YL7L",
-                    "high_descs":[
-                        "turn left, walk to the dresser",
-                        "grab the disc on the dresser",
-                        "turn around,  and turn around to the left part of the dresser",
-                        "open the bottom left drawer in the dresser, put the disc in, close the drawer",
-                        "walk to the left side of the dresser",
-                        "grab the disc on the dresser",
-                        "turn right,turn around, face the drawer",
-                        "put the disc in the bottom left drawer"
-                    ],
-                    "task_desc":"move the discs on the dresser to the bottom left drawer",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ZE52NWZPN85P_354P56DE9NK32NC8I6AG8CDVH947SZ",
-                    "high_descs":[
-                        "Turn to your left and face the right side of the chest of drawers",
-                        "Pick up the CD off of the top of the chest of drawers",
-                        "Move to the left side of the chest of drawers",
-                        "Open the second drawer from the bottom and put the cd in it",
-                        "Move left and then turn to your right to face the side of the chest of drawers",
-                        "Pick up another CD off of the top of the chest of drawers",
-                        "Move back to where you were standing on the left side of the chest of the drawers",
-                        "Open the second drawer from the bottom and put the other cd in it"
-                    ],
-                    "task_desc":"Put a pair of CD's away in a chest of drawers",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place the CDs inside the bottom drawer below the alarm clock.",
+                "move the discs on the dresser to the bottom left drawer",
+                "Put a pair of CD's away in a chest of drawers"
             ],
             "relative_objects":[
-                "CD",
-                "AlarmClock"
+                "AlarmClock",
+                "CD"
             ]
         },
         "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145411_508522/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A23HZ18KTCK2DA_3RU7GD8VPRAS8TG8ES4X8Y4GH20PSC",
-                    "high_descs":[
-                        "Turn directly around to the dresser behind you.",
-                        "Grab the CD that is right in front of you.",
-                        "With the CD in hand turn and go to the front of the dresser.",
-                        "Place the CD in the third drawer down on the right side of the dresser.  Place it on the back left side of the drawer.",
-                        "Turn and go to the other side of the dresser so you are facing the alarm clock.",
-                        "Pick up the CD that is to the left of the statue.",
-                        "Turn around and go to the right side of the dresser with the CD in hand.",
-                        "Open the third from the top on the right side drawer.  Place the CD in the drawer to the right of the other CD that is in there."
-                    ],
-                    "task_desc":"Put the CDs away.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the CDs away."
             ],
             "relative_objects":[
                 "CD"
@@ -456,30 +98,7 @@
         },
         "train/pick_two_obj_and_place-CD-None-Drawer-319/trial_T20190907_145515_348252/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2JBNDG0U9IA6I_3QEMNNSB20GX0YTQLGFRDDRVGU6D7Z",
-                    "high_descs":[
-                        "Walk to the dresser on your right and face it",
-                        "Pick up one CD on the right dresser top",
-                        "Turn to the left dresser drawer",
-                        "Open the top left dresser drawer and place the CD inside",
-                        "Close the top left dresser drawer",
-                        "Pick up CD behind the alarm clock on the dresser top",
-                        "Turn to the left dresser drawer",
-                        "Open the top left dresser drawer and place the CD inside and close it"
-                    ],
-                    "task_desc":"Putting away CD's in the dresser drawer",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Putting away CD's in the dresser drawer"
             ],
             "relative_objects":[
                 "CD",
@@ -488,48 +107,9 @@
         },
         "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002747_623437/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_37QW5D2ZRJ3721HRSB2MMC9QSXWS81",
-                    "high_descs":[
-                        "Turn left and walk straight ahead to the alarm clock.",
-                        "Pick up the alarm clock.",
-                        "Turn around and veer right to the dresser.",
-                        "Place the alarm clock on middle of the dresser, all the way forward to the ledge."
-                    ],
-                    "task_desc":"Place an alarm clock on a dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3N4BPTXIOB97CFBWQ5UPRI058V0KUJ",
-                    "high_descs":[
-                        "step to the bed and turn to the left and go forward past the bed and turn to the right and take a few steps and turn to the left and go to the window",
-                        "pick up the clock from the window sill",
-                        "turn to the left twice and go to the bed and turn to the right and take a few steps and turn to the left and take a few steps and turn to the right and go to the dresser",
-                        "put the clock on the dresser"
-                    ],
-                    "task_desc":"Place a clock on a dresser",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_3QY5DC2MXU1WWTJIPU3SB5800ZCFU5",
-                    "high_descs":[
-                        "turn to the left, walk to the window and shelf opposite the bed, face the window and sill with an alarm clock",
-                        "pick up the alarm clock from the window sill",
-                        "turn left, walk to the dresser drawers, face the dresser drawers",
-                        "put the alarm clock on top of the dresser drawers to the left of the book"
-                    ],
-                    "task_desc":"move an alarm clock to dresser drawers",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place an alarm clock on a dresser.",
+                "Place a clock on a dresser",
+                "move an alarm clock to dresser drawers"
             ],
             "relative_objects":[
                 "AlarmClock",
@@ -538,51 +118,9 @@
         },
         "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190908_002730_200712/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3EICBYG647DGF1OEMT9DWXEMM7AJCS",
-                    "high_descs":[
-                        "Turn left then head to the back right wood shelving",
-                        "Pick up the clock sitting on the shelf",
-                        "Carry the clock over to the dresser against the wall",
-                        "Move the clock to the left of the computer on top of the dresser"
-                    ],
-                    "task_desc":"Move a clock to the dresser",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3TAYZSBPLOPWGMF2CUTLCLWN6ZHS2F",
-                    "high_descs":[
-                        "Go to the left and then right and then turn to the left to face the shelving unit.",
-                        "Pick the clock up from the shelf.",
-                        "Go left and cross the room and stand in front of the dresser.",
-                        "Put the clock down on the left side of the dresser."
-                    ],
-                    "task_desc":"Put a clock on a dresser.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3VD82FOHKT5UGCFB261I4TV8L17COR",
-                    "high_descs":[
-                        "Turn left and move across the room to the shelving that sits across from the foot of the bed.",
-                        "Pick up the alarm clock that is on the shelf.",
-                        "Turn left and walk across the room to the dresser. ",
-                        "Place the alarm clock on the dresser to the left of the laptop. "
-                    ],
-                    "task_desc":"Move an alarm clock to the dresser. ",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move a clock to the dresser",
+                "Put a clock on a dresser.",
+                "Move an alarm clock to the dresser. "
             ],
             "relative_objects":[
                 "AlarmClock"
@@ -590,48 +128,9 @@
         },
         "train/pick_and_place_simple-AlarmClock-None-Dresser-319/trial_T20190910_195319_108102/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_37XITHEISZQXDP7RUYIMYO0DWPCCRN",
-                    "high_descs":[
-                        "Move to the left then go straight back to the brown shelving unit against the wall",
-                        "Pick up the alarm clock on top of the shelf",
-                        "Carry the alarm clock to the brown and white dresser facing the top left side",
-                        "Place the alarm clock on top of the dresser to the left of the statue"
-                    ],
-                    "task_desc":"Move an alarm clock to the dresser",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3SFPSMFRSRTB3_3CFVK00FWO2XUA3DFN8NQCZ4UBBL6D",
-                    "high_descs":[
-                        "Turn left, proceed to bed.  Move around bed, proceed to window.  Turn left, proceed to shelf.",
-                        "Pick up alarm clock from right third shelf down.",
-                        "Turn left, proceed to end of bed.  Turn left then right and proceed to dresser.",
-                        "Place alarm clock directly to the left of the statue."
-                    ],
-                    "task_desc":"Move alarm clock from shelf to dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3M1CVSFP63M989VTX5XVN30K00KQAT",
-                    "high_descs":[
-                        "Turn left and veer left to the shelves opposite the foot of the bed.",
-                        "Pick up the red alarm clock.",
-                        "Turn left and veer left to the dresser.",
-                        "Put the alarm clock on the dresser to the left of the trophy."
-                    ],
-                    "task_desc":"Place an alarm clock on a dresser.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move an alarm clock to the dresser",
+                "Move alarm clock from shelf to dresser.",
+                "Place an alarm clock on a dresser."
             ],
             "relative_objects":[
                 "AlarmClock",
@@ -640,39 +139,15 @@
         },
         "tests_seen/trial_T20190908_182629_798623/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn to the right, walk to the door, then turn left and face the bed. ",
-                        "Close the laptop that is on the bed and pick it up. ",
-                        "Turn around completely, walk to the wall, then turn right and face the dresser. ",
-                        "Turn on the lamp that is on the dresser. "
-                    ],
-                    "task_desc":"Examine a laptop by the light of a lamp. "
-                },
-                {
-                    "high_descs":[
-                        "Turn right and walk to the door, then turn left and go to the bed",
-                        "Close the laptop that is sitting on the bed then pick up the laptop",
-                        "Turn around and walk to the mirror then turn right and face the end of the dresser",
-                        "Turn on the lamp that is sitting on the dresser"
-                    ],
-                    "task_desc":"Look at a laptop by lamp light"
-                },
-                {
-                    "high_descs":[
-                        "Turn to your right and walk in the direction of the door, hang a left to the head of the bed.",
-                        "Close the lid of the laptop on the bed and pick the laptop up.",
-                        "Turn around and walk to the lamp to the right of the mirror on the wall.",
-                        "Tilt the lampshade towards you, turn the lamp on."
-                    ],
-                    "task_desc":"Pick up a laptop from the bed, turn on the lamp"
-                }
+                "Examine a laptop by the light of a lamp. ",
+                "Look at a laptop by lamp light",
+                "Pick up a laptop from the bed, turn on the lamp"
             ],
             "relative_objects":[
                 "AlarmClock",
                 "KeyChain",
-                "Pen",
-                "Laptop"
+                "Laptop",
+                "Pen"
             ]
         }
     }

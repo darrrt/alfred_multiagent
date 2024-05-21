@@ -3,51 +3,9 @@
     "trials":{
         "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_3OS4RQUCRCWH0UACP3MX6FGCBNPBFM",
-                    "high_descs":[
-                        "Turn around, go forward, turn to the right after passing the shelves, go forward, turn right, go forward, at the black bin turn left, go forward to the desk.",
-                        "Take the CD from the desk.",
-                        "Go back from the desk.",
-                        "Put the CD on the right desk shelf below the top of the desk."
-                    ],
-                    "task_desc":"Put a CD on a desk shelf.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3Z7EFSHGNCVHALT33XOEN6M1XETCXV",
-                    "high_descs":[
-                        "Move to the far right side of the desk where the CDs are ",
-                        "Pick up the CD on the left side on top of the desk",
-                        "Carry the CD to the cubby area of the desk",
-                        "Place the CD in the desk cubby"
-                    ],
-                    "task_desc":"Move a CD to the desk cubby",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_3A4NIXBJ79GZJDO523F4F8WQKJKLMX",
-                    "high_descs":[
-                        "turn around, walk to the desk on the right",
-                        "grab the disc on the table in the back",
-                        "turn around, turn around to the desk",
-                        "put the disc on the shelf under the desk"
-                    ],
-                    "task_desc":"move the disc from back of the desk to the shelf underneath",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put a CD on a desk shelf.",
+                "Move a CD to the desk cubby",
+                "move the disc from back of the desk to the shelf underneath"
             ],
             "relative_objects":[
                 "CD"
@@ -55,48 +13,9 @@
         },
         "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_31IBVUNM9VGW988IUKDX7RAJEE5VFA",
-                    "high_descs":[
-                        "Move to the far left side of the desk",
-                        "pick up the CD on top of the desk",
-                        "Carry the CD while facing the cubby slow in the desk",
-                        "Place the CD on the right side of the cubby area on the desk"
-                    ],
-                    "task_desc":"Move a CD to the desk cubby area",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_386CSBG1O238L7JQ7SGJ7YYY4OQQ6D",
-                    "high_descs":[
-                        "Go left and then turn to the right to face the left side of the desk with the lamp.",
-                        "Pick the disc up from the desk.",
-                        "Move to the left to face the shelf on the left side of the desk.",
-                        "Put the desk on the shelf of the desk."
-                    ],
-                    "task_desc":"Put a disc on a shelf on a desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3S96KQ6I9PLKYWQXYJISI9JD5HHDTB",
-                    "high_descs":[
-                        "turn left, walk forward, turn right, walk towards desk",
-                        "pick up CD that is on the desk",
-                        "take a few steps to the left",
-                        "put CD on the shelf under left side of desk"
-                    ],
-                    "task_desc":"move CD to the shelf",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a CD to the desk cubby area",
+                "Put a disc on a shelf on a desk.",
+                "move CD to the shelf"
             ],
             "relative_objects":[
                 "CD",
@@ -105,51 +24,9 @@
         },
         "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1HXEXQTZCJ1DW_30JNVC0ORC1OIW373B7N4PNOD2PQHX",
-                    "high_descs":[
-                        "turn right and walk to the desk",
-                        "pick up the disc from the desk",
-                        "turn around and turn back to the desk",
-                        "place the disc on the shelf inside the desk"
-                    ],
-                    "task_desc":"move a disc from the desk to the  shelf",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_3SBEHTYCWQKXNT5D0362HNR5CORIYR",
-                    "high_descs":[
-                        "turn right, walk to the table",
-                        "grab the disc on the table",
-                        "step back from the table a little ",
-                        "put the disc on the shelf in the table"
-                    ],
-                    "task_desc":"move the disc from on the table to the shelf underneath",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_34V1S5K3GVI2T824QQ5XL389UOB69W",
-                    "high_descs":[
-                        "Go right and face the left side of the desk.",
-                        "Pick the disc up from the desk.",
-                        "Back up and move to the left and face the desk.",
-                        "Put the disc down next to the keys on the shelf on the left side of the desk."
-                    ],
-                    "task_desc":"Put a disc on the shelf of a desk.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "move a disc from the desk to the  shelf",
+                "move the disc from on the table to the shelf underneath",
+                "Put a disc on the shelf of a desk."
             ],
             "relative_objects":[
                 "CD"
@@ -157,148 +34,31 @@
         },
         "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190912_074626_851427/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3JC6VJ2SAEAS0CYT9LY9QEPVYL45AX",
-                    "high_descs":[
-                        "walk to the bed, turn left, walk forward, turn right, take a few steps, turn right between two beds, walk forward to the small table",
-                        "pick up the watch that is on the small table",
-                        "turn around, walk past beds, turn left, walk past bed, turn left, take a few steps, turn right, walk forward to the desk",
-                        "put the watch on the desk"
-                    ],
-                    "task_desc":"move watch from table to desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3STRJBFXOZI0XRI5M8TWN8Y5JZ6KT2",
-                    "high_descs":[
-                        "Walk over to the wooden end table i between the two beds.",
-                        "Pick up the rightmost watch off of the end table.",
-                        "Turn around and walk towards the glass door, then turn left ad walk over to the shelving unit o the wall, turn left again and walk around the partition to the wooden desk.",
-                        "Put the watch on the wooden desk in front of the clock."
-                    ],
-                    "task_desc":"Move a watch to a wooden desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3SUWZRL0M14R9TFJU9A0E3TMFU06EU",
-                    "high_descs":[
-                        "Move ahead to the bed, go around the bed, the move down the middle of the two beds to the table. ",
-                        "Pick up the watch on the table. ",
-                        "There is a desk to your right, go around the bed and bring the watch to that desk. ",
-                        "Put the watch on the desk, left of the CD. "
-                    ],
-                    "task_desc":"Put a watch on the desk. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "move watch from table to desk",
+                "Move a watch to a wooden desk.",
+                "Put a watch on the desk. "
             ],
             "relative_objects":[
-                "Desk",
-                "Watch"
+                "Watch",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190908_132712_949739/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1NWXL4QO30M8U_31T4R4OBOV7VGV9AHS9XUTTFPU97C5",
-                    "high_descs":[
-                        "Turn right and take three steps, then turn left and walk to the bed, then turn left and take two steps, then turn right and take two steps, then turn right and walk to the table. ",
-                        "Pick up the watch that is behind the alarm clock on the table. ",
-                        "Turn around and walk past the end of the bed then turn left and walk across the room, then turn right and take two steps, then turn right and take two steps, then turn right for one step, then turn left and walk to the desk.",
-                        "Put the watch on the edge of the desk."
-                    ],
-                    "task_desc":"Move the watch to the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3TGOYF9910DT0026GRN8YRT544BUU0",
-                    "high_descs":[
-                        "Take a step forward then turn right and walk past the wall on your left then turn left and walk to the bed then turn left and walk past the foot of the bed then turn right and walk past the bed then turn right and walk to the night stand between the beds.",
-                        "Pick up the watch that's in front of you.",
-                        "Turn around and walk past the bed on your left then turn left and walk to the shelves on the wall then take two steps to your left to clear the wall then walk to the black chair and take a tiny step to your right.",
-                        "Put the watch near the edge of the table that's in front of the black chair."
-                    ],
-                    "task_desc":"Put a watch on the table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3ZY8KE4ISMU1LMKP48D8KCYZFRMVQV",
-                    "high_descs":[
-                        "Turn right, move into the next room on the left, move around the first bed, then go to the table in between the two beds. ",
-                        "Pick up the watch on the table. ",
-                        "Bring the watch back around the first bed, to the left, back into the other room, to the desk against the wall.",
-                        "Put the watch in the desk, by the chair."
-                    ],
-                    "task_desc":"Put a watch on the desk. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the watch to the desk.",
+                "Put a watch on the table.",
+                "Put a watch on the desk. "
             ],
             "relative_objects":[
-                "Desk",
-                "Watch"
+                "Watch",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231607_829277/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_3PJUZCGDJ9XPXMLSJ52V5H40Z5Z98Q",
-                    "high_descs":[
-                        "Move to the metal bat on the floor.",
-                        "Pick up the metal bat on the floor. ",
-                        "Bring the bat to the bed.",
-                        "Put the bat on the bed. "
-                    ],
-                    "task_desc":"Put a metal metal bat on the bed. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AKW57KYG90X61_3SKEMFQBZ6M9EI4JN2TKVQIGAZ28KA",
-                    "high_descs":[
-                        "turn left towards the wall, then left towards the bed, then left towards the wall and then right towards the shelf",
-                        "pick up the bat from the ground",
-                        "turn right and move towards the bed",
-                        "place the bat on the bed"
-                    ],
-                    "task_desc":"pick a bat from the ground to the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3YW4XOSQKT256EPAIVO7M346YKA1UW",
-                    "high_descs":[
-                        "Turn left, the turn left, then left, then go around the bed and go straight, to the shelf.",
-                        "Pick up the baseball bat from under the shelf.",
-                        "Turn right to face the bed.",
-                        "Place the baseball bat in the center of the bed, behind the pillow."
-                    ],
-                    "task_desc":"Put the baseball bat on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a metal metal bat on the bed. ",
+                "pick a bat from the ground to the bed",
+                "Put the baseball bat on the bed."
             ],
             "relative_objects":[
                 "BaseballBat"
@@ -306,141 +66,30 @@
         },
         "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3R3YRB5GRIK1022AEEH0X4X926GUAX",
-                    "high_descs":[
-                        "Turn right and walk to the end of the far bed.",
-                        "Pick up the paddle off the foot of the bed.",
-                        "Turn right and face the bed.",
-                        "Place the paddle on the right side of the bed."
-                    ],
-                    "task_desc":"Place a paddle on a bed.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_37UEWGM5HWPDQMXTE1T2HSHMREPR1N",
-                    "high_descs":[
-                        "Turn right, go to the corner of the room near the yellow carpet section.",
-                        "Take the metal bat from the floor next to the tennis racket.",
-                        "Turn right to the foot of the nearby bed.",
-                        "Put the bat on the right edge of the bed."
-                    ],
-                    "task_desc":"Put a bat on a bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AUTYWXILTACCR_3DI28L7YXDVOHISOSV92ILI3DSME1R",
-                    "high_descs":[
-                        "Walk to the end of the room, turn right, and walk to the wall with the shelves on it.",
-                        "Pick up the metal bat from the floor under the shelf.",
-                        "Turn to your right and walk to the bed.",
-                        "Place the bat on the front right of the bed, standing straight up."
-                    ],
-                    "task_desc":"Place a bat on a bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3ZR9AIQJUEQ6IRAD76TPVUN2UXZ40S",
-                    "high_descs":[
-                        "Move across the room to the yellow rug where tennis item is",
-                        "pick up the bat behind the tennis item against the wall",
-                        "Carry it to the white bed that has the blue blanket on top of it",
-                        "Place the bat on the bed"
-                    ],
-                    "task_desc":"Move a bat across the room to the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a paddle on a bed.",
+                "Put a bat on a bed.",
+                "Place a bat on a bed.",
+                "Move a bat across the room to the bed"
             ],
             "relative_objects":[
-                "Bed",
-                "BaseballBat"
+                "BaseballBat",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231624_734464/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_3DR23U6WE8VPQ24XUETCOR1Y492ETK",
-                    "high_descs":[
-                        "Turn right and turn right walk to the bed, turn left, walk around the bed to the corner with tennis bat",
-                        "Grab the baseball bat on the floor behind the tennis bat",
-                        "Turn right to the bed",
-                        "Put the baseball bat on the bed"
-                    ],
-                    "task_desc":"Move the baseball bat from floor to the bed",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AHBWX3WYMAB0E_3FDJT1UU77PQR0LHP4MHJ68P82OK5T",
-                    "high_descs":[
-                        "Turn around and move towards the bed. Go around the foot of the bed to the wall with a brown shelf.",
-                        "Pick up the baseball bat from the floor.",
-                        "Turn right towards the bed.",
-                        "Place the baseball bat on the bed."
-                    ],
-                    "task_desc":"Put the baseball bat on the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3Z9WI9EOZ2527T5CQ6NQ83BFD91HKP",
-                    "high_descs":[
-                        "Turn around, head towards the wood beam, turn right towards the bed, turn left towards the wall, and then turn right towards the shelf on the wall.",
-                        "Pick up the bat on the floor behind the tennis racket.",
-                        "Turn right towards the bed.",
-                        "Place the bat on the bed in between the panda and laptop."
-                    ],
-                    "task_desc":"Place the bat from the floor onto the bed.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the baseball bat from floor to the bed",
+                "Put the baseball bat on the bed.",
+                "Place the bat from the floor onto the bed."
             ],
             "relative_objects":[
-                "Bed",
-                "BaseballBat"
+                "BaseballBat",
+                "Bed"
             ]
         },
         "train/pick_two_obj_and_place-CD-None-Shelf-326/trial_T20190908_173730_034983/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3MX2NQ3YCCL4WP6MKVQNAM0TZBL5XJ",
-                    "high_descs":[
-                        "Turn around then turn left and face the desk in front of you.",
-                        "Take the CD off of the table in front of you.",
-                        "Move back and face the table in front of you.",
-                        "Place the CD under the table in front of you.",
-                        "Turn left then face the desk on your right.",
-                        "Take the CD off of the desk in front of you.",
-                        "Move back and face the desk in front of you.",
-                        "Place the CD under the desk in front of you."
-                    ],
-                    "task_desc":"Place the CD under the desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Place the CD under the desk."
             ],
             "relative_objects":[
                 "CD"
@@ -448,182 +97,32 @@
         },
         "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_095324_531185/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_31QNSG6A5UKT4SJX0GTSS7XWZBX87P",
-                    "high_descs":[
-                        "Turn around, head to the watch on the desk, to the far left.",
-                        "Pick up the watch on the desk. ",
-                        "Bring the watch over to the bowl on the left side of the desk. ",
-                        "Put the watch in the bowl on the desk. ",
-                        "Pick up the bowl with watch on the desk. ",
-                        "Bring the bowl to the left most side of the desk. ",
-                        "Put the bowl with watch in the shelf under the left desk. "
-                    ],
-                    "task_desc":"Put a bowl with a watch in it on the shelf. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3AAJC4I4FJJ18JLMAFI28HZ9PFWZJK",
-                    "high_descs":[
-                        "Turn around and walk to the wooden desk on the left.",
-                        "Pick up the watch from the middle of the desk.",
-                        "Turn around, hang a right at the wall and turn right to face the wooden desk.",
-                        "Put the watch inside the gray bowl in the middle of the desk.",
-                        "Pick up the gray bowl with the watch from the middle of the desk.",
-                        "Turn left and hang a right at the wall to face the desk next to the chair.",
-                        "Put the bowl with the watch on the shelf under the left side of the desk top."
-                    ],
-                    "task_desc":"Place a bowl with a watch on a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3L4PIM1GQW7I1HUUMYPSW1CYT2PYRN",
-                    "high_descs":[
-                        "Turn around and walk forward, then hang a left and walk up to the wooden desk.",
-                        "Pick up the watch off of the wooden desk.",
-                        "Turn around and walk up to the wall, then turn right and walk forward, turn right to face the wooden desk.",
-                        "Put the watch in the grey bowl on the desk.",
-                        "Pick up the grey bowl with the watch in it off of the desk.",
-                        "Turn left and walk towards the wall, then turn right to face the left end of the wooden desk.",
-                        "Put the grey bowl with the watch in it on the shelf below the wooden desk."
-                    ],
-                    "task_desc":"Put a grey bowl with a watch in it on a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a bowl with a watch in it on the shelf. ",
+                "Place a bowl with a watch on a shelf.",
+                "Put a grey bowl with a watch in it on a shelf."
             ],
             "relative_objects":[
-                "Bowl",
-                "Watch"
+                "Watch",
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031900_337236/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_3PXX5PX6L0PUPSF2AVPMT0PN8PUABN",
-                    "high_descs":[
-                        "Turn left, go forward, after passing the shelves turn right, go right and forward to the part of the desk where the bowl is, left of the computer.",
-                        "Take the watch in front of the keys from the desk.",
-                        "Stay at the desk.",
-                        "Put the keys in the bowl.",
-                        "Take the bowl from the desk.",
-                        "Go to the right and face the clock on the desk.",
-                        "Put the bowl on the shelf below the computer on the desk."
-                    ],
-                    "task_desc":"Put a bowl with a watch in it on a shelf in a desk.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_34J10VATJIPWZG0P51EP5N857X2QIL",
-                    "high_descs":[
-                        "Turn left, move forward toward the door, then turn right and go around the wall, then turn left to approach the desk.",
-                        "Pick up the watch on the desk.",
-                        "Look up to view the bowl on the desk.",
-                        "Put the watch into the bowl.",
-                        "Pick up the bowl with the watch in it from the desk.",
-                        "Turn around and move forward, then turn left, step forward, then turn left and look down to face the shelf beneath the desk.",
-                        "Put the bowl on the shelf."
-                    ],
-                    "task_desc":"Put a bowl with a watch in it on the shelf.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_337RC3OW08TQUP4CC35C3QZ55XDLVY",
-                    "high_descs":[
-                        "Turn left and walk around to the other side of the wall, veering right to the right side of the desk.",
-                        "Pick up the watch near the keys on the desk.",
-                        "Look to the left of the laptop.",
-                        "Place the watch in the gray bowl.",
-                        "Pick up the bowl.",
-                        "Take a step right.",
-                        "Place the bowl on the shelf under the laptop."
-                    ],
-                    "task_desc":"Place a bowl with a watch in it on a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a bowl with a watch in it on a shelf in a desk.",
+                "Put a bowl with a watch in it on the shelf.",
+                "Place a bowl with a watch in it on a shelf."
             ],
             "relative_objects":[
-                "Bowl",
+                "Watch",
                 "Shelf",
-                "Watch"
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_33LKR6A5KHBYRQWJEYNEIT26AULT1P",
-                    "high_descs":[
-                        "Turn around and walk over to the bed, then turn left and walk towards the wall, turn right and walk in between the beds to the end table.",
-                        "Pick up the pen off of the end table.",
-                        "Turn around and walk to the wooden desk to your left.",
-                        "Put the pen in the rightmost black mug on the wooden desk.",
-                        "Pick up the black mug with the pen in it off of the desk.",
-                        "Turn around and walk back over to the end table in between the two beds.",
-                        "Put the mug with the pen in it on the end table."
-                    ],
-                    "task_desc":"Put a mug with a pen in it on an end table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_37Q970SNZHZXCQJ4PYIO8O6K8B1S1T",
-                    "high_descs":[
-                        "Turn around, hang a left at the bed, turn right at the wall and turn right in between the two beds to reach the small side table ahead.",
-                        "Pick up the white pen in front of the cell phone on the table.",
-                        "Turn around, hang a left at the wall, turn left at the wooden shelves, head to the right around the shelves and walk to the wooden desk on the left.",
-                        "Put the pen inside the black mug next to the keys on the right side of the desk.",
-                        "Pick up the mug with the pen inside on the desk.",
-                        "Turn around, hang a right at the wooden shelves, turn left towards the bed, take a left at the bed, turn right at the wall and hang a right to reach the small side table ahead.",
-                        "Place the mug with the pen inside on the right side of the desk to the right of the cell phone."
-                    ],
-                    "task_desc":"Place a mug with a pen on a table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3AUQQEL7U8KDXTFQNAJT567H2ND0VR",
-                    "high_descs":[
-                        "Turn left and head to cabinet in between the beds",
-                        "Pick up the pen on the cabinet",
-                        "Turn right, walk forward then left and head to the desk",
-                        "Put the pen in the mug on the desk ",
-                        "Pick up the mug with pen ",
-                        "Turn left, then head to the cabinet in between the beds",
-                        "Put the mug with pen on the right side of the cabinet"
-                    ],
-                    "task_desc":"Put the mug with pen on the cabinet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a mug with a pen in it on an end table.",
+                "Place a mug with a pen on a table.",
+                "Put the mug with pen on the cabinet"
             ],
             "relative_objects":[
                 "Mug",
@@ -632,57 +131,9 @@
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3PPLDHC3CG0YN_3CFVK00FWOC5FZPBBVX4RYJ6OS1L6Y",
-                    "high_descs":[
-                        "Turn around and walk straight to the shelves. ",
-                        "Pick up the pen from the shelves. ",
-                        "Turn around and walk to the shelves on the other wall. ",
-                        "Put the pen in the cup on the top shelf on the right side. ",
-                        "Pick up the cup form the shelf. ",
-                        "Walk to the night stand in between the two beds, ",
-                        "Put the mug down on the night stand in front of the alarm clock. "
-                    ],
-                    "task_desc":"To put a pen in a mug and put the mug on the night stand. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3TXMY6UCAHF5MDEPDRI3UKAAUKWCQ3",
-                    "high_descs":[
-                        "Turn around to your right face the shelf",
-                        "Pick up the pen on the shelf",
-                        "Turn around to the left walk toward the shelf on the wall ",
-                        "Put the pen in the mug on the shelf",
-                        "Pick up the mug with pen ",
-                        "Turn right walk forward then go to the side table in between the beds",
-                        "Put the mug with pen on the right side of the side table"
-                    ],
-                    "task_desc":"Put the mug with pen on the side table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AFPMG8TLP1TND_3VW04L3ZLWXDY8QWQ19I25RDS6IXX0",
-                    "high_descs":[
-                        "turn right towards the bed then turn right again and walk to the shelf",
-                        "pick up the pen that is in the shelf",
-                        "turn around and walk straight to the other shelf then turn right towards the bed and look up",
-                        "put the pen down on the shelf in the cup",
-                        "pick up the pen and the cup together off of the shelf",
-                        "look down and turn right and walk straight and turn left in between the beds and walk straight to the table ",
-                        "put the cup and pen together down on the table in between the beds"
-                    ],
-                    "task_desc":"put the pen into the cup and put it on the table in between the beds",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "To put a pen in a mug and put the mug on the night stand. ",
+                "Put the mug with pen on the side table",
+                "put the pen into the cup and put it on the table in between the beds"
             ],
             "relative_objects":[
                 "Mug",
@@ -691,54 +142,9 @@
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A14IPKOBOPID9H_36NEMU28XI4NFWM22PBNP5X8CYZMWF",
-                    "high_descs":[
-                        "Turn right and go to the door then turn right and go to the desk",
-                        "Pick up the pen from the shelf in the desk",
-                        "Put the pen in the cup on the desk",
-                        "Pick up the cup with the pen inside from the desk",
-                        "Turn around and head towards the bed with the laptops on it and go left and around the bed then go to the nightstand",
-                        "Put the cup on the nightstand"
-                    ],
-                    "task_desc":"Put the cup with the pen inside on the nightstand",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A16184N1RO5OJV_3BQU611VFSBXWGQ0K5XQ6ZJDEY799D",
-                    "high_descs":[
-                        "Go to your right, walk straight, and turn right to go to the wooden desk. ",
-                        "Pick up the pen from the shelf under the lamp on the table. ",
-                        "Put the pen in the black cup on the desk. ",
-                        "Pick up the black cup that has a pen in it. ",
-                        "Turn around, walk towards the bed, turn left, walk to the wall, turn right, turn right between the 2 beds and walk to the shelf. ",
-                        "Put the black cup on the shelf. "
-                    ],
-                    "task_desc":"Put a black cup with a pen in it to the shelf between the 2 beds. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"ARB8SJAWXUWTD_3ZR9AIQJUE0E3GWB3EI6WG74P29046",
-                    "high_descs":[
-                        "Go to the desk",
-                        "Pick up a pen from the desk",
-                        "Put the pen in a cup on the desk",
-                        "Pick up the cup from the desk",
-                        "Go to the small cabinet between the beds",
-                        "Place the cup on top of the small cabinet"
-                    ],
-                    "task_desc":"Move a cup and pen to a small cabinet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the cup with the pen inside on the nightstand",
+                "Put a black cup with a pen in it to the shelf between the 2 beds. ",
+                "Move a cup and pen to a small cabinet"
             ],
             "relative_objects":[
                 "Mug",
@@ -747,48 +153,9 @@
         },
         "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A98E8M4QLI9RS_31EUONYN2YUY0A79PVL4V73Z0OYOV6",
-                    "high_descs":[
-                        "turn to the left and move forward across the room to the glass door, turn to the left and move forward to the three colored rags on the floor on the floor",
-                        "pick up the gray rag from the floor",
-                        "move forward to the shelf above the rags on the floor",
-                        "put the gray rag on to the shelf"
-                    ],
-                    "task_desc":"put a gray rag on the shelf",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3QHK8ZVMIP9BLB667MEC2E5Y2RBLBE",
-                    "high_descs":[
-                        "Turn left and walk until you hit the door then turn left and walk to the cubbies on the wall.",
-                        "Pick up the black cloth on the floor.",
-                        "Look up at the cubby on the wall.",
-                        "Put the black cloth in the cubby."
-                    ],
-                    "task_desc":"Put a black cloth in a cubby.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3TEM0PF1Q8OR3CF4WPJZZK1A2EA0DP",
-                    "high_descs":[
-                        "Turn left, hang a left at the wall and walk to the wooden shelves ahead.",
-                        "Pick up the gray towel on the floor in front of the wooden shelves.",
-                        "Look up at the wooden shelves next to the wall.",
-                        "Put the gray towel in the middle of the bottom right shelf."
-                    ],
-                    "task_desc":"Place a towel on a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put a gray rag on the shelf",
+                "Put a black cloth in a cubby.",
+                "Place a towel on a shelf."
             ],
             "relative_objects":[
                 "Cloth"
@@ -796,51 +163,9 @@
         },
         "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_34Z02EIMIV4YK1B1IFJE4OJW51H0TT",
-                    "high_descs":[
-                        "Take a few steps to the right and look to the floor.",
-                        "Pick up the dark cloth close to the wall.",
-                        "Hold the cloth and look up.",
-                        "Place the cloth on the shelf, in the center."
-                    ],
-                    "task_desc":"Move a cloth from the floor to a shelf.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3ZDAD0O1T446HRHCLR8LD267F88XTR",
-                    "high_descs":[
-                        "Turn right, walk to the wall, then turn left to face the shelving.",
-                        "Pick up the dark rag that is on the floor in front of the shelving.",
-                        "Look up at the shelf.",
-                        "Place the rag on the bottom right shelf."
-                    ],
-                    "task_desc":"Move a rag from the floor to a shelf.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3UF6XXFFRR237_3LOTDFNYAAQH9MULG27AUFDZFXLWFG",
-                    "high_descs":[
-                        "walk over to the toys on the floor on the right side of the room",
-                        "pick up the black rag from the floor",
-                        "approach the shelf directly ahead of you",
-                        "place the rag on the shelf"
-                    ],
-                    "task_desc":"get the rag from the floor and put it on the shelf.",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Move a cloth from the floor to a shelf.",
+                "Move a rag from the floor to a shelf.",
+                "get the rag from the floor and put it on the shelf."
             ],
             "relative_objects":[
                 "Cloth"
@@ -848,24 +173,7 @@
         },
         "train/pick_two_obj_and_place-Cloth-None-Shelf-326/trial_T20190908_112610_985576/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A028LRDJB7ZB_3IAEQB9FMHBKB2GPPWCK6FAE3KMWDM",
-                    "high_descs":[
-                        "Turn to your left walk forward then face down",
-                        "Pick up the black cloth on the floor",
-                        "Raise your body facing the shelf above the floor",
-                        "Put the black cloth on the shelf in front of you",
-                        "Look at the yellow cloth on the floor",
-                        "Pick up the yellow cloth on the floor",
-                        "Look to the shelf ",
-                        "Put the yellow cloth on top of the black cloth"
-                    ],
-                    "task_desc":"Put black and yellow cloth on the top shelf ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put black and yellow cloth on the top shelf "
             ],
             "relative_objects":[
                 "Cloth"
@@ -873,42 +181,8 @@
         },
         "train/pick_two_obj_and_place-Watch-None-Shelf-326/trial_T20190906_201446_524359/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_3M0BCWMB8YDJBGW7FSWXA32C5IZBWN",
-                    "high_descs":[
-                        "Turn right, got towards the wall, turn right to face the stand with a lamp.",
-                        "Take the watch to the right of the lamp.",
-                        "Turn right, go straight, turn left to face the computer on the stand.",
-                        "Put the watch on the shelf below the computer on the left side of the shelf.",
-                        "Go to the desk are to the left of the computer with the CD.",
-                        "Take the watch that is above the cd.",
-                        "Go right back to facing the computer.",
-                        "Put the watch on the shelf below the computer to the right of the other watch."
-                    ],
-                    "task_desc":"Put watches on a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3P4RDNWND8N7S4AEE35Z70CHY9GIJ8",
-                    "high_descs":[
-                        "turn right and walk to the end of the room, then turn right and walk towards the left side of the desk",
-                        "grab the wrist watch off of the desk",
-                        "turn around, walk forwards a bit and turn left, walk to the end of the room, and turn left to face the cabinet on the right side of the desk",
-                        "place the wrist watch in the open cabinet hole there",
-                        "move left a bit to face the desk again",
-                        "grab the other wrist watch off of the desk behind the CD",
-                        "move around to the right side of the desk again",
-                        "place the wrist watch inside the open cabinet on the right side of the desk next to the other watch"
-                    ],
-                    "task_desc":"place both of the wrist watches in the cabinet on the right side of the desk",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put watches on a shelf.",
+                "place both of the wrist watches in the cabinet on the right side of the desk"
             ],
             "relative_objects":[
                 "Watch"
@@ -916,94 +190,27 @@
         },
         "train/pick_two_obj_and_place-Watch-None-Shelf-326/trial_T20190906_201415_685426/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3A7Y0R2P2R54IZZ9DP50AAZWMMAXJD",
-                    "high_descs":[
-                        "turn left and walk to the desk at the end of the room",
-                        "pick up the wrist watch off of the desk",
-                        "back up a bit to face the desk again",
-                        "place the wrist watch in the cabinet inside the right side of the desk",
-                        "move forwards towards the desk again",
-                        "pick up the wrist watch off of the desk again",
-                        "back up a bit to face the desk again",
-                        "place the wrist watch in the cabinet inside the right side of the desk"
-                    ],
-                    "task_desc":"place both of the wrist watches on the desk inside the cabinet",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "place both of the wrist watches on the desk inside the cabinet"
             ],
             "relative_objects":[
                 "AlarmClock",
-                "CellPhone",
-                "Watch"
+                "Watch",
+                "CellPhone"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183206_906995/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_38F71OA9GWDDJLE9GSC6KVR6N4OFMA",
-                    "high_descs":[
-                        "Walk forward, then hang a left and walk over to the small end table in between the two beds.",
-                        "Pick up the watch that is to the right of the credit card on the end table in front of you.",
-                        "Turn around and walk out from in between the two beds, then turn left and walk across the room, then turn left and start walking to the door, turn right and walk over to the right side of the wooden desk.",
-                        "Place the watch in the closest grey bowl on the desk.",
-                        "Pick up the grey bowl with the watch in it.",
-                        "Turn left and walk over to the black bin, then turn right and walk around the partition to the end table in between the two beds.",
-                        "Put the grey bow with the watch in it onto the end table to the left of the pen."
-                    ],
-                    "task_desc":"Put a grey bowl with a watch in it on the end table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1WJU1IQ3UTRC6_3PW9OPU9PT1WM2G8ZBE1GK9EGRA12U",
-                    "high_descs":[
-                        "Turn left and go to the bedside table between beds.",
-                        "Pick up the watch from the bedside table.",
-                        "Turn around, walk past the bed, turn left and left again, then right and follow the desk to the right.",
-                        "Set the watch in the bowl on the desk.",
-                        "Pick up the bowl and watch from the desk.",
-                        "Follow the same path back to the bedside table.",
-                        "Set the watch and bowl on the bedside table."
-                    ],
-                    "task_desc":"Put the watch in the bowl and put it away on the bedside table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a grey bowl with a watch in it on the end table.",
+                "Put the watch in the bowl and put it away on the bedside table."
             ],
             "relative_objects":[
-                "Bowl",
-                "Watch"
+                "Watch",
+                "Bowl"
             ]
         },
         "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_30ZX6P7VFBC3HJWCP0K7KK50AAUJ24",
-                    "high_descs":[
-                        "Turn left, go forward, turn right, go forward, turn right to go between the beds, then turn right to face the bed.",
-                        "Pick up the cell phone nearest to you on the bed.",
-                        "Turn right, go forward, turn left, go forward, turn left, go forward, turn right, go forward to face the desk.",
-                        "Put the cell phone on the desk, in front of the CD.",
-                        "Turn around, turn left around the bed, then turn right, then turn right again, and then turn left to face the bed.",
-                        "Pick up the cell phone on the bed.",
-                        "Turn left, go forward, turn left, go forward, turn left, move forward, then turn right and return to the desk ahead.",
-                        "Put the cell phone on the desk, to the right of the other cell phone."
-                    ],
-                    "task_desc":"Move to sell phones to the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move to sell phones to the desk."
             ],
             "relative_objects":[
                 "CellPhone"
@@ -1011,24 +218,7 @@
         },
         "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3UF6XXFFRR237_3VNXK88KKFZN8YH5RYD5XVO8BY09VM",
-                    "high_descs":[
-                        "Walk around the end of the bed and approach the side of it where you see a red phone.",
-                        "Pick up the red phone from the bed.",
-                        "Turn left and walk to the desk and stand behind the office chair.",
-                        "Set the phone on the desk.",
-                        "Turn around and walk back toward the bed. Go around the first bed and turn right to walk between them and approach the side of the second bed.",
-                        "Pick up the phone from the bed.",
-                        "Turn to the left and walk back to the desk with the chair.",
-                        "place the second phone on the desk next to the first phone."
-                    ],
-                    "task_desc":"Collect each cell phone and put them on the desk.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Collect each cell phone and put them on the desk."
             ],
             "relative_objects":[
                 "CellPhone"
@@ -1036,153 +226,36 @@
         },
         "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031836_927615/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2871R3LEPWMMK_34T446B1C35HYK9QWTOOFEJSHNQ0CZ",
-                    "high_descs":[
-                        "Turn around, hang a left at the wooden shelves, head right at the door and walk to the wooden desk.",
-                        "Pick up the gray bowl in front of the small lamp on the desk.",
-                        "Turn around, hang a left at the bed, take a right at the wall and walk to the wooden shelves on the wall.",
-                        "Put the gray bowl on the bottom middle shelf to the left of the watch.",
-                        "Pick up the watch to the right of the gray bowl on the shelf.",
-                        "Put the watch inside the gray bowl on the shelf."
-                    ],
-                    "task_desc":"Place a bowl with a watch on a shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3AWETUDC95J5D81GSXX2WGK9CZJIZ1",
-                    "high_descs":[
-                        "Turn around and go toward the shelves, then turn left and move forward, then turn right to go to the desk with the lamp on it.",
-                        "Pick up the bowl from the desk.",
-                        "Turn around and go forward to the bed, then turn left and go to the wall, then turn right to go to the shelves ahead.",
-                        "Put the bowl on the bottom shelf.",
-                        "Pick up the watch on the bottom shelf.",
-                        "Put the watch in the bowl."
-                    ],
-                    "task_desc":"Put a bowl with the watch in it on the shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3HWRJOOET8TWWRDG1MD3F8PEXROESV",
-                    "high_descs":[
-                        "Turn around and walk to the wall then turn left and walk three steps then turn right and walk to the desk between the two black chairs.",
-                        "Pick up the bowl that's in front of you under the light.",
-                        "Turnaround and walk to the bed then turn left and walk to the wall then turn left and walk to the shelves.",
-                        "Put the bowl on the shelf to the left of the watch.",
-                        "Pick up the watch.",
-                        "Put the watch in the bowl."
-                    ],
-                    "task_desc":"Put a watch in a bowl on the shelf.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a bowl with a watch on a shelf.",
+                "Put a bowl with the watch in it on the shelf.",
+                "Put a watch in a bowl on the shelf."
             ],
             "relative_objects":[
-                "Bowl",
+                "Watch",
                 "Shelf",
-                "Watch"
+                "Bowl"
             ]
         },
         "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183137_838565/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AIICJA0A5J8NF_3IOEN3P9SA0K43Z9MDQ46XQQWX2618",
-                    "high_descs":[
-                        "Turn around, walk around the bookshelf, turn to the desk. ",
-                        "Pick the watch up off of the desk.",
-                        "Put the watch in the bowl on the desk.",
-                        "Pick up the bowl off of the desk. ",
-                        "Walk back around the bookshelf, walk over between the two beds. ",
-                        "Put the bowl on the nightstand. "
-                    ],
-                    "task_desc":"Put the watch in the bowl on the nightstand. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1WJU1IQ3UTRC6_3TR2532VISBRZKFDC2WAAXMCQDB6JJ",
-                    "high_descs":[
-                        "Turn left to the door, turn right, then right again and go to the end of the desk near the door.",
-                        "Pick up the watch off of the desk.",
-                        "Put the watch in the bowl on the desk.",
-                        "Pick up the bowl and watch from the desk.",
-                        "Go straight along the desk, turn left and walk past the first bed and go to the bedside table between beds.",
-                        "Set the bowl and watch on the bedside table."
-                    ],
-                    "task_desc":"Put away the watch in a bowl on the bedside table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3HL8HNGX48IYC1VFRJ81F9LMN7B9F3",
-                    "high_descs":[
-                        "Turn around and then to the right across the room. Turn right again towards the large windows, and look to the desk.",
-                        "Pick up the watch from the right side of the desk.",
-                        "Place the watch in a bowl on the left side of the desk.",
-                        "Pick up the bowl and watch from the desk.",
-                        "Carry the bowl and turn left to go around the furniture and to the other room. Turn right in between the beds to find the small table.",
-                        "Place the bowl and watch on the table."
-                    ],
-                    "task_desc":"Move a bowl and watch from the desk to the table.",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put the watch in the bowl on the nightstand. ",
+                "Put away the watch in a bowl on the bedside table.",
+                "Move a bowl and watch from the desk to the table."
             ],
             "relative_objects":[
-                "Bowl",
-                "Watch"
+                "Watch",
+                "Bowl"
             ]
         },
         "tests_seen/trial_T20190912_074536_269191/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn around to your left then head to the shelf on your left",
-                        "Pick up the wrist watch on the shelf",
-                        "Turn left then walk forward turn right heading to the desk ",
-                        "Put the wrist watch on the desk"
-                    ],
-                    "task_desc":"Put the wrist watch on the desk "
-                },
-                {
-                    "high_descs":[
-                        "Turn around and face the shelves that are behind you.",
-                        "Pick up the watch that's on the top shelf to the right of the keys.",
-                        "Bring the watch with you and go to the desk on the other side of the shelves.",
-                        "Put the watch down on the desk so that it's in front of the phone."
-                    ],
-                    "task_desc":"Put the watch on the desk."
-                },
-                {
-                    "high_descs":[
-                        "Turn around and then look up at the shelves. ",
-                        "Take the watch that is to the right of the keys off of the shelf. ",
-                        "Look down then turn left and take one step, then turn right and take two steps, then turn right and take one step, then turn left and walk to the desk. ",
-                        "Put the watch down on the edge of the table, to the left of the credit card. "
-                    ],
-                    "task_desc":"Move the watch to the desk."
-                }
+                "Put the wrist watch on the desk ",
+                "Put the watch on the desk.",
+                "Move the watch to the desk."
             ],
             "relative_objects":[
-                "Desk",
-                "Watch"
+                "Watch",
+                "Desk"
             ]
         }
     }

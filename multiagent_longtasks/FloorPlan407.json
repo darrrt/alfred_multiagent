@@ -3,27 +3,7 @@
     "trials":{
         "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-407/trial_T20190908_055510_633308/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3NVC2EB65TGIXQNUF0ZFDHPGT833YP",
-                    "high_descs":[
-                        "Turn around and walk around to the left side of the toilet",
-                        "Pick up the middle pump bottle from the toilet",
-                        "Turn around and walk up to the counter between the sinks",
-                        "Put the bottle on the counter between the sinks",
-                        "Move slightly left then turn back to face the counter",
-                        "Open the right cabinet below the left sink and remove the pump bottle",
-                        "Move slightly right then turn back toward the counter",
-                        "Put the bottle on the counter"
-                    ],
-                    "task_desc":"Put the pump bottles on the bathroom counter",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Put the pump bottles on the bathroom counter"
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -31,25 +11,7 @@
         },
         "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-407/trial_T20190908_055449_353538/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3QRYMNZ7F1YTK8HANDWVEEV7JN9TN3",
-                    "high_descs":[
-                        "Turn around and walk up to the toilet",
-                        "Pick up the nearest blue pump bottle from the toilet",
-                        "Turn around and walk up to the counter between the sinks",
-                        "Put the bottle on the counter",
-                        "Turn around and walk back to the toilet",
-                        "Pick up the pump bottle from the toilet",
-                        "Turn around and walk back to the counter",
-                        "Put the pump bottle on the counter"
-                    ],
-                    "task_desc":"Put the pump bottles on the bathroom counter",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put the pump bottles on the bathroom counter"
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -57,113 +19,20 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-407/trial_T20190908_014745_634613/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1P0XSCJ9XAV74_3D3VGR7TA3W90PB8157L5LWJQAJ3RW",
-                    "high_descs":[
-                        "Turn around and walk to the green trash can then turn left to face the tub.",
-                        "Take the black rag furthest away from out of the tub.",
-                        "Raise it up and turn around to make a left to face the sink.",
-                        "Place the rag in the sink and turn on the water. Turn the water off and take the rag back out.",
-                        "Turn around and take a step. Turn to the right and go back to the tub.",
-                        "Put the clean rag next to the dirty rag laying in the tub."
-                    ],
-                    "task_desc":"To clean a rag to put back into the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3SFPSMFRSRTB3_3DY46V3X3SZN9H0EIHIBHHP7CQ055T",
-                    "high_descs":[
-                        "Turn right then left to face tub.",
-                        "Pick up the cloth from the tub, to the right of the other cloth.",
-                        "Turn around, proceed to sink, turn left to face sink.",
-                        "Put cloth in sink, fill and empty sink, pick up cloth.",
-                        "Turn left, proceed to tub.",
-                        "Place cloth in tub, directly left to the cloth already in the tub."
-                    ],
-                    "task_desc":"Clean cloth and return to tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3TPZPLC3M3TOOCVTOD3W0QW4PU33PG",
-                    "high_descs":[
-                        "Turn to the right and face the tub.",
-                        "Pick the black towel up from the right side of the tub.",
-                        "Turn around and face the sink on the left.",
-                        "Put the towel in the sink and turn the water on and then turn the water off and pick the towel up.",
-                        "Turn around and face the tub.",
-                        "Put the towel in the tub."
-                    ],
-                    "task_desc":"Put a clean towel in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "To clean a rag to put back into the tub.",
+                "Clean cloth and return to tub.",
+                "Put a clean towel in the tub."
             ],
             "relative_objects":[
-                "SoapBottle",
-                "Cloth"
+                "Cloth",
+                "SoapBottle"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-407/trial_T20190908_054352_258440/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_32EYX73OY3QTZJORGP3MSUMJ3ORRUI",
-                    "high_descs":[
-                        "Turn left, head to sink, turn left, head to tub.",
-                        "Pick up the dirty rag in the tub. ",
-                        "Turn around, move to the sink on the left. ",
-                        "Wash the dirty rag in the sink with water.",
-                        "Bring the cleaned rag to the tub on the left.",
-                        "Put the cleaned rag in the tub. "
-                    ],
-                    "task_desc":"Put a cleaned rag in the tub. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_37UEWGM5HWPDQMXTE1T2HSHMSR0R1P",
-                    "high_descs":[
-                        "Turn around and cross the room to face the bath tub.",
-                        "Pick up the dirty rag in the bath tub.",
-                        "Turn to the right and face the left side sink.",
-                        "Wash the rag in the sink and pick it back up.",
-                        "Turn around and walk forward to the bath tub.",
-                        "Place the clean rag in the front of the tub by the drain."
-                    ],
-                    "task_desc":"To clean a rag as well as put it back in the bath tub.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2BLQ1GVEHJR8T_3S3AMIZX3XM3CFOMCXN2TZJ9HM7DC0",
-                    "high_descs":[
-                        "Knock the empty toilet paper tube over, then turn left to face the opposite direction and go to the bathtub.",
-                        "Pick up the washcloth from the tub.",
-                        "Turn right and go to the nearest sink.",
-                        "Rinse the washcloth in the left sink.",
-                        "Turn left and return to the tub.",
-                        "Toss the washcloth back into the tub."
-                    ],
-                    "task_desc":"Throw a rinsed washcloth back into the bathtub it came from.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Put a cleaned rag in the tub. ",
+                "To clean a rag as well as put it back in the bath tub.",
+                "Throw a rinsed washcloth back into the bathtub it came from."
             ],
             "relative_objects":[
                 "Cloth"
@@ -171,57 +40,9 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-407/trial_T20190908_063321_703261/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3EF8EXOTT4CWSYEG6WKTF1VVIIWJ1V",
-                    "high_descs":[
-                        "Turn left and walk over to the toilet, then turn left and walk up to the sink counter.",
-                        "Pick up the soap bottle off of the counter.",
-                        "Turn around and walk forward, then turn right and walk towards the tub, turn right again to face the green bin in between the counter and tub.",
-                        "Put the soap bottle in the green bin."
-                    ],
-                    "task_desc":"Move a soap bottle into a green bin.",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_3VAR3R6G1SIS49PYLULD27ZPVIMO8D",
-                    "high_descs":[
-                        "Turn around and head to the middle of the vanity containing the sinks, stand in front of the vanity in between the two sinks",
-                        "Pick up the blue soap pump bottle that is sitting between the two sinks",
-                        "Turn left and head to the bathtub then turn right and face the green trash bin that is sitting to the right of the bathtub",
-                        "Place the soap bottle into the green trash bin"
-                    ],
-                    "task_desc":"Place a soap bottle into a trash bin",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_36DSNE9QZ8FHOQLHCYI4RX83CZROJL",
-                    "high_descs":[
-                        "Turn left and walk to the counter between the two sinks.",
-                        "Pick up the blue soap bottle on the counter.",
-                        "Take a couple steps left.",
-                        "Place the soap bottle in the green bin on the floor to the left of the sinks."
-                    ],
-                    "task_desc":"Place a soap bottle in a garbage bin.",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Move a soap bottle into a green bin.",
+                "Place a soap bottle into a trash bin",
+                "Place a soap bottle in a garbage bin."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -229,48 +50,9 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-407/trial_T20190908_063257_497959/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3C2NJ6JBKDYZ09NX4YCZDRMHJ922NO",
-                    "high_descs":[
-                        "Turn to your left and go to the outer most, back corner of the bath tub. ",
-                        "Grab the pump bottle on the corner of the bath tub.",
-                        "Move over to your right so that you are in front of the green, garbage bin. ",
-                        "Put the pump bottle inside the green garbage bin."
-                    ],
-                    "task_desc":"Put the pump bottle in the trash. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3II4UPYCOMO76GY5HFOXD48QLAPDQ4",
-                    "high_descs":[
-                        "Go left to the trash can next to the tub.",
-                        "Pick up the soap bottle on the tub to the left.",
-                        "Move to the trash can with the soap.",
-                        "Put the soap in the trash can. "
-                    ],
-                    "task_desc":"Put a soap bottle in the trash can. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A36DK84J5YJ942_3WEV0KO0OP9JJWDI9JD284NR3YVSDT",
-                    "high_descs":[
-                        "move to the bin  to the left of the sink",
-                        "pick up a dispenser from the tub edge",
-                        "move to the bin to the left of the sink",
-                        "put a dispenser in the bin"
-                    ],
-                    "task_desc":"Put a dispenser in the bin.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the pump bottle in the trash. ",
+                "Put a soap bottle in the trash can. ",
+                "Put a dispenser in the bin."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -278,58 +60,9 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-407/trial_T20190908_063232_403749/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3MLUEOP3CCLXL_38F71OA9GWDDJLE9GSC6KVR6NM6MFZ",
-                    "high_descs":[
-                        "Take a step to the left and then head across the room to the sink on the left",
-                        "Open the left side cabinet under the left sink and pick up the soap pump",
-                        "Turn around and take a step, then turn back around and face the garbage bin to the left of the sink",
-                        "Place the soap pump into the garbage bin"
-                    ],
-                    "task_desc":"Place a soap pump into a garbage bin",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F51C49T9A34D_3PH3VY7DJOEFTEZNL6C0WL9FXVQWZ4",
-                    "high_descs":[
-                        "turn to the left and take a step and turn to the right and go to the sink",
-                        "open up the left cabinet door below the sink and pick up the bottle and close the door",
-                        "turn to the right twice and take a step and turn to the right and take a step and turn to the right facing the sink counter",
-                        "put the bottle in the green waste basket"
-                    ],
-                    "task_desc":"Throw away a bottle in a green waste basket",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        0
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3G0WWMR1UYBODHBG2HRHAV4MT0YQNB",
-                    "high_descs":[
-                        "Walk ahead to the sink.",
-                        "Take out the soap bottle from the bottom left cabinet.",
-                        "Look down at the green bin.",
-                        "Place the soap bottle in the green bin."
-                    ],
-                    "task_desc":"Place a soap bottle in a trash bin.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a soap pump into a garbage bin",
+                "Throw away a bottle in a green waste basket",
+                "Place a soap bottle in a trash bin."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -337,48 +70,9 @@
         },
         "train/pick_and_place_simple-Candle-None-Cabinet-407/trial_T20190909_073645_454627/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A272X64FOZFYLB_35BLDD71I9OAZELGR4WLB5A3K2CZVE",
-                    "high_descs":[
-                        "Walk to the candle on the left side of the top of the toilet.",
-                        "Pick up the candle from the top of the toilet.",
-                        "Turn around and walk forward to the cabinets below the sink on the right.",
-                        "Put the candle in the cabinet on the bottom left of the sink on the right, then close the cabinet."
-                    ],
-                    "task_desc":"Move a candle from the top of a toilet to a cabinet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3C44YUNSI4GURTJODAYPEL2IAWTPDC",
-                    "high_descs":[
-                        "Walk around the left side of the toilet.",
-                        "Pick up the candle on the toilet tank.",
-                        "Turn around and face the right sink.",
-                        "Put the candle in the left lower cabinet under the rightmost sink."
-                    ],
-                    "task_desc":"Place a candle in a cabinet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3TY7ZAOG5IBZHILEO65M3XW0MXMK0L",
-                    "high_descs":[
-                        "Turn left and step forward, then turn right and go to the wall, then turn right to face the toilet.",
-                        "Pick up the candle stick on the back of the toilet.",
-                        "Turn around to face the cabinets under the sink.",
-                        "Open the cabinet on the left, put the candle stick inside, then close the cabinet."
-                    ],
-                    "task_desc":"Put a candle stick in the cabinet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a candle from the top of a toilet to a cabinet.",
+                "Place a candle in a cabinet.",
+                "Put a candle stick in the cabinet."
             ],
             "relative_objects":[
                 "Toilet",
@@ -387,48 +81,9 @@
         },
         "train/pick_and_place_simple-Candle-None-Cabinet-407/trial_T20190909_073711_532154/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2A4UAFZ5LW71K_3NVC2EB65TQQIF9SB8OWE39INO53YK",
-                    "high_descs":[
-                        "turn right, walk to face the trash can",
-                        "pick up the candle that is on the edge of the tub",
-                        "turn around, take a step, turn left, take two steps, turn left to face the sink",
-                        "open the cabinet, put the candle in the cabinet, close it"
-                    ],
-                    "task_desc":"move candle from edge of tub to cabinet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3QY5DC2MXUB4HI5GL2S9CRS2UPWUFH",
-                    "high_descs":[
-                        "Move right then head back to the left side of the tub to the left of the green trash bin",
-                        "Pick up the candle on the edge of the tub",
-                        "Carry the candle over to the cupboard under the left sink on the far left side",
-                        "Open the cupboard on the left left, place the candle inside then shut the cupboard"
-                    ],
-                    "task_desc":"Move a candle to the bathroom cupboard",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3TXD01ZLD78UJ28R1LWQLNVB50RU4Z",
-                    "high_descs":[
-                        "Turn right, move to the green trash can, sitting next to the tub.",
-                        "Pick up the candle on the tub to the left. ",
-                        "Bring the candle to the cabinet under the left sink. ",
-                        "Put the candle in the left cabinet under the left sink. "
-                    ],
-                    "task_desc":"Put a candle in the left cabinet under the left sink. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "move candle from edge of tub to cabinet",
+                "Move a candle to the bathroom cupboard",
+                "Put a candle in the left cabinet under the left sink. "
             ],
             "relative_objects":[
                 "Candle"
@@ -436,48 +91,9 @@
         },
         "train/pick_and_place_simple-Candle-None-Cabinet-407/trial_T20190909_073700_129324/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_3BDCF01OG0L7YJZHHESWAP3ZN9VLYD",
-                    "high_descs":[
-                        "Turn right, move to the wall, turn right to face the left side of the toilet. ",
-                        "Pick up the far candle on the toilet. ",
-                        "Turn around, bring the candle to the right sink. ",
-                        "Put the candle in the left cabinet under the right sink."
-                    ],
-                    "task_desc":"Put a candle away in the cabinet under the right sink. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3ND9UOO81NT39E4H2DA8PSIJC1LWLF",
-                    "high_descs":[
-                        "Walk a step forward then turn right and walk to the wall to the left of the toilet then turn right.",
-                        "Pick up the candle that's in front of you above another candle.",
-                        "Turn around and take a tiny step forward.",
-                        "Open the cupboard that's under the left side of the right sink and put the candle down there then close the door."
-                    ],
-                    "task_desc":"Put a candle in the cupboard.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2871R3LEPWMMK_3UJ1CZ6IZKGW08KNQLK0BEJ1KYV5SR",
-                    "high_descs":[
-                        "Hang a right towards the wall and turn right to face the toilet.",
-                        "Pick up the far right candle holder with the candle on top of the toilet tank.",
-                        "Turn around and walk to the cabinets under the right sink on the vanity.",
-                        "Open the lower left cabinet under the right sink, put the candle holder with the candle inside and close the door."
-                    ],
-                    "task_desc":"Place a candle holder with a candle in a cabinet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a candle away in the cabinet under the right sink. ",
+                "Put a candle in the cupboard.",
+                "Place a candle holder with a candle in a cabinet."
             ],
             "relative_objects":[
                 "Candle"
@@ -485,48 +101,9 @@
         },
         "train/pick_and_place_simple-Candle-None-Toilet-407/trial_T20190909_055216_511429/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AM2KK02JXXW48_3C6FJU71TTKAH9MBQSKX1CZI01PUYJ",
-                    "high_descs":[
-                        "Turn around, move to the counter.",
-                        "Pick up the candle on the counter. ",
-                        "Turn around, bring the candle to the toilet.",
-                        "Put the candle on the toilet tank lid."
-                    ],
-                    "task_desc":"Put a candle on the toilet tank lid. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3NL0RFNU0IEGG63F77SOF0MD39Z4KI",
-                    "high_descs":[
-                        "Move to the back of the room facing the right sink",
-                        "Pick up the candle stick on top of the counter by the sink",
-                        "Carry the candle over to the back of the toilet",
-                        "Place the candle on top of the toilet tank on the far left corner"
-                    ],
-                    "task_desc":"Move a candle to the toilet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A13OOAT2ORKH6V_3QECW5O0KKSXF8X2FLPQLJFNMIKT5H",
-                    "high_descs":[
-                        "Turn around and walk to the counter between the sinks ahead.",
-                        "Grab the candle beside the spray bottle on the counter between the sinks.",
-                        "Turn around to face the toilet behind you.",
-                        "Place the candle on top of the toilet."
-                    ],
-                    "task_desc":"Place a candle on top of the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a candle on the toilet tank lid. ",
+                "Move a candle to the toilet",
+                "Place a candle on top of the toilet."
             ],
             "relative_objects":[
                 "Toilet",
@@ -535,48 +112,9 @@
         },
         "train/pick_and_place_simple-Candle-None-Toilet-407/trial_T20190909_055329_734896/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A22ON3MIIG0IJA_3BGYGHDBB0BBWCK2EN3WMP3L2UH22W",
-                    "high_descs":[
-                        "Walk forward to the wall then turn left and walk to the sink.",
-                        "Pick up the candle from behind the sink.",
-                        "Turn around and walk to the toilet.",
-                        "Put the candle on the corner of the toilet that is above the flushing mechanism. "
-                    ],
-                    "task_desc":"Put a candle on top of the toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A31681CCEVDIH3_3J88R45B2JP8PZO54AZ18S5AQDJXPY",
-                    "high_descs":[
-                        "Walk forward and make a left to reach the sinks.",
-                        "Pick up a candlestick from the counter next to the sink.",
-                        "Turn around to walk towards the toilet.",
-                        "Set the candlestick down on the lid of the toilet tank."
-                    ],
-                    "task_desc":"Move a candlestick from the sink counter to the lid of the toilet tank.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A255A9FFZD8PQW_3SLE99ER0Q4VQ0NAMN5LATGWH9XBZJ",
-                    "high_descs":[
-                        "Walk forward and turn right to face the sink.",
-                        "Pick up the candle on the sink counter. ",
-                        "Turn around completely and walk forward to the toilet.",
-                        "Place the candle on the back end of the toilet. "
-                    ],
-                    "task_desc":"Move a candle to the back end of a toilet. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a candle on top of the toilet.",
+                "Move a candlestick from the sink counter to the lid of the toilet tank.",
+                "Move a candle to the back end of a toilet. "
             ],
             "relative_objects":[
                 "Candle"
@@ -584,24 +122,7 @@
         },
         "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-407/trial_T20190908_180002_290570/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3C81THYYSBGVD_3G5F9DBFOSOO8TLMLIQEBY6YO9THVY",
-                    "high_descs":[
-                        "Turn left and face the tub in front of you.",
-                        "Take the soap from the tub in front of you.",
-                        "Turn right, then face the tub on your right.",
-                        "Place the soap in the tub in front of you.",
-                        "Turn around and face the sink on your left.",
-                        "Open the cabinet under the sink in front of you and take out another bar of soap, close the cabinet.",
-                        "Turn left and face the tub in front of you.",
-                        "Place the bar of soap in the tub in front of you."
-                    ],
-                    "task_desc":"Place soap in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place soap in the tub."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -609,24 +130,7 @@
         },
         "train/pick_two_obj_and_place-SprayBottle-None-Cabinet-407/trial_T20190907_144622_713062/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A16184N1RO5OJV_3PM8NZGV81XL4M3M8FP97BBI121XQA",
-                    "high_descs":[
-                        "Walk slightly up, turn to the right and then turn to the left to the sink.  ",
-                        "Pick up the blue spray bottle on top of the counter top. ",
-                        "Go to the cabinet underneath the sink. ",
-                        "Open the cabinet, put the spray bottle in it and close the cabinet.",
-                        "Turn around and face the toilet. ",
-                        "Pick up another blue spray bottle on top of the water tank. ",
-                        "Turn around and go to the cabinet underneath the sink again. ",
-                        "Put the spray bottle next to the other bottle in the cabinet. "
-                    ],
-                    "task_desc":"Put 2 blue spray bottles inside the cabinet underneath the sink. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put 2 blue spray bottles inside the cabinet underneath the sink. "
             ],
             "relative_objects":[
                 "SprayBottle"
@@ -634,31 +138,7 @@
         },
         "train/pick_two_obj_and_place-SprayBottle-None-Cabinet-407/trial_T20190907_144653_660815/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3T9K2RY06UO14_3FIUS151DYJJ5BEIG9KTPB7LSQVGG7",
-                    "high_descs":[
-                        "Go to the toilet and turn right.",
-                        "Pick up the closest spray bottle on the toilet.",
-                        "Turn around and go to the sink on the right.",
-                        "Put the spray bottle in the right-hand cabinet under the sink.",
-                        "Turn around and go to the toilet.",
-                        "Pick up the spray bottle on toilet.",
-                        "Turn around and go to the sink on the right.",
-                        "Put the spray bottle in the right-hand cabinet under the sink."
-                    ],
-                    "task_desc":"Move the spray bottles from the top of the toilet to the cabinet under the sink",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Move the spray bottles from the top of the toilet to the cabinet under the sink"
             ],
             "relative_objects":[
                 "SprayBottle"
@@ -666,57 +146,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-407/trial_T20190907_022127_756670/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3C81THYYSBGVD_35GMH2SV3HY9DAZPYX7DUHVB52NOEC",
-                    "high_descs":[
-                        "Walk forward and face the tub on your left.",
-                        "Take out the dirty towel on the right.",
-                        "Turn around and walk to the sink on your left.",
-                        "Put the dirty towel in the sink, wash it, and take it out.",
-                        "Turn around and face the toilet.",
-                        "Put the clean towel on top of the toilet tank."
-                    ],
-                    "task_desc":"Take a dirty towel from the tub to clean it.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A23HZ18KTCK2DA_3FQ5JJ512O5UHPRNT4I3DN8BZOMKNJ",
-                    "high_descs":[
-                        "Move towards bathroom counter.  Turn right and face the tub.",
-                        "Grab the wash rag on the right.",
-                        "Turn all the way around.  Go towards the wall.  Turn right and face the sink.",
-                        "Put the wash rag in the sink.  Turn the water on.  Turn the water off.  Pick up the wash rag.",
-                        "Turn all the way around and go towards the toilet.",
-                        "Put the wash rag to the right of the blue bottle of lotion."
-                    ],
-                    "task_desc":"Get the wash rag, get it wet to place it on the back of the toilet.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_345LHZDED091GH3P5Z2QAWJ3WYC3U2",
-                    "high_descs":[
-                        "Move to the tub.",
-                        "Pick up the rag on the right from the tub. ",
-                        "Bring the rag to the sink.",
-                        "Wash the rag in the sink with water. ",
-                        "Pick up the rag from the sink and bring it to the toilet. ",
-                        "Put the rag on the toilet tank lid. "
-                    ],
-                    "task_desc":"Clean the rag on the right, put it on the toilet lid. ",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Take a dirty towel from the tub to clean it.",
+                "Get the wash rag, get it wet to place it on the back of the toilet.",
+                "Clean the rag on the right, put it on the toilet lid. "
             ],
             "relative_objects":[
                 "Towel",
@@ -725,236 +157,47 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-407/trial_T20190907_022212_907021/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AUTYWXILTACCR_3EA3QWIZ4LC1676JQXJ396ZQW40ITS",
-                    "high_descs":[
-                        "Turn left, and walk towards the bathtub.",
-                        "Grab a dirty rag from inside the bathtub.",
-                        "Turn around, and walk towards the sink on your left.",
-                        "Clean the rag in the sink.",
-                        "Turn around and face the toilet.",
-                        "Place the rag on top of the toilet."
-                    ],
-                    "task_desc":"Place a cleaned rag on top of a toilet.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_3SPJ033424KTI4PJILR2TO65OL4YJ6",
-                    "high_descs":[
-                        "Move to the tub.",
-                        "Pick up the rag on the right in the tub. ",
-                        "Bring the rag to the sink. ",
-                        "Wash the rag in the sink. ",
-                        "Bring the rag to the toilet.",
-                        "Put the rag on the toilet tank lid. "
-                    ],
-                    "task_desc":"Put a cleaned rag on the toilet tank lid. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3WMINLGALEK5E8LASNW03YB3VAWCA0",
-                    "high_descs":[
-                        "go over to the bathtub",
-                        "take a dirty cloth out of the bathtub",
-                        "bring the cloth over to the bathroom sink",
-                        "wash the cloth in the sink",
-                        "bring the cloth over to the toilet",
-                        "place the cloth on top of the toilet"
-                    ],
-                    "task_desc":"place a clean cloth on top of the toilet",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a cleaned rag on top of a toilet.",
+                "Put a cleaned rag on the toilet tank lid. ",
+                "place a clean cloth on top of the toilet"
             ],
             "relative_objects":[
+                "Cloth",
                 "SoapBottle",
-                "ToiletPaper",
-                "Cloth"
+                "ToiletPaper"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-407/trial_T20190907_022153_466691/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2M7VEYAS1405L_37TRT2X24T8X5WW88TDILD84384BJE",
-                    "high_descs":[
-                        "go to the bathtub",
-                        "pick up the dirty rag on the left",
-                        "turn around, and go to the far sink, and turn to face the sink.",
-                        "put the rag in the sink, rinse it off, and pick the it back up.",
-                        "turn around to face the toilet, and then go to the toilet",
-                        "put the clean cloth on top of the toilet"
-                    ],
-                    "task_desc":"put a clean cloth on top of the toilet",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3QL2OFSM99ZCYRFZ1R15P4V3UGHNCF",
-                    "high_descs":[
-                        "Begin walking to the bathroom sink, then hang a left and walk up to the tub.",
-                        "Take the left most dirty rag out of the tub.",
-                        "Turn around and walk over to the sink most to the right.",
-                        "Place the dirty rags in the sink basin most to the right and turn the water on , once the rags are clean turn the water off and pick the clean rags up.",
-                        "Turn around and walk over to the toilet.",
-                        "Place the clean rags on the farthest corner of the toilet tank."
-                    ],
-                    "task_desc":"Place clean rags on the toilet tank.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A21KF567E8ZCLO_3TYCR1GOTF0ZIKNOHS5YNASZY0YLZZ",
-                    "high_descs":[
-                        "turn left from the sink to the bath tub",
-                        "pick up the dirty shirt on the left that is in the bath tub",
-                        "turn around and go back to the sink",
-                        "put the dirty shirt in the sink and turn the water on, then take it out",
-                        "turn left and walk towards the toilet",
-                        "put the shirt on top of the toilet"
-                    ],
-                    "task_desc":"Clean a dirty shirt using the sink",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "put a clean cloth on top of the toilet",
+                "Place clean rags on the toilet tank.",
+                "Clean a dirty shirt using the sink"
             ],
             "relative_objects":[
-                "Towel",
-                "HandTowel",
-                "SoapBar",
                 "SprayBottle",
-                "Cloth"
+                "SoapBar",
+                "Towel",
+                "Cloth",
+                "HandTowel"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-407/trial_T20190907_222400_313329/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1DMXEJGJY02E1_37UQDCYH60CJUFTCC1FLJZX2GKWV74",
-                    "high_descs":[
-                        "Turn left and go to the bath tub.",
-                        "Pick up the bar of soap closest to you.",
-                        "Turn around and go to the sink closest to the tub.",
-                        "Rinse the soap in the sink.",
-                        "Back away from the sink slightly.",
-                        "Put the soap in the trash can."
-                    ],
-                    "task_desc":"Put wet soap in the trash can.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A320QA9HJFUOZO_3YMU66OBIQPX579T0F2BABJM787GH5",
-                    "high_descs":[
-                        "Turn left and walk up to the bathtub",
-                        "Pick up the soap bar from the bathtub",
-                        "Turn around and walk back to the left bathroom sink",
-                        "Rinse the soap bar under water in the sink and remove it",
-                        "Walk back slightly from the sink then turn back to face the green trash bin",
-                        "Put the soap bar in the trash bin"
-                    ],
-                    "task_desc":"Put the cleaned soap bar in the green trash bin",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3EKVH9QME1LQEXWKF4YWHMAN5WQ2DE",
-                    "high_descs":[
-                        "Turn left and walk to the tub.",
-                        "Pick up the closest bar of soap.",
-                        "Turn right and take a step right to the sink.",
-                        "Wash the soap in the sink.",
-                        "Take a step to the left.",
-                        "Place the soap in the green bin."
-                    ],
-                    "task_desc":"Place a washed bar of soap in a bin.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Put wet soap in the trash can.",
+                "Put the cleaned soap bar in the green trash bin",
+                "Place a washed bar of soap in a bin."
             ],
             "relative_objects":[
                 "SoapBottle",
-                "SoapBar",
-                "Cloth"
+                "Cloth",
+                "SoapBar"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-407/trial_T20190907_222235_383777/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A272X64FOZFYLB_30X31N5D667LLPA6P9M0I3FLIN2SAF",
-                    "high_descs":[
-                        "Walk forward to the counter and turn left towards the bath tub.",
-                        "Pick up the bar of soap which is inside the bath tub basin.",
-                        "Turn around and walk to the sink on the left.",
-                        "Put the bar of soap in the left sink, rinse it off, and take it out of the sink.",
-                        "Walk slightly to the left towards the garbage bin on the floor.",
-                        "Put the bar of soap in the garbage bin."
-                    ],
-                    "task_desc":"Put a cleaned bar of soap in a garbage bin.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A20FCMWP43CVIU_3X4MXAO0BJ56RNDWBPINAI7GO33WRL",
-                    "high_descs":[
-                        "walk straight to face the bath tub",
-                        "pick up the pink soap on the far right in the bath tub basin",
-                        "turn around, walk to face the left bathroom sink",
-                        "put the soap in the sink basin, wash, pick up the soap",
-                        "step back to face the sink cabinets and green garbage can",
-                        "put the pink soap inside the green garbage can"
-                    ],
-                    "task_desc":"put a washed pink soap into a green garbage can",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AKW57KYG90X61_3AWETUDC959XSJFIWP8LVU07I9BIZG",
-                    "high_descs":[
-                        "turn left and head towards the bath tub",
-                        "pick up the soap from the bath tub",
-                        "turn right and head for the sink",
-                        "drop the soap in the sink, wet it and take it out.",
-                        "turn left towards the bin",
-                        "drop the soap in the bin"
-                    ],
-                    "task_desc":"place a wet soap in the trash can",
-                    "votes":[
-                        1,
-                        1,
-                        0
-                    ]
-                }
+                "Put a cleaned bar of soap in a garbage bin.",
+                "put a washed pink soap into a green garbage can",
+                "place a wet soap in the trash can"
             ],
             "relative_objects":[
                 "Towel",
@@ -963,111 +206,21 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-407/trial_T20190908_155358_761123/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A20FCMWP43CVIU_35GCEFQ6I8FQN5JX7UQFSAIKTE9Z3Z",
-                    "high_descs":[
-                        "turn to face the bath tub",
-                        "pick up a pink bar of soap on the right from the tub ledge",
-                        "turn to walk to face the left sink",
-                        "wash the soap in the sink, pick up the soap from the sink",
-                        "walk to face the bath tub",
-                        "put the soap into the tub basin"
-                    ],
-                    "task_desc":"put a washed bar of soap into a bath tub",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3R19ZA45J8915_3WLEIWSYHR8FB2NKX8639T9NRAV2H4",
-                    "high_descs":[
-                        "Walk forward towards the counter, then turn left and go up to the tub. ",
-                        "Pick up the bar of soap that is to the right of the other bar of soap on the tub. ",
-                        "Turn around completely, walk a few steps, then turn left to face the bathroom sink closest to the tub. ",
-                        "Rinse off the bar of soap in the sink before taking it back out. ",
-                        "Turn around completely, then turn right to go back to the tub. ",
-                        "Place the bar of soap down in the tub. "
-                    ],
-                    "task_desc":"Place a wet bar of soap in the bathtub. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3PPLDHC3CG0YN_3WRFBPLXRDFW6G5E46FLXNBBJZT3NC",
-                    "high_descs":[
-                        "Walk up to the sink and turn left to face the tub. ",
-                        "Pick up the bar of soap on the right at the edge of the tub. ",
-                        "Turn around and walk to the sink on the left. ",
-                        "Place the bar of soap inside of the sink, rinse off the bar of soap with water, pick up the bar of soap from the sink. ",
-                        "Turn left and walk over to the tub. ",
-                        "Place the bar of soap inside of the tub in front of the drain. "
-                    ],
-                    "task_desc":"To rinse off a bar of soap and place the soap in the tub. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "put a washed bar of soap into a bath tub",
+                "Place a wet bar of soap in the bathtub. ",
+                "To rinse off a bar of soap and place the soap in the tub. "
             ],
             "relative_objects":[
                 "Towel",
-                "SoapBar",
-                "Cloth"
+                "Cloth",
+                "SoapBar"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-407/trial_T20190908_155338_746377/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A272X64FOZFYLB_32EYX73OY301K8APCXS3TG6LXA6UR5",
-                    "high_descs":[
-                        "Turn left and walk forward to the bath tub.",
-                        "Pick up the bar of soap from the bath tub basin.",
-                        "Turn around and walk forward to the sink on the left.",
-                        "Put the bar of soap in the sink, rinse it off, and take it out of the sink.",
-                        "Turn left and walk back to the bath tub.",
-                        "Put the bar of soap back into the bath tub basin, to the left of the black cloth."
-                    ],
-                    "task_desc":"Put a cleaned bar of soap in a bath tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3P59JYT76OB5GBEFX2NSNCCB24KT2Z",
-                    "high_descs":[
-                        "Turn to your left and go to the bathtub across from you. ",
-                        "Pick up the bar of soap in the bath tub, to the right of the rag. ",
-                        "Turn around and go to the first sink on your left. ",
-                        "Put the bar of soap in the sink, turn the water on, rinse the soap off, turn the water off, and take the bar of soap out of the sink. ",
-                        "Turn to your left and go back to the bathtub. ",
-                        "Place the bar of soap back in the bathtub, to the left of the rag. "
-                    ],
-                    "task_desc":"Put a clean bar of soap in the bathtub. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A10AVWALIHR4UQ_3XM0HYN6NNQZJZXO9599K3K3A4IPEL",
-                    "high_descs":[
-                        "Turn left and move to the bathtub.",
-                        "Pick up the pink bar of soap to the right of the gray rag from the bathtub.",
-                        "Turn right and move the sink closest to the bathtub.",
-                        "Place the bar of soap in the sink, rinse it with water from the faucet, then pick up the bar of soap.",
-                        "Turn left and move to the left edge of the bathtub .",
-                        "Place the bar of soap to the left of the gray rag in the bathtub."
-                    ],
-                    "task_desc":"Place a clean bar of soap in the bathtub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a cleaned bar of soap in a bath tub.",
+                "Put a clean bar of soap in the bathtub. ",
+                "Place a clean bar of soap in the bathtub."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -1075,48 +228,9 @@
         },
         "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-407/trial_T20190909_081752_122600/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2IU5TX5S0FA1C_39LNWE0K4XNOR976MAYUFO5UAH2UIM",
-                    "high_descs":[
-                        "Go to the cupboard under the sink next to the wall.",
-                        "Take out the empty toilet paper roll from the cupboard.",
-                        "Go to the toilet where the toilet paper holder is on the wall.",
-                        "Place the empty toilet paper roll on the holder."
-                    ],
-                    "task_desc":"Take empty toilet paper roll from the cupboard and place on toilet paper holder.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3LS2AMNW5IH6V2BS3WRUPK4RJ5PQO2",
-                    "high_descs":[
-                        "Turn around and go across the room, then turn to the cabinet under the sink, on your left. ",
-                        "Pull out the empty toilet paper roll from the right cabinet under the sink. ",
-                        "Turn to your left and go to the bath tub, then turn to your left and go to the toilet paper holder, ahead of you, to the right of the toilet. ",
-                        "Put the empty toilet paper roll on the toilet paper holder. "
-                    ],
-                    "task_desc":"Put a roll of toilet paper on the toilet paper dispenser. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3SFPSMFRSRTB3_3X31TUMD70DA8DOE5PLNW2SPGO11LA",
-                    "high_descs":[
-                        "Turn around, go to second sink on left.  Turn left to face sink.",
-                        "Open second cabinet on right under sink.  Remove empty toilet paper roll.  Shut cabinet.",
-                        "Turn left, go to second sink on right.  Turn left, go to door.  Turn left to face toilet.",
-                        "Place empty toilet paper roll on toilet paper holder on wall to right."
-                    ],
-                    "task_desc":"Move empty toilet paper roll from cabinet and put on holder.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Take empty toilet paper roll from the cupboard and place on toilet paper holder.",
+                "Put a roll of toilet paper on the toilet paper dispenser. ",
+                "Move empty toilet paper roll from cabinet and put on holder."
             ],
             "relative_objects":[
                 "ToiletPaper",
@@ -1125,48 +239,9 @@
         },
         "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-407/trial_T20190909_081808_753243/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_38BQUHLA9ZRFAND0B3KD8BKM94IOM3",
-                    "high_descs":[
-                        "Move back then right to the far left countertop left of the sink",
-                        "Pick up the roll of toilet paper on top of the counter left of the sink",
-                        "Move to the toilet paper holder on the wall to the right of the toilet",
-                        "Place the toilet paper on the roll holder on the wall"
-                    ],
-                    "task_desc":"Move toilet paper to the toilet paper roll holder",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A13OOAT2ORKH6V_3NKQQ8O391W7JYRKUWXJORPHIDMDUX",
-                    "high_descs":[
-                        "Walk to the sink to your right.",
-                        "Grab the roll of toilet paper next the the sink.",
-                        "Turn around and walk to the toilet to your left.",
-                        "Place the toilet paper on the toilet paper holder on the wall beside the toilet to the right."
-                    ],
-                    "task_desc":"Place a roll of toilet paper on the toilet paper holder.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3VE8AYVF8PO6JLY3IZR4GZADXY28FD",
-                    "high_descs":[
-                        "Move forward and turn to the right to find the sink.",
-                        "Pick up the toilet paper from the left side of the sink.",
-                        "Carry the toilet paper and turn around. Move forward and then turn left to face the toilet.",
-                        "Place the toilet paper on the holder, to the right."
-                    ],
-                    "task_desc":"Move toilet paper to the holder.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move toilet paper to the toilet paper roll holder",
+                "Place a roll of toilet paper on the toilet paper holder.",
+                "Move toilet paper to the holder."
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -1174,48 +249,9 @@
         },
         "train/pick_and_place_simple-Cloth-None-BathtubBasin-407/trial_T20190906_201736_928899/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3QIYRE09Y6YSBO51LUCL88CCQK1N12",
-                    "high_descs":[
-                        "Turn around and go to the sink behind you.",
-                        "Take the rag from in the sink. ",
-                        "Turn around and to the left to go to the tub.",
-                        "Place the rag in the tub, near the drain."
-                    ],
-                    "task_desc":"Put a rag in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3R5F3LQFV517O5QLUKLQFRWTT8VZOS",
-                    "high_descs":[
-                        "Turn around and walk to the sink.",
-                        "Pick up the black rag.",
-                        "Turn left an walk to the tub.",
-                        "Put the black rag in the tub."
-                    ],
-                    "task_desc":"Put a black rag in a tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_3VW6495TLMHJDTKI4LS53BLT1NBYYU",
-                    "high_descs":[
-                        "Turn around to the sink",
-                        "Grab the cloth from the sink",
-                        "Turn left, walk to the tub",
-                        "Put the cloth in the tub"
-                    ],
-                    "task_desc":"Move the cloth from the sink to the tub",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a rag in the tub.",
+                "Put a black rag in a tub.",
+                "Move the cloth from the sink to the tub"
             ],
             "relative_objects":[
                 "Cloth"
@@ -1223,98 +259,20 @@
         },
         "train/pick_and_place_simple-Cloth-None-BathtubBasin-407/trial_T20190906_201712_058488/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_34T446B1C3V9DVNS0LZ7ESZQMOQ0C3",
-                    "high_descs":[
-                        "Turn around and go to the sink across from the toilet and nearest to the wall.",
-                        "Take the rag from the sink.",
-                        "Turn around and go to the tub to your right.",
-                        "Place the rag in the tub, to the left of the soap."
-                    ],
-                    "task_desc":"Place a rag in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AM2KK02JXXW48_38SKSKU7R4EDNUYEHOHCNFP92RRIL2",
-                    "high_descs":[
-                        "Move to the sink on the right.",
-                        "Pick up the rag from the sink.",
-                        "Bring the rag to the tub.",
-                        "Put the rag in the tub. "
-                    ],
-                    "task_desc":"Put a rag in the tub. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3TDXMTX3CEBV49V7UKBAYW7CCWYI6Q",
-                    "high_descs":[
-                        "walk to the bathroom sink",
-                        "grab the cloth out of the sink",
-                        "walk over to the bathtub",
-                        "place the cloth inside the bathtub"
-                    ],
-                    "task_desc":"place a black cloth inside the bathtub",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a rag in the tub.",
+                "Put a rag in the tub. ",
+                "place a black cloth inside the bathtub"
             ],
             "relative_objects":[
-                "HandTowel",
-                "Cloth"
+                "Cloth",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-Cloth-None-BathtubBasin-407/trial_T20190906_201725_314911/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3EQHHY4HQV9LPEPYZD12LEGW1KH5GJ",
-                    "high_descs":[
-                        "Adjust yourself slightly to stand and face the middle of the sink.",
-                        "Open the left side cabinet door under the sink and get the black cloth from under there before closing the door again.",
-                        "Walk over to the tub so you are facing the left side of it.",
-                        "Place the cloth in the tub."
-                    ],
-                    "task_desc":"Place a cloth in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3JBT3HLQFBJP952M9KY54R1J3A3ZPF",
-                    "high_descs":[
-                        "Go to the sink behind you.",
-                        "Go to the left cabinet beneath the sink and take out the cloth.",
-                        "Go to the bath tub to your left.",
-                        "Put the cloth in the bath tub."
-                    ],
-                    "task_desc":"Place a cloth in a bath tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3Q8GYXHFESJ8829TXR5JVNVH3TJC5C",
-                    "high_descs":[
-                        "Turn around and face the sink.",
-                        "Open the left door of the cabinet below the sink to take out a black towel.",
-                        "Turn left and walk towards the bath tub.",
-                        "Place the towel in the tub."
-                    ],
-                    "task_desc":"Take the towel from the cabinet to put it in the tub.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a cloth in the tub.",
+                "Place a cloth in a bath tub.",
+                "Take the towel from the cabinet to put it in the tub."
             ],
             "relative_objects":[
                 "Towel",
@@ -1323,51 +281,9 @@
         },
         "valid_seen/pick_and_place_simple-Candle-None-Toilet-407/trial_T20190909_055248_059513/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AJQGWGESKQT4Y_3A4NIXBJ79Q742A3YB4LGUGSEZUML1",
-                    "high_descs":[
-                        "Turn around and face the counter between the two sinks.",
-                        "Pick the candle up from in front of the sink on the right.",
-                        "Turn around and face the toilet.",
-                        "Put the candle on the back of the toilet."
-                    ],
-                    "task_desc":"Put a candle on the back of a toilet.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3QXNC7EIPLMF0M2NK9EXDOIKB2E099",
-                    "high_descs":[
-                        "Turn around and walk forward to the candle on the counter in front of the sink on the right.",
-                        "Pick up the candle from the counter.",
-                        "Turn around and walk to the toilet.",
-                        "Put the candle on the top of the toilet, to the left of the closest spray bottle."
-                    ],
-                    "task_desc":"Move a candle from a counter to the top of a toilet.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"ABR580YP0ST7X_3E337GFOLCZX0SH2ZLM5GH0KN8JNGX",
-                    "high_descs":[
-                        "Turn around, walk to sink, ",
-                        "Pick up candle in between two sinks",
-                        "Turn around, walk to toilet",
-                        "Place candle on top of toilet"
-                    ],
-                    "task_desc":"Move candle from counter to toilet",
-                    "votes":[
-                        0,
-                        1,
-                        1
-                    ]
-                }
+                "Put a candle on the back of a toilet.",
+                "Move a candle from a counter to the top of a toilet.",
+                "Move candle from counter to toilet"
             ],
             "relative_objects":[
                 "Toilet",
@@ -1376,67 +292,18 @@
         },
         "valid_seen/pick_two_obj_and_place-SprayBottle-None-Cabinet-407/trial_T20190907_144556_144188/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3T9K2RY06UO14_3HHRAGRYXBMSIE88QMRR23U0F2JO99",
-                    "high_descs":[
-                        "Turn and go to the sink on the right.",
-                        "Pick up the spray bottle by the sink. ",
-                        "Go to the cabinets under the sink on the right. ",
-                        "Put the spray bottle in the cabinets under the sink. ",
-                        "Turn around and go to the toilet.",
-                        "Pick up the spray bottle on the toilet.",
-                        "Turn around and go to the cabinets under the sink on the right.",
-                        "Put the spray bottle in the cabinet under the sink. "
-                    ],
-                    "task_desc":"Move the spray bottles to the cabinet under the sink. ",
-                    "votes":[
-                        1,
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Move the spray bottles to the cabinet under the sink. "
             ],
             "relative_objects":[
-                "SprayBottle",
-                "Cabinet"
+                "Cabinet",
+                "SprayBottle"
             ]
         },
         "tests_seen/trial_T20190908_175218_818728/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn towards the sink on your left.",
-                        "Grab the dirty rag from under the sink.",
-                        "Take a step to your left.",
-                        "Place the rag in the sink and turn the faucet on and off before picking up the rag.",
-                        "Walk to the bath on your left.",
-                        "Place the rag in the bath tub."
-                    ],
-                    "task_desc":"Place a wet rag in the bath tub."
-                },
-                {
-                    "high_descs":[
-                        "turn to your left to the sink",
-                        "open the drawer on the right side, remove a towel",
-                        "take the towel to the sink",
-                        "place the towel in the sink, wet it",
-                        "take the wet towel to the tub that is to the left of the sink",
-                        "place the wet towel in the tub on the left end under the faucet"
-                    ],
-                    "task_desc":"Put a wet towel into the tub"
-                },
-                {
-                    "high_descs":[
-                        "Move forward, then turn left to face the sink.",
-                        "Take the rag from the right cabinet, beneath the sink.",
-                        "Turn left, go forward, then turn right to face the leftmost sink.",
-                        "Clean the rag in the sink.",
-                        "Turn around, step forward, then turn left to face the tub.",
-                        "Put the rag in the tub."
-                    ],
-                    "task_desc":"Put the clean right in the tub."
-                }
+                "Place a wet rag in the bath tub.",
+                "Put a wet towel into the tub",
+                "Put the clean right in the tub."
             ],
             "relative_objects":[
                 "Towel"

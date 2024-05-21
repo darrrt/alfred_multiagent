@@ -3,48 +3,9 @@
     "trials":{
         "train/pick_and_place_simple-TissueBox-None-CoffeeTable-230/trial_T20190907_144841_277298/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1DMXEJGJY02E1_3FTOP5WARI5WL9TYADGT1WCLCUYJ07",
-                    "high_descs":[
-                        "Turn around and go to the table.",
-                        "Pick up the tissue box.",
-                        "Turn left and go to the coffee table.",
-                        "Put the tissue box on the coffee table."
-                    ],
-                    "task_desc":"Put a box of tissues on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A38Z99XF4NDNH0_3LO69W1SU6UZR3SJR0H923CTO16GLQ",
-                    "high_descs":[
-                        "Move to the large wooden dining table so that the watch on the table is to your left",
-                        "Pick up the tissue box to the right of the watch on the table",
-                        "Carry the tissue box to the wooden coffee table",
-                        "Place the tissue box to the left of the grey square object on top of the coffee table"
-                    ],
-                    "task_desc":"Move a tissue box from the dining table to the coffee table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3WJ1OXY92DX325VXBBGV1CFK665A8X",
-                    "high_descs":[
-                        "Turn left and take a step towards the table, then turn left and begin walking across the room, hang a right and up to the end of the large wooden table.",
-                        "Pick up the closest box of tissues off of the large wooden table.",
-                        "Turn left and begin walking across the room, stop and turn right to face the middle of the coffee table.",
-                        "Place the box of tissues on the coffee table to the left of the grey plate."
-                    ],
-                    "task_desc":"Move a box of tissues to the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a box of tissues on the coffee table.",
+                "Move a tissue box from the dining table to the coffee table",
+                "Move a box of tissues to the coffee table."
             ],
             "relative_objects":[
                 "TissueBox"
@@ -52,48 +13,9 @@
         },
         "train/pick_and_place_simple-TissueBox-None-CoffeeTable-230/trial_T20190907_144855_135287/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AD0NVUGLDYDYN_3IOEN3P9SA0K43Z9MDQ46XQQWH1166",
-                    "high_descs":[
-                        "Turn around, walk pass the dining table, turn left, walk to the side of the dining table",
-                        "Grab the tissue box in the middle of the table",
-                        "Turn left, walk to the coffee table",
-                        "Put the tissue box on the coffee table"
-                    ],
-                    "task_desc":"Move the tissue box from the dining table to the coffee table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A272X64FOZFYLB_3NXNZ5RS1DELX8G990APRH85P4B79M",
-                    "high_descs":[
-                        "Turn around and walk to the tissue boxes at the end of the dining table.",
-                        "Pick up the tissue box on the right.",
-                        "Turn left and walk to the coffee table.",
-                        "Put the tissue box on the coffee table, to the left of the laptop."
-                    ],
-                    "task_desc":"Place a tissue box on a coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A21KF567E8ZCLO_3UJ1CZ6IZK6OFJYPUDVJASZZPLRS5M",
-                    "high_descs":[
-                        "turn around then walk towards the end of the table and turn left towards the middle of the end of the table",
-                        "pick up a tissue box that is to the right side of the other box",
-                        "turn left and walk towards the coffee table",
-                        "place the tissue box on the coffee table"
-                    ],
-                    "task_desc":"move tissue box from one table to the next",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move the tissue box from the dining table to the coffee table",
+                "Place a tissue box on a coffee table.",
+                "move tissue box from one table to the next"
             ],
             "relative_objects":[
                 "TissueBox"
@@ -101,25 +23,7 @@
         },
         "train/pick_two_obj_and_place-Newspaper-None-ArmChair-230/trial_T20190908_001737_394097/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1K5ILJMG439M5_3OS46CRSLIG0QFF7TRATDLX6LFEV6J",
-                    "high_descs":[
-                        "Turn around and move to the coffee table.",
-                        "Pick up the newspaper in front of the plant on the table.",
-                        "Bring the newspaper and move so that you are between the end of the coffee table and the rightmost brown chair, then turn right and face the chair.",
-                        "Put the newspaper down on the seat of the rightmost brown chair.",
-                        "Move so that you are between the other end of the coffee table and the television stand, then turn left to face the television stand.",
-                        "Pick up the newspaper from in front of the television.",
-                        "Bring the newspaper with you to the same spot in front of the rightmost brown chair.",
-                        "Put the second newspaper down behind the first one on the seat of the chair."
-                    ],
-                    "task_desc":"Move the newspapers to the chair.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move the newspapers to the chair."
             ],
             "relative_objects":[
                 "Newspaper"
@@ -127,42 +31,8 @@
         },
         "train/pick_two_obj_and_place-Newspaper-None-ArmChair-230/trial_T20190908_001839_725528/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AO33H4GL9KZX9_36H9ULYP65BNID8ODVZE43ZPJLYFJX",
-                    "high_descs":[
-                        "Go around the chairs to the front left side of the sofa.",
-                        "Pick up the newspaper on the sofa seat.",
-                        "Turn right and go to the arm chair right next to the sofa.",
-                        "Place the newspaper on the armchair right next to the sofa",
-                        "Go around the arm chairs to the wooden dining table. ",
-                        "Pick up the newspaper in the middle of the table in front of the laptop.",
-                        "Turn around and go back to the arm chair right next to the sofa. ",
-                        "Place the newspaper behind the first newspaper on the arm chair. "
-                    ],
-                    "task_desc":"Gather the newspapers and put them on the arm chair. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1K5ILJMG439M5_3QAVNHZ3EPLYHCFG50PZ6H1QQTYALN",
-                    "high_descs":[
-                        "Turn around and go to the right arm of the couch and move so that you are facing the newspaper.",
-                        "Pick up the newspaper from the couch cushion.",
-                        "Bring the newspaper to the left arm of the couch and face the armchair.",
-                        "Put the newspaper down on the seat of the armchair.",
-                        "Turn right and move around the backs of the armchairs, then face the table to your right.",
-                        "Pick up the newspaper from in front of the laptop.",
-                        "Go back the way you came with the newspaper and face the leftmost armchair again.",
-                        "Put the newspaper on the seat of the armchair behind the first one."
-                    ],
-                    "task_desc":"Put the newspapers on the chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Gather the newspapers and put them on the arm chair. ",
+                "Put the newspapers on the chair."
             ],
             "relative_objects":[
                 "Newspaper"
@@ -170,101 +40,20 @@
         },
         "train/pick_and_place_simple-RemoteControl-None-ArmChair-230/trial_T20190909_020927_119466/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A255A9FFZD8PQW_3DPNQGW4LO69HRIQ53YN5HHV2D346Z",
-                    "high_descs":[
-                        "Turn left then walk forward. Make a right then left to face the TV stand.",
-                        "Pick up the remote from the TV stand.",
-                        "Turn around and then turn left to face the brown chair.",
-                        "Place the remote on the brown chair. "
-                    ],
-                    "task_desc":"Move the remote to the brown chair.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1O3TWBUDONVLO_3E13VNJ1NQM8ICG8KMOA4M0XZKM1IB",
-                    "high_descs":[
-                        "Walk across the room to face the TV stand.",
-                        "Pick up the remote on the TV stand.",
-                        "Turn around and walk forward to face the chair on the right.",
-                        "Place the remote in the chair on the right."
-                    ],
-                    "task_desc":"To move a remote from the TV stand to the right chair to the right of the couch.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3L4D84MIL2JFHYLS4TCV8AV4TOAJH7",
-                    "high_descs":[
-                        "move forwards to the far end of the room where the TV stand is on the right, and turn to face the TV stand",
-                        "grab the remote controller off of the TV stand",
-                        "turn around and walk over to the right-most chair on your left up ahead",
-                        "place the remote controller on top of that chair"
-                    ],
-                    "task_desc":"place a remote controller on top of the chair",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move the remote to the brown chair.",
+                "To move a remote from the TV stand to the right chair to the right of the couch.",
+                "place a remote controller on top of the chair"
             ],
             "relative_objects":[
-                "RemoteControl",
-                "Chair"
+                "Chair",
+                "RemoteControl"
             ]
         },
         "train/pick_and_place_simple-Statue-None-CoffeeTable-230/trial_T20190909_145138_877153/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A31681CCEVDIH3_3PH3VY7DJOONE3LLHE1HX7THRIRWZC",
-                    "high_descs":[
-                        "Turn around to walk past the couches to the dining table.",
-                        "Pick up the dog statue from the dining table.",
-                        "Turn around to walk to the coffee table.",
-                        "Set the dog statue down on the coffee table."
-                    ],
-                    "task_desc":"Move a dog statue from the dining table to the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2TBXASXZIRNNW_3VFJCI1K42QIFQ9USS3MP15UODLRGI",
-                    "high_descs":[
-                        "Walk over to the statue",
-                        "Grab the statue.",
-                        "Walk over to the table.",
-                        "Put the statue on the table."
-                    ],
-                    "task_desc":"Put the statue on the table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A22ON3MIIG0IJA_3Z4AIRP3C9458753J8OB7WNCN5J1XK",
-                    "high_descs":[
-                        "Turn around and walk forward to the middle of the table then turn left to face it.",
-                        "Pick up the light grey figurine from the table.",
-                        "Turn left and walk to the middle of the coffee table then turn right to face it.",
-                        "Put the figurine on the table in front of the tissue box."
-                    ],
-                    "task_desc":"Put a figurine on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Move a dog statue from the dining table to the coffee table.",
+                "Put the statue on the table.",
+                "Put a figurine on the coffee table."
             ],
             "relative_objects":[
                 "Statue"
@@ -272,44 +61,8 @@
         },
         "train/pick_two_obj_and_place-Box-None-CoffeeTable-230/trial_T20190908_124448_064600/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AFPMG8TLP1TND_3T111IHZ5HH30GMMEMXCXKJ7KM39RU",
-                    "high_descs":[
-                        "turn right and walk straight then turn left behind the couch and walk straight and turn right towards the table",
-                        "pick up the box on the table",
-                        "turn around and walk straight then turn left then turn right and walk straight towards the table and turn right",
-                        "put the box down on the table",
-                        "turn left the walk straight then turn right in front of the tv and walk straight then turn left towards the tv then turn right again then turn left again then turn right again then walk straight towards the table then turn right and walk straight then turn right towards the back of the couch",
-                        "pick up the box off of the couch",
-                        "turn right then walk straight then turn left towards the tv and walk straight then turn left then right then left again then left then right again and walk straight then turn left at the table and then left again at the table",
-                        "put the box down on the left edge of the table"
-                    ],
-                    "task_desc":"clean up boxes and place them on the table",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AO33H4GL9KZX9_37WLF8U1WSHUVT7TQVL3CY6RZTL6K7",
-                    "high_descs":[
-                        "Turn right and go to the dining table with computers and a box on top. ",
-                        "Pick up the box on the table.",
-                        "Turn around and go to the coffee table on the side near the fireplace. ",
-                        "Place the box on the right side of the coffee table. ",
-                        "Turn left and go around the coffee table and the sofa to the other side of the sofa. ",
-                        "Pick up the box on the sofa. ",
-                        "Turn right and go around the sofa and the coffee table to the side near the fireplace. ",
-                        "Place the box on the left side of the coffee table towards the front edge. "
-                    ],
-                    "task_desc":"Move the boxes from the dining table and the sofa to the coffee table. ",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "clean up boxes and place them on the table",
+                "Move the boxes from the dining table and the sofa to the coffee table. "
             ],
             "relative_objects":[
                 "Box"
@@ -317,107 +70,20 @@
         },
         "train/pick_and_place_with_movable_recep-Watch-Box-CoffeeTable-230/trial_T20190908_090150_553135/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_31T4R4OBOV7VGV9AHS9XUTTFPV1C74",
-                    "high_descs":[
-                        "Move forward and turn right past the couch. Face the table on the left.",
-                        "Pick up the watch from the center of the dining table.",
-                        "Carry the watch and turn right, then left to face the short side of the table.",
-                        "Place the watch inside the box on the table.",
-                        "Pick up the box from the table.",
-                        "Carry the box and turn to the left and face the coffee table on the right.",
-                        "Place the box on the coffee table."
-                    ],
-                    "task_desc":"Move a box and watch to the coffee table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A18X8ZAS0QDLKJ_3J4Q2Z4UT1UE0BKUUII46EHDM1UQW8",
-                    "high_descs":[
-                        "Turn around, face the couch, then head left towards the door, then turn and face the table.",
-                        "Pick up the watch behind the keys from the table.",
-                        "Turn all the way around then turn left towards the door, turn left again then head towards the table.",
-                        "Place the watch inside the box on the table.",
-                        "Pick up the box with the watch inside from the table.",
-                        "Turn left then head towards the fireplace, turn right then face the coffee table.",
-                        "Place the box in between the statue and the newspaper."
-                    ],
-                    "task_desc":"Place a box on the coffee table with a watch inside.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3T9K2RY06UO14_3EJPLAJKEP7PKO6FQWODZDU431FZ61",
-                    "high_descs":[
-                        "Turn and go to the dining table.",
-                        "Pick up a watch on the dining table. ",
-                        "Turn and go to the box on the floor.",
-                        "Put the watch in the box. ",
-                        "Pick up the box on the floor. ",
-                        "Turn and go to the coffee table.",
-                        "Put the box on the coffee table."
-                    ],
-                    "task_desc":"Move a box from the floor to the coffee table.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move a box and watch to the coffee table.",
+                "Place a box on the coffee table with a watch inside.",
+                "Move a box from the floor to the coffee table."
             ],
             "relative_objects":[
-                "CoffeeTable",
                 "Box",
-                "Watch"
+                "Watch",
+                "CoffeeTable"
             ]
         },
         "train/pick_two_obj_and_place-TissueBox-None-DiningTable-230/trial_T20190909_145553_211575/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"AO33H4GL9KZX9_3IJXV6UZ10AWBHFPIG3PADIA3SXIRP",
-                    "high_descs":[
-                        "Turn around and go around the sofa to the front of the TV stand. ",
-                        "Pick up the green box of tissues on the left from the TV stand. ",
-                        "Turn around and go to the left side of the dining table. ",
-                        "Place the box of tissues on the left side of the closed gray lap top. ",
-                        "Turn around and go around the chairs to go back to the front of the TV stand. ",
-                        "Pick up the remaining box of tissues on the TV stand. ",
-                        "Turn right and go around the sofa to the left side of the dining table. ",
-                        "Place the box of tissue on the right side of the first box. "
-                    ],
-                    "task_desc":"Move the boxes of tissues from the TV stand to the dining table. ",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AFPMG8TLP1TND_3WZ36BJEV67Z4OEBGVG3O5FFWN8TB2",
-                    "high_descs":[
-                        "turn around and walk towards the wall then turn left towards the tv then turn left then right then left then right and right again towards the tv",
-                        "pick up the tissue box on the tv stand",
-                        "turn left and walk straight then turn left again and walk straight towards the table and turn left and walk straight then turn right and walk straight then turn right towards the table",
-                        "put the tissue box down on the table",
-                        "turn right and walk straight then turn left and walk straight to the door then turn right and walk towards the tv then turn right then left towards the tv",
-                        "pick up the tissue box on the tv",
-                        "turn right the left then right then left then right again and walk towards the table and turn right and walk straight towards the table and turn right",
-                        "put the tissue box down on the table"
-                    ],
-                    "task_desc":"move the tissue boxes from the tv stand to the table",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                }
+                "Move the boxes of tissues from the TV stand to the dining table. ",
+                "move the tissue boxes from the tv stand to the table"
             ],
             "relative_objects":[
                 "TissueBox"
@@ -425,57 +91,9 @@
         },
         "train/pick_and_place_with_movable_recep-Candle-Box-CoffeeTable-230/trial_T20190906_232417_947259/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_31EUONYN2YKQFLLBTNWNULJX50BOV9",
-                    "high_descs":[
-                        "Walk over to the tv so you are standing slightly to the left of it looking at the wall behind it.",
-                        "Pick up the candle you see on the tv stand.",
-                        "Now walk over to the dining room table and stand on the side that doesn't have a laptop so you are looking down the length of the table with a box in front of you.",
-                        "Put the candle in the box.",
-                        "Pick up the box with the candle in it.",
-                        "Now walk over to the fireplace but look the opposite way so you see a coffee table in front of you.",
-                        "Put the box on the coffee table between the plant and the grey object."
-                    ],
-                    "task_desc":"Put a box that has a candle in it on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3KIBXJ1WD8BCZARZUJIGSC8GP04OKJ",
-                    "high_descs":[
-                        "Walk straight towards the end of the couch, turn left towards the tv stand, walk passed the tv, and then turn right to face the tv stand.",
-                        "Pick up the candle from the tv stand.",
-                        "Turn around, head towards the end of the sofa, turn left towards the table on your right.",
-                        "Place the candle inside the box on the table.",
-                        "Pick up the box from the table.",
-                        "Turn right, walk past the table, turn left towards the coffee table to your right.",
-                        "Place the box on the table to the left of the tv remote."
-                    ],
-                    "task_desc":"Place a box with a candle on the coffee table in front of the sofa.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A267GLM78AMQ75_3WOKGM4L74XAMKKVQQ8Y9ST7B0XO08",
-                    "high_descs":[
-                        "Walk towards the wall, turn left and walk straight to the TV",
-                        "Grab the candle in front of the tv",
-                        "Turn around, walk straight behind the sofa, turn left again, walk straight towards the windows, turn right towards the table",
-                        "Place the candle in the cardboard box",
-                        "Grab the box with the candle inside",
-                        "Turn right, walk towards chairs, turn left, walk straight past the chairs, then turn right, walk straight towards table",
-                        "Place the box on the table"
-                    ],
-                    "task_desc":"Put the candle inside of the box, and put it on a table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put a box that has a candle in it on the coffee table.",
+                "Place a box with a candle on the coffee table in front of the sofa.",
+                "Put the candle inside of the box, and put it on a table"
             ],
             "relative_objects":[
                 "Box",
@@ -484,180 +102,33 @@
         },
         "train/pick_and_place_with_movable_recep-Candle-Box-CoffeeTable-230/trial_T20190906_232543_804101/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_33UKMF931C1RFLMUK9I7ND1Z7HLTTH",
-                    "high_descs":[
-                        "Turn left and walk to to the corner of the room.",
-                        "Pick up the candle off the table.",
-                        "Turn around, walk straight for a bit then hang right to the coffee table.",
-                        "Place the candle in the box.",
-                        "Pick up the box off the table.",
-                        "Turn right and hang right to the far long side of the coffee table.",
-                        "Place the box on the table in front of the remote."
-                    ],
-                    "task_desc":"Place a box with a candle in it on a coffee table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3KJYX6QCMCSCEAUEDA4IMP2B644JVK",
-                    "high_descs":[
-                        "Walk forward to the chair then turn left and walk all the way to the small circular table in the corner to the right way in front of you so you are facing the lamp.",
-                        "Pick the candle up off of the table.",
-                        "Turn around and walk until the dining room table is to your right then turn to face it.",
-                        "Put the candle in the cardboard box.",
-                        "Pick up the box with the candle in it.",
-                        "Make your way over to the fireplace so the fireplace is directly to your left then turn right to face the coffee table in front of the couch.",
-                        "Put the box on the table to the right of the plant."
-                    ],
-                    "task_desc":"Place a cardboard box with a candle in it on the coffee table.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1HKHM4NVAO98H_3F6KKYWMNEIM3JLD1NWG9ADLFH6NDU",
-                    "high_descs":[
-                        "walk over to the corner circle table",
-                        "pick the candle up off of the table",
-                        "bring the cable over to the dining room table",
-                        "place the candle in the cardboard box on the table",
-                        "pick up the cardboard box off of the table",
-                        "bring the box over to the coffee table in front of the couch",
-                        "place the box on the coffee table to the right of the plant"
-                    ],
-                    "task_desc":"place a box with a candle in it on the coffee table",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Place a box with a candle in it on a coffee table.",
+                "Place a cardboard box with a candle in it on the coffee table.",
+                "place a box with a candle in it on the coffee table"
             ],
             "relative_objects":[
+                "Box",
                 "CoffeeTable",
-                "Candle",
-                "Box"
+                "Candle"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-230/trial_T20190907_011049_211910/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A3F7G1FSFWQPLE_3CP1TO84PWIVAKHR0YGDJAMVR9R52V",
-                    "high_descs":[
-                        "Turn right and walk towards the coffee table, then turn right again and begin walking across the room, hang a left and walk to the far end of the wooden dining table.",
-                        "Pick up the watch on the wooden dining table.",
-                        "Turn right and take a step forward, then turn left to face the dining table again.",
-                        "Place the watch on the closest gray plate to you on the dining table.",
-                        "Pick up the gray plate with the watch on it.",
-                        "Turn right and begin walking forward, then turn left and walk across the room, hang a right after the chair and walk over to the coffee table with a laptop on it.",
-                        "Place the gray plate with the watch on it onto the coffee table to the right of the laptop."
-                    ],
-                    "task_desc":"Place a gray plate with a watch on it on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A3HL2LL0LEPZT8_3II4UPYCOMO76GY5HFOXD48QKRGQD5",
-                    "high_descs":[
-                        "Turn around, go to the left side of the dining table and face the dining table.",
-                        "Take the wrist watch to the left of the closest gray plate.",
-                        "Move in front of the closest gray plate.",
-                        "Put the wrist watch on the closest gray plate.",
-                        "Take the gray plate from the dining table.",
-                        "Turn right, go around the chairs in between the fireplace and the coffee table, facing the coffee table.",
-                        "Put the gray plate to the right of the computer on the coffee table."
-                    ],
-                    "task_desc":"Put a plate with a watch on a coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1ELPYAFO7MANS_3KAKFY4PGXJW7Q8PBIDCRTVS241I3N",
-                    "high_descs":[
-                        "Turn around and veer left to the left side of the table.",
-                        "Pick up the watch on the table.",
-                        "Take a step to the right.",
-                        "Place the watch on the closest plate.",
-                        "Pick up the plate.",
-                        "Turn right and veer right to the coffee table.",
-                        "Place the plate on the coffee table to the right of the laptop."
-                    ],
-                    "task_desc":"Place a plate with a watch on it on a table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a gray plate with a watch on it on the coffee table.",
+                "Put a plate with a watch on a coffee table.",
+                "Place a plate with a watch on it on a table."
             ],
             "relative_objects":[
-                "CoffeeTable",
                 "Plate",
+                "CoffeeTable",
                 "Watch"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-230/trial_T20190907_011116_021292/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A36DK84J5YJ942_36ZN444YTUFLTF1BUGX4FWT3X0NOIO",
-                    "high_descs":[
-                        "Move to the TV stand next to the coffee table",
-                        "Pick up the watch from the stand",
-                        " Move to the dining table behind you",
-                        "Put the watch on to the plate",
-                        "Pick up the plate from the table",
-                        "Move to the coffee table in front of the TV",
-                        "Put the plate on to the coffee table"
-                    ],
-                    "task_desc":"Put the watch as well as a plate from the table onto the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1GVTH5YS3WOK0_3A4TN5196NZKOVTOYT6SKKY789ZHC1",
-                    "high_descs":[
-                        "Turn right and head towards the tv stand.",
-                        "Pick up the watch on the tv stand.",
-                        "Turn around and head towards the long table.",
-                        "Place the watch on the silver plate on the table.",
-                        "Pick up the plate with the watch.",
-                        "Turn left and walk towards the edge of the coffee table in front of the tv stand.",
-                        "Place the plate to the left of the plant on the table."
-                    ],
-                    "task_desc":"Place the watch on a plate on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2M7VEYAS1405L_3Z4GS9HPNYRHJPSGU3C5DLHZTU777P",
-                    "high_descs":[
-                        "turn right, and approach the television. turn right and move to in front of the television screen. Face the screen",
-                        "take the watch that is in front of the television",
-                        "cross the room to the dining room table. approach the front right corner of the table",
-                        "place the watch on the grey tray",
-                        "pick up the tray",
-                        "cross the room to the coffee table in front of the couch",
-                        "place the tray on the coffee table"
-                    ],
-                    "task_desc":"Place the grey tray, with the watch now upon it, on the coffee table",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Put the watch as well as a plate from the table onto the coffee table.",
+                "Place the watch on a plate on the coffee table.",
+                "Place the grey tray, with the watch now upon it, on the coffee table"
             ],
             "relative_objects":[
                 "Plate",
@@ -666,60 +137,9 @@
         },
         "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-230/trial_T20190907_011026_475817/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"ACSS93E03ZUGX_3X3OR7WPZ2HKYOM1825LAQVVZYP8LT",
-                    "high_descs":[
-                        "Turn around and walk towards the end of the table at the end of the room.",
-                        "Pick up the watch on the table.",
-                        "Move to the left of the table.",
-                        "Set the watch on the placemat.",
-                        "Pick up the placemat with the watch on it.",
-                        "Turn left and walk across the room to the television stand. ",
-                        "Place the watch on the placemat on the television stand."
-                    ],
-                    "task_desc":"Move the watch on the placemat to the television stand.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A10AVWALIHR4UQ_3ZY8KE4ISMKT0XYR80ORJQEXK53VQ6",
-                    "high_descs":[
-                        "Turn around and move toward the blue recycling bin then turn right and move to the end of the table facing the wall and turn to the right.",
-                        "Pick up the wrist watch in front of the laptop computer near the center of the table.",
-                        "Turn to the left and move to the corner of the table nearest the door and then turn to the right. ",
-                        "Place the wrist watch on the gray tray on the table to the right of the beige chair.",
-                        "Pick up the gray tray with the wristwatch on top from the table.",
-                        "Turn to the left and move past the fireplace then turn right and face the television stand and coffee table.",
-                        "Place the tray with the wristwatch to the right of the candlestick and in front of the newspaper on the television stand."
-                    ],
-                    "task_desc":"Place a tray holding a wristwatch on the television stand.",
-                    "votes":[
-                        1,
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"AHBWX3WYMAB0E_3634BBTX0RBRN2OIVDEES2KP52GFIJ",
-                    "high_descs":[
-                        "Turn around and move to the far end of the table.",
-                        "Pick up the watch on the right side of the open laptop.",
-                        "Move slightly to the left in front of the gray rectangle.",
-                        "Set the watch on the upper left corner of the gray pad, closest to the chair.",
-                        "Pick the gray pad up from the table.",
-                        "Turn left and move across the room to the TV stand.",
-                        "Set the gray pad down in the center of the TV stand close to the edge."
-                    ],
-                    "task_desc":"Put a watch on a pad in front of the TV.",
-                    "votes":[
-                        1,
-                        0,
-                        1
-                    ]
-                }
+                "Move the watch on the placemat to the television stand.",
+                "Place a tray holding a wristwatch on the television stand.",
+                "Put a watch on a pad in front of the TV."
             ],
             "relative_objects":[
                 "Watch"
@@ -727,128 +147,29 @@
         },
         "train/pick_and_place_with_movable_recep-Candle-Plate-CoffeeTable-230/trial_T20190906_232622_065156/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2MHM7JK1T9XHR_3N4BPTXIOB97CFBWQ5UPRI057PLUK1",
-                    "high_descs":[
-                        "Turn around and go to the low coffee table that is surrounded by couches.",
-                        "Pick up the candle that is sitting on the table.",
-                        "Turn right and go to the head of the large dining table, face the dog statue.",
-                        "Place the candle on the black place mat that is on the left.",
-                        "Pick up the place mat with the candle on it.",
-                        "Turn around and return to the coffee table.",
-                        "Place the place mat with candle on the coffee table."
-                    ],
-                    "task_desc":"Place a tray with a candle on it on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1MKCTVKE7J0ZP_3TU5ZICBRGIVPL2E07DHRCUP91Q8QQ",
-                    "high_descs":[
-                        "Turn to your left and then turn right to reach the coffee table.",
-                        "Pick up the candle in front of the remote.",
-                        "Turn around and go to the left, the turn left to the dining table.",
-                        "Place the candle on the place mat that is on the table, in front of the left chair.",
-                        "Pick up the place mat with the candle on it.",
-                        "Bring the candle and place mat back to the coffee table behind you and to the left.",
-                        "Put the place mat with the candle on it on the center of the table."
-                    ],
-                    "task_desc":"Put a place mat with a candle on it on the coffee table. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A1RLO9LNUJIW5S_3YT88D1N0BFNDLYDBLYO49A5U8N3KG",
-                    "high_descs":[
-                        "Turn right and walk until you are even with a coffee table that's in front of a couch and then turn and face the coffee table and take a step so you are facing the center of the table.",
-                        "Pick up the candle stick that's on the table in front of you.",
-                        "Turn around and take a step then turn left and walk straight until the table is on your left then turn left to face it.",
-                        "Put the candle stick on the plate that's on your left near the left edge of the table.",
-                        "Pick up the plate with the candle on it.",
-                        "Turn left and walk back to the coffee table.",
-                        "Place the plate with the candle on it in the center of the coffee table near the edge near you."
-                    ],
-                    "task_desc":"Put a plate that has a candle on it on the coffee table.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a tray with a candle on it on the coffee table.",
+                "Put a place mat with a candle on it on the coffee table. ",
+                "Put a plate that has a candle on it on the coffee table."
             ],
             "relative_objects":[
-                "Candle",
-                "Plate"
+                "Plate",
+                "Candle"
             ]
         },
         "valid_seen/pick_and_place_simple-RemoteControl-None-ArmChair-230/trial_T20190909_021000_274398/traj_data.json":{
             "tasks":[
-                {
-                    "assignment_id":"A2871R3LEPWMMK_37FMASSAYFI9VAY0MJHZAYD6LWPIBN",
-                    "high_descs":[
-                        "Turn around, hang a left at the couch and walk to the wooden coffee table on the left.",
-                        "Pick up the remote control in between the plant and another remote control on the table.",
-                        "Turn left and walk to the brown chair ahead.",
-                        "Put the remote control on the left side of the chair."
-                    ],
-                    "task_desc":"Place a remote control on a chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A24RGLS3BRZ60J_3O7L7BFSHHG72DAKWAJPB6JROTBEIS",
-                    "high_descs":[
-                        "Turn around and then left. Face the coffee table on the left side. ",
-                        "Pick up the remote from the right side of the table, in front of the other remote.",
-                        "Carry the remote and turn to the left. ",
-                        "Place the remote on the seat of the chair."
-                    ],
-                    "task_desc":"Move a remote to the chair.",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                },
-                {
-                    "assignment_id":"A2KAGFQU28JY43_3PDJHANYK873T36LKAI6Z6QZ7I16HZ",
-                    "high_descs":[
-                        "Turn around and walk to the couch, then turn left and go through the couch and the coffee table, to the coffee table on your left. ",
-                        "Pick up the remote, right next to the plant, on the coffee table. ",
-                        "Turn to your left and go to the arm chair across from you. ",
-                        "Place the remote on the left side of the seat, on the arm chair. "
-                    ],
-                    "task_desc":"Put one remote on a chair. ",
-                    "votes":[
-                        1,
-                        1
-                    ]
-                }
+                "Place a remote control on a chair.",
+                "Move a remote to the chair.",
+                "Put one remote on a chair. "
             ],
             "relative_objects":[
-                "RemoteControl",
-                "Chair"
+                "Chair",
+                "RemoteControl"
             ]
         },
         "tests_seen/trial_T20190909_100159_289642/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "cross the living room to the coffee table",
-                        "pick up the card sitting on the coffee table",
-                        "take the card to the chair beside coffee table",
-                        "set the card down on the chair ",
-                        "cross the room to the tv stand",
-                        "pick up the card sitting on the tv stand",
-                        "turn around and go back to the chair by the couch",
-                        "set the credit card next to the first one"
-                    ],
-                    "task_desc":"Pick up both credit cards and move them to the chair"
-                }
+                "Pick up both credit cards and move them to the chair"
             ],
             "relative_objects":[
                 "CreditCard"
@@ -856,33 +177,9 @@
         },
         "tests_seen/trial_T20190909_145120_598866/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Walk over to the table.",
-                        "Grab the statue",
-                        "Walk over to the coffee table",
-                        "Place the statue on the coffee table."
-                    ],
-                    "task_desc":"Place the statue on the coffee table."
-                },
-                {
-                    "high_descs":[
-                        "Walk forward to the chair in the corner then turn right and walk to the first chair at the table then turn right to face the table.",
-                        "Pick up the statue of a dog that's in front of you on the table.",
-                        "Turn left and walk past the table on your right then turn right and walk to the coffee table and turn right to face it.",
-                        "Put the statue on the coffee table under and to the right of the plant."
-                    ],
-                    "task_desc":"Put a statue on the table."
-                },
-                {
-                    "high_descs":[
-                        "Go forward and cross the entire room and then turn right and then right again to face the statue on the table near the remote.",
-                        "Pick the statue up from the table.",
-                        "Go left and then right and cross the room to turn to the right to face the table with the plant on it that is in front of the couch.",
-                        "Put the statue on the table."
-                    ],
-                    "task_desc":"Put a statue on a table."
-                }
+                "Place the statue on the coffee table.",
+                "Put a statue on the table.",
+                "Put a statue on a table."
             ],
             "relative_objects":[
                 "CoffeeTable",
@@ -891,42 +188,9 @@
         },
         "tests_seen/trial_T20190908_090254_092756/traj_data.json":{
             "tasks":[
-                {
-                    "high_descs":[
-                        "Turn and go to the TV table. ",
-                        "Pick up the watch on the TV table. ",
-                        "Turn and go to the sofa. ",
-                        "Put the watch in the box on the sofa. ",
-                        "Pick up the box on the sofa. ",
-                        "Turn and go to the coffee table.",
-                        "Put the box on the coffee table. "
-                    ],
-                    "task_desc":"Move a box from the sofa to the coffee table. "
-                },
-                {
-                    "high_descs":[
-                        "Turn left and walk to the television. ",
-                        "Pick up the watch that's in front of the television. ",
-                        "Turn right and walk to the open box on the left side of the couch. ",
-                        "Put the watch inside of the box on the couch. ",
-                        "Pick up the box from the couch. ",
-                        "Turn and walk around the coffee table, face the coffee table. ",
-                        "Put the box down on the coffee table to the right of the sculpture. "
-                    ],
-                    "task_desc":"To put a watch in a box and move it to the coffee table. "
-                },
-                {
-                    "high_descs":[
-                        "Walk up to the wooden table in front of you, then turn left and walk over to the wooden table the television is on.",
-                        "Pick up the watch off of the wooden table.",
-                        "Walk over to the leftmost couch cushion of the couch on your right.",
-                        "Put the watch in the cardboard box that is on the leftmost couch cushion.",
-                        "Pick up the cardboard box with the watch in it.",
-                        "Turn left and walk around the coffee table to the other side.",
-                        "Put the cardboard box with the watch in it on the right side of the coffee table."
-                    ],
-                    "task_desc":"Put a cardboard box with a watch in it on the coffee table."
-                }
+                "Move a box from the sofa to the coffee table. ",
+                "To put a watch in a box and move it to the coffee table. ",
+                "Put a cardboard box with a watch in it on the coffee table."
             ],
             "relative_objects":[
                 "Box",
