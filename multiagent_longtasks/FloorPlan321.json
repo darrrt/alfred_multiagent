@@ -1,22 +1,6 @@
 {
     "scene_name":"FloorPlan321",
     "trials":{
-        "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json":{
-            "tasks":[
-                "Moving 2 CDs to the nightstand"
-            ],
-            "relative_objects":[
-                "CD"
-            ]
-        },
-        "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json":{
-            "tasks":[
-                "Moving 2 cd's to a table beside the bed"
-            ],
-            "relative_objects":[
-                "CD"
-            ]
-        },
         "train/pick_and_place_simple-CellPhone-None-Bed-321/trial_T20190908_231504_321117/traj_data.json":{
             "tasks":[
                 "move the phone from the chair to the bed",
@@ -24,9 +8,9 @@
                 "Put the cell phone on the bed. "
             ],
             "relative_objects":[
+                "CellPhone",
                 "Chair",
-                "Bed",
-                "CellPhone"
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104920_763828/traj_data.json":{
@@ -37,8 +21,8 @@
             ],
             "relative_objects":[
                 "Pillow",
-                "Bed",
-                "Chair"
+                "Chair",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json":{
@@ -102,36 +86,6 @@
     "tasks_1":[
         {
             "task_list":[
-                "Move the smartphone from the black side table to the bed."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put CD's away in black table."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move pillow from bed to chair"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104920_763828/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Move a purple pillow to the seat of a chair."
             ],
             "orign":[
@@ -142,11 +96,31 @@
         },
         {
             "task_list":[
+                "Move the smartphone from the black side table to the bed."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
                 "Move the purple pillows to the arm chair from the bed."
             ],
             "orign":[
                 [
                     "tests_seen/trial_T20190907_121849_514225/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the phone down on the chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json"
                 ]
             ]
         }
@@ -154,141 +128,153 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put the phone down on the chair. ",
-                "Moving 2 CDs to the nightstand"
+                "Put CD's away in black table.",
+                "move the phone from the chair to the bed"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json",
-                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json"
+                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Bed-321/trial_T20190908_231504_321117/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put CD's away in black table at any time. Simultaneously, move the phone from the chair to the bed.",
+                "compose 2":"Move the phone from the chair to the bed at any time. Simultaneously, put CD's away in black table.",
+                "compose 3":"Put CD's away in black table at any time. After putting the CD's away, move the phone from the chair to the bed."
+            }
         },
         {
             "task_list":[
-                "Put the phone down on the chair. ",
-                "Put CD's away in black table."
+                "move pillow from bed to chair",
+                "Move the smartphone from the black side table to the bed."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json",
-                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json"
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104920_763828/traj_data.json",
+                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the smartphone from the black side table to the bed at any time. Simultaneously, move the pillow from the bed to the chair.",
+                "compose 2":"Move the smartphone from the black side table to the bed at any time. After moving the smartphone, move the pillow from the bed to the chair.",
+                "compose 3":"Move the pillow from the bed to the chair at any time. Simultaneously, move the smartphone from the black side table to the bed."
+            }
         },
         {
             "task_list":[
-                "Moving 2 cd's to a table beside the bed",
+                "Move the purple pillows to the arm chair from the bed.",
+                "Move the smartphone from the black side table to the bed."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_121849_514225/traj_data.json",
+                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the smartphone from the black side table to the bed at any time. Simultaneously, move the purple pillows to the arm chair from the bed.",
+                "compose 2":"Move the purple pillows to the arm chair from the bed first. After that, move the smartphone from the black side table to the bed.",
+                "compose 3":"Move the smartphone from the black side table to the bed first. After that, move the purple pillows to the arm chair from the bed."
+            }
+        },
+        {
+            "task_list":[
+                "Move a purple pillow to the seat of a chair.",
                 "Put the phone down on the chair. "
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json",
                     "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a cushion on a chair.",
-                "Move the smartphone from the black side table to the bed."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104900_888704/traj_data.json",
-                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Moving 2 CDs to the nightstand",
-                "Move the smartphone from the black side table to the bed."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json",
-                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put the phone down on the chair. Afterwards, move a purple pillow to the seat of a chair.",
+                "compose 2":"Move a purple pillow to the seat of a chair. Afterward, put the phone down on the chair.",
+                "compose 3":"Put the phone down on the chair. Simultaneously, move a purple pillow to the seat of a chair."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "move the phone from the chair to the bed",
-                "Moving 2 CDs to the nightstand",
-                "Move the purple pillows to the arm chair from the bed."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CellPhone-None-Bed-321/trial_T20190908_231504_321117/traj_data.json",
-                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json",
-                    "tests_seen/trial_T20190907_121849_514225/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Moving 2 cd's to a table beside the bed",
-                "Put the phone down on the chair. ",
-                "Move a purple pillow to the seat of a chair."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json",
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move the phone from the chair to the bed",
-                "Moving 2 cd's to a table beside the bed",
-                "Move a purple pillow to the seat of a chair."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CellPhone-None-Bed-321/trial_T20190908_231504_321117/traj_data.json",
-                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json",
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the phone down on the chair. ",
                 "Place a cushion on a chair.",
-                "Moving 2 cd's to a table beside the bed"
+                "Put CD's away in black table.",
+                "Move the smartphone from the black side table to the bed."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json",
                     "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104900_888704/traj_data.json",
-                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190908_075144_817104/traj_data.json"
+                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json",
+                    "tests_seen/trial_T20190908_231519_766442/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cushion on a chair at any time. Simultaneously, put CD's away in black table. After placing the cushion and putting the CDs away, move the smartphone from the black side table to the bed.",
+                "compose 2":"Put CD's away in black table at any time. After putting the CDs away, place a cushion on a chair. Once the cushion is placed, move the smartphone from the black side table to the bed.",
+                "compose 3":"Place a cushion on a chair at any time. Following that, move the smartphone from the black side table to the bed. After moving the smartphone, put CD's away in black table."
+            }
         },
         {
             "task_list":[
-                "move the phone from the chair to the bed",
-                "Move a purple pillow to the seat of a chair.",
-                "Moving 2 CDs to the nightstand"
+                "Put CD's away in black table.",
+                "move pillow from bed to chair",
+                "Put the phone down on the chair. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CellPhone-None-Bed-321/trial_T20190908_231504_321117/traj_data.json",
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104935_443304/traj_data.json",
-                    "train/pick_two_obj_and_place-CD-None-SideTable-321/trial_T20190912_051931_742211/traj_data.json"
+                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104920_763828/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the pillow from the bed to the chair. Put CD's away in black table at any time. Put the phone down on the chair.",
+                "compose 2":"Put CD's away in black table at any time. Move the pillow from the bed to the chair. Put the phone down on the chair.",
+                "compose 3":"Put CD's away in black table at any time. Put the phone down on the chair. Move the pillow from the bed to the chair."
+            }
+        },
+        {
+            "task_list":[
+                "Place a cushion on a chair.",
+                "Move the smartphone from the black side table to the bed.",
+                "Put CD's away in black table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104900_888704/traj_data.json",
+                    "tests_seen/trial_T20190908_231519_766442/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cushion on a chair at any time. Simultaneously, move the smartphone from the black side table to the bed. After placing the cushion and moving the smartphone, put CD's away in the black table.",
+                "compose 2":"Move the smartphone from the black side table to the bed first. Then, place a cushion on a chair. After completing these tasks, put CD's away in the black table.",
+                "compose 3":"Place a cushion on a chair first. Next, put CD's away in the black table. After these tasks, move the smartphone from the black side table to the bed."
+            }
+        },
+        {
+            "task_list":[
+                "move pillow from bed to chair",
+                "Put CD's away in black table.",
+                "Put the phone down on the chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-321/trial_T20190908_104920_763828/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Drawer-321/trial_T20190908_051554_943566/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-321/trial_T20190906_200534_135586/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move pillow from bed to chair. Put the phone down on the chair. Put CD's away in black table.",
+                "compose 2":"Move pillow from bed to chair. Put CD's away in black table. Put the phone down on the chair.",
+                "compose 3":"Put CD's away in black table. Move pillow from bed to chair. Put the phone down on the chair."
+            }
         }
     ],
     "tasks_4":[],
     "tasks_5":[],
     "tasks_6":[],
-    "tasks_7":[],
-    "tasks_8":[],
-    "tasks_9":[]
+    "tasks_7":[]
 }

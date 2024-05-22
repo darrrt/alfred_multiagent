@@ -8,8 +8,8 @@
                 "put a closed lap top on to the bed"
             ],
             "relative_objects":[
-                "Bed",
-                "Laptop"
+                "Laptop",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112436_878411/traj_data.json":{
@@ -19,8 +19,8 @@
                 "Place a laptop on a bed."
             ],
             "relative_objects":[
-                "Pillow",
-                "Laptop"
+                "Laptop",
+                "Pillow"
             ]
         },
         "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json":{
@@ -30,8 +30,8 @@
                 "move computer from the desk to the bed"
             ],
             "relative_objects":[
-                "Bed",
-                "Laptop"
+                "Laptop",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032804_340464/traj_data.json":{
@@ -41,8 +41,8 @@
                 "Put a pencil on the desk."
             ],
             "relative_objects":[
-                "Book",
                 "Pencil",
+                "Book",
                 "Laptop"
             ]
         },
@@ -53,14 +53,13 @@
                 "Place a pencil on the desk."
             ],
             "relative_objects":[
-                "Desk",
-                "Pencil"
+                "Pencil",
+                "Desk"
             ]
         },
         "train/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181127_765377/traj_data.json":{
             "tasks":[
-                "Put the books on the desk.",
-                "Put 2 books side by side near the bowl on the yellow desk. "
+                "Put the books on the desk."
             ],
             "relative_objects":[
                 "Desk",
@@ -106,8 +105,8 @@
                 "Move a phone to the night stand drawer"
             ],
             "relative_objects":[
-                "CellPhone",
-                "AlarmClock"
+                "AlarmClock",
+                "CellPhone"
             ]
         },
         "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235359_470335/traj_data.json":{
@@ -126,14 +125,6 @@
                 "Move the cell phone from the top of an end table to the top drawer. ",
                 "Place a phone in the night stand drawer",
                 "Put a phone in a drawer."
-            ],
-            "relative_objects":[
-                "CellPhone"
-            ]
-        },
-        "train/pick_two_obj_and_place-CellPhone-None-Safe-302/trial_T20190909_065455_263840/traj_data.json":{
-            "tasks":[
-                "pick up the first phone for the dresser and put it in the safe. Go back and pick up 2nd phone and put it in the safe too."
             ],
             "relative_objects":[
                 "CellPhone"
@@ -165,22 +156,22 @@
                 "To pick up a pencil and turn the lamp on. "
             ],
             "relative_objects":[
-                "Book",
                 "Pencil",
+                "AlarmClock",
                 "KeyChain",
-                "Pen",
-                "AlarmClock"
+                "Book",
+                "Pen"
             ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "Move books in the room over to the desk. "
+                "Put the books on the desk."
             ],
             "orign":[
                 [
-                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json"
+                    "train/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181127_765377/traj_data.json"
                 ]
             ]
         },
@@ -196,16 +187,6 @@
         },
         {
             "task_list":[
-                "Move the laptop to the bed."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Move a laptop to the bed. "
             ],
             "orign":[
@@ -216,11 +197,21 @@
         },
         {
             "task_list":[
-                "Move a phone into a drawer."
+                "Move the laptop to the bed."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235359_470335/traj_data.json"
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put a phone in the safe next to the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122723_141074/traj_data.json"
                 ]
             ]
         }
@@ -228,217 +219,292 @@
     "tasks_2":[
         {
             "task_list":[
-                "Move books in the room over to the desk. ",
-                "Move the cell phone from the top of an end table to the top drawer. "
+                "Put the books on the desk.",
+                "Move the laptop to the bed."
             ],
             "orign":[
                 [
-                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235426_919624/traj_data.json"
+                    "train/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181127_765377/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the laptop to the bed.",
-                "Inspect a bowl by lamplight."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put the books on the desk at any time. Move the laptop to the bed simultaneously.",
+                "compose 2":"Move the laptop to the bed at any time. Put the books on the desk simultaneously.",
+                "compose 3":"Put the books on the desk at any time. After putting the books, move the laptop to the bed."
+            }
         },
         {
             "task_list":[
-                "Move a laptop to the bed. ",
+                "Move a pencil from the window sill to the desk.",
                 "Move a phone into a drawer."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112436_878411/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032804_340464/traj_data.json",
                     "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235359_470335/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a pencil from the window sill to the desk at any time. Simultaneously, move a phone into a drawer.",
+                "compose 2":"Move a phone into a drawer at any time. Simultaneously, move a pencil from the window sill to the desk.",
+                "compose 3":"Move a pencil from the window sill to the desk at any time. After moving the pencil, move a phone into a drawer."
+            }
         },
         {
             "task_list":[
-                "Examine the pencil by the light",
+                "Move a laptop to the bed. ",
                 "Put a phone in the safe next to the bed. "
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190908_100949_012440/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112436_878411/traj_data.json",
                     "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122723_141074/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the white cell phone in the safe",
-                "Move the laptop from the desk to the bed."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122757_136508/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112426_055221/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_3":[
-        {
-            "task_list":[
-                "Move books in the room over to the desk. ",
-                "Move a laptop to the bed. ",
-                "Place a pencil on a desk"
-            ],
-            "orign":[
-                [
-                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112436_878411/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move a laptop to the bed.Put a phone in the safe next to the bed. ",
+                "compose 2":"Put a phone in the safe next to the bed.Move a laptop to the bed. ",
+                "compose 3":"Put a phone in the safe next to the bed.Move a laptop to the bed. "
+            }
         },
         {
             "task_list":[
                 "Examine the pencil by the light",
-                "Move the laptop to the bed.",
-                "pick up the first phone for the dresser and put it in the safe. Go back and pick up 2nd phone and put it in the safe too."
+                "Move a cell phone to the safe. "
             ],
             "orign":[
                 [
                     "tests_seen/trial_T20190908_100949_012440/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Safe-302/trial_T20190909_065455_263840/traj_data.json"
+                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122741_565733/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the pencil by the light first, then move a cell phone to the safe.",
+                "compose 2":"Move a cell phone to the safe first, then examine the pencil by the light.",
+                "compose 3":"Move a cell phone to the safe at any time. After that, examine the pencil by the light."
+            }
         },
         {
             "task_list":[
-                "pick up the first phone for the dresser and put it in the safe. Go back and pick up 2nd phone and put it in the safe too.",
-                "Move a pencil from the window sill to the desk.",
-                "Inspect a bowl by lamplight."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-Safe-302/trial_T20190909_065455_263840/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032804_340464/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Inspect a bowl by lamplight.",
-                "Place a pencil on a desk",
-                "pick up the first phone for the dresser and put it in the safe. Go back and pick up 2nd phone and put it in the safe too."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Safe-302/trial_T20190909_065455_263840/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Inspect a bowl by lamplight.",
-                "Move a phone into a drawer.",
-                "Place a pencil on a desk"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235359_470335/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Place a pencil on a desk",
-                "Move a phone into a drawer.",
-                "Move the laptop from the desk to the bed.",
-                "Move books in the room over to the desk. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235359_470335/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112426_055221/traj_data.json",
-                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a cell phone to the safe. ",
-                "Inspect a bowl by lamplight.",
                 "Move a laptop to the bed. ",
                 "Put the books on the desk."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122741_565733/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json",
                     "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112436_878411/traj_data.json",
                     "train/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181127_765377/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a laptop to the bed at any time. Simultaneously, put the books on the desk.",
+                "compose 2":"Put the books on the desk first, then move a laptop to the bed.",
+                "compose 3":"Move a laptop to the bed. After moving the laptop, put the books on the desk."
+            }
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Move the laptop to the bed.",
+                "Place a pencil on a desk",
+                "take the phone from the top of the nightstand and place it in the drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235412_132976/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptop to the bed at any time. Simultaneously, place a pencil on a desk. After moving the laptop and placing the pencil, take the phone from the top of the nightstand and place it in the drawer.",
+                "compose 2":"Place a pencil on a desk first. Simultaneously, move the laptop to the bed and take the phone from the top of the nightstand and place it in the drawer.",
+                "compose 3":"Move the laptop to the bed at any time. After moving the laptop, place a pencil on a desk. Finally, take the phone from the top of the nightstand and place it in the drawer."
+            }
         },
         {
             "task_list":[
-                "Place a pencil on a desk",
+                "Move a pencil from the window sill to the desk.",
                 "Inspect a bowl by lamplight.",
+                "Move a phone into a drawer."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032804_340464/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235359_470335/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Inspect a bowl by lamplight first. Then, move a pencil from the window sill to the desk. Lastly, move a phone into a drawer.",
+                "compose 2":"Move a phone into a drawer first. Afterwards, inspect a bowl by lamplight. Finally, move a pencil from the window sill to the desk.",
+                "compose 3":"Move a pencil from the window sill to the desk. Simultaneously, inspect a bowl by lamplight. After completing those, move a phone into a drawer."
+            }
+        },
+        {
+            "task_list":[
+                "Move a pencil from the window sill to the desk.",
+                "Put a phone in the safe next to the bed. ",
+                "Inspect a bowl by lamplight."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032804_340464/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122723_141074/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Inspect a bowl by lamplight at any time. Simultaneously, move a pencil from the window sill to the desk. After inspecting the bowl and moving the pencil, put a phone in the safe next to the bed.",
+                "compose 2":"Inspect a bowl by lamplight at any time. Simultaneously, put a phone in the safe next to the bed. After inspecting the bowl and putting the phone in the safe, move a pencil from the window sill to the desk.",
+                "compose 3":"Move a pencil from the window sill to the desk at any time. Simultaneously, put a phone in the safe next to the bed. After moving the pencil and putting the phone in the safe, inspect a bowl by lamplight."
+            }
+        },
+        {
+            "task_list":[
                 "Move books in the room over to the desk. ",
+                "Move the cell phone from the top of an end table to the top drawer. ",
+                "Move the laptop to the bed."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235426_919624/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the cell phone from the top of an end table to the top drawer at any time. Simultaneously, move the laptop to the bed. After moving the cell phone and laptop, move books in the room over to the desk.",
+                "compose 2":"Move the laptop to the bed at any time. Simultaneously, move the cell phone from the top of an end table to the top drawer. After moving the cell phone and laptop, move books in the room over to the desk.",
+                "compose 3":"Move the laptop to the bed at any time. Simultaneously, move the cell phone from the top of an end table to the top drawer. After moving the laptop and cell phone, move books in the room over to the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Move the cell phone from the top of an end table to the top drawer. ",
+                "Move books in the room over to the desk. ",
+                "Place a pencil on a desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235426_919624/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the cell phone from the top of an end table to the top drawer at any time. Simultaneously, place a pencil on a desk. After moving the cell phone and placing the pencil, move books in the room over to the desk.",
+                "compose 2":"Place a pencil on a desk at any time. Simultaneously, move the cell phone from the top of an end table to the top drawer. After placing the pencil and moving the cell phone, move books in the room over to the desk.",
+                "compose 3":"Move books in the room over to the desk at any time. Simultaneously, place a pencil on a desk. After moving the books and placing the pencil, move the cell phone from the top of an end table to the top drawer."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move the laptop from the desk to the bed.",
+                "Move books in the room over to the desk. ",
+                "Move a cell phone to the safe. ",
+                "Inspect a bowl by lamplight."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112426_055221/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122741_565733/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptop from the desk to the bed at any time. Simultaneously, move books in the room over to the desk. After moving the laptop and books, inspect a bowl by lamplight. Lastly, move a cell phone to the safe.",
+                "compose 2":"Move books in the room over to the desk before moving the laptop from the desk to the bed. After moving the laptop, inspect a bowl by lamplight. Finally, move a cell phone to the safe.",
+                "compose 3":"Move a cell phone to the safe first. Simultaneously, move the laptop from the desk to the bed and move books in the room over to the desk. After completing these tasks, inspect a bowl by lamplight."
+            }
+        },
+        {
+            "task_list":[
+                "Put the white cell phone in the safe",
+                "Inspect a bowl by lamplight.",
+                "Examine the pencil by the light",
+                "Move the laptop from the desk to the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122757_136508/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json",
+                    "tests_seen/trial_T20190908_100949_012440/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112426_055221/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Inspect a bowl by lamplight. After inspecting the bowl, examine the pencil by the light. Finally, put the white cell phone in the safe.",
+                "compose 2":"Move the laptop from the desk to the bed at any time. Simultaneously, put the white cell phone in the safe. After moving the laptop, examine the pencil by the light.",
+                "compose 3":"Put the white cell phone in the safe at any time. Simultaneously, inspect a bowl by lamplight. After inspecting the bowl, move the laptop from the desk to the bed. Lastly, examine the pencil by the light."
+            }
+        },
+        {
+            "task_list":[
+                "Inspect a bowl by lamplight.",
+                "Move the laptop to the bed.",
+                "Examine the pencil by the light",
                 "Move the cell phone from the top of an end table to the top drawer. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json",
                     "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json",
-                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json",
+                    "tests_seen/trial_T20190908_100949_012440/traj_data.json",
                     "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235426_919624/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the pencil by the light. Simultaneously, move the cell phone from the top of an end table to the top drawer. After examining the pencil, inspect a bowl by lamplight. Finally, move the laptop to the bed.",
+                "compose 2":"Inspect a bowl by lamplight. After inspecting the bowl, examine the pencil by the light. Simultaneously, move the cell phone from the top of an end table to the top drawer. Finally, move the laptop to the bed.",
+                "compose 3":"Move the laptop to the bed. Simultaneously, inspect a bowl by lamplight. After moving the laptop, examine the pencil by the light. Finally, move the cell phone from the top of an end table to the top drawer."
+            }
         },
         {
             "task_list":[
-                "Inspect a bowl by lamplight.",
-                "Place a pencil on a desk",
+                "Move the laptop to the bed.",
+                "Examine the pencil by the light",
+                "Put the white cell phone in the safe",
+                "Inspect a bowl by lamplight."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Bed-302/trial_T20190908_112452_253912/traj_data.json",
+                    "tests_seen/trial_T20190908_100949_012440/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122757_136508/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptop to the bed at any time. Simultaneously, examine the pencil by the light. After moving the laptop and examining the pencil, put the white cell phone in the safe. Finally, inspect a bowl by lamplight.",
+                "compose 2":"Move the laptop to the bed at any time. After moving the laptop, examine the pencil by the light. Simultaneously, put the white cell phone in the safe. Finally, inspect a bowl by lamplight.",
+                "compose 3":"Examine the pencil by the light at any time. Simultaneously, inspect a bowl by lamplight. After examining the pencil and inspecting the bowl, move the laptop to the bed. Finally, put the white cell phone in the safe."
+            }
+        },
+        {
+            "task_list":[
+                "Put a phone in the safe next to the bed. ",
                 "Move books in the room over to the desk. ",
-                "pick up the first phone for the dresser and put it in the safe. Go back and pick up 2nd phone and put it in the safe too."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json",
-                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Safe-302/trial_T20190909_065455_263840/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Place a pencil on a desk",
-                "Inspect a bowl by lamplight.",
-                "take the phone from the top of the nightstand and place it in the drawer",
-                "Move books in the room over to the desk. "
+                "Inspect a bowl by lamplight."
             ],
             "orign":[
                 [
+                    "train/pick_and_place_simple-CellPhone-None-Safe-302/trial_T20190908_122723_141074/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json",
                     "train/pick_and_place_simple-Pencil-None-Desk-302/trial_T20190908_032739_677771/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-Drawer-302/trial_T20190907_235412_132976/traj_data.json",
-                    "valid_seen/pick_two_obj_and_place-Book-None-Desk-302/trial_T20190906_181233_363875/traj_data.json"
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-302/trial_T20190907_190751_819937/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a pencil on a desk at any time. At the same time, move books in the room over to the desk. After placing the pencil and moving the books, put a phone in the safe next to the bed. Finally, inspect a bowl by lamplight.",
+                "compose 2":"Move books in the room over to the desk at any time. Simultaneously, place a pencil on a desk. After moving the books and placing the pencil, put a phone in the safe next to the bed. Finally, inspect a bowl by lamplight.",
+                "compose 3":"Inspect a bowl by lamplight at any time. After inspecting the bowl, place a pencil on a desk. Simultaneously, move books in the room over to the desk. Finally, put a phone in the safe next to the bed."
+            }
         }
     ],
     "tasks_5":[],

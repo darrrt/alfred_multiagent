@@ -8,9 +8,9 @@
                 "Putting a cardboard box with a set of keys in it on the couch"
             ],
             "relative_objects":[
-                "Chair",
+                "KeyChain",
                 "Box",
-                "KeyChain"
+                "Chair"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_105338_371212/traj_data.json":{
@@ -20,9 +20,9 @@
                 "Move keys to a box on the chair "
             ],
             "relative_objects":[
-                "Chair",
+                "KeyChain",
                 "Box",
-                "KeyChain"
+                "Chair"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_105101_647626/traj_data.json":{
@@ -32,8 +32,8 @@
                 "Place a box with a set of keys on a chair."
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-205/trial_T20190911_061501_585605/traj_data.json":{
@@ -43,8 +43,8 @@
                 "Close a cardboard box with keys inside."
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         },
         "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json":{
@@ -105,8 +105,8 @@
                 "Put the laptop on the brown armchair."
             ],
             "relative_objects":[
-                "Chair",
-                "Laptop"
+                "Laptop",
+                "Chair"
             ]
         },
         "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json":{
@@ -148,10 +148,10 @@
                 "Move a box and keys from a sofa to a table"
             ],
             "relative_objects":[
-                "CreditCard",
+                "KeyChain",
                 "Pillow",
-                "Box",
-                "KeyChain"
+                "CreditCard",
+                "Box"
             ]
         },
         "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json":{
@@ -176,41 +176,41 @@
         },
         {
             "task_list":[
-                "Moving a laptop from a table to a chair. "
+                "move the computer from the table to the chair"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json"
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a cardboard box with keys in it on a red chair."
+                "Examine a key chain by the dim natural light of a living room."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_105338_371212/traj_data.json"
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a box with a card on a table."
+                "Put a box with a credit card in it, on top of the table beside the TV cabinet. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190912_004956_443783/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190911_191424_759852/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a box with a card on a table."
+                "Turn off the floor lamp with a watch in hand. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190912_004956_443783/traj_data.json"
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json"
                 ]
             ]
         }
@@ -218,108 +218,91 @@
     "tasks_2":[
         {
             "task_list":[
-                "Pick up the keys near the lamp to turn it off.",
-                "Put a cardboard box with a credit card in it on a round black table."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Take the box from the kitchen table, put it on the red couch",
-                "move the computer from the table to the chair"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the keys near the lamp to turn it off.",
-                "Take the box from the kitchen table, put it on the red couch"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Turn off the floor lamp with a watch in hand. ",
-                "Pick up the keys near the lamp to turn it off."
+                "Put a box with keys in it on the chair."
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_105101_647626/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn off the floor lamp with a watch in hand. After turning off the floor lamp, put a box with keys in it on the chair.",
+                "compose 2":"Put a box with keys in it on the chair. At any time, turn off the floor lamp with a watch in hand.",
+                "compose 3":"Turn off the floor lamp with a watch in hand. Simultaneously, put a box with keys in it on the chair."
+            }
         },
         {
             "task_list":[
-                "Place a box with a card on a table.",
+                "Take the box from the kitchen table, put it on the red couch",
+                "Pick up the keys near the lamp to turn it off."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Take the box from the kitchen table, put it on the red couch. After completing this task, pick up the keys near the lamp to turn it off.",
+                "compose 2":"Pick up the keys near the lamp to turn it off at any time. Simultaneously, take the box from the kitchen table, put it on the red couch.",
+                "compose 3":"Take the box from the kitchen table, put it on the red couch. Only after completing this task, pick up the keys near the lamp to turn it off."
+            }
+        },
+        {
+            "task_list":[
+                "Turn off the floor lamp with a watch in hand. ",
+                "Place a box with a card on a table."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190912_004956_443783/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn off the floor lamp with a watch in hand. Place a box with a card on a table.",
+                "compose 2":"Place a box with a card on a table. Turn off the floor lamp with a watch in hand.",
+                "compose 3":"Turn off the floor lamp with a watch in hand at any time. Simultaneously, place a box with a card on a table."
+            }
+        },
+        {
+            "task_list":[
+                "Put a cardboard box with a credit card in it on a round black table.",
+                "Turn off the floor lamp with a watch in hand. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cardboard box with a credit card in it on a round black table at any time. Simultaneously, turn off the floor lamp with a watch in hand.",
+                "compose 2":"Turn off the floor lamp with a watch in hand. Once done, put a cardboard box with a credit card in it on a round black table.",
+                "compose 3":"Put a cardboard box with a credit card in it on a round black table at any time. After placing the cardboard box, turn off the floor lamp with a watch in hand."
+            }
+        },
+        {
+            "task_list":[
+                "Put a box with keys in it on the chair.",
                 "move the computer from the table to the chair"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190912_004956_443783/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_104931_228949/traj_data.json",
                     "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a box with keys in it on the chair at any time. Simultaneously, move the computer from the table to the chair.",
+                "compose 2":"Move the computer from the table to the chair at any time. After moving the computer, put a box with keys in it on the chair.",
+                "compose 3":"Put a box with keys in it on the chair at any time. Simultaneously, move the computer from the table to the chair."
+            }
         }
     ],
     "tasks_3":[
-        {
-            "task_list":[
-                "Examine a key chain by the dim natural light of a living room.",
-                "Take the box from the kitchen table, put it on the red couch",
-                "Moving a laptop from a table to a chair. "
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Moving a laptop from a table to a chair. ",
-                "Take the box from the kitchen table, put it on the red couch",
-                "Pick up the keys near the lamp to turn it off."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a key chain by the dim natural light of a living room.",
-                "Turn off the floor lamp with a watch in hand. ",
-                "Put a cardboard box with a credit card in it on a round black table."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json"
-                ]
-            ]
-        },
         {
             "task_list":[
                 "Put a cardboard box with a credit card in it on a round black table.",
@@ -332,87 +315,195 @@
                     "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
                     "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cardboard box with a credit card in it on a round black table at any time. Simultaneously, pick up the keys near the lamp to turn it off. After completing the previous tasks, move a laptop from a table to a chair.",
+                "compose 2":"Pick up the keys near the lamp to turn it off at any time. Simultaneously, put a cardboard box with a credit card in it on a round black table. After turning off the lamp and placing the box, move a laptop from a table to a chair.",
+                "compose 3":"Pick up the keys near the lamp to turn it off before starting any other task. After turning off the lamp, put a cardboard box with a credit card in it on a round black table. Finally, move a laptop from a table to a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up watches from the table, one-at-a-time, put them on the TV stand.",
+                "Moving a laptop from a table to a chair. ",
+                "place a box with keys in it on the right side of the red couch"
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-205/trial_T20190911_061501_585605/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up watches from the table, one-at-a-time, put them on the TV stand. Simultaneously, moving a laptop from a table to a chair. After placing the watches, place a box with keys in it on the right side of the red couch.",
+                "compose 2":"Moving a laptop from a table to a chair. Place a box with keys in it on the right side of the red couch. After that, pick up watches from the table, one-at-a-time, put them on the TV stand.",
+                "compose 3":"Place a box with keys in it on the right side of the red couch. Pick up watches from the table, one-at-a-time, put them on the TV stand. After placing the watches, moving a laptop from a table to a chair."
+            }
         },
         {
             "task_list":[
                 "Pick up the keys near the lamp to turn it off.",
-                "Turn off the floor lamp with a watch in hand. ",
-                "Put a box with a credit card in it, on top of the table beside the TV cabinet. "
+                "Moving a laptop from a table to a chair. ",
+                "Take the box from the kitchen table, put it on the red couch"
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190911_191424_759852/traj_data.json"
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Moving a laptop from a table to a chair at any time. Simultaneously, pick up the keys near the lamp to turn it off. After moving the laptop and turning off the lamp, take the box from the kitchen table and put it on the red couch.",
+                "compose 2":"Pick up the keys near the lamp to turn it off at any time. After turning off the lamp, move a laptop from a table to a chair. Then, take the box from the kitchen table and put it on the red couch.",
+                "compose 3":"Pick up the keys near the lamp to turn it off. Once the lamp is off, take the box from the kitchen table, put it on the red couch. Finally, move a laptop from a table to a chair."
+            }
+        },
+        {
+            "task_list":[
+                "place a box with keys in it on the right side of the red couch",
+                "move the computer from the table to the chair",
+                "Pick up watches from the table, one-at-a-time, put them on the TV stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-205/trial_T20190911_061501_585605/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a box with keys in it on the right side of the red couch. Simultaneously, move the computer from the table to the chair. After completing the previous tasks, pick up watches from the table, one-at-a-time, and put them on the TV stand.",
+                "compose 2":"Move the computer from the table to the chair. After moving the computer, place a box with keys in it on the right side of the red couch. Finally, pick up watches from the table, one-at-a-time, and put them on the TV stand.",
+                "compose 3":"Pick up watches from the table, one-at-a-time, and put them on the TV stand. Simultaneously, move the computer from the table to the chair. After completing the previous tasks, place a box with keys in it on the right side of the red couch."
+            }
+        },
+        {
+            "task_list":[
+                "Put a box with keys in it on the chair.",
+                "move the computer from the table to the chair",
+                "Pick up watches from the table, one-at-a-time, put them on the TV stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-205/trial_T20190909_104931_228949/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a box with keys in it on the chair at any time. Simultaneously, move the computer from the table to the chair. After moving the computer, pick up watches from the table, one-at-a-time, and put them on the TV stand.",
+                "compose 2":"Pick up watches from the table, one-at-a-time, and put them on the TV stand at any time. Simultaneously, put a box with keys in it on the chair. After putting the box on the chair, move the computer from the table to the chair.",
+                "compose 3":"Move the computer from the table to the chair at any time. Simultaneously, pick up watches from the table, one-at-a-time, and put them on the TV stand. After moving the computer, put a box with keys in it on the chair."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Examine a key chain by the dim natural light of a living room.",
-                "Put a box with a credit card in it, on top of the table beside the TV cabinet. ",
-                "move the computer from the table to the chair",
-                "Pick up watches from the table, one-at-a-time, put them on the TV stand."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190911_191424_759852/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json",
-                    "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Moving a laptop from a table to a chair. ",
-                "Put a box with a credit card in it, on top of the table beside the TV cabinet. ",
                 "Examine a key chain by the dim natural light of a living room.",
+                "Put a box with a credit card in it, on top of the table beside the TV cabinet. ",
                 "Pick up watches from the table, one-at-a-time, put them on the TV stand."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190911_191424_759852/traj_data.json",
                     "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190911_191424_759852/traj_data.json",
                     "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a laptop from a table to a chair. Examine a key chain by the dim natural light of a living room. Put a box with a credit card in it, on top of the table beside the TV cabinet. Pick up watches from the table, one-at-a-time, put them on the TV stand.",
+                "compose 2":"Move a laptop from a table to a chair. Pick up watches from the table, one-at-a-time, put them on the TV stand. Examine a key chain by the dim natural light of a living room. Put a box with a credit card in it, on top of the table beside the TV cabinet.",
+                "compose 3":"Examine a key chain by the dim natural light of a living room. Put a box with a credit card in it, on top of the table beside the TV cabinet. Move a laptop from a table to a chair. Pick up watches from the table, one-at-a-time, put them on the TV stand."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the keys near the lamp to turn it off.",
+                "Turn off the floor lamp with a watch in hand. ",
+                "Moving a laptop from a table to a chair. ",
+                "Take the box from the kitchen table, put it on the red couch"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys near the lamp to turn it off. Simultaneously, turn off the floor lamp with a watch in hand. After turning off the lamps, move a laptop from a table to a chair. Once the laptop is moved, take the box from the kitchen table and put it on the red couch.",
+                "compose 2":"Turn off the floor lamp with a watch in hand. Simultaneously, pick up the keys near the lamp to turn it off. After turning off the lamps, move a laptop from a table to a chair. Once the laptop is moved, take the box from the kitchen table and put it on the red couch.",
+                "compose 3":"Turn off the floor lamp with a watch in hand. After turning off the lamp, move a laptop from a table to a chair. Simultaneously, pick up the keys near the lamp to turn it off. Once the laptop is moved, take the box from the kitchen table and put it on the red couch."
+            }
         },
         {
             "task_list":[
                 "move the computer from the table to the chair",
-                "Examine a key chain by the dim natural light of a living room.",
+                "Pick up the keys near the lamp to turn it off.",
                 "Pick up watches from the table, one-at-a-time, put them on the TV stand.",
                 "Take the box from the kitchen table, put it on the red couch"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082554_250199/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
                     "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json",
                     "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys near the lamp to turn it off. After turning off the lamp, move the computer from the table to the chair. Simultaneously, take the box from the kitchen table and put it on the red couch. Lastly, pick up watches from the table, one-at-a-time, and put them on the TV stand.",
+                "compose 2":"Pick up the keys near the lamp to turn it off. After turning off the lamp, take the box from the kitchen table and put it on the red couch. Then, move the computer from the table to the chair. Finally, pick up watches from the table, one-at-a-time, and put them on the TV stand.",
+                "compose 3":"Take the box from the kitchen table and put it on the red couch. Simultaneously, pick up watches from the table, one-at-a-time, and put them on the TV stand. After that, pick up the keys near the lamp to turn it off. Once the lamp is turned off, move the computer from the table to the chair."
+            }
         },
         {
             "task_list":[
-                "Pick up the keys near the lamp to turn it off.",
-                "Take the box from the kitchen table, put it on the red couch",
                 "Turn off the floor lamp with a watch in hand. ",
-                "Moving a laptop from a table to a chair. "
+                "Moving a laptop from a table to a chair. ",
+                "Put a cardboard box with a credit card in it on a round black table.",
+                "Examine a key chain by the dim natural light of a living room."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114650_476616/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json",
                     "train/look_at_obj_in_light-Watch-None-FloorLamp-205/trial_T20190908_042518_905827/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json"
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Moving a laptop from a table to a chair at any time. After moving the laptop, turn off the floor lamp with a watch in hand. Finally, examine a key chain by the dim natural light of a living room.",
+                "compose 2":"Examine a key chain by the dim natural light of a living room at any time. Simultaneously, moving a laptop from a table to a chair. After examining the key chain, put a cardboard box with a credit card in it on a round black table. Finally, turn off the floor lamp with a watch in hand.",
+                "compose 3":"Put a cardboard box with a credit card in it on a round black table at any time. After placing the cardboard box, turn off the floor lamp with a watch in hand. Finally, moving a laptop from a table to a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Examine a key chain by the dim natural light of a living room.",
+                "Put a cardboard box with a credit card in it on a round black table.",
+                "Moving a laptop from a table to a chair. ",
+                "Pick up watches from the table, one-at-a-time, put them on the TV stand."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-205/trial_T20190909_114633_189769/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-SideTable-205/trial_T20190908_124856_235789/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-ArmChair-205/trial_T20190908_082607_110365/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-Watch-None-Dresser-205/trial_T20190907_182211_592010/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a key chain by the dim natural light of a living room. Put a cardboard box with a credit card in it on a round black table. Moving a laptop from a table to a chair. Pick up watches from the table, one-at-a-time, put them on the TV stand.",
+                "compose 2":"Put a cardboard box with a credit card in it on a round black table. Moving a laptop from a table to a chair. Examine a key chain by the dim natural light of a living room. Pick up watches from the table, one-at-a-time, put them on the TV stand.",
+                "compose 3":"Examine a key chain by the dim natural light of a living room. Pick up watches from the table, one-at-a-time, put them on the TV stand. Put a cardboard box with a credit card in it on a round black table. Moving a laptop from a table to a chair."
+            }
         }
     ],
     "tasks_5":[],

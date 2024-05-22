@@ -38,8 +38,8 @@
                 "Put a box with a credit card in it on a couch cushion."
             ],
             "relative_objects":[
-                "CreditCard",
                 "Pillow",
+                "CreditCard",
                 "Box",
                 "Sofa"
             ]
@@ -61,8 +61,8 @@
                 "place a box on a chair"
             ],
             "relative_objects":[
-                "Chair",
-                "Box"
+                "Box",
+                "Chair"
             ]
         },
         "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json":{
@@ -154,8 +154,8 @@
                 "Put keys on a seat's cushion."
             ],
             "relative_objects":[
-                "Pillow",
-                "KeyChain"
+                "KeyChain",
+                "Pillow"
             ]
         },
         "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json":{
@@ -195,8 +195,8 @@
                 "Move a credit card to the coffee table"
             ],
             "relative_objects":[
-                "CreditCard",
-                "CoffeeTable"
+                "CoffeeTable",
+                "CreditCard"
             ]
         },
         "tests_seen/trial_T20190908_171843_959261/traj_data.json":{
@@ -216,8 +216,8 @@
                 "Put the credit card in the box, move the box to the sofa with white pillow"
             ],
             "relative_objects":[
-                "CreditCard",
                 "Pillow",
+                "CreditCard",
                 "Box"
             ]
         },
@@ -235,11 +235,31 @@
     "tasks_1":[
         {
             "task_list":[
-                "Examine a credit card under a lamp"
+                "To move the keys."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json"
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the keys from the table to the sofa"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-217/trial_T20190908_065419_074210/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "move the credit cards to the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json"
                 ]
             ]
         },
@@ -255,31 +275,11 @@
         },
         {
             "task_list":[
-                "Move the credit card to the coffee table."
+                "Put keys on a seat's cushion."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135734_881357/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the remotes from the table to the arm chair seat."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115832_508705/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the remote in front of the TV. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/traj_data.json"
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-217/trial_T20190906_213318_485668/traj_data.json"
                 ]
             ]
         }
@@ -287,394 +287,567 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put the keys on the TV stand.",
-                "Examine a credit card under a lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190908_133414_664426/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the credit card to the coffee table.",
-                "To move the keys."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135734_881357/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "move a box from the table to the chair",
-                "move the credit cards to the chair."
+                "Move a watering can into a dresser cabinet."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json"
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a box from the table to the chair at any time. Simultaneously, move a watering can into a dresser cabinet.",
+                "compose 2":"Move a watering can into a dresser cabinet at any time. After moving the watering can, move a box from the table to the chair.",
+                "compose 3":"Move a box from the table to the chair at any time. Once the box is moved, move a watering can into a dresser cabinet."
+            }
         },
         {
             "task_list":[
-                "Move a watering can into a dresser cabinet.",
+                "Move keys from the sofa to the TV stand.",
+                "Pick up the remote control, turn on the floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203234_912024/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-217/trial_T20190908_001626_324258/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the remote control, turn on the floor lamp. Then, move keys from the sofa to the TV stand.",
+                "compose 2":"Move keys from the sofa to the TV stand. Simultaneously, pick up the remote control and turn on the floor lamp.",
+                "compose 3":"Pick up the remote control, turn on the floor lamp. After completing this task, move keys from the sofa to the TV stand."
+            }
+        },
+        {
+            "task_list":[
+                "Move pillows to the chair.",
                 "Move the remotes to the arm chair seat."
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
+                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
                     "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move pillows to the chair at any time. Simultaneously, move the remotes to the arm chair seat.",
+                "compose 2":"Move the remotes to the arm chair seat first. Then, move pillows to the chair.",
+                "compose 3":"Move pillows to the chair. Subsequently, move the remotes to the arm chair seat."
+            }
         },
         {
             "task_list":[
-                "Move the keys from the table to the sofa",
-                "move the credit cards to the chair."
+                "move the credit cards to the chair.",
+                "To move the keys."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-217/trial_T20190908_065419_074210/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json"
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the credit cards to the chair at any time. Simultaneously, move the keys.",
+                "compose 2":"Move the keys. After moving the keys, move the credit cards to the chair.",
+                "compose 3":"Move the credit cards to the chair. Upon completion, move the keys."
+            }
+        },
+        {
+            "task_list":[
+                "Place the box with the credit card to the left of the pillow on the sofa.",
+                "Put the remote in front of the TV. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Sofa-217/trial_T20190909_161627_442432/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the box with the credit card to the left of the pillow on the sofa at any time. Simultaneously, put the remote in front of the TV.",
+                "compose 2":"Put the remote in front of the TV at any time. After placing the remote, place the box with the credit card to the left of the pillow on the sofa.",
+                "compose 3":"Place the box with the credit card to the left of the pillow on the sofa at any time. After placing the box, put the remote in front of the TV."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Pick up the remote control, turn on the floor lamp.",
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Move a watering can into a dresser cabinet."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-217/trial_T20190908_001626_324258/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
-                    "tests_seen/trial_T20190908_171807_876172/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Place a remote on a dresser.",
-                "Put a credit card on the table."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135838_223609/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Put the keys on the TV stand.",
-                "Move the remotes to the arm chair seat.",
-                "move a box from the table to the chair"
+                "move a box from the table to the chair",
+                "Move the credit card to the coffee table."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190908_133414_664426/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Move a watering can into a dresser cabinet.",
-                "Move pillows to the chair."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
-                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
-                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the remotes to the arm chair seat.",
-                "move a box from the table to the chair",
-                "Place a watering can in a cabinet"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json",
                     "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
-                    "tests_seen/trial_T20190908_171843_959261/traj_data.json"
+                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135734_881357/traj_data.json"
                 ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Put keys on a seat's cushion.",
-                "Put the remote in front of the TV. ",
-                "move a box from the table to the chair"
             ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-217/trial_T20190906_213318_485668/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move the credit card to the coffee table at any time. Simultaneously, put the keys on the TV stand. Once both are completed, move a box from the table to the chair.",
+                "compose 2":"Put the keys on the TV stand at any time. After that, move a box from the table to the chair. Finally, move the credit card to the coffee table.",
+                "compose 3":"Move a box from the table to the chair at any time. Simultaneously, put the keys on the TV stand. Once both are completed, move the credit card to the coffee table."
+            }
         },
         {
             "task_list":[
-                "move a box from the table to the chair",
                 "Place a remote on a dresser.",
                 "Put a credit card on the table.",
                 "To move the keys."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
                     "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json",
                     "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135838_223609/traj_data.json",
                     "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move the keys.",
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Examine a credit card under a lamp",
-                "Put the remote in front of the TV. "
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place a remote on a dresser. Simultaneously, put a credit card on the table. After placing the remote and the credit card, move the keys.",
+                "compose 2":"Put a credit card on the table at any time. Simultaneously, place a remote on a dresser. After placing the credit card and the remote, move the keys.",
+                "compose 3":"To move the keys at any time. Simultaneously, put a credit card on the table. After moving the keys, place a remote on a dresser."
+            }
         },
         {
             "task_list":[
-                "Put the keys on the TV stand.",
-                "Move the remotes from the table to the arm chair seat.",
-                "Move pillows to the chair.",
-                "Place a watering can in a cabinet"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190908_133414_664426/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115832_508705/traj_data.json",
-                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
-                    "tests_seen/trial_T20190908_171843_959261/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a watering can in a cabinet",
-                "Put a credit card on the table.",
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "Move a watering can into a dresser cabinet.",
+                "place a box with a credit card in it on top of the couch",
                 "Pick up the remote control, turn on the floor lamp."
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190908_171843_959261/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135838_223609/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
+                    "tests_seen/trial_T20190906_194056_557446/traj_data.json",
                     "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-217/trial_T20190908_001626_324258/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a watering can into a dresser cabinet at any time. Simultaneously, place a box with a credit card in it on top of the couch. After moving the watering can and placing the box with the credit card, pick up the remote control and turn on the floor lamp.",
+                "compose 2":"Place a box with a credit card in it on top of the couch at any time. Simultaneously, pick up the remote control and turn on the floor lamp. After placing the box with the credit card and turning on the lamp, move a watering can into a dresser cabinet.",
+                "compose 3":"Pick up the remote control, turn on the floor lamp at any time. Simultaneously, move a watering can into a dresser cabinet. After picking up the remote control and turning on the lamp, place a box with a credit card in it on top of the couch."
+            }
+        },
+        {
+            "task_list":[
+                "Move the remotes to the arm chair seat.",
+                "Examine a credit card under a lamp",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the remotes to the arm chair seat at any time. Simultaneously, examine a credit card under a lamp. Once done, grab the watch on the coffee table and then turn on the floor lamp in the corner.",
+                "compose 2":"Grab the watch on the coffee table, then turn on the floor lamp in the corner. Once completed, move the remotes to the arm chair seat followed by examining a credit card under a lamp.",
+                "compose 3":"Examine a credit card under a lamp first. After that, grab the watch on the coffee table, turn on the floor lamp in the corner and move the remotes to the arm chair seat."
+            }
+        },
+        {
+            "task_list":[
+                "Place a remote on a dresser.",
+                "Move the keys from the table to the sofa",
+                "move the credit cards to the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-217/trial_T20190908_065419_074210/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a remote on a dresser at any time. Simultaneously, move the keys from the table to the sofa. After placing the remote and moving the keys, move the credit cards to the chair.",
+                "compose 2":"Move the keys from the table to the sofa at any time. Simultaneously, move the credit cards to the chair. After moving the keys and credit cards, place a remote on a dresser.",
+                "compose 3":"Move the keys from the table to the sofa at any time. After moving the keys, place a remote on a dresser. After placing the remote, move the credit cards to the chair."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move keys to a couch. ",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "Move the remotes from the table to the arm chair seat.",
+                "move the credit cards to the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-217/trial_T20190908_065504_716374/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115832_508705/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move the remotes from the table to the arm chair seat. After completing the previous tasks, move keys to a couch.",
+                "compose 2":"Move keys to a couch. After moving the keys, move the remotes from the table to the arm chair seat. Simultaneously, grab the watch on the coffee table, turn on the floor lamp in the corner.",
+                "compose 3":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move keys to a couch. After completing the previous tasks, move the remotes from the table to the arm chair seat, then move the credit cards to the chair."
+            }
+        },
+        {
+            "task_list":[
+                "move a box from the table to the chair",
+                "Place a watering can in a cabinet",
+                "Move the credit card to the coffee table.",
+                "To move the keys."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
+                    "tests_seen/trial_T20190908_171843_959261/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135734_881357/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the credit card to the coffee table at any time. After moving the credit card, place a watering can in a cabinet. Then, move a box from the table to the chair. Finally, move the keys.",
+                "compose 2":"Place a watering can in a cabinet at any time. Simultaneously, move the credit card to the coffee table. After placing the watering can and the credit card, move a box from the table to the chair. Finally, move the keys.",
+                "compose 3":"Move the credit card to the coffee table at any time. After moving the credit card, move a box from the table to the chair. Then, place a watering can in a cabinet. Lastly, move the keys."
+            }
+        },
+        {
+            "task_list":[
+                "Move the remotes to the arm chair seat.",
+                "Move a box from the couch to the chair.",
+                "move the credit cards to the chair.",
+                "To move the keys."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a box from the couch to the chair at any time. Simultaneously, move the credit cards to the chair.After moving the box and credit cards, move the remotes to the arm chair seat.",
+                "compose 2":"Move a box from the couch to the chair at any time. After moving the box, move the credit cards to the chair. Once both are completed, move the remotes to the arm chair seat.",
+                "compose 3":"Move the remotes to the arm chair seat at any time. After moving the remotes, move a box from the couch to the chair and then move the credit cards to the chair. Finally, move the keys."
+            }
+        },
+        {
+            "task_list":[
+                "Examine a credit card under a lamp",
+                "Move keys from the sofa to the TV stand.",
+                "Pick up the remote control, turn on the floor lamp.",
+                "Move a box from the couch to the chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203234_912024/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-217/trial_T20190908_001626_324258/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a credit card under a lamp at any time. Simultaneously, pick up the remote control, turn on the floor lamp. After examining the credit card, move keys from the sofa to the TV stand. After completing the previous tasks, move a box from the couch to the chair.",
+                "compose 2":"Move a box from the couch to the chair at any time. Simultaneously, examine a credit card under a lamp. After moving the box, pick up the remote control, turn on the floor lamp. After completing the previous tasks, move keys from the sofa to the TV stand.",
+                "compose 3":"Move keys from the sofa to the TV stand at any time. Simultaneously, pick up the remote control, turn on the floor lamp. After moving the keys, move a box from the couch to the chair. After completing the previous tasks, examine a credit card under a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Move pillows to the chair.",
+                "Put a credit card on the table.",
+                "Place a remote on a dresser.",
+                "Move keys from the sofa to the TV stand."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135838_223609/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203234_912024/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move keys from the sofa to the TV stand at any time. Simultaneously, put a credit card on the table. After moving the keys, place a remote on a dresser. Lastly, move pillows to the chair.",
+                "compose 2":"Move pillows to the chair at any time. Simultaneously, place a remote on a dresser. After moving the pillows, move keys from the sofa to the TV stand. Lastly, put a credit card on the table.",
+                "compose 3":"Put a credit card on the table at any time. Simultaneously, place a remote on a dresser. After putting the credit card, move keys from the sofa to the TV stand. Lastly, move pillows to the chair."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
+                "To move the keys.",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "move the credit cards to the chair.",
+                "Place a remote on a dresser.",
+                "Place a watering can in a cabinet"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json",
+                    "tests_seen/trial_T20190908_171843_959261/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner at any time. Simultaneously, move the credit cards to the chair. After completing these tasks, place a remote on a dresser. To finish, place a watering can in a cabinet.",
+                "compose 2":"Move the credit cards to the chair before placing a watering can in a cabinet. Grab the watch on the coffee table, turn on the floor lamp in the corner, and place a remote on a dresser can be done in any order.",
+                "compose 3":"To start, grab the watch on the coffee table and turn on the floor lamp in the corner. Next, place a remote on a dresser. Then, move the credit cards to the chair. Finally, place a watering can in a cabinet."
+            }
+        },
+        {
+            "task_list":[
+                "To move the keys.",
+                "Place a watering can in a cabinet",
+                "move the credit cards to the chair.",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "Move the remotes from the table to the arm chair seat."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json",
+                    "tests_seen/trial_T20190908_171843_959261/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115832_508705/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Then place a watering can in a cabinet. After that, move the credit cards to the chair. Finally, move the remotes from the table to the arm chair seat. To move the keys can be done at any time.",
+                "compose 2":"Place a watering can in a cabinet. Next, grab the watch on the coffee table, turn on the floor lamp in the corner. Then move the remotes from the table to the arm chair seat. After that, move the credit cards to the chair. To move the keys can be done at any time.",
+                "compose 3":"Move the credit cards to the chair. Then move the remotes from the table to the arm chair seat. Next, grab the watch on the coffee table, turn on the floor lamp in the corner. After that, place a watering can in a cabinet. To move the keys can be done at any time."
+            }
+        },
+        {
+            "task_list":[
+                "Move a box from the couch to the chair.",
                 "Move a watering can into a dresser cabinet.",
-                "Move the credit card to the coffee table.",
-                "To move the keys.",
-                "Move the remotes to the arm chair seat.",
-                "move a box from the table to the chair"
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135734_881357/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the remote in front of the TV. ",
-                "Place a watering can in a cabinet",
-                "move the credit cards to the chair.",
-                "To move the keys.",
-                "move a box from the table to the chair"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/traj_data.json",
-                    "tests_seen/trial_T20190908_171843_959261/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move pillows to the chair.",
-                "Move keys from the sofa to the TV stand.",
-                "Put a credit card on the table.",
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Move a watering can into a dresser cabinet."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203234_912024/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135838_223609/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
-                    "tests_seen/trial_T20190908_171807_876172/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a box from the couch to the chair.",
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Move keys to a couch. ",
-                "Move pillows to the chair.",
-                "move the credit cards to the chair."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-217/trial_T20190908_065504_716374/traj_data.json",
-                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move a box from the table to the chair",
-                "Place a watering can in a cabinet",
-                "move the credit cards to the chair.",
-                "Move keys to a couch. ",
-                "Move the remotes to the arm chair seat."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
-                    "tests_seen/trial_T20190908_171843_959261/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-217/trial_T20190908_065504_716374/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_6":[
-        {
-            "task_list":[
-                "Pick up the remote control, turn on the floor lamp.",
-                "move the credit cards to the chair.",
-                "Move pillows to the chair.",
-                "Place a watering can in a cabinet",
-                "Move a box from the couch to the chair.",
-                "Put the keys on the TV stand."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-217/trial_T20190908_001626_324258/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
-                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
-                    "tests_seen/trial_T20190908_171843_959261/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190908_133414_664426/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move a box from the table to the chair",
-                "Put the keys on the TV stand.",
-                "Move the remotes to the arm chair seat.",
-                "Examine a credit card under a lamp",
-                "Move pillows to the chair.",
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190908_133414_664426/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json",
-                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a watering can in a cabinet",
-                "move a box from the table to the chair",
-                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Move pillows to the chair.",
-                "Put a credit card on the table.",
-                "Move keys from the sofa to the TV stand."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190908_171843_959261/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
-                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135838_223609/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203234_912024/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move pillows to the chair.",
-                "move a box from the table to the chair",
-                "Examine a credit card under a lamp",
-                "Put the keys on the TV stand.",
+                "Move the keys from the table to the sofa",
                 "Grab the watch on the coffee table, turn on the floor lamp in the corner",
                 "Pick up the remote control, turn on the floor lamp."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190908_133414_664426/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json",
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-217/trial_T20190908_065419_074210/traj_data.json",
                     "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
                     "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-217/trial_T20190908_001626_324258/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a box from the couch to the chair. Once completed, move the keys from the table to the sofa. After moving the keys, grab the watch on the coffee table and turn on the floor lamp in the corner. Finally, pick up the remote control and turn on the floor lamp.",
+                "compose 2":"Grab the watch on the coffee table and turn on the floor lamp in the corner. After that, move the keys from the table to the sofa. Next, pick up the remote control and turn on the floor lamp. Once completed, move a box from the couch to the chair. After moving the box, move a watering can into a dresser cabinet.",
+                "compose 3":"Move the keys from the table to the sofa and grab the watch on the coffee table, turning on the floor lamp in the corner simultaneously. Then, move a watering can into a dresser cabinet. Afterward, pick up the remote control and turn on the floor lamp followed by moving a box from the couch to the chair."
+            }
+        },
+        {
+            "task_list":[
+                "Move a watering can into a dresser cabinet.",
+                "To move the keys.",
+                "Place a remote on a dresser.",
+                "move the credit cards to the chair.",
+                "move a box from the table to the chair"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a watering can into a dresser cabinet at any time. Simultaneously, place a remote on a dresser. After moving the watering can and placing the remote, move a box from the table to the chair. Once all the previous tasks are completed, move the keys. Finally, move the credit cards to the chair.",
+                "compose 2":"Move a box from the table to the chair at any time. Concurrently, move the credit cards to the chair. After moving the box and the credit cards, move a watering can into a dresser cabinet. Once those tasks are finished, move the keys. Lastly, place a remote on a dresser.",
+                "compose 3":"Move a box from the table to the chair at any time. Simultaneously, move a watering can into a dresser cabinet. After moving the box and the watering can, move the keys. Following the completion of the previous tasks, place a remote on a dresser. Finally, move the credit cards to the chair."
+            }
+        },
+        {
+            "task_list":[
+                "Move the remotes to the arm chair seat.",
+                "move a box from the table to the chair",
+                "Move a watering can into a dresser cabinet.",
+                "Move pillows to the chair.",
+                "Examine a credit card under a lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
+                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the remotes to the arm chair seat. After moving the remotes, move a box from the table to the chair. Finally, move a watering can into a dresser cabinet.",
+                "compose 2":"Examine a credit card under a lamp. Simultaneously, move pillows to the chair. After examining the credit card and moving the pillows, move a box from the table to the chair.",
+                "compose 3":"Move a box from the table to the chair at any time. After moving the box, move pillows to the chair. Finally, move the remotes to the arm chair seat. After completing these tasks, examine a credit card under a lamp and then move a watering can into a dresser cabinet."
+            }
         }
     ],
-    "tasks_7":[],
+    "tasks_6":[
+        {
+            "task_list":[
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "move a box from the table to the chair",
+                "Move the credit card to the coffee table.",
+                "Place a remote on a dresser.",
+                "Place a watering can in a cabinet",
+                "To move the keys."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135734_881357/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json",
+                    "tests_seen/trial_T20190908_171843_959261/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner at any time. Simultaneously, place a watering can in a cabinet. After turning on the lamp, move a box from the table to the chair. Once the box is moved, place a remote on a dresser followed by moving the credit card to the coffee table. Finish by moving the keys.",
+                "compose 2":"Move the credit card to the coffee table before placing a remote on a dresser. Simultaneously, grab the watch on the coffee table and turn on the floor lamp in the corner. After placing the remote, move the keys. Finally, place a watering can in a cabinet.",
+                "compose 3":"To move the keys after placing a remote on a dresser. Before moving the keys, move a box from the table to the chair. Simultaneously, grab the watch on the coffee table and turn on the floor lamp in the corner. After moving the box, place a watering can in a cabinet followed by moving the credit card to the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Move pillows to the chair.",
+                "To move the keys.",
+                "move a box from the table to the chair",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "Move the remotes from the table to the arm chair seat.",
+                "Examine a credit card under a lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170746_281017/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115832_508705/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move pillows to the chair. To move the keys. Move a box from the table to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remotes from the table to the arm chair seat. Examine a credit card under a lamp.",
+                "compose 2":"Move pillows to the chair. Move a box from the table to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remotes from the table to the arm chair seat. Examine a credit card under a lamp. To move the keys.",
+                "compose 3":"Move pillows to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remotes from the table to the arm chair seat. Examine a credit card under a lamp. To move the keys. Move a box from the table to the chair."
+            }
+        },
+        {
+            "task_list":[
+                "move the credit cards to the chair.",
+                "Put the remote in front of the TV. ",
+                "Put keys on a seat's cushion.",
+                "Move a box from the couch to the chair.",
+                "Move a watering can into a dresser cabinet.",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-217/trial_T20190909_114045_918354/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053743_317534/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-ArmChair-217/trial_T20190906_213318_485668/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json",
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a box from the couch to the chair. Simultaneously, put keys on a seat's cushion.After moving the box, grab the watch on the coffee table, turn on the floor lamp in the corner.",
+                "compose 2":"Move the credit cards to the chair. Put the remote in front of the TV. Put keys on a seat's cushion. Move a box from the couch to the chair. Move a watering can into a dresser cabinet. Grab the watch on the coffee table, turn on the floor lamp in the corner.",
+                "compose 3":"Put keys on a seat's cushion. Move a box from the couch to the chair. Simultaneously, grab the watch on the coffee table, turn on the floor lamp in the corner. After moving the box and grabbing the watch, move the credit cards to the chair. Put the remote in front of the TV. Move a watering can into a dresser cabinet."
+            }
+        },
+        {
+            "task_list":[
+                "Place a remote on a dresser.",
+                "Move a watering can into a dresser cabinet.",
+                "To move the keys.",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "Examine a credit card under a lamp",
+                "Move a box from the couch to the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-217/trial_T20190909_053720_916417/traj_data.json",
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203316_646156/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-217/trial_T20190908_065603_210342/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner. After that, examine a credit card under a lamp. Finally, place a remote on a dresser.",
+                "compose 2":"Move a box from the couch to the chair. Simultaneously, move the keys. After completing these tasks, move a watering can into a dresser cabinet.",
+                "compose 3":"To move the keys. After that, move a box from the couch to the chair. Next, examine a credit card under a lamp. Finally, place a remote on a dresser."
+            }
+        },
+        {
+            "task_list":[
+                "Move a box from the couch to the chair.",
+                "Move keys from the sofa to the TV stand.",
+                "Move the credit card to the coffee table.",
+                "Move the remotes from the table to the arm chair seat.",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "Move a watering can into a dresser cabinet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Dresser-217/trial_T20190910_203234_912024/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135734_881357/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115832_508705/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move keys from the sofa to the TV stand. Simultaneously, grab the watch on the coffee table, turn on the floor lamp in the corner. After moving the keys, move the credit card to the coffee table. Finally, move a box from the couch to the chair. After all, move the remotes from the table to the armchair seat. At last, move a watering can into the dresser cabinet.",
+                "compose 2":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move the remotes from the table to the armchair seat. After grabbing the watch and turning on the lamp, move a box from the couch to the chair. Next, move keys from the sofa to the TV stand. After that, move the credit card to the coffee table. To complete the tasks, move a watering can into the dresser cabinet.",
+                "compose 3":"Move keys from the sofa to the TV stand. Then, grab the watch on the coffee table, turn on the floor lamp in the corner. After completing that, move the remotes from the table to the armchair seat. Next, move a box from the couch to the chair. Following that, move the credit card to the coffee table. Lastly, move a watering can into the dresser cabinet."
+            }
+        }
+    ],
+    "tasks_7":[
+        {
+            "task_list":[
+                "Move the remotes from the table to the arm chair seat.",
+                "Move the keys from the table to the sofa",
+                "Move the credit card to the coffee table.",
+                "Move a watering can into a dresser cabinet.",
+                "Move pillows to the chair.",
+                "Grab the watch on the coffee table, turn on the floor lamp in the corner",
+                "Move a box from the couch to the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115832_508705/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-217/trial_T20190908_065419_074210/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-CoffeeTable-217/trial_T20190909_135734_881357/traj_data.json",
+                    "tests_seen/trial_T20190908_171807_876172/traj_data.json",
+                    "train/pick_two_obj_and_place-Pillow-None-ArmChair-217/trial_T20190908_034651_790752/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-217/trial_T20190907_011607_273414/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-217/trial_T20190907_170704_319038/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the keys from the table to the sofa. Turn on the floor lamp in the corner. After moving the keys and turning on the lamp, move the credit card to the coffee table. Then, move a box from the couch to the chair. Simultaneously, move the remotes from the table to the arm chair seat and grab the watch on the coffee table. Finally, move pillows to the chair and move a watering can into a dresser cabinet.",
+                "compose 2":"Move the remotes from the table to the arm chair seat. Move the keys from the table to the sofa. After moving the keys, turn on the floor lamp in the corner. Then, move a watering can into a dresser cabinet. Simultaneously, move pillows to the chair and grab the watch on the coffee table. Finally, move a box from the couch to the chair and move the credit card to the coffee table.",
+                "compose 3":"Move pillows to the chair. Move the keys from the table to the sofa. After moving the keys, turn on the floor lamp in the corner. Then, move the credit card to the coffee table. Simultaneously, move the remotes from the table to the arm chair seat and grab the watch on the coffee table. Finally, move a box from the couch to the chair and move a watering can into a dresser cabinet."
+            }
+        }
+    ],
     "tasks_8":[],
     "tasks_9":[]
 }

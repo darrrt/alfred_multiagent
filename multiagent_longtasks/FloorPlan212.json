@@ -8,19 +8,19 @@
                 "move a box from the shelf to the chair"
             ],
             "relative_objects":[
-                "RemoteControl",
-                "TissueBox",
-                "Newspaper",
-                "Boots",
-                "Pillow",
                 "Pencil",
-                "KeyChain",
-                "Pen",
                 "WateringCan",
-                "Box",
-                "Statue",
+                "Newspaper",
                 "CreditCard",
-                "Laptop"
+                "RemoteControl",
+                "Laptop",
+                "TissueBox",
+                "Box",
+                "Boots",
+                "KeyChain",
+                "Statue",
+                "Pillow",
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json":{
@@ -50,8 +50,8 @@
                 "Turn on the lamp in the corner. "
             ],
             "relative_objects":[
-                "Pen",
-                "KeyChain"
+                "KeyChain",
+                "Pen"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json":{
@@ -61,9 +61,9 @@
                 "Look at keys by the light of the lamp."
             ],
             "relative_objects":[
+                "KeyChain",
                 "RemoteControl",
-                "Pen",
-                "KeyChain"
+                "Pen"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Box-CoffeeTable-212/trial_T20190906_214302_421299/traj_data.json":{
@@ -94,9 +94,9 @@
                 "Grab the tissue box on the coffee table, turn on the floor lamp"
             ],
             "relative_objects":[
-                "TissueBox",
                 "CoffeeTable",
-                "FloorLamp"
+                "FloorLamp",
+                "TissueBox"
             ]
         },
         "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json":{
@@ -106,8 +106,8 @@
                 "turn on a lamp while holding a pencil"
             ],
             "relative_objects":[
-                "CoffeeTable",
                 "Pencil",
+                "CoffeeTable",
                 "FloorLamp"
             ]
         },
@@ -134,51 +134,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "Put a cardboard box on the green chair. "
+                "Gather the newspapers and place them in the middle of the couch"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json"
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a cardboard box on the green chair. "
+                "Put a box on a chair. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json"
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Pick up keys, turn on lamp"
+                "Grab the pencil from the coffee table, turn on the floor lamp"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json"
+                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Pick up keys, turn on lamp"
+                "turn on the green lamp while holding a box of tissues"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json"
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Inspect a set of keys in lamp light."
+                "Transfer the box from a red dresser on to the green chair."
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190906_185855_916436/traj_data.json"
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032842_573641/traj_data.json"
                 ]
             ]
         }
@@ -186,273 +186,386 @@
     "tasks_2":[
         {
             "task_list":[
-                "Place pencil into the brown box, put box onto table.",
-                "take key chain to lamp, turn on lamp "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pencil-Box-CoffeeTable-212/trial_T20190906_214302_421299/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Grab the pencil from the coffee table, turn on the floor lamp",
-                "Put a cardboard box on the green chair. "
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Put a cardboard box on the green chair. ",
-                "To look at the tissue in the light. "
+                "Gather the newspapers and place them in the middle of the couch"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json",
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043405_860560/traj_data.json"
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cardboard box on the green chair at any time. Simultaneously, gather the newspapers and place them in the middle of the couch.",
+                "compose 2":"Gather the newspapers and place them in the middle of the couch at any time. Simultaneously, put a cardboard box on the green chair.",
+                "compose 3":"Put a cardboard box on the green chair at any time. After placing the box, gather the newspapers and place them in the middle of the couch."
+            }
         },
         {
             "task_list":[
-                "take key chain to lamp, turn on lamp ",
-                "turn on the green lamp while holding a box of tissues"
+                "Place pencil into the brown box, put box onto table.",
+                "Gather the newspapers and place them in the middle of the couch"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json",
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Pencil-Box-CoffeeTable-212/trial_T20190906_214302_421299/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place pencil into the brown box, put box onto table at any time. Simultaneously, gather the newspapers and place them in the middle of the couch.",
+                "compose 2":"Gather the newspapers and place them in the middle of the couch at any time. After finishing this, place pencil into the brown box, put box onto table.",
+                "compose 3":"Place pencil into the brown box, put box onto table at any time. Then, gather the newspapers and place them in the middle of the couch."
+            }
+        },
+        {
+            "task_list":[
+                "To look at the tissue in the light. ",
+                "Put a cardboard box on the green chair. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043405_860560/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"To look at the tissue in the light at any time. Put a cardboard box on the green chair after looking at the tissue in the light.",
+                "compose 2":"Put a cardboard box on the green chair at any time. To look at the tissue in the light after putting the cardboard box on the green chair.",
+                "compose 3":"To look at the tissue in the light at any time. Put a cardboard box on the green chair at any time."
+            }
         },
         {
             "task_list":[
                 "Grab the pencil from the coffee table, turn on the floor lamp",
-                "Inspect a set of keys in lamp light."
+                "Put a box on a chair. "
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the pencil from the coffee table, turn on the floor lamp. Put a box on a chair.",
+                "compose 2":"Put a box on a chair. Grab the pencil from the coffee table, turn on the floor lamp.",
+                "compose 3":"Grab the pencil from the coffee table, turn on the floor lamp. Put a box on a chair."
+            }
+        },
+        {
+            "task_list":[
+                "turn on the green lamp while holding a box of tissues",
+                "Inspect a set of keys in lamp light."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
                     "tests_seen/trial_T20190906_185855_916436/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on the green lamp while holding a box of tissues. Inspect a set of keys in lamp light.",
+                "compose 2":"Inspect a set of keys in lamp light. Turn on the green lamp while holding a box of tissues.",
+                "compose 3":"Turn on the green lamp while holding a box of tissues, then inspect a set of keys in lamp light."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Gather the newspapers and place them in the middle of the couch",
-                "turn on the green lamp while holding a box of tissues",
-                "take key chain to lamp, turn on lamp "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a box on a chair. ",
-                "turn on the green lamp while holding a box of tissues",
-                "Gather the newspapers and place them in the middle of the couch"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json",
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Gather the newspapers and place them in the middle of the couch",
-                "turn on the green lamp while holding a box of tissues",
-                "Pick up keys, turn on lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a box on a chair. ",
-                "Gather the newspapers and place them in the middle of the couch",
-                "Grab the pencil from the coffee table, turn on the floor lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
-                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Inspect a set of keys in lamp light.",
-                "turn on the green lamp while holding a box of tissues",
-                "Grab the pencil from the coffee table, turn on the floor lamp"
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190906_185855_916436/traj_data.json",
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Grab the pencil from the coffee table, turn on the floor lamp",
-                "turn on the green lamp while holding a box of tissues",
-                "take key chain to lamp, turn on lamp ",
-                "Gather the newspapers and place them in the middle of the couch"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "To look at the tissue in the light. ",
-                "take key chain to lamp, turn on lamp ",
                 "Place pencil into the brown box, put box onto table.",
                 "Gather the newspapers and place them in the middle of the couch"
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043405_860560/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Pencil-Box-CoffeeTable-212/trial_T20190906_214302_421299/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place pencil into the brown box, put box onto table at any time. Simultaneously, gather the newspapers and place them in the middle of the couch. After placing the pencil and newspapers, look at the tissue in the light.",
+                "compose 2":"Gather the newspapers and place them in the middle of the couch at any time. Simultaneously, look at the tissue in the light. After looking at the tissue, place pencil into the brown box, put box onto table.",
+                "compose 3":"Look at the tissue in the light at any time. Simultaneously, gather the newspapers and place them in the middle of the couch. After looking at the tissue, place pencil into the brown box, put box onto table."
+            }
+        },
+        {
+            "task_list":[
+                "Gather the newspapers and place them in the middle of the couch",
+                "Put a box on a chair. ",
+                "To look at the tissue in the light. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043405_860560/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a box on a chair. Gather the newspapers and place them in the middle of the couch. To look at the tissue in the light.",
+                "compose 2":"Gather the newspapers and place them in the middle of the couch. To look at the tissue in the light. Put a box on a chair.",
+                "compose 3":"To look at the tissue in the light. Put a box on a chair. Gather the newspapers and place them in the middle of the couch."
+            }
+        },
+        {
+            "task_list":[
+                "Grab the pencil from the coffee table, turn on the floor lamp",
+                "turn on the green lamp while holding a box of tissues",
+                "Pick up keys, turn on lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up keys, turn on lamp at any time. Simultaneously, grab the pencil from the coffee table and turn on the floor lamp. After turning on the floor lamp, turn on the green lamp while holding a box of tissues.",
+                "compose 2":"Grab the pencil from the coffee table, turn on the floor lamp at any time. Simultaneously, pick up keys and turn on lamp. After turning on the floor lamp, turn on the green lamp while holding a box of tissues.",
+                "compose 3":"Turn on the green lamp while holding a box of tissues at any time. Simultaneously, grab the pencil from the coffee table and turn on the floor lamp. After turning on the green lamp, pick up keys and turn on lamp."
+            }
         },
         {
             "task_list":[
                 "To look at the tissue in the light. ",
-                "Gather the newspapers and place them in the middle of the couch",
-                "Pick up keys, turn on lamp",
+                "Inspect a set of keys in lamp light.",
                 "Put a box on a chair. "
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043405_860560/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json",
+                    "tests_seen/trial_T20190906_185855_916436/traj_data.json",
                     "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Inspect a set of keys in lamp light. Then, put a box on a chair. Afterward, look at the tissue in the light.",
+                "compose 2":"Look at the tissue in the light. Meanwhile, put a box on a chair. Finally, inspect a set of keys in lamp light.",
+                "compose 3":"Look at the tissue in the light before inspecting a set of keys in lamp light. Subsequently, put a box on a chair."
+            }
         },
         {
             "task_list":[
-                "Pick up keys, turn on lamp",
-                "Gather the newspapers and place them in the middle of the couch",
-                "Put a cardboard box on the green chair. ",
-                "Grab the pencil from the coffee table, turn on the floor lamp"
+                "turn on the green lamp while holding a box of tissues",
+                "Inspect a set of keys in lamp light.",
+                "Place pencil into the brown box, put box onto table."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json",
-                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json"
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
+                    "tests_seen/trial_T20190906_185855_916436/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Box-CoffeeTable-212/trial_T20190906_214302_421299/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on the green lamp while holding a box of tissues. Inspect a set of keys in lamp light. Place pencil into the brown box and put the box onto the table.",
+                "compose 2":"Place pencil into the brown box and put the box onto the table. Turn on the green lamp while holding a box of tissues. Inspect a set of keys in lamp light.",
+                "compose 3":"Inspect a set of keys in lamp light. Turn on the green lamp while holding a box of tissues. Place pencil into the brown box and put the box onto the table."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "take key chain to lamp, turn on lamp ",
+                "To look at the tissue in the light. ",
+                "Gather the newspapers and place them in the middle of the couch",
+                "Put a box on a chair. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043405_860560/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Take the key chain to the lamp and turn on the lamp. After that, gather the newspapers and place them in the middle of the couch. Finally, put a box on a chair.",
+                "compose 2":"To look at the tissue in the light, gather the newspapers and place them in the middle of the couch. After that, take the key chain to the lamp and turn on the lamp. Then put a box on a chair.",
+                "compose 3":"Gather the newspapers and place them in the middle of the couch. Put a box on a chair. Take the key chain to the lamp and turn on the lamp to look at the tissue in the light."
+            }
         },
         {
             "task_list":[
-                "Pick up keys, turn on lamp",
-                "turn on the green lamp while holding a box of tissues",
                 "Gather the newspapers and place them in the middle of the couch",
+                "turn on the green lamp while holding a box of tissues",
+                "Put a box on a chair. ",
+                "take key chain to lamp, turn on lamp "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather the newspapers and place them in the middle of the couch at any time. Simultaneously, put a box on a chair. After placing the newspapers and box, take key chain to lamp, turn on lamp while holding a box of tissues.",
+                "compose 2":"Put a box on a chair at any time. Simultaneously, gather the newspapers and place them in the middle of the couch. After placing the box and newspapers, take key chain to lamp, turn on lamp while holding a box of tissues.",
+                "compose 3":"Take key chain to lamp, turn on lamp at any time. Simultaneously, gather the newspapers and place them in the middle of the couch. After turning on the lamp, put a box on a chair while holding a box of tissues."
+            }
+        },
+        {
+            "task_list":[
+                "To look at the tissue in the light. ",
+                "take key chain to lamp, turn on lamp ",
+                "Gather the newspapers and place them in the middle of the couch",
+                "Place pencil into the brown box, put box onto table."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043405_860560/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Box-CoffeeTable-212/trial_T20190906_214302_421299/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Take key chain to lamp, turn on lamp. Simultaneously, place pencil into the brown box and put the box onto the table. After turning on the lamp, look at the tissue in the light and then gather the newspapers and place them in the middle of the couch.",
+                "compose 2":"Gather the newspapers and place them in the middle of the couch. Simultaneously, place pencil into the brown box and put the box onto the table. After placing the newspapers and the box, take key chain to lamp, turn on lamp, and then look at the tissue in the light.",
+                "compose 3":"Take key chain to lamp, turn on lamp. After turning on the lamp, gather the newspapers and place them in the middle of the couch. Simultaneously, place pencil into the brown box and put the box onto the table, and then look at the tissue in the light."
+            }
+        },
+        {
+            "task_list":[
+                "turn on the green lamp while holding a box of tissues",
+                "Grab the pencil from the coffee table, turn on the floor lamp",
+                "Pick up keys, turn on lamp",
                 "Put a cardboard box on the green chair. "
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json",
                     "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
+                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json",
                     "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the pencil from the coffee table, turn on the floor lamp. Simultaneously, put a cardboard box on the green chair. After turning on the floor lamp, turn on the green lamp while holding a box of tissues.",
+                "compose 2":"Pick up keys, turn on lamp at any time. Simultaneously, grab the pencil from the coffee table, turn on the floor lamp. After turning on the lamp, put a cardboard box on the green chair.",
+                "compose 3":"Grab the pencil from the coffee table, turn on the floor lamp. Simultaneously, put a cardboard box on the green chair. Pick up keys, turn on lamp after completing the previous tasks."
+            }
+        },
+        {
+            "task_list":[
+                "Gather the newspapers and place them in the middle of the couch",
+                "turn on the green lamp while holding a box of tissues",
+                "Inspect a set of keys in lamp light.",
+                "Place pencil into the brown box, put box onto table."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
+                    "tests_seen/trial_T20190906_185855_916436/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Box-CoffeeTable-212/trial_T20190906_214302_421299/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather the newspapers and place them in the middle of the couch at any time. Simultaneously, turn on the green lamp while holding a box of tissues. After turning on the lamp, inspect a set of keys in lamp light. Once done, place a pencil into the brown box and put the box onto the table.",
+                "compose 2":"Gather the newspapers and place them in the middle of the couch at any time. Simultaneously, turn on the green lamp while holding a box of tissues. After placing the newspapers, place a pencil into the brown box and put the box onto the table. Once done, inspect a set of keys in lamp light.",
+                "compose 3":"Place a pencil into the brown box and put the box onto the table at any time. Simultaneously, gather the newspapers and place them in the middle of the couch. After placing the box, inspect a set of keys in lamp light. Turn on the green lamp while holding a box of tissues."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
+                "take key chain to lamp, turn on lamp ",
+                "Grab the pencil from the coffee table, turn on the floor lamp",
+                "Put a cardboard box on the green chair. ",
+                "Gather the newspapers and place them in the middle of the couch",
+                "turn on the green lamp while holding a box of tissues"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json",
+                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Take key chain to lamp and turn on lamp. At the same time, grab the pencil from the coffee table and turn on the floor lamp. After completing these tasks, put a cardboard box on the green chair.",
+                "compose 2":"Gather the newspapers and place them in the middle of the couch. While holding a box of tissues, turn on the green lamp.",
+                "compose 3":"Grab the pencil from the coffee table and turn on the floor lamp. Afterwards, take key chain to lamp and turn on lamp. Then, gather the newspapers and place them in the middle of the couch."
+            }
+        },
+        {
+            "task_list":[
+                "Inspect a set of keys in lamp light.",
                 "turn on the green lamp while holding a box of tissues",
-                "Pick up keys, turn on lamp",
                 "Put a box on a chair. ",
-                "Gather the newspapers and place them in the middle of the couch",
-                "Grab the pencil from the coffee table, turn on the floor lamp"
+                "Grab the pencil from the coffee table, turn on the floor lamp",
+                "Gather the newspapers and place them in the middle of the couch"
             ],
             "orign":[
                 [
+                    "tests_seen/trial_T20190906_185855_916436/traj_data.json",
                     "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185930_256772/traj_data.json",
                     "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
-                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json"
+                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Inspect a set of keys in lamp light. Put a box on a chair. Grab the pencil from the coffee table, turn on the floor lamp. Gather the newspapers and place them in the middle of the couch. Simultaneously, turn on the green lamp while holding a box of tissues.",
+                "compose 2":"Inspect a set of keys in lamp light. Put a box on a chair. Grab the pencil from the coffee table, turn on the floor lamp. Gather the newspapers and place them in the middle of the couch. Simultaneously, turn on the green lamp while holding a box of tissues.",
+                "compose 3":"Inspect a set of keys in lamp light. Put a box on a chair. Grab the pencil from the coffee table, turn on the floor lamp. Gather the newspapers and place them in the middle of the couch. Simultaneously, turn on the green lamp while holding a box of tissues."
+            }
         },
         {
             "task_list":[
                 "Inspect a set of keys in lamp light.",
                 "turn on the green lamp while holding a box of tissues",
-                "Put a cardboard box on the green chair. ",
-                "Gather the newspapers and place them in the middle of the couch",
-                "Grab the pencil from the coffee table, turn on the floor lamp"
+                "Put a box on a chair. ",
+                "Grab the pencil from the coffee table, turn on the floor lamp",
+                "Gather the newspapers and place them in the middle of the couch"
             ],
             "orign":[
                 [
                     "tests_seen/trial_T20190906_185855_916436/traj_data.json",
                     "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
-                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json"
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json",
+                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Inspect a set of keys in lamp light. Simultaneously, turn on the green lamp while holding a box of tissues. After inspecting the keys, put a box on a chair. After turning on the green lamp, grab the pencil from the coffee table, turn on the floor lamp. Finally, gather the newspapers and place them in the middle of the couch.",
+                "compose 2":"Turn on the green lamp while holding a box of tissues. Simultaneously, grab the pencil from the coffee table. After turning on the green lamp and grabbing the pencil, put a box on a chair. Simultaneously, gather the newspapers and place them in the middle of the couch. After putting the box on a chair, inspect a set of keys in lamp light.",
+                "compose 3":"Grab the pencil from the coffee table, turn on the floor lamp. Simultaneously, gather the newspapers and place them in the middle of the couch. After grabbing the pencil and gathering the newspapers, turn on the green lamp while holding a box of tissues. After turning on the green lamp, put a box on a chair. Finally, inspect a set of keys in lamp light."
+            }
         },
         {
             "task_list":[
-                "Inspect a set of keys in lamp light.",
-                "Gather the newspapers and place them in the middle of the couch",
+                "Put a box on a chair. ",
                 "turn on the green lamp while holding a box of tissues",
-                "Put a cardboard box on the green chair. ",
-                "Grab the pencil from the coffee table, turn on the floor lamp"
+                "Grab the pencil from the coffee table, turn on the floor lamp",
+                "take key chain to lamp, turn on lamp ",
+                "Gather the newspapers and place them in the middle of the couch"
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190906_185855_916436/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032830_891800/traj_data.json",
                     "train/look_at_obj_in_light-TissueBox-None-FloorLamp-212/trial_T20190907_043419_992449/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471/traj_data.json",
-                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json"
+                    "train/look_at_obj_in_light-Pencil-None-FloorLamp-212/trial_T20190907_144240_326472/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-212/trial_T20190906_185836_710138/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-212/trial_T20190908_112704_150966/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a box on a chair. Simultaneously, turn on the green lamp while holding a box of tissues. After placing the box on the chair and turning on the green lamp, grab the pencil from the coffee table and turn on the floor lamp. Once that is completed, take the key chain to the lamp and turn on the lamp. Finally, gather the newspapers and place them in the middle of the couch.",
+                "compose 2":"Grab the pencil from the coffee table and turn on the floor lamp. Simultaneously, take the key chain to the lamp and turn on the lamp. After completing those tasks, put a box on a chair. Once the box is placed, turn on the green lamp while holding a box of tissues. Finally, gather the newspapers and place them in the middle of the couch.",
+                "compose 3":"Grab the pencil from the coffee table and turn on the floor lamp. Simultaneously, take the key chain to the lamp and turn on the lamp. After completing those tasks, put a box on a chair. Once the box is placed, turn on the green lamp while holding a box of tissues. Finally, gather the newspapers and place them in the middle of the couch."
+            }
         }
     ],
     "tasks_6":[],

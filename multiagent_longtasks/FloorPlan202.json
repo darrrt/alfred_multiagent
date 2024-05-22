@@ -12,14 +12,6 @@
                 "Laptop"
             ]
         },
-        "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json":{
-            "tasks":[
-                "Put 2 remote controls on the table in front of the couch. "
-            ],
-            "relative_objects":[
-                "RemoteControl"
-            ]
-        },
         "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json":{
             "tasks":[
                 "Put a remote in a box and return the remote to its original place.",
@@ -38,8 +30,8 @@
                 "Grab the watch from the TV cabinet, turn on the floor lamp"
             ],
             "relative_objects":[
-                "RemoteControl",
-                "Watch"
+                "Watch",
+                "RemoteControl"
             ]
         },
         "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json":{
@@ -89,41 +81,31 @@
     "tasks_1":[
         {
             "task_list":[
-                "Put a credit card on the chair."
+                "examine the keys with the lamp"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a remote in a box and return the remote to its original place."
+                "Pick up the keys and turn on the lamp. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json"
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Turn the floor lamp on while holding a watch."
+                "examine the keys with the lamp"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Turn the floor lamp on while holding a watch."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json"
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json"
                 ]
             ]
         }
@@ -131,178 +113,180 @@
     "tasks_2":[
         {
             "task_list":[
-                "examine the keys with the lamp",
-                "Inspect a laptop with a tall lamp."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
-                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-202/trial_T20190907_204105_603210/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a credit card on the chair.",
-                "Put 2 remote controls on the table in front of the couch. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a credit card on the chair.",
-                "Put 2 remote controls on the table in front of the couch. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put 2 remote controls on the table in front of the couch. ",
+                "Put a book on the blue couch. ",
                 "Pick up the keys and turn on the lamp. "
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
                     "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys and turn on the lamp. After that, put a book on the blue couch.",
+                "compose 2":"Put a book on the blue couch. Simultaneously, pick up the keys and turn on the lamp.",
+                "compose 3":"Pick up the keys and turn on the lamp at any time. Once done, put a book on the blue couch."
+            }
+        },
+        {
+            "task_list":[
+                "Put a remote in a box and return the remote to its original place.",
+                "Pick up the keys and turn on the lamp. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys and turn on the lamp. After turning on the lamp, put a remote in a box and return the remote to its original place.",
+                "compose 2":"Put a remote in a box and return the remote to its original place. Simultaneously, pick up the keys and turn on the lamp.",
+                "compose 3":"Pick up the keys and turn on the lamp. Put a remote in a box and return the remote to its original place after turning on the lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Turn the floor lamp on while holding a watch.",
+                "Put a credit card on the chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a credit card on the chair at any time. Simultaneously, turn the floor lamp on while holding a watch.",
+                "compose 2":"Turn the floor lamp on while holding a watch at any time. After turning the lamp on, put a credit card on the chair.",
+                "compose 3":"Turn the floor lamp on while holding a watch at any time. Simultaneously, put a credit card on the chair."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Put a remote in a box and return the remote to its original place.",
-                "Pick up the keys and turn on the lamp. ",
-                "Put a credit card on the chair."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Put a book on the blue couch. ",
-                "examine the keys with the lamp",
-                "Put a credit card on the chair."
+                "Put a remote in a box and return the remote to its original place.",
+                "Pick up the keys and turn on the lamp. "
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys and turn on the lamp. Simultaneously, put a book on the blue couch. After turning on the lamp, put a remote in a box and return the remote to its original place.",
+                "compose 2":"Put a book on the blue couch at any time. Simultaneously, pick up the keys and turn on the lamp. After putting the book, put a remote in a box and return the remote to its original place.",
+                "compose 3":"Pick up the keys and turn on the lamp. After turning on the lamp, put a remote in a box and return the remote to its original place. Put a book on the blue couch after completing the previous tasks."
+            }
         },
         {
             "task_list":[
-                "Put 2 remote controls on the table in front of the couch. ",
+                "Put a remote in a box and return the remote to its original place.",
                 "Put a credit card on the chair.",
-                "examine the keys with the lamp"
+                "Pick up the keys and turn on the lamp. "
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-202/trial_T20190908_071351_989036/traj_data.json",
                     "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json"
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a credit card on the chair at any time. Simultaneously, pick up the keys and turn on the lamp. After putting the credit card on the chair, put a remote in a box and return the remote to its original place.",
+                "compose 2":"Pick up the keys and turn on the lamp at any time. Simultaneously, put a credit card on the chair. After picking up the keys and turning on the lamp, put a remote in a box and return the remote to its original place.",
+                "compose 3":"Pick up the keys and turn on the lamp at any time. Simultaneously, put a credit card on the chair. After putting the credit card on the chair, put a remote in a box and return the remote to its original place."
+            }
         },
         {
             "task_list":[
-                "Put 2 remote controls on the table in front of the couch. ",
-                "examine the keys with the lamp",
-                "Put a book on the blue couch. "
+                "Put a credit card on the chair.",
+                "Pick up the keys and turn on the lamp. ",
+                "Inspect a laptop with a tall lamp."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json"
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-202/trial_T20190907_204105_603210/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys and turn on the lamp. After turning on the lamp, inspect a laptop with a tall lamp. Finally, put a credit card on the chair.",
+                "compose 2":"Inspect a laptop with a tall lamp at any time. Simultaneously, put a credit card on the chair. After inspecting the laptop, pick up the keys and turn on the lamp.",
+                "compose 3":"Put a credit card on the chair first. Then pick up the keys and turn on the lamp. After turning on the lamp, inspect a laptop with a tall lamp."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Put a credit card on the chair.",
-                "Put 2 remote controls on the table in front of the couch. ",
-                "examine the keys with the lamp",
-                "Put a book on the blue couch. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the keys and turn on the lamp. ",
-                "Put a credit card on the chair.",
-                "Put a book on the blue couch. ",
-                "Turn the floor lamp on while holding a watch."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Turn the floor lamp on while holding a watch.",
                 "examine the keys with the lamp",
-                "Put a credit card on the chair.",
-                "Put a book on the blue couch. "
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the keys and turn on the lamp. ",
-                "Put 2 remote controls on the table in front of the couch. ",
                 "Put a book on the blue couch. ",
                 "Put a credit card on the chair."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-202/trial_T20190907_075416_851145/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-202/trial_T20190906_185327_967653/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
                     "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
                     "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn the floor lamp on while holding a watch. Examine the keys with the lamp. Put a book on the blue couch. Put a credit card on the chair.",
+                "compose 2":"Turn the floor lamp on while holding a watch. Put a credit card on the chair. Put a book on the blue couch. Examine the keys with the lamp.",
+                "compose 3":"Put a credit card on the chair. Turn the floor lamp on while holding a watch. Examine the keys with the lamp. Put a book on the blue couch."
+            }
+        },
+        {
+            "task_list":[
+                "Inspect a laptop with a tall lamp.",
+                "examine the keys with the lamp",
+                "Put a book on the blue couch. ",
+                "Put a credit card on the chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-202/trial_T20190907_204105_603210/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_063058_556318/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Inspect a laptop with a tall lamp. Subsequently, examine the keys with the lamp. After examining the keys, put a book on the blue couch. Finally, put a credit card on the chair.",
+                "compose 2":"Put a book on the blue couch. Concurrently, put a credit card on the chair. After placing the book and credit card, inspect a laptop with a tall lamp. Following that, examine the keys with the lamp.",
+                "compose 3":"Examine the keys with the lamp. Following the examination, put a book on the blue couch. Simultaneously, put a credit card on the chair. Conclusively, inspect a laptop with a tall lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Put a credit card on the chair.",
+                "Put a book on the blue couch. ",
+                "Pick up the keys and turn on the lamp. ",
+                "Inspect a laptop with a tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-202/trial_T20190909_011606_013059/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-202/trial_T20190907_043640_929501/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-202/trial_T20190909_021022_656317/traj_data.json",
+                    "train/look_at_obj_in_light-Laptop-None-FloorLamp-202/trial_T20190907_204105_603210/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a credit card on the chair and pick up the keys to turn on the lamp. After completing those tasks, put a book on the blue couch and inspect a laptop with a tall lamp.",
+                "compose 2":"Pick up the keys and turn on the lamp first. Then, put a book on the blue couch and inspect a laptop with a tall lamp. Afterward, put a credit card on the chair.",
+                "compose 3":"Inspect a laptop with a tall lamp first. Then, put a credit card on the chair. After completing those tasks, pick up the keys to turn on the lamp and put a book on the blue couch."
+            }
         }
     ],
     "tasks_5":[],
-    "tasks_6":[],
-    "tasks_7":[]
+    "tasks_6":[]
 }

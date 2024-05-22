@@ -63,8 +63,8 @@
                 "Put a basketball on the bed. "
             ],
             "relative_objects":[
-                "Bed",
-                "BasketBall"
+                "BasketBall",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json":{
@@ -74,8 +74,8 @@
                 "Put a basketball away."
             ],
             "relative_objects":[
-                "Bed",
-                "BasketBall"
+                "BasketBall",
+                "Bed"
             ]
         },
         "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json":{
@@ -88,25 +88,16 @@
         },
         "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_045011_990789/traj_data.json":{
             "tasks":[
-                "Place the pencils on the low file cabinet onto the desk.",
-                "To move 2 pencils one at a time from a cabinet to a table."
+                "Place the pencils on the low file cabinet onto the desk."
             ],
             "relative_objects":[
-                "Pen",
-                "Pencil"
+                "Pencil",
+                "Pen"
             ]
         },
         "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json":{
             "tasks":[
                 "Place books on the bed"
-            ],
-            "relative_objects":[
-                "Book"
-            ]
-        },
-        "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json":{
-            "tasks":[
-                "put 2 books on top of the bed"
             ],
             "relative_objects":[
                 "Book"
@@ -119,10 +110,10 @@
                 "Turn on the light to examine the basketball"
             ],
             "relative_objects":[
-                "Pen",
-                "Pencil",
+                "BasketBall",
                 "CellPhone",
-                "BasketBall"
+                "Pencil",
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213211_644003/traj_data.json":{
@@ -152,9 +143,9 @@
                 "get a stamp and turn on a lamp"
             ],
             "relative_objects":[
-                "Pen",
                 "Pencil",
-                "AlarmClock"
+                "AlarmClock",
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000909_944053/traj_data.json":{
@@ -205,9 +196,9 @@
                 "Move a book to a wooden desk."
             ],
             "relative_objects":[
-                "Bed",
+                "Desk",
                 "Book",
-                "Desk"
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-Book-None-Desk-314/trial_T20190908_111952_629798/traj_data.json":{
@@ -232,10 +223,10 @@
                 "grab the disc from the trash bin, turn on the lamp on the dresser"
             ],
             "relative_objects":[
-                "Pen",
-                "CreditCard",
+                "Pencil",
                 "CD",
-                "Pencil"
+                "CreditCard",
+                "Pen"
             ]
         },
         "tests_seen/trial_T20190908_185956_956216/traj_data.json":{
@@ -256,49 +247,19 @@
                 "Place a basketball on a bed"
             ],
             "relative_objects":[
-                "Bed",
-                "BasketBall"
+                "BasketBall",
+                "Bed"
             ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "Close the cardboard box on the wooden desk with a credit card in it."
+                "Put a clock on a desk."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230441_606276/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "put 2 books on top of the bed"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a basketball on the bed. "
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190908_052238_998113/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "put 2 books on top of the bed"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json"
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json"
                 ]
             ]
         },
@@ -311,320 +272,401 @@
                     "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052251_363374/traj_data.json"
                 ]
             ]
-        }
-    ],
-    "tasks_2":[
+        },
         {
             "task_list":[
-                "Carry a clock while turning on a lamp",
-                "Place books on the bed"
+                "put a box on a desk"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-314/trial_T20190908_042438_590230/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json"
+                    "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000932_597189/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a clock on a desk.",
-                "Close a cardboard box containing a credit card. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "put 2 books on top of the bed",
-                "Examine a CD by a lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json",
-                    "valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "put a box on a desk",
-                "Carry a clock while turning on a lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000932_597189/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-314/trial_T20190908_042438_590230/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a basketball to the bed.",
-                "Place books on the bed"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_3":[
-        {
-            "task_list":[
-                "grab the basketball on the floor, turn on the lamp",
-                "move a book from the bed to the desk",
-                "Close the cardboard box on the wooden desk with a credit card in it."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-BasketBall-None-DeskLamp-314/trial_T20190907_142455_846808/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Desk-314/trial_T20190911_015042_291676/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230441_606276/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the pencil to the desk across the room.",
-                "put 2 books on top of the bed",
-                "Put a clock on a desk."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place phone on bed.",
-                "Move a basketball from the floor to a table",
                 "Place a book on the desk."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213211_644003/traj_data.json",
                     "train/pick_and_place_simple-Book-None-Desk-314/trial_T20190908_111952_629798/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place books on the bed",
-                "put a box on a desk",
-                "Move the basketball to the green table"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000932_597189/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213239_957946/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place phone on bed.",
-                "Carry a clock while turning on a lamp",
-                "Close a cardboard box containing a credit card. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-314/trial_T20190908_042438_590230/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Place phone on bed.",
-                "Put a clock on a desk.",
-                "put 2 books on top of the bed",
-                "Put a basketball on the bed. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json",
-                    "tests_seen/trial_T20190908_052238_998113/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Close the cardboard box on the wooden desk with a credit card in it.",
-                "Move the pencil to the desk across the room.",
-                "Put a clock on a desk.",
-                "Place books on the bed"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230441_606276/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a box with a credit card in it on a desk.",
-                "put 2 books on top of the bed",
-                "Move a basketball to the bed.",
                 "Move the pencil to the desk across the room."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230535_660589/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json",
                     "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the basketball to the green table",
-                "Place a box with a credit card in it on a desk.",
-                "Place books on the bed",
-                "Put a clock on a desk."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213239_957946/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230535_660589/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the basketball to the green table",
-                "Place books on the bed",
-                "Place phone on bed.",
-                "Put a clock on a desk."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213239_957946/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json"
                 ]
             ]
         }
     ],
-    "tasks_5":[
+    "tasks_2":[
+        {
+            "task_list":[
+                "Move the pencil to the desk across the room.",
+                "Put a basketball on the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json",
+                    "tests_seen/trial_T20190908_052238_998113/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the pencil to the desk across the room at any time. Simultaneously, put a basketball on the bed.",
+                "compose 2":"Put a basketball on the bed and then move the pencil to the desk across the room.",
+                "compose 3":"Move the pencil to the desk across the room. After moving the pencil, put a basketball on the bed."
+            }
+        },
         {
             "task_list":[
                 "Place phone on bed.",
-                "Place the pencils on the low file cabinet onto the desk.",
-                "put 2 books on top of the bed",
-                "Place a box with a credit card in it on a desk.",
-                "Put a clock on a desk."
+                "To move an empty box from the floor to a desk."
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_045011_990789/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190909_103936_240465/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230535_660589/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json"
+                    "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000943_623511/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place phone on bed. Afterward, move an empty box from the floor to a desk.",
+                "compose 2":"To move an empty box from the floor to a desk. Simultaneously, place phone on bed.",
+                "compose 3":"To move an empty box from the floor to a desk. Place phone on bed."
+            }
         },
         {
             "task_list":[
                 "Move the alarm clock to the desk.",
-                "Close a cardboard box containing a credit card. ",
-                "Place the pencils on the low file cabinet onto the desk.",
-                "Move a basketball to the bed.",
                 "Place books on the bed"
             ],
             "orign":[
                 [
                     "tests_seen/trial_T20190908_185956_956216/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_045011_990789/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json",
                     "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the alarm clock to the desk at any time. Simultaneously, place books on the bed.",
+                "compose 2":"Place books on the bed at any time. After placing the books, move the alarm clock to the desk.",
+                "compose 3":"Move the alarm clock to the desk at any time. After moving the alarm clock, place books on the bed."
+            }
         },
         {
             "task_list":[
-                "Place the pencils on the low file cabinet onto the desk.",
-                "Move a basketball from the floor to a table",
-                "Place books on the bed",
-                "Put a clock on a desk.",
+                "Move the alarm clock to the desk.",
                 "Place phone on bed."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_045011_990789/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213211_644003/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json",
+                    "tests_seen/trial_T20190908_185956_956216/traj_data.json",
                     "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the alarm clock to the desk at any time. Simultaneously, place phone on bed.",
+                "compose 2":"Place phone on bed at any time. After placing the phone, move the alarm clock to the desk.",
+                "compose 3":"Place phone on bed at any time. Simultaneously, move the alarm clock to the desk."
+            }
         },
         {
             "task_list":[
-                "Close a cardboard box containing a credit card. ",
-                "Place books on the bed",
-                "Put a basketball on the bed. ",
-                "Move the pencil to the desk across the room.",
+                "grab the basketball on the floor, turn on the lamp",
                 "Move the alarm clock to the desk."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
-                    "tests_seen/trial_T20190908_052238_998113/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json",
+                    "train/look_at_obj_in_light-BasketBall-None-DeskLamp-314/trial_T20190907_142455_846808/traj_data.json",
                     "tests_seen/trial_T20190908_185956_956216/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the basketball on the floor, turn on the lamp. Move the alarm clock to the desk.",
+                "compose 2":"Move the alarm clock to the desk. Grab the basketball on the floor, turn on the lamp.",
+                "compose 3":"Move the alarm clock to the desk. Grab the basketball on the floor, turn on the lamp."
+            }
         }
     ],
-    "tasks_6":[
+    "tasks_3":[
+        {
+            "task_list":[
+                "Place phone on bed.",
+                "Move a basketball from the floor to a table",
+                "To move an empty box from the floor to a desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Dresser-314/trial_T20190907_213211_644003/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000943_623511/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a basketball from the floor to a table at any time. Place phone on bed. After moving the basketball, move an empty box from the floor to a desk.",
+                "compose 2":"Move a basketball from the floor to a table. Place phone on bed. After moving the basketball, move an empty box from the floor to a desk.",
+                "compose 3":"Place phone on bed. Move a basketball from the floor to a table at any time. After placing the phone, move an empty box from the floor to a desk."
+            }
+        },
+        {
+            "task_list":[
+                "Place a box with a credit card in it on a desk.",
+                "Move the alarm clock to the desk.",
+                "Put a basketball on the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230535_660589/traj_data.json",
+                    "tests_seen/trial_T20190908_185956_956216/traj_data.json",
+                    "tests_seen/trial_T20190908_052238_998113/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the alarm clock to the desk at any time. Simultaneously, place a box with a credit card in it on a desk. After moving the alarm clock and placing the box, put a basketball on the bed.",
+                "compose 2":"Put a basketball on the bed at any time. Simultaneously, move the alarm clock to the desk. After putting the basketball on the bed and moving the alarm clock, place a box with a credit card in it on a desk.",
+                "compose 3":"Place a box with a credit card in it on a desk at any time. Simultaneously, put a basketball on the bed. After placing the box and putting the basketball, move the alarm clock to the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Place books on the bed",
+                "Examine a CD by a lamp",
+                "To move an empty box from the floor to a desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
+                    "valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000943_623511/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place books on the bed at any time. Simultaneously, examine a CD by a lamp. After placing the books and examining the CD, move an empty box from the floor to a desk.",
+                "compose 2":"Examine a CD by a lamp at any time. Simultaneously, place books on the bed. After examining the CD and placing the books, move an empty box from the floor to a desk.",
+                "compose 3":"To move an empty box from the floor to a desk at any time. Simultaneously, place books on the bed. After moving the box to the desk, examine a CD by a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Close the cardboard box on the wooden desk with a credit card in it.",
+                "Place a clock on a desk",
+                "Move the pencil to the desk across the room."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230441_606276/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185938_027368/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Close the cardboard box on the wooden desk with a credit card in it at any time. Simultaneously, place a clock on a desk. After closing the box and placing the clock, move the pencil to the desk across the room.",
+                "compose 2":"Place a clock on a desk at any time. Simultaneously, close the cardboard box on the wooden desk with a credit card in it. After placing the clock, move the pencil to the desk across the room.",
+                "compose 3":"Move the pencil to the desk across the room at any time. Simultaneously, place a clock on a desk. After moving the pencil, close the cardboard box on the wooden desk with a credit card in it."
+            }
+        },
+        {
+            "task_list":[
+                "Place books on the bed",
+                "Move the pencil to the desk across the room.",
+                "Place phone on bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place phone on bed at any time. Simultaneously, move the pencil to the desk across the room. After placing the phone and moving the pencil, place books on the bed.",
+                "compose 2":"Place books on the bed at any time. Simultaneously, place phone on bed. After placing the books and phone, move the pencil to the desk across the room.",
+                "compose 3":"Move the pencil to the desk across the room at any time. Simultaneously, place phone on bed. After moving the pencil and placing the phone, place books on the bed."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Place the pencils on the low file cabinet onto the desk.",
+                "Move a basketball to the bed.",
+                "Place a clock on a desk",
+                "Close a cardboard box containing a credit card. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_045011_990789/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185938_027368/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a basketball to the bed at any time. After moving the basketball, place a clock on a desk. Finally, place the pencils on the low file cabinet onto the desk.",
+                "compose 2":"Move a basketball to the bed at any time. After moving the basketball, place the pencils on the low file cabinet onto the desk. Finally, place a clock on a desk.",
+                "compose 3":"Place a clock on a desk at any time. After placing the clock, close a cardboard box containing a credit card. Finally, move a basketball to the bed."
+            }
+        },
+        {
+            "task_list":[
+                "Move a basketball to the bed.",
+                "Move the alarm clock to the desk.",
+                "Place books on the bed",
+                "Place a box with a credit card in it on a desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json",
+                    "tests_seen/trial_T20190908_185956_956216/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230535_660589/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a basketball to the bed. After moving the basketball, place a box with a credit card in it on a desk. Simultaneously, move the alarm clock to the desk. After placing the box on the desk, place books on the bed.",
+                "compose 2":"Move the alarm clock to the desk. Simultaneously, place a box with a credit card in it on a desk. After placing the box on the desk, move a basketball to the bed. After moving the basketball, place books on the bed.",
+                "compose 3":"Place a box with a credit card in it on a desk. Simultaneously, move a basketball to the bed. After placing the box on the desk, move the alarm clock to the desk. After moving the basketball, place books on the bed."
+            }
+        },
+        {
+            "task_list":[
+                "Move a basketball to the bed.",
+                "Put a clock on a desk.",
+                "Place books on the bed",
+                "Close a cardboard box containing a credit card. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185924_234584/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a basketball to the bed. After moving the basketball, put a clock on a desk. Finally, place books on the bed.",
+                "compose 2":"Close a cardboard box containing a credit card. After closing the box, move a basketball to the bed. Then, put a clock on a desk.",
+                "compose 3":"Put a clock on a desk. Simultaneously, place books on the bed. After these tasks, move a basketball to the bed. Lastly, close a cardboard box containing a credit card."
+            }
+        },
+        {
+            "task_list":[
+                "Bring the ball to the bed",
+                "Place a box with a credit card in it on a desk.",
+                "Move the alarm clock to the desk.",
+                "Place phone on bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052251_363374/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230535_660589/traj_data.json",
+                    "tests_seen/trial_T20190908_185956_956216/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Bring the ball to the bed at any time. Simultaneously, place phone on bed. After bringing the ball, place a box with a credit card in it on a desk. Once done, move the alarm clock to the desk.",
+                "compose 2":"Bring the ball to the bed at any time. Simultaneously, place phone on bed. After placing the phone, move the alarm clock to the desk. Lastly, place a box with a credit card in it on a desk.",
+                "compose 3":"Move the alarm clock to the desk at any time. Simultaneously, place phone on bed. After moving the alarm clock, bring the ball to the bed and place a box with a credit card in it on a desk."
+            }
+        },
+        {
+            "task_list":[
+                "Close a cardboard box containing a credit card. ",
+                "Move a basketball to the bed.",
+                "Place the pencils on the low file cabinet onto the desk.",
+                "Place books on the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052226_086136/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_045011_990789/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a basketball to the bed. Place the pencils on the low file cabinet onto the desk. Close a cardboard box containing a credit card. Place books on the bed.",
+                "compose 2":"Move a basketball to the bed. Place books on the bed. Place the pencils on the low file cabinet onto the desk. Close a cardboard box containing a credit card.",
+                "compose 3":"Close a cardboard box containing a credit card. Move a basketball to the bed. Place the pencils on the low file cabinet onto the desk. Place books on the bed."
+            }
+        }
+    ],
+    "tasks_5":[
         {
             "task_list":[
                 "Place a clock on a desk",
-                "Place the pencils on the low file cabinet onto the desk.",
-                "Place phone on bed.",
                 "Place books on the bed",
-                "Put a basketball on the bed. ",
-                "Close the cardboard box on the wooden desk with a credit card in it."
+                "Place a box with a credit card in it on a desk.",
+                "Move the pencil to the desk across the room.",
+                "Bring the ball to the bed"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185938_027368/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_045011_990789/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
                     "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
-                    "tests_seen/trial_T20190908_052238_998113/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230441_606276/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230535_660589/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-314/trial_T20190908_052251_363374/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a box with a credit card in it on a desk at any time. Simultaneously, place a clock on a desk. After placing the box and the clock, move the pencil to the desk across the room. Finally, bring the ball to the bed.",
+                "compose 2":"Place books on the bed at any time. Simultaneously, bring the ball to the bed. After placing the books and bringing the ball, place a clock on a desk. Finally, move the pencil to the desk across the room.",
+                "compose 3":"Place a clock on a desk at any time. Simultaneously, move the pencil to the desk across the room. After placing the clock and moving the pencil, bring the ball to the bed. Finally, place a box with a credit card in it on a desk."
+            }
+        },
+        {
+            "task_list":[
+                "Move the alarm clock to the desk.",
+                "Place phone on bed.",
+                "Put a basketball on the bed. ",
+                "Move the pencil to the desk across the room.",
+                "Close a cardboard box containing a credit card. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_185956_956216/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
+                    "tests_seen/trial_T20190908_052238_998113/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190918_144546_300139/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place phone on bed at any time. Simultaneously, put a basketball on the bed. After placing the phone and basketball, move the pencil to the desk across the room. Finally, move the alarm clock to the desk.",
+                "compose 2":"Move the pencil to the desk across the room at any time. Simultaneously, close a cardboard box containing a credit card. After moving the pencil and closing the box, place phone on bed. Finally, move the alarm clock to the desk.",
+                "compose 3":"Close a cardboard box containing a credit card at any time. Simultaneously, place phone on bed. After closing the box and placing the phone, move the pencil to the desk across the room. Finally, move the alarm clock to the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Place a clock on a desk",
+                "Place books on the bed",
+                "Place phone on bed.",
+                "Move the pencil to the desk across the room.",
+                "Put a basketball on the bed. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-314/trial_T20190908_185938_027368/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-314/trial_T20190910_072508_733981/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-Desk-314/trial_T20190907_044915_976409/traj_data.json",
+                    "tests_seen/trial_T20190908_052238_998113/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place books on the bed at any time. Simultaneously, place a clock on a desk and put a basketball on the bed. After placing the books, move the pencil to the desk across the room. Finally, place the phone on the bed.",
+                "compose 2":"Place a clock on a desk at any time. Simultaneously, place books on the bed and put a basketball on the bed. After placing the clock, move the pencil to the desk across the room. Finally, place the phone on the bed.",
+                "compose 3":"Place a clock on a desk at any time. Simultaneously, place books on the bed and the phone on the bed. After placing the clock, move the pencil to the desk across the room. Finally, put a basketball on the bed."
+            }
         }
     ],
+    "tasks_6":[],
     "tasks_7":[],
     "tasks_8":[],
     "tasks_9":[]

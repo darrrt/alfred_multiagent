@@ -63,31 +63,31 @@
     "tasks_1":[
         {
             "task_list":[
-                "Examine the vase in the light by the couch. "
+                "Put the remote on the couch."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Examine the vase in the light by the couch. "
+                "Getting the newspaper ready to be read"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move the laptop from the desk to the center of the sofa."
+                "Put a credit card on a chair. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json"
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json"
                 ]
             ]
         }
@@ -95,117 +95,157 @@
     "tasks_2":[
         {
             "task_list":[
-                "Examine the vase in the light by the couch. ",
-                "Move the laptop from the desk to the center of the sofa."
+                "Getting the newspaper ready to be read",
+                "Put the remote on the couch."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json"
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Putting newspapers on the chair",
-                "Move the laptop from the desk to the center of the sofa."
             ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074201_426995/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put the remote on the couch. First, getting the newspaper ready to be read.",
+                "compose 2":"Getting the newspaper ready to be read. After that, put the remote on the couch.",
+                "compose 3":"Getting the newspaper ready to be read and put the remote on the couch simultaneously."
+            }
         },
         {
             "task_list":[
                 "Move the laptop from the desk to the center of the sofa.",
-                "Getting the newspaper ready to be read"
+                "Put the remote on the couch."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptop from the desk to the center of the sofa at any time. Simultaneously, put the remote on the couch.",
+                "compose 2":"Put the remote on the couch at any time. After placing the remote, move the laptop from the desk to the center of the sofa.",
+                "compose 3":"Move the laptop from the desk to the center of the sofa at any time. Put the remote on the couch at any time."
+            }
+        },
+        {
+            "task_list":[
+                "Put a credit card on a chair. ",
+                "Getting the newspaper ready to be read"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a credit card on a chair at any time. Simultaneously, get the newspaper ready to be read.",
+                "compose 2":"Get the newspaper ready to be read at any time. After getting the newspaper ready, put a credit card on a chair.",
+                "compose 3":"Put a credit card on a chair at any time. After putting the credit card on the chair, get the newspaper ready to be read."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Put the remote on the couch.",
                 "Getting the newspaper ready to be read",
-                "Put a credit card on a chair. "
+                "Put the remote on the couch.",
+                "Move the laptop from the desk to the center of the sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remote on the couch at any time. Simultaneously, move the laptop from the desk to the center of the sofa. After putting the remote and moving the laptop, get the newspaper ready to be read.",
+                "compose 2":"Move the laptop from the desk to the center of the sofa at any time. Simultaneously, put the remote on the couch. After moving the laptop and putting the remote, get the newspaper ready to be read.",
+                "compose 3":"Get the newspaper ready to be read at any time. Simultaneously, put the remote on the couch and move the laptop from the desk to the center of the sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Put the remote on the couch.",
+                "Put a credit card on a chair. ",
+                "Examine the vase in the light by the couch. "
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a credit card on a chair. ",
-                "Examine the vase in the light by the couch. ",
-                "Put the remote on the couch."
-            ],
-            "orign":[
-                [
                     "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
-                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json"
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remote on the couch at any time. Simultaneously, put a credit card on a chair. After placing the remote and credit card, examine the vase in the light by the couch.",
+                "compose 2":"Put a credit card on a chair at any time. Simultaneously, put the remote on the couch. After placing the credit card and remote, examine the vase in the light by the couch.",
+                "compose 3":"Examine the vase in the light by the couch at any time. Simultaneously, put the remote on the couch. After examining the vase, put a credit card on a chair."
+            }
         },
         {
             "task_list":[
-                "Move the laptop from the desk to the center of the sofa.",
                 "Getting the newspaper ready to be read",
-                "Put a credit card on a chair. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Getting the newspaper ready to be read",
-                "Put a credit card on a chair. ",
                 "Move the laptop from the desk to the center of the sofa.",
                 "Examine the vase in the light by the couch. "
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
                     "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
                     "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
                 ]
-            ]
-        },
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptop from the desk to the center of the sofa at any time. Simultaneously, getting the newspaper ready to be read. After moving the laptop and getting the newspaper ready, examine the vase in the light by the couch.",
+                "compose 2":"Examine the vase in the light by the couch first. Next, move the laptop from the desk to the center of the sofa. Finally, getting the newspaper ready to be read.",
+                "compose 3":"Getting the newspaper ready to be read. Afterwards, move the laptop from the desk to the center of the sofa. Once these two tasks are completed, examine the vase in the light by the couch."
+            }
+        }
+    ],
+    "tasks_4":[
         {
             "task_list":[
-                "Put a credit card on a chair. ",
                 "Move the laptop from the desk to the center of the sofa.",
+                "Put a credit card on a chair. ",
                 "Examine the vase in the light by the couch. ",
                 "Getting the newspaper ready to be read"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
                     "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
                     "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a credit card on a chair.Examine the vase in the light by the couch. Move the laptop from the desk to the center of the sofa. Getting the newspaper ready to be read",
+                "compose 2":"Move the laptop from the desk to the center of the sofa. Put a credit card on a chair. Examine the vase in the light by the couch. Getting the newspaper ready to be read",
+                "compose 3":"Getting the newspaper ready to be read. Examine the vase in the light by the couch. Move the laptop from the desk to the center of the sofa. Put a credit card on a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Put the remote on the couch.",
+                "Examine the vase in the light by the couch. ",
+                "Move the laptop from the desk to the center of the sofa.",
+                "Putting newspapers on the chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074201_426995/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remote on the couch at any time. Simultaneously, examine the vase in the light by the couch. After placing the remote and examining the vase, move the laptop from the desk to the center of the sofa. Finally, put newspapers on the chair.",
+                "compose 2":"Examine the vase in the light by the couch at any time. Simultaneously, move the laptop from the desk to the center of the sofa. After examining the vase and moving the laptop, put the remote on the couch. Finally, put newspapers on the chair.",
+                "compose 3":"Move the laptop from the desk to the center of the sofa at any time. Simultaneously, put newspapers on the chair. After moving the laptop and placing newspapers on the chair, examine the vase in the light by the couch. Finally, put the remote on the couch."
+            }
         },
         {
             "task_list":[
@@ -221,63 +261,83 @@
                     "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074201_426995/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remote on the couch at any time. Then, move the laptop from the desk to the center of the sofa. After moving the laptop, examine the vase in the light by the couch. Finally, put the newspapers on the chair.",
+                "compose 2":"Examine the vase in the light by the couch at any time. Simultaneously, put the remote on the couch. After examining the vase, move the laptop from the desk to the center of the sofa. Lastly, put the newspapers on the chair.",
+                "compose 3":"Move the laptop from the desk to the center of the sofa at any time. After moving the laptop, put the remote on the couch. Then, examine the vase in the light by the couch. Lastly, put the newspapers on the chair."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
                 "Getting the newspaper ready to be read",
-                "Put a credit card on a chair. ",
-                "Put the remote on the couch.",
-                "Move the laptop from the desk to the center of the sofa.",
-                "Examine the vase in the light by the couch. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
-                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the laptop from the desk to the center of the sofa.",
-                "Put a credit card on a chair. ",
-                "Getting the newspaper ready to be read",
-                "Put the remote on the couch.",
-                "Examine the vase in the light by the couch. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
-                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the laptop from the desk to the center of the sofa.",
                 "Examine the vase in the light by the couch. ",
-                "Getting the newspaper ready to be read",
+                "Move the laptop from the desk to the center of the sofa.",
                 "Put the remote on the couch.",
                 "Put a credit card on a chair. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
-                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
                     "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
                     "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the vase in the light by the couch. Put a credit card on a chair. Move the laptop from the desk to the center of the sofa. Simultaneously, put the remote on the couch. Afterwards, getting the newspaper ready to be read.",
+                "compose 2":"Put a credit card on a chair. Getting the newspaper ready to be read. Simultaneously, move the laptop from the desk to the center of the sofa. Put the remote on the couch. Lastly, examine the vase in the light by the couch.",
+                "compose 3":"Examine the vase in the light by the couch. Move the laptop from the desk to the center of the sofa. Put a credit card on a chair. Afterwards, put the remote on the couch. Finally, getting the newspaper ready to be read."
+            }
+        },
+        {
+            "task_list":[
+                "Put the remote on the couch.",
+                "Put a credit card on a chair. ",
+                "Move the laptop from the desk to the center of the sofa.",
+                "Getting the newspaper ready to be read",
+                "Examine the vase in the light by the couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remote on the couch at any time. Simultaneously, put a credit card on a chair. After placing the remote and credit card, move the laptop from the desk to the center of the sofa.",
+                "compose 2":"Getting the newspaper ready to be read should be done after moving the laptop from the desk to the center of the sofa. Examine the vase in the light by the couch at any time.",
+                "compose 3":"Move the laptop from the desk to the center of the sofa. After that, getting the newspaper ready to be read should be done. Put the remote on the couch simultaneously with putting a credit card on a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Examine the vase in the light by the couch. ",
+                "Move the laptop from the desk to the center of the sofa.",
+                "Put a credit card on a chair. ",
+                "Getting the newspaper ready to be read",
+                "Put the remote on the couch."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Vase-None-DeskLamp-216/trial_T20190906_200458_622810/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Sofa-216/trial_T20190907_014811_569477/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-216/trial_T20190909_054954_990241/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-ArmChair-216/trial_T20190907_074138_151478/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Sofa-216/trial_T20190909_150024_719377/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the vase in the light by the couch at any time. Simultaneously, put a credit card on a chair. Once done, move the laptop from the desk to the center of the sofa. Finally, put the remote on the couch.",
+                "compose 2":"Move the laptop from the desk to the center of the sofa. Subsequently, put the remote on the couch. After that, put a credit card on a chair. Lastly, examine the vase in the light by the couch.",
+                "compose 3":"Getting the newspaper ready to be read at any time. Following that, move the laptop from the desk to the center of the sofa. After that, put a credit card on a chair. To finish, examine the vase in the light by the couch."
+            }
         }
     ]
 }

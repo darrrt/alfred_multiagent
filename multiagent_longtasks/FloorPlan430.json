@@ -58,9 +58,9 @@
                 "Put a clean sponge in the bottom drawer."
             ],
             "relative_objects":[
-                "DishSponge",
                 "SprayBottle",
-                "SoapBottle"
+                "SoapBottle",
+                "DishSponge"
             ]
         },
         "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-430/trial_T20190908_122130_366898/traj_data.json":{
@@ -88,8 +88,8 @@
                 "clean a red cloth"
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -130,8 +130,8 @@
                 "Put a roll of toilet paper on a toilet paper holder."
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "TissueBox"
+                "TissueBox",
+                "ToiletPaper"
             ]
         },
         "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102055_678050/traj_data.json":{
@@ -141,8 +141,8 @@
                 "Put paper towels in a holder."
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "HandTowel"
+                "HandTowel",
+                "ToiletPaper"
             ]
         },
         "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122347_043547/traj_data.json":{
@@ -163,12 +163,12 @@
                 "Wet a sponge for use in a tub."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel",
-                "Cloth",
-                "SoapBar",
                 "SoapBottle",
-                "DishSponge"
+                "Towel",
+                "SoapBar",
+                "DishSponge",
+                "HandTowel",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122245_195809/traj_data.json":{
@@ -219,8 +219,8 @@
                 "Move a bottle to the bathroom shelf"
             ],
             "relative_objects":[
-                "SoapBar",
-                "SoapBottle"
+                "SoapBottle",
+                "SoapBar"
             ]
         },
         "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json":{
@@ -280,21 +280,41 @@
     "tasks_1":[
         {
             "task_list":[
-                "Place all bars of soap on the shelf"
+                "Put a cleaned scrub sponge in the bottom drawer of a desk."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-430/trial_T20190908_122202_842520/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move a candle to a bathroom rack."
+                "Place a rinsed sponge in a bath tub."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122316_002024/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Pick up the dirty pink rag, rinse it in the sink, return it."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a clean bar of soap on a steel shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075716_990340/traj_data.json"
                 ]
             ]
         },
@@ -307,302 +327,443 @@
                     "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json"
                 ]
             ]
-        },
-        {
-            "task_list":[
-                "Put a roll of toilet paper on the toilet paper dispenser. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a candle to a bathroom rack."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json"
-                ]
-            ]
         }
     ],
     "tasks_2":[
         {
             "task_list":[
-                "Pick up the dirty pink rag, rinse it in the sink, return it.",
-                "Move a candle to a bathroom rack."
+                "Put a wet sponge in the bathtub. ",
+                "Place all bars of soap on the shelf"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122347_043547/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the dirty pink rag, rinse it in the sink, return it.",
-                "Put a wet sponge in the bathtub. "
             ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122347_043547/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a wet sponge in the bathtub at any time. Simultaneously, place all bars of soap on the shelf.",
+                "compose 2":"Place all bars of soap on the shelf at any time. Simultaneously, put a wet sponge in the bathtub.",
+                "compose 3":"Put a wet sponge in the bathtub at any time. After putting the wet sponge, place all bars of soap on the shelf."
+            }
         },
         {
             "task_list":[
-                "Put a roll of toilet paper on the toilet paper dispenser. ",
+                "Move a bottle of soap from a counter top to a metal cart.",
                 "Put a wet sponge on the metal rack. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100609_714213/traj_data.json",
                     "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233436_645915/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a bottle of soap from a counter top to a metal cart at any time. Simultaneously, put a wet sponge on the metal rack.",
+                "compose 2":"Put a wet sponge on the metal rack at any time. Simultaneously, move a bottle of soap from a counter top to a metal cart.",
+                "compose 3":"Move a bottle of soap from a counter top to a metal cart at any time. After moving the soap, put a wet sponge on the metal rack."
+            }
         },
         {
             "task_list":[
-                "Place a roll of toilet paper on a metal holder.",
-                "Move a candle to a bathroom rack."
+                "Place the clean soap on the rack.",
+                "Move nail polish to the shelf rack"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102028_194585/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075738_959822/traj_data.json",
+                    "tests_seen/trial_T20190909_055404_570388/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the clean soap on the rack at any time. Simultaneously, move nail polish to the shelf rack.",
+                "compose 2":"Move nail polish to the shelf rack at any time. After moving the nail polish, place the clean soap on the rack.",
+                "compose 3":"Place the clean soap on the rack at any time. After placing the soap, move nail polish to the shelf rack."
+            }
         },
         {
             "task_list":[
-                "Put clean soap on the rack",
-                "move the spray bottle from the counter to the shelf"
+                "Move a candle to a bathroom rack.",
+                "Put a clean rag on the top shelf of a barred rack."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075807_163356/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json"
+                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a candle to a bathroom rack at any time. Put a clean rag on the top shelf of a barred rack after moving the candle to the bathroom rack.",
+                "compose 2":"Put a clean rag on the top shelf of a barred rack at any time. Move a candle to a bathroom rack.After placing the clean rag, move the candle to a bathroom rack.",
+                "compose 3":"Move a candle to a bathroom rack at any time. Put a clean rag on the top shelf of a barred rack after moving the candle to the bathroom rack."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the dirty pink rag, rinse it in the sink, return it.",
+                "Place all bars of soap on the shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the dirty pink rag, rinse it in the sink, and then return it. Place all bars of soap on the shelf.",
+                "compose 2":"Place all bars of soap on the shelf. Pick up the dirty pink rag, rinse it in the sink, and return it.",
+                "compose 3":"Pick up the dirty pink rag, rinse it in the sink, and return it. Place all bars of soap on the shelf."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Rinse the sponge from the metal shelf.",
-                "Place all bars of soap on the shelf",
-                "Put a roll of toilet paper on the toilet paper dispenser. "
+                "Place a roll of toilet paper on a metal holder.",
+                "Place green sponge on toilet tank",
+                "Move a candle to a bathroom rack."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233529_080163/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json"
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102028_194585/traj_data.json",
+                    "train/pick_and_place_simple-DishSponge-None-Toilet-430/trial_T20190907_144807_198266/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a roll of toilet paper on a metal holder at any time. Simultaneously, place green sponge on toilet tank. After completing these tasks, move a candle to a bathroom rack.",
+                "compose 2":"Move a candle to a bathroom rack at any time. Simultaneously, place green sponge on toilet tank. After moving the candle, place a roll of toilet paper on a metal holder.",
+                "compose 3":"Place green sponge on toilet tank at any time. Simultaneously, place a roll of toilet paper on a metal holder. After these tasks, move a candle to a bathroom rack."
+            }
         },
         {
             "task_list":[
-                "Place a toilet paper roll in a toilet paper dispenser.",
-                "move the spray bottle from the counter to the shelf",
-                "Move nail polish to the shelf rack"
+                "Pick up the dirty pink rag, rinse it in the sink, return it.",
+                "Put a roll of toilet paper on the toilet paper dispenser. ",
+                "Wash and place a sponge in a bath tub"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102055_678050/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
-                    "tests_seen/trial_T20190909_055404_570388/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122245_195809/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "move the spray bottle from the counter to the shelf",
-                "Move nail polish to the shelf rack",
-                "Pick up the dirty pink rag, rinse it in the sink, return it."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
-                    "tests_seen/trial_T20190909_055404_570388/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a wet sponge in the bathtub. ",
-                "Put clean soap on the rack",
-                "Move nail polish to the shelf rack"
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122347_043547/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075807_163356/traj_data.json",
-                    "tests_seen/trial_T20190909_055404_570388/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Pick up the dirty pink rag, rinse it in the sink, return it. After rinsing the rag, put a roll of toilet paper on the toilet paper dispenser. Finally, wash and place a sponge in a bath tub.",
+                "compose 2":"Put a roll of toilet paper on the toilet paper dispenser. Simultaneously, wash and place a sponge in a bath tub. Once done, pick up the dirty pink rag, rinse it in the sink, and return it.",
+                "compose 3":"Wash and place a sponge in a bath tub. After placing the sponge, pick up the dirty pink rag, rinse it in the sink, and return it. Lastly, put a roll of toilet paper on the toilet paper dispenser."
+            }
         },
         {
             "task_list":[
                 "Put a wet sponge on the metal rack. ",
-                "Place all bars of soap on the shelf",
-                "move the spray bottle from the counter to the shelf"
+                "Move a candle to a bathroom rack.",
+                "Put a clean rag on the top shelf of a barred rack."
             ],
             "orign":[
                 [
                     "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233436_645915/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a candle to a bathroom rack at any time. Simultaneously, put a wet sponge on the metal rack. After placing the sponge, put a clean rag on the top shelf of a barred rack.",
+                "compose 2":"Put a clean rag on the top shelf of a barred rack at any time. Simultaneously, move a candle to a bathroom rack. After placing the rag, put a wet sponge on the metal rack.",
+                "compose 3":"Move a candle to a bathroom rack at any time. After moving the candle, put a wet sponge on the metal rack. After placing the sponge, put a clean rag on the top shelf of a barred rack."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the dirty pink rag, rinse it in the sink, return it.",
+                "Put clean soap on the rack",
+                "move the spray bottle from the counter to the shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075807_163356/traj_data.json",
                     "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the dirty pink rag, rinse it in the sink, return it. Put clean soap on the rack. Move the spray bottle from the counter to the shelf.",
+                "compose 2":"Pick up the dirty pink rag, rinse it in the sink, return it. Move the spray bottle from the counter to the shelf. Put clean soap on the rack.",
+                "compose 3":"Put clean soap on the rack. Pick up the dirty pink rag, rinse it in the sink, return it. Move the spray bottle from the counter to the shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Place all bars of soap on the shelf",
+                "Put a clean rag on the top shelf of a barred rack.",
+                "Wash and place a sponge in a bath tub"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122245_195809/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Wash and place a sponge in a bath tub at any time. Simultaneously, put a clean rag on the top shelf of a barred rack. After washing the sponge and placing the rag, place all bars of soap on the shelf.",
+                "compose 2":"Put a clean rag on the top shelf of a barred rack at any time. Simultaneously, wash and place a sponge in a bath tub. After placing the rag, place all bars of soap on the shelf.",
+                "compose 3":"Place all bars of soap on the shelf at any time. Simultaneously, wash and place a sponge in a bath tub. After placing the soap, put a clean rag on the top shelf of a barred rack."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
+                "Place a clean bar of soap on a steel shelf.",
+                "Move a candle to a bathroom rack.",
+                "Put all the boxes of tissues on the barred rack.",
+                "Pick up the dirty pink rag, rinse it in the sink, return it."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075716_990340/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json",
+                    "train/pick_two_obj_and_place-TissueBox-None-Cart-430/trial_T20190906_172408_729431/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a clean bar of soap on a steel shelf. Simultaneously, move a candle to a bathroom rack. After placing the soap and moving the candle, put all the boxes of tissues on the barred rack. Finally, pick up the dirty pink rag, rinse it in the sink, and return it.",
+                "compose 2":"Put all the boxes of tissues on the barred rack. After that, pick up the dirty pink rag, rinse it in the sink and return it. Concurrently, place a clean bar of soap on a steel shelf. Finally, move a candle to a bathroom rack.",
+                "compose 3":"Place a clean bar of soap on a steel shelf. Following that, pick up the dirty pink rag, rinse it in the sink, and return it. Simultaneously, move a candle to a bathroom rack. Once done, put all the boxes of tissues on the barred rack."
+            }
+        },
+        {
+            "task_list":[
                 "Move a bottle of soap from a counter top to a metal cart.",
                 "Put a clean rag on the top shelf of a barred rack.",
-                "Move nail polish to the shelf rack",
-                "Put a wet sponge on the metal rack. "
+                "Put a roll of toilet paper on the toilet paper dispenser. ",
+                "place a green sponge on the drying racks"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100609_714213/traj_data.json",
                     "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json",
-                    "tests_seen/trial_T20190909_055404_570388/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233436_645915/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a clean bar of soap on a steel shelf.",
-                "Place a roll of toilet paper on a metal holder.",
-                "Move nail polish to the shelf rack",
-                "place a green sponge on the drying racks"
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075716_990340/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102028_194585/traj_data.json",
-                    "tests_seen/trial_T20190909_055404_570388/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json",
                     "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233458_108018/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a roll of toilet paper on a metal holder.",
-                "move the spray bottle from the counter to the shelf",
-                "Move a candle to a bathroom rack.",
-                "Pick up the dirty pink rag, rinse it in the sink, return it."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102028_194585/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a clean rag on the top shelf of a barred rack at any time. Simultaneously, place a green sponge on the drying racks. After putting the rag and sponge, move a bottle of soap from a counter top to a metal cart. Finally, put a roll of toilet paper on the toilet paper dispenser.",
+                "compose 2":"Put a roll of toilet paper on the toilet paper dispenser at any time. Simultaneously, put a clean rag on the top shelf of a barred rack. After completing these tasks, move a bottle of soap from a counter top to a metal cart. Finally, place a green sponge on the drying racks.",
+                "compose 3":"Place a green sponge on the drying racks at any time. Simultaneously, move a bottle of soap from a counter top to a metal cart. After these tasks, put a clean rag on the top shelf of a barred rack. Finally, put a roll of toilet paper on the toilet paper dispenser."
+            }
         },
         {
             "task_list":[
                 "Pick up the dirty pink rag, rinse it in the sink, return it.",
-                "Put a clean sponge in the bathroom drawer. ",
+                "Place a roll of toilet paper on a metal holder.",
                 "Move a bottle of soap from a counter top to a metal cart.",
-                "Put a roll of toilet paper on the toilet paper dispenser. "
+                "Put a clean sponge in the bottom drawer of the counter"
             ],
             "orign":[
                 [
                     "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-430/trial_T20190908_122130_366898/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102028_194585/traj_data.json",
                     "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100609_714213/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-430/trial_T20190908_122230_051247/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the dirty pink rag, rinse it in the sink, and then return it. After that, place a roll of toilet paper on a metal holder. Finally, move a bottle of soap from a counter top to a metal cart and put a clean sponge in the bottom drawer of the counter.",
+                "compose 2":"Pick up the dirty pink rag, rinse it in the sink, and return it. Simultaneously, move a bottle of soap from a counter top to a metal cart. After completing these steps, place a roll of toilet paper on a metal holder and put a clean sponge in the bottom drawer of the counter.",
+                "compose 3":"Move a bottle of soap from a counter top to a metal cart. Then, put a clean sponge in the bottom drawer of the counter. After these tasks, pick up the dirty pink rag, rinse it in the sink, and return it. Lastly, place a roll of toilet paper on a metal holder."
+            }
         },
         {
             "task_list":[
-                "Put all the boxes of tissues on the barred rack.",
-                "Put clean soap on the rack",
-                "Put a wet sponge in the bathtub. ",
-                "move the spray bottle from the counter to the shelf"
+                "Put a clean rag on the top shelf of a barred rack.",
+                "move the spray bottle from the counter to the shelf",
+                "Place a roll of toilet paper on a metal holder.",
+                "Move a bottle of soap from a counter top to a metal cart."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-TissueBox-None-Cart-430/trial_T20190906_172408_729431/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075807_163356/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122347_043547/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102028_194585/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100609_714213/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean rag on the top shelf of a barred rack at any time. Simultaneously, move the spray bottle from the counter to the shelf. After placing the rag and the spray bottle, place a roll of toilet paper on a metal holder.",
+                "compose 2":"Move a bottle of soap from a counter top to a metal cart at any time. After moving the soap, put a clean rag on the top shelf of a barred rack. Finally, move the spray bottle from the counter to the shelf.",
+                "compose 3":"Move a bottle of soap from a counter top to a metal cart at any time. Simultaneously, place a roll of toilet paper on a metal holder. After moving the soap and placing the toilet paper, put a clean rag on the top shelf of a barred rack."
+            }
+        },
+        {
+            "task_list":[
+                "Move a bottle of soap from a counter top to a metal cart.",
+                "Put a clean sponge in the bottom drawer of the counter",
+                "move the spray bottle from the counter to the shelf",
+                "Place a roll of toilet paper on a metal holder."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100609_714213/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-430/trial_T20190908_122230_051247/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102028_194585/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a bottle of soap from a counter top to a metal cart. Simultaneously, move the spray bottle from the counter to the shelf. After moving the soap and spray bottle, put a clean sponge in the bottom drawer of the counter. Finally, place a roll of toilet paper on a metal holder.",
+                "compose 2":"Put a clean sponge in the bottom drawer of the counter. Simultaneously, place a roll of toilet paper on a metal holder. After putting the sponge and toilet paper, move a bottle of soap from a counter top to a metal cart. Finally, move the spray bottle from the counter to the shelf.",
+                "compose 3":"Move a bottle of soap from a counter top to a metal cart. Simultaneously, put a clean sponge in the bottom drawer of the counter. After moving the soap and placing the sponge, place a roll of toilet paper on a metal holder. Finally, move the spray bottle from the counter to the shelf."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "Place a toilet paper roll in a toilet paper dispenser.",
-                "Place all bars of soap on the shelf",
+                "Put a wet sponge on the metal rack. ",
                 "move the spray bottle from the counter to the shelf",
+                "Put a clean rag on the top shelf of a barred rack.",
+                "Put a roll of toilet paper on the toilet paper dispenser. ",
+                "Move a bottle of soap from a counter top to a metal cart."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233436_645915/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100609_714213/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a wet sponge on the metal rack at any time. Simultaneously, move the spray bottle from the counter to the shelf. After putting the sponge and moving the spray bottle, put a clean rag on the top shelf of a barred rack. Lastly, put a roll of toilet paper on the toilet paper dispenser.",
+                "compose 2":"Move a bottle of soap from a counter top to a metal cart first. After moving the soap, put a clean rag on the top shelf of a barred rack. Then, put a wet sponge on the metal rack. After that, put a roll of toilet paper on the toilet paper dispenser. Finally, move the spray bottle from the counter to the shelf.",
+                "compose 3":"Put a roll of toilet paper on the toilet paper dispenser first. Simultaneously, put a clean rag on the top shelf of a barred rack. After that, move a bottle of soap from a counter top to a metal cart. Next, put a wet sponge on the metal rack. Finally, move the spray bottle from the counter to the shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Move a candle to a bathroom rack.",
+                "Put a clean sponge in the bottom drawer of the counter",
                 "Put all the boxes of tissues on the barred rack.",
+                "Put a roll of toilet paper on the toilet paper dispenser. ",
+                "move the spray bottle from the counter to the shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-430/trial_T20190908_122230_051247/traj_data.json",
+                    "train/pick_two_obj_and_place-TissueBox-None-Cart-430/trial_T20190906_172408_729431/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean sponge in the bottom drawer of the counter at any time. Simultaneously, move a candle to a bathroom rack. After placing the sponge, put all the boxes of tissues on the barred rack. Finally, put a roll of toilet paper on the toilet paper dispenser.",
+                "compose 2":"Put a roll of toilet paper on the toilet paper dispenser at any time. Simultaneously, put all the boxes of tissues on the barred rack. After that, put a clean sponge in the bottom drawer of the counter. Finally, move the spray bottle from the counter to the shelf.",
+                "compose 3":"Put a clean sponge in the bottom drawer of the counter at any time. Simultaneously, move a candle to a bathroom rack. After placing the sponge, move the spray bottle from the counter to the shelf. Finally, put all the boxes of tissues on the barred rack."
+            }
+        },
+        {
+            "task_list":[
+                "move the spray bottle from the counter to the shelf",
+                "Move nail polish to the shelf rack",
+                "Place all bars of soap on the shelf",
+                "Pick up the dirty pink rag, rinse it in the sink, return it.",
                 "Put a wet sponge on the metal rack. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102055_678050/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json",
                     "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
-                    "train/pick_two_obj_and_place-TissueBox-None-Cart-430/trial_T20190906_172408_729431/traj_data.json",
+                    "tests_seen/trial_T20190909_055404_570388/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json",
                     "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233436_645915/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the spray bottle from the counter to the shelf at any time. Simultaneously, place all bars of soap on the shelf. After moving the spray bottle and placing the soap, pick up the dirty pink rag, rinse it in the sink, and return it.",
+                "compose 2":"Move nail polish to the shelf rack at any time. Simultaneously, put a wet sponge on the metal rack. After moving the nail polish and placing the sponge, pick up the dirty pink rag, rinse it in the sink, and return it.",
+                "compose 3":"Move the spray bottle from the counter to the shelf at any time. Simultaneously, move nail polish to the shelf rack. After moving the spray bottle and nail polish, place all bars of soap on the shelf. After placing the soap, put a wet sponge on the metal rack. Finally, pick up the dirty pink rag, rinse it in the sink, and return it."
+            }
         },
         {
             "task_list":[
-                "Place all bars of soap on the shelf",
-                "Put a roll of toilet paper on the toilet paper dispenser. ",
-                "Put a clean sponge in the bathroom drawer. ",
                 "Move nail polish to the shelf rack",
-                "Put all the boxes of tissues on the barred rack."
+                "Put a roll of toilet paper on the toilet paper dispenser. ",
+                "Put a wet sponge in the bathtub. ",
+                "Move a bottle of soap from a counter top to a metal cart.",
+                "Pick up the dirty pink rag, rinse it in the sink, return it."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-430/trial_T20190908_122130_366898/traj_data.json",
                     "tests_seen/trial_T20190909_055404_570388/traj_data.json",
-                    "train/pick_two_obj_and_place-TissueBox-None-Cart-430/trial_T20190906_172408_729431/traj_data.json"
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-430/trial_T20190908_122347_043547/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100609_714213/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194203_696787/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a bottle of soap from a counter top to a metal cart. After moving the soap, put a roll of toilet paper on the toilet paper dispenser. Simultaneously, pick up the dirty pink rag, rinse it in the sink, and return it.",
+                "compose 2":"Move nail polish to the shelf rack at any time. After moving the nail polish, put a wet sponge in the bathtub. Simultaneously, pick up the dirty pink rag, rinse it in the sink, and return it.",
+                "compose 3":"Pick up the dirty pink rag, rinse it in the sink, and return it. After returning the rag, put a wet sponge in the bathtub. Simultaneously, move a bottle of soap from a counter top to a metal cart."
+            }
         }
     ],
     "tasks_6":[
         {
             "task_list":[
-                "Put a roll of toilet paper on the toilet paper dispenser. ",
-                "Put all the boxes of tissues on the barred rack.",
                 "move the spray bottle from the counter to the shelf",
-                "Move a candle to a bathroom rack.",
+                "Put all the boxes of tissues on the barred rack.",
+                "Put a clean rag on the top shelf of a barred rack.",
                 "Put a wet sponge on the metal rack. ",
-                "Move a bottle of soap from a counter top to a metal cart."
+                "Put a roll of toilet paper on the toilet paper dispenser. ",
+                "Put clean soap on the rack"
             ],
             "orign":[
                 [
+                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
+                    "train/pick_two_obj_and_place-TissueBox-None-Cart-430/trial_T20190906_172408_729431/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233436_645915/traj_data.json",
                     "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-430/trial_T20190908_102045_139402/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cart-430/trial_T20190907_075807_163356/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean rag on the top shelf of a barred rack. Simultaneously, put a wet sponge on the metal rack. After placing the rag and sponge, move the spray bottle from the counter to the shelf. Put all the boxes of tissues on the barred rack. Put clean soap on the rack. Finally, put a roll of toilet paper on the toilet paper dispenser.",
+                "compose 2":"Put a clean rag on the top shelf of a barred rack. Put a wet sponge on the metal rack. Simultaneously, move the spray bottle from the counter to the shelf. After placing the rag, sponge, and spray bottle, put all the boxes of tissues on the barred rack. Put clean soap on the rack. Finally, put a roll of toilet paper on the toilet paper dispenser.",
+                "compose 3":"Move the spray bottle from the counter to the shelf. Put a clean rag on the top shelf of a barred rack. Put a wet sponge on the metal rack. Put all the boxes of tissues on the barred rack. Put clean soap on the rack. Finally, put a roll of toilet paper on the toilet paper dispenser."
+            }
+        },
+        {
+            "task_list":[
+                "Place all bars of soap on the shelf",
+                "Put a clean rag on the top shelf of a barred rack.",
+                "Put a clean sponge in the bottom drawer of the counter",
+                "Put all the boxes of tissues on the barred rack.",
+                "move the spray bottle from the counter to the shelf",
+                "Move a candle to a bathroom rack."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145927_629447/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-430/trial_T20190908_122230_051247/traj_data.json",
                     "train/pick_two_obj_and_place-TissueBox-None-Cart-430/trial_T20190906_172408_729431/traj_data.json",
                     "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100644_741963/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Cart-430/trial_T20190906_233436_645915/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Cart-430/trial_T20190909_100609_714213/traj_data.json"
+                    "train/pick_and_place_simple-Candle-None-Cart-430/trial_T20190909_055319_119903/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place all bars of soap on the shelf in any order. Put a clean rag on the top shelf of a barred rack. Put a clean sponge in the bottom drawer of the counter. Put all the boxes of tissues on the barred rack. Move the spray bottle from the counter to the shelf. Move a candle to a bathroom rack.",
+                "compose 2":"Move a candle to a bathroom rack in any time. Put a clean rag on the top shelf of a barred rack. Put a clean sponge in the bottom drawer of the counter at any time. Place all bars of soap on the shelf in any order. Move the spray bottle from the counter to the shelf. Put all the boxes of tissues on the barred rack.",
+                "compose 3":"Put a clean sponge in the bottom drawer of the counter. Move the spray bottle from the counter to the shelf. Put all the boxes of tissues on the barred rack after the sponge is in place. Place all bars of soap on the shelf. Move a candle to a bathroom rack. Put a clean rag on the top shelf of a barred rack."
+            }
         }
     ],
     "tasks_7":[],

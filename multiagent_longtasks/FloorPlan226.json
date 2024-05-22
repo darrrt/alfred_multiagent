@@ -8,8 +8,8 @@
                 "Place a box and a set of keys in the box on the sofa"
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         },
         "tests_unseen/trial_T20190909_105447_359066/traj_data.json":{
@@ -19,8 +19,8 @@
                 "Putting keys on a sofa"
             ],
             "relative_objects":[
-                "Pillow",
-                "KeyChain"
+                "KeyChain",
+                "Pillow"
             ]
         },
         "tests_unseen/trial_T20190908_125252_951776/traj_data.json":{
@@ -85,16 +85,6 @@
                 "Sofa"
             ]
         },
-        "tests_unseen/trial_T20190908_221009_646096/traj_data.json":{
-            "tasks":[
-                "Place 2 newspapers on the arm chair"
-            ],
-            "relative_objects":[
-                "Newspaper",
-                "Pillow",
-                "Box"
-            ]
-        },
         "tests_unseen/trial_T20190909_145612_379950/traj_data.json":{
             "tasks":[
                 "put to credit cards on the coffee table"
@@ -157,14 +147,6 @@
                 "Statue"
             ]
         },
-        "tests_unseen/trial_T20190908_123456_669219/traj_data.json":{
-            "tasks":[
-                "Put 2 dog decorations front to back on the edge of the right side of the table. "
-            ],
-            "relative_objects":[
-                "Statue"
-            ]
-        },
         "tests_unseen/trial_T20190907_040619_780535/traj_data.json":{
             "tasks":[
                 "move the remote controls to the middle cushion of the couch"
@@ -187,51 +169,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "Clean up statues and put them down on the table"
+                "Place remote controls on a couch"
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json"
+                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move keys to a sofa"
+                "Place watch in the desk drawer."
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190909_105426_604874/traj_data.json"
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move the statue from the end table to the coffee table."
+                "Move the box to the sofa."
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json"
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move a set of keys to a chair. "
+                "put to credit cards on the coffee table"
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json"
+                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move a set of keys to a chair. "
+                "Place watch in the desk drawer."
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json"
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json"
                 ]
             ]
         }
@@ -239,391 +221,511 @@
     "tasks_2":[
         {
             "task_list":[
-                "put to credit cards on the coffee table",
-                "move the remote controls to the middle cushion of the couch"
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Clean up statues and put them down on the table",
-                "Move keys to a sofa"
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json",
-                    "tests_unseen/trial_T20190909_105426_604874/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "pick up the credit cards and set them on the coffee table",
-                "Move a set of keys to a chair. "
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
-                "move watch to the dresser"
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190907_074509_505382/traj_data.json",
-                    "tests_unseen/trial_T20190908_125234_061434/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "take the watch from the coffee table, put it on the desk",
-                "Place 2 newspapers on the arm chair"
+                "Move the statue from the end table to the coffee table."
             ],
             "orign":[
                 [
                     "tests_unseen/trial_T20190908_125252_951776/traj_data.json",
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json"
+                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the statue from the end table to the coffee table at any time. After moving the statue, take the watch from the coffee table and put it on the desk.",
+                "compose 2":"Take the watch from the coffee table and put it on the desk at any time. Simultaneously, move the statue from the end table to the coffee table.",
+                "compose 3":"Take the watch from the coffee table and put it on the desk at any time. After putting the watch on the desk, move the statue from the end table to the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "move watch to the dresser",
+                "Place remote controls on a couch"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_125234_061434/traj_data.json",
+                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place remote controls on a couch at any time. After placing the remote controls, move watch to the dresser.",
+                "compose 2":"Move watch to the dresser at any time. After moving the watch, place remote controls on a couch.",
+                "compose 3":"Place remote controls on a couch at any time. Move watch to the dresser after placing the remote controls."
+            }
+        },
+        {
+            "task_list":[
+                "pick up the credit cards and set them on the coffee table",
+                "Clean up statues and put them down on the table"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
+                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit cards and set them on the coffee table. After setting the credit cards, clean up statues and put them down on the table.",
+                "compose 2":"Clean up statues and put them down on the table at any time. Simultaneously, pick up the credit cards and set them on the coffee table.",
+                "compose 3":"Pick up the credit cards and set them on the coffee table. Once the credit cards are set, clean up statues and put them down on the table."
+            }
+        },
+        {
+            "task_list":[
+                "Close a cardboard box with a credit card inside.",
+                "Place remote controls on a couch"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190906_201636_696952/traj_data.json",
+                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Close a cardboard box with a credit card inside. After closing the box, place remote controls on a couch.",
+                "compose 2":"Place remote controls on a couch at any time. Simultaneously, close a cardboard box with a credit card inside.",
+                "compose 3":"Place remote controls on a couch first. Then, close a cardboard box with a credit card inside."
+            }
+        },
+        {
+            "task_list":[
+                "Move the box to the sofa.",
+                "Place watch in the desk drawer."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the box to the sofa at any time. Simultaneously, place watch in the desk drawer.",
+                "compose 2":"Place watch in the desk drawer at any time. Simultaneously, move the box to the sofa.",
+                "compose 3":"Place watch in the desk drawer at any time. After placing the watch, move the box to the sofa."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
+                "Place watch in the desk drawer.",
+                "move the remote controls to the middle cushion of the couch",
+                "Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json",
+                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
+                    "tests_unseen/trial_T20190907_074509_505382/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the remote controls to the middle cushion of the couch. Place watch in the desk drawer. After moving the remote controls and placing the watch, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
+                "compose 2":"Place watch in the desk drawer at any time. Simultaneously, move the remote controls to the middle cushion of the couch. After placing the watch and moving the remote controls, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
+                "compose 3":"Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch at any time. After placing the figurine, move the remote controls to the middle cushion of the couch. Finally, place watch in the desk drawer."
+            }
+        },
+        {
+            "task_list":[
                 "move watch to the dresser",
-                "Move a set of keys to a chair. ",
-                "Move the box to the sofa."
+                "Clean up statues and put them down on the table",
+                "Place remote controls on a couch"
             ],
             "orign":[
                 [
                     "tests_unseen/trial_T20190908_125234_061434/traj_data.json",
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
-                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json"
+                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json",
+                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move watch to the dresser at any time. Clean up statues and put them down on the table simultaneously. Place remote controls on a couch.",
+                "compose 2":"Clean up statues and put them down on the table at any time. Move watch to the dresser at any time. Place remote controls on a couch.",
+                "compose 3":"Move watch to the dresser at any time. Place remote controls on a couch. Clean up statues and put them down on the table after moving the watch and placing the remote controls."
+            }
+        },
+        {
+            "task_list":[
+                "Place watch in the desk drawer.",
+                "Move the box to the sofa.",
+                "Place a set of keys on a couch."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
+                    "tests_unseen/trial_T20190909_105447_359066/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place watch in the desk drawer at any time. Simultaneously, place a set of keys on a couch. After placing the watch, move the box to the sofa.",
+                "compose 2":"Place a set of keys on a couch at any time. Simultaneously, place watch in the desk drawer. After placing the keys, move the box to the sofa.",
+                "compose 3":"Move the box to the sofa at any time. Simultaneously, place a set of keys on a couch. After moving the box, place watch in the desk drawer."
+            }
         },
         {
             "task_list":[
                 "Move a set of keys to the seat of a chair.",
-                "Put 2 dog decorations front to back on the edge of the right side of the table. ",
-                "put to credit cards on the coffee table"
+                "put to credit cards on the coffee table",
+                "Move the box to the sofa."
             ],
             "orign":[
                 [
                     "tests_unseen/trial_T20190908_122249_641769/traj_data.json",
-                    "tests_unseen/trial_T20190908_123456_669219/traj_data.json",
-                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json"
+                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a set of keys to the seat of a chair at any time. Simultaneously, put two credit cards on the coffee table. After moving the keys and placing the credit cards, move the box to the sofa.",
+                "compose 2":"Move a set of keys to the seat of a chair at any time. After moving the keys, put two credit cards on the coffee table concurrently with moving the box to the sofa.",
+                "compose 3":"Put two credit cards on the coffee table at any time. Simultaneously, move a set of keys to the seat of a chair. After placing the credit cards and moving the keys, move the box to the sofa."
+            }
         },
         {
             "task_list":[
-                "Move the statue from the end table to the coffee table.",
-                "move the remote controls to the middle cushion of the couch",
-                "Moving keys into a cardboard box on a sofa"
+                "Place a set of keys on a couch.",
+                "Clean up statues and put them down on the table",
+                "move watch to the dresser"
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
-                    "tests_unseen/trial_T20190908_071233_937560/traj_data.json"
+                    "tests_unseen/trial_T20190909_105447_359066/traj_data.json",
+                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json",
+                    "tests_unseen/trial_T20190908_125234_061434/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a set of keys to a chair. ",
-                "pick up the credit cards and set them on the coffee table",
-                "Place 2 newspapers on the arm chair"
             ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
-                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Close a cardboard box with a credit card inside.",
-                "Place remote controls on a couch",
-                "Put 2 dog decorations front to back on the edge of the right side of the table. "
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190906_201636_696952/traj_data.json",
-                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json",
-                    "tests_unseen/trial_T20190908_123456_669219/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place a set of keys on a couch at any time. Simultaneously, clean up statues and put them down on the table. After placing the keys and cleaning up the statues, move the watch to the dresser.",
+                "compose 2":"Move the watch to the dresser at any time. Simultaneously, place a set of keys on a couch. After moving the watch, clean up statues and put them down on the table.",
+                "compose 3":"Clean up statues and put them down on the table at any time. Simultaneously, place a set of keys on a couch. After cleaning up the statues, move the watch to the dresser."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
+                "Move a set of keys to the seat of a chair.",
+                "Move the statue from the end table to the coffee table.",
+                "move the remote controls to the middle cushion of the couch",
+                "Close a cardboard box with a credit card inside."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_122249_641769/traj_data.json",
+                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
+                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
+                    "tests_unseen/trial_T20190906_201636_696952/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the statue from the end table to the coffee table at any time. Simultaneously, move a set of keys to the seat of a chair. After moving the statue and keys, close a cardboard box with a credit card inside.",
+                "compose 2":"Close a cardboard box with a credit card inside at any time. Simultaneously, move the remote controls to the middle cushion of the couch. After closing the box and placing the remote controls, move the statue from the end table to the coffee table.",
+                "compose 3":"Move the remote controls to the middle cushion of the couch at any time. Simultaneously, close a cardboard box with a credit card inside. After moving the remote controls and closing the box, move a set of keys to the seat of a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Clean up statues and put them down on the table",
                 "Move a set of keys to a chair. ",
+                "Move the box to the sofa.",
+                "Place remote controls on a couch"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json",
+                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
+                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Clean up statues and put them down on the table at any time. Simultaneously, move a set of keys to a chair. After completing these tasks, move the box to the sofa. Once the box is in place, place remote controls on a couch.",
+                "compose 2":"Move a set of keys to a chair first. Then, clean up statues and put them down on the table. After that, place remote controls on a couch. Finally, move the box to the sofa.",
+                "compose 3":"Place remote controls on a couch at any time. Simultaneously, clean up statues and put them down on the table. Once these tasks are done, move a set of keys to a chair. Finally, move the box to the sofa."
+            }
+        },
+        {
+            "task_list":[
                 "put to credit cards on the coffee table",
-                "take the watch from the coffee table, put it on the desk",
-                "Place remote controls on a couch"
+                "Move a set of keys to the seat of a chair.",
+                "move the remote controls to the middle cushion of the couch",
+                "Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch."
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
                     "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
-                    "tests_unseen/trial_T20190908_125252_951776/traj_data.json",
-                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
+                    "tests_unseen/trial_T20190908_122249_641769/traj_data.json",
+                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
+                    "tests_unseen/trial_T20190907_074509_505382/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a set of keys to the seat of a chair at any time. Simultaneously, put two credit cards on the coffee table.After completing the previous tasks, move the remote controls to the middle cushion of the couch and place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
+                "compose 2":"Move the remote controls to the middle cushion of the couch at any time. Simultaneously, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.After completing the previous tasks, move a set of keys to the seat of a chair and put two credit cards on the coffee table.",
+                "compose 3":"Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch at any time. Simultaneously, move a set of keys to the seat of a chair.After completing the previous tasks, move the remote controls to the middle cushion of the couch and put two credit cards on the coffee table."
+            }
         },
         {
             "task_list":[
-                "Move the statue from the end table to the coffee table.",
-                "Place 2 newspapers on the arm chair",
-                "Move a set of keys to a chair. ",
+                "Close a cardboard box with a credit card inside.",
+                "Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
+                "Place a set of keys on a couch.",
                 "Place remote controls on a couch"
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json",
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
+                    "tests_unseen/trial_T20190906_201636_696952/traj_data.json",
+                    "tests_unseen/trial_T20190907_074509_505382/traj_data.json",
+                    "tests_unseen/trial_T20190909_105447_359066/traj_data.json",
                     "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "pick up the credit cards and set them on the coffee table",
-                "Move keys to a sofa",
-                "Move the statue from the end table to the coffee table.",
-                "move the remote controls to the middle cushion of the couch"
             ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
-                    "tests_unseen/trial_T20190909_105426_604874/traj_data.json",
-                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch. After placing the animal figurine, place remote controls on a couch. Finally, close a cardboard box with a credit card inside.",
+                "compose 2":"Place a set of keys on a couch at any time. Afterwards, place remote controls on a couch. Lastly, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
+                "compose 3":"Close a cardboard box with a credit card inside at any time. Then, place a set of keys on a couch. Finally, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch."
+            }
         },
         {
             "task_list":[
-                "Move the statue from the end table to the coffee table.",
                 "Place remote controls on a couch",
+                "Move the box to the sofa.",
                 "Move keys to a sofa",
                 "take the watch from the coffee table, put it on the desk"
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
                     "tests_unseen/trial_T20190907_040739_849657/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
                     "tests_unseen/trial_T20190909_105426_604874/traj_data.json",
                     "tests_unseen/trial_T20190908_125252_951776/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put 2 dog decorations front to back on the edge of the right side of the table. ",
-                "move the remote controls to the middle cushion of the couch",
-                "Place a set of keys on a couch.",
-                "Move the box to the sofa."
             ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190908_123456_669219/traj_data.json",
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
-                    "tests_unseen/trial_T20190909_105447_359066/traj_data.json",
-                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move the box to the sofa at any time. Simultaneously, take the watch from the coffee table, put it on the desk. Once the box is moved, place remote controls on a couch. After completing the previous tasks, move keys to a sofa.",
+                "compose 2":"Move keys to a sofa at any time. Simultaneously, place remote controls on a couch. Once the keys are moved, move the box to the sofa. After completing the previous tasks, take the watch from the coffee table, put it on the desk.",
+                "compose 3":"Take the watch from the coffee table, put it on the desk at any time. Simultaneously, move the box to the sofa. After the watch is moved, place remote controls on a couch. Once done, move keys to a sofa."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "Place remote controls on a couch",
-                "Place 2 newspapers on the arm chair",
-                "Move a set of keys to a chair. ",
-                "pick up the credit cards and set them on the coffee table",
-                "take the watch from the coffee table, put it on the desk"
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json",
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json",
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
-                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
-                    "tests_unseen/trial_T20190908_125252_951776/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place 2 newspapers on the arm chair",
-                "pick up the credit cards and set them on the coffee table",
-                "take the watch from the coffee table, put it on the desk",
-                "move the remote controls to the middle cushion of the couch",
-                "Move a set of keys to a chair. "
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json",
-                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
-                    "tests_unseen/trial_T20190908_125252_951776/traj_data.json",
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place 2 newspapers on the arm chair",
                 "Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
-                "Move a set of keys to a chair. ",
                 "move watch to the dresser",
-                "move the remote controls to the middle cushion of the couch"
+                "move the remote controls to the middle cushion of the couch",
+                "pick up the credit cards and set them on the coffee table",
+                "Moving keys into a cardboard box on a sofa"
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json",
                     "tests_unseen/trial_T20190907_074509_505382/traj_data.json",
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
                     "tests_unseen/trial_T20190908_125234_061434/traj_data.json",
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json"
+                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
+                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
+                    "tests_unseen/trial_T20190908_071233_937560/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the remote controls to the middle cushion of the couch at any time. Simultaneously, pick up the credit cards and set them on the coffee table. After completing these tasks, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch. Once done, move the watch to the dresser. Finally, move the keys into a cardboard box on the sofa.",
+                "compose 2":"Pick up the credit cards and set them on the coffee table first. Next, move the keys into a cardboard box on the sofa. Afterward, move the remote controls to the middle cushion of the couch. Then, move the watch to the dresser. Finally, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
+                "compose 3":"Move the keys into a cardboard box on the sofa first. Next, move the remote controls to the middle cushion of the couch. After that, pick up the credit cards and set them on the coffee table. Then, move the watch to the dresser. Lastly, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch."
+            }
+        },
+        {
+            "task_list":[
+                "pick up the credit cards and set them on the coffee table",
+                "Move the box to the sofa.",
+                "Place watch in the desk drawer.",
+                "move the remote controls to the middle cushion of the couch",
+                "Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json",
+                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
+                    "tests_unseen/trial_T20190907_074509_505382/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit cards and set them on the coffee table at any time. Simultaneously, move the remote controls to the middle cushion of the couch. After placing the credit cards and remote controls, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch. Finally, move the box to the sofa.",
+                "compose 2":"Move the box to the sofa at any time. After moving the box, place watch in the desk drawer. Simultaneously, pick up the credit cards and set them on the coffee table. After placing the watch and credit cards, move the remote controls to the middle cushion of the couch. Finally, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
+                "compose 3":"Move the remote controls to the middle cushion of the couch at any time. Simultaneously, place watch in the desk drawer. After moving the remote controls and placing the watch, pick up the credit cards and set them on the coffee table. Finally, move the box to the sofa and place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch."
+            }
         },
         {
             "task_list":[
                 "Move a set of keys to a chair. ",
-                "Close a cardboard box with a credit card inside.",
-                "Move the statue from the end table to the coffee table.",
-                "move watch to the dresser",
+                "Place watch in the desk drawer.",
+                "put to credit cards on the coffee table",
+                "Move the box to the sofa.",
                 "Place remote controls on a couch"
             ],
             "orign":[
                 [
                     "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
-                    "tests_unseen/trial_T20190906_201636_696952/traj_data.json",
-                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
-                    "tests_unseen/trial_T20190908_125234_061434/traj_data.json",
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json",
+                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
                     "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a set of keys to a chair at any time. Simultaneously, put to credit cards on the coffee table. After moving the keys and placing the credit cards, place watch in the desk drawer. Finally, move the box to the sofa and place remote controls on a couch.",
+                "compose 2":"Place watch in the desk drawer at any time. Simultaneously, move a set of keys to a chair. After placing the watch, put to credit cards on the coffee table. After that, move the box to the sofa and place remote controls on a couch.",
+                "compose 3":"Move the box to the sofa at any time. Simultaneously, move a set of keys to a chair and place watch in the desk drawer. After moving the box, put to credit cards on the coffee table. Finally, place remote controls on a couch."
+            }
         },
         {
             "task_list":[
-                "Put 2 dog decorations front to back on the edge of the right side of the table. ",
+                "Clean up statues and put them down on the table",
+                "put to credit cards on the coffee table",
+                "move watch to the dresser",
+                "Move a set of keys to the seat of a chair.",
+                "Move the box to the sofa."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json",
+                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
+                    "tests_unseen/trial_T20190908_125234_061434/traj_data.json",
+                    "tests_unseen/trial_T20190908_122249_641769/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a set of keys to the seat of a chair. Simultaneously, clean up statues and put them down on the table. After completing the previous tasks, put two credit cards on the coffee table. Finally, move the watch to the dresser. Move the box to the sofa.",
+                "compose 2":"Move the box to the sofa at any time. Simultaneously, put two credit cards on the coffee table. After moving the box, clean up statues and put them down on the table. Then, move a set of keys to the seat of a chair. Finally, move the watch to the dresser.",
+                "compose 3":"Clean up statues and put them down on the table. After completing this task, move a set of keys to the seat of a chair. Simultaneously, put two credit cards on the coffee table. Once these are done, move the watch to the dresser. Move the box to the sofa."
+            }
+        },
+        {
+            "task_list":[
+                "pick up the credit cards and set them on the coffee table",
+                "Move the box to the sofa.",
+                "Move a set of keys to a chair. ",
                 "Place remote controls on a couch",
-                "Move keys to a sofa",
-                "Close a cardboard box with a credit card inside.",
                 "Place watch in the desk drawer."
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190908_123456_669219/traj_data.json",
+                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
+                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
                     "tests_unseen/trial_T20190907_040739_849657/traj_data.json",
-                    "tests_unseen/trial_T20190909_105426_604874/traj_data.json",
-                    "tests_unseen/trial_T20190906_201636_696952/traj_data.json",
                     "tests_unseen/trial_T20190908_213458_200008/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit cards and set them on the coffee table at any time. Simultaneously, place remote controls on a couch. After placing the credit cards and remote controls, move the box to the sofa. Finally, move a set of keys to a chair.",
+                "compose 2":"Move the box to the sofa at any time. Simultaneously, place remote controls on a couch. After moving the box, pick up the credit cards and set them on the coffee table. Finally, place watch in the desk drawer.",
+                "compose 3":"Move a set of keys to a chair at any time. Simultaneously, place remote controls on a couch. After moving the keys, place watch in the desk drawer. Finally, pick up the credit cards and set them on the coffee table."
+            }
         }
     ],
     "tasks_6":[
         {
             "task_list":[
-                "Put 2 dog decorations front to back on the edge of the right side of the table. ",
-                "Place 2 newspapers on the arm chair",
-                "put to credit cards on the coffee table",
-                "Move a set of keys to the seat of a chair.",
-                "Place watch in the desk drawer.",
-                "Place remote controls on a couch"
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190908_123456_669219/traj_data.json",
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json",
-                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
-                    "tests_unseen/trial_T20190908_122249_641769/traj_data.json",
-                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json",
-                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move the remote controls to the middle cushion of the couch",
-                "Move a set of keys to a chair. ",
-                "put to credit cards on the coffee table",
-                "Place watch in the desk drawer.",
-                "Place 2 newspapers on the arm chair",
-                "Clean up statues and put them down on the table"
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
-                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
-                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
-                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json",
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json",
-                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put 2 dog decorations front to back on the edge of the right side of the table. ",
-                "Move a set of keys to the seat of a chair.",
-                "move watch to the dresser",
+                "Place a set of keys on a couch.",
+                "Move the box to the sofa.",
                 "put to credit cards on the coffee table",
                 "move the remote controls to the middle cushion of the couch",
-                "Place 2 newspapers on the arm chair"
-            ],
-            "orign":[
-                [
-                    "tests_unseen/trial_T20190908_123456_669219/traj_data.json",
-                    "tests_unseen/trial_T20190908_122249_641769/traj_data.json",
-                    "tests_unseen/trial_T20190908_125234_061434/traj_data.json",
-                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move the remote controls to the middle cushion of the couch",
-                "Move keys to a sofa",
                 "Move the statue from the end table to the coffee table.",
+                "Place watch in the desk drawer."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190909_105447_359066/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
+                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
+                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
+                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a set of keys on a couch at any time. Simultaneously, move the box to the sofa. After placing the keys and the box, put two credit cards on the coffee table. After that, move the remote controls to the middle cushion of the couch. Finally, move the statue from the end table to the coffee table.",
+                "compose 2":"Move the statue from the end table to the coffee table at any time. Simultaneously, put two credit cards on the coffee table. After moving the statue and placing the credit cards, place a set of keys on a couch. After that, move the box to the sofa. Finally, place the watch in the desk drawer.",
+                "compose 3":"Move the box to the sofa at any time. Simultaneously, move the statue from the end table to the coffee table. After moving the box and the statue, place a set of keys on a couch. After that, move the remote controls to the middle cushion of the couch. Finally, put two credit cards on the coffee table."
+            }
+        },
+        {
+            "task_list":[
                 "Place watch in the desk drawer.",
-                "Place 2 newspapers on the arm chair",
+                "put to credit cards on the coffee table",
+                "Move the statue from the end table to the coffee table.",
+                "Move a set of keys to a chair. ",
+                "move the remote controls to the middle cushion of the couch",
+                "Move the box to the sofa."
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json",
+                    "tests_unseen/trial_T20190909_145612_379950/traj_data.json",
+                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
+                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
+                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place watch in the desk drawer at any time. Simultaneously, put two credit cards on the coffee table. After placing the watch and credit cards, move the statue from the end table to the coffee table. Then, move a set of keys to a chair. Finally, move the remote controls to the middle cushion of the couch. After completing all previous tasks, move the box to the sofa.",
+                "compose 2":"Put two credit cards on the coffee table at any time. Simultaneously, place watch in the desk drawer. After placing the credit cards and watch, move the statue from the end table to the coffee table. Then, move a set of keys to a chair. After that, move the remote controls to the middle cushion of the couch. Finally, move the box to the sofa.",
+                "compose 3":"Place watch in the desk drawer at any time. Simultaneously, put two credit cards on the coffee table. After placing the watch and credit cards, move the statue from the end table to the coffee table. Then, move a set of keys to a chair. Simultaneously, move the remote controls to the middle cushion of the couch. After completing all previous tasks, move the box to the sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Move a set of keys to a chair. ",
+                "Place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch.",
+                "take the watch from the coffee table, put it on the desk",
+                "Move the box to the sofa.",
+                "Place remote controls on a couch",
                 "pick up the credit cards and set them on the coffee table"
             ],
             "orign":[
                 [
-                    "tests_unseen/trial_T20190907_040619_780535/traj_data.json",
-                    "tests_unseen/trial_T20190909_105426_604874/traj_data.json",
-                    "tests_unseen/trial_T20190907_074528_362136/traj_data.json",
-                    "tests_unseen/trial_T20190908_213458_200008/traj_data.json",
-                    "tests_unseen/trial_T20190908_221009_646096/traj_data.json",
+                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
+                    "tests_unseen/trial_T20190907_074509_505382/traj_data.json",
+                    "tests_unseen/trial_T20190908_125252_951776/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
+                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json",
                     "tests_unseen/trial_T20190910_181024_991905/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a set of keys to a chair at any time. Simultaneously, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch. After moving the keys and the figurine, take the watch from the coffee table and put it on the desk. Finally, move the box to the sofa, place remote controls on a couch, and pick up the credit cards and set them on the coffee table.",
+                "compose 2":"Take the watch from the coffee table and put it on the desk at any time. Simultaneously, move a set of keys to a chair. After completing these tasks, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch. Then, move the box to the sofa, place remote controls on a couch, and pick up the credit cards and set them on the coffee table.",
+                "compose 3":"Move a set of keys to a chair at any time. Simultaneously, place a black animal figurine off the shelf above the couch onto the wooden chest in front of the couch. After placing the keys and the figurine, pick up the credit cards and set them on the coffee table. Next, take the watch from the coffee table and put it on the desk. Finally, move the box to the sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Move a set of keys to a chair. ",
+                "Move the box to the sofa.",
+                "take the watch from the coffee table, put it on the desk",
+                "Clean up statues and put them down on the table",
+                "Place remote controls on a couch",
+                "pick up the credit cards and set them on the coffee table"
+            ],
+            "orign":[
+                [
+                    "tests_unseen/trial_T20190908_122303_851930/traj_data.json",
+                    "tests_unseen/trial_T20190907_160824_308965/traj_data.json",
+                    "tests_unseen/trial_T20190908_125252_951776/traj_data.json",
+                    "tests_unseen/trial_T20190908_123324_050422/traj_data.json",
+                    "tests_unseen/trial_T20190907_040739_849657/traj_data.json",
+                    "tests_unseen/trial_T20190910_181024_991905/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the box to the sofa at any time. Simultaneously, take the watch from the coffee table, put it on the desk. After moving the box, place remote controls on a couch. Finally, pick up the credit cards and set them on the coffee table.",
+                "compose 2":"Clean up statues and put them down on the table first. Once done, move a set of keys to a chair. After that, take the watch from the coffee table, put it on the desk. Subsequently, place remote controls on a couch. Finally, pick up the credit cards and set them on the coffee table.",
+                "compose 3":"Move a set of keys to a chair first. Simultaneously, clean up statues and put them down on the table. After moving the keys and the statues, take the watch from the coffee table, put it on the desk. Next, place remote controls on a couch. Finally, pick up the credit cards and set them on the coffee table."
+            }
         }
     ],
     "tasks_7":[],

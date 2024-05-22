@@ -9,12 +9,12 @@
             ],
             "relative_objects":[
                 "Pencil",
-                "CellPhone",
-                "Statue",
-                "CreditCard",
-                "Mug",
                 "CD",
-                "Bowl"
+                "Mug",
+                "CellPhone",
+                "Bowl",
+                "CreditCard",
+                "Statue"
             ]
         },
         "train/pick_two_obj_and_place-Book-None-Drawer-304/trial_T20190908_022158_405498/traj_data.json":{
@@ -42,8 +42,8 @@
                 "Put the basketball on the bed"
             ],
             "relative_objects":[
-                "Bed",
-                "BasketBall"
+                "BasketBall",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_003009_003004/traj_data.json":{
@@ -53,8 +53,8 @@
                 "Put the basketball on the bed"
             ],
             "relative_objects":[
-                "Bed",
-                "BasketBall"
+                "BasketBall",
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json":{
@@ -64,8 +64,8 @@
                 "Move a basketball from the floor to the bed."
             ],
             "relative_objects":[
-                "Pillow",
-                "BasketBall"
+                "BasketBall",
+                "Pillow"
             ]
         },
         "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json":{
@@ -86,9 +86,9 @@
                 "take the book from the bed, put it on the desk"
             ],
             "relative_objects":[
-                "Bed",
+                "Desk",
                 "Book",
-                "Desk"
+                "Bed"
             ]
         },
         "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json":{
@@ -164,7 +164,6 @@
         },
         "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190908_104725_283867/traj_data.json":{
             "tasks":[
-                "Put 2 books on a bed.",
                 "Put the books on the bed"
             ],
             "relative_objects":[
@@ -175,51 +174,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "Examine the book under the light of the lamp"
+                "Place keys on the desk table."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-Book-None-DeskLamp-304/trial_T20190908_083428_569431/traj_data.json"
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Examine a clock by the light of a desk lamp"
+                "Put a book on the desk. "
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json"
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move the books to the bed."
+                "Put a book on the desk. "
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190907_054125_590269/traj_data.json"
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Turn on a light while holding a clock"
+                "Put a basketball on the bed."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json"
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Examine the book under the light of the lamp"
+                "Put a book on the desk."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-Book-None-DeskLamp-304/trial_T20190908_083428_569431/traj_data.json"
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json"
                 ]
             ]
         }
@@ -227,309 +226,409 @@
     "tasks_2":[
         {
             "task_list":[
-                "Move keys from the desk shelf to the desk top",
-                "Turn on a light while holding a clock"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "get the book from the bed and put it on the desk.",
-                "Move keys from the desk shelf to the desk top"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141325_880062/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Examine a clock by the light of a desk lamp",
-                "Put a book on the desk."
+                "Put the books on the bed"
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json"
+                    "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190908_104725_283867/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the books on the bed at any time. Simultaneously, examine a clock by the light of a desk lamp.",
+                "compose 2":"Examine a clock by the light of a desk lamp at any time. After examining the clock, put the books on the bed.",
+                "compose 3":"Put the books on the bed at any time. After putting the books on the bed, examine a clock by the light of a desk lamp."
+            }
         },
         {
             "task_list":[
-                "Put a book on the desk.",
-                "Move the keys from the desk shelf to the desk top"
+                "Place keys on the desk table.",
+                "Put a book on the desk."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json"
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place keys on the desk table at any time. Simultaneously, put a book on the desk.",
+                "compose 2":"Put a book on the desk at any time. Simultaneously, place keys on the desk table.",
+                "compose 3":"Place keys on the desk table at any time. After placing the keys, put a book on the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Turn on a light while holding a clock",
+                "Move keys from the desk shelf to the desk top"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on a light while holding a clock at any time. Simultaneously, move keys from the desk shelf to the desk top.",
+                "compose 2":"Move keys from the desk shelf to the desk top at any time. Simultaneously, turn on a light while holding a clock.",
+                "compose 3":"Move keys from the desk shelf to the desk top. After completing this task, turn on a light while holding a clock."
+            }
         },
         {
             "task_list":[
                 "Put a basketball on the bed.",
-                "Examine the book under the light of the lamp"
+                "Move keys from the desk shelf to the desk top"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json",
-                    "train/look_at_obj_in_light-Book-None-DeskLamp-304/trial_T20190908_083428_569431/traj_data.json"
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a basketball on the bed at any time. Move keys from the desk shelf to the desk top after putting the basketball on the bed.",
+                "compose 2":"Move keys from the desk shelf to the desk top at any time. Put a basketball on the bed after moving the keys.",
+                "compose 3":"Put a basketball on the bed at any time. Move keys from the desk shelf to the desk top after putting the basketball on the bed."
+            }
+        },
+        {
+            "task_list":[
+                "To put the books away.",
+                "Put a basketball on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Book-None-Drawer-304/trial_T20190908_022158_405498/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a basketball on the bed at any time. Simultaneously, put the books away.",
+                "compose 2":"Put the books away at any time. After putting the books away, put a basketball on the bed.",
+                "compose 3":"Put a basketball on the bed at any time. After putting the basketball on the bed, put the books away."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
                 "Examine a clock by the light of a desk lamp",
-                "Place keys on the desk table.",
-                "Examine the book under the light of the lamp"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json",
-                    "train/look_at_obj_in_light-Book-None-DeskLamp-304/trial_T20190908_083428_569431/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the keys from the desk shelf to the desk top",
-                "To put the books away.",
-                "Turn on a light while holding a clock"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Drawer-304/trial_T20190908_022158_405498/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow.",
-                "Examine a clock by the light of a desk lamp",
+                "get the book from the bed and put it on the desk.",
                 "Place keys on the desk table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json",
                     "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141325_880062/traj_data.json",
                     "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a clock by the light of a desk lamp at any time. Simultaneously, get the book from the bed and put it on the desk. After examining the clock and placing the book, place keys on the desk table.",
+                "compose 2":"Get the book from the bed and put it on the desk at any time. Simultaneously, examine a clock by the light of a desk lamp. After putting the book on the desk, place keys on the desk table.",
+                "compose 3":"Place keys on the desk table at any time. Simultaneously, examine a clock by the light of a desk lamp. After examining the clock, get the book from the bed and put it on the desk."
+            }
         },
         {
             "task_list":[
-                "Place the basketball on the ground onto the bed.",
-                "Examine the book under the light of the lamp",
-                "Place keys on the desk table."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_003009_003004/traj_data.json",
-                    "train/look_at_obj_in_light-Book-None-DeskLamp-304/trial_T20190908_083428_569431/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a clock by the light of a desk lamp",
-                "Carry a brown plate while turning on a lamp",
-                "Put a book on the desk. "
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Move keys from the desk shelf to the desk top",
-                "Turn on a light while holding a clock",
-                "Carry a brown plate while turning on a lamp",
-                "Put a book on the desk. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a clock by the light of a desk lamp",
-                "Place keys on the desk table.",
-                "Carry a brown plate while turning on a lamp",
-                "Put a basketball on the bed."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a clock by the light of a desk lamp",
-                "Put a basketball on the bed.",
-                "Move the keys from the desk shelf to the desk top",
-                "Examine the book under the light of the lamp"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json",
-                    "train/look_at_obj_in_light-Book-None-DeskLamp-304/trial_T20190908_083428_569431/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow.",
-                "Move keys from the desk shelf to the desk top",
-                "Turn on a light while holding a clock",
-                "Examine the book under the light of the lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
-                    "train/look_at_obj_in_light-Book-None-DeskLamp-304/trial_T20190908_083428_569431/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a clock by the light of a desk lamp",
-                "Place the basketball on the ground onto the bed.",
-                "Move the keys from the desk shelf to the desk top",
-                "Put a book on the desk."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_003009_003004/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_5":[
-        {
-            "task_list":[
-                "Place keys on the desk table.",
-                "Examine a clock by the light of a desk lamp",
-                "Move the books to the bed.",
-                "Place the basketball on the ground onto the bed.",
-                "Carry a brown plate while turning on a lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190907_054125_590269/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_003009_003004/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Carry a brown plate while turning on a lamp",
                 "Put a book on the desk. ",
-                "Move keys from the desk shelf to the desk top",
-                "Turn on a light while holding a clock",
-                "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Carry a brown plate while turning on a lamp",
-                "Turn on a light while holding a clock",
-                "To put the books away.",
                 "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow.",
                 "Move the keys from the desk shelf to the desk top"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
-                    "train/pick_two_obj_and_place-Book-None-Drawer-304/trial_T20190908_022158_405498/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json",
                     "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json",
                     "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a book on the desk. Simultaneously, move the keys from the desk shelf to the desk top. After placing the book, pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow.",
+                "compose 2":"Pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow at any time. Simultaneously, put a book on the desk. After moving the keys from the desk shelf to the desk top, the task is completed.",
+                "compose 3":"Move the keys from the desk shelf to the desk top. After that, put a book on the desk. Finally, pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow."
+            }
         },
         {
             "task_list":[
+                "Turn on a light while holding a clock",
+                "Move keys from the desk shelf to the desk top",
+                "To put the books away."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Drawer-304/trial_T20190908_022158_405498/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on a light while holding a clock. Move keys from the desk shelf to the desk top. To put the books away.",
+                "compose 2":"Turn on a light while holding a clock. To put the books away. Move keys from the desk shelf to the desk top.",
+                "compose 3":"Move keys from the desk shelf to the desk top. Turn on a light while holding a clock. To put the books away."
+            }
+        },
+        {
+            "task_list":[
+                "Carry a brown plate while turning on a lamp",
                 "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow.",
-                "Examine a clock by the light of a desk lamp",
-                "get the book from the bed and put it on the desk.",
-                "Move the keys from the desk shelf to the desk top",
+                "Put a book on the desk."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the basketball, carry it to the other side of the room, set it on the bed near the rightmost pillow. After setting the basketball, carry a brown plate while turning on a lamp. Finally, put a book on the desk.",
+                "compose 2":"Carry a brown plate while turning on a lamp at any time. Simultaneously, put a book on the desk. Once these two tasks are completed, pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow.",
+                "compose 3":"Put a book on the desk first. After that, pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow. Once this is done, carry a brown plate while turning on a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "To put the books away.",
+                "Turn on a light while holding a clock",
                 "Carry a brown plate while turning on a lamp"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141325_880062/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Drawer-304/trial_T20190908_022158_405498/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
                     "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json"
                 ]
-            ]
-        },
+            ],
+            "finetuned":{
+                "compose 1":"To put the books away. Turn on a light while holding a clock. Carry a brown plate while turning on a lamp.",
+                "compose 2":"Carry a brown plate while turning on a lamp. To put the books away. Turn on a light while holding a clock.",
+                "compose 3":"Turn on a light while holding a clock. Carry a brown plate while turning on a lamp. To put the books away."
+            }
+        }
+    ],
+    "tasks_4":[
         {
             "task_list":[
-                "Put a basketball on the bed.",
                 "Turn on a light while holding a clock",
-                "Carry a brown plate while turning on a lamp",
-                "Place keys on the desk table.",
-                "Put a book on the desk. "
+                "Put the books on the bed",
+                "Move keys from the desk shelf to the desk top",
+                "Put a basketball on the bed."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json",
                     "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
-                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json"
+                    "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190908_104725_283867/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on a light while holding a clock at any time. After turning on the light, put the books on the bed. Finally, move keys from the desk shelf to the desk top.",
+                "compose 2":"Put the books on the bed at any time. Simultaneously, turn on a light while holding a clock. After putting the books on the bed, put a basketball on the bed.",
+                "compose 3":"Move keys from the desk shelf to the desk top at any time. After moving the keys, put a basketball on the bed. Finally, turn on a light while holding a clock."
+            }
+        },
+        {
+            "task_list":[
+                "Place keys on the desk table.",
+                "Turn on a light while holding a clock",
+                "Put the books on the bed",
+                "Put a basketball on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190908_104725_283867/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on a light while holding a clock at any time. Simultaneously, place keys on the desk table. After turning on the light, put the books on the bed. Finally, put a basketball on the bed.",
+                "compose 2":"Place keys on the desk table at any time. Simultaneously, put a basketball on the bed. After placing the keys, turn on a light while holding a clock. Complete the task by putting the books on the bed.",
+                "compose 3":"Put the books on the bed at any time. Simultaneously, place keys on the desk table. After putting the books on the bed, put a basketball on the bed. Finish the task by turning on a light while holding a clock."
+            }
+        },
+        {
+            "task_list":[
+                "Move the keys from the desk shelf to the desk top",
+                "Put a basketball on the bed.",
+                "Examine a clock by the light of a desk lamp",
+                "Put a book on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002944_352656/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a clock by the light of a desk lamp. Put a book on the desk. Move the keys from the desk shelf to the desk top. Put a basketball on the bed.",
+                "compose 2":"Move the keys from the desk shelf to the desk top. Put a basketball on the bed. Examine a clock by the light of a desk lamp. Put a book on the desk.",
+                "compose 3":"Put a basketball on the bed. Put a book on the desk. Move the keys from the desk shelf to the desk top. Examine a clock by the light of a desk lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Place the basketball on the ground onto the bed.",
+                "Carry a brown plate while turning on a lamp",
+                "Move the books to the bed.",
+                "Place keys on the desk table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_003009_003004/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190907_054125_590269/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the basketball on the ground onto the bed. Simultaneously, carry a brown plate while turning on a lamp. After completing these tasks, move the books to the bed. Finally, place keys on the desk table.",
+                "compose 2":"Carry a brown plate while turning on a lamp. Simultaneously, place the basketball on the ground onto the bed. After completing these tasks, move the books to the bed. Finally, place keys on the desk table.",
+                "compose 3":"Move the books to the bed. Simultaneously, place keys on the desk table. After completing these tasks, place the basketball on the ground onto the bed. Finally, carry a brown plate while turning on a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "get the book from the bed and put it on the desk.",
+                "Move keys from the desk shelf to the desk top",
+                "Carry a brown plate while turning on a lamp",
+                "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141325_880062/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192658_005358/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Get the book from the bed and put it on the desk. Move keys from the desk shelf to the desk top. Carry a brown plate while turning on a lamp. Pick up the basketball, carry it to the other side of the room, set it on the bed near the rightmost pillow.",
+                "compose 2":"Carry a brown plate while turning on a lamp. Get the book from the bed and put it on the desk. Move keys from the desk shelf to the desk top. Pick up the basketball, carry it to the other side of the room, set it on the bed near the rightmost pillow.",
+                "compose 3":"Get the book from the bed and put it on the desk. Pick up the basketball, carry it to the other side of the room, set it on the bed near the rightmost pillow. Move keys from the desk shelf to the desk top. Carry a brown plate while turning on a lamp."
+            }
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow.",
+                "Place keys on the desk table.",
+                "Put a book on the desk.",
+                "Carry a brown plate while turning on a lamp",
+                "Turn on a light while holding a clock"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow. Simultaneously, turn on a light while holding a clock. After setting the basketball on the bed, place keys on the desk table. Finally, put a book on the desk.",
+                "compose 2":"Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow. After setting the basketball on the bed, place keys on the desk table. Simultaneously, carry a brown plate while turning on a lamp. Finally, put a book on the desk.",
+                "compose 3":"Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow. Place keys on the desk table. Simultaneously, carry a brown plate while turning on a lamp. Turn on a light while holding a clock. Finally, put a book on the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Turn on a light while holding a clock",
+                "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow.",
+                "Carry a brown plate while turning on a lamp",
+                "To put the books away.",
+                "Move the keys from the desk shelf to the desk top"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Drawer-304/trial_T20190908_022158_405498/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on a light while holding a clock at any time. Simultaneously, carry a brown plate while turning on a lamp. After turning on the light and placing the plate, move the keys from the desk shelf to the desk top. Once the keys are moved, pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow to put the books away.",
+                "compose 2":"Pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow to put the books away at any time. Simultaneously, move the keys from the desk shelf to the desk top. After placing the basketball and the keys, turn on a light while holding a clock. Finally, carry a brown plate while turning on a lamp.",
+                "compose 3":"Move the keys from the desk shelf to the desk top at any time. Simultaneously, turn on a light while holding a clock and carry a brown plate while turning on a lamp. After completing these tasks, pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow to put the books away."
+            }
+        },
+        {
+            "task_list":[
+                "Carry a brown plate while turning on a lamp",
+                "Place the basketball on the ground onto the bed.",
+                "Put the books on the bed",
+                "Examine a clock by the light of a desk lamp",
+                "Place keys on the desk table."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_003009_003004/traj_data.json",
+                    "train/pick_two_obj_and_place-Book-None-Bed-304/trial_T20190908_104725_283867/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Carry a brown plate while turning on a lamp. Place keys on the desk table. Put the books on the bed. Place the basketball on the ground onto the bed. Examine a clock by the light of a desk lamp.",
+                "compose 2":"Put the books on the bed. Carry a brown plate while turning on a lamp. Place keys on the desk table. Place the basketball on the ground onto the bed. Examine a clock by the light of a desk lamp.",
+                "compose 3":"Carry a brown plate while turning on a lamp. Examine a clock by the light of a desk lamp. Put the books on the bed. Place keys on the desk table. Place the basketball on the ground onto the bed."
+            }
+        },
+        {
+            "task_list":[
+                "Place the basketball on the ground onto the bed.",
+                "Move the keys from the desk shelf to the desk top",
+                "Put a book on the desk. ",
+                "Carry a brown plate while turning on a lamp",
+                "Turn on a light while holding a clock"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_003009_003004/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192735_443407/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141258_600679/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190909_152102_649589/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the keys from the desk shelf to the desk top first. After that, put a book on the desk. Finally, place the basketball on the ground onto the bed.",
+                "compose 2":"Carry a brown plate while turning on a lamp. Simultaneously, turn on a light while holding a clock.",
+                "compose 3":"Turn on a light while holding a clock. Then, move the keys from the desk shelf to the desk top. Lastly, put a book on the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Examine a clock by the light of a desk lamp",
+                "Place keys on the desk table.",
+                "Carry a brown plate while turning on a lamp",
+                "Put a book on the desk.",
+                "Pick up the basketball, carry it to the other side of the room, set it on the the bed near the rightmost pillow."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-304/trial_T20190907_170557_255365/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Desk-304/trial_T20190907_192638_964457/traj_data.json",
+                    "train/look_at_obj_in_light-Bowl-None-DeskLamp-304/trial_T20190907_232217_890241/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Desk-304/trial_T20190908_141341_073879/traj_data.json",
+                    "train/pick_and_place_simple-BasketBall-None-Bed-304/trial_T20190907_002956_466147/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a clock by the light of a desk lamp before placing keys on the desk table. After placing the keys, carry a brown plate while turning on a lamp. Once that is done, put a book on the desk.",
+                "compose 2":"Pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow. After that, place keys on the desk table. Once the keys are in place, carry a brown plate while turning on a lamp. Finally, put a book on the desk.",
+                "compose 3":"Examine a clock by the light of a desk lamp. Pick up the basketball, carry it to the other side of the room, and set it on the bed near the rightmost pillow. After that, put a book on the desk. Place keys on the desk table and then carry a brown plate while turning on a lamp."
+            }
         }
     ],
     "tasks_6":[],

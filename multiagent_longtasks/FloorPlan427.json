@@ -8,8 +8,8 @@
                 "Place a towel on a toilet tank"
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -20,8 +20,8 @@
                 "Move a hand towel to the back of the toilet tank"
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-Toilet-427/trial_T20190907_173844_355408/traj_data.json":{
@@ -31,8 +31,8 @@
                 "Put the hand towel on the toilet"
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json":{
@@ -64,10 +64,10 @@
                 "Place the rinsed off soap back on the toilet."
             ],
             "relative_objects":[
+                "SoapBar",
                 "DishSponge",
-                "Cloth",
                 "SprayBottle",
-                "SoapBar"
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184352_559484/traj_data.json":{
@@ -80,10 +80,10 @@
                 "wash the pink bar in the sink, put it on the toilet"
             ],
             "relative_objects":[
-                "DishSponge",
-                "Cloth",
                 "SprayBottle",
-                "SoapBar"
+                "DishSponge",
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_two_obj_and_place-Cloth-None-Drawer-427/trial_T20190908_131037_058357/traj_data.json":{
@@ -92,8 +92,8 @@
                 "Move wash rags to drawer."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -130,8 +130,8 @@
                 "Get green soap from tub, rinse it in sink, place back into tub."
             ],
             "relative_objects":[
-                "DishSponge",
-                "SoapBar"
+                "SoapBar",
+                "DishSponge"
             ]
         },
         "train/pick_clean_then_place_in_recep-DishSponge-None-Toilet-427/trial_T20190908_234203_467365/traj_data.json":{
@@ -153,10 +153,10 @@
                 "Wet a sponge from the toilet lid in the sink and return it."
             ],
             "relative_objects":[
-                "HandTowel",
-                "DishSponge",
                 "SprayBottle",
-                "SoapBottle"
+                "HandTowel",
+                "SoapBottle",
+                "DishSponge"
             ]
         },
         "train/pick_clean_then_place_in_recep-DishSponge-None-Toilet-427/trial_T20190908_234137_732626/traj_data.json":{
@@ -197,9 +197,9 @@
                 "Place a spray bottle on a counter"
             ],
             "relative_objects":[
-                "DishSponge",
+                "SoapBottle",
                 "SprayBottle",
-                "SoapBottle"
+                "DishSponge"
             ]
         },
         "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_014945_471194/traj_data.json":{
@@ -210,8 +210,8 @@
             ],
             "relative_objects":[
                 "ToiletPaper",
-                "SprayBottle",
-                "SoapBottle"
+                "SoapBottle",
+                "SprayBottle"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232302_241090/traj_data.json":{
@@ -274,9 +274,9 @@
                 "Putting clean soap on a drawer"
             ],
             "relative_objects":[
+                "SoapBar",
                 "SoapBottle",
-                "DishSponge",
-                "SoapBar"
+                "DishSponge"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json":{
@@ -296,8 +296,8 @@
                 "Place a clean rag in a cabinet."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -318,11 +318,11 @@
                 "Rinse sponge and put in cabinet drawer."
             ],
             "relative_objects":[
-                "HandTowel",
                 "PaperTowelRoll",
                 "Towel",
-                "Cloth",
-                "DishSponge"
+                "DishSponge",
+                "HandTowel",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-427/trial_T20190909_095203_563442/traj_data.json":{
@@ -332,19 +332,19 @@
                 "Put a clean sponge in the drawer. "
             ],
             "relative_objects":[
-                "TissueBox",
-                "HandTowel",
-                "Towel",
-                "Cloth",
-                "Plunger",
-                "SoapBar",
                 "PaperTowelRoll",
-                "ScrubBrush",
-                "SprayBottle",
-                "ToiletPaper",
                 "SoapBottle",
+                "SprayBottle",
+                "Towel",
+                "SoapBar",
+                "DishSponge",
+                "ToiletPaper",
+                "TissueBox",
+                "Plunger",
                 "Candle",
-                "DishSponge"
+                "ScrubBrush",
+                "HandTowel",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-427/trial_T20190909_001329_772865/traj_data.json":{
@@ -355,8 +355,8 @@
             ],
             "relative_objects":[
                 "HandTowel",
-                "DishSponge",
                 "SoapBottle",
+                "DishSponge",
                 "Cloth"
             ]
         },
@@ -426,51 +426,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "clean up candle's and put them inside the table drawer"
+                "Move a candle stick to the toilet tank."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json"
+                    "tests_seen/trial_T20190909_030509_537882/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a clean sponge in a drawer."
+                "Place a newly rinsed off sponge into the tub"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-427/trial_T20190909_001435_061244/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234756_086904/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "put toilet paper roll on the holder"
+                "To rinse off a sponge and put it on the back of the toilet. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Toilet-427/trial_T20190908_234308_183420/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Take the hand towel to the toilet."
+                "Put the hand towels in the sink"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-HandTowel-None-Toilet-427/trial_T20190907_173931_537125/traj_data.json"
+                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070514_346717/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a wet bar of soap on the back of the toilet."
+                "Wet a sponge and put it away."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184442_789540/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010925_036448/traj_data.json"
                 ]
             ]
         }
@@ -478,331 +478,413 @@
     "tasks_2":[
         {
             "task_list":[
-                "Place a clean sponge in a bathroom drawer. ",
-                "Put a wet bar of soap on the back of the toilet."
+                "Place a washed sponge in a tub.",
+                "Put a bottle on the counter."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-427/trial_T20190909_001329_772865/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184442_789540/traj_data.json"
+                    "valid_seen/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234735_610018/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_014945_471194/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "place a paper box in the trash can",
-                "clean up candle's and put them inside the table drawer"
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place a washed sponge in a tub at any time. Simultaneously, put a bottle on the counter.",
+                "compose 2":"Put a bottle on the counter at any time. After putting the bottle on the counter, place a washed sponge in a tub.",
+                "compose 3":"Place a washed sponge in a tub at any time. Put a bottle on the counter afterwards."
+            }
         },
         {
             "task_list":[
-                "Put a wet bar of soap on the back of the toilet.",
+                "Put a clean sponge on the counter. ",
                 "Move tissues to the trash bin"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184442_789540/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010859_090150/traj_data.json",
                     "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173833_468791/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean sponge on the counter.Move tissues to the trash bin.",
+                "compose 2":"Move tissues to the trash bin. Put a clean sponge on the counter. ",
+                "compose 3":"Put a clean sponge on the counter.Move tissues to the trash bin."
+            }
         },
         {
             "task_list":[
-                "place a paper box in the trash can",
-                "Rinse a pink rag and put it in the dresser."
+                "Place a spray bottle on a dresser.",
+                "place a paper box in the trash can"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070356_398456/traj_data.json"
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_030115_896772/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a spray bottle on a dresser at any time. After placing the spray bottle, place a paper box in the trash can.",
+                "compose 2":"Place a paper box in the trash can at any time. Simultaneously, place a spray bottle on a dresser.",
+                "compose 3":"Place a spray bottle on a dresser at any time. Then, place a paper box in the trash can."
+            }
         },
         {
             "task_list":[
                 "Place a newly rinsed off sponge into the tub",
-                "Put a cleaned cloth in a drawer."
+                "Move a candle stick to the toilet tank."
             ],
             "orign":[
                 [
                     "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234756_086904/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json"
+                    "tests_seen/trial_T20190909_030509_537882/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a newly rinsed off sponge into the tub at any time. Simultaneously, move a candle stick to the toilet tank.",
+                "compose 2":"Move a candle stick to the toilet tank at any time. Simultaneously, place a newly rinsed off sponge into the tub.",
+                "compose 3":"Place a newly rinsed off sponge into the tub at any time. After placing the sponge, move a candle stick to the toilet tank."
+            }
+        },
+        {
+            "task_list":[
+                "Place a newly rinsed off sponge into the tub",
+                "Pick up cloths and place them in drawer."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234756_086904/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Drawer-427/trial_T20190908_131037_058357/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up cloths and place them in a drawer. Place a newly rinsed off sponge into the tub.",
+                "compose 2":"Place a newly rinsed off sponge into the tub. Pick up cloths and place them in a drawer.",
+                "compose 3":"Pick up cloths and place them in a drawer. Place a newly rinsed off sponge into the tub."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "take the toilet paper from the back of the toilet and place it on the toilet paper holder.",
-                "Pick up cloths and place them in drawer.",
-                "Place a newly rinsed off sponge into the tub"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121643_062365/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-Drawer-427/trial_T20190908_131037_058357/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234756_086904/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a candle stick to the toilet tank.",
-                "Place a spray bottle on a dresser.",
-                "place a paper box in the trash can"
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190909_030509_537882/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_030115_896772/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a cleaned washcloth in the tub.",
-                "Put the hand towels in the sink",
-                "take the toilet paper from the back of the toilet and place it on the toilet paper holder."
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232302_241090/traj_data.json",
-                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070432_505321/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121643_062365/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the hand towels in the sink",
-                "To wet a sponge, as to prepare the tub for cleaning.",
-                "Pick up candle from top of cabinet and place on the back of the toilet."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070514_346717/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234820_863494/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Toilet-427/trial_T20190909_030427_604487/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Put a rinsed sponge on a dresser.",
-                "Put the hand towels in the sink",
-                "take the toilet paper from the back of the toilet and place it on the toilet paper holder."
+                "put toilet paper roll on the holder",
+                "Put a cleaned cloth in a drawer."
             ],
             "orign":[
                 [
                     "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010951_843989/traj_data.json",
-                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070514_346717/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121643_062365/traj_data.json"
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a rinsed sponge on a dresser at any time. Simultaneously, put toilet paper roll on the holder. After putting the sponge, put a cleaned cloth in a drawer.",
+                "compose 2":"Put toilet paper roll on the holder at any time. Simultaneously, put a rinsed sponge on a dresser.After putting the sponge, put a cleaned cloth in a drawer.",
+                "compose 3":"Put a cleaned cloth in a drawer at any time. Simultaneously, put a rinsed sponge on a dresser. After putting the sponge, put toilet paper roll on the holder."
+            }
+        },
+        {
+            "task_list":[
+                "Move tissues to the trash bin",
+                "Wet a sponge and put it away.",
+                "Rinse a pink rag and put it in the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173833_468791/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010925_036448/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070356_398456/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Wet a sponge and put it away. Afterwards, rinse a pink rag and put it in the dresser. Finally, move tissues to the trash bin.",
+                "compose 2":"Rinse a pink rag and put it in the dresser. Next, move tissues to the trash bin. After that, wet a sponge and put it away.",
+                "compose 3":"Move tissues to the trash bin at any time. Simultaneously, wet a sponge and put it away. After completing these tasks, rinse a pink rag and put it in the dresser."
+            }
+        },
+        {
+            "task_list":[
+                "Put a spray bottle on the table.",
+                "place a clean cloth inside the bath tub",
+                "Move a candle stick to the toilet tank."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190908_232532_117315/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232213_642551/traj_data.json",
+                    "tests_seen/trial_T20190909_030509_537882/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a clean cloth inside the bath tub at any time. Simultaneously, put a spray bottle on the table. After placing the cloth, move a candle stick to the toilet tank.",
+                "compose 2":"Move a candle stick to the toilet tank at any time. Simultaneously, put a spray bottle on the table. After moving the candle stick, place a clean cloth inside the bath tub.",
+                "compose 3":"Put a spray bottle on the table at any time. Simultaneously, place a clean cloth inside the bath tub. After placing the spray bottle and cloth, move a candle stick to the toilet tank."
+            }
+        },
+        {
+            "task_list":[
+                "Put a wet bar of soap on the back of the toilet.",
+                "Move a candle stick to the toilet tank.",
+                "Put the hand towels in the sink"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184442_789540/traj_data.json",
+                    "tests_seen/trial_T20190909_030509_537882/traj_data.json",
+                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070514_346717/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a candle stick to the toilet tank. After moving the candle stick, put a wet bar of soap on the back of the toilet. Finally, put the hand towels in the sink.",
+                "compose 2":"Put a wet bar of soap on the back of the toilet. Simultaneously, move a candle stick to the toilet tank. After placing the soap, put the hand towels in the sink.",
+                "compose 3":"Move a candle stick to the toilet tank. Put the hand towels in the sink. After completing these tasks, put a wet bar of soap on the back of the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "place a paper box in the trash can",
+                "Rinse a pink rag and put it in the dresser.",
+                "Place a newly rinsed off sponge into the tub"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070356_398456/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234756_086904/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a paper box in the trash can at any time. Simultaneously, rinse a pink rag and put it in the dresser. After placing the paper box and putting the rag in the dresser, place a newly rinsed off sponge into the tub.",
+                "compose 2":"Rinse a pink rag and put it in the dresser at any time. Simultaneously, place a newly rinsed off sponge into the tub. After rinsing the rag and placing the sponge in the tub, place a paper box in the trash can.",
+                "compose 3":"Place a paper box in the trash can at any time. Rinse a pink rag and put it in the dresser. After placing the paper box and putting the rag in the dresser, place a newly rinsed off sponge into the tub."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Place a spray bottle on a dresser.",
-                "Replace a dirty rag from the bathtub with a clean one.",
-                "Move a candle stick to the toilet tank.",
-                "Put a wet bar of soap on the back of the toilet."
+                "Move tissues to the trash bin",
+                "Put a wet bar of soap on the back of the toilet.",
+                "Place a clean sponge in a bathroom drawer. ",
+                "Move a candle stick to the toilet tank."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_030115_896772/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232142_172713/traj_data.json",
-                    "tests_seen/trial_T20190909_030509_537882/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184442_789540/traj_data.json"
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173833_468791/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184442_789540/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-Drawer-427/trial_T20190909_001329_772865/traj_data.json",
+                    "tests_seen/trial_T20190909_030509_537882/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move tissues to the trash bin. Simultaneously, put a wet bar of soap on the back of the toilet. After placing the tissues and soap, place a clean sponge in a bathroom drawer.",
+                "compose 2":"Put a wet bar of soap on the back of the toilet at any time. Then, move tissues to the trash bin. Next, place a clean sponge in a bathroom drawer.",
+                "compose 3":"Place a clean sponge in a bathroom drawer. Simultaneously, move tissues to the trash bin. After placing the sponge and tissues, put a wet bar of soap on the back of the toilet."
+            }
         },
         {
             "task_list":[
-                "To wet a sponge, as to prepare the tub for cleaning.",
+                "Put a spray bottle on the table.",
                 "Move the towel from the holder to the toilet.",
-                "Move tissues to the trash bin",
-                "Pick up candle from top of cabinet and place on the back of the toilet."
+                "Put a wet bar of soap on the back of the toilet.",
+                "Put a rinsed sponge on a dresser."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234820_863494/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190908_232532_117315/traj_data.json",
                     "train/pick_and_place_simple-HandTowel-None-Toilet-427/trial_T20190907_173906_510898/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173833_468791/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Toilet-427/trial_T20190909_030427_604487/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184442_789540/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010951_843989/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a spray bottle on the table at any time. Simultaneously, put a rinsed sponge on a dresser. After placing the spray bottle and sponge, move the towel from the holder to the toilet. Finally, put a wet bar of soap on the back of the toilet.",
+                "compose 2":"Put a spray bottle on the table at any time. Simultaneously, put a rinsed sponge on a dresser. After placing the spray bottle and sponge, put a wet bar of soap on the back of the toilet. Once that is done, move the towel from the holder to the toilet.",
+                "compose 3":"Put a rinsed sponge on a dresser at any time. Simultaneously, put a wet bar of soap on the back of the toilet. After placing the sponge and soap, put a spray bottle on the table. Finally, move the towel from the holder to the toilet."
+            }
         },
         {
             "task_list":[
-                "Place a washed sponge in a tub.",
+                "clean up candle's and put them inside the table drawer",
+                "Move the towel from the holder to the toilet.",
+                "take the toilet paper from the back of the toilet and place it on the toilet paper holder.",
+                "Place a spray bottle on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-427/trial_T20190907_173906_510898/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121643_062365/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_030115_896772/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the towel from the holder to the toilet. Simultaneously, place a spray bottle on a dresser. After moving the towel and placing the spray bottle, take the toilet paper from the back of the toilet and place it on the toilet paper holder. Finally, clean up candles and put them inside the table drawer.",
+                "compose 2":"Place a spray bottle on a dresser. Simultaneously, take the toilet paper from the back of the toilet and place it on the toilet paper holder. After placing the spray bottle and toilet paper, move the towel from the holder to the toilet. Finally, clean up candles and put them inside the table drawer.",
+                "compose 3":"Take the toilet paper from the back of the toilet and place it on the toilet paper holder at any time. Simultaneously, clean up candles and put them inside the table drawer. After placing the toilet paper and candles, move the towel from the holder to the toilet. Finally, place a spray bottle on a dresser."
+            }
+        },
+        {
+            "task_list":[
+                "Put a rinsed sponge on a dresser.",
+                "Put a bottle on the counter.",
+                "Take the hand towel to the toilet.",
+                "Put a cleaned cloth in a drawer."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010951_843989/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_014945_471194/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-427/trial_T20190907_173931_537125/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a rinsed sponge on a dresser. Put a bottle on the counter. Take the hand towel to the toilet. Put a cleaned cloth in a drawer.",
+                "compose 2":"Put a bottle on the counter. Put a rinsed sponge on a dresser. Take the hand towel to the toilet. Put a cleaned cloth in a drawer.",
+                "compose 3":"Take the hand towel to the toilet. Put a cleaned cloth in a drawer. Put a rinsed sponge on a dresser. Put a bottle on the counter."
+            }
+        },
+        {
+            "task_list":[
                 "Put the hand towels in the sink",
-                "Move tissues to the trash bin",
-                "Rinse a pink rag and put it in the dresser."
-            ],
-            "orign":[
-                [
-                    "valid_seen/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234735_610018/traj_data.json",
-                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070514_346717/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173833_468791/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070356_398456/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To rinse off a sponge and put it on the back of the toilet. ",
-                "put toilet paper roll on the holder",
-                "place a paper box in the trash can",
-                "clean up candle's and put them inside the table drawer"
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Toilet-427/trial_T20190908_234308_183420/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Wet a sponge and put it away.",
-                "Put the hand towels in the sink",
-                "place a paper box in the trash can",
-                "put toilet paper roll on the holder"
+                "Pick up candle from top of cabinet and place on the back of the toilet.",
+                "Put a cleaned cloth in a drawer."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010925_036448/traj_data.json",
                     "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070514_346717/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010925_036448/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-Toilet-427/trial_T20190909_030427_604487/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up candle from top of cabinet and place on the back of the toilet. Simultaneously, wet a sponge and put it away. After completing the previous tasks, put the hand towels in the sink. Finally, put a cleaned cloth in a drawer.",
+                "compose 2":"Put the hand towels in the sink at any time. Simultaneously, wet a sponge and put it away. After placing the hand towels, pick up candle from top of cabinet and place on the back of the toilet. Finally, put a cleaned cloth in a drawer.",
+                "compose 3":"Wet a sponge and put it away at any time. Simultaneously, put the hand towels in the sink. After completing the previous tasks, put a cleaned cloth in a drawer. Finally, pick up candle from top of cabinet and place on the back of the toilet."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "Move the towel from the holder to the toilet.",
-                "put toilet paper roll on the holder",
-                "Pick up candle from top of cabinet and place on the back of the toilet.",
-                "Wet a sponge and put it away.",
-                "Move tissues to the trash bin"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-Toilet-427/trial_T20190907_173906_510898/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Toilet-427/trial_T20190909_030427_604487/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010925_036448/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173833_468791/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
+                "Put the cleaned soap on the toilet",
                 "place a paper box in the trash can",
-                "clean up candle's and put them inside the table drawer",
-                "Put a towel on the back of the toilet.",
-                "Put a cleaned cloth in a drawer.",
-                "put toilet paper roll on the holder"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-Toilet-427/trial_T20190907_173844_355408/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move tissues to the trash bin",
-                "put toilet paper roll on the holder",
-                "Put a cleaned cloth in a drawer.",
-                "Put the hand towels in the sink",
-                "Wet a sponge and put it away."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173833_468791/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json",
-                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070514_346717/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010925_036448/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a rinsed sponge on a dresser.",
-                "Put a cleaned washcloth in the tub.",
-                "place a paper box in the trash can",
-                "clean up candle's and put them inside the table drawer",
-                "take the toilet paper from the back of the toilet and place it on the toilet paper holder."
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010951_843989/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232302_241090/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121643_062365/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a wet sponge on the toilet.",
-                "put toilet paper roll on the holder",
-                "Put a spray bottle on the table.",
+                "take the toilet paper from the back of the toilet and place it on the toilet paper holder.",
                 "Put the hand towels in the sink",
                 "clean up candle's and put them inside the table drawer"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-Toilet-427/trial_T20190908_234137_732626/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190908_232532_117315/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184421_434111/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121643_062365/traj_data.json",
                     "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070432_505321/traj_data.json",
                     "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a paper box in the trash can at any time. Simultaneously, put the cleaned soap on the toilet. After placing the paper box, take the toilet paper from the back of the toilet and place it on the toilet paper holder. Once that's done, put the hand towels in the sink. Finally, clean up candles and put them inside the table drawer.",
+                "compose 2":"Put the hand towels in the sink at any time. Simultaneously, put the cleaned soap on the toilet. After putting the hand towels, place a paper box in the trash can. Then, take the toilet paper from the back of the toilet and place it on the toilet paper holder. Finally, clean up candles and put them inside the table drawer.",
+                "compose 3":"Put the cleaned soap on the toilet at any time. Simultaneously, clean up candles and put them inside the table drawer. After placing the soap, place a paper box in the trash can. Next, take the toilet paper from the back of the toilet and place it on the toilet paper holder. Lastly, put the hand towels in the sink."
+            }
+        },
+        {
+            "task_list":[
+                "put toilet paper roll on the holder",
+                "place a paper box in the trash can",
+                "Replace a dirty rag from the bathtub with a clean one.",
+                "Place a newly rinsed off sponge into the tub",
+                "Pick up candle from top of cabinet and place on the back of the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232142_172713/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234756_086904/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-Toilet-427/trial_T20190909_030427_604487/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Replace a dirty rag from the bathtub with a clean one. Simultaneously, place a newly rinsed off sponge into the tub. After replacing the rag and placing the sponge, put toilet paper roll on the holder.",
+                "compose 2":"Pick up candle from top of cabinet and place on the back of the toilet at any time. Simultaneously, place a paper box in the trash can. After placing the candle and the paper box, put toilet paper roll on the holder.",
+                "compose 3":"Pick up candle from top of cabinet and place on the back of the toilet. After placing the candle, place a paper box in the trash can. Finally, replace a dirty rag from the bathtub with a clean one and place a newly rinsed off sponge into the tub."
+            }
+        },
+        {
+            "task_list":[
+                "place a paper box in the trash can",
+                "Place a newly rinsed off sponge into the tub",
+                "Put a cleaned cloth in a drawer.",
+                "Put a wet bar of soap on the back of the toilet.",
+                "Take the hand towel to the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234756_086904/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-427/trial_T20190906_184442_789540/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-427/trial_T20190907_173931_537125/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a newly rinsed off sponge into the tub at any time. Simultaneously, put a cleaned cloth in a drawer. After putting the sponge and cloth, take the hand towel to the toilet. Finally, place a paper box in the trash can.",
+                "compose 2":"Put a wet bar of soap on the back of the toilet at any time. Simultaneously, place a newly rinsed off sponge into the tub. After placing the soap and sponge, take the hand towel to the toilet. Finally, put a cleaned cloth in a drawer.",
+                "compose 3":"Put a cleaned cloth in a drawer at any time. Simultaneously, place a paper box in the trash can. After putting the cloth and paper box, place a newly rinsed off sponge into the tub. Finally, take the hand towel to the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "Move a candle stick to the toilet tank.",
+                "Put a rinsed sponge on a dresser.",
+                "Put the hand towels in the sink",
+                "Put a bottle on the counter.",
+                "place a paper box in the trash can"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_030509_537882/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010951_843989/traj_data.json",
+                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070432_505321/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_014945_471194/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the hand towels in the sink followed by placing a paper box in the trash can. After that, put a rinsed sponge on a dresser. Move a candle stick to the toilet tank. Finally, put a bottle on the counter.",
+                "compose 2":"Put a rinsed sponge on a dresser. Then move a candle stick to the toilet tank. Next, put the hand towels in the sink. After that, put a bottle on the counter. Finally, place a paper box in the trash can.",
+                "compose 3":"Put a bottle on the counter. Next, put a rinsed sponge on a dresser. After that, move a candle stick to the toilet tank. Put the hand towels in the sink. Finally, place a paper box in the trash can."
+            }
         }
     ],
     "tasks_6":[
         {
             "task_list":[
+                "To wet a sponge, as to prepare the tub for cleaning.",
+                "clean up candle's and put them inside the table drawer",
+                "Put a bottle on the counter.",
+                "place a paper box in the trash can",
                 "Rinse a pink rag and put it in the dresser.",
-                "put toilet paper roll on the holder",
-                "Wet a sponge and put it away.",
-                "Put the hand towels in the sink",
-                "Pick up candle from top of cabinet and place on the back of the toilet.",
-                "place a paper box in the trash can"
+                "Put the hand towels in the sink"
             ],
             "orign":[
                 [
+                    "train/pick_clean_then_place_in_recep-DishSponge-None-BathtubBasin-427/trial_T20190906_234820_863494/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Drawer-427/trial_T20190909_043917_251333/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-CounterTop-427/trial_T20190919_014945_471194/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json",
                     "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070356_398456/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-427/trial_T20190908_121616_357729/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-DishSponge-None-CounterTop-427/trial_T20190909_010925_036448/traj_data.json",
-                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070432_505321/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Toilet-427/trial_T20190909_030427_604487/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-GarbageCan-427/trial_T20190907_173922_758000/traj_data.json"
+                    "train/pick_two_obj_and_place-HandTowel-None-SinkBasin-427/trial_T20190908_070432_505321/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"To wet a sponge, as to prepare the tub for cleaning, put a bottle on the counter. After putting the bottle on the counter, clean up candles and put them inside the table drawer. Finally, rinse a pink rag and put it in the dresser.",
+                "compose 2":"Put a bottle on the counter. Simultaneously, place a paper box in the trash can. After putting the bottle on the counter, clean up candles and put them inside the table drawer. Once the candles are inside the drawer, rinse a pink rag and put it in the dresser. Finish by putting the hand towels in the sink.",
+                "compose 3":"To wet a sponge, as to prepare the tub for cleaning, rinse a pink rag and put it in the dresser. After putting the rag in the dresser, put a bottle on the counter. Subsequently, place a paper box in the trash can. Lastly, clean up candles and put them inside the table drawer, followed by putting the hand towels in the sink."
+            }
         }
     ],
     "tasks_7":[],

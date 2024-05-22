@@ -11,8 +11,8 @@
                 "The cell phone will be moved from the chair to a bowl to end up on top of the dresser. "
             ],
             "relative_objects":[
-                "Bowl",
-                "CellPhone"
+                "CellPhone",
+                "Bowl"
             ]
         },
         "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json":{
@@ -106,9 +106,9 @@
                 "Put a pencil in a cup and move it to the stand."
             ],
             "relative_objects":[
-                "Pen",
+                "Pencil",
                 "Mug",
-                "Pencil"
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json":{
@@ -138,16 +138,8 @@
                 "To put a pen in the bowl and place the bowl on the TV stand. "
             ],
             "relative_objects":[
-                "Pen",
-                "Bowl"
-            ]
-        },
-        "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json":{
-            "tasks":[
-                "put 2 credit cards on top of the black table"
-            ],
-            "relative_objects":[
-                "CreditCard"
+                "Bowl",
+                "Pen"
             ]
         },
         "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json":{
@@ -155,8 +147,8 @@
                 "Gather the computers up and place them on the bed"
             ],
             "relative_objects":[
-                "Bed",
-                "Laptop"
+                "Laptop",
+                "Bed"
             ]
         },
         "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json":{
@@ -179,51 +171,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "move mug from table to tv stand"
+                "Gather the computers up and place them on the bed"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json"
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "move mug from table to tv stand"
+                "Move the blue pencil to be inside a bowl on the counter. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_182005_438932/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a bowl with a pencil in it on a counter."
+                "Put a glass bowl containing a credit card on the TV stand."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_181947_674402/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072141_716322/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a bowl with a cell phone in it on a counter."
+                "To move the remote control near the television. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json"
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "move mug from table to tv stand"
+                "To move the remote control near the television. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json"
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json"
                 ]
             ]
         }
@@ -231,391 +223,481 @@
     "tasks_2":[
         {
             "task_list":[
+                "To move the remote control near the television. ",
+                "Put a bowl with pen in it on the TV stand. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Dresser-311/trial_T20190908_170820_174380/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"To move the remote control near the television at any time. Put a bowl with pen in it on the TV stand after moving the remote control.",
+                "compose 2":"Put a bowl with pen in it on the TV stand at any time. To move the remote control near the television after putting the bowl with pen.",
+                "compose 3":"To move the remote control near the television at any time. Put a bowl with pen in it on the TV stand simultaneously."
+            }
+        },
+        {
+            "task_list":[
                 "Put a CD on a table.",
-                "Move a credit card and dish to a small dresser."
+                "Move a white cup to the TV console."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json"
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "move mug from table to tv stand",
-                "Move a credit card and dish to a small dresser."
+                "Place a bowl with a cell phone in it on a counter.",
+                "Move a white cup to the TV console."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json",
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a bowl with a cell phone in it on a counter at any time. Simultaneously, move a white cup to the TV console.",
+                "compose 2":"Place a bowl with a cell phone in it on a counter. After placing the bowl, move a white cup to the TV console.",
+                "compose 3":"Move a white cup to the TV console. After moving the cup, place a bowl with a cell phone in it on a counter."
+            }
         },
         {
             "task_list":[
                 "Place keys on the table.",
-                "Move a credit card and dish to a small dresser."
+                "Move a white cup to the TV console."
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json"
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place keys on the table at any time. Simultaneously, move a white cup to the TV console.",
+                "compose 2":"Move a white cup to the TV console. After moving the cup, place keys on the table.",
+                "compose 3":"Place keys on the table. Then, move a white cup to the TV console."
+            }
         },
         {
             "task_list":[
-                "Put a CD on a table.",
-                "Move a cup and pen to the dresser with the TV."
+                "Move a credit card and dish to a small dresser.",
+                "To move the remote control near the television. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-311/trial_T20190909_152355_259303/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a white cup to the TV console.",
-                "Gather the computers up and place them on the bed"
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move a credit card and dish to a small dresser at any time. Simultaneously, move the remote control near the television.",
+                "compose 2":"Move the remote control near the television first. Afterward, move a credit card and dish to a small dresser.",
+                "compose 3":"Move a credit card and dish to a small dresser first. Then, move the remote control near the television."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
                 "To move the remote control near the television. ",
-                "To put the keys on the table. ",
+                "Put a CD on a table.",
                 "Move a cup and pen to the dresser with the TV."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-311/trial_T20190909_152355_259303/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a CD on a table at any time. Simultaneously, move a cup and pen to the dresser with the TV. After putting the CD on the table, move the remote control near the television.",
+                "compose 2":"Move a cup and pen to the dresser with the TV at any time. Simultaneously, put a CD on a table. After moving the cup and pen, move the remote control near the television.",
+                "compose 3":"Move a cup and pen to the dresser with the TV at any time. Simultaneously, move the remote control near the television. After moving the cup and pen, put a CD on a table."
+            }
         },
         {
             "task_list":[
-                "Put a bowl with pen in it on the TV stand. ",
                 "Gather the computers up and place them on the bed",
-                "Place keys on the table."
+                "move mug from table to tv stand",
+                "Move a credit card and dish to a small dresser."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Dresser-311/trial_T20190908_170820_174380/traj_data.json",
                     "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json"
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a credit card and dish to a small dresser at any time. Simultaneously, move mug from table to tv stand. After moving the items to the dresser and the mug to the tv stand, gather the computers up and place them on the bed.",
+                "compose 2":"Gather the computers up and place them on the bed at any time. Simultaneously, move a credit card and dish to a small dresser. After placing the computers on the bed and moving the items to the dresser, move the mug from table to tv stand.",
+                "compose 3":"Move mug from table to tv stand at any time. Simultaneously, gather the computers up and place them on the bed. After moving the mug to the tv stand, move a credit card and dish to a small dresser."
+            }
         },
         {
             "task_list":[
-                "To move the remote control near the television. ",
-                "Place a bowl with a cell phone in it on a counter.",
-                "move mug from table to tv stand"
+                "Place keys on the table.",
+                "move mug from table to tv stand",
+                "Place a bowl with a cell phone in it on a counter."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json",
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json"
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place keys on the table at any time. Simultaneously, move mug from table to tv stand. After completing these tasks, place a bowl with a cell phone in it on a counter.",
+                "compose 2":"Move mug from table to tv stand at any time. Simultaneously, place a bowl with a cell phone in it on a counter. After moving the mug and placing the bowl, put the keys on the table.",
+                "compose 3":"Place a bowl with a cell phone in it on a counter at any time. Simultaneously, place keys on the table. After completing these tasks, move mug from table to tv stand."
+            }
         },
         {
             "task_list":[
-                "Gather the computers up and place them on the bed",
+                "Move a white cup to the TV console.",
                 "Place keys on the table.",
                 "Place a bowl with a cell phone in it on a counter."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
                     "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
                     "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place keys on the table at any time. Simultaneously, move a white cup to the TV console. After placing the keys and the cup, place a bowl with a cell phone in it on a counter.",
+                "compose 2":"Move a white cup to the TV console first. Simultaneously, place keys on the table. After moving the cup and placing the keys, place a bowl with a cell phone in it on a counter.",
+                "compose 3":"Place a bowl with a cell phone in it on a counter at any time. Simultaneously, place keys on the table. After placing the bowl, move a white cup to the TV console."
+            }
         },
         {
             "task_list":[
-                "Move a credit card and dish to a small dresser.",
-                "Put a CD on a table.",
-                "Move a white cup to the TV console."
+                "Gather the computers up and place them on the bed",
+                "To put the keys on the table. ",
+                "Put a CD on a table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json"
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather the computers up and place them on the bed at any time. Simultaneously, put a CD on a table. After placing the computers on the bed and putting the CD on the table, put the keys on the table.",
+                "compose 2":"Put the keys on the table at any time. Simultaneously, gather the computers up and place them on the bed. After placing the computers on the bed, put a CD on a table.",
+                "compose 3":"Gather the computers up and place them on the bed at any time. Simultaneously, put a CD on a table. After putting the CD on the table, put the keys on the table."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Put a CD on a table.",
-                "Gather the computers up and place them on the bed",
-                "Move a credit card and dish to a small dresser.",
-                "Move a cup and pen to the dresser with the TV."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-311/trial_T20190909_152355_259303/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Gather the computers up and place them on the bed",
-                "Put a glass bowl containing a credit card on the TV stand.",
-                "Move a white cup to the TV console.",
-                "Put a CD on a table."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072141_716322/traj_data.json",
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a bowl with a cell phone in it on a counter.",
-                "Gather the computers up and place them on the bed",
-                "put 2 credit cards on top of the black table",
-                "Place keys on the table."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a CD on a table.",
-                "Gather the computers up and place them on the bed",
-                "Move a white cup to the TV console.",
-                "Place a bowl with a cell phone in it on a counter."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a cup and pen to the dresser with the TV.",
                 "To put the keys on the table. ",
                 "Gather the computers up and place them on the bed",
-                "Put a CD on a table."
+                "move mug from table to tv stand",
+                "To move the remote control near the television. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-311/trial_T20190909_152355_259303/traj_data.json",
                     "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
                     "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json"
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the remote control near the television. At any time, put the keys on the table. Simultaneously, gather the computers up and place them on the bed.After putting the keys on the table, move the mug from the table to the TV stand.",
+                "compose 2":"Gather the computers up and place them on the bed. At any time, put the keys on the table. Simultaneously, move the remote control near the television.After putting the keys on the table, move the mug from the table to the TV stand.",
+                "compose 3":"Put the keys on the table. At any time, gather the computers up and place them on the bed. Simultaneously, move the remote control near the television.After putting the keys on the table, move the mug from the table to the TV stand."
+            }
+        },
+        {
+            "task_list":[
+                "Gather the computers up and place them on the bed",
+                "Place keys on the table.",
+                "Put a glass bowl containing a credit card on the TV stand.",
+                "Move a white cup to the TV console."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072141_716322/traj_data.json",
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather the computers up and place them on the bed at any time. At the same time, place keys on the table. Afterwards, put a glass bowl containing a credit card on the TV stand. Finally, move a white cup to the TV console.",
+                "compose 2":"Put a glass bowl containing a debit card on the TV stand at any time. Simultaneously, gather the computers up and place them on the bed. Then, move a white cup to the TV console. Once done, place keys on the table.",
+                "compose 3":"Move a white cup to the TV console at any time. Next, gather the computers up and place them on the bed. Subsequently, put a glass bowl containing a credit card on the TV stand. Finally, place keys on the table."
+            }
+        },
+        {
+            "task_list":[
+                "Put a glass bowl containing a credit card on the TV stand.",
+                "Place keys on the table.",
+                "To move the remote control near the television. ",
+                "Gather the computers up and place them on the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072141_716322/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place keys on the table at any time. Simultaneously, put a glass bowl containing a credit card on the TV stand. After placing the keys and the glass bowl, move the remote control near the television. Once done, gather the computers up and place them on the bed.",
+                "compose 2":"Place keys on the table first. Then, put a glass bowl containing a credit card on the TV stand. After that, move the remote control near the television. Finally, gather the computers up and place them on the bed.",
+                "compose 3":"Gather the computers up and place them on the bed first. Subsequently, put a glass bowl containing a credit card on the TV stand. Afterward, place keys on the table. Lastly, move the remote control near the television."
+            }
+        },
+        {
+            "task_list":[
+                "Move a white cup to the TV console.",
+                "Move a credit card and dish to a small dresser.",
+                "Put a CD on a table.",
+                "To put the keys on the table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a white cup to the TV console at any time. Simultaneously, put a CD on a table. After moving the cup and putting the CD, move a credit card and dish to a small dresser. Finally, put the keys on the table.",
+                "compose 2":"Move a credit card and dish to a small dresser at any time. Simultaneously, put a CD on a table. After moving the credit card and dish and putting the CD, move a white cup to the TV console. Finally, put the keys on the table.",
+                "compose 3":"Put a CD on a table at any time. Simultaneously, move a white cup to the TV console. After putting the CD and moving the cup, move a credit card and dish to a small dresser. Finally, put the keys on the table."
+            }
+        },
+        {
+            "task_list":[
+                "Put a CD on a table.",
+                "Place a bowl with a cell phone in it on a counter.",
+                "Gather the computers up and place them on the bed",
+                "move mug from table to tv stand"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a CD on a table at any time. Simultaneously, place a bowl with a cell phone in it on a counter.After putting the CD, move a mug from the table to the TV stand.Finally, gather the computers up and place them on the bed.",
+                "compose 2":"Place a bowl with a cell phone in it on a counter at any time. Simultaneously, put a CD on a table.After placing the bowl, gather the computers up and place them on the bed.Finally, move a mug from the table to the TV stand.",
+                "compose 3":"Move a mug from the table to the TV stand at any time.After moving the mug, put a CD on a table.Finally, place a bowl with a cell phone in it on a counter and simultaneously gather the computers up and place them on the bed."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "put 2 credit cards on top of the black table",
+                "Put a bowl with pen in it on the TV stand. ",
+                "Move a white cup to the TV console.",
                 "To put the keys on the table. ",
                 "To move the remote control near the television. ",
-                "Gather the computers up and place them on the bed",
-                "Place a bowl with a cell phone in it on a counter."
+                "Gather the computers up and place them on the bed"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Bowl-Dresser-311/trial_T20190908_170820_174380/traj_data.json",
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
                     "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
                     "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json"
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a white cup to the TV console. Simultaneously, put a bowl with a pen in it on the TV stand. After moving the cup and placing the bowl, gather the computers and place them on the bed. Finally, move the remote control near the television.",
+                "compose 2":"Put the keys on the table first. Then, move the remote control near the television. Simultaneously, gather the computers and place them on the bed. Finally, move a white cup to the TV console.",
+                "compose 3":"Put the keys on the table first. After that, move the remote control near the television. Simultaneously, move a white cup to the TV console and put a bowl with a pen in it on the TV stand. Finally, gather the computers and place them on the bed."
+            }
         },
         {
             "task_list":[
+                "move mug from table to tv stand",
+                "To move the remote control near the television. ",
+                "Move a credit card and dish to a small dresser.",
                 "Put a CD on a table.",
-                "Place keys on the table.",
-                "put 2 credit cards on top of the black table",
-                "Move a white cup to the TV console.",
-                "To move the remote control near the television. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json",
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a white cup to the TV console.",
-                "To move the remote control near the television. ",
-                "Place keys on the table.",
-                "Place a pencil into a bowl.",
-                "put 2 credit cards on top of the black table"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_182030_725067/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Gather the computers up and place them on the bed",
-                "Put a glass bowl containing a credit card on the TV stand.",
-                "To move the remote control near the television. ",
-                "Move a white cup to the TV console.",
                 "To put the keys on the table. "
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072141_716322/traj_data.json",
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
                     "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
                     "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a credit card and dish to a small dresser. After moving the credit card and dish, move a mug from table to TV stand. To move the remote control near the television. Put a CD on a table. Finally, put the keys on the table.",
+                "compose 2":"Move a credit card and dish to a small dresser. Put a CD on a table. To move the remote control near the television. Move a mug from table to TV stand. Put the keys on the table.",
+                "compose 3":"Put a CD on a table. To move the remote control near the television. Move a credit card and dish to a small dresser. Move a mug from table to TV stand. Put the keys on the table."
+            }
         },
         {
             "task_list":[
-                "put 2 credit cards on top of the black table",
-                "move mug from table to tv stand",
-                "Gather the computers up and place them on the bed",
+                "Put a CD on a table.",
+                "To move the remote control near the television. ",
                 "To put the keys on the table. ",
-                "Place a bowl with a cell phone in it on a counter."
+                "Gather the computers up and place them on the bed",
+                "Move the blue pencil to be inside a bowl on the counter. "
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json",
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
                     "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CellPhone-Bowl-Dresser-311/trial_T20190906_165605_913043/traj_data.json"
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_182005_438932/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a CD on a table at any time. Simultaneously, put the keys on the table. After placing the CD and keys, gather the computers up and place them on the bed. Finally, move the blue pencil to be inside a bowl on the counter.",
+                "compose 2":"To move the remote control near the television at any time. Simultaneously, put the keys on the table. After moving the remote control, gather the computers up and place them on the bed. Finally, put a CD on a table.",
+                "compose 3":"Put a CD on a table at any time. Simultaneously, move the remote control near the television. After placing the CD, put the keys on the table. Then, gather the computers up and place them on the bed. Finally, move the blue pencil to be inside a bowl on the counter."
+            }
+        },
+        {
+            "task_list":[
+                "move mug from table to tv stand",
+                "Place keys on the table.",
+                "Put a glass bowl containing a credit card on the TV stand.",
+                "Put a CD on a table.",
+                "To move the remote control near the television. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072141_716322/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place keys on the table at any time. Simultaneously, put a CD on a table.After placing the keys and CD, move mug from table to tv stand. Once done, put a glass bowl containing a credit card on the TV stand.Finally, to move the remote control near the television.",
+                "compose 2":"Place keys on the table at any time. Simultaneously, put a CD on a table.After placing the keys and CD, put a glass bowl containing a credit card on the TV stand. Once done, to move the remote control near the television.Finally, move mug from table to tv stand.",
+                "compose 3":"Place keys on the table at any time. Simultaneously, to move the remote control near the television. After placing the keys, put a CD on a table. Once done, put a glass bowl containing a credit card on the TV stand. Finally, move mug from table to tv stand."
+            }
+        },
+        {
+            "task_list":[
+                "To put the keys on the table. ",
+                "To move the remote control near the television. ",
+                "Put a glass bowl containing a credit card on the TV stand.",
+                "Move a cup and pen to the dresser with the TV.",
+                "Put a CD on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072141_716322/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-311/trial_T20190909_152355_259303/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a cup and pen to the dresser with the TV at any time. Put a CD on a table. To put the keys on the table. Simultaneously, put a glass bowl containing a credit card on the TV stand. After completing the previous tasks, move the remote control near the television.",
+                "compose 2":"Put a CD on a table at any time. To put the keys on the table. Simultaneously, move a cup and pen to the dresser with the TV. After placing the CD and keys, put a glass bowl containing a credit card on the TV stand. Finally, move the remote control near the television.",
+                "compose 3":"To put the keys on the table. Put a glass bowl containing a credit card on the TV stand at any time. Simultaneously, move a cup and pen to the dresser with the TV. After completing the previous tasks, put a CD on a table. Finally, move the remote control near the television."
+            }
         }
     ],
     "tasks_6":[
         {
             "task_list":[
                 "move mug from table to tv stand",
-                "Move the blue pencil to be inside a bowl on the counter. ",
-                "put 2 credit cards on top of the black table",
-                "To put the keys on the table. ",
+                "To move the remote control near the television. ",
                 "Put a CD on a table.",
-                "To move the remote control near the television. "
+                "Move the blue pencil to be inside a bowl on the counter. ",
+                "Gather the computers up and place them on the bed",
+                "To put the keys on the table. "
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_182005_438932/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json"
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a CD on a table at any time. Simultaneously, move the blue pencil to be inside a bowl on the counter. After placing the CD and moving the pencil, move the mug from table to tv stand. Then, gather the computers up and place them on the bed. Finally, put the keys on the table near the television.",
+                "compose 2":"To put the keys on the table at any time. Simultaneously, move the remote control near the television. After putting the keys, move the blue pencil to be inside a bowl on the counter. Then, move the mug from table to tv stand. Finally, gather the computers up and place them on the bed.",
+                "compose 3":"Move the blue pencil to be inside a bowl on the counter. Simultaneously, put the keys on the table. After moving the pencil and putting the keys, put a CD on a table. Then, move the mug from table to tv stand. Finally, gather the computers up and place them on the bed."
+            }
         },
         {
             "task_list":[
+                "Move a credit card and dish to a small dresser.",
+                "move mug from table to tv stand",
                 "To move the remote control near the television. ",
                 "Put a CD on a table.",
-                "Gather the computers up and place them on the bed",
-                "put 2 credit cards on top of the black table",
-                "To put the keys on the table. ",
-                "Place a pencil into a bowl."
+                "Place keys on the table.",
+                "Gather the computers up and place them on the bed"
             ],
             "orign":[
                 [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-Dresser-311/trial_T20190908_072034_448545/traj_data.json",
+                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152854_416951/traj_data.json",
                     "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
                     "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CounterTop-311/trial_T20190906_182030_725067/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Gather the computers up and place them on the bed",
-                "put 2 credit cards on top of the black table",
-                "To move the remote control near the television. ",
-                "Place keys on the table.",
-                "Move a white cup to the TV console.",
-                "Put a CD on a table."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
                     "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
-                    "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json"
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a credit card and dish to a small dresser at any time. Simultaneously, put a CD on a table. After moving the credit card, dish, and CD, gather the computers up and place them on the bed.",
+                "compose 2":"Move mug from table to tv stand at any time. Simultaneously, place keys on the table. After moving the mug and placing keys on the table, move the remote control near the television.",
+                "compose 3":"Place keys on the table at any time. Simultaneously, move mug from table to tv stand. After placing keys and moving the mug, move a credit card and dish to a small dresser. Finally, put a CD on a table."
+            }
         },
         {
             "task_list":[
-                "Gather the computers up and place them on the bed",
-                "put 2 credit cards on top of the black table",
                 "Put a bowl with pen in it on the TV stand. ",
-                "Place keys on the table.",
+                "Gather the computers up and place them on the bed",
                 "Put a CD on a table.",
+                "To put the keys on the table. ",
+                "To move the remote control near the television. ",
                 "Move a white cup to the TV console."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-DiningTable-311/trial_T20190908_072852_125912/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Pen-Bowl-Dresser-311/trial_T20190908_170820_174380/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210406_273844/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Bed-311/trial_T20190908_110657_952577/traj_data.json",
                     "train/pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071404_028986/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-SideTable-311/trial_T20190918_210502_057700/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-Dresser-311/trial_T20190907_154756_629170/traj_data.json",
                     "train/pick_and_place_simple-Mug-None-Dresser-311/trial_T20190909_152910_413839/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a bowl with pen in it on the TV stand. At any time, put a CD on a table. Simultaneously, move a white cup to the TV console.",
+                "compose 2":"Put a CD on a table. After that, move a white cup to the TV console. After placing the CD, gather the computers up and place them on the bed.",
+                "compose 3":"To move the remote control near the television. At any time, put a bowl with pen in it on the TV stand. Simultaneously, put the keys on the table."
+            }
         }
     ],
     "tasks_7":[],

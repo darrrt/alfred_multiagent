@@ -62,8 +62,8 @@
                 "Put a box with keys on it on a chair."
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-225/trial_T20190906_165121_524545/traj_data.json":{
@@ -76,9 +76,9 @@
                 "Place a cardboard box with keys inside onto a chair."
             ],
             "relative_objects":[
-                "Chair",
+                "KeyChain",
                 "Box",
-                "KeyChain"
+                "Chair"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-225/trial_T20190906_165037_674542/traj_data.json":{
@@ -90,8 +90,8 @@
                 "Put a box with keys on it on the chair."
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         },
         "train/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143051_319868/traj_data.json":{
@@ -119,8 +119,8 @@
                 "Move a set of keys to the couch. "
             ],
             "relative_objects":[
-                "Pillow",
-                "KeyChain"
+                "KeyChain",
+                "Pillow"
             ]
         },
         "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131129_251514/traj_data.json":{
@@ -172,8 +172,8 @@
                 "Carry tissues while turning on a floor lamp"
             ],
             "relative_objects":[
-                "TissueBox",
-                "FloorLamp"
+                "FloorLamp",
+                "TissueBox"
             ]
         },
         "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json":{
@@ -194,8 +194,8 @@
                 "turn on floor lamp while holding credit card"
             ],
             "relative_objects":[
-                "CreditCard",
-                "FloorLamp"
+                "FloorLamp",
+                "CreditCard"
             ]
         },
         "valid_seen/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143000_904569/traj_data.json":{
@@ -204,8 +204,8 @@
                 "Places keys on a couch"
             ],
             "relative_objects":[
-                "Laptop",
-                "KeyChain"
+                "KeyChain",
+                "Laptop"
             ]
         },
         "tests_seen/trial_T20190906_213153_347093/traj_data.json":{
@@ -215,22 +215,12 @@
                 "Look at the laptop under light of the floor lamp"
             ],
             "relative_objects":[
-                "FloorLamp",
-                "Laptop"
+                "Laptop",
+                "FloorLamp"
             ]
         }
     },
     "tasks_1":[
-        {
-            "task_list":[
-                "To move the pillow."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json"
-                ]
-            ]
-        },
         {
             "task_list":[
                 "Move the keys to the computer on the sofa. "
@@ -243,11 +233,21 @@
         },
         {
             "task_list":[
-                "To see the tissue box in the lamp light. "
+                "Examine a credit card by the light of a tall lamp."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-225/trial_T20190907_150815_536818/traj_data.json"
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "put a set of keys onto a sofa"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131143_093789/traj_data.json"
                 ]
             ]
         },
@@ -263,11 +263,11 @@
         },
         {
             "task_list":[
-                "Look at a set of keys under the light of a lamp."
+                "Put a throw pillow on the a chair. "
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-225/trial_T20190909_125010_376313/traj_data.json"
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104612_718251/traj_data.json"
                 ]
             ]
         }
@@ -275,181 +275,119 @@
     "tasks_2":[
         {
             "task_list":[
-                "Examine a set of keys by the light of a tall lamp.",
-                "turn on a lamp while holding a laptop"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-225/trial_T20190909_124956_238640/traj_data.json",
-                    "tests_seen/trial_T20190906_213153_347093/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Put a throw pillow on the a chair. ",
-                "Pick up a credit card and turn a lamp on."
+                "Put keys in box, move box to chair."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104612_718251/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_110126_654783/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-225/trial_T20190906_165102_707956/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a cardboard box with keys in it on the seat of a chair.",
-                "Pick up a credit card and turn a lamp on."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-225/trial_T20190906_165121_524545/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_110126_654783/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a throw pillow on the a chair. While putting the throw pillow, put keys in a box. Once the throw pillow is placed, move the box with the keys to the chair.",
+                "compose 2":"Put keys in a box. Simultaneously, move the box to the chair. After placing the box on the chair, put a throw pillow on the chair.",
+                "compose 3":"Put keys in a box and move the box to the chair. Then, put a throw pillow on the chair."
+            }
         },
         {
             "task_list":[
-                "To move the pillow.",
+                "Put keys in box, move box to chair.",
                 "To see the tissue box in the lamp light. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-225/trial_T20190906_165102_707956/traj_data.json",
                     "train/look_at_obj_in_light-TissueBox-None-FloorLamp-225/trial_T20190907_150815_536818/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put keys in box, move box to chair at any time. Simultaneously, to see the tissue box in the lamp light.",
+                "compose 2":"To see the tissue box in the lamp light at any time. Simultaneously, put keys in box, move box to chair.",
+                "compose 3":"To see the tissue box in the lamp light at any time. After that, put keys in box, move box to chair."
+            }
         },
         {
             "task_list":[
-                "pick up keys and view them in the lamp light",
-                "To move the pillow."
+                "place a small box on top of a chair in the corner of the room",
+                "turn on a lamp while holding a laptop"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-225/trial_T20190909_124940_917734/traj_data.json",
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json"
+                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_182813_945109/traj_data.json",
+                    "tests_seen/trial_T20190906_213153_347093/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a small box on top of a chair in the corner of the room at any time. Simultaneously, turn on a lamp while holding a laptop.",
+                "compose 2":"Turn on a lamp while holding a laptop at any time. After turning on the lamp, place a small box on top of a chair in the corner of the room.",
+                "compose 3":"Place a small box on top of a chair in the corner of the room at any time. After placing the small box, turn on a lamp while holding a laptop."
+            }
+        },
+        {
+            "task_list":[
+                "put a set of keys onto a sofa",
+                "Pick up a credit card and turn a lamp on."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131143_093789/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_110126_654783/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up a credit card and turn a lamp on. After that, put a set of keys onto a sofa.",
+                "compose 2":"Put a set of keys onto a sofa at any time. Simultaneously, pick up a credit card and turn a lamp on.",
+                "compose 3":"Put a set of keys onto a sofa at any time. After putting the keys, pick up a credit card and turn a lamp on."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up a credit card and turn a lamp on.",
+                "Place a set of keys on a couch."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_110126_654783/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131203_170721/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up a credit card and turn a lamp on. Then place a set of keys on a couch.",
+                "compose 2":"Place a set of keys on a couch. After that, pick up a credit card and turn a lamp on.",
+                "compose 3":"Pick up a credit card and turn a lamp on simultaneously with placing a set of keys on a couch."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "turn on a lamp while holding a laptop",
-                "Examine a credit card by the light of a tall lamp.",
-                "put a set of keys onto a sofa"
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190906_213153_347093/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131143_093789/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "turn on a lamp while holding a laptop",
-                "Examine a credit card by the light of a tall lamp.",
-                "put a set of keys onto a sofa"
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190906_213153_347093/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131143_093789/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Getting the keys to the couch",
-                "turn on a lamp while holding a laptop",
-                "Put a throw pillow on the a chair. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143051_319868/traj_data.json",
-                    "tests_seen/trial_T20190906_213153_347093/traj_data.json",
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104612_718251/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a set of keys to the loveseat. ",
-                "To move the pillow.",
+                "place a small box on top of a chair in the corner of the room",
                 "Examine a credit card by the light of a tall lamp."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131129_251514/traj_data.json",
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143051_319868/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_182813_945109/traj_data.json",
                     "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Getting the keys to the couch at any time. Simultaneously, place a small box on top of a chair in the corner of the room. After getting the keys and placing the box, examine a credit card by the light of a tall lamp.",
+                "compose 2":"Examine a credit card by the light of a tall lamp at any time. Simultaneously, getting the keys to the couch. After examining the credit card, place a small box on top of a chair in the corner of the room.",
+                "compose 3":"Place a small box on top of a chair in the corner of the room at any time. Simultaneously, get the keys to the couch. After placing the box, examine a credit card by the light of a tall lamp."
+            }
         },
         {
             "task_list":[
-                "Move the keys to the computer on the sofa. ",
-                "To see the tissue box in the lamp light. ",
-                "place a small box on top of a chair in the corner of the room"
-            ],
-            "orign":[
-                [
-                    "valid_seen/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143000_904569/traj_data.json",
-                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-225/trial_T20190907_150815_536818/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_182813_945109/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Examine a credit card by the light of a tall lamp.",
-                "place a small box on top of a chair in the corner of the room",
-                "To move the pillow.",
-                "Getting the keys to the couch"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_182813_945109/traj_data.json",
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143051_319868/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move the pillow.",
-                "turn on a lamp while holding a laptop",
-                "Examine a credit card by the light of a tall lamp.",
-                "Examine a set of keys by the light of a tall lamp."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json",
-                    "tests_seen/trial_T20190906_213153_347093/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-225/trial_T20190909_124956_238640/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move the pillow.",
-                "Pick up the empty box from the couch. place it on the black armchair.",
+                "Put a throw pillow on the a chair. ",
                 "put a set of keys onto a sofa",
                 "turn on a lamp while holding a laptop"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_151218_514571/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104612_718251/traj_data.json",
                     "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131143_093789/traj_data.json",
                     "tests_seen/trial_T20190906_213153_347093/traj_data.json"
                 ]
@@ -457,35 +395,167 @@
         },
         {
             "task_list":[
+                "Examine a credit card by the light of a tall lamp.",
+                "Put keys in box, move box to chair.",
+                "To move the pillow."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-225/trial_T20190906_165102_707956/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a credit card by the light of a tall lamp. Put keys in box, move box to chair. To move the pillow.",
+                "compose 2":"To move the pillow. Examine a credit card by the light of a tall lamp. Put keys in box, move box to chair.",
+                "compose 3":"Examine a credit card by the light of a tall lamp. To move the pillow. Put keys in box, move box to chair."
+            }
+        },
+        {
+            "task_list":[
+                "To see the tissue box in the lamp light. ",
+                "Put a throw pillow on the a chair. ",
+                "Put keys in box, move box to chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-225/trial_T20190907_150815_536818/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104612_718251/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-225/trial_T20190906_165102_707956/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"To see the tissue box in the lamp light, put a throw pillow on the a chair simultaneously. After placing the throw pillow, put keys in box, and move the box to the chair.",
+                "compose 2":"Put keys in box, move the box to the chair first. Then, put a throw pillow on the a chair and see the tissue box in the lamp light.",
+                "compose 3":"Put a throw pillow on the a chair. After that, put keys in box, move the box to the chair. Finally, see the tissue box in the lamp light."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the empty box from the couch. place it on the black armchair.",
+                "Pick up a credit card and turn a lamp on.",
+                "Move the keys to the computer on the sofa. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_151218_514571/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_110126_654783/traj_data.json",
+                    "valid_seen/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143000_904569/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up a credit card and turn a lamp on. At any time, pick up the empty box from the couch and place it on the black armchair. After turning on the lamp, move the keys to the computer on the sofa.",
+                "compose 2":"Pick up the empty box from the couch and place it on the black armchair at any time. Pick up a credit card and turn a lamp on before moving the keys to the computer on the sofa.",
+                "compose 3":"Move the keys to the computer on the sofa after picking up the empty box from the couch and placing it on the black armchair. Pick up a credit card and turn a lamp on simultaneously."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Examine a set of keys by the light of a tall lamp.",
+                "To see the tissue box in the lamp light. ",
+                "To move the pillow.",
+                "place a small box on top of a chair in the corner of the room"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-225/trial_T20190909_124956_238640/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-225/trial_T20190907_150815_536818/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_182813_945109/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a set of keys by the light of a tall lamp. To see the tissue box in the lamp light. Move the pillow and place a small box on top of a chair in the corner of the room.",
+                "compose 2":"Move the pillow, then place a small box on top of a chair in the corner of the room. Examine a set of keys by the light of a tall lamp and see the tissue box in the lamp light.",
+                "compose 3":"Examine a set of keys by the light of a tall lamp. To see the tissue box in the lamp light. Place a small box on top of a chair in the corner of the room after moving the pillow."
+            }
+        },
+        {
+            "task_list":[
                 "Place a set of keys on a couch.",
                 "To move the pillow.",
-                "Examine a credit card by the light of a tall lamp.",
-                "turn on a lamp while holding a laptop"
+                "turn on a lamp while holding a laptop",
+                "Pick up the empty box from the couch. place it on the black armchair."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131203_170721/traj_data.json",
                     "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json",
-                    "tests_seen/trial_T20190906_213153_347093/traj_data.json"
+                    "tests_seen/trial_T20190906_213153_347093/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_151218_514571/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on a lamp while holding a laptop at any time. Simultaneously, place a set of keys on a couch. After turning on the lamp and placing the keys, pick up the empty box from the couch and place it on the black armchair. Finally, move the pillow.",
+                "compose 2":"Place a set of keys on a couch at any time. Simultaneously, turn on a lamp while holding a laptop. After placing the keys and turning on the lamp, pick up the empty box from the couch and place it on the black armchair. Finally, move the pillow.",
+                "compose 3":"Turn on a lamp while holding a laptop at any time. Simultaneously, pick up the empty box from the couch and place it on the black armchair. After turning on the lamp, place a set of keys on a couch. Finally, move the pillow."
+            }
         },
         {
             "task_list":[
-                "Put a throw pillow on the a chair. ",
-                "Pick up a credit card and turn a lamp on.",
-                "Move the keys to the computer on the sofa. ",
-                "Pick up the empty box from the couch. place it on the black armchair."
+                "put a set of keys onto a sofa",
+                "place a small box on top of a chair in the corner of the room",
+                "To see the tissue box in the lamp light. ",
+                "To move the pillow."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104612_718251/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_110126_654783/traj_data.json",
-                    "valid_seen/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143000_904569/traj_data.json",
-                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_151218_514571/traj_data.json"
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-225/trial_T20190908_131143_093789/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_182813_945109/traj_data.json",
+                    "train/look_at_obj_in_light-TissueBox-None-FloorLamp-225/trial_T20190907_150815_536818/traj_data.json",
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a small box on top of a chair in the corner of the room at any time. Simultaneously, put a set of keys onto a sofa.To see the tissue box in the lamp light, move the pillow.",
+                "compose 2":"To see the tissue box in the lamp light, move the pillow at any time. Simultaneously, place a small box on top of a chair in the corner of the room then put a set of keys onto a sofa.",
+                "compose 3":"Put a set of keys onto a sofa at any time. Simultaneously, place a small box on top of a chair in the corner of the room.To see the tissue box in the lamp light, move the pillow."
+            }
+        },
+        {
+            "task_list":[
+                "To move the pillow.",
+                "place a small box on top of a chair in the corner of the room",
+                "Examine a credit card by the light of a tall lamp.",
+                "Gather up the keys and get them into the same place"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pillow-None-ArmChair-225/trial_T20190908_104554_100496/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_182813_945109/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-225/trial_T20190907_143028_102387/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a credit card by the light of a tall lamp. After examining the credit card, gather up the keys and get them into the same place. Once the keys are gathered, move the pillow.",
+                "compose 2":"Gather up the keys and get them into the same place. Simultaneously, place a small box on top of a chair in the corner of the room. After completing these tasks, examine a credit card by the light of a tall lamp.",
+                "compose 3":"Place a small box on top of a chair in the corner of the room in any order. Once the box is placed and keys are gathered, examine a credit card by the light of a tall lamp. Finally, move the pillow."
+            }
+        },
+        {
+            "task_list":[
+                "turn on a lamp while holding a laptop",
+                "place a small box on top of a chair in the corner of the room",
+                "Examine a set of keys by the light of a tall lamp.",
+                "Examine a credit card by the light of a tall lamp."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190906_213153_347093/traj_data.json",
+                    "train/pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_182813_945109/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-225/trial_T20190909_124956_238640/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-225/trial_T20190909_103849_934231/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on a lamp while holding a laptop at any time. Simultaneously, place a small box on top of a chair in the corner of the room. After completing these tasks, examine a set of keys by the light of a tall lamp.",
+                "compose 2":"Examine a credit card by the light of a tall lamp at any time. Simultaneously, place a small box on top of a chair in the corner of the room. After examining the credit card, turn on a lamp while holding a laptop.",
+                "compose 3":"Place a small box on top of a chair in the corner of the room at any time. Simultaneously, turn on a lamp while holding a laptop. After placing the box, examine a set of keys by the light of a tall lamp."
+            }
         }
     ],
     "tasks_5":[],

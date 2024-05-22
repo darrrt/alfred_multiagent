@@ -14,13 +14,6 @@ root_path_len=len(root_path)
 with open(os.path.join(root_path,'../../scene_dict.json'),'r') as f :
     scene_dict=json.load(f)
 
-def check_task(task_instruction):
-    task_instruction=task_instruction.lower()
-    if "two" in task_instruction:
-        return False
-    if "another" in task_instruction:
-        return False
-    return True
 
 max_tasks_per_env=5
 max_tasks_composed=10

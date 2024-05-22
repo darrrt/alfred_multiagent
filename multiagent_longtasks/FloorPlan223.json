@@ -22,9 +22,9 @@
                 "Carry a brown item while turning on the lamp"
             ],
             "relative_objects":[
+                "RemoteControl",
                 "Candle",
-                "Vase",
-                "RemoteControl"
+                "Vase"
             ]
         },
         "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json":{
@@ -57,14 +57,6 @@
             "relative_objects":[
                 "Candle",
                 "Plate"
-            ]
-        },
-        "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174359_931960/traj_data.json":{
-            "tasks":[
-                "To move 2 sculptures from the kitchen table to the living room table."
-            ],
-            "relative_objects":[
-                "Statue"
             ]
         },
         "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json":{
@@ -102,8 +94,8 @@
                 "turn on floor lamp while holding credit card"
             ],
             "relative_objects":[
-                "CreditCard",
-                "FloorLamp"
+                "FloorLamp",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json":{
@@ -142,36 +134,6 @@
     "tasks_1":[
         {
             "task_list":[
-                "Look at a credit card under a lit tall lamp."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "examine a plate with the lamp"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a plate and candle stick to the shelf."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Put a statue and a trophy on the coffee table."
             ],
             "orign":[
@@ -182,11 +144,41 @@
         },
         {
             "task_list":[
+                "Examine a candle under a tall lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a candle under a tall lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
                 "Place a remote control on a chair"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Examine a candle under a tall lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json"
                 ]
             ]
         }
@@ -194,291 +186,409 @@
     "tasks_2":[
         {
             "task_list":[
-                "Grab the keys and turn the lamp on.",
-                "Move a plate and candle stick to a shelf."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_003209_935774/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "examine a plate with the lamp",
-                "Put the remote on the arm chair"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a remote control on a chair",
-                "Move a plate and candle stick to a shelf."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_003209_935774/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a plate and candle stick to the shelf.",
-                "To move 2 sculptures from the kitchen table to the living room table."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174359_931960/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Move a plate and candle stick to a shelf.",
-                "To move 2 sculptures from the kitchen table to the living room table."
+                "pick up the keys on the table and view them in the lamp light"
             ],
             "orign":[
                 [
                     "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_003209_935774/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174359_931960/traj_data.json"
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys on the table and view them in the lamp light. Simultaneously, move a plate and candle stick to a shelf.",
+                "compose 2":"Move a plate and candle stick to a shelf at any time. Afterward, pick up the keys on the table and view them in the lamp light.",
+                "compose 3":"Pick up the keys on the table and view them in the lamp light. Once done, move a plate and candle stick to a shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Put a statue and a trophy on the coffee table.",
+                "Grab the keys and turn the lamp on."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a statue and a trophy on the coffee table. Grab the keys and turn the lamp on.",
+                "compose 2":"Grab the keys and turn the lamp on. Put a statue and a trophy on the coffee table.",
+                "compose 3":"Put a statue and a trophy on the coffee table. Grab the keys and turn the lamp on."
+            }
+        },
+        {
+            "task_list":[
+                "Examine a candle under a tall lamp",
+                "Move a remote control to a chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a candle under a tall lamp at any time. Simultaneously, move a remote control to a chair.",
+                "compose 2":"Move a remote control to a chair. After moving the remote control, examine a candle under a tall lamp.",
+                "compose 3":"Examine a candle under a tall lamp at any time; afterwards, move a remote control to a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Grab the keys and turn the lamp on.",
+                "examine a plate with the lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the keys and turn the lamp on. Once the lamp is on, examine a plate with the lamp.",
+                "compose 2":"Examine a plate with the lamp. After examining, grab the keys and turn the lamp on.",
+                "compose 3":"Grab the keys and turn the lamp on. Simultaneously, examine a plate with the lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Move a plate and candle stick to the shelf.",
+                "Look at a credit card under a lit tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a plate and candle stick to the shelf at any time. Look at a credit card under a lit tall lamp simultaneously.",
+                "compose 2":"Look at a credit card under a lit tall lamp at any time. Move a plate and candle stick to the shelf simultaneously.",
+                "compose 3":"Look at a credit card under a lit tall lamp after moving a plate and candle stick to the shelf."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "pick up the keys on the table and view them in the lamp light",
-                "To move 2 sculptures from the kitchen table to the living room table.",
-                "Turn on the lamp"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174359_931960/traj_data.json",
-                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061753_998965/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "examine a plate with the lamp",
-                "pick up the keys on the table and view them in the lamp light",
-                "Place a remote control on a chair"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Grab the keys and turn the lamp on.",
                 "Move a plate and candle stick to the shelf.",
+                "Grab the keys and turn the lamp on.",
                 "Move a remote control to a chair."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
                     "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the keys and turn the lamp on at any time. Simultaneously, move a plate and candle stick to the shelf. After turning on the lamp, move a remote control to a chair.",
+                "compose 2":"Move a plate and candle stick to the shelf at any time. Simultaneously, move a remote control to a chair. After moving the plate and candle stick, grab the keys and turn the lamp on.",
+                "compose 3":"Grab the keys and turn the lamp on at any time. Simultaneously, move a remote control to a chair. After turning on the lamp and moving the remote control, move a plate and candle stick to the shelf."
+            }
         },
         {
             "task_list":[
-                "pick up the keys on the table and view them in the lamp light",
-                "Turn on the lamp",
-                "Look at a credit card under a lit tall lamp."
+                "Place a remote control on a chair",
+                "Look at a credit card under a lit tall lamp.",
+                "pick up the keys on the table and view them in the lamp light"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json",
-                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061753_998965/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json"
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Look at a credit card under a lit tall lamp. At any time, place a remote control on a chair. After placing the remote control, pick up the keys on the table and view them in the lamp light.",
+                "compose 2":"Place a remote control on a chair. At any time, pick up the keys on the table and view them in the lamp light. After viewing the keys, look at a credit card under a lit tall lamp.",
+                "compose 3":"Pick up the keys on the table and view them in the lamp light. At any time, look at a credit card under a lit tall lamp. After viewing the credit card, place a remote control on a chair."
+            }
         },
         {
             "task_list":[
-                "Move a plate and candle stick to the shelf.",
+                "Put the remote on the arm chair",
+                "Look at a credit card under a lit tall lamp.",
+                "Grab the keys and turn the lamp on."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remote on the arm chair at any time. Look at a credit card under a lit tall lamp. After looking at the credit card, grab the keys and turn the lamp on.",
+                "compose 2":"Put the remote on the arm chair at any time. Grab the keys and turn the lamp on. After turning on the lamp, look at a credit card under a lit tall lamp.",
+                "compose 3":"Look at a credit card under a lit tall lamp at any time. Put the remote on the arm chair. After putting the remote on the arm chair, grab the keys and turn the lamp on."
+            }
+        },
+        {
+            "task_list":[
                 "Move a remote control to a chair.",
-                "Look at a credit card under a lit tall lamp."
+                "Examine a candle under a tall lamp",
+                "Put a statue and a trophy on the coffee table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json",
                     "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json"
+                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json",
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a candle under a tall lamp at any time. Simultaneously, move a remote control to a chair. After examining the candle and moving the remote control, put a statue and a trophy on the coffee table.",
+                "compose 2":"Move a remote control to a chair at any time. Simultaneously, put a statue and a trophy on the coffee table. After moving the remote control and placing the statue and trophy, examine a candle under a tall lamp.",
+                "compose 3":"Put a statue and a trophy on the coffee table at any time. Simultaneously, examine a candle under a tall lamp. After placing the statue and trophy, move a remote control to a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Move a remote control to a chair.",
+                "Move a plate and candle stick to the shelf.",
+                "pick up the keys on the table and view them in the lamp light"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a plate and candle stick to the shelf at any time. Simultaneously, move a remote control to a chair. After moving the plate and candle stick, pick up the keys on the table and view them in the lamp light.",
+                "compose 2":"Pick up the keys on the table and view them in the lamp light at any time. Simultaneously, move a remote control to a chair. After viewing the keys, move a plate and candle stick to the shelf.",
+                "compose 3":"Move a remote control to a chair at any time. Simultaneously, pick up the keys on the table and view them in the lamp light. After moving the remote control, move a plate and candle stick to the shelf."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
+                "Put a statue and a trophy on the coffee table.",
+                "Move a plate and candle stick to the shelf.",
                 "pick up the keys on the table and view them in the lamp light",
-                "Put the remote on the arm chair",
-                "Examine a candle under a tall lamp",
-                "Put a statue and a trophy on the coffee table."
+                "Put the remote on the arm chair"
             ],
             "orign":[
                 [
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json",
                     "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json",
-                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json"
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Look at a credit card under a lit tall lamp.",
-                "Turn on the lamp",
-                "To move 2 sculptures from the kitchen table to the living room table.",
-                "examine a plate with the lamp"
             ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
-                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061753_998965/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174359_931960/traj_data.json",
-                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Turn on the lamp",
-                "To move 2 sculptures from the kitchen table to the living room table.",
-                "examine a plate with the lamp",
-                "pick up the keys on the table and view them in the lamp light"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061753_998965/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174359_931960/traj_data.json",
-                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a statue and a trophy on the coffee table at any time. Simultaneously, move a plate and candle stick to the shelf. After completing the previous tasks, pick up the keys on the table and view them in the lamp light. Finally, put the remote on the arm chair.",
+                "compose 2":"Put a statue and a trophy on the coffee table at any time. Simultaneously, pick up the keys on the table and view them in the lamp light. After completing the previous tasks, move a plate and candle stick to the shelf. Finally, put the remote on the arm chair.",
+                "compose 3":"Put a statue and a trophy on the coffee table at any time. Simultaneously, put the remote on the arm chair. After completing the previous tasks, move a plate and candle stick to the shelf. Finally, pick up the keys on the table and view them in the lamp light."
+            }
         },
         {
             "task_list":[
                 "Grab the keys and turn the lamp on.",
                 "examine a plate with the lamp",
-                "Examine a candle under a tall lamp",
-                "Place a remote control on a chair"
+                "Move a remote control to a chair.",
+                "Put a statue and a trophy on the coffee table."
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
                     "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
-                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593/traj_data.json"
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json",
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the keys and turn the lamp on. Examine a plate with the lamp. Move a remote control to a chair. Put a statue and a trophy on the coffee table.",
+                "compose 2":"Move a remote control to a chair. Put a statue and a trophy on the coffee table. Grab the keys and turn the lamp on. Examine a plate with the lamp.",
+                "compose 3":"Grab the keys and turn the lamp on. Move a remote control to a chair. Put a statue and a trophy on the coffee table. Examine a plate with the lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Move a remote control to a chair.",
+                "Look at a credit card under a lit tall lamp.",
+                "pick up the keys on the table and view them in the lamp light",
+                "Move a plate and candle stick to a shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_003209_935774/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Look at a credit card under a lit tall lamp. Afterward, pick up the keys on the table and view them in the lamp light. Simultaneously, move a remote control to a chair. Once done, move a plate and candle stick to a shelf.",
+                "compose 2":"Pick up the keys on the table and view them in the lamp light. Next, look at a credit card under a lit tall lamp. After that, move a remote control to a chair. Finally, move a plate and candle stick to a shelf.",
+                "compose 3":"Move a remote control to a chair. Then, pick up the keys on the table and view them in the lamp light. Simultaneously, look at a credit card under a lit tall lamp. Once completed, move a plate and candle stick to a shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Put a statue and a trophy on the coffee table.",
+                "Move a plate and candle stick to a shelf.",
+                "Look at a credit card under a lit tall lamp.",
+                "pick up the keys on the table and view them in the lamp light"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_003209_935774/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys on the table and view them in the lamp light. Simultaneously, move a plate and candle stick to a shelf. After viewing the keys, put a statue and a trophy on the coffee table.",
+                "compose 2":"Look at a credit card under a lit tall lamp at any time. Simultaneously, move a plate and candle stick to a shelf. After looking at the credit card, pick up the keys on the table and view them in the lamp light. Finally, put a statue and a trophy on the coffee table.",
+                "compose 3":"Put a statue and a trophy on the coffee table at any time. Simultaneously, look at a credit card under a lit tall lamp. After putting the statue and trophy, move a plate and candle stick to a shelf. Finally, pick up the keys on the table and view them in the lamp light."
+            }
         },
         {
             "task_list":[
                 "Put a statue and a trophy on the coffee table.",
                 "Grab the keys and turn the lamp on.",
-                "Move a remote control to a chair.",
-                "Move a plate and candle stick to the shelf."
+                "examine a plate with the lamp",
+                "Put the remote on the arm chair"
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
                     "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json"
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a statue and a trophy on the coffee table. Simultaneously, grab the keys and turn the lamp on. After turning the lamp on, examine a plate with the lamp. Finally, put the remote on the arm chair.",
+                "compose 2":"Grab the keys and turn the lamp on. After turning the lamp on, examine a plate with the lamp. Simultaneously, put a statue and a trophy on the coffee table and put the remote on the arm chair.",
+                "compose 3":"Put a statue and a trophy on the coffee table. Simultaneously, grab the keys and turn the lamp on. After turning the lamp on, put the remote on the arm chair. Finally, examine a plate with the lamp."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "Look at a credit card under a lit tall lamp.",
-                "Put a statue and a trophy on the coffee table.",
-                "Place a remote control on a chair",
+                "Grab the keys and turn the lamp on.",
                 "examine a plate with the lamp",
-                "pick up the keys on the table and view them in the lamp light"
+                "Put a statue and a trophy on the coffee table.",
+                "Put the remote on the arm chair",
+                "Examine a candle under a tall lamp"
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
                     "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json"
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json",
+                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the keys and turn the lamp on. After turning on the lamp, examine a plate with the lamp. Put a statue and a trophy on the coffee table. Simultaneously, put the remote on the arm chair. Finally, examine a candle under a tall lamp.",
+                "compose 2":"Put the statue and a trophy on the coffee table. Grab the keys and turn the lamp on. After turning on the lamp, examine a plate with the lamp. Then, put the remote on the arm chair. Finish by examining a candle under a tall lamp.",
+                "compose 3":"Examine a plate with the lamp. Grab the keys and turn the lamp on. Put a statue and a trophy on the coffee table. Put the remote on the arm chair. Finally, examine a candle under a tall lamp."
+            }
         },
         {
             "task_list":[
-                "Grab the keys and turn the lamp on.",
                 "Put a statue and a trophy on the coffee table.",
+                "pick up the keys on the table and view them in the lamp light",
+                "Move a plate and candle stick to the shelf.",
                 "Look at a credit card under a lit tall lamp.",
+                "Place a remote control on a chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the keys on the table and view them in the lamp light. After picking up the keys, place a remote control on a chair. Finally, move a plate and candle stick to the shelf.",
+                "compose 2":"Put a statue and a trophy on the coffee table. Simultaneously, pick up the keys on the table and view them in the lamp light. After placing the statue and trophy, move a plate and candle stick to the shelf.",
+                "compose 3":"Look at a credit card under a lit tall lamp. After looking at the credit card, pick up the keys on the table and view them in the lamp light. Finally, put a statue and a trophy on the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Put the remote on the arm chair",
+                "Put a statue and a trophy on the coffee table.",
+                "pick up the keys on the table and view them in the lamp light",
+                "examine a plate with the lamp",
+                "Look at a credit card under a lit tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json",
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json",
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remote on the arm chair at any time. Simultaneously, put a statue and a trophy on the coffee table. After placing the items on the coffee table, pick up the keys on the table and view them in the lamp light.",
+                "compose 2":"Pick up the keys on the table and view them in the lamp light at any time. Simultaneously, examine a plate with the lamp. After viewing the keys and examining the plate, look at a credit card under a lit tall lamp.",
+                "compose 3":"Examine a plate with the lamp at any time. Simultaneously, look at a credit card under a lit tall lamp. After examining the plate and looking at the credit card, put the remote on the arm chair."
+            }
+        },
+        {
+            "task_list":[
+                "examine a plate with the lamp",
+                "Grab the keys and turn the lamp on.",
                 "Move a remote control to a chair.",
+                "Put a statue and a trophy on the coffee table.",
+                "Look at a credit card under a lit tall lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json",
+                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Grab the keys and turn the lamp on. Subsequently, examine a plate with the lamp. Once done, move a remote control to a chair. Finally, put a statue and a trophy on the coffee table.",
+                "compose 2":"Put a statue and a trophy on the coffee table. Afterward, move a remote control to a chair. Meanwhile, examine a plate with the lamp. Finally, grab the keys and turn the lamp on.",
+                "compose 3":"Look at a credit card under a lit tall lamp. Simultaneously, put a statue and a trophy on the coffee table. Once completed, grab the keys and turn the lamp on. Subsequently, move a remote control to a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Put a statue and a trophy on the coffee table.",
+                "Grab the keys and turn the lamp on.",
+                "Place a remote control on a chair",
+                "Look at a credit card under a lit tall lamp.",
                 "Move a plate and candle stick to the shelf."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
                     "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593/traj_data.json",
                     "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163723_604442/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "pick up the keys on the table and view them in the lamp light",
-                "Look at a credit card under a lit tall lamp.",
-                "Move a plate and candle stick to the shelf.",
-                "To move 2 sculptures from the kitchen table to the living room table.",
-                "Put the remote on the arm chair"
             ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110058_262220/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-223/trial_T20190909_105959_767390/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Candle-Plate-DiningTable-223/trial_T20190909_063534_268824/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174359_931960/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a candle under a tall lamp",
-                "Put the remote on the arm chair",
-                "Grab the keys and turn the lamp on.",
-                "examine a plate with the lamp",
-                "Put a statue and a trophy on the coffee table."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Candle-None-FloorLamp-223/trial_T20190907_061740_610701/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163710_603458/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-223/trial_T20190909_110125_428516/traj_data.json",
-                    "train/look_at_obj_in_light-Plate-None-FloorLamp-223/trial_T20190908_115332_812519/traj_data.json",
-                    "train/pick_two_obj_and_place-Statue-None-CoffeeTable-223/trial_T20190907_174318_168269/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a statue and a trophy on the coffee table. Next, grab the keys and turn the lamp on. Finally, place a remote control on a chair.",
+                "compose 2":"Look at a credit card under a lit tall lamp. Afterward, move a plate and candle stick to the shelf. Finally, grab the keys and turn the lamp on.",
+                "compose 3":"Grab the keys and turn the lamp on. Next, place a remote control on a chair. Lastly, put a statue and a trophy on the coffee table."
+            }
         }
     ],
     "tasks_6":[],

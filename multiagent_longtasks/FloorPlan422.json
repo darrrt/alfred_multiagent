@@ -8,8 +8,8 @@
                 "put a washed bar of soap on top of the toilet tank"
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "SoapBar"
             ]
         },
@@ -20,8 +20,8 @@
                 "place a rinsed off bar of soap on the top of the toilet"
             ],
             "relative_objects":[
-                "ToiletPaper",
                 "HandTowel",
+                "ToiletPaper",
                 "SoapBar"
             ]
         },
@@ -32,8 +32,8 @@
                 "Wash the bar of soap for 3 seconds, put it on top of the toilet"
             ],
             "relative_objects":[
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061918_014825/traj_data.json":{
@@ -43,8 +43,8 @@
                 "Get the towel ready to use"
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061902_265206/traj_data.json":{
@@ -86,9 +86,9 @@
                 "Pick up the soap, get it wet, put it in the bath tub."
             ],
             "relative_objects":[
-                "Towel",
                 "SprayBottle",
-                "SoapBar"
+                "SoapBar",
+                "Towel"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_124952_732878/traj_data.json":{
@@ -118,8 +118,8 @@
                 "Move a plunger from near the toilet to a cabinet."
             ],
             "relative_objects":[
-                "Cabinet",
-                "Plunger"
+                "Plunger",
+                "Cabinet"
             ]
         },
         "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json":{
@@ -129,8 +129,8 @@
                 "Place a plunger in the bathroom cabinet"
             ],
             "relative_objects":[
-                "Cabinet",
-                "Plunger"
+                "Plunger",
+                "Cabinet"
             ]
         },
         "train/pick_two_obj_and_place-SoapBottle-None-Toilet-422/trial_T20190908_113826_070070/traj_data.json":{
@@ -138,17 +138,17 @@
                 "Place soap on top of toilet"
             ],
             "relative_objects":[
-                "TissueBox",
-                "HandTowel",
-                "Towel",
-                "Cloth",
-                "Plunger",
-                "SoapBar",
-                "ScrubBrush",
-                "SprayBottle",
-                "ToiletPaper",
                 "SoapBottle",
-                "Candle"
+                "SprayBottle",
+                "Towel",
+                "SoapBar",
+                "ToiletPaper",
+                "TissueBox",
+                "Plunger",
+                "Candle",
+                "ScrubBrush",
+                "HandTowel",
+                "Cloth"
             ]
         },
         "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json":{
@@ -164,8 +164,8 @@
                 "Put the candles on a shelf."
             ],
             "relative_objects":[
-                "Candle",
-                "Shelf"
+                "Shelf",
+                "Candle"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json":{
@@ -263,9 +263,9 @@
                 "place a toilet roll with a toilet roll holder on the shelf"
             ],
             "relative_objects":[
-                "ToiletPaper",
+                "SoapBottle",
                 "TissueBox",
-                "SoapBottle"
+                "ToiletPaper"
             ]
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json":{
@@ -286,8 +286,8 @@
                 "move the towel from the towel rack to the sink"
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "tests_seen/trial_T20190907_182537_311747/traj_data.json":{
@@ -297,8 +297,8 @@
                 "Put a plunger in a cabinet."
             ],
             "relative_objects":[
-                "Cabinet",
-                "Plunger"
+                "Plunger",
+                "Cabinet"
             ]
         },
         "tests_seen/trial_T20190907_182525_640577/traj_data.json":{
@@ -308,12 +308,32 @@
                 "Move a towel to the bath tub."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         }
     },
     "tasks_1":[
+        {
+            "task_list":[
+                "Put a towel in the tub."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a hand towel to the bath tub"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json"
+                ]
+            ]
+        },
         {
             "task_list":[
                 "Put candles on the shelf of a dresser."
@@ -326,41 +346,21 @@
         },
         {
             "task_list":[
-                "Put a towel in the sink."
+                "clean up spray bottles and put them on top of the toilet"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061902_265206/traj_data.json"
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "place a rinsed off bar of soap on top of the cabinet"
+                "Put the cleaned soap bar in the bathroom cabinet"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_124952_732878/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put soap in the sink with water to be placed on the toilet lid."
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-422/trial_T20190908_123209_346139/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a towel in the sink."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061902_265206/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170330_111958/traj_data.json"
                 ]
             ]
         }
@@ -368,371 +368,486 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put bars of soap in the tub.",
-                "Put the candles on a shelf."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-422/trial_T20190909_133234_282375/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the candles on a shelf.",
+                "Move a plunger to the cabinet",
                 "Put a towel in the tub."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
+                    "tests_seen/trial_T20190907_182537_311747/traj_data.json",
                     "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a plunger to the cabinet at any time. Simultaneously, put a towel in the tub.",
+                "compose 2":"Put a towel in the tub at any time. Simultaneously, move a plunger to the cabinet.",
+                "compose 3":"Put a towel in the tub at any time. After putting the towel, move a plunger to the cabinet."
+            }
         },
         {
             "task_list":[
-                "Put the plunger in the cabinet",
-                "Moving toilet paper rolls to a shelf"
+                "Put candles on the shelf of a dresser.",
+                "Put a clean bar of soap on top of a cabinet."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190909_222751_155362/traj_data.json"
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_125025_238872/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put candles on the shelf of a dresser at any time. Simultaneously, put a clean bar of soap on top of a cabinet.",
+                "compose 2":"Put a clean bar of soap on top of a cabinet. After placing the soap, put candles on the shelf of a dresser.",
+                "compose 3":"Put candles on the shelf of a dresser at any time. After placing the candles, put a clean bar of soap on top of a cabinet."
+            }
         },
         {
             "task_list":[
-                "place a rinsed off bar of soap on top of the cabinet",
-                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. "
+                "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
+                "Put the plunger in the cabinet"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_124952_732878/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json"
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json",
+                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard at any time. Simultaneously, put the plunger in the cabinet.",
+                "compose 2":"Put the plunger in the cabinet after placing empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
+                "compose 3":"Put the plunger in the cabinet at any time. After that, place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard."
+            }
         },
         {
             "task_list":[
-                "move spray bottle from counter to back of toilet",
-                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. "
+                "Moving toilet paper rolls to a shelf",
+                "Put a wet bar of soap in the cupboard."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json"
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190909_222751_155362/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170408_931882/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a wet bar of soap in the cupboard at any time. Simultaneously, moving toilet paper rolls to a shelf.",
+                "compose 2":"Moving toilet paper rolls to a shelf at any time. After moving the toilet paper rolls, put a wet bar of soap in the cupboard.",
+                "compose 3":"Put a wet bar of soap in the cupboard at any time. After putting the wet bar of soap, moving toilet paper rolls to a shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Move a plunger to the cabinet",
+                "Put a towel in the tub."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_182537_311747/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a plunger to the cabinet at any time. Put a towel in the tub simultaneously.",
+                "compose 2":"Put a towel in the tub at any time. Move a plunger to the cabinet simultaneously.",
+                "compose 3":"Put a towel in the tub at any time. After putting the towel, move a plunger to the cabinet."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. ",
-                "Move a plunger to the cabinet",
-                "Put the cleaned soap bar in the bathroom cabinet"
+                "place a rinsed off bar of soap on top of the cabinet",
+                "Move a plunger to the cabinet.",
+                "Place a towel inside a sink"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json",
-                    "tests_seen/trial_T20190907_182537_311747/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170330_111958/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_124952_732878/traj_data.json",
+                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182527_043349/traj_data.json",
+                    "valid_seen/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061934_041977/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a rinsed off bar of soap on top of the cabinet at any time. Simultaneously, move a plunger to the cabinet. After placing the soap and the plunger, place a towel inside a sink.",
+                "compose 2":"Move a plunger to the cabinet at any time. Simultaneously, place a rinsed off bar of soap on top of the cabinet. After moving the plunger and placing the soap, place a towel inside a sink.",
+                "compose 3":"Place a towel inside a sink at any time. Simultaneously, place a rinsed off bar of soap on top of the cabinet. After placing the towel and the soap, move a plunger to the cabinet."
+            }
         },
         {
             "task_list":[
-                "clean up spray bottles and put them on top of the toilet",
+                "Place a towel inside a sink",
+                "Put candles on the shelf of a dresser.",
+                "Put a washed soap in the cabinet left of the sink. "
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061934_041977/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190908_123321_281332/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put candles on the shelf of a dresser at any time. Simultaneously, place a towel inside a sink. After putting the candles and placing the towel, put a washed soap in the cabinet left of the sink.",
+                "compose 2":"Put a washed soap in the cabinet left of the sink at any time. Simultaneously, place a towel inside a sink. After placing the soap, put candles on the shelf of a dresser.",
+                "compose 3":"Place a towel inside a sink at any time. Simultaneously, put a washed soap in the cabinet left of the sink. After placing the towel and the soap, put candles on the shelf of a dresser."
+            }
+        },
+        {
+            "task_list":[
+                "move spray bottle from counter to back of toilet",
+                "Put a towel in a tub.",
+                "Put soap in the sink with water to be placed on the toilet lid."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json",
+                    "tests_seen/trial_T20190907_182525_640577/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-422/trial_T20190908_123209_346139/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move spray bottle from counter to back of toilet at any time. Put a towel in a tub. After putting the towel in the tub, put soap in the sink with water to be placed on the toilet lid.",
+                "compose 2":"Put a towel in a tub. Simultaneously, move spray bottle from counter to back of toilet.After putting the towel in the tub, put soap in the sink with water to be placed on the toilet lid.",
+                "compose 3":"Put soap in the sink with water to be placed on the toilet lid at any time. Put a towel in a tub. After putting the towel in the tub, move spray bottle from counter to back of toilet."
+            }
+        },
+        {
+            "task_list":[
                 "Put a wet bar of soap in the cupboard.",
-                "Put a towel in a tub."
+                "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
+                "move spray bottle from counter to back of toilet"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
                     "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170408_931882/traj_data.json",
-                    "tests_seen/trial_T20190907_182525_640577/traj_data.json"
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard. At any time, put a wet bar of soap in the cupboard. Once done, move spray bottle from counter to back of toilet.",
+                "compose 2":"Move spray bottle from counter to back of toilet. After that, put a wet bar of soap in the cupboard. Finally, place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
+                "compose 3":"Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard. At any time, move spray bottle from counter to back of toilet. Once both are done, put a wet bar of soap in the cupboard."
+            }
         },
         {
             "task_list":[
-                "clean up spray bottles and put them on top of the toilet",
-                "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
+                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. ",
+                "Put a towel in the sink.",
                 "place a rinsed off bar of soap on top of the cabinet"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061918_014825/traj_data.json",
                     "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_124952_732878/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a plunger to the cabinet.",
-                "Put a towel in the sink.",
-                "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182527_043349/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061918_014825/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the candles on a shelf.",
-                "Put the plunger in the cabinet",
-                "To reach, locate than wash an mild dry bar of soap."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
-                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-422/trial_T20190907_003505_832853/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place the toilet paper with the toilet paper roll on the shelf by the bathtub at any time. Simultaneously, put a towel in the sink. After placing the toilet paper and towel, place a rinsed off bar of soap on top of the cabinet.",
+                "compose 2":"Place the toilet paper with the toilet paper roll on the shelf by the bathtub at any time. Simultaneously, place a rinsed off bar of soap on top of the cabinet. After placing the toilet paper and soap, put a towel in the sink.",
+                "compose 3":"Put a towel in the sink at any time. Simultaneously, place a rinsed off bar of soap on top of the cabinet. After the towel and soap are in place, place the toilet paper with the toilet paper roll on the shelf by the bathtub."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Put a washed soap in the cabinet left of the sink. ",
+                "move spray bottle from counter to back of toilet",
+                "Move a plunger to the cabinet",
                 "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
-                "Put a towel in the tub.",
-                "Put candles on the shelf of a dresser."
+                "Place clean soap in the bath tub."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190908_123321_281332/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json",
+                    "tests_seen/trial_T20190907_182537_311747/traj_data.json",
                     "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-422/trial_T20190907_003537_360987/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put wet soap in the tub. ",
-                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. ",
-                "Put the candles on a shelf.",
-                "Put the plunger in the cabinet"
             ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-422/trial_T20190907_003444_606744/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
-                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move a plunger to the cabinet at any time. Simultaneously, place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard. After moving the plunger and placing the toilet paper rolls, move spray bottle from counter to back of toilet. Finally, place clean soap in the bath tub.",
+                "compose 2":"Place clean soap in the bath tub at any time. Simultaneously, move a plunger to the cabinet. After placing the soap and moving the plunger, move spray bottle from counter to back of toilet. Finally, place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
+                "compose 3":"Place clean soap in the bath tub at any time. Simultaneously, place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard. After placing the soap and toilet paper rolls, move spray bottle from counter to back of toilet. Finally, move a plunger to the cabinet."
+            }
         },
         {
             "task_list":[
-                "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
-                "clean up spray bottles and put them on top of the toilet",
+                "Put a clean bar of soap on top of a cabinet.",
                 "Put a towel in the sink.",
-                "Put a wet bar of soap in the cupboard."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json",
-                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061918_014825/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170408_931882/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a towel in the sink.",
-                "Put wet soap in the tub. ",
-                "Move a plunger to the cabinet.",
-                "Put candles on the shelf of a dresser."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061902_265206/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-422/trial_T20190907_003444_606744/traj_data.json",
-                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182527_043349/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "clean up spray bottles and put them on top of the toilet",
-                "Put candles on the shelf of a dresser.",
-                "Move a hand towel to the bath tub",
-                "Put wet soap in the tub. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-422/trial_T20190907_003444_606744/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_5":[
-        {
-            "task_list":[
-                "Move a hand towel to the bath tub",
-                "Put wet soap in the tub. ",
-                "Put candles on the shelf of a dresser.",
-                "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
-                "Move a plunger to the cabinet"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-422/trial_T20190907_003444_606744/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json",
-                    "tests_seen/trial_T20190907_182537_311747/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put soap in the sink with water to be placed on the toilet lid.",
-                "Put candles on the shelf of a dresser.",
-                "Move a hand towel to the bath tub",
-                "Put the plunger in the cabinet",
-                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. "
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-422/trial_T20190908_123209_346139/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json",
-                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a towel in the sink.",
-                "Put soap in the sink with water to be placed on the toilet lid.",
-                "Put the plunger in the cabinet",
                 "clean up spray bottles and put them on top of the toilet",
                 "Put the candles on a shelf."
             ],
             "orign":[
                 [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_125025_238872/traj_data.json",
                     "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061902_265206/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-422/trial_T20190908_123209_346139/traj_data.json",
-                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json",
                     "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
                     "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean bar of soap on top of a cabinet at any time. Simultaneously, put the candles on a shelf. After placing the soap and candles, clean up spray bottles and put them on top of the toilet. Finally, put a towel in the sink.",
+                "compose 2":"Put a clean bar of soap on top of a cabinet at any time. After that, clean up spray bottles and put them on top of the toilet. Simultaneously, put the candles on a shelf. Finally, put a towel in the sink.",
+                "compose 3":"Put a clean bar of soap on top of a cabinet at any time. Simultaneously, put a towel in the sink. After placing the soap, clean up spray bottles and put them on top of the toilet. Finally, put the candles on a shelf."
+            }
         },
         {
             "task_list":[
-                "Place a towel inside a sink",
-                "Moving toilet paper rolls to a shelf",
+                "clean up spray bottles and put them on top of the toilet",
+                "Put the plunger in the cabinet",
+                "Put the candles on a shelf.",
+                "Moving toilet paper rolls to a shelf"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
+                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190909_222751_155362/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the plunger in the cabinet. Simultaneously, clean up spray bottles and put them on top of the toilet. After putting the plunger and organizing the spray bottles, put the candles on a shelf.",
+                "compose 2":"Put the plunger in the cabinet. Simultaneously, moving toilet paper rolls to a shelf. After putting the plunger and relocating the toilet paper rolls, put the candles on a shelf.",
+                "compose 3":"Moving toilet paper rolls to a shelf. Simultaneously, clean up spray bottles and put them on top of the toilet. After relocating the toilet paper rolls and organizing the spray bottles, put the candles on a shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Put a towel in the sink.",
+                "Put a clean bar of soap on top of a cabinet.",
                 "Move a plunger to the cabinet.",
-                "Put candles on the shelf of a dresser.",
+                "Put the candles on a shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061918_014825/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_125025_238872/traj_data.json",
+                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182527_043349/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a plunger to the cabinet. Put a clean bar of soap on top of a cabinet. Put a towel in the sink. Put the candles on a shelf.",
+                "compose 2":"Put a clean bar of soap on top of a cabinet. Put a towel in the sink. Move a plunger to the cabinet. Put the candles on a shelf.",
+                "compose 3":"Put the candles on a shelf. Move a plunger to the cabinet. Put a clean bar of soap on top of a cabinet. Put a towel in the sink."
+            }
+        },
+        {
+            "task_list":[
+                "Move a plunger to the cabinet",
+                "clean up spray bottles and put them on top of the toilet",
+                "Move a hand towel to the bath tub",
                 "Put the cleaned soap bar in the bathroom cabinet"
             ],
             "orign":[
                 [
-                    "valid_seen/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061934_041977/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190909_222751_155362/traj_data.json",
-                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182527_043349/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json",
+                    "tests_seen/trial_T20190907_182537_311747/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json",
                     "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170330_111958/traj_data.json"
                 ]
-            ]
-        },
+            ],
+            "finetuned":{
+                "compose 1":"Clean up spray bottles and put them on top of the toilet. After cleaning the spray bottles, move a hand towel to the bathtub. Once the hand towel is in place, put the cleaned soap bar in the bathroom cabinet. Lastly, move a plunger to the cabinet.",
+                "compose 2":"Put the cleaned soap bar in the bathroom cabinet. Simultaneously, move a hand towel to the bathtub. After that, clean up spray bottles and put them on top of the toilet. Finally, move a plunger to the cabinet.",
+                "compose 3":"Move a plunger to the cabinet. After that, put the cleaned soap bar in the bathroom cabinet. Next, clean up spray bottles and put them on top of the toilet. Finally, move a hand towel to the bathtub."
+            }
+        }
+    ],
+    "tasks_5":[
         {
             "task_list":[
-                "Put bars of soap in the tub.",
-                "Put a towel in the sink.",
-                "move spray bottle from counter to back of toilet",
+                "place a rinsed off bar of soap on top of the cabinet",
+                "Move a hand towel to the bath tub",
                 "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
+                "clean up spray bottles and put them on top of the toilet",
                 "Put the plunger in the cabinet"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-422/trial_T20190909_133234_282375/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061918_014825/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_124952_732878/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json",
                     "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
                     "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a rinsed off bar of soap on top of the cabinet at any time. Simultaneously, Move a hand towel to the bath tub. After completing these tasks, put the plunger in the cabinet. Finally, clean up spray bottles and put them on top of the toilet.",
+                "compose 2":"Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard at any time. Simultaneously, move a hand towel to the bath tub. After doing so, put the plunger in the cabinet. Finally, clean up spray bottles and put them on top of the toilet.",
+                "compose 3":"Move a hand towel to the bath tub at any time. Following this, place a rinsed off bar of soap on top of the cabinet. After completing these tasks, put the plunger in the cabinet. Finally, clean up spray bottles and put them on top of the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "Move a plunger to the cabinet.",
+                "Put candles on the shelf of a dresser.",
+                "Put a towel in the tub.",
+                "Put a wet bar of soap in the cupboard.",
+                "clean up spray bottles and put them on top of the toilet"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182527_043349/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170408_931882/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a plunger to the cabinet at any time. Simultaneously, put candles on the shelf of a dresser. After moving the plunger and placing the candles, put a towel in the tub and put a wet bar of soap in the cupboard. Finally, clean up spray bottles and put them on top of the toilet.",
+                "compose 2":"Put candles on the shelf of a dresser first. Next, put a towel in the tub and put a wet bar of soap in the cupboard. Move a plunger to the cabinet after completing the previous tasks. Finally, clean up spray bottles and put them on top of the toilet.",
+                "compose 3":"Clean up spray bottles and put them on top of the toilet first. Put a towel in the tub and put a wet bar of soap in the cupboard simultaneously. Next, move a plunger to the cabinet and put candles on the shelf of a dresser."
+            }
+        },
+        {
+            "task_list":[
+                "Put a wet bar of soap in the cupboard.",
+                "clean up spray bottles and put them on top of the toilet",
+                "Put the plunger in the cabinet",
+                "Moving toilet paper rolls to a shelf",
+                "Put a towel in the tub."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170408_931882/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
+                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190909_222751_155362/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a wet bar of soap in the cupboard. After putting the soap, clean up spray bottles and put them on top of the toilet. Finally, put the plunger in the cabinet.",
+                "compose 2":"Moving toilet paper rolls to a shelf can be done at any time. Put a wet bar of soap in the cupboard. After placing the soap, put a towel in the tub.",
+                "compose 3":"Put a wet bar of soap in the cupboard. Moving toilet paper rolls to a shelf can be done at any time. After putting the soap, clean up spray bottles and put them on top of the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "Put the candles on a shelf.",
+                "Put a towel in a tub.",
+                "Move a plunger to the cabinet",
+                "place a rinsed off bar of soap on top of the cabinet",
+                "move spray bottle from counter to back of toilet"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
+                    "tests_seen/trial_T20190907_182525_640577/traj_data.json",
+                    "tests_seen/trial_T20190907_182537_311747/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_124952_732878/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a towel in a tub at any time. Simultaneously, move spray bottle from counter to back of toilet. After putting the towel in the tub, place a rinsed off bar of soap on top of the cabinet. Finally, put the candles on a shelf and move a plunger to the cabinet.",
+                "compose 2":"Put a towel in a tub at any time. Simultaneously, move spray bottle from counter to back of toilet. After moving the spray bottle, place a rinsed off bar of soap on top of the cabinet. Finally, put the candles on a shelf and move a plunger to the cabinet.",
+                "compose 3":"Put a towel in a tub at any time. Simultaneously, move spray bottle from counter to back of toilet. After placing the towel in the tub, put the candles on a shelf. Then, move a plunger to the cabinet. Finally, place a rinsed off bar of soap on top of the cabinet."
+            }
+        },
+        {
+            "task_list":[
+                "clean up spray bottles and put them on top of the toilet",
+                "Put the candles on a shelf.",
+                "Place a clean bar of soap on the toilet.",
+                "Put a towel in the sink.",
+                "Move a plunger to the cabinet"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-422/trial_T20190908_204626_280695/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061902_265206/traj_data.json",
+                    "tests_seen/trial_T20190907_182537_311747/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the candles on a shelf at any time. Simultaneously, place a clean bar of soap on the toilet. After placing the candles and the soap, clean up spray bottles and put them on top of the toilet. Subsequently, put a towel in the sink. Finally, move a plunger to the cabinet.",
+                "compose 2":"Put the candles on a shelf at any time. Simultaneously, place a clean bar of soap on the toilet. After placing the candles and the soap, move a plunger to the cabinet. Subsequently, clean up spray bottles and put them on top of the toilet. Finally, put a towel in the sink.",
+                "compose 3":"Place a clean bar of soap on the toilet at any time. Simultaneously, move a plunger to the cabinet. After placing the soap and the plunger, put the candles on a shelf. Subsequently, clean up spray bottles and put them on top of the toilet. Finally, put a towel in the sink."
+            }
         }
     ],
     "tasks_6":[
         {
             "task_list":[
-                "Put a towel in the sink.",
-                "Move a plunger to the cabinet.",
-                "Put the candles on a shelf.",
+                "Move a hand towel to the bath tub",
+                "Put a wet bar of soap in the cupboard.",
+                "Put the plunger in the cabinet",
                 "move spray bottle from counter to back of toilet",
-                "Put soap in the sink with water to be placed on the toilet lid.",
-                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. "
+                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. ",
+                "Put the candles on a shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170408_931882/traj_data.json",
+                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a hand towel to the bath tub at any time. Put a wet bar of soap in the cupboard. Place the toilet paper with the toilet paper roll on the shelf by the bathtub. After placing the soap, put the plunger in the cabinet. Finally, move the spray bottle from the counter to the back of the toilet. Put the candles on a shelf.",
+                "compose 2":"Put a wet bar of soap in the cupboard at any time. Move a hand towel to the bath tub. Put the plunger in the cabinet. Place the toilet paper with the toilet paper roll on the shelf by the bathtub. Then, put the candles on a shelf. After placing the soap, move the spray bottle from the counter to the back of the toilet.",
+                "compose 3":"Place the toilet paper with the toilet paper roll on the shelf by the bathtub at any time. Put the plunger in the cabinet. Put a wet bar of soap in the cupboard. Move a hand towel to the bath tub. Move the spray bottle from the counter to the back of the toilet. Lastly, put the candles on a shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Move a hand towel to the bath tub",
+                "Put a clean bar of soap on top of a cabinet.",
+                "Place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard.",
+                "Put the plunger in the cabinet",
+                "Put a towel in the tub.",
+                "Put the candles on a shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182556_512819/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-422/trial_T20190908_125025_238872/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_065858_170962/traj_data.json",
+                    "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182547_633737/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a towel in the tub at any time. Simultaneously, move a hand towel to the bath tub and place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard. After placing the towels and toilet paper rolls, put the plunger in the cabinet. Finally, put a clean bar of soap on top of a cabinet and put the candles on a shelf.",
+                "compose 2":"Put a clean bar of soap on top of a cabinet at any time. Simultaneously, put a towel in the tub and put the plunger in the cabinet. After completing these tasks, move a hand towel to the bath tub and place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard. Finally, put the candles on a shelf.",
+                "compose 3":"Put a towel in the tub at any time. Simultaneously, place empty toilet paper roll and full toilet paper roll on bottom open shelf of cupboard and put the plunger in the cabinet. After completing these tasks, move a hand towel to the bath tub. Finally, put a clean bar of soap on top of a cabinet and put the candles on a shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Put a towel in the sink.",
+                "Put candles on the shelf of a dresser.",
+                "Place clean soap in the bath tub.",
+                "Move a plunger to the cabinet.",
+                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. ",
+                "clean up spray bottles and put them on top of the toilet"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-HandTowel-None-SinkBasin-422/trial_T20190907_061902_265206/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190910_133316_548729/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-422/trial_T20190907_003537_360987/traj_data.json",
                     "train/pick_and_place_simple-Plunger-None-Cabinet-422/trial_T20190907_182527_043349/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-422/trial_T20190908_123209_346139/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json"
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-Toilet-422/trial_T20190908_164720_891084/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Moving toilet paper rolls to a shelf",
-                "Put a towel in the tub.",
-                "move spray bottle from counter to back of toilet",
-                "Put the candles on a shelf.",
-                "Put a wet bar of soap in the cupboard.",
-                "Move a plunger to the cabinet"
             ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190909_222751_155362/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170408_931882/traj_data.json",
-                    "tests_seen/trial_T20190907_182537_311747/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the candles on a shelf.",
-                "move spray bottle from counter to back of toilet",
-                "Move a plunger to the cabinet",
-                "Put a wet bar of soap in the cupboard.",
-                "Put a towel in the tub.",
-                "Place the toilet paper with the toilet paper roll on the shelf by the bathtub. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Candle-None-Shelf-422/trial_T20190906_192421_941599/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-422/trial_T20190909_124852_071149/traj_data.json",
-                    "tests_seen/trial_T20190907_182537_311747/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-422/trial_T20190909_170408_931882/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-422/trial_T20190907_182541_442582/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-422/trial_T20190908_070044_078336/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a towel in the sink at any time. Simultaneously, put candles on the shelf of a dresser. Once completed, place clean soap in the bath tub.",
+                "compose 2":"Put a towel in the sink at any time. Simultaneously, move a plunger to the cabinet. Once completed, place the toilet paper with the toilet paper roll on the shelf by the bathtub. After that, clean up spray bottles and put them on top of the toilet.",
+                "compose 3":"Put candles on the shelf of a dresser at any time. Simultaneously, place clean soap in the bath tub. Once completed, move a plunger to the cabinet. After that, put the toilet paper with the toilet paper roll on the shelf by the bathtub."
+            }
         }
     ],
     "tasks_7":[],

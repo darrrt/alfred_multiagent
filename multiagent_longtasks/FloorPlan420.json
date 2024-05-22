@@ -8,8 +8,8 @@
                 "To move a spray bottle from the trash can to the back of the toilet."
             ],
             "relative_objects":[
-                "Toilet",
-                "SprayBottle"
+                "SprayBottle",
+                "Toilet"
             ]
         },
         "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113842_397571/traj_data.json":{
@@ -94,8 +94,8 @@
                 "Move a towel to the top of a toilet"
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120247_920758/traj_data.json":{
@@ -105,8 +105,8 @@
                 "Put a towel on the toilet tank lid. "
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -117,10 +117,10 @@
                 "Put a dispenser on the end table."
             ],
             "relative_objects":[
-                "ScrubBrush",
                 "Towel",
-                "SprayBottle",
-                "SoapBottle"
+                "ScrubBrush",
+                "SoapBottle",
+                "SprayBottle"
             ]
         },
         "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063550_595984/traj_data.json":{
@@ -130,21 +130,12 @@
                 "Put a soap bottle on the small black table. "
             ],
             "relative_objects":[
-                "SoapBar",
-                "SoapBottle"
-            ]
-        },
-        "train/pick_two_obj_and_place-SoapBar-None-GarbageCan-420/trial_T20190908_143343_213116/traj_data.json":{
-            "tasks":[
-                "Put 2 pink soaps in the green trash can next to the toilet. "
-            ],
-            "relative_objects":[
+                "SoapBottle",
                 "SoapBar"
             ]
         },
         "train/pick_two_obj_and_place-SoapBar-None-GarbageCan-420/trial_T20190908_143325_889991/traj_data.json":{
             "tasks":[
-                "put 2 soap bars inside the green trash can",
                 "Place soap into a trash bin. "
             ],
             "relative_objects":[
@@ -167,9 +158,9 @@
                 "To move a roll of toilet paper plus an empty roll to the black table."
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "HandTowel",
                 "Towel",
+                "HandTowel",
+                "ToiletPaper",
                 "Cloth"
             ]
         },
@@ -207,8 +198,8 @@
                 "Put a towel in the green bin. "
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json":{
@@ -218,8 +209,8 @@
                 "Move the towel to the green bin."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-420/trial_T20190908_043134_210616/traj_data.json":{
@@ -241,8 +232,8 @@
             ],
             "relative_objects":[
                 "Towel",
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json":{
@@ -362,21 +353,41 @@
     "tasks_1":[
         {
             "task_list":[
-                "Put away clean rags"
+                "Put a clean bar of soap on the toilet."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-420/trial_T20190908_043134_210616/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a towel in the garbage."
+                "Place an empty toilet paper roll on a toilet paper holder."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153250_839048/traj_data.json"
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155604_414982/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the candle to a different location on the table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025706_872961/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Place a spray bottle on a toilet tank."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113816_097874/traj_data.json"
                 ]
             ]
         },
@@ -389,262 +400,345 @@
                     "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201041_787997/traj_data.json"
                 ]
             ]
-        },
-        {
-            "task_list":[
-                "Put away clean rags"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a candle to the black table. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
-                ]
-            ]
         }
     ],
     "tasks_2":[
         {
             "task_list":[
-                "Place soap in the sink.",
-                "Move a candle to the black table. "
+                "Place the empty toilet paper tube on the toilet paper holder.",
+                "Putting a bottle of lotion on the black table"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182100_214449/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155546_250341/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063550_595984/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the empty toilet paper tube on the toilet paper holder at any time. Simultaneously, put a bottle of lotion on the black table.",
+                "compose 2":"Put a bottle of lotion on the black table first, then place the empty toilet paper tube on the toilet paper holder.",
+                "compose 3":"Place the empty toilet paper tube on the toilet paper holder first, then put a bottle of lotion on the black table."
+            }
         },
         {
             "task_list":[
-                "Place a cleaned soap bar into a rubbish bin.",
-                "Move a purple rag to the black table."
+                "Put a towel on the back of the toilet. ",
+                "move spray bottle from table to back of toilet"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201001_681922/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-SideTable-420/trial_T20190909_091108_122104/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120247_920758/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113842_397571/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a towel on the back of the toilet at any time. After putting the towel, move the spray bottle from the table to the back of the toilet.",
+                "compose 2":"Move the spray bottle from the table to the back of the toilet at any time. After moving the spray bottle, put a towel on the back of the toilet.",
+                "compose 3":"Put a towel on the back of the toilet at any time. Simultaneously, move the spray bottle from the table to the back of the toilet."
+            }
         },
         {
             "task_list":[
-                "Put a clean bar of soap on the toilet.",
-                "Put the purple cloths on the small table"
+                "Place a spray bottle on the back of a toilet",
+                "put empty and full toilet paper rolls on table"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-420/trial_T20190908_043134_210616/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json"
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113828_525912/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a spray bottle on the back of a toilet at any time. Simultaneously, put empty and full toilet paper rolls on table.",
+                "compose 2":"Put empty and full toilet paper rolls on table at any time. Simultaneously, place a spray bottle on the back of a toilet.",
+                "compose 3":"Place a spray bottle on the back of a toilet at any time. After placing the spray bottle, put empty and full toilet paper rolls on table."
+            }
         },
         {
             "task_list":[
                 "Put a clean bar of soap on the toilet tank.",
-                "Move a candle to the black table. "
+                "Place a towel on a toilet tank."
             ],
             "orign":[
                 [
                     "tests_seen/trial_T20190908_043026_789897/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120224_333615/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean bar of soap on the toilet tank at any time. Simultaneously, place a towel on the toilet tank.",
+                "compose 2":"Place a towel on the toilet tank at any time. Simultaneously, put a clean bar of soap on the toilet tank.",
+                "compose 3":"Put a clean bar of soap on the toilet tank at any time. After placing the soap, place a towel on the toilet tank."
+            }
         },
         {
             "task_list":[
-                "Place an empty toilet paper roll on a toilet paper holder.",
-                "Put 2 pink soaps in the green trash can next to the toilet. "
+                "Put the purple cloths on the small table",
+                "Place soap in the sink."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155604_414982/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBar-None-GarbageCan-420/trial_T20190908_143343_213116/traj_data.json"
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182100_214449/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the purple cloths on the small table at any time. Simultaneously, place soap in the sink.",
+                "compose 2":"Place soap in the sink at any time. Simultaneously, put the purple cloths on the small table.",
+                "compose 3":"Put the purple cloths on the small table at any time. After placing the cloths, place soap in the sink."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
+                "Put a candle on a table.",
+                "Place soap into a trash bin. ",
+                "Place an empty roll and a paper roll on the table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-GarbageCan-420/trial_T20190908_143325_889991/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_114817_260394/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a candle on a table at any time. Simultaneously, place soap into a trash bin. After placing the candle and soap, place an empty roll and a paper roll on the table.",
+                "compose 2":"Put a candle on a table at any time. After placing the candle, place an empty roll and a paper roll on the table. Finally, place soap into a trash bin.",
+                "compose 3":"Place soap into a trash bin at any time. Simultaneously, put a candle on a table. After placing the soap and candle, place an empty roll and a paper roll on the table."
+            }
+        },
+        {
+            "task_list":[
                 "Throw away a rinsed bar of soap into a green wastebasket.",
-                "Put away clean rags",
-                "Move a candle to the black table. "
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place the empty toilet paper tube on the toilet paper holder.",
-                "Place soap in the sink.",
-                "get the hand towel from the towel rod and stand it up on the toilet."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155546_250341/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182159_811957/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120310_753481/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "take the hand towel and throw it away.",
-                "Putting a bottle of lotion on the black table",
+                "Move a candle to the black table. ",
                 "Place an empty toilet paper roll on a toilet paper holder."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063550_595984/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json",
                     "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155604_414982/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Throw away a rinsed bar of soap into a green wastebasket. Then, move a candle to the black table. Finally, place an empty toilet paper roll on a toilet paper holder.",
+                "compose 2":"Place an empty toilet paper roll on a toilet paper holder. Simultaneously, throw away a rinsed bar of soap into a green wastebasket. After completing these tasks, move a candle to the black table.",
+                "compose 3":"Place an empty toilet paper roll on a toilet paper holder. Then, throw away a rinsed bar of soap into a green wastebasket. Lastly, move a candle to the black table."
+            }
         },
         {
             "task_list":[
-                "move spray bottle from table to back of toilet",
-                "Place a towel on a toilet tank.",
-                "Put a clean bar of soap on the toilet tank."
+                "Put a bottle on a table.",
+                "Put the purple cloths on the small table",
+                "Place soap in the sink."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113842_397571/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120224_333615/traj_data.json",
-                    "tests_seen/trial_T20190908_043026_789897/traj_data.json"
+                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182159_811957/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a bottle on a table at any time. Simultaneously, put the purple cloths on the small table. Once these tasks are completed, place soap in the sink.",
+                "compose 2":"Put the purple cloths on the small table at any time. After placing the cloths, put a bottle on a table simultaneously. Finally, place soap in the sink.",
+                "compose 3":"Place soap in the sink at any time. Simultaneously, put the purple cloths on the small table. After completing these tasks, put a bottle on a table."
+            }
         },
         {
             "task_list":[
-                "Place a rag on a table.",
+                "Move a candle to the black table. ",
+                "Place an empty roll and a paper roll on the table",
+                "Throw away a rinsed bar of soap into a green wastebasket."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_114817_260394/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Throw away a rinsed bar of soap into a green wastebasket at any time. Simultaneously, move a candle to the black table. After throwing away the soap, place an empty roll and a paper roll on the table.",
+                "compose 2":"Move a candle to the black table at any time. Simultaneously, throw away a rinsed bar of soap into a green wastebasket. After moving the candle, place an empty roll and a paper roll on the table.",
+                "compose 3":"Move a candle to the black table at any time. Simultaneously, place an empty roll and a paper roll on the table. After placing the rolls, throw away a rinsed bar of soap into a green wastebasket."
+            }
+        },
+        {
+            "task_list":[
                 "Put a candle on a table.",
-                "Put a clean bar of soap on the toilet tank."
+                "Put away clean rags",
+                "Place a clean bar of soap into a small green trash can."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Cloth-None-SideTable-420/trial_T20190909_091135_148287/traj_data.json",
                     "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json",
-                    "tests_seen/trial_T20190908_043026_789897/traj_data.json"
+                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201041_787997/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a candle on a table at any time. Simultaneously, put away clean rags. Once done, place a clean bar of soap into a small green trash can.",
+                "compose 2":"Put away clean rags at any time. Simultaneously, place a clean bar of soap into a small green trash can. Once done, put a candle on a table.",
+                "compose 3":"Put a candle on a table at any time. Afterward, put away clean rags. Once done, place a clean bar of soap into a small green trash can."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Place the empty toilet paper tube on the toilet paper holder.",
-                "Put a bottle on a table.",
-                "Throw away a rinsed bar of soap into a green wastebasket.",
-                "Put the purple cloths on the small table"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155546_250341/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a clean bar of soap on the toilet tank.",
-                "Move toilet paper and empty roll to black table.",
-                "Move a purple rag to the black table.",
-                "Put a candle on a table."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190908_043026_789897/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193854_783741/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-SideTable-420/trial_T20190909_091108_122104/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "take the hand towel and throw it away.",
-                "Place an empty toilet paper roll on a toilet paper holder.",
-                "Place a clean bar of soap into a small green trash can.",
+                "Place a spray bottle on the back of a toilet",
+                "Put a towel on the back of the toilet. ",
+                "clean up soap and put them in the drawer",
                 "Move a candle to the black table. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155604_414982/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201041_787997/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113828_525912/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120247_920758/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-Drawer-420/trial_T20190908_124914_469354/traj_data.json",
                     "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a spray bottle on the back of a toilet at any time. Simultaneously, put a towel on the back of the toilet.After placing the spray bottle and towel, clean up soap and put them in the drawer. Once done, move a candle to the black table.",
+                "compose 2":"Put a towel on the back of the toilet at any time. Simultaneously, Place a spray bottle on the back of a toilet. After placing the towel and spray bottle, clean up soap and put them in the drawer. Once done, move a candle to the black table.",
+                "compose 3":"Clean up soap and put them in the drawer at any time. After cleaning up the soap, place a spray bottle on the back of a toilet and put a towel on the back of the toilet simultaneously. Once done, move a candle to the black table."
+            }
         },
         {
             "task_list":[
-                "Throw away a rinsed bar of soap into a green wastebasket.",
                 "Put the purple cloths on the small table",
-                "Put a bottle on a table.",
-                "put empty and full toilet paper rolls on table"
+                "Put a candle on a table.",
+                "Place a clean bar of soap into a small green trash can.",
+                "move spray bottle from table to back of toilet"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201023_015139/traj_data.json",
                     "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json"
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201041_787997/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113842_397571/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a candle on a table at any time. Simultaneously, place a clean bar of soap into a small green trash can. After placing the candle, put the purple cloths on the small table. Finally, move the spray bottle from the table to the back of the toilet.",
+                "compose 2":"Put the purple cloths on the small table at any time. Simultaneously, place a clean bar of soap into a small green trash can. After placing the cloths, move the spray bottle from the table to the back of the toilet. Finally, put a candle on a table.",
+                "compose 3":"Place a clean bar of soap into a small green trash can at any time. Simultaneously, put a candle on a table. After placing the soap, put the purple cloths on the small table. Finally, move the spray bottle from the table to the back of the toilet."
+            }
         },
         {
             "task_list":[
-                "Put a clean bar of soap on the toilet tank.",
-                "Put a towel on the back of the toilet. ",
+                "clean up soap and put them in the drawer",
+                "Put a towel in the garbage.",
                 "put empty and full toilet paper rolls on table",
                 "Place a spray bottle on the back of a toilet"
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190908_043026_789897/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-Toilet-420/trial_T20190908_120247_920758/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-Drawer-420/trial_T20190908_124914_469354/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153250_839048/traj_data.json",
                     "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json",
                     "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113828_525912/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a towel in the garbage at any time. Simultaneously, put empty and full toilet paper rolls on the table. After putting the towel and toilet paper rolls, clean up soap and put them in the drawer. Finally, place a spray bottle on the back of a toilet.",
+                "compose 2":"Clean up soap and put them in the drawer at any time. Simultaneously, put a towel in the garbage. After cleaning up the soap and putting the towel, place a spray bottle on the back of a toilet. Finally, put empty and full toilet paper rolls on the table.",
+                "compose 3":"Put empty and full toilet paper rolls on the table at any time. Simultaneously, place a spray bottle on the back of a toilet. After putting the toilet paper rolls and spray bottle, clean up soap and put them in the drawer. Finally, put a towel in the garbage."
+            }
+        },
+        {
+            "task_list":[
+                "Put a towel in the garbage.",
+                "Place the empty toilet paper tube on the toilet paper holder.",
+                "Place soap in the tub.",
+                "Place a spray bottle on the back of a toilet"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153250_839048/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155546_250341/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182137_274041/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113828_525912/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the empty toilet paper tube on the toilet paper holder first. Put a towel in the garbage. After placing the towel, place soap in the tub. Finally, place a spray bottle on the back of a toilet.",
+                "compose 2":"Place a spray bottle on the back of a toilet. Place the empty toilet paper tube on the toilet paper holder. Put a towel in the garbage. After placing the towel, place soap in the tub.",
+                "compose 3":"Place a spray bottle on the back of a toilet at any time. Simultaneously, put a towel in the garbage. After placing the towel, place the empty toilet paper tube on the toilet paper holder. Lastly, place soap in the tub."
+            }
+        },
+        {
+            "task_list":[
+                "Put a candle on a table.",
+                "Place a spray bottle on the back of a toilet",
+                "Place soap in the sink.",
+                "take the hand towel and throw it away."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113828_525912/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182159_811957/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a candle on a table at any time. Simultaneously, place soap in the sink. After placing the candle and soap, take the hand towel and throw it away.",
+                "compose 2":"Place soap in the sink at any time. Simultaneously, put a candle on a table. After placing the soap and candle, place a spray bottle on the back of a toilet. Finally, take the hand towel and throw it away.",
+                "compose 3":"Put a candle on a table at any time. Simultaneously, place a spray bottle on the back of a toilet. After placing the candle and spray bottle, place soap in the sink. Finally, take the hand towel and throw it away."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "put 2 soap bars inside the green trash can",
-                "put empty and full toilet paper rolls on table",
-                "Put a bottle on a table.",
-                "Put the purple cloths on the small table",
-                "Move a candle to the black table. "
+                "Place a spray bottle on the back of a toilet",
+                "Put a candle on a table.",
+                "Place a clean bar of soap into a small green trash can.",
+                "take the hand towel and throw it away.",
+                "Place the empty toilet paper tube on the toilet paper holder."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-SoapBar-None-GarbageCan-420/trial_T20190908_143325_889991/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-SideTable-420/trial_T20190908_063633_205693/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182136_372371/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json"
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113828_525912/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025655_142954/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201041_787997/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-420/trial_T20190908_155546_250341/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a clean bar of soap into a small green trash can. After placing the soap, put a candle on a table. Once the candle is placed, take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet.",
+                "compose 2":"Put a candle on a table. After placing the candle, place a clean bar of soap into a small green trash can. Take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet.",
+                "compose 3":"Place a clean bar of soap into a small green trash can. Put a candle on a table. Take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet."
+            }
+        },
+        {
+            "task_list":[
+                "take the hand towel and throw it away.",
+                "put empty and full toilet paper rolls on table",
+                "Place a spray bottle on the back of a toilet",
+                "Move a candle to the black table. ",
+                "Place soap in the sink."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-SideTable-420/trial_T20190909_193929_093570/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-420/trial_T20190909_113828_525912/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-SideTable-420/trial_T20190907_025635_534669/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-SinkBasin-420/trial_T20190908_182159_811957/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Take the hand towel and throw it away. Put empty and full toilet paper rolls on the table. Place soap in the sink. Move a candle to the black table. Place a spray bottle on the back of a toilet.",
+                "compose 2":"Move a candle to the black table. Place a spray bottle on the back of a toilet. Put empty and full toilet paper rolls on the table. Take the hand towel and throw it away. Place soap in the sink.",
+                "compose 3":"Take the hand towel and throw it away. Put empty and full toilet paper rolls on the table. Move a candle to the black table. Place soap in the sink. Place a spray bottle on the back of a toilet."
+            }
         }
     ],
     "tasks_6":[],

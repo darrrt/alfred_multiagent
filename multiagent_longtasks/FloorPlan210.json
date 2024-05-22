@@ -8,8 +8,8 @@
                 "place a carton with a key in it on the chair"
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014757_582805/traj_data.json":{
@@ -19,9 +19,9 @@
                 "Put a box with a watch on a arm chair."
             ],
             "relative_objects":[
+                "KeyChain",
                 "Watch",
-                "Box",
-                "KeyChain"
+                "Box"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_015056_840775/traj_data.json":{
@@ -31,9 +31,9 @@
                 "Put a box that has keys in it on the chair."
             ],
             "relative_objects":[
+                "KeyChain",
                 "Pillow",
-                "Box",
-                "KeyChain"
+                "Box"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json":{
@@ -84,8 +84,8 @@
                 "Move a laptop to the ottoman"
             ],
             "relative_objects":[
-                "Ottoman",
-                "Laptop"
+                "Laptop",
+                "Ottoman"
             ]
         },
         "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021456_923505/traj_data.json":{
@@ -95,8 +95,8 @@
                 "place a laptop on top of the footrest"
             ],
             "relative_objects":[
-                "Pillow",
-                "Laptop"
+                "Laptop",
+                "Pillow"
             ]
         },
         "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json":{
@@ -106,8 +106,8 @@
                 "Pick up the computer from the couch and place it on the chair."
             ],
             "relative_objects":[
-                "Pillow",
-                "Laptop"
+                "Laptop",
+                "Pillow"
             ]
         },
         "tests_seen/trial_T20190908_074451_643463/traj_data.json":{
@@ -125,51 +125,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "Put a laptop on an ottoman"
+                "Move keys and a box to a chair."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a newspaper on the ottoman."
+                "Pick up the credit card on the couch and turn on the light to see the credit card"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a laptop on an ottoman"
+                "Place a box with a set of keys from the dresser on the black sofa chair."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014757_582805/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move the laptop from the sofa to the ottoman"
+                "Put remote controls on a foot stool."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021456_923505/traj_data.json"
+                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a newspaper on the ottoman."
+                "Place a box with a set of keys from the dresser on the black sofa chair."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014757_582805/traj_data.json"
                 ]
             ]
         }
@@ -177,309 +177,409 @@
     "tasks_2":[
         {
             "task_list":[
-                "Place a box with a set of keys from the dresser on the black sofa chair.",
-                "Put remote controls on a foot stool."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014757_582805/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put remote controls on a foot stool.",
-                "Put a laptop on an ottoman"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a newspaper on the ottoman.",
-                "Move the laptop from the sofa to the ottoman"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021456_923505/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a newspaper on the ottoman.",
-                "Move the laptop from the sofa to the ottoman"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021456_923505/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a box with a set of keys from the dresser on the black sofa chair.",
+                "Put a laptop on an ottoman",
                 "Place a newspaper on the ottoman."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014757_582805/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
                     "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a newspaper on the ottoman at any time. Simultaneously, put a laptop on an ottoman.",
+                "compose 2":"Put a laptop on an ottoman at any time. Simultaneously, place a newspaper on the ottoman.",
+                "compose 3":"Place a laptop on an ottoman at any time. Simultaneously, put a newspaper on the ottoman."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the credit card on the couch and turn on the light to see the credit card",
+                "get a ring and turn on a lamp"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit card on the couch and turn on the light to see the credit card. Simultaneously, get a ring and turn on a lamp.",
+                "compose 2":"Get a ring and turn on a lamp. After that, pick up the credit card on the couch and turn on the light to see the credit card.",
+                "compose 3":"Pick up the credit card on the couch and turn on the light to see the credit card. After completing that, get a ring and turn on a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the credit card on the couch and turn on the light to see the credit card",
+                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit card on the couch and turn on the light to see the credit card. After picking up the credit card, take the keys from the footstool at the middle of the room and put them on the switch of the light in the corner of the room to turn the light on.",
+                "compose 2":"Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room and turn the light on while doing so. Simultaneously, pick up the credit card on the couch and turn on the light to see the credit card.",
+                "compose 3":"Pick up the credit card on the couch and turn on the light to see the credit card. This task can be done at any time. After completing that, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the credit card on the couch and turn on the light to see the credit card",
+                "Place a box with a set of keys from the dresser on the black sofa chair."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014757_582805/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit card on the couch and turn on the light to see the credit card. After picking up the credit card and turning on the light, place a box with a set of keys from the dresser on the black sofa chair.",
+                "compose 2":"Place a box with a set of keys from the dresser on the black sofa chair. After placing the box with the set of keys, pick up the credit card on the couch and turn on the light to see the credit card.",
+                "compose 3":"Pick up the credit card on the couch and turn on the light to see the credit card after placing a box with a set of keys from the dresser on the black sofa chair."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the credit card on the couch and turn on the light to see the credit card",
+                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit card on the couch and turn on the light to see the credit card. Simultaneously, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on while doing so.",
+                "compose 2":"Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on. Afterward, pick up the credit card on the couch and turn on the light to see the credit card.",
+                "compose 3":"Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on. Simultaneously, pick up the credit card on the couch and turn on the light to see the credit card."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so.",
-                "Put a closed laptop on the ottoman",
-                "Put remote controls on a foot stool."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a laptop on an ottoman",
-                "Move keys and a box to a chair.",
-                "Put remote controls on a foot stool."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so.",
-                "get a ring and turn on a lamp",
-                "Move the laptop from the sofa to the ottoman"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021456_923505/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move keys and a box to a chair.",
-                "get a ring and turn on a lamp",
-                "Place a newspaper on the ottoman."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the credit card on the couch and turn on the light to see the credit card",
-                "get a ring and turn on a lamp",
-                "Place a box with keys in it on the sofa chair."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_015056_840775/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Put remote controls on a foot stool.",
-                "Put a closed laptop on the ottoman",
-                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so.",
-                "get a ring and turn on a lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a laptop on an ottoman",
-                "Place a box with keys in it on the sofa chair.",
-                "get a ring and turn on a lamp",
-                "Place a newspaper on the ottoman."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_015056_840775/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a box with keys in it on the sofa chair.",
-                "Put remote controls on a foot stool.",
-                "get a ring and turn on a lamp",
-                "Put a laptop on an ottoman"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_015056_840775/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "get a ring and turn on a lamp",
-                "Move keys and a box to a chair.",
-                "Put a laptop on an ottoman",
-                "Place a newspaper on the ottoman."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a closed laptop on the ottoman",
-                "Move keys and a box to a chair.",
-                "Put remote controls on a foot stool.",
-                "get a ring and turn on a lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_5":[
-        {
-            "task_list":[
-                "Put remote controls on a foot stool.",
-                "Move keys and a box to a chair.",
-                "Place a newspaper on the ottoman.",
-                "Put a laptop on an ottoman",
-                "get a ring and turn on a lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json",
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put remote controls on a foot stool.",
-                "Put a laptop on an ottoman",
-                "Place a newspaper on the ottoman.",
-                "Place a box with keys in it on the sofa chair.",
-                "get a ring and turn on a lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_015056_840775/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so.",
-                "get a ring and turn on a lamp",
-                "Pick up the credit card on the couch and turn on the light to see the credit card",
-                "Place a newspaper on the ottoman.",
-                "Put a laptop on an ottoman"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json",
-                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
-                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a newspaper on the ottoman.",
-                "Put a closed laptop on the ottoman",
                 "Pick up the credit card on the couch and turn on the light to see the credit card",
                 "get a ring and turn on a lamp",
                 "Move keys and a box to a chair."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json",
                     "tests_seen/trial_T20190908_074451_643463/traj_data.json",
                     "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
                     "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit card on the couch and turn on the light to see the credit card.Move keys and a box to a chair. Simultaneously, get a ring and turn on a lamp.",
+                "compose 2":"Pick up the credit card on the couch and turn on the light to see the credit card. After completing that, Move keys and a box to a chair. Finally, get a ring and turn on a lamp.",
+                "compose 3":"Get a ring and turn on a lamp. Simultaneously, pick up the credit card on the couch and turn on the light to see the credit card.After picking up the credit card, move keys and a box to a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Put a closed laptop on the ottoman",
+                "Put remote controls on a foot stool.",
+                "get a ring and turn on a lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a closed laptop on the ottoman at any time. Simultaneously, put remote controls on a foot stool. After placing the laptop and remote controls, get a ring and turn on a lamp.",
+                "compose 2":"Get a ring and turn on a lamp at any time. Simultaneously, put a closed laptop on the ottoman. After turning on the lamp, put remote controls on a foot stool.",
+                "compose 3":"Get a ring and turn on a lamp at any time. Simultaneously, put remote controls on a foot stool. After turning on the lamp, put a closed laptop on the ottoman."
+            }
+        },
+        {
+            "task_list":[
+                "Put a laptop on an ottoman",
+                "Put remote controls on a foot stool.",
+                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a laptop on an ottoman at any time. Simultaneously, put remote controls on a foot stool. After completing the previous tasks, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on while doing so.",
+                "compose 2":"Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on while doing so at any time. Simultaneously, put a laptop on an ottoman. After completing the previous tasks, put remote controls on a foot stool.",
+                "compose 3":"Put remote controls on a foot stool at any time. Simultaneously, put a laptop on an ottoman. After completing the previous tasks, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on while doing so."
+            }
+        },
+        {
+            "task_list":[
+                "Move the laptop from the sofa to the ottoman",
+                "Put remote controls on a foot stool.",
+                "Place a newspaper on the ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021456_923505/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptop from the sofa to the ottoman at any time. Simultaneously, put remote controls on a foot stool. After moving the laptop and putting the remote controls, place a newspaper on the ottoman.",
+                "compose 2":"Put remote controls on a foot stool at any time. After putting the remote controls, move the laptop from the sofa to the ottoman. Simultaneously, place a newspaper on the ottoman.",
+                "compose 3":"Place a newspaper on the ottoman at any time. Simultaneously, move the laptop from the sofa to the ottoman and put remote controls on a foot stool."
+            }
+        },
+        {
+            "task_list":[
+                "Put remote controls on a foot stool.",
+                "Put a laptop on an ottoman",
+                "Place a newspaper on the ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a laptop on an ottoman at any time. Simultaneously, put remote controls on a foot stool. After putting the laptop and remote controls, place a newspaper on the ottoman.",
+                "compose 2":"Put remote controls on a foot stool at any time. Simultaneously, place a newspaper on the ottoman. After putting the remote controls and newspaper, put a laptop on an ottoman.",
+                "compose 3":"Place a newspaper on the ottoman at any time. Simultaneously, put a laptop on an ottoman. After placing the newspaper and laptop, put remote controls on a foot stool."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Pick up the credit card on the couch and turn on the light to see the credit card",
+                "Put a closed laptop on the ottoman",
+                "get a ring and turn on a lamp",
+                "Place a newspaper on the ottoman."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the credit card on the couch and turn on the light to see the credit card. Put a closed laptop on the ottoman. Get a ring and turn on a lamp. Place a newspaper on the ottoman.",
+                "compose 2":"Put a closed laptop on the ottoman. Get a ring and turn on a lamp. Place a newspaper on the ottoman. Pick up the credit card on the couch and turn on the light to see the credit card.",
+                "compose 3":"Pick up the credit card on the couch and turn on the light to see the credit card. Place a newspaper on the ottoman. Get a ring and turn on a lamp. Put a closed laptop on the ottoman."
+            }
         },
         {
             "task_list":[
                 "get a ring and turn on a lamp",
-                "Put remote controls on a foot stool.",
+                "Place a newspaper on the ottoman.",
+                "Move the laptop from the sofa to the ottoman",
+                "Move keys and a box to a chair."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021456_923505/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Get a ring and turn on a lamp at any time. Simultaneously, place a newspaper on the ottoman. After turning on the lamp, move the laptop from the sofa to the ottoman. Finally, move keys and a box to a chair.",
+                "compose 2":"Place a newspaper on the ottoman at any time. Simultaneously, get a ring and turn on a lamp. After placing the newspaper, move the laptop from the sofa to the ottoman. Finally, move keys and a box to a chair.",
+                "compose 3":"Move the laptop from the sofa to the ottoman at any time. Simultaneously, get a ring and turn on a lamp. After moving the laptop, place a newspaper on the ottoman. Finally, move keys and a box to a chair."
+            }
+        },
+        {
+            "task_list":[
                 "Put a laptop on an ottoman",
+                "get a ring and turn on a lamp",
+                "Place a newspaper on the ottoman.",
+                "Put remote controls on a foot stool."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a laptop on an ottoman at any time. Simultaneously, get a ring and turn on a lamp. After putting the laptop, place a newspaper on the ottoman. Once all set, put remote controls on a foot stool.",
+                "compose 2":"Put a laptop on an ottoman at any time. Simultaneously, put remote controls on a foot stool. After putting the laptop, place a newspaper on the ottoman. Once all set, get a ring and turn on a lamp.",
+                "compose 3":"Put remote controls on a foot stool at any time. Simultaneously, get a ring and turn on a lamp. After putting the remote controls, put a laptop on an ottoman. Once all set, place a newspaper on the ottoman."
+            }
+        },
+        {
+            "task_list":[
                 "Move keys and a box to a chair.",
+                "get a ring and turn on a lamp",
+                "Put a laptop on an ottoman",
+                "Place a newspaper on the ottoman."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move keys and a box to a chair. Then, put a laptop on an ottoman. Simultaneously, get a ring and turn on a lamp. After completing these tasks, place a newspaper on the ottoman.",
+                "compose 2":"Put a laptop on an ottoman. Then, move keys and a box to a chair. Simultaneously, get a ring and turn on a lamp. After completing these tasks, place a newspaper on the ottoman.",
+                "compose 3":"Move keys and a box to a chair. Simultaneously, get a ring and turn on a lamp. After placing the keys and box, put a laptop on an ottoman. Lastly, place a newspaper on the ottoman."
+            }
+        },
+        {
+            "task_list":[
+                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so.",
+                "Place a newspaper on the ottoman.",
+                "Move the laptop from the sofa to the ottoman",
+                "get a ring and turn on a lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021456_923505/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so. Simultaneously, place a newspaper on the ottoman. After placing the newspaper, move the laptop from the sofa to the ottoman. After moving the laptop, get a ring and turn on a lamp.",
+                "compose 2":"Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so. Simultaneously, move the laptop from the sofa to the ottoman. After moving the laptop, place a newspaper on the ottoman. After placing the newspaper, get a ring and turn on a lamp.",
+                "compose 3":"Place a newspaper on the ottoman at any time. Simultaneously, move the laptop from the sofa to the ottoman. After moving the laptop, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so. After turning on the light, get a ring and turn on a lamp."
+            }
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put a laptop on an ottoman",
+                "Place a box with keys in it on the sofa chair.",
+                "get a ring and turn on a lamp",
+                "Place a newspaper on the ottoman.",
+                "Put remote controls on a foot stool."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_015056_840775/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a box with keys in it on the sofa chair. After placing the box, put a laptop on an ottoman. Finally, get a ring and turn on a lamp.",
+                "compose 2":"Put a laptop on an ottoman. Simultaneously, place a newspaper on the ottoman. After placing the laptop and newspaper, get a ring and turn on a lamp.",
+                "compose 3":"Put remote controls on a foot stool. After putting the remote controls, put a laptop on an ottoman. Finally, place a box with keys in it on the sofa chair."
+            }
+        },
+        {
+            "task_list":[
+                "get a ring and turn on a lamp",
+                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so.",
+                "Place a newspaper on the ottoman.",
+                "Pick up the credit card on the couch and turn on the light to see the credit card",
+                "Put a laptop on an ottoman"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so. Simultaneously, place a newspaper on the ottoman. After that, pick up the credit card on the couch and turn on the light to see the credit card. Finally, put a laptop on an ottoman.",
+                "compose 2":"Get a ring and turn on a lamp at any time. Simultaneously, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so. After performing those tasks, pick up the credit card on the couch and turn on the light to see the credit card. Finally, place a newspaper on the ottoman.",
+                "compose 3":"Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so. Afterward, pick up the credit card on the couch and turn on the light to see the credit card. Simultaneously, put a laptop on an ottoman. Finally, get a ring and turn on a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Put a laptop on an ottoman",
+                "get a ring and turn on a lamp",
+                "Place a newspaper on the ottoman.",
+                "Put remote controls on a foot stool.",
+                "Place a box with keys in it on the sofa chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_015056_840775/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a laptop on an ottoman at any time. Simultaneously, get a ring and turn on a lamp. After placing the laptop, place a newspaper on the ottoman. Then, put remote controls on a foot stool. Finally, place a box with keys in it on the sofa chair.",
+                "compose 2":"Get a ring and turn on a lamp first. Simultaneously, put a laptop on an ottoman and place a newspaper on the ottoman. After that, put remote controls on a foot stool. Finally, place a box with keys in it on the sofa chair.",
+                "compose 3":"Put remote controls on a foot stool. Simultaneously, put a laptop on an ottoman and place a newspaper on the ottoman. After that, get a ring and turn on a lamp. Finally, place a box with keys in it on the sofa chair."
+            }
+        },
+        {
+            "task_list":[
+                "get a ring and turn on a lamp",
+                "Put a closed laptop on the ottoman",
+                "Pick up the credit card on the couch and turn on the light to see the credit card",
+                "Take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room turn the light on while doing so.",
                 "Place a newspaper on the ottoman."
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-Ottoman-210/trial_T20190906_202114_729948/traj_data.json",
-                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021528_920592/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json",
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-210/trial_T20190907_050813_790433/traj_data.json",
                     "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Get a ring and turn on a lamp at any time. Simultaneously, pick up the credit card on the couch and turn on the light to see the credit card. After completing those tasks, put a closed laptop on the ottoman. Finally, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on while doing so. Place a newspaper on the ottoman.",
+                "compose 2":"Pick up the credit card on the couch and turn on the light to see the credit card. After that, put a closed laptop on the ottoman. Simultaneously, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on while doing so. Get a ring and turn on a lamp at any time. Finally, place a newspaper on the ottoman.",
+                "compose 3":"Put a closed laptop on the ottoman first. Simultaneously, take the keys from the footstool at the middle of the room, put them on the switch of the light in the corner of the room, and turn the light on while doing so. After completing those tasks, get a ring and turn on a lamp. Next, pick up the credit card on the couch and turn on the light to see the credit card. Place a newspaper on the ottoman last."
+            }
+        },
+        {
+            "task_list":[
+                "get a ring and turn on a lamp",
+                "Put a closed laptop on the ottoman",
+                "Move keys and a box to a chair.",
+                "Place a newspaper on the ottoman.",
+                "Pick up the credit card on the couch and turn on the light to see the credit card"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Watch-None-FloorLamp-210/trial_T20190908_032733_263333/traj_data.json",
+                    "train/pick_and_place_simple-Laptop-None-Ottoman-210/trial_T20190909_021425_508275/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-ArmChair-210/trial_T20190908_014922_148721/traj_data.json",
+                    "train/pick_and_place_simple-Newspaper-None-Ottoman-210/trial_T20190907_144848_204708/traj_data.json",
+                    "tests_seen/trial_T20190908_074451_643463/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Get a ring and turn on a lamp. Put a closed laptop on the ottoman. Move keys and a box to a chair.",
+                "compose 2":"Place a newspaper on the ottoman at any time. Pick up the credit card on the couch and turn on the light to see the credit card.",
+                "compose 3":"Put a closed laptop on the ottoman. Move keys and a box to a chair. Get a ring and turn on a lamp."
+            }
         }
     ],
     "tasks_6":[],

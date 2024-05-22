@@ -46,8 +46,8 @@
                 "Put a pen in a cup to move them to the desk."
             ],
             "relative_objects":[
-                "Pen",
-                "Mug"
+                "Mug",
+                "Pen"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json":{
@@ -57,10 +57,10 @@
                 "Put a pen in a cup on the desk."
             ],
             "relative_objects":[
-                "Pen",
-                "Mug",
                 "Pencil",
-                "Laptop"
+                "Laptop",
+                "Mug",
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json":{
@@ -100,8 +100,8 @@
                 "Pick up the pillow from the bed, then turn on the lamp next to the bed."
             ],
             "relative_objects":[
-                "Pillow",
-                "AlarmClock"
+                "AlarmClock",
+                "Pillow"
             ]
         },
         "train/pick_and_place_simple-Pencil-None-SideTable-309/trial_T20190909_040329_875526/traj_data.json":{
@@ -111,19 +111,19 @@
                 "Place a pencil on a table."
             ],
             "relative_objects":[
-                "RemoteControl",
-                "Pillow",
-                "Book",
-                "TeddyBear",
                 "Pencil",
-                "KeyChain",
-                "Pen",
+                "TeddyBear",
+                "CD",
+                "AlarmClock",
                 "CellPhone",
                 "CreditCard",
                 "Mug",
-                "CD",
+                "RemoteControl",
                 "Laptop",
-                "AlarmClock"
+                "KeyChain",
+                "Book",
+                "Pillow",
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json":{
@@ -153,56 +153,16 @@
             "relative_objects":[
                 "CellPhone"
             ]
-        },
-        "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json":{
-            "tasks":[
-                "Put 2 phone side by side on the side of a bed with no lap top on it. "
-            ],
-            "relative_objects":[
-                "Bed",
-                "CellPhone",
-                "Laptop"
-            ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "Put 2 phone side by side on the side of a bed with no lap top on it. "
+                "examine keys with the lamp"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the laptops from the bed to the shelf."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a pair of keys to a side table. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a pair of keys to a side table. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json"
                 ]
             ]
         },
@@ -215,44 +175,72 @@
                     "train/pick_and_place_simple-Pencil-None-SideTable-309/trial_T20190909_040329_875526/traj_data.json"
                 ]
             ]
+        },
+        {
+            "task_list":[
+                "Put a pencil on the shelf. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "examine keys with the lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a set of keys to the bedside table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json"
+                ]
+            ]
         }
     ],
     "tasks_2":[
         {
             "task_list":[
-                "put a pencil on the desk",
+                "examine keys with the lamp",
+                "Put a pencil on the shelf. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine keys with the lamp at any time. Simultaneously, put a pencil on the shelf.",
+                "compose 2":"Put a pencil on the shelf. After putting the pencil, examine keys with the lamp.",
+                "compose 3":"Examine keys with the lamp at any time. Put a pencil on the shelf simultaneously."
+            }
+        },
+        {
+            "task_list":[
+                "put mug and pen on top of bureau",
                 "Move a pair of keys to a side table. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json",
                     "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Turn on the bedroom lamp.",
-                "examine keys with the lamp"
             ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a set of keys to the bedside table. ",
-                "Put the cell phones on the bed."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put mug and pen on top of bureau at any time. Simultaneously, move a pair of keys to a side table.",
+                "compose 2":"Move a pair of keys to a side table at any time. Simultaneously, put mug and pen on top of bureau.",
+                "compose 3":"Put mug and pen on top of bureau at any time. After putting the mug and pen, move a pair of keys to a side table."
+            }
         },
         {
             "task_list":[
@@ -262,267 +250,369 @@
             "orign":[
                 [
                     "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json"
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a pencil on the shelf. Examine keys with the lamp.",
+                "compose 2":"Examine keys with the lamp. Put a pencil on the shelf.",
+                "compose 3":"Put a pencil on the shelf. Examine keys with the lamp."
+            }
         },
         {
             "task_list":[
-                "examine keys with the lamp",
-                "Put 2 phone side by side on the side of a bed with no lap top on it. "
+                "put mug and pen on top of bureau",
+                "Move a pair of keys to a side table. "
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put mug and pen on top of bureau at any time simultaneously. After putting the mug and pen, move a pair of keys to a side table.",
+                "compose 2":"Move a pair of keys to a side table at any time simultaneously. After moving the keys, put mug and pen on top of bureau.",
+                "compose 3":"Put mug and pen on top of bureau at any time simultaneously with moving a pair of keys to a side table."
+            }
+        },
+        {
+            "task_list":[
+                "Turn on the bedroom lamp.",
+                "put a pencil on the desk"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on the bedroom lamp at any time. Put a pencil on the desk simultaneously.",
+                "compose 2":"Put a pencil on the desk at any time. After putting the pencil, turn on the bedroom lamp.",
+                "compose 3":"Turn on the bedroom lamp at any time. Put a pencil on the desk at any time."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Move a set of keys to the bedside table. ",
-                "Put a pencil on the shelf. ",
-                "Move the laptops from the bed to the shelf."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a pencil from the table to the counter. ",
-                "Move a pen and mug to a dresser. ",
+                "put mug and pen on top of bureau",
+                "Put the cell phones on the bed.",
                 "Turn on the bedroom lamp."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
                     "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a pencil on the shelf. ",
-                "Put 2 phone side by side on the side of a bed with no lap top on it. ",
-                "Move a pair of keys to a side table. "
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put the cell phones on the bed. Simultaneously, put mug and pen on top of bureau. After placing the cell phones and mug, turn on the bedroom lamp.",
+                "compose 2":"Turn on the bedroom lamp at any time. Simultaneously, put mug and pen on top of bureau. After turning on the lamp, put the cell phones on the bed.",
+                "compose 3":"Put mug and pen on top of bureau at any time. Simultaneously, turn on the bedroom lamp. After placing the mug and pen, put the cell phones on the bed."
+            }
         },
         {
             "task_list":[
-                "Put the cell phones on the bed.",
-                "put mug and pen on top of bureau",
+                "Move a pen and mug to a dresser. ",
+                "put a pencil on the desk",
                 "examine keys with the lamp"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a pen and mug to a dresser at any time. Simultaneously, put a pencil on the desk. After moving the pen and mug and putting the pencil, examine keys with the lamp.",
+                "compose 2":"Move a pen and mug to a dresser at any time. Simultaneously, examine keys with the lamp. After moving the pen and mug, put a pencil on the desk.",
+                "compose 3":"Put a pencil on the desk at any time. Simultaneously, examine keys with the lamp. After putting the pencil, move a pen and mug to a dresser."
+            }
         },
         {
             "task_list":[
                 "Turn on the bedroom lamp.",
+                "Put a pencil on the shelf. ",
+                "Move a pair of keys to a side table. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on the bedroom lamp at any time. Simultaneously, put a pencil on the shelf. After turning on the lamp and placing the pencil, move a pair of keys to a side table.",
+                "compose 2":"Turn on the bedroom lamp at any time. Simultaneously, move a pair of keys to a side table. After turning on the lamp, place a pencil on the shelf.",
+                "compose 3":"Put a pencil on the shelf at any time. Simultaneously, move a pair of keys to a side table. After placing the pencil, turn on the bedroom lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Move a pen and mug to a dresser. ",
                 "examine keys with the lamp",
                 "Put a pencil on the shelf. "
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json",
                     "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a pen and mug to a dresser at any time. In the meantime, examine keys with the lamp. After moving the pen and mug, put a pencil on the shelf.",
+                "compose 2":"Examine keys with the lamp first. After that, move a pen and mug to a dresser. Finally, put a pencil on the shelf.",
+                "compose 3":"Put a pencil on the shelf first. Simultaneously, move a pen and mug to a dresser. Once done, examine keys with the lamp."
+            }
+        },
+        {
+            "task_list":[
+                "examine keys with the lamp",
+                "Move a pen and mug to a dresser. ",
+                "Move the laptops from the bed to the shelf."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine keys with the lamp at any time. Simultaneously, move a pen and mug to a dresser. After examining the keys and moving the pen and mug, move the laptops from the bed to the shelf.",
+                "compose 2":"Move a pen and mug to a dresser at any time. Simultaneously, examine keys with the lamp. After moving the pen and mug, move the laptops from the bed to the shelf.",
+                "compose 3":"Move the laptops from the bed to the shelf at any time. Simultaneously, move a pen and mug to a dresser. After moving the laptops, examine keys with the lamp."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
+                "Move the laptops from the bed to the shelf.",
                 "Put the cell phones on the bed.",
-                "put mug and pen on top of bureau",
+                "Inspect keys by lamp light.",
+                "Put a pencil on the shelf. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094219_644881/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptops from the bed to the shelf at any time. Simultaneously, put the cell phones on the bed. Inspect keys by lamp light. Finally, put a pencil on the shelf.",
+                "compose 2":"Put the cell phones on the bed at any time. Move the laptops from the bed to the shelf. Inspect keys by lamp light. Finally, put a pencil on the shelf.",
+                "compose 3":"Move the laptops from the bed to the shelf at any time. Put the cell phones on the bed. Put a pencil on the shelf. Inspect keys by lamp light."
+            }
+        },
+        {
+            "task_list":[
                 "Turn on the bedroom lamp.",
+                "Put the cell phones on the bed.",
+                "Move a pen and mug to a dresser. ",
+                "put a pencil on the desk"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on the bedroom lamp at any time. Simultaneously, put the cell phones on the bed. After turning on the lamp and placing the cell phones, move a pen and mug to a dresser. Finally, put a pencil on the desk.",
+                "compose 2":"Put the cell phones on the bed first. Then, turn on the bedroom lamp. After that, move a pen and mug to a dresser. Lastly, put a pencil on the desk.",
+                "compose 3":"Turn on the bedroom lamp first. Simultaneously, put the cell phones on the bed and put a pencil on the desk. After that, move a pen and mug to a dresser."
+            }
+        },
+        {
+            "task_list":[
+                "examine keys with the lamp",
+                "Move a pen and mug to a dresser. ",
+                "Turn on the bedroom lamp.",
+                "put a pencil on the desk"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine keys with the lamp at any time. Simultaneously, move a pen and mug to a dresser. Once done, turn on the bedroom lamp.",
+                "compose 2":"Move a pen and mug to a dresser at any time. After that, put a pencil on the desk. Finally, turn on the bedroom lamp.",
+                "compose 3":"Turn on the bedroom lamp at any time. Next, put a pencil on the desk. After that, examine keys with the lamp. Lastly, move a pen and mug to a dresser."
+            }
+        },
+        {
+            "task_list":[
+                "Move the laptops from the bed to the shelf.",
+                "examine keys with the lamp",
+                "put a pencil on the desk",
+                "Put the cell phones on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptops from the bed to the shelf at any time. Simultaneously, examine keys with the lamp. After moving the laptops, put a pencil on the desk. Finally, put the cell phones on the bed.",
+                "compose 2":"Examine keys with the lamp before moving the laptops from the bed to the shelf. Simultaneously, put a pencil on the desk. After examining the keys, move the laptops from the bed to the shelf. Finally, put the cell phones on the bed.",
+                "compose 3":"Put a pencil on the desk at any time. Simultaneously, examine keys with the lamp. After putting the pencil on the desk, move the laptops from the bed to the shelf. Finally, put the cell phones on the bed."
+            }
+        },
+        {
+            "task_list":[
+                "Put the cell phones on the bed.",
+                "Turn on the bedroom lamp.",
+                "Move the laptops from the bed to the shelf.",
                 "examine keys with the lamp"
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_040056_158702/traj_data.json",
                     "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json",
                     "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the cell phones on the bed.",
-                "Move a pen and mug to a dresser. ",
-                "Inspect keys by lamp light.",
-                "put a pencil on the desk"
             ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094219_644881/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a pen and mug to a dresser. ",
-                "Move a set of keys to the bedside table. ",
-                "Move a pencil from the table to the counter. ",
-                "Put 2 phone side by side on the side of a bed with no lap top on it. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the cell phones on the bed.",
-                "Turn on the bedroom lamp.",
-                "examine keys with the lamp",
-                "put a pencil on the desk"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
-                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a pen and mug to a dresser. ",
-                "Put the cell phones on the bed.",
-                "Inspect keys by lamp light.",
-                "Move a pencil from the table to the counter. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094219_644881/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Turn on the bedroom lamp at any time. Simultaneously, put the cell phones on the bed. After turning on the lamp, move the laptops from the bed to the shelf. Finally, examine keys with the lamp.",
+                "compose 2":"Put the cell phones on the bed at any time. Simultaneously, turn on the bedroom lamp. After placing the phones, move the laptops from the bed to the shelf. Finally, examine keys with the lamp.",
+                "compose 3":"Turn on the bedroom lamp at any time. Simultaneously, move the laptops from the bed to the shelf. After turning on the lamp and moving the laptops, put the cell phones on the bed. Finally, examine keys with the lamp."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "examine keys with the lamp",
+                "Move a pencil from the table to the counter. ",
                 "Turn on the bedroom lamp.",
-                "Put 2 phone side by side on the side of a bed with no lap top on it. ",
+                "Put the cell phones on the bed.",
+                "examine keys with the lamp",
+                "Move the laptops from the bed to the shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231013_763397/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094310_266647/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on the bedroom lamp at any time. Simultaneously, put the cell phones on the bed and examine keys with the lamp. After turning on the lamp, move a pencil from the table to the counter. Finally, move the laptops from the bed to the shelf.",
+                "compose 2":"Turn on the bedroom lamp at any time. Simultaneously, put the cell phones on the bed. After turning on the lamp, move a pencil from the table to the counter and examine keys with the lamp. Finally, move the laptops from the bed to the shelf.",
+                "compose 3":"Turn on the bedroom lamp at any time. Simultaneously, put the cell phones on the bed. After turning on the lamp, move the laptops from the bed to the shelf and examine keys with the lamp. Finally, move a pencil from the table to the counter."
+            }
+        },
+        {
+            "task_list":[
+                "Move a pen and mug to a dresser. ",
+                "Move the laptops from the bed to the shelf.",
+                "examine keys with the lamp",
+                "put a pencil on the desk",
+                "Put the cell phones on the bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json",
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the laptops from the bed to the shelf. Simultaneously, put the cell phones on the bed. After moving the laptops and placing the cell phones, examine keys with the lamp. Finally, move a pen and mug to a dresser.",
+                "compose 2":"Put the cell phones on the bed. Simultaneously, put a pencil on the desk. After placing the cell phones and the pencil, move a pen and mug to a dresser. Once done, move the laptops from the bed to the shelf.",
+                "compose 3":"Put a pencil on the desk. Simultaneously, examine keys with the lamp. After putting the pencil and examining the keys, move the laptops from the bed to the shelf. Finally, move a pen and mug to a dresser."
+            }
+        },
+        {
+            "task_list":[
+                "Move the laptops from the bed to the shelf.",
+                "Turn on the bedroom lamp.",
+                "Move a pair of keys to a side table. ",
                 "Move a pen and mug to a dresser. ",
                 "Put a pencil on the shelf. "
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json",
                     "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
                     "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on the bedroom lamp at any time. Simultaneously, move a pair of keys to a side table. Once the lamp is on and the keys are on the side table, move a pen and mug to a dresser.Finally, put a pencil on the shelf.",
+                "compose 2":"Turn on the bedroom lamp at any time. Simultaneously, move a pair of keys to a side table. After turning on the lamp and moving the keys, move the laptops from the bed to the shelf.Continue by moving a pen and mug to a dresser. Conclude by putting a pencil on the shelf.",
+                "compose 3":"Move a pair of keys to a side table at any time. Simultaneously, move a pen and mug to a dresser.After moving the keys, turn on the bedroom lamp. Finish by putting a pencil on the shelf."
+            }
         },
         {
             "task_list":[
                 "put a pencil on the desk",
-                "Move a pen and mug to a dresser. ",
+                "Put the cell phones on the bed.",
+                "Turn on the bedroom lamp.",
+                "examine keys with the lamp",
+                "Move a pen and mug to a dresser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094258_737509/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the cell phones on the bed. Simultaneously, put a pencil on the desk. After that, examine keys with the lamp.",
+                "compose 2":"Turn on the bedroom lamp. Then move a pen and mug to a dresser.",
+                "compose 3":"Turn on the bedroom lamp. After that, examine keys with the lamp. Finally, put a pencil on the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Turn on the bedroom lamp.",
+                "Move the laptops from the bed to the shelf.",
+                "Put the cell phones on the bed.",
                 "Move a pair of keys to a side table. ",
-                "Put the cell phones on the bed.",
-                "Move the laptops from the bed to the shelf."
+                "Put a pencil on the shelf. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
+                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
+                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
                     "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_214938_408925/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
-                    "train/pick_two_obj_and_place-Laptop-None-Desk-309/trial_T20190907_151137_619046/traj_data.json"
+                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a pen and mug to a dresser. ",
-                "put a pencil on the desk",
-                "Turn on the bedroom lamp.",
-                "Put 2 phone side by side on the side of a bed with no lap top on it. ",
-                "Move a set of keys to the bedside table. "
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json",
-                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Turn on the bedroom lamp.",
-                "Move a pen and mug to a dresser. ",
-                "Put 2 phone side by side on the side of a bed with no lap top on it. ",
-                "Move a set of keys to the bedside table. ",
-                "put a pencil on the desk"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190908_112341_368964/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-SideTable-309/trial_T20190908_215011_025401/traj_data.json",
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190909_021158_861942/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a pencil on the shelf. ",
-                "Inspect keys by lamp light.",
-                "Put the cell phones on the bed.",
-                "Move a pen and mug to a dresser. ",
-                "Turn on the bedroom lamp."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Pencil-None-Desk-309/trial_T20190918_231048_923335/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-DeskLamp-309/trial_T20190909_094219_644881/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Desk-309/trial_T20190909_014745_476963/traj_data.json",
-                    "train/look_at_obj_in_light-Pillow-None-DeskLamp-309/trial_T20190908_113843_792729/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Turn on the bedroom lamp at any time. Simultaneously, move the laptops from the bed to the shelf. After moving the laptops, put the cell phones on the bed. Finally, move a pair of keys to a side table.",
+                "compose 2":"Turn on the bedroom lamp at any time. Simultaneously, put the cell phones on the bed. After turning on the lamp, move the laptops from the bed to the shelf. Finally, put a pencil on the shelf.",
+                "compose 3":"Put the cell phones on the bed first. Simultaneously, move the laptops from the bed to the shelf. After putting the cell phones on the bed, turn on the bedroom lamp. Finally, move a pair of keys to a side table."
+            }
         }
     ],
     "tasks_6":[],

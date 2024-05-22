@@ -39,8 +39,8 @@
                 "Put a watch on the desk. "
             ],
             "relative_objects":[
-                "Desk",
-                "Watch"
+                "Watch",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190908_132712_949739/traj_data.json":{
@@ -50,8 +50,8 @@
                 "Put a watch on the desk. "
             ],
             "relative_objects":[
-                "Desk",
-                "Watch"
+                "Watch",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231607_829277/traj_data.json":{
@@ -114,8 +114,8 @@
             ],
             "relative_objects":[
                 "Watch",
-                "Bowl",
-                "Shelf"
+                "Shelf",
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json":{
@@ -125,8 +125,8 @@
                 "Put the mug with pen on the cabinet"
             ],
             "relative_objects":[
-                "Pen",
-                "Mug"
+                "Mug",
+                "Pen"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json":{
@@ -136,19 +136,18 @@
                 "put the pen into the cup and put it on the table in between the beds"
             ],
             "relative_objects":[
-                "Pen",
-                "Mug"
+                "Mug",
+                "Pen"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json":{
             "tasks":[
                 "Put the cup with the pen inside on the nightstand",
-                "Put a black cup with a pen in it to the shelf between the 2 beds. ",
                 "Move a cup and pen to a small cabinet"
             ],
             "relative_objects":[
-                "Pen",
-                "Mug"
+                "Mug",
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json":{
@@ -221,8 +220,8 @@
             ],
             "relative_objects":[
                 "Watch",
-                "Bowl",
-                "Shelf"
+                "Shelf",
+                "Bowl"
             ]
         },
         "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183137_838565/traj_data.json":{
@@ -243,59 +242,59 @@
                 "Move the watch to the desk."
             ],
             "relative_objects":[
-                "Desk",
-                "Watch"
+                "Watch",
+                "Desk"
             ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "Move to sell phones to the desk."
+                "Collect each cell phone and put them on the desk."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json"
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move a cloth from the floor to a shelf."
+                "Move a CD to the desk cubby area"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json"
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put the cup with the pen inside on the nightstand"
+                "Collect each cell phone and put them on the desk."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json"
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a grey bowl with a watch in it on the end table."
+                "Put the wrist watch on the desk "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183206_906995/traj_data.json"
+                    "tests_seen/trial_T20190912_074536_269191/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a paddle on a bed."
+                "Move the baseball bat from floor to the bed"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json"
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231624_734464/traj_data.json"
                 ]
             ]
         }
@@ -303,391 +302,511 @@
     "tasks_2":[
         {
             "task_list":[
-                "Move a CD to the desk cubby area",
-                "Put watches on a shelf."
+                "Place the CD under the desk.",
+                "To put a pen in a mug and put the mug on the night stand. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json",
-                    "train/pick_two_obj_and_place-Watch-None-Shelf-326/trial_T20190906_201446_524359/traj_data.json"
+                    "train/pick_two_obj_and_place-CD-None-Shelf-326/trial_T20190908_173730_034983/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the cup with the pen inside on the nightstand",
-                "Move a CD to the desk cubby area"
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place the CD under the desk at any time. Simultaneously, put a pen in a mug and put the mug on the night stand.",
+                "compose 2":"Put a pen in a mug and put the mug on the night stand. After placing the pen and mug on the night stand, place the CD under the desk.",
+                "compose 3":"Place the CD under the desk at any time. Then, put a pen in a mug and put the mug on the night stand."
+            }
         },
         {
             "task_list":[
-                "move a disc from the desk to the  shelf",
-                "Put a metal metal bat on the bed. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json",
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231607_829277/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a paddle on a bed.",
+                "Place a bowl with a watch on a shelf.",
                 "move a disc from the desk to the  shelf"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031836_927615/traj_data.json",
                     "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a bowl with a watch on a shelf at any time. Simultaneously, move a disc from the desk to the shelf.",
+                "compose 2":"Move a disc from the desk to the shelf before placing a bowl with a watch on a shelf.",
+                "compose 3":"Place a bowl with a watch on a shelf at any time. After placing the bowl, move a disc from the desk to the shelf."
+            }
         },
         {
             "task_list":[
-                "Put black and yellow cloth on the top shelf ",
-                "Put the cup with the pen inside on the nightstand"
+                "Put a metal metal bat on the bed. ",
+                "Place a bowl with a watch on a shelf."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Cloth-None-Shelf-326/trial_T20190908_112610_985576/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json"
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231607_829277/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031836_927615/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a bowl with a watch on a shelf at any time. Simultaneously, put a metal bat on the bed.",
+                "compose 2":"Put a metal bat on the bed at any time. Simultaneously, place a bowl with a watch on a shelf.",
+                "compose 3":"Put a metal bat on the bed at any time. After placing the bat, place a bowl with a watch on a shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Put a bowl with a watch in it on a shelf in a desk.",
+                "Place a paddle on a bed."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031900_337236/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a paddle on a bed at any time. Simultaneously, put a bowl with a watch in it on a shelf in a desk.",
+                "compose 2":"Put a bowl with a watch in it on a shelf in a desk at any time. Simultaneously, place a paddle on a bed.",
+                "compose 3":"Place a paddle on a bed at any time. After placing the paddle, put a bowl with a watch in it on a shelf in a desk."
+            }
+        },
+        {
+            "task_list":[
+                "Move to sell phones to the desk.",
+                "Move the watch to the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190908_132712_949739/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move to sell phones to the desk at any time. Simultaneously, move the watch to the desk.",
+                "compose 2":"Move the watch to the desk at any time. Simultaneously, move to sell phones to the desk.",
+                "compose 3":"Move to sell phones to the desk at any time. After moving the phones, move the watch to the desk."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Put a mug with a pen in it on an end table.",
-                "Put the wrist watch on the desk ",
-                "move a disc from the desk to the  shelf"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json",
-                    "tests_seen/trial_T20190912_074536_269191/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a bowl with a watch in it on a shelf in a desk.",
-                "Put a CD on a desk shelf.",
-                "Move a cloth from the floor to a shelf."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031900_337236/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
+                "Put the cup with the pen inside on the nightstand",
                 "Move the watch to the desk.",
-                "Collect each cell phone and put them on the desk.",
                 "Move the baseball bat from floor to the bed"
             ],
             "orign":[
                 [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json",
                     "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190908_132712_949739/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
                     "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231624_734464/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the baseball bat from floor to the bed at any time. Simultaneously, put the cup with the pen inside on the nightstand. After moving the bat and placing the cup, move the watch to the desk.",
+                "compose 2":"Move the baseball bat from floor to the bed at any time. Simultaneously, move the watch to the desk. After moving the bat and the watch, put the cup with the pen inside on the nightstand.",
+                "compose 3":"Put the cup with the pen inside on the nightstand at any time. Simultaneously, move the baseball bat from floor to the bed. After moving the bat and placing the cup, move the watch to the desk."
+            }
         },
         {
             "task_list":[
-                "Place a paddle on a bed.",
+                "Put the cup with the pen inside on the nightstand",
                 "Move a CD to the desk cubby area",
+                "Move to sell phones to the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the cup with the pen inside on the nightstand at any time. Simultaneously, move a CD to the desk cubby area. After placing the cup and CD, move to sell phones to the desk.",
+                "compose 2":"Move a CD to the desk cubby area at any time. Simultaneously, put the cup with the pen inside on the nightstand. After moving the CD and placing the cup, move to sell phones to the desk.",
+                "compose 3":"Move to sell phones to the desk at any time. Simultaneously, put the cup with the pen inside on the nightstand. After moving to sell phones and placing the cup, move the CD to the desk cubby area."
+            }
+        },
+        {
+            "task_list":[
+                "Place the CD under the desk.",
+                "Collect each cell phone and put them on the desk.",
+                "Move the watch to the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CD-None-Shelf-326/trial_T20190908_173730_034983/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190908_132712_949739/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the CD under the desk at any time. Simultaneously, collect each cell phone and put them on the desk. After placing the CD and collecting the cell phones, move the watch to the desk.",
+                "compose 2":"Move the watch to the desk at any time. Simultaneously, collect each cell phone and put them on the desk. After moving the watch and collecting the cell phones, place the CD under the desk.",
+                "compose 3":"Collect each cell phone and put them on the desk at any time. Simultaneously, move the watch to the desk. After collecting the cell phones, place the CD under the desk."
+            }
+        },
+        {
+            "task_list":[
+                "put a gray rag on the shelf",
+                "move a disc from the desk to the  shelf",
                 "move watch from table to desk"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json",
                     "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190912_074626_851427/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a gray rag on the shelf. Next, move a disc from the desk to the shelf. After moving the disc, move the watch from the table to the desk.",
+                "compose 2":"Move a disc from the desk to the shelf. Simultaneously, put a gray rag on the shelf. After completing these tasks, move the watch from the table to the desk.",
+                "compose 3":"Move the watch from the table to the desk. Following this, put a gray rag on the shelf. Finally, move a disc from the desk to the shelf."
+            }
         },
         {
             "task_list":[
-                "Move to sell phones to the desk.",
-                "Put a bowl with a watch in it on the shelf. ",
-                "Move a cloth from the floor to a shelf."
+                "Collect each cell phone and put them on the desk.",
+                "Place the CD under the desk.",
+                "Place a paddle on a bed."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_095324_531185/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json"
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Shelf-326/trial_T20190908_173730_034983/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Collect each cell phone and put them on the desk at any time. Then, place the CD under the desk. After placing the CD, place a paddle on a bed.",
+                "compose 2":"Place the CD under the desk at any time. Simultaneously, collect each cell phone and put them on the desk. Once the CD is in place, position a paddle on a bed.",
+                "compose 3":"Place a paddle on a bed at any time. Next, collect each cell phone and put them on the desk. After all cell phones are on the desk, place the CD under the desk."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Put a CD on a desk shelf.",
-                "Move to sell phones to the desk.",
-                "Put the cup with the pen inside on the nightstand",
-                "Move the watch to the desk."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190908_132712_949739/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a CD to the desk cubby area",
+                "To put a pen in a mug and put the mug on the night stand. ",
                 "Collect each cell phone and put them on the desk.",
-                "Put a metal metal bat on the bed. ",
-                "Put a bowl with a watch in it on the shelf. "
+                "Place a bowl with a watch on a shelf.",
+                "put a gray rag on the shelf"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json",
                     "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231607_829277/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_095324_531185/traj_data.json"
+                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031836_927615/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Collect each cell phone and put them on the desk. Put a gray rag on the shelf. Place a bowl with a watch on a shelf. To put a pen in a mug and put the mug on the nightstand.",
+                "compose 2":"Collect each cell phone and put them on the desk. To put a pen in a mug and put the mug on the nightstand. Put a gray rag on the shelf. Place a bowl with a watch on a shelf.",
+                "compose 3":"Collect each cell phone and put them on the desk. Place a bowl with a watch on a shelf. Put a gray rag on the shelf. To put a pen in a mug and put the mug on the nightstand."
+            }
         },
         {
             "task_list":[
-                "Put a CD on a desk shelf.",
-                "Put watches on a shelf.",
                 "Move to sell phones to the desk.",
+                "Move the baseball bat from floor to the bed",
+                "Put a CD on a desk shelf.",
+                "move watch from table to desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231624_734464/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190912_074626_851427/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move to sell phones to the desk. Simultaneously, move the baseball bat from floor to the bed. After completing these tasks, put a CD on a desk shelf. Finally, move the watch from table to desk.",
+                "compose 2":"Move to sell phones to the desk at any time. Concurrently, move the baseball bat from floor to the bed. Put a CD on a desk shelf. Lastly, move the watch from table to desk.",
+                "compose 3":"Move the baseball bat from floor to the bed first. Subsequently, move to sell phones to the desk. Place a CD on a desk shelf. Finally, move the watch from table to desk."
+            }
+        },
+        {
+            "task_list":[
+                "Collect each cell phone and put them on the desk.",
+                "Put black and yellow cloth on the top shelf ",
+                "Put watches on a shelf.",
                 "Put a mug with a pen in it on an end table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-326/trial_T20190908_112610_985576/traj_data.json",
                     "train/pick_two_obj_and_place-Watch-None-Shelf-326/trial_T20190906_201446_524359/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Collect each cell phone and put them on the desk. Put black and yellow cloth on the top shelf. Put watches on a shelf.Put a mug with a pen in it on an end table.",
+                "compose 2":"Put watches on a shelf. Collect each cell phone and put them on the desk. Put black and yellow cloth on the top shelf. Put a mug with a pen in it on an end table.",
+                "compose 3":"Collect each cell phone and put them on the desk. Put a mug with a pen in it on an end table. Put black and yellow cloth on the top shelf. Put watches on a shelf."
+            }
         },
         {
             "task_list":[
+                "Put the cup with the pen inside on the nightstand",
+                "put a gray rag on the shelf",
                 "Move a CD to the desk cubby area",
-                "Collect each cell phone and put them on the desk.",
-                "Place a paddle on a bed.",
-                "Put the cup with the pen inside on the nightstand"
+                "move watch from table to desk"
             ],
             "orign":[
                 [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json",
                     "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json"
+                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190912_074626_851427/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the cup with the pen inside on the nightstand. Simultaneously, put a gray rag on the shelf. After placing the cup and rag, move a CD to the desk cubby area.",
+                "compose 2":"Move watch from table to desk. After moving the watch, put a gray rag on the shelf. Finally, put the cup with the pen inside on the nightstand.",
+                "compose 3":"Put the cup with the pen inside on the nightstand. Simultaneously, move a CD to the desk cubby area. After placing the cup and CD, move watch from table to desk."
+            }
         },
         {
             "task_list":[
-                "Move the watch to the desk.",
-                "Collect each cell phone and put them on the desk.",
-                "Move a cloth from the floor to a shelf.",
-                "To put a pen in a mug and put the mug on the night stand. "
+                "To put a pen in a mug and put the mug on the night stand. ",
+                "Put a CD on a desk shelf.",
+                "put a gray rag on the shelf",
+                "Place a bowl with a watch on a shelf."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190908_132712_949739/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031836_927615/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a CD on a desk shelf at any time. Simultaneously, put a gray rag on the shelf. After placing the CD and the rag, to put a pen in a mug and put the mug on the nightstand. Finally, place a bowl with a watch on a shelf.",
+                "compose 2":"Put a CD on a desk shelf at any time. Simultaneously, put a gray rag on the shelf. After placing the CD and the rag, place a bowl with a watch on a shelf. Subsequently, to put a pen in a mug and put the mug on the nightstand.",
+                "compose 3":"Put a gray rag on the shelf at any time. Simultaneously, put a CD on a desk shelf. After placing the rag and the CD, to put a pen in a mug and put the mug on the nightstand. Finally, place a bowl with a watch on a shelf."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "Put black and yellow cloth on the top shelf ",
+                "Put a CD on a desk shelf.",
                 "Move the baseball bat from floor to the bed",
-                "Put the watch in the bowl on the nightstand. ",
-                "Move to sell phones to the desk.",
+                "Move a cloth from the floor to a shelf.",
+                "Put a bowl with a watch in it on a shelf in a desk.",
                 "Put a mug with a pen in it on an end table."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Cloth-None-Shelf-326/trial_T20190908_112610_985576/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
                     "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231624_734464/traj_data.json",
-                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183137_838565/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031900_337236/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the baseball bat from the floor to the bed at any time. Simultaneously, put a CD on a desk shelf. After completing these tasks, move a cloth from the floor to a shelf.",
+                "compose 2":"Move a cloth from the floor to a shelf at any time. Put a bowl with a watch in it on a shelf in a desk. After completing these tasks, put a mug with a pen in it on an end table.",
+                "compose 3":"Put a bowl with a watch in it on a shelf in a desk at any time. Put a mug with a pen in it on an end table. After completing these tasks, move the baseball bat from the floor to the bed."
+            }
         },
         {
             "task_list":[
-                "Put a grey bowl with a watch in it on the end table.",
+                "Collect each cell phone and put them on the desk.",
+                "Place the CD under the desk.",
+                "Put the cup with the pen inside on the nightstand",
+                "Put the wrist watch on the desk ",
+                "Move the baseball bat from floor to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Shelf-326/trial_T20190908_173730_034983/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json",
+                    "tests_seen/trial_T20190912_074536_269191/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231624_734464/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Collect each cell phone and put them on the desk. Simultaneously, put the wrist watch on the desk. After placing the cell phones and watch, put the cup with the pen inside on the nightstand. Lastly, move the baseball bat from floor to the bed.",
+                "compose 2":"Move the baseball bat from floor to the bed at any time. Simultaneously, collect each cell phone and put them on the desk. After moving the baseball bat and placing the cell phones, put the wrist watch on the desk. Finally, put the cup with the pen inside on the nightstand.",
+                "compose 3":"Collect each cell phone and put them on the desk at any time. After placing the cell phones, put the wrist watch on the desk. Simultaneously, move the baseball bat from floor to the bed. Once the watch and bat are in place, put the cup with the pen inside on the nightstand."
+            }
+        },
+        {
+            "task_list":[
+                "Put black and yellow cloth on the top shelf ",
+                "move a disc from the desk to the  shelf",
                 "Collect each cell phone and put them on the desk.",
                 "To put a pen in a mug and put the mug on the night stand. ",
-                "put a gray rag on the shelf",
-                "move a disc from the desk to the  shelf"
+                "Put a bowl with a watch in it on the shelf. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183206_906995/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-326/trial_T20190908_112610_985576/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json",
                     "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_095324_531185/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put black and yellow cloth on the top shelf at any time. Simultaneously, collect each cell phone and put them on the desk. After putting the cloth and cell phones, move a disc from the desk to the shelf. Finally, put a pen in a mug and put the mug on the night stand.",
+                "compose 2":"Collect each cell phone and put them on the desk at any time. Simultaneously, put black and yellow cloth on the top shelf. After collecting the cell phones, move a disc from the desk to the shelf. Finally, put a bowl with a watch in it on the shelf.",
+                "compose 3":"Collect each cell phone and put them on the desk at any time. Simultaneously, move a disc from the desk to the shelf. After collecting the cell phones and moving the disc, put black and yellow cloth on the top shelf. Finally, put a pen in a mug and put the mug on the night stand."
+            }
         },
         {
             "task_list":[
-                "Place a paddle on a bed.",
                 "Collect each cell phone and put them on the desk.",
-                "Put the watch in the bowl on the nightstand. ",
-                "Move a CD to the desk cubby area",
-                "Put black and yellow cloth on the top shelf "
+                "Move a cloth from the floor to a shelf.",
+                "Put the wrist watch on the desk ",
+                "Put the cup with the pen inside on the nightstand",
+                "Place a paddle on a bed."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json",
                     "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
-                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183137_838565/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-Shelf-326/trial_T20190908_112610_985576/traj_data.json"
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json",
+                    "tests_seen/trial_T20190912_074536_269191/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a cloth from the floor to a shelf. Simultaneously, put the wrist watch on the desk. After moving the cloth and placing the watch, collect each cell phone and put them on the desk. Finally, put the cup with the pen inside on the nightstand.",
+                "compose 2":"Collect each cell phone and put them on the desk at any time. Simultaneously, put the wrist watch on the desk. After placing the phones and watch, move a cloth from the floor to a shelf. Finally, put the cup with the pen inside on the nightstand.",
+                "compose 3":"Place a paddle on a bed at any time. Simultaneously, put the wrist watch on the desk. After placing the paddle and watch, move a cloth from the floor to a shelf. Finally, collect each cell phone and put them on the desk."
+            }
         },
         {
             "task_list":[
-                "Put a CD on a desk shelf.",
-                "Place a paddle on a bed.",
-                "Collect each cell phone and put them on the desk.",
-                "Put a bowl with a watch in it on the shelf. ",
-                "Move a cloth from the floor to a shelf."
+                "To put a pen in a mug and put the mug on the night stand. ",
+                "Put black and yellow cloth on the top shelf ",
+                "Put a grey bowl with a watch in it on the end table.",
+                "Put a metal metal bat on the bed. ",
+                "Place the CD under the desk."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_095324_531185/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-326/trial_T20190908_112610_985576/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183206_906995/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231607_829277/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Shelf-326/trial_T20190908_173730_034983/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a CD on a desk shelf.",
-                "Put a mug with a pen in it on an end table.",
-                "Collect each cell phone and put them on the desk.",
-                "move watch from table to desk",
-                "put a gray rag on the shelf"
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190912_074626_851427/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a grey bowl with a watch in it on the end table at any time. Simultaneously, put black and yellow cloth on the top shelf. After placing the bowl, put a pen in a mug and put the mug on the night stand. Finally, place the CD under the desk.",
+                "compose 2":"Put black and yellow cloth on the top shelf at any time. Simultaneously, put a grey bowl with a watch in it on the end table. After placing the cloth, put a pen in a mug and put the mug on the night stand. Finally, place the CD under the desk.",
+                "compose 3":"Put a metal bat on the bed at any time. Simultaneously, put a pen in a mug and put the mug on the night stand. After placing the bat, put a grey bowl with a watch in it on the end table. Finally, place the CD under the desk."
+            }
         }
     ],
     "tasks_6":[
         {
             "task_list":[
-                "To put a pen in a mug and put the mug on the night stand. ",
-                "Move the baseball bat from floor to the bed",
-                "move a disc from the desk to the  shelf",
                 "Move a cloth from the floor to a shelf.",
-                "Place a bowl with a watch on a shelf.",
+                "Move a CD to the desk cubby area",
+                "Put a metal metal bat on the bed. ",
+                "move watch from table to desk",
+                "Collect each cell phone and put them on the desk.",
+                "Put a mug with a pen in it on an end table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231607_829277/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190912_074626_851427/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a CD to the desk cubby area at any time. Simultaneously, put a metal metal bat on the bed. After moving the CD and putting the bat on the bed, move a cloth from the floor to a shelf. Once these tasks are completed, collect each cell phone and put them on the desk. Finally, put a mug with a pen in it on an end table.",
+                "compose 2":"Collect each cell phone and put them on the desk at any time. Simultaneously, move a cloth from the floor to a shelf. After collecting the cell phones and moving the cloth, put a mug with a pen in it on an end table. Once these tasks are done, move a CD to the desk cubby area. Finally, put a metal metal bat on the bed.",
+                "compose 3":"Move a CD to the desk cubby area at any time. Simultaneously, move watch from table to desk. After moving the CD and the watch, collect each cell phone and put them on the desk. Once these tasks are completed, move a cloth from the floor to a shelf. Finally, put a metal metal bat on the bed."
+            }
+        },
+        {
+            "task_list":[
+                "Put the cup with the pen inside on the nightstand",
+                "put a gray rag on the shelf",
+                "Place a paddle on a bed.",
+                "Put a bowl with a watch in it on a shelf in a desk.",
+                "Place the CD under the desk.",
                 "Collect each cell phone and put them on the desk."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json",
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231624_734464/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json",
-                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031836_927615/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125209_721051/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031900_337236/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Shelf-326/trial_T20190908_173730_034983/traj_data.json",
                     "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a bowl with a watch in it on the shelf. ",
-                "Put a mug with a pen in it on an end table.",
-                "put a gray rag on the shelf",
-                "Move to sell phones to the desk.",
-                "Move a CD to the desk cubby area",
-                "Place a paddle on a bed."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_095324_531185/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190908_050350_303115/traj_data.json",
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a gray rag on the shelf at any time. Simultaneously, place the CD under the desk.After placing the rag and CD, put the cup with the pen inside on the nightstand. Next, put a bowl with a watch in it on a shelf in a desk. Finally, place a paddle on a bed. Collect each cell phone and put them on the desk.",
+                "compose 2":"Put a gray rag on the shelf at any time. Simultaneously, place the CD under the desk. After placing the rag and CD, put the cup with the pen inside on the nightstand. Next, collect each cell phone and put them on the desk. Finally, place a paddle on a bed. Lastly, put a bowl with a watch in it on a shelf in a desk.",
+                "compose 3":"Put a gray rag on the shelf at any time. Simultaneously, place the CD under the desk. After placing the rag and CD, collect each cell phone and put them on the desk. Next, put the cup with the pen inside on the nightstand. Finally, place a paddle on a bed. Lastly, put a bowl with a watch in it on a shelf in a desk."
+            }
         },
         {
             "task_list":[
-                "Move to sell phones to the desk.",
-                "move a disc from the desk to the  shelf",
-                "Place a paddle on a bed.",
-                "move watch from table to desk",
-                "Put a mug with a pen in it on an end table.",
-                "Move a cloth from the floor to a shelf."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json",
-                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231637_967245/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190912_074626_851427/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move to sell phones to the desk.",
-                "Put a mug with a pen in it on an end table.",
-                "move a disc from the desk to the  shelf",
-                "Move the watch to the desk.",
                 "Move a cloth from the floor to a shelf.",
+                "Collect each cell phone and put them on the desk.",
+                "Place the CD under the desk.",
+                "Put the watch in the bowl on the nightstand. ",
+                "Put a mug with a pen in it on an end table.",
+                "Move the baseball bat from floor to the bed"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125916_920981/traj_data.json",
+                    "train/pick_two_obj_and_place-CD-None-Shelf-326/trial_T20190908_173730_034983/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-SideTable-326/trial_T20190907_183137_838565/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json",
+                    "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231624_734464/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Collect each cell phone and put them on the desk. Move a cloth from the floor to a shelf. Place the CD under the desk. Put the watch in the bowl on the nightstand. Put a mug with a pen in it on an end table. Move the baseball bat from floor to the bed.",
+                "compose 2":"Collect each cell phone and put them on the desk. Move a cloth from the floor to a shelf. Move the baseball bat from floor to the bed. Place the CD under the desk.Put a mug with a pen in it on an end table. Put the watch in the bowl on the nightstand.",
+                "compose 3":"Collect each cell phone and put them on the desk. Move a cloth from the floor to a shelf. Put a mug with a pen in it on an end table. Put the watch in the bowl on the nightstand. Place the CD under the desk. Move the baseball bat from floor to the bed."
+            }
+        },
+        {
+            "task_list":[
+                "Move to sell phones to the desk.",
+                "To put a pen in a mug and put the mug on the night stand. ",
+                "Put a CD on a desk shelf.",
+                "put a gray rag on the shelf",
+                "Place a bowl with a watch on a shelf.",
                 "Put a metal metal bat on the bed. "
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-CellPhone-None-DiningTable-326/trial_T20190907_125954_586140/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125443_890418/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_060853_032012/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-DiningTable-326/trial_T20190908_132712_949739/traj_data.json",
-                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122445_391995/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-SideTable-326/trial_T20190908_125007_338177/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Shelf-326/trial_T20190910_091735_839703/traj_data.json",
+                    "train/pick_and_place_simple-Cloth-None-Shelf-326/trial_T20190908_122510_549790/traj_data.json",
+                    "valid_seen/pick_and_place_with_movable_recep-Watch-Bowl-Shelf-326/trial_T20190909_031836_927615/traj_data.json",
                     "train/pick_and_place_simple-BaseballBat-None-Bed-326/trial_T20190906_231607_829277/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move to sell phones to the desk. Simultaneously, put a CD on a desk shelf. After putting the CD, put a gray rag on the shelf. Finally, place a bowl with a watch on a shelf.",
+                "compose 2":"Put a pen in a mug and put the mug on the nightstand at any time. Simultaneously, put a gray rag on the shelf. After putting the pen and mug, place a bowl with a watch on a shelf.",
+                "compose 3":"Put a metal bat on the bed at any time. Simultaneously, put a CD on a desk shelf. After putting the bat, put a pen in a mug and put the mug on the nightstand. Finally, place a bowl with a watch on a shelf."
+            }
         }
     ],
     "tasks_7":[],

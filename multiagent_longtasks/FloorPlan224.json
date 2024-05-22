@@ -8,8 +8,8 @@
                 "put box on living room chair"
             ],
             "relative_objects":[
-                "Chair",
-                "Box"
+                "Box",
+                "Chair"
             ]
         },
         "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json":{
@@ -57,8 +57,8 @@
                 "With a phone in hand turn on the lamp."
             ],
             "relative_objects":[
-                "Vase",
-                "CellPhone"
+                "CellPhone",
+                "Vase"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-224/trial_T20190909_033136_421246/traj_data.json":{
@@ -68,9 +68,9 @@
                 "turn on the lamp in corner of the room while holding some keys"
             ],
             "relative_objects":[
+                "KeyChain",
                 "RemoteControl",
-                "CellPhone",
-                "KeyChain"
+                "CellPhone"
             ]
         },
         "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json":{
@@ -83,16 +83,7 @@
         },
         "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json":{
             "tasks":[
-                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
-                "Move 2 sets of keys from a chair & TV stand to the right hand side of the sofa. "
-            ],
-            "relative_objects":[
-                "KeyChain"
-            ]
-        },
-        "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015731_474534/traj_data.json":{
-            "tasks":[
-                "Move 2 sets of keys from 2 different rooms to the couch in the blue room."
+                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa."
             ],
             "relative_objects":[
                 "KeyChain"
@@ -112,9 +103,9 @@
                 "Gather up the newspapers in the living room and place them in a drawer"
             ],
             "relative_objects":[
+                "Drawer",
                 "Dresser",
-                "Newspaper",
-                "Drawer"
+                "Newspaper"
             ]
         },
         "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json":{
@@ -124,8 +115,8 @@
                 "Move a newspaper from a dresser to a black couch."
             ],
             "relative_objects":[
-                "Newspaper",
-                "Laptop"
+                "Laptop",
+                "Newspaper"
             ]
         },
         "tests_seen/trial_T20190909_033231_419824/traj_data.json":{
@@ -145,39 +136,29 @@
                 "Turning on a lamp."
             ],
             "relative_objects":[
-                "CellPhone",
-                "FloorLamp"
+                "FloorLamp",
+                "CellPhone"
             ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "Gather up the newspapers in the living room and place them in a drawer"
+                "Place a newspaper on a couch."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json"
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Examine a cell phone by the light of a floor lamp."
+                "To put an empty box on the couch by the fireplace"
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190907_144205_767755/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a cell phone by the light of a floor lamp."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190907_144205_767755/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json"
                 ]
             ]
         },
@@ -193,11 +174,21 @@
         },
         {
             "task_list":[
-                "Examine a remote in the lamp light."
+                "Turn on the lamp while holding a cell phone."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json"
+                    "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move the phones to the sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json"
                 ]
             ]
         }
@@ -205,411 +196,511 @@
     "tasks_2":[
         {
             "task_list":[
-                "Place a newspaper on a couch.",
-                "Look at some keys under a lit tall lamp."
-            ],
-            "orign":[
-                [
-                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-224/trial_T20190909_033136_421246/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move the keys to the couch.",
-                "Examine a remote in the lamp light."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Move the phones to the sofa.",
-                "Place a newspaper on a couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
-                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a remote in the lamp light.",
-                "Place a newspaper on a couch."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json",
-                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a remote in the lamp light.",
-                "Examine a key chain by the light of a floor lamp."
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json",
-                    "tests_seen/trial_T20190909_033231_419824/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_3":[
-        {
-            "task_list":[
-                "Move 2 sets of keys from 2 different rooms to the couch in the blue room.",
-                "To put an empty box on the couch by the fireplace",
-                "Move the bowls from the mantle to the cabinet."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015731_474534/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move the keys to the couch.",
-                "Gather up the newspapers in the living room and place them in a drawer",
-                "Examine a cell phone by the light of a floor lamp."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
-                    "tests_seen/trial_T20190907_144205_767755/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To put an empty box on the couch by the fireplace",
-                "Move the phones to the sofa.",
-                "To move the keys to the couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a box on a chair.",
-                "Examine a remote in the lamp light.",
-                "Turn on the lamp while holding a cell phone."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json",
-                    "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Gather up the newspapers in the living room and place them in a drawer",
-                "Look at some keys under a lit tall lamp.",
-                "Place a box on a chair."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-224/trial_T20190909_033136_421246/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Examine a key chain by the light of a floor lamp.",
-                "Examine a remote in the lamp light.",
-                "To put an empty box on the couch by the fireplace",
-                "Move the bowls from the mantle to the cabinet."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190909_033231_419824/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the bowls from the mantle to the cabinet.",
-                "Examine the remote under the light of the lamp",
-                "Gather up the newspapers in the living room and place them in a drawer",
-                "Examine a key chain by the light of a floor lamp."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
-                    "tests_seen/trial_T20190909_033231_419824/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move 2 sets of keys from 2 different rooms to the couch in the blue room.",
-                "Place a box on a chair.",
-                "Move the bowls from the mantle to the cabinet.",
-                "Examine the remote under the light of the lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015731_474534/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move the keys to the couch.",
-                "Examine a cell phone by the light of a floor lamp.",
-                "Gather up the newspapers in the living room and place them in a drawer",
-                "Place a box on a chair."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json",
-                    "tests_seen/trial_T20190907_144205_767755/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move the keys to the couch.",
-                "Gather up the newspapers in the living room and place them in a drawer",
-                "Move the bowls from the mantle to the cabinet.",
-                "Move the phones to the sofa."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_5":[
-        {
-            "task_list":[
-                "Move the phones to the sofa.",
-                "Move the bowls from the mantle to the cabinet.",
-                "Place a newspaper on a couch.",
-                "Move 2 sets of keys from 2 different rooms to the couch in the blue room.",
                 "To put an empty box on the couch by the fireplace"
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
-                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015731_474534/traj_data.json",
                     "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a box on a chair.",
-                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
-                "Examine the remote under the light of the lamp",
-                "Move the bowls from the mantle to the cabinet.",
-                "Gather up the newspapers in the living room and place them in a drawer"
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move the phones to the sofa at any time. Simultaneously, put an empty box on the couch by the fireplace.",
+                "compose 2":"Put an empty box on the couch by the fireplace at any time. After putting the box, move the phones to the sofa.",
+                "compose 3":"Move the phones to the sofa at any time. After moving the phones, put an empty box on the couch by the fireplace."
+            }
         },
         {
             "task_list":[
-                "Examine the remote under the light of the lamp",
-                "To move the keys to the couch.",
                 "To put an empty box on the couch by the fireplace",
-                "Examine a cell phone by the light of a floor lamp.",
                 "Move the bowls from the mantle to the cabinet."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json",
                     "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
-                    "tests_seen/trial_T20190907_144205_767755/traj_data.json",
                     "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the bowls from the mantle to the cabinet at any time. After moving the bowls, put an empty box on the couch by the fireplace.",
+                "compose 2":"Put an empty box on the couch by the fireplace at any time. Simultaneously, move the bowls from the mantle to the cabinet.",
+                "compose 3":"Move the bowls from the mantle to the cabinet at any time. After moving the bowls, put an empty box on the couch by the fireplace."
+            }
         },
         {
             "task_list":[
-                "Examine a remote in the lamp light.",
-                "Examine a key chain by the light of a floor lamp.",
-                "To put an empty box on the couch by the fireplace",
-                "Move the phones to the sofa.",
-                "Gather up the newspapers in the living room and place them in a drawer"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json",
-                    "tests_seen/trial_T20190909_033231_419824/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the phones to the sofa.",
-                "Examine the remote under the light of the lamp",
-                "Place a newspaper on a couch.",
-                "Place a box on a chair.",
-                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
-                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_6":[
-        {
-            "task_list":[
-                "Move the bowls from the mantle to the cabinet.",
-                "Move the phones to the sofa.",
-                "Move 2 sets of keys from 2 different rooms to the couch in the blue room.",
-                "Examine the remote under the light of the lamp",
-                "To put an empty box on the couch by the fireplace",
-                "Place a newspaper on a couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015731_474534/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
-                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a key chain by the light of a floor lamp.",
-                "To put an empty box on the couch by the fireplace",
-                "Move the bowls from the mantle to the cabinet.",
-                "Examine a remote in the lamp light.",
-                "Gather up the newspapers in the living room and place them in a drawer",
-                "Examine a cell phone by the light of a floor lamp."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190909_033231_419824/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
-                    "tests_seen/trial_T20190907_144205_767755/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the bowls from the mantle to the cabinet.",
-                "Examine a cell phone by the light of a floor lamp.",
-                "To move the keys to the couch.",
-                "To put an empty box on the couch by the fireplace",
                 "Gather up the newspapers in the living room and place them in a drawer",
                 "Examine the remote under the light of the lamp"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
-                    "tests_seen/trial_T20190907_144205_767755/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
                     "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the remote under the light of the lamp. Gather up the newspapers in the living room and place them in a drawer.",
+                "compose 2":"Gather up the newspapers in the living room and place them in a drawer. Examine the remote under the light of the lamp.",
+                "compose 3":"Examine the remote under the light of the lamp. Gather up the newspapers in the living room and place them in a drawer."
+            }
+        },
+        {
+            "task_list":[
+                "To move the keys to the couch.",
+                "Turn on the lamp while holding a cell phone."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015657_698925/traj_data.json",
+                    "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Turn on the lamp while holding a cell phone. After turning on the lamp, move the keys to the couch.",
+                "compose 2":"Move the keys to the couch at any time. Simultaneously, turn on the lamp while holding a cell phone.",
+                "compose 3":"Move the keys to the couch at any time. After moving the keys, turn on the lamp while holding a cell phone."
+            }
+        },
+        {
+            "task_list":[
+                "Gather up the newspapers in the living room and place them in a drawer",
+                "Examine a remote in the lamp light."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather up the newspapers in the living room and place them in a drawer. Examine a remote in the lamp light.",
+                "compose 2":"Examine a remote in the lamp light. Gather up the newspapers in the living room and place them in a drawer.",
+                "compose 3":"Gather up the newspapers in the living room and place them in a drawer. Examine a remote in the lamp light."
+            }
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Place a newspaper on a couch.",
+                "Place a box on a chair.",
+                "Turn on the lamp while holding a cell phone."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
+                    "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a newspaper on a couch at any time. Simultaneously, place a box on a chair. After placing the newspaper and the box, turn on the lamp while holding a cell phone.",
+                "compose 2":"Turn on the lamp while holding a cell phone. Place a newspaper on a couch. After turning on the lamp, place a box on a chair.",
+                "compose 3":"Turn on the lamp while holding a cell phone. Place a box on a chair at any time. After placing the box, place a newspaper on a couch."
+            }
+        },
+        {
+            "task_list":[
+                "Gather up the newspapers in the living room and place them in a drawer",
+                "Turn on the lamp while holding a cell phone.",
+                "To put an empty box on the couch by the fireplace"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
+                    "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather up the newspapers in the living room and place them in a drawer at any time. Simultaneously, turn on the lamp while holding a cell phone. After completing the previous tasks, put an empty box on the couch by the fireplace.",
+                "compose 2":"Turn on the lamp while holding a cell phone at any time. Simultaneously, gather up the newspapers in the living room and place them in a drawer. After turning on the lamp and placing the newspapers, put an empty box on the couch by the fireplace.",
+                "compose 3":"To put an empty box on the couch by the fireplace at any time. Simultaneously, gather up the newspapers in the living room and place them in a drawer. After completing the previous tasks, turn on the lamp while holding a cell phone."
+            }
+        },
+        {
+            "task_list":[
+                "Move the phones to the sofa.",
+                "To put an empty box on the couch by the fireplace",
+                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the phones to the sofa and place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. After moving the phones and placing the keys, put an empty box on the couch by the fireplace.",
+                "compose 2":"Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Simultaneously, move the phones to the sofa. After placing the keys and moving the phones, put an empty box on the couch by the fireplace.",
+                "compose 3":"Move the phones to the sofa. Put an empty box on the couch by the fireplace. After moving the phones, place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Gather up the newspapers in the living room and place them in a drawer",
+                "To put an empty box on the couch by the fireplace",
+                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather up the newspapers in the living room and place them in a drawer at any time. To put an empty box on the couch by the fireplace. After completing these tasks, place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "compose 2":"To put an empty box on the couch by the fireplace at any time. Simultaneously, gather up the newspapers in the living room and place them in a drawer. After completing these tasks, place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "compose 3":"Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa at any time. Simultaneously, gather up the newspapers in the living room and place them in a drawer. To put an empty box on the couch by the fireplace."
+            }
+        },
+        {
+            "task_list":[
+                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "Place a box on a chair.",
+                "Gather up the newspapers in the living room and place them in a drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa at any time. Simultaneously, place a box on a chair. After placing the keys and box, gather up the newspapers in the living room and place them in a drawer.",
+                "compose 2":"Place a box on a chair at any time. Simultaneously, place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. After placing the box and keys, gather up the newspapers in the living room and place them in a drawer.",
+                "compose 3":"Gather up the newspapers in the living room and place them in a drawer at any time. Simultaneously, place a box on a chair. After placing the newspapers and box, place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Examine the remote under the light of the lamp",
+                "Turn on the lamp while holding a cell phone.",
+                "Examine a key chain by the light of a floor lamp.",
+                "To put an empty box on the couch by the fireplace"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
+                    "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json",
+                    "tests_seen/trial_T20190909_033231_419824/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the remote under the light of the lamp at any time. Simultaneously, turn on the lamp while holding a cell phone. After examining the remote and turning on the lamp, examine a key chain by the light of a floor lamp. Once done, put an empty box on the couch by the fireplace.",
+                "compose 2":"Turn on the lamp while holding a cell phone at any time. Simultaneously, examine a key chain by the light of a floor lamp. After turning on the lamp and examining the key chain, examine the remote under the light of the lamp. Once done, put an empty box on the couch by the fireplace.",
+                "compose 3":"Examine a key chain by the light of a floor lamp at any time. Simultaneously, turn on the lamp while holding a cell phone. After examining the key chain and turning on the lamp, examine the remote under the light of the lamp. Once done, put an empty box on the couch by the fireplace."
+            }
+        },
+        {
+            "task_list":[
+                "Examine the remote under the light of the lamp",
+                "Place a newspaper on a couch.",
+                "Examine a key chain by the light of a floor lamp.",
+                "Move the phones to the sofa."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
+                    "tests_seen/trial_T20190909_033231_419824/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the remote under the light of the lamp at any time. Simultaneously, place a newspaper on a couch. After examining the remote, move the phones to the sofa. Finally, examine a key chain by the light of a floor lamp.",
+                "compose 2":"Place a newspaper on a couch at any time. Simultaneously, examine the remote under the light of the lamp. After placing the newspaper, move the phones to the sofa. Finally, examine a key chain by the light of a floor lamp.",
+                "compose 3":"Examine a key chain by the light of a floor lamp at any time. Simultaneously, move the phones to the sofa. After examining the key chain, place a newspaper on a couch. Finally, examine the remote under the light of the lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Place a newspaper on a couch.",
+                "Move the bowls from the mantle to the cabinet.",
+                "Move the phones to the sofa.",
+                "Place a box on a chair."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a newspaper on a couch at any time. Simultaneously, move the bowls from the mantle to the cabinet. After placing the newspaper and moving the bowls, place a box on a chair. Finally, move the phones to the sofa.",
+                "compose 2":"Move the bowls from the mantle to the cabinet first. Then, place a newspaper on a couch at any time. After that, place a box on a chair. Lastly, move the phones to the sofa.",
+                "compose 3":"Place a box on a chair at any time. Simultaneously, move the phones to the sofa. After placing the box and moving the phones, place a newspaper on a couch. Finally, move the bowls from the mantle to the cabinet."
+            }
+        },
+        {
+            "task_list":[
+                "Look at some keys under a lit tall lamp.",
+                "To put an empty box on the couch by the fireplace",
+                "Place a newspaper on a couch.",
+                "Move the bowls from the mantle to the cabinet."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-224/trial_T20190909_033136_421246/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Look at some keys under a lit tall lamp at any time. Simultaneously, place a newspaper on a couch. After looking at the keys and placing the newspaper, move the bowls from the mantle to the cabinet.",
+                "compose 2":"To put an empty box on the couch by the fireplace at any time. Simultaneously, look at some keys under a lit tall lamp. After putting the box and looking at the keys, place a newspaper on a couch. Finally, move the bowls from the mantle to the cabinet.",
+                "compose 3":"Move the bowls from the mantle to the cabinet at any time. Simultaneously, look at some keys under a lit tall lamp. After moving the bowls, place a newspaper on a couch."
+            }
+        },
+        {
+            "task_list":[
+                "Place a box on a chair.",
+                "Examine the remote under the light of the lamp",
+                "Move the bowls from the mantle to the cabinet.",
+                "Gather up the newspapers in the living room and place them in a drawer"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a box on a chair at any time. Simultaneously, examine the remote under the light of the lamp. After examining the remote, move the bowls from the mantle to the cabinet. Finally, gather up the newspapers in the living room and place them in a drawer.",
+                "compose 2":"Examine the remote under the light of the lamp at any time. Simultaneously, gather up the newspapers in the living room and place them in a drawer. After examining the remote and placing the newspapers, move the bowls from the mantle to the cabinet. Finally, place a box on a chair.",
+                "compose 3":"Move the bowls from the mantle to the cabinet at any time. Simultaneously, gather up the newspapers in the living room and place them in a drawer. After moving the bowls and placing the newspapers, place a box on a chair. Finally, examine the remote under the light of the lamp."
+            }
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Gather up the newspapers in the living room and place them in a drawer",
+                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "Place a box on a chair.",
+                "Examine the remote under the light of the lamp",
+                "Turn on the lamp while holding a cell phone."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
+                    "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather up the newspapers in the living room and place them in a drawer. Place a box on a chair. Examine the remote under the light of the lamp while holding a cell phone. Turn on the lamp while holding a cell phone. Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "compose 2":"Gather up the newspapers in the living room and place them in a drawer. Examine the remote under the light of the lamp. Turn on the lamp while holding a cell phone. Place a box on a chair. Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "compose 3":"Gather up the newspapers in the living room and place them in a drawer. Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Examine the remote under the light of the lamp while holding a cell phone. Turn on the lamp while holding a cell phone. Place a box on a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Examine a cell phone by the light of a floor lamp.",
+                "Gather up the newspapers in the living room and place them in a drawer",
+                "To put an empty box on the couch by the fireplace",
+                "Move the bowls from the mantle to the cabinet.",
+                "Examine the remote under the light of the lamp"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_144205_767755/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a cell phone by the light of a floor lamp. Once done, gather up the newspapers in the living room and place them in a drawer.Finally, move the bowls from the mantle to the cabinet.",
+                "compose 2":"To put an empty box on the couch by the fireplace, start by examining the remote under the light of the lamp. After that, move the bowls from the mantle to the cabinet.",
+                "compose 3":"Examine a cell phone by the light of a floor lamp and examine the remote under the light of the lamp. Once done, to put an empty box on the couch by the fireplace and gather up the newspapers in the living room and place them in a drawer."
+            }
+        },
+        {
+            "task_list":[
+                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "Place a box on a chair.",
+                "Move the bowls from the mantle to the cabinet.",
+                "Place a newspaper on a couch.",
+                "Examine the remote under the light of the lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Subsequently, place a box on a chair. Finally, move the bowls from the mantle to the cabinet.",
+                "compose 2":"Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Simultaneously, place a newspaper on a couch. Once that is done, move the bowls from the mantle to the cabinet.",
+                "compose 3":"Examine the remote under the light of the lamp before placing a newspaper on a couch. Once that is done, place a box on a chair and then move the bowls from the mantle to the cabinet."
+            }
+        },
+        {
+            "task_list":[
+                "Turn on the lamp while holding a cell phone.",
+                "Place a newspaper on a couch.",
+                "Examine a remote in the lamp light.",
+                "Place a box on a chair.",
+                "Examine a key chain by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CellPhone-None-FloorLamp-224/trial_T20190907_144317_975972/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
+                    "tests_seen/trial_T20190909_033231_419824/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a box on a chair. After placing the box, turn on the lamp while holding a cell phone. Examine a remote in the lamp light. Place a newspaper on a couch. Finally, examine a key chain by the light of a floor lamp.",
+                "compose 2":"Place a newspaper on a couch. Turn on the lamp while holding a cell phone. Examine a remote in the lamp light. Place a box on a chair. Finally, examine a key chain by the light of a floor lamp.",
+                "compose 3":"Examine a remote in the lamp light. Turn on the lamp while holding a cell phone. Place a newspaper on a couch. Place a box on a chair. Finally, examine a key chain by the light of a floor lamp."
+            }
         },
         {
             "task_list":[
                 "Examine a key chain by the light of a floor lamp.",
-                "Gather up the newspapers in the living room and place them in a drawer",
-                "To put an empty box on the couch by the fireplace",
+                "Place a newspaper on a couch.",
+                "Place a box on a chair.",
                 "Examine a cell phone by the light of a floor lamp.",
-                "Examine the remote under the light of the lamp",
-                "Move the bowls from the mantle to the cabinet."
+                "Examine a remote in the lamp light."
             ],
             "orign":[
                 [
                     "tests_seen/trial_T20190909_033231_419824/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
                     "tests_seen/trial_T20190907_144205_767755/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a key chain by the light of a floor lamp. Place a newspaper on a couch. Place a box on a chair. Examine a cell phone by the light of a floor lamp. Simultaneously, examine a remote in the lamp light.",
+                "compose 2":"Place a newspaper on a couch. Examine a key chain by the light of a floor lamp. Simultaneously, examine a cell phone by the light of a floor lamp. Place a box on a chair. After examining the cell phone and key chain, examine a remote in the lamp light.",
+                "compose 3":"Examine a key chain by the light of a floor lamp. Examine a cell phone by the light of a floor lamp. Simultaneously, place a newspaper on a couch. Place a box on a chair. After examining the key chain and cell phone, examine a remote in the lamp light."
+            }
+        }
+    ],
+    "tasks_6":[
+        {
+            "task_list":[
+                "Examine the remote under the light of the lamp",
+                "Place a box on a chair.",
+                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "Move the phones to the sofa.",
+                "Gather up the newspapers in the living room and place them in a drawer",
+                "Move the bowls from the mantle to the cabinet."
+            ],
+            "orign":[
+                [
                     "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
                     "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the remote under the light of the lamp at any time. Simultaneously, move the phones to the sofa. After examining the remote and moving the phones, gather up the newspapers in the living room and place them in a drawer. Then, place a box on a chair. Finally, place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Move the bowls from the mantle to the cabinet.",
+                "compose 2":"Move the phones to the sofa at any time. Simultaneously, gather up the newspapers in the living room and place them in a drawer. Then, place a box on a chair. After moving the phones and placing the box, examine the remote under the light of the lamp. Finally, place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Move the bowls from the mantle to the cabinet.",
+                "compose 3":"Gather up the newspapers in the living room and place them in a drawer at any time. Simultaneously, move the bowls from the mantle to the cabinet. After placing the newspapers and the bowls, place a box on a chair. Then, examine the remote under the light of the lamp. Finally, move the phones to the sofa. Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa."
+            }
+        },
+        {
+            "task_list":[
+                "To put an empty box on the couch by the fireplace",
+                "Gather up the newspapers in the living room and place them in a drawer",
+                "Move the phones to the sofa.",
+                "Examine the remote under the light of the lamp",
+                "Move the bowls from the mantle to the cabinet.",
+                "Examine a key chain by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-224/trial_T20190918_223149_385351/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
+                    "tests_seen/trial_T20190909_033231_419824/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put an empty box on the couch by the fireplace. Simultaneously, gather up the newspapers in the living room and place them in a drawer. After finishing those tasks, move the phones to the sofa.",
+                "compose 2":"Move the bowls from the mantle to the cabinet. Simultaneously, examine the remote under the light of the lamp. After completing these tasks, examine a key chain by the light of a floor lamp.",
+                "compose 3":"Move the phones to the sofa. Then, put an empty box on the couch by the fireplace. After that, gather up the newspapers in the living room and place them in a drawer."
+            }
         },
         {
             "task_list":[
                 "Gather up the newspapers in the living room and place them in a drawer",
-                "To put an empty box on the couch by the fireplace",
-                "Examine the remote under the light of the lamp",
-                "Examine a cell phone by the light of a floor lamp.",
                 "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "Examine a cell phone by the light of a floor lamp.",
+                "Examine the remote under the light of the lamp",
+                "Place a box on a chair.",
                 "Move the bowls from the mantle to the cabinet."
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-Newspaper-None-Drawer-224/trial_T20190911_101119_501414/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
-                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
-                    "tests_seen/trial_T20190907_144205_767755/traj_data.json",
                     "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json",
+                    "tests_seen/trial_T20190907_144205_767755/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231644_130492/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190909_153558_301425/traj_data.json",
                     "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a cell phone by the light of a floor lamp at any time. Simultaneously, examine the remote under the light of the lamp.After examining the cell phone and remote, gather up the newspapers in the living room and place them in a drawer. Next, move the bowls from the mantle to the cabinet. Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Lastly, place a box on a chair.",
+                "compose 2":"Examine a cell phone by the light of a floor lamp at any time. Simultaneously, examine the remote under the light of the lamp. After examining the cell phone and remote, move the bowls from the mantle to the cabinet. Gather up the newspapers in the living room and place them in a drawer. Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Lastly, place a box on a chair.",
+                "compose 3":"Examine a cell phone by the light of a floor lamp at any time. Simultaneously, place a box on a chair.After examining the cell phone and placing the box on the chair, gather up the newspapers in the living room and place them in a drawer. Next, examine the remote under the light of the lamp. Move the bowls from the mantle to the cabinet. Lastly, place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa.",
+                "Examine a remote in the lamp light.",
+                "Place a newspaper on a couch.",
+                "To put an empty box on the couch by the fireplace",
+                "Move the bowls from the mantle to the cabinet.",
+                "Examine a cell phone by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Sofa-224/trial_T20190908_015957_043071/traj_data.json",
+                    "train/look_at_obj_in_light-RemoteControl-None-FloorLamp-224/trial_T20190906_231623_233083/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Newspaper-None-Sofa-224/trial_T20190909_111324_949106/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-RemoteControl-Box-ArmChair-224/trial_T20190911_041655_093014/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-SideTable-224/trial_T20190908_013733_165182/traj_data.json",
+                    "tests_seen/trial_T20190907_144205_767755/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. After placing the keys on the sofa, examine a remote in the lamp light. Finally, place a newspaper on a couch.",
+                "compose 2":"Move the bowls from the mantle to the cabinet. After moving the bowls, put an empty box on the couch by the fireplace. Then, examine a cell phone by the light of a floor lamp.",
+                "compose 3":"Place one set of keys from the brown chair along with the other set from the tv stand on to the long grey sofa. Simultaneously, move the bowls from the mantle to the cabinet. After completing these tasks, examine a remote in the lamp light and place a newspaper on a couch. Finally, put an empty box on the couch by the fireplace and examine a cell phone by the light of a floor lamp."
+            }
         }
     ],
     "tasks_7":[],

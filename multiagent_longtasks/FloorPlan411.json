@@ -16,8 +16,8 @@
                 "Put a rinsed cloth on the toilet."
             ],
             "relative_objects":[
-                "ToiletPaper",
                 "Toilet",
+                "ToiletPaper",
                 "Cloth"
             ]
         },
@@ -28,8 +28,8 @@
                 "Place a clean cloth on top of the toilet."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -40,13 +40,13 @@
                 "Move a cleaned washcloth to the back of the toilet tank."
             ],
             "relative_objects":[
-                "HandTowel",
+                "SoapBottle",
                 "Towel",
-                "Cloth",
-                "ScrubBrush",
                 "SoapBar",
                 "Plunger",
-                "SoapBottle"
+                "HandTowel",
+                "ScrubBrush",
+                "Cloth"
             ]
         },
         "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093518_959671/traj_data.json":{
@@ -56,9 +56,9 @@
                 "Place a candle in a drawer"
             ],
             "relative_objects":[
+                "Drawer",
                 "Candle",
-                "Sink",
-                "Drawer"
+                "Sink"
             ]
         },
         "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093542_770989/traj_data.json":{
@@ -100,10 +100,10 @@
                 "wash the cloth from the tub, put it back in the tub"
             ],
             "relative_objects":[
-                "SoapBottle",
                 "Towel",
-                "Cloth",
-                "SoapBar"
+                "SoapBottle",
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-411/trial_T20190907_033311_020938/traj_data.json":{
@@ -124,9 +124,9 @@
                 "Rinse off the bar of soap."
             ],
             "relative_objects":[
-                "Towel",
                 "SprayBottle",
-                "SoapBar"
+                "SoapBar",
+                "Towel"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-411/trial_T20190908_103036_548485/traj_data.json":{
@@ -147,8 +147,8 @@
                 "Place a rinsed bar of soap on a toilet tank."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "SoapBar"
             ]
         },
@@ -170,8 +170,8 @@
                 "Put a pump bottle in a bin."
             ],
             "relative_objects":[
-                "SprayBottle",
-                "SoapBottle"
+                "SoapBottle",
+                "SprayBottle"
             ]
         },
         "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-411/trial_T20190907_111029_579247/traj_data.json":{
@@ -229,9 +229,9 @@
                 "Put a clean cloth in a drawer."
             ],
             "relative_objects":[
-                "Cloth",
                 "SprayBottle",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202105_563647/traj_data.json":{
@@ -251,8 +251,8 @@
                 "Put a bottle on the back of a toilet."
             ],
             "relative_objects":[
-                "Toilet",
-                "SprayBottle"
+                "SprayBottle",
+                "Toilet"
             ]
         },
         "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110934_367159/traj_data.json":{
@@ -321,41 +321,41 @@
         },
         {
             "task_list":[
-                "take the spray bottle from the bathtub to the toilet"
+                "Move a candle to the drawer"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110956_758459/traj_data.json"
+                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093542_770989/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "move spray bottle from counter to back of toilet"
+                "place cleaned red rag on right side of toilet tank"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-411/trial_T20190908_011709_090359/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Rinse off a cloth and put it away in a drawer."
+                "Put the candle on the counter next to the tub. "
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202148_426436/traj_data.json"
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200827_470056/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a candle away in the right drawer under the sink. "
+                "Putting a soap dispenser in the trash can."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093518_959671/traj_data.json"
+                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-411/trial_T20190908_051601_537197/traj_data.json"
                 ]
             ]
         }
@@ -363,220 +363,342 @@
     "tasks_2":[
         {
             "task_list":[
-                "place a candle next to the bathtub",
-                "Clean a wash cloth in the sink and store it in a drawer"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200853_771692/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202223_569116/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Clean a wash cloth in the sink and store it in a drawer",
-                "Putting a soap dispenser in the trash can."
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202223_569116/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-411/trial_T20190908_051601_537197/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "place a candle next to the bathtub",
-                "Place a washed bar of soap in a bath tub."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200853_771692/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-411/trial_T20190907_033249_510159/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "take the spray bottle from the bathtub to the toilet",
-                "place a wet cloth inside the bath tub"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110956_758459/traj_data.json",
-                    "tests_seen/trial_T20190908_055559_130780/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a candle to the drawer",
+                "Putting soap bottles on a counter",
                 "take a spray bottle from the bathtub to the toilet"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093542_770989/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-411/trial_T20190907_111029_579247/traj_data.json",
                     "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110934_367159/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Take a spray bottle from the bathtub to the toilet at any time. Simultaneously, put soap bottles on a counter.",
+                "compose 2":"Put soap bottles on a counter at any time. After completing this task, take a spray bottle from the bathtub to the toilet.",
+                "compose 3":"Put soap bottles on a counter first. Then take a spray bottle from the bathtub to the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "Put a candle by the edge of a bath tub.",
+                "place cleaned red rag on right side of toilet tank"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200812_843662/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-411/trial_T20190908_011709_090359/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a candle by the edge of a bath tub at any time. Simultaneously, place cleaned red rag on the right side of the toilet tank.",
+                "compose 2":"Place cleaned red rag on the right side of the toilet tank first. After placing the rag, put a candle by the edge of the bath tub.",
+                "compose 3":"Put a candle by the edge of the bath tub at any time. Then, place cleaned red rag on the right side of the toilet tank."
+            }
+        },
+        {
+            "task_list":[
+                "Place rags in the drawer.",
+                "Put a candle away in the right drawer under the sink. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Cloth-None-Drawer-411/trial_T20190908_190008_902235/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093518_959671/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place rags in the drawer at any time. Put a candle away in the right drawer under the sink after placing the rags.",
+                "compose 2":"Put a candle away in the right drawer under the sink at any time. Place rags in the drawer after putting the candle away.",
+                "compose 3":"Place rags in the drawer at any time. Put a candle away in the right drawer under the sink."
+            }
+        },
+        {
+            "task_list":[
+                "move spray bottle from counter to back of toilet",
+                "Put the candle on the counter next to the tub. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200827_470056/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the spray bottle from the counter to the back of the toilet. After moving the spray bottle, put the candle on the counter next to the tub.",
+                "compose 2":"Put the candle on the counter next to the tub at any time. Simultaneously, move the spray bottle from the counter to the back of the toilet.",
+                "compose 3":"Put the candle on the counter next to the tub. After putting the candle, move the spray bottle from the counter to the back of the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "Putting a soap dispenser in the trash can.",
+                "take a spray bottle from the bathtub to the toilet"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-411/trial_T20190908_051601_537197/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110934_367159/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a soap dispenser in the trash can at any time. Simultaneously, take a spray bottle from the bathtub to the toilet.",
+                "compose 2":"Take a spray bottle from the bathtub to the toilet at any time. After that, put a soap dispenser in the trash can.",
+                "compose 3":"Put a soap dispenser in the trash can at any time. Then, take a spray bottle from the bathtub to the toilet."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Move a candle to the drawer",
-                "Place rags in the drawer.",
-                "move spray bottle from counter to back of toilet"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093542_770989/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-Drawer-411/trial_T20190908_190008_902235/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "clean up spray bottles and place them on the counter next to the tub",
-                "place cleaned red rag on right side of toilet tank",
-                "Put a candle away in the right drawer under the sink. "
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190909_044930_737199/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-411/trial_T20190908_011709_090359/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093518_959671/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the candle on the counter next to the tub. ",
-                "Rinse off a cloth and put it away in a drawer.",
-                "Place wet soap on the edge of the bathtub."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200827_470056/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202148_426436/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-411/trial_T20190907_033311_020938/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "clean up spray bottles and place them on the counter next to the tub",
-                "Put a clean rag in the drawer.",
+                "move spray bottle from counter to back of toilet",
+                "Place the wet napkin on the back of the toilet.",
                 "place a candle next to the bathtub"
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190909_044930_737199/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202105_563647/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-411/trial_T20190908_011620_868206/traj_data.json",
                     "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200853_771692/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the spray bottle from the counter to the back of the toilet. After moving the spray bottle, place the wet napkin on the back of the toilet. Finally, place a candle next to the bathtub.",
+                "compose 2":"Place a candle next to the bathtub at any time. Simultaneously, move the spray bottle from the counter to the back of the toilet. After placing the candle, move the wet napkin from the back of the toilet to the counter.",
+                "compose 3":"Place the wet napkin on the back of the toilet at any time. Simultaneously, place a candle next to the bathtub. After placing the napkin, move the spray bottle from the counter to the back of the toilet."
+            }
         },
         {
             "task_list":[
-                "Put a clean rag in the drawer.",
-                "Place wet soap on the edge of the bathtub.",
-                "move spray bottle from counter to back of toilet"
+                "take a spray bottle from the bathtub to the toilet",
+                "Put the candle on the counter next to the tub. ",
+                "Place wet soap on the edge of the bathtub."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202105_563647/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-411/trial_T20190907_033311_020938/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json"
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110934_367159/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200827_470056/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-411/trial_T20190907_033311_020938/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the candle on the counter next to the tub at any time. Simultaneously, take a spray bottle from the bathtub to the toilet. After putting the candle, place wet soap on the edge of the bathtub.",
+                "compose 2":"Take a spray bottle from the bathtub to the toilet at any time. Simultaneously, place wet soap on the edge of the bathtub. After taking the spray bottle, put the candle on the counter next to the tub.",
+                "compose 3":"Place wet soap on the edge of the bathtub at any time. Simultaneously, put the candle on the counter next to the tub. After placing the soap, take a spray bottle from the bathtub to the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "Put a candle by the edge of a bath tub.",
+                "Rinse off a cloth and put it away in a drawer.",
+                "Put the pump bottle in the garbage can. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200812_843662/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202148_426436/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-411/trial_T20190908_051545_764778/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a candle by the edge of a bath tub at any time. Simultaneously, rinse off a cloth and put it away in a drawer. After placing the candle and storing the cloth, put the pump bottle in the garbage can.",
+                "compose 2":"Put the pump bottle in the garbage can at any time. Simultaneously, put a candle by the edge of a bath tub and rinse off a cloth and put it away in a drawer.",
+                "compose 3":"Put a candle by the edge of a bath tub at any time. After placing the candle, rinse off a cloth and put it away in a drawer. After storing the cloth, put the pump bottle in the garbage can."
+            }
+        },
+        {
+            "task_list":[
+                "Rinse off a cloth and put it away in a drawer.",
+                "Put a candle by the edge of a bath tub.",
+                "take the spray bottle from the bathtub to the toilet"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202148_426436/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200812_843662/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110956_758459/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Rinse off a cloth and put it away in a drawer. After putting away the cloth, put a candle by the edge of a bath tub. Finally, take the spray bottle from the bathtub to the toilet.",
+                "compose 2":"Put a candle by the edge of a bath tub. Simultaneously, rinse off a cloth and put it away in a drawer. After putting away the cloth and placing the candle, take the spray bottle from the bathtub to the toilet.",
+                "compose 3":"Take the spray bottle from the bathtub to the toilet. Before that, put a candle by the edge of a bath tub. Once the candle is in place, rinse off a cloth and put it away in a drawer."
+            }
+        },
+        {
+            "task_list":[
+                "place a wet cloth inside the bath tub",
+                "place a candle next to the bathtub",
+                "Place wet soap on the edge of the bathtub."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_055559_130780/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200853_771692/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-411/trial_T20190907_033311_020938/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a wet cloth inside the bath tub at any time. Simultaneously, place a candle next to the bathtub. After placing the cloth and candle, put wet soap on the edge of the bathtub.",
+                "compose 2":"Place a wet cloth inside the bath tub at any time. Simultaneously, put wet soap on the edge of the bathtub. After placing the cloth and soap, place a candle next to the bathtub.",
+                "compose 3":"Place a candle next to the bathtub at any time. Simultaneously, put wet soap on the edge of the bathtub. After placing the candle and soap, place a wet cloth inside the bath tub."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "move spray bottle from counter to back of toilet",
-                "Place one red wet cloth in to the bath tub.",
-                "Put a wet bar of soap on the toilet.",
-                "Put a candle by the edge of a bath tub."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-411/trial_T20190908_055620_924624/traj_data.json",
-                    "tests_seen/trial_T20190908_102945_740809/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200812_843662/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place wet soap on the edge of the bathtub.",
-                "Put a candle by the edge of a bath tub.",
-                "Place rags in the drawer.",
-                "move spray bottle from counter to back of toilet"
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-411/trial_T20190907_033311_020938/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200812_843662/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-Drawer-411/trial_T20190908_190008_902235/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place one red wet cloth in to the bath tub.",
-                "Putting soap bottles on a counter",
-                "take a spray bottle from the bathtub to the toilet",
-                "Put the candle on the counter next to the tub. "
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-411/trial_T20190908_055620_924624/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-411/trial_T20190907_111029_579247/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110934_367159/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200827_470056/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move spray bottle from counter to back of toilet",
-                "Move a candle to the drawer",
-                "Place one red wet cloth in to the bath tub.",
-                "To wash the sink."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093542_770989/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-411/trial_T20190908_055620_924624/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-411/trial_T20190908_103036_548485/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Rinse off a cloth and put it away in a drawer.",
-                "To wash the sink.",
-                "clean up spray bottles and place them on the counter next to the tub",
-                "place a candle next to the bathtub"
+                "take a spray bottle from the bathtub to the toilet",
+                "Put a clean bar of soap on the toilet tank.",
+                "Put a candle away in the right drawer under the sink. "
             ],
             "orign":[
                 [
                     "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202148_426436/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-411/trial_T20190908_103036_548485/traj_data.json",
-                    "tests_seen/trial_T20190909_044930_737199/traj_data.json",
-                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200853_771692/traj_data.json"
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110934_367159/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-411/trial_T20190908_103011_090215/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093518_959671/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Rinse off a cloth and put it away in a drawer at any time. Simultaneously, put a clean bar of soap on the toilet tank. After putting away the cloth and soap, put a candle away in the right drawer under the sink.",
+                "compose 2":"Put a clean bar of soap on the toilet tank at any time. After putting the soap, rinse off a cloth and put it away in a drawer. Simultaneously, put a candle away in the right drawer under the sink.",
+                "compose 3":"Take a spray bottle from the bathtub to the toilet at any time. After moving the spray bottle, put a clean bar of soap on the toilet tank. Finally, rinse off a cloth and put it away in a drawer. Simultaneously, put a candle away in the right drawer under the sink."
+            }
+        },
+        {
+            "task_list":[
+                "place a candle next to the bathtub",
+                "Place one red wet cloth in to the bath tub.",
+                "Put a wet bar of soap on the toilet.",
+                "take the spray bottle from the bathtub to the toilet"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200853_771692/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-411/trial_T20190908_055620_924624/traj_data.json",
+                    "tests_seen/trial_T20190908_102945_740809/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110956_758459/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place one red wet cloth in to the bath tub at any time. Simultaneously, place a candle next to the bathtub. After placing the cloth and candle, put a wet bar of soap on the toilet. Finally, take the spray bottle from the bathtub to the toilet.",
+                "compose 2":"Place a candle next to the bathtub at any time. Simultaneously, put a wet bar of soap on the toilet. After placing the candle and soap, place one red wet cloth in to the bath tub. Finally, take the spray bottle from the bathtub to the toilet.",
+                "compose 3":"Put a wet bar of soap on the toilet at any time. Simultaneously, take the spray bottle from the bathtub to the toilet. After placing the soap and spray bottle, place a candle next to the bathtub. Finally, place one red wet cloth in to the bath tub."
+            }
+        },
+        {
+            "task_list":[
+                "Put a wet bar of soap on the toilet.",
+                "Put a candle by the edge of a bath tub.",
+                "Rinse off a cloth and put it away in a drawer.",
+                "Put the pump bottle in the garbage can. "
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_102945_740809/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200812_843662/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202148_426436/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-411/trial_T20190908_051545_764778/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a candle by the edge of a bath tub at any time. Simultaneously, put a wet bar of soap on the toilet.After putting the candle and soap, rinse off a cloth and put it away in a drawer.",
+                "compose 2":"Put a wet bar of soap on the toilet at any time. Simultaneously, rinse off a cloth and put it away in a drawer.After putting the soap and cloth, put the pump bottle in the garbage can.",
+                "compose 3":"Put a candle by the edge of a bath tub at any time. Simultaneously, put the pump bottle in the garbage can.After placing the candle, put a wet bar of soap on the toilet. "
+            }
+        },
+        {
+            "task_list":[
+                "Put a candle by the edge of a bath tub.",
+                "Put a clean rag in the drawer.",
+                "take the spray bottle from the bathtub to the toilet",
+                "Put a wet bar of soap on the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200812_843662/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202105_563647/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110956_758459/traj_data.json",
+                    "tests_seen/trial_T20190908_102945_740809/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a candle by the edge of a bath tub at any time. Simultaneously, put a clean rag in the drawer. After placing the candle and rag, take the spray bottle from the bathtub to the toilet. Finally, put a wet bar of soap on the toilet.",
+                "compose 2":"Put a candle by the edge of a bath tub at any time. Simultaneously, put a clean rag in the drawer. After placing the candle and rag, put a wet bar of soap on the toilet. Finally, take the spray bottle from the bathtub to the toilet.",
+                "compose 3":"Put a clean rag in the drawer at any time. Simultaneously, take the spray bottle from the bathtub to the toilet. After placing the rag and spray bottle, put a wet bar of soap on the toilet. Finally, put a candle by the edge of a bath tub."
+            }
+        },
+        {
+            "task_list":[
+                "Put a candle away in the right drawer under the sink. ",
+                "Putting soap bottles on a counter",
+                "Place rags in the drawer.",
+                "Put a clean bar of soap on the toilet tank."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-Drawer-411/trial_T20190909_093518_959671/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-411/trial_T20190907_111029_579247/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Drawer-411/trial_T20190908_190008_902235/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-411/trial_T20190908_103011_090215/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Putting soap bottles on a counter at any time. Simultaneously, put a candle away in the right drawer under the sink. After putting the soap bottles, place rags in the drawer. Lastly, put a clean bar of soap on the toilet tank.",
+                "compose 2":"Put a candle away in the right drawer under the sink at any time. Simultaneously, place rags in the drawer. After putting the candle away, putting soap bottles on a counter. Finally, put a clean bar of soap on the toilet tank.",
+                "compose 3":"Putting soap bottles on a counter at any time. Simultaneously, place rags in the drawer. After putting the soap bottles, put a clean bar of soap on the toilet tank. Lastly, put a candle away in the right drawer under the sink."
+            }
         }
     ],
-    "tasks_5":[],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put the candle on the counter next to the tub. ",
+                "move spray bottle from counter to back of toilet",
+                "Putting a soap dispenser in the trash can.",
+                "Rinse off a cloth and put it away in a drawer.",
+                "Put a wet bar of soap on the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200827_470056/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-411/trial_T20190909_110920_840864/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-GarbageCan-411/trial_T20190908_051601_537197/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202148_426436/traj_data.json",
+                    "tests_seen/trial_T20190908_102945_740809/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the candle on the counter next to the tub at any time. Move the spray bottle from the counter to the back of the toilet at any time. After moving the spray bottle, rinse off a cloth and put it away in a drawer. Finally, put a wet bar of soap on the toilet.",
+                "compose 2":"Put the candle on the counter next to the tub at any time. Rinse off a cloth and put it away in a drawer. Next, move the spray bottle from the counter to the back of the toilet. Once done, put a wet bar of soap on the toilet.",
+                "compose 3":"Put the candle on the counter next to the tub at any time. Putting a soap dispenser in the trash can. After putting the soap dispenser, move the spray bottle from the counter to the back of the toilet. Finally, put a wet bar of soap on the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "Putting soap bottles on a counter",
+                "clean up spray bottles and place them on the counter next to the tub",
+                "Put a clean bar of soap on the toilet tank.",
+                "Place rags in the drawer.",
+                "place a candle next to the bathtub"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-411/trial_T20190907_111029_579247/traj_data.json",
+                    "tests_seen/trial_T20190909_044930_737199/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Toilet-411/trial_T20190908_103011_090215/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Drawer-411/trial_T20190908_190008_902235/traj_data.json",
+                    "train/pick_and_place_simple-Candle-None-CounterTop-411/trial_T20190906_200853_771692/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Clean up spray bottles and place them on the counter next to the tub. Put a clean bar of soap on the toilet tank. Place rags in the drawer. Putting soap bottles on a counter. Place a candle next to the bathtub.",
+                "compose 2":"Place rags in the drawer. Clean up spray bottles and place them on the counter next to the tub. Putting soap bottles on a counter. Put a clean bar of soap on the toilet tank. Place a candle next to the bathtub.",
+                "compose 3":"Putting soap bottles on a counter. Clean up spray bottles and place them on the counter next to the tub. Put a clean bar of soap on the toilet tank. Place rags in the drawer. Place a candle next to the bathtub."
+            }
+        }
+    ],
     "tasks_6":[],
     "tasks_7":[],
     "tasks_8":[],

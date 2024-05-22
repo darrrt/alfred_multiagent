@@ -26,8 +26,8 @@
                 "Put a table on a bowl."
             ],
             "relative_objects":[
-                "Vase",
-                "Bowl"
+                "Bowl",
+                "Vase"
             ]
         },
         "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171756_784651/traj_data.json":{
@@ -38,8 +38,8 @@
             ],
             "relative_objects":[
                 "CoffeeTable",
-                "Bowl",
-                "SideTable"
+                "SideTable",
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192028_568473/traj_data.json":{
@@ -104,9 +104,9 @@
                 "Store the funnel in the box on the dining table."
             ],
             "relative_objects":[
-                "Vase",
                 "Laptop",
-                "Box"
+                "Box",
+                "Vase"
             ]
         },
         "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052921_753275/traj_data.json":{
@@ -116,8 +116,8 @@
                 "Put the yellow vase in the box"
             ],
             "relative_objects":[
-                "Vase",
-                "Box"
+                "Box",
+                "Vase"
             ]
         },
         "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_053028_584525/traj_data.json":{
@@ -128,10 +128,10 @@
                 "Put vase in box to put on table."
             ],
             "relative_objects":[
+                "Box",
                 "Plate",
-                "Vase",
                 "Bowl",
-                "Box"
+                "Vase"
             ]
         },
         "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-201/trial_T20190909_051356_394008/traj_data.json":{
@@ -153,8 +153,8 @@
             ],
             "relative_objects":[
                 "Pencil",
-                "Bowl",
-                "CoffeeTable"
+                "CoffeeTable",
+                "Bowl"
             ]
         },
         "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json":{
@@ -177,8 +177,8 @@
                 "Place a pen on a plate, place them on the middle shelf of coffee table"
             ],
             "relative_objects":[
-                "Pen",
-                "Plate"
+                "Plate",
+                "Pen"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165426_548095/traj_data.json":{
@@ -190,9 +190,9 @@
                 "Place a plate with a pen on it on a coffee table."
             ],
             "relative_objects":[
-                "Pen",
+                "CoffeeTable",
                 "Plate",
-                "CoffeeTable"
+                "Pen"
             ]
         },
         "valid_seen/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171639_045329/traj_data.json":{
@@ -202,22 +202,22 @@
                 "Move a bowl from the table to the coffee table"
             ],
             "relative_objects":[
-                "RemoteControl",
-                "Watch",
-                "TissueBox",
-                "Plate",
-                "Book",
-                "Pillow",
-                "Newspaper",
                 "Pencil",
-                "KeyChain",
-                "Pen",
-                "Vase",
-                "Box",
-                "Statue",
+                "Newspaper",
+                "Plate",
                 "CreditCard",
                 "Bowl",
-                "Laptop"
+                "Watch",
+                "RemoteControl",
+                "Laptop",
+                "Box",
+                "TissueBox",
+                "KeyChain",
+                "Book",
+                "Statue",
+                "Pillow",
+                "Vase",
+                "Pen"
             ]
         },
         "tests_seen/trial_T20190909_031943_191883/traj_data.json":{
@@ -235,51 +235,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "Place the watch on the table on a white plate."
+                "Put a cardboard box with a yellow vase inside of it on the glass table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190911_041620_392517/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_053028_584525/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put the pencil in the bowl on the coffee table."
+                "Move a bowl from a dining table to a coffee table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-201/trial_T20190908_021332_546301/traj_data.json"
+                    "valid_seen/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171639_045329/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a bowl with a credit card on the coffee table."
+                "Move a pencil and box to the table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192000_302714/traj_data.json"
+                    "tests_seen/trial_T20190909_031943_191883/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move some plates to the coffee table."
+                "Set the bowl on the coffee table."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Plate-None-CoffeeTable-201/trial_T20190918_172828_710071/traj_data.json"
+                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171714_885383/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move some plates to the coffee table."
+                "Move the bowl and the credit card to the coffee table."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Plate-None-CoffeeTable-201/trial_T20190918_172828_710071/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192028_568473/traj_data.json"
                 ]
             ]
         }
@@ -287,6 +287,40 @@
     "tasks_2":[
         {
             "task_list":[
+                "To move a bowl from the side table to the coffee table. ",
+                "Gather a pen and plate and put them on a table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171756_784651/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165356_709641/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a bowl from the side table to the coffee table at any time. Simultaneously, gather a pen and plate and put them on a table.",
+                "compose 2":"Gather a pen and plate and put them on a table at any time. Simultaneously, move a bowl from the side table to the coffee table.",
+                "compose 3":"Move a bowl from the side table to the coffee table. After moving the bowl, gather a pen and plate and put them on a table."
+            }
+        },
+        {
+            "task_list":[
+                "Put a credit card on a chair.",
+                "Put a cardboard box with a yellow vase inside of it on the glass table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_053028_584525/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a credit card on a chair at any time. Simultaneously, put a cardboard box with a yellow vase inside of it on the glass table.",
+                "compose 2":"Put a cardboard box with a yellow vase inside of it on the glass table at any time. Simultaneously, put a credit card on a chair.",
+                "compose 3":"Put a credit card on a chair at any time. After putting the credit card, put a cardboard box with a yellow vase inside of it on the glass table."
+            }
+        },
+        {
+            "task_list":[
                 "Put the white box  with yellow vase in it beside the lap top on the dining table. ",
                 "Put a bowl with a credit card on the coffee table."
             ],
@@ -295,231 +329,253 @@
                     "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052958_989613/traj_data.json",
                     "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192000_302714/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a bowl with a credit card on the coffee table at any time. Simultaneously, put the white box with yellow vase in it beside the laptop on the dining table.",
+                "compose 2":"Put the white box with yellow vase in it beside the laptop on the dining table at any time. Simultaneously, put a bowl with a credit card on the coffee table.",
+                "compose 3":"Put a bowl with a credit card on the coffee table at any time. After placing the bowl, put the white box with yellow vase in it beside the laptop on the dining table."
+            }
         },
         {
             "task_list":[
-                "place a box with a yellow object inside on top of the dining table",
-                "Placing newspaper onto the sofa"
+                "Move the bowl and the credit card to the coffee table.",
+                "Move a pencil and box to the table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052921_753275/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192028_568473/traj_data.json",
+                    "tests_seen/trial_T20190909_031943_191883/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the bowl and the credit card to the coffee table at any time. Simultaneously, move a pencil and box to the table.",
+                "compose 2":"Move a pencil and box to the table at any time. Simultaneously, move the bowl and the credit card to the coffee table.",
+                "compose 3":"Move the bowl and the credit card to the coffee table at any time. After moving the bowl and credit card, move a pencil and box to the table."
+            }
         },
         {
             "task_list":[
-                "Place a watch on a plate as well as place it on the black end table.",
-                "Put the white box  with yellow vase in it beside the lap top on the dining table. "
+                "Placing newspaper onto the sofa",
+                "Place a watch on a plate as well as place it on the black end table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190908_025806_491499/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052958_989613/traj_data.json"
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190908_025806_491499/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the white box  with yellow vase in it beside the lap top on the dining table. ",
-                "Move the white plate with a wrist watch to the coffee table. "
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052958_989613/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-201/trial_T20190909_051356_394008/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a watch on a plate as well as place it on the black end table.",
-                "place a box with a yellow object inside on top of the dining table"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190908_025806_491499/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052921_753275/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place a watch on a plate as well as place it on the black end table. After placing the watch on the plate and end table, proceed to placing newspaper onto the sofa.",
+                "compose 2":"Place a watch on a plate as well as place it on the black end table. Simultaneously, place newspaper onto the sofa.",
+                "compose 3":"Place newspaper onto the sofa first. Once done, place a watch on a plate and also place it on the black end table."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
+                "Set the bowl on the coffee table.",
+                "Placing newspaper onto the sofa",
+                "Gather a pen and plate and put them on a table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171714_885383/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165356_709641/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Set the bowl on the coffee table at any time. Simultaneously, gather a pen and plate and put them on a table. After setting the bowl, place newspaper onto the sofa.",
+                "compose 2":"Gather a pen and plate and put them on a table at any time. Simultaneously, place newspaper onto the sofa. After placing the newspaper, set the bowl on the coffee table.",
+                "compose 3":"Set the bowl on the coffee table at any time. After setting the bowl, place newspaper onto the sofa. Simultaneously, gather a pen and plate and put them on a table."
+            }
+        },
+        {
+            "task_list":[
+                "place a box with a yellow object inside on top of the dining table",
+                "Put a white plate with a pen on it on the coffee table.",
+                "Put a bowl with a credit card on the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052921_753275/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165426_548095/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192000_302714/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a box with a yellow object inside on top of the dining table at any time. Simultaneously, put a white plate with a pen on it on the coffee table. After placing the box, put a bowl with a credit card on the coffee table.",
+                "compose 2":"Put a bowl with a credit card on the coffee table at any time. Simultaneously, place a box with a yellow object inside on top of the dining table. After placing the bowl, put a white plate with a pen on it on the coffee table.",
+                "compose 3":"Place a box with a yellow object inside on top of the dining table at any time. Simultaneously, put a bowl with a credit card on the coffee table. After placing the box, put a white plate with a pen on it on the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Placing newspaper onto the sofa",
+                "Place the watch on the table on a white plate.",
+                "Put the white box  with yellow vase in it beside the lap top on the dining table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190911_041620_392517/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052958_989613/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the watch on the table on a white plate at any time. Simultaneously, put the white box with yellow vase in it beside the laptop on the dining table. After placing the watch, place the newspaper onto the sofa.",
+                "compose 2":"Put the white box with yellow vase in it beside the laptop on the dining table at any time. Simultaneously, place the watch on the table on a white plate. After putting the box, place the newspaper onto the sofa.",
+                "compose 3":"Place the watch on the table on a white plate at any time. Simultaneously, put the white box with yellow vase in it beside the laptop on the dining table. After placing the watch and the box, place the newspaper onto the sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Put the pencil in the bowl on the coffee table.",
+                "Placing newspaper onto the sofa",
+                "Move the white plate with a wrist watch to the coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-201/trial_T20190908_021332_546301/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-201/trial_T20190909_051356_394008/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the pencil in the bowl on the coffee table at any time. Simultaneously, move the white plate with a wrist watch to the coffee table. After placing the pencil and the plate, placing newspaper onto the sofa.",
+                "compose 2":"Move the white plate with a wrist watch to the coffee table first. After moving the plate, put the pencil in the bowl on the coffee table. Once the pencil is in place, place the newspaper onto the sofa.",
+                "compose 3":"Placing newspaper onto the sofa can be done at any time. Simultaneously, put the pencil in the bowl on the coffee table and move the white plate with a wrist watch to the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Gather a pen and plate and put them on a table. ",
+                "Set the bowl on the coffee table.",
+                "Put a credit card on a chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165356_709641/traj_data.json",
+                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171714_885383/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Gather a pen and plate and put them on a table at any time. After putting the pen and plate on the table, set the bowl on the coffee table. Finally, put a credit card on a chair.",
+                "compose 2":"Set the bowl on the coffee table at any time. Simultaneously, gather a pen and plate and put them on a table. After setting the bowl and placing the pen and plate, put a credit card on a chair.",
+                "compose 3":"Gather a pen and plate and put them on a table at any time. After placing the pen and plate, put a credit card on a chair. Finally, set the bowl on the coffee table."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Place the watch on the table on a white plate.",
+                "Put a credit card on a chair.",
+                "Place newspapers on a couch.",
+                "Put the pencil in the bowl on the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190911_041620_392517/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190918_190347_937339/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-201/trial_T20190908_021332_546301/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the watch on the table on a white plate at any time. Simultaneously, put a credit card on a chair. After placing the watch and credit card, place newspapers on a couch. Finally, put the pencil in the bowl on the coffee table.",
+                "compose 2":"Put a credit card on a chair at any time. Simultaneously, place the watch on the table on a white plate. After putting the credit card and watch, put the pencil in the bowl on the coffee table. Finally, place newspapers on a couch.",
+                "compose 3":"Place newspapers on a couch at any time. Simultaneously, put the pencil in the bowl on the coffee table. After placing the newspapers and pencil, place the watch on the table on a white plate. Finally, put a credit card on a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Place the watch on the table on a white plate.",
+                "Put the white box  with yellow vase in it beside the lap top on the dining table. ",
+                "Placing newspaper onto the sofa",
+                "Put a bowl with a credit card on the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190911_041620_392517/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052958_989613/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192000_302714/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the watch on the table on a white plate at any time. Simultaneously, put a bowl with a credit card on the coffee table. After placing the watch and the bowl, put the white box with yellow vase in it beside the laptop on the dining table. Finally, place newspaper onto the sofa.",
+                "compose 2":"Put a bowl with a credit card on the coffee table at any time. Simultaneously, place the watch on the table on a white plate. After placing the bowl and the watch, put the white box with yellow vase in it beside the laptop on the dining table. Finally, place newspaper onto the sofa.",
+                "compose 3":"Place the watch on the table on a white plate at any time. Simultaneously, put the white box with yellow vase in it beside the laptop on the dining table. After placing the watch and the white box, place newspaper onto the sofa. Finally, put a bowl with a credit card on the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Set the bowl on the coffee table.",
+                "Move a pencil and box to the table.",
+                "Gather a pen and plate and put them on a table. ",
+                "Placing newspaper onto the sofa"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171714_885383/traj_data.json",
+                    "tests_seen/trial_T20190909_031943_191883/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165356_709641/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Set the bowl on the coffee table. Move a pencil and box to the table. Gather a pen and plate and put them on a table. Finally, place newspaper onto the sofa.",
+                "compose 2":"Move a pencil and box to the table. Set the bowl on the coffee table. Gather a pen and plate and put them on a table. After that, place newspaper onto the sofa.",
+                "compose 3":"Set the bowl on the coffee table. Gather a pen and plate and put them on a table. Move a pencil and box to the table. Once done, place newspaper onto the sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Put the pencil in the bowl on the coffee table.",
+                "Gather a pen and plate and put them on a table. ",
+                "Put a credit card on a chair.",
+                "Placing newspaper onto the sofa"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-201/trial_T20190908_021332_546301/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165356_709641/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a credit card on a chair at any time. Simultaneously, gather a pen and plate and put them on a table. After placing the credit card, put the pencil in the bowl on the coffee table. Finally, place the newspaper onto the sofa.",
+                "compose 2":"Put a credit card on a chair at any time. Simultaneously, put the pencil in the bowl on the coffee table. After placing the credit card, gather a pen and plate and put them on a table.Finally, place the newspaper onto the sofa.",
+                "compose 3":"Gather a pen and plate and put them on a table at any time. Simultaneously, put the pencil in the bowl on the coffee table. After placing the pen and plate, put a credit card on a chair. Finally, place the newspaper onto the sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Put the pencil in the bowl on the coffee table.",
                 "Put a credit card on a chair.",
                 "Move some plates to the coffee table.",
                 "place a box with a yellow object inside on top of the dining table"
             ],
             "orign":[
                 [
+                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-201/trial_T20190908_021332_546301/traj_data.json",
                     "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json",
                     "train/pick_two_obj_and_place-Plate-None-CoffeeTable-201/trial_T20190918_172828_710071/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052921_753275/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a bowl with a credit card on the coffee table.",
-                "Move the white plate with a wrist watch to the coffee table. ",
-                "Put the white box  with yellow vase in it beside the lap top on the dining table. "
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192000_302714/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-201/trial_T20190909_051356_394008/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052958_989613/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a pencil and box to the table.",
-                "Placing newspaper onto the sofa",
-                "Put a credit card on a chair."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190909_031943_191883/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a pencil and box to the table.",
-                "Move the white plate with a wrist watch to the coffee table. ",
-                "Place newspapers on a couch."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190909_031943_191883/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-CoffeeTable-201/trial_T20190909_051356_394008/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190918_190347_937339/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move a bowl from the side table to the coffee table. ",
-                "place a box with a yellow object inside on top of the dining table",
-                "Place the watch on the table on a white plate."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171756_784651/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052921_753275/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190911_041620_392517/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place a box with a yellow object inside on top of the dining table at any time. Simultaneously, put the pencil in the bowl on the coffee table. After placing the box, move some plates to the coffee table. Finally, put a credit card on a chair.",
+                "compose 2":"Move some plates to the coffee table at any time. Simultaneously, put a credit card on a chair and place a box with a yellow object inside on top of the dining table. After moving the plates, put the pencil in the bowl on the coffee table.",
+                "compose 3":"Put a credit card on a chair at any time. Simultaneously, put the pencil in the bowl on the coffee table and move some plates to the coffee table. After putting the credit card, place a box with a yellow object inside on top of the dining table."
+            }
         }
     ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Move the bowl and the credit card to the coffee table.",
-                "Place a watch on a plate as well as place it on the black end table.",
-                "Move a pencil and box to the table.",
-                "Place newspapers on a couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192028_568473/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190908_025806_491499/traj_data.json",
-                    "tests_seen/trial_T20190909_031943_191883/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190918_190347_937339/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place newspapers on a couch.",
-                "Put a credit card on a chair.",
-                "Place a watch on a plate as well as place it on the black end table.",
-                "To move a bowl from the side table to the coffee table. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190918_190347_937339/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190908_025806_491499/traj_data.json",
-                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171756_784651/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Placing newspaper onto the sofa",
-                "Put a white plate with a pen on it on the coffee table.",
-                "Move a pencil and box to the table.",
-                "Move the bowl and the credit card to the coffee table."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165426_548095/traj_data.json",
-                    "tests_seen/trial_T20190909_031943_191883/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Bowl-CoffeeTable-201/trial_T20190908_192028_568473/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Gather a pen and plate and put them on a table. ",
-                "Place newspapers on a couch.",
-                "Set the bowl on the coffee table.",
-                "Move a pencil and box to the table."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pen-Plate-CoffeeTable-201/trial_T20190906_165356_709641/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190918_190347_937339/traj_data.json",
-                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171714_885383/traj_data.json",
-                    "tests_seen/trial_T20190909_031943_191883/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a watch on a plate as well as place it on the black end table.",
-                "To move a bowl from the side table to the coffee table. ",
-                "Put a credit card on a chair.",
-                "Place newspapers on a couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Watch-Plate-SideTable-201/trial_T20190908_025806_491499/traj_data.json",
-                    "train/pick_and_place_simple-Bowl-None-CoffeeTable-201/trial_T20190907_171756_784651/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190918_190347_937339/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_5":[
-        {
-            "task_list":[
-                "place a box with a yellow object inside on top of the dining table",
-                "Put the pencil in the bowl on the coffee table.",
-                "Placing newspaper onto the sofa",
-                "Put a credit card on a chair.",
-                "Move some plates to the coffee table."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-201/trial_T20190907_052921_753275/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Bowl-CoffeeTable-201/trial_T20190908_021332_546301/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-Sofa-201/trial_T20190906_190045_063430/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-ArmChair-201/trial_T20190908_124445_444943/traj_data.json",
-                    "train/pick_two_obj_and_place-Plate-None-CoffeeTable-201/trial_T20190918_172828_710071/traj_data.json"
-                ]
-            ]
-        }
-    ],
+    "tasks_5":[],
     "tasks_6":[],
     "tasks_7":[],
     "tasks_8":[],

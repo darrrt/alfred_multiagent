@@ -18,9 +18,9 @@
                 "Turn a lamp on with keys in hand."
             ],
             "relative_objects":[
+                "KeyChain",
                 "RemoteControl",
-                "CreditCard",
-                "KeyChain"
+                "CreditCard"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181734_779042/traj_data.json":{
@@ -68,14 +68,6 @@
                 "Watch"
             ]
         },
-        "train/pick_two_obj_and_place-KeyChain-None-Shelf-207/trial_T20190909_131800_907993/traj_data.json":{
-            "tasks":[
-                "put 2 set of keys on top of a book shelf"
-            ],
-            "relative_objects":[
-                "KeyChain"
-            ]
-        },
         "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json":{
             "tasks":[
                 "Put a credit card on a couch. ",
@@ -104,8 +96,8 @@
                 "Turn the lamp on."
             ],
             "relative_objects":[
-                "CreditCard",
-                "FloorLamp"
+                "FloorLamp",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122223_368528/traj_data.json":{
@@ -169,11 +161,11 @@
     "tasks_1":[
         {
             "task_list":[
-                "put 2 set of keys on top of a book shelf"
+                "Move a golden vase to the coffee table."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-KeyChain-None-Shelf-207/trial_T20190909_131800_907993/traj_data.json"
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json"
                 ]
             ]
         },
@@ -189,6 +181,16 @@
         },
         {
             "task_list":[
+                "Put a credit card on a couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
                 "Move the remotes to the arm chair seat."
             ],
             "orign":[
@@ -199,21 +201,11 @@
         },
         {
             "task_list":[
-                "Examine the credit card under light of the floor lamp"
+                "Move a golden vase to the coffee table."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a wrist watch to the coffee table"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152141_483725/traj_data.json"
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json"
                 ]
             ]
         }
@@ -221,309 +213,409 @@
     "tasks_2":[
         {
             "task_list":[
-                "Move a wrist watch to the coffee table",
-                "Put a credit card on a couch. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152141_483725/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a wristwatch to the coffee table.",
-                "Examine a key chain by the light of a floor lamp."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152203_804993/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181750_254371/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the remote from the sofa to the chair",
-                "Move a wristwatch to the coffee table."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-207/trial_T20190908_140544_546482/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152203_804993/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a golden vase to the coffee table.",
-                "Put a credit card on a couch. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a wristwatch to the coffee table.",
-                "Put the remotes on the table. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152203_804993/traj_data.json",
-                    "tests_seen/trial_T20190908_122348_520607/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_3":[
-        {
-            "task_list":[
-                "Examine a set of keys by the light of a floor lamp",
-                "Move a golden vase to the coffee table.",
+                "Move the watch from on top of the cabinet to below.",
                 "Put a credit card on a couch."
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190907_181722_293203/traj_data.json",
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json",
                     "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050843_342298/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the watch from on top of the cabinet to below. Put a credit card on a couch.",
+                "compose 2":"Put a credit card on a couch. Move the watch from on top of the cabinet to below.",
+                "compose 3":"Move the watch from on top of the cabinet to below. Put a credit card on a couch."
+            }
         },
         {
             "task_list":[
-                "Move a wrist watch to the coffee table",
-                "Examine the credit card under light of the floor lamp",
-                "Move the remote from the sofa to the chair"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152141_483725/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-207/trial_T20190908_140544_546482/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a wristwatch to the coffee table.",
-                "Put a credit card on a couch. ",
-                "Move the remote from the sofa to the chair"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152203_804993/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-207/trial_T20190908_140544_546482/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine the credit card under light of the floor lamp",
-                "Put the watch on the shelf of the entertainment stand. ",
-                "Examine a set of keys by the light of a floor lamp"
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122239_644484/traj_data.json",
-                    "tests_seen/trial_T20190907_181722_293203/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the remotes to the arm chair seat.",
-                "Examine a set of keys by the light of a floor lamp",
-                "Move the watch from on top of the cabinet to below."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
-                    "tests_seen/trial_T20190907_181722_293203/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Move the remotes to the arm chair seat.",
-                "put 2 set of keys on top of a book shelf",
-                "Move a golden vase to the coffee table.",
-                "Move a wristwatch to the coffee table."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Shelf-207/trial_T20190909_131800_907993/traj_data.json",
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152203_804993/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "put 2 set of keys on top of a book shelf",
-                "Place a watch on a shelf. ",
-                "Examine the credit card under light of the floor lamp",
-                "Move the remotes to the arm chair seat."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-KeyChain-None-Shelf-207/trial_T20190909_131800_907993/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122223_368528/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a golden vase to the coffee table.",
-                "Put a credit card on a couch. ",
-                "Place a watch on a shelf. ",
-                "Move the remote from the sofa to the chair"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122223_368528/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-207/trial_T20190908_140544_546482/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the remotes on the table. ",
-                "Move the watch from on top of the cabinet to below.",
-                "Examine a set of keys by the light of a floor lamp",
-                "Put a credit card on a couch. "
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190908_122348_520607/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json",
-                    "tests_seen/trial_T20190907_181722_293203/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a credit card on a couch.",
-                "Move the remotes to the arm chair seat.",
-                "put 2 set of keys on top of a book shelf",
-                "Move the watch from on top of the cabinet to below."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050843_342298/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Shelf-207/trial_T20190909_131800_907993/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_5":[
-        {
-            "task_list":[
-                "Examine the credit card under light of the floor lamp",
-                "Examine a set of keys by the light of a floor lamp",
-                "Move a golden vase to the coffee table.",
-                "Move the remotes to the arm chair seat.",
-                "Put the watch on the shelf of the entertainment stand. "
-            ],
-            "orign":[
-                [
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
-                    "tests_seen/trial_T20190907_181722_293203/traj_data.json",
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122239_644484/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Examine a set of keys by the light of a floor lamp",
-                "Put the remotes on the table. ",
-                "Examine the credit card under light of the floor lamp",
-                "Move a golden vase to the coffee table.",
-                "Move the watch from on top of the cabinet to below."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190907_181722_293203/traj_data.json",
-                    "tests_seen/trial_T20190908_122348_520607/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a golden vase to the coffee table.",
-                "Place a watch on a shelf. ",
-                "Put a credit card on a couch.",
-                "Carry keys while turning on a lamp",
-                "Put the remotes on the table. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122223_368528/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050843_342298/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181734_779042/traj_data.json",
-                    "tests_seen/trial_T20190908_122348_520607/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a golden vase to the coffee table.",
-                "Move the remotes to the arm chair seat.",
-                "Move the watch from on top of the cabinet to below.",
                 "Examine a set of keys by the light of a floor lamp",
                 "Examine the credit card under light of the floor lamp"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json",
                     "tests_seen/trial_T20190907_181722_293203/traj_data.json",
                     "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a set of keys by the light of a floor lamp at any time. Simultaneously, examine the credit card under light of the floor lamp.",
+                "compose 2":"Examine the credit card under light of the floor lamp. After examining the credit card, examine a set of keys by the light of a floor lamp.",
+                "compose 3":"Examine a set of keys by the light of a floor lamp. Once finished, examine the credit card under light of the floor lamp."
+            }
         },
         {
             "task_list":[
-                "put 2 set of keys on top of a book shelf",
-                "Move a golden vase to the coffee table.",
-                "Examine the credit card under light of the floor lamp",
-                "Put the remotes on the table. ",
-                "Move the watch from on top of the cabinet to below."
+                "Move a wristwatch to the coffee table.",
+                "Move a golden vase to the coffee table."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-KeyChain-None-Shelf-207/trial_T20190909_131800_907993/traj_data.json",
-                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
-                    "tests_seen/trial_T20190908_122348_520607/traj_data.json",
-                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json"
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152203_804993/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a wristwatch to the coffee table at any time. Simultaneously, move a golden vase to the coffee table.",
+                "compose 2":"Move a wristwatch to the coffee table at any time. After moving the wristwatch, move a golden vase to the coffee table.",
+                "compose 3":"Move a golden vase to the coffee table at any time. Simultaneously, move a wristwatch to the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Move the watch from on top of the cabinet to below.",
+                "Examine a key chain by the light of a floor lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181750_254371/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the watch from on top of the cabinet to below at any time. Simultaneously, examine a key chain by the light of a floor lamp.",
+                "compose 2":"Examine a key chain by the light of a floor lamp at any time. After finishing, move the watch from on top of the cabinet to below.",
+                "compose 3":"Examine a key chain by the light of a floor lamp at any time. Simultaneously, move the watch from on top of the cabinet to below."
+            }
+        },
+        {
+            "task_list":[
+                "Put a credit card on a couch.",
+                "Move a wrist watch to the coffee table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050843_342298/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152141_483725/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a credit card on a couch at any time. Simultaneously, move a wrist watch to the coffee table.",
+                "compose 2":"Move a wrist watch to the coffee table at any time. Simultaneously, put a credit card on a couch.",
+                "compose 3":"Put a credit card on a couch at any time. After placing the credit card, move a wrist watch to the coffee table."
+            }
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Move a golden vase to the coffee table.",
+                "Move the remotes to the arm chair seat.",
+                "Carry keys while turning on a lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181734_779042/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a golden vase to the coffee table at any time. Simultaneously, move the remotes to the arm chair seat. After moving the vase and the remotes, carry keys while turning on a lamp.",
+                "compose 2":"Move the remotes to the arm chair seat at any time. Simultaneously, carry keys while turning on a lamp. After moving the remotes and turning on the lamp, move a golden vase to the coffee table.",
+                "compose 3":"Carry keys while turning on a lamp at any time. Simultaneously, move a golden vase to the coffee table. After carrying the keys and turning on the lamp, move the remotes to the arm chair seat."
+            }
+        },
+        {
+            "task_list":[
+                "Place a watch on a shelf. ",
+                "Move the remotes to the arm chair seat.",
+                "Put a credit card on a couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122223_368528/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050843_342298/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a watch on a shelf at any time. Simultaneously, move the remotes to the arm chair seat. After placing the watch and moving the remotes, put a credit card on a couch.",
+                "compose 2":"Move the remotes to the arm chair seat before placing a watch on a shelf. After moving the remotes, simultaneously place the watch on a shelf and put a credit card on a couch.",
+                "compose 3":"Put a credit card on a couch at any time. Simultaneously, place a watch on a shelf and move the remotes to the arm chair seat."
+            }
+        },
+        {
+            "task_list":[
+                "Move the remotes to the arm chair seat.",
+                "Put the watch on the shelf of the entertainment stand. ",
+                "Examine the credit card under light of the floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122239_644484/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the remotes to the arm chair seat at any time. Put the watch on the shelf of the entertainment stand. Examine the credit card under light of the floor lamp.",
+                "compose 2":"Put the watch on the shelf of the entertainment stand. Examine the credit card under light of the floor lamp. After putting the watch, move the remotes to the arm chair seat.",
+                "compose 3":"Examine the credit card under light of the floor lamp. Move the remotes to the arm chair seat. Put the watch on the shelf of the entertainment stand."
+            }
+        },
+        {
+            "task_list":[
+                "Place a watch on a shelf. ",
+                "Put the remotes on the table. ",
+                "Examine a set of keys by the light of a floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122223_368528/traj_data.json",
+                    "tests_seen/trial_T20190908_122348_520607/traj_data.json",
+                    "tests_seen/trial_T20190907_181722_293203/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a set of keys by the light of a floor lamp at any time. Simultaneously, place a watch on a shelf. After examining the keys, put the remotes on the table.",
+                "compose 2":"Place a watch on a shelf at any time. Simultaneously, put the remotes on the table. After placing the watch, examine a set of keys by the light of a floor lamp.",
+                "compose 3":"Put the remotes on the table at any time. Simultaneously, place a watch on a shelf. After putting the remotes, examine a set of keys by the light of a floor lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Examine a set of keys by the light of a floor lamp",
+                "Put a credit card on a couch. ",
+                "Move a wrist watch to the coffee table"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190907_181722_293203/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152141_483725/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a set of keys by the light of a floor lamp at any time. Put a credit card on a couch. After putting the credit card on the couch, move a wristwatch to the coffee table.",
+                "compose 2":"Move a wristwatch to the coffee table. After moving the wristwatch, examine a set of keys by the light of a floor lamp. Put a credit card on a couch.",
+                "compose 3":"Put a credit card on a couch. Examine a set of keys by the light of a floor lamp simultaneously. Move a wristwatch to the coffee table after examining the set of keys."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Move a golden vase to the coffee table.",
+                "Put the remotes on the table. ",
+                "Examine the credit card under light of the floor lamp",
+                "Move a wristwatch to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
+                    "tests_seen/trial_T20190908_122348_520607/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152203_804993/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remotes on the table at any time. Simultaneously, move a golden vase to the coffee table. After placing the remotes and the vase, examine the credit card under the light of the floor lamp.",
+                "compose 2":"Move a wristwatch to the coffee table at any time. Simultaneously, put the remotes on the table. After moving the wristwatch and placing the remotes, examine the credit card under the light of the floor lamp.",
+                "compose 3":"Move a golden vase to the coffee table at any time. Simultaneously, move a wristwatch to the coffee table. After moving both items, put the remotes on the table. Finally, examine the credit card under the light of the floor lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Put the watch on the shelf of the entertainment stand. ",
+                "Move the remote from the sofa to the chair",
+                "Examine a set of keys by the light of a floor lamp",
+                "Move a golden vase to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122239_644484/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-207/trial_T20190908_140544_546482/traj_data.json",
+                    "tests_seen/trial_T20190907_181722_293203/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a set of keys by the light of a floor lamp at any time. Simultaneously, put the watch on the shelf of the entertainment stand.After examining the keys, move the remote from the sofa to the chair. Finally, move a golden vase to the coffee table.",
+                "compose 2":"Put the watch on the shelf of the entertainment stand at any time. Simultaneously, examine a set of keys by the light of a floor lamp. After putting the watch, move the remote from the sofa to the chair. Finally, move a golden vase to the coffee table.",
+                "compose 3":"Examine a set of keys by the light of a floor lamp at any time. Simultaneously, move the remote from the sofa to the chair.After examining the keys, put the watch on the shelf of the entertainment stand. Finally, move a golden vase to the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Put the remotes on the table. ",
+                "Move the watch from on top of the cabinet to below.",
+                "Examine the credit card under light of the floor lamp",
+                "Examine a set of keys by the light of a floor lamp"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_122348_520607/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
+                    "tests_seen/trial_T20190907_181722_293203/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remotes on the table. Move the watch from on top of the cabinet to below. Examine the credit card under light of the floor lamp. Examine a set of keys by the light of a floor lamp.",
+                "compose 2":"Examine a set of keys by the light of a floor lamp. Examine the credit card under light of the floor lamp. Put the remotes on the table. Move the watch from on top of the cabinet to below.",
+                "compose 3":"Move the watch from on top of the cabinet to below. Examine a set of keys by the light of a floor lamp. Put the remotes on the table. Examine the credit card under light of the floor lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Move the watch from on top of the cabinet to below.",
+                "Examine the credit card under light of the floor lamp",
+                "Carry keys while turning on a lamp",
+                "Move a golden vase to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181734_779042/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the watch from on top of the cabinet to below. Simultaneously, examine the credit card under light of the floor lamp. After completing these tasks, carry keys while turning on a lamp. Finally, move a golden vase to the coffee table.",
+                "compose 2":"Carry keys while turning on a lamp. Simultaneously, move a golden vase to the coffee table. After completing these tasks, examine the credit card under light of the floor lamp. Finally, move the watch from on top of the cabinet to below.",
+                "compose 3":"Examine the credit card under light of the floor lamp. Simultaneously, carry keys while turning on a lamp. After completing these tasks, move the watch from on top of the cabinet to below. Finally, move a golden vase to the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Examine the credit card under light of the floor lamp",
+                "Move a wrist watch to the coffee table",
+                "Move a golden vase to the coffee table.",
+                "Examine a set of keys by the light of a floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152141_483725/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
+                    "tests_seen/trial_T20190907_181722_293203/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the credit card under light of the floor lamp at any time. Simultaneously, move a wrist watch to the coffee table. After examining the credit card and moving the wrist watch, move a golden vase to the coffee table. Finally, examine a set of keys by the light of a floor lamp.",
+                "compose 2":"Move a golden vase to the coffee table first. After moving the vase, examine the credit card under light of the floor lamp. Simultaneously, move a wrist watch to the coffee table. Once these tasks are completed, examine a set of keys by the light of a floor lamp.",
+                "compose 3":"Examine the credit card under light of the floor lamp first. Simultaneously, move a wrist watch to the coffee table and move a golden vase to the coffee table. After these tasks are done, examine a set of keys by the light of a floor lamp."
+            }
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Move a golden vase to the coffee table.",
+                "Move the remote from the sofa to the chair",
+                "Put a credit card on a couch. ",
+                "Place a watch on a shelf. ",
+                "Carry keys while turning on a lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-207/trial_T20190908_140544_546482/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122223_368528/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181734_779042/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Carry keys while turning on a lamp at any time. Simultaneously, move the remote from the sofa to the chair. After carrying the keys and turning on the lamp, put a credit card on a couch. Finally, move a golden vase to the coffee table.",
+                "compose 2":"Place a watch on a shelf at any time. Simultaneously, move a golden vase to the coffee table. After placing the watch, carry keys while turning on a lamp. Finally, put a credit card on a couch.",
+                "compose 3":"Move a golden vase to the coffee table at any time. Simultaneously, place a watch on a shelf. After moving the vase, move the remote from the sofa to the chair. Finally, carry keys while turning on a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Put the remotes on the table. ",
+                "Move a wristwatch to the coffee table.",
+                "Put a credit card on a couch.",
+                "Move a golden vase to the coffee table.",
+                "Carry keys while turning on a lamp"
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_122348_520607/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-CoffeeTable-207/trial_T20190907_152203_804993/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050843_342298/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181734_779042/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the remotes on the table at any time. Simultaneously, move a wristwatch to the coffee table.After placing the remotes, put a credit card on a couch. Next, move a golden vase to the coffee table. Finally, carry keys while turning on a lamp.",
+                "compose 2":"Move a golden vase to the coffee table at any time. Simultaneously, put a credit card on a couch.After moving the vase, put the remotes on the table. Next, move a wristwatch to the coffee table. Finally, carry keys while turning on a lamp.",
+                "compose 3":"Move a wristwatch to the coffee table at any time. Simultaneously, put the remotes on the table.After moving the watch, carry keys while turning on a lamp. Next, put a credit card on a couch. Finally, move a golden vase to the coffee table."
+            }
+        },
+        {
+            "task_list":[
+                "Put the watch on the shelf of the entertainment stand. ",
+                "Examine the credit card under light of the floor lamp",
+                "Examine a set of keys by the light of a floor lamp",
+                "Move the remotes to the arm chair seat.",
+                "Move a golden vase to the coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122239_644484/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031949_058561/traj_data.json",
+                    "tests_seen/trial_T20190907_181722_293203/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-207/trial_T20190908_132827_840235/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the watch on the shelf of the entertainment stand. Examine the credit card under light of the floor lamp simultaneously. Move the remotes to the arm chair seat.",
+                "compose 2":"Move a golden vase to the coffee table at any time. After moving the golden vase, put the watch on the shelf of the entertainment stand. Examine a set of keys by the light of a floor lamp.",
+                "compose 3":"Examine a set of keys by the light of a floor lamp. Move a golden vase to the coffee table at any time. Put the watch on the shelf of the entertainment stand after examining the keys."
+            }
+        },
+        {
+            "task_list":[
+                "Carry keys while turning on a lamp",
+                "Put the watch on the shelf of the entertainment stand. ",
+                "Move a golden vase to the coffee table.",
+                "Move the remote from the sofa to the chair",
+                "Put a credit card on a couch. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-207/trial_T20190907_181734_779042/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122239_644484/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-207/trial_T20190908_140544_546482/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Carry keys while turning on a lamp at any time. Put the watch on the shelf of the entertainment stand. Move a golden vase to the coffee table. After moving the vase, move the remote from the sofa to the chair. Finally, put a credit card on a couch.",
+                "compose 2":"Carry keys while turning on a lamp at any time. Put the watch on the shelf of the entertainment stand. Move a golden vase to the coffee table at any time. Put a credit card on a couch. After placing the watch, move the remote from the sofa to the chair.",
+                "compose 3":"Carry keys while turning on a lamp at any time. Move a golden vase to the coffee table. Put the watch on the shelf of the entertainment stand. After moving the vase, put a credit card on a couch. After placing the watch, move the remote from the sofa to the chair."
+            }
+        },
+        {
+            "task_list":[
+                "Put a credit card on a couch. ",
+                "Move a golden vase to the coffee table.",
+                "Move the remote from the sofa to the chair",
+                "Move the watch from on top of the cabinet to below.",
+                "Examine a set of keys by the light of a floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CreditCard-None-Sofa-207/trial_T20190908_050824_930889/traj_data.json",
+                    "train/pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091234_276889/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-207/trial_T20190908_140544_546482/traj_data.json",
+                    "train/pick_and_place_simple-Watch-None-Shelf-207/trial_T20190908_122255_167374/traj_data.json",
+                    "tests_seen/trial_T20190907_181722_293203/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a set of keys by the light of a floor lamp. After examining the keys, move the remote from the sofa to the chair. Finally, put a credit card on a couch.",
+                "compose 2":"Move a golden vase to the coffee table. Put a credit card on a couch. Next, move the watch from on top of the cabinet to below. After these tasks, examine a set of keys by the light of a floor lamp.",
+                "compose 3":"Move the watch from on top of the cabinet to below. Examine a set of keys by the light of a floor lamp. Once done, move a golden vase to the coffee table. Finish by putting a credit card on a couch."
+            }
         }
     ],
     "tasks_6":[],

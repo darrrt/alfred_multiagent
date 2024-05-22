@@ -8,8 +8,8 @@
                 "Put a box with a blue vase in it on a table."
             ],
             "relative_objects":[
-                "Vase",
-                "Box"
+                "Box",
+                "Vase"
             ]
         },
         "train/pick_two_obj_and_place-CreditCard-None-ArmChair-227/trial_T20190907_075752_838584/traj_data.json":{
@@ -27,8 +27,8 @@
                 "Retrieve a blue item and a red vase from the shelves, place them on the coffee table. "
             ],
             "relative_objects":[
-                "Vase",
-                "Plate"
+                "Plate",
+                "Vase"
             ]
         },
         "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_064745_196990/traj_data.json":{
@@ -79,8 +79,8 @@
                 "grab the key chain from the sofa, put it at the bottom of the coffee table"
             ],
             "relative_objects":[
-                "Vase",
-                "KeyChain"
+                "KeyChain",
+                "Vase"
             ]
         },
         "train/pick_and_place_simple-KeyChain-None-CoffeeTable-227/trial_T20190907_162007_533707/traj_data.json":{
@@ -164,8 +164,8 @@
                 "Move a card from a shelf to the drawer."
             ],
             "relative_objects":[
-                "CreditCard",
-                "Drawer"
+                "Drawer",
+                "CreditCard"
             ]
         },
         "train/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215750_186147/traj_data.json":{
@@ -175,8 +175,8 @@
                 "Put a credit card away in the drawer."
             ],
             "relative_objects":[
-                "CreditCard",
-                "Drawer"
+                "Drawer",
+                "CreditCard"
             ]
         },
         "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_170525_472933/traj_data.json":{
@@ -208,8 +208,8 @@
                 "Place a cardboard box with keys in it on the sofa"
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         },
         "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190909_050706_578681/traj_data.json":{
@@ -238,8 +238,8 @@
                 "Grab a credit card and turn on the lamp."
             ],
             "relative_objects":[
-                "CreditCard",
-                "FloorLamp"
+                "FloorLamp",
+                "CreditCard"
             ]
         },
         "valid_seen/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190909_010644_297017/traj_data.json":{
@@ -249,8 +249,8 @@
                 "Move a credit card from a dining table to a drawer."
             ],
             "relative_objects":[
-                "CreditCard",
-                "Drawer"
+                "Drawer",
+                "CreditCard"
             ]
         },
         "tests_seen/trial_T20190909_033947_705114/traj_data.json":{
@@ -270,8 +270,8 @@
                 "Put the box on the coffee table on the couch with keys inside."
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         },
         "tests_seen/trial_T20190907_043122_619510/traj_data.json":{
@@ -281,29 +281,29 @@
                 "Place a box with keys inside on the sofa."
             ],
             "relative_objects":[
-                "Box",
-                "KeyChain"
+                "KeyChain",
+                "Box"
             ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "Put a statue on a coffee table."
+                "TO move a blue and red lid to the living room table."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json"
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-227/trial_T20190909_034051_446517/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "pick up credit cards and put them down on the white chair"
+                "Move a set of keys from a chair to a coffee table."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-227/trial_T20190907_075752_838584/traj_data.json"
+                    "train/pick_and_place_simple-KeyChain-None-CoffeeTable-227/trial_T20190907_161844_256041/traj_data.json"
                 ]
             ]
         },
@@ -319,21 +319,21 @@
         },
         {
             "task_list":[
-                "Put the box with keys on the sofa"
+                "Place a remote control on a chair."
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190907_043415_902731/traj_data.json"
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Examine a set of keys under the light of a lamp. "
+                "Put a red round object, a silver vase on the white table."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_170525_472933/traj_data.json"
+                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190909_050706_578681/traj_data.json"
                 ]
             ]
         }
@@ -341,309 +341,409 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put the credit card in the drawer.",
-                "Place a statue on a table."
+                "Put a plate with a credit card on the shelf in front of the couch.",
+                "Move the vase and the blue object from the shelves to the coffee table."
             ],
             "orign":[
                 [
-                    "valid_seen/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190909_010644_297017/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CreditCard-Plate-Shelf-227/trial_T20190907_153501_538069/traj_data.json",
+                    "tests_seen/trial_T20190909_033947_705114/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "pick up credit cards and put them down on the white chair",
-                "Put keys inside a box and move it to the couch."
             ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-227/trial_T20190907_075752_838584/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-227/trial_T20190907_043317_552772/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a plate with a credit card on the shelf in front of the couch at any time. Simultaneously, move the vase and the blue object from the shelves to the coffee table.",
+                "compose 2":"Put a plate with a credit card on the shelf in front of the couch at any time. After placing the plate, move the vase and the blue object from the shelves to the coffee table.",
+                "compose 3":"Move the vase and the blue object from the shelves to the coffee table at any time. Simultaneously, put a plate with a credit card on the shelf in front of the couch."
+            }
         },
         {
             "task_list":[
-                "Put the credit card in the drawer.",
-                "Put the box with keys on the sofa"
-            ],
-            "orign":[
-                [
-                    "valid_seen/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190909_010644_297017/traj_data.json",
-                    "tests_seen/trial_T20190907_043415_902731/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the box with keys on the sofa",
+                "examine keys with a lamp",
                 "TO move a blue and red lid to the living room table."
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190907_043415_902731/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_104240_678700/traj_data.json",
                     "train/pick_two_obj_and_place-Vase-None-CoffeeTable-227/trial_T20190909_034051_446517/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a box with keys in it on the couch.",
-                "Put a plate with a credit card on it under the TV."
             ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190907_043122_619510/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Plate-Shelf-227/trial_T20190907_153331_887183/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_3":[
-        {
-            "task_list":[
-                "TO move a blue and red lid to the living room table.",
-                "examine keys with a lamp",
-                "pick up credit cards and put them down on the white chair"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-227/trial_T20190909_034051_446517/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_104240_678700/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-227/trial_T20190907_075752_838584/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "TO move a blue and red lid to the living room table.",
-                "Put a box with keys in it on the couch.",
-                "Put a statue on a coffee table."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-227/trial_T20190909_034051_446517/traj_data.json",
-                    "tests_seen/trial_T20190907_043122_619510/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a remote control on a chair.",
-                "Put a statue on a coffee table.",
-                "Put a plate with a credit card on it under the TV."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Plate-Shelf-227/trial_T20190907_153331_887183/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a statue on a table.",
-                "Examine the credit card by the light of the floor lamp",
-                "Put blue lid in box and placed on kitchen table"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json",
-                    "valid_seen/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173545_981227/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-227/trial_T20190908_220622_212249/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the vase and the blue object from the shelves to the coffee table.",
-                "To move a remote to the chair. ",
-                "Put a box with keys in it on the couch."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190909_033947_705114/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json",
-                    "tests_seen/trial_T20190907_043122_619510/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Put a vase and a lid on a table. ",
-                "Place a remote control on a chair.",
-                "Place a statue on a table.",
-                "Move a blue credit card into a drawer."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190910_072914_747890/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json",
-                    "train/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215541_739446/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the vase and the blue object from the shelves to the coffee table.",
-                "pick up credit cards and put them down on the white chair",
-                "Place a statue on a table.",
-                "examine keys with a lamp"
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190909_033947_705114/traj_data.json",
-                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-227/trial_T20190907_075752_838584/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_104240_678700/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a credit card in a drawer.",
-                "Put a vase and a lid on a table. ",
-                "Put a box with keys in it on the couch.",
-                "To move a remote to the chair. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215750_186147/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190910_072914_747890/traj_data.json",
-                    "tests_seen/trial_T20190907_043122_619510/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the remote controls off the sofa and place them on the coffee table.",
-                "Put a red round object, a silver vase on the white table.",
-                "Put a box with keys in it on the couch.",
-                "Place a statue on a table."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-227/trial_T20190909_011438_661075/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190909_050706_578681/traj_data.json",
-                    "tests_seen/trial_T20190907_043122_619510/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the remote controls off the sofa and place them on the coffee table.",
-                "Put a vase and a lid on a table. ",
-                "examine keys with a lamp",
-                "Put a plate with a credit card on the shelf in front of the couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-227/trial_T20190909_011438_661075/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190910_072914_747890/traj_data.json",
-                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_104240_678700/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Plate-Shelf-227/trial_T20190907_153501_538069/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_5":[
-        {
-            "task_list":[
-                "Put a statue on a coffee table.",
-                "To move a remote to the chair. ",
-                "Put a set of keys on a coffee table.",
-                "Put blue lid in box and placed on kitchen table",
-                "Examine a credit card by the light of the lamp. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-CoffeeTable-227/trial_T20190907_162007_533707/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-227/trial_T20190908_220622_212249/traj_data.json",
-                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173638_377422/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a statue on a table.",
-                "Put a vase and a lid on a table. ",
-                "Place a remote control on a chair.",
-                "Move a set of keys from a chair to a coffee table.",
-                "Put a plate with a credit card on it under the TV."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190910_072914_747890/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-CoffeeTable-227/trial_T20190907_161844_256041/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CreditCard-Plate-Shelf-227/trial_T20190907_153331_887183/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To move a remote to the chair. ",
-                "Put keys inside a box and move it to the couch.",
-                "Put a statue on a coffee table.",
-                "Put a red round object, a silver vase on the white table.",
-                "Examine the credit card by the light of the floor lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-227/trial_T20190907_043317_552772/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json",
-                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190909_050706_578681/traj_data.json",
-                    "valid_seen/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173545_981227/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Examine keys with a lamp at any time. Simultaneously, move a blue and red lid to the living room table.",
+                "compose 2":"Move a blue and red lid to the living room table at any time. After moving the lid, examine keys with a lamp.",
+                "compose 3":"Examine keys with a lamp before moving a blue and red lid to the living room table."
+            }
         },
         {
             "task_list":[
                 "Examine a set of keys under the light of a lamp. ",
-                "Examine the credit card by the light of the floor lamp",
-                "Put a statue on a coffee table.",
-                "Pick up the remote controls off the sofa and place them on the coffee table.",
                 "Put blue lid in box and placed on kitchen table"
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_170525_472933/traj_data.json",
-                    "valid_seen/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173545_981227/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json",
-                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-227/trial_T20190909_011438_661075/traj_data.json",
                     "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-227/trial_T20190908_220622_212249/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a set of keys under the light of a lamp. At any time, put blue lid in box and placed on kitchen table.",
+                "compose 2":"Put blue lid in box and placed on kitchen table. After placing the lid, examine a set of keys under the light of a lamp.",
+                "compose 3":"Examine a set of keys under the light of a lamp. Put blue lid in box and placed on kitchen table simultaneously."
+            }
         },
         {
             "task_list":[
-                "Examine the credit card by the light of the floor lamp",
-                "To move a remote to the chair. ",
-                "Put a statue on a coffee table.",
-                "Move the vase and the blue object from the shelves to the coffee table.",
+                "Put the credit card in the drawer.",
+                "Move a remote from a couch to a chair. "
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190909_010644_297017/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_064745_196990/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the credit card in the drawer at any time. Simultaneously, move a remote from a couch to a chair.",
+                "compose 2":"Move a remote from a couch to a chair. After moving the remote, put the credit card in the drawer.",
+                "compose 3":"Put the credit card in the drawer at any time. After placing the credit card, move a remote from a couch to a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Examine a credit card by the light of the lamp. ",
                 "Put a set of keys on a coffee table."
             ],
             "orign":[
                 [
-                    "valid_seen/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173545_981227/traj_data.json",
-                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json",
-                    "tests_seen/trial_T20190909_033947_705114/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173638_377422/traj_data.json",
                     "train/pick_and_place_simple-KeyChain-None-CoffeeTable-227/trial_T20190907_162007_533707/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a credit card by the light of the lamp at any time. Simultaneously, put a set of keys on a coffee table.",
+                "compose 2":"Put a set of keys on a coffee table at any time. After putting the keys, examine a credit card by the light of the lamp.",
+                "compose 3":"Examine a credit card by the light of the lamp at any time. After examining the credit card, put a set of keys on a coffee table."
+            }
+        }
+    ],
+    "tasks_3":[
+        {
+            "task_list":[
+                "Put a vase and a lid on a table. ",
+                "Place a statue on a table.",
+                "To move a remote to the chair. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190910_072914_747890/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a statue on a table at any time. Simultaneously, put a vase and a lid on a table. After placing the statue and vase, move a remote to the chair.",
+                "compose 2":"Put a vase and a lid on a table at any time. Simultaneously, place a statue on a table. After placing the vase and lid, move a remote to the chair.",
+                "compose 3":"Put a vase and a lid on a table at any time. Simultaneously, move a remote to the chair. After placing the vase and lid and moving the remote, place a statue on a table."
+            }
+        },
+        {
+            "task_list":[
+                "Put a statue on a coffee table.",
+                "Put the box with keys on the sofa",
+                "pick up credit cards and put them down on the white chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json",
+                    "tests_seen/trial_T20190907_043415_902731/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-227/trial_T20190907_075752_838584/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up credit cards and put them down on the white chair at any time. Simultaneously, put the box with keys on the sofa. After putting down the credit cards, put a statue on a coffee table.",
+                "compose 2":"Put a statue on a coffee table at any time. Simultaneously, pick up credit cards and put them down on the white chair. After putting the statue, put the box with keys on the sofa.",
+                "compose 3":"Put the box with keys on the sofa at any time. Simultaneously, put a statue on a coffee table. After putting the keys on the sofa, pick up credit cards and put them down on the white chair."
+            }
+        },
+        {
+            "task_list":[
+                "To move a remote to the chair. ",
+                "Put a credit card in a drawer.",
+                "Place a statue on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215750_186147/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a remote to the chair at any time. Put a credit card in a drawer. After moving the remote to the chair and putting the credit card in the drawer, place a statue on a table.",
+                "compose 2":"Move a remote to the chair at any time. Place a statue on a table. After moving the remote to the chair and placing the statue on the table, put a credit card in a drawer.",
+                "compose 3":"Put a credit card in a drawer at any time. Place a statue on a table. After putting the credit card in the drawer, move a remote to the chair and then place a statue on a table."
+            }
+        },
+        {
+            "task_list":[
+                "Put blue lid in box and placed on kitchen table",
+                "examine keys with a lamp",
+                "Examine a credit card by the light of the lamp. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-227/trial_T20190908_220622_212249/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_104240_678700/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173638_377422/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put blue lid in box and placed on kitchen table at any time. Simultaneously, examine keys with a lamp. After examining keys, examine a credit card by the light of the lamp.",
+                "compose 2":"Examine a credit card by the light of the lamp at any time. Simultaneously, Put blue lid in the box and place it on the kitchen table. After examining the credit card, examine keys with a lamp.",
+                "compose 3":"Examine keys with a lamp at any time. Simultaneously, examine a credit card by the light of the lamp. After examining keys, put blue lid in box and place it on the kitchen table."
+            }
+        },
+        {
+            "task_list":[
+                "Put a plate with a credit card on it under the TV.",
+                "Move a remote from a couch to a chair. ",
+                "Put a statue on a coffee table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CreditCard-Plate-Shelf-227/trial_T20190907_153331_887183/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_064745_196990/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a plate with a credit card on it under the TV at any time. Simultaneously, move a remote from a couch to a chair. After putting the plate, put a statue on a coffee table.",
+                "compose 2":"Put a statue on a coffee table at any time. Simultaneously, put a plate with a credit card on it under the TV. After putting the statue, move a remote from a couch to a chair.",
+                "compose 3":"Move a remote from a couch to a chair at any time. Simultaneously, put a statue on a coffee table. After moving the remote, put a plate with a credit card on it under the TV."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Examine a set of keys under the light of a lamp. ",
+                "Put a vase and a lid on a table. ",
+                "To move a remote to the chair. ",
+                "Put a plate with a credit card on it under the TV."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_170525_472933/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190910_072914_747890/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CreditCard-Plate-Shelf-227/trial_T20190907_153331_887183/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine a set of keys under the light of a lamp. Meanwhile, put a vase and a lid on a table. After examining the keys and placing the vase and lid, put a plate with a credit card on it under the TV.",
+                "compose 2":"Put a vase and a lid on a table. Simultaneously, to move a remote to the chair. After putting the vase and lid on the table and moving the remote to the chair, examine a set of keys under the light of a lamp.",
+                "compose 3":"To move a remote to the chair. After moving the remote to the chair, examine a set of keys under the light of a lamp. Simultaneously, put a plate with a credit card on it under the TV."
+            }
+        },
+        {
+            "task_list":[
+                "TO move a blue and red lid to the living room table.",
+                "Move a set of keys from a chair to a coffee table.",
+                "Place a statue on a table.",
+                "Examine the credit card by the light of the floor lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-227/trial_T20190909_034051_446517/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-CoffeeTable-227/trial_T20190907_161844_256041/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json",
+                    "valid_seen/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173545_981227/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a statue on a table at any time. Simultaneously, move a set of keys from a chair to a coffee table. After placing the statue and moving the keys, examine the credit card by the light of the floor lamp.",
+                "compose 2":"Move a set of keys from a chair to a coffee table at any time. Simultaneously, place a statue on a table. After moving the keys and placing the statue, TO move a blue and red lid to the living room table.",
+                "compose 3":"Examine the credit card by the light of the floor lamp at any time. Simultaneously, place a statue on a table. After examining the credit card, move a set of keys from a chair to a coffee table. Finally, TO move a blue and red lid to the living room table."
+            }
+        },
+        {
+            "task_list":[
+                "Place a remote control on a chair.",
+                "Put a red round object, a silver vase on the white table.",
+                "Put a box with keys in it on the couch.",
+                "Put the credit card in the drawer."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190909_050706_578681/traj_data.json",
+                    "tests_seen/trial_T20190907_043122_619510/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190909_010644_297017/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a red round object, a silver vase on the white table at any time. Afterwards, place a remote control on a chair. Next, put a box with keys in it on the couch. Finally, put the credit card in the drawer.",
+                "compose 2":"Put a box with keys in it on the couch at any time. After that, put a red round object, a silver vase on the white table. Then, place a remote control on a chair. Finish by putting the credit card in the drawer.",
+                "compose 3":"Put a box with keys in it on the couch at any time. Simultaneously, put a red round object, a silver vase on the white table. Once done, place a remote control on a chair. Lastly, put the credit card in the drawer."
+            }
+        },
+        {
+            "task_list":[
+                "To move a remote to the chair. ",
+                "examine keys with a lamp",
+                "Put a credit card in a drawer.",
+                "Put a red round object, a silver vase on the white table."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101507_801236/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_104240_678700/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215750_186147/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190909_050706_578681/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a remote to the chair. Examine keys with a lamp. Put a credit card in a drawer. Put a red round object and a silver vase on the white table.",
+                "compose 2":"Examine keys with a lamp. Move a remote to the chair. Put a credit card in a drawer. Put a red round object and a silver vase on the white table.",
+                "compose 3":"Put a credit card in a drawer. Put a red round object and a silver vase on the white table. Move a remote to the chair. Examine keys with a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Put a vase and a lid on a table. ",
+                "Put a statue on a coffee table.",
+                "Examine a credit card by the light of the lamp. ",
+                "Put a box with keys in it on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190910_072914_747890/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173638_377422/traj_data.json",
+                    "tests_seen/trial_T20190907_043122_619510/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a vase and a lid on a table. Simultaneously, put a statue on a coffee table. After placing the vase and the lid, examine a credit card by the light of the lamp. Finally, put a box with keys in it on the couch.",
+                "compose 2":"Put a statue on a coffee table at any time. Simultaneously, put a vase and a lid on a table. After examining a credit card by the light of the lamp, put a box with keys in it on the couch.",
+                "compose 3":"Put a vase and a lid on a table. Put a box with keys in it on the couch. After placing the vase and the lid, examine a credit card by the light of the lamp. Finally, put a statue on a coffee table."
+            }
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put a set of keys on a coffee table.",
+                "Place a statue on a table.",
+                "Put blue lid in box and placed on kitchen table",
+                "Put a credit card in a drawer.",
+                "Place a remote control on a chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-CoffeeTable-227/trial_T20190907_162007_533707/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Vase-Box-DiningTable-227/trial_T20190908_220622_212249/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215750_186147/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a statue on a table at any time. Simultaneously, put a set of keys on a coffee table. After placing the statue and keys, put a credit card in a drawer. Finally, put a blue lid in a box and place it on the kitchen table.",
+                "compose 2":"Put a blue lid in a box and place it on the kitchen table at any time. Simultaneously, put a set of keys on a coffee table. After placing the lid and keys, place a remote control on a chair. Finally, put a statue on a table.",
+                "compose 3":"Put a set of keys on a coffee table at any time. Simultaneously, put a credit card in a drawer. After placing the keys and credit card, put a blue lid in a box and place it on the kitchen table. Finally, place a statue on a table."
+            }
+        },
+        {
+            "task_list":[
+                "TO move a blue and red lid to the living room table.",
+                "Move a remote from a couch to a chair. ",
+                "Examine a credit card by the light of the lamp. ",
+                "Put a statue on a coffee table.",
+                "examine keys with a lamp"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-227/trial_T20190909_034051_446517/traj_data.json",
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_064745_196990/traj_data.json",
+                    "train/look_at_obj_in_light-CreditCard-None-FloorLamp-227/trial_T20190908_173638_377422/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_104240_678700/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a remote from a couch to a chair at any time. Simultaneously, examine keys with a lamp. After moving the remote and examining the keys, put a statue on a coffee table. Finally, examine a credit card by the light of the lamp.",
+                "compose 2":"Move a remote from a couch to a chair at any time. Simultaneously, examine keys with a lamp. After moving the remote and examining the keys, examine a credit card by the light of the lamp. Finally, put a statue on a coffee table.",
+                "compose 3":"Examine a credit card by the light of the lamp at any time. Simultaneously, put a statue on a coffee table. After examining the credit card and putting the statue, move a remote from a couch to a chair. Finally, TO move a blue and red lid to the living room table."
+            }
+        },
+        {
+            "task_list":[
+                "Put the credit card in the drawer.",
+                "Pick up the remote controls off the sofa and place them on the coffee table.",
+                "TO move a blue and red lid to the living room table.",
+                "examine keys with a lamp",
+                "Put a statue on a coffee table."
+            ],
+            "orign":[
+                [
+                    "valid_seen/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190909_010644_297017/traj_data.json",
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-227/trial_T20190909_011438_661075/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-227/trial_T20190909_034051_446517/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_104240_678700/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_221248_363706/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the remote controls off the sofa and place them on the coffee table at any time. Simultaneously, put the credit card in the drawer. After completing these tasks, move a blue and red lid to the living room table. Finally, examine keys with a lamp.",
+                "compose 2":"Put the credit card in the drawer at any time. Next, pick up the remote controls off the sofa and place them on the coffee table. Afterward, move a blue and red lid to the living room table. Finally, put a statue on a coffee table.",
+                "compose 3":"Put the credit card in the drawer. Next, move a blue and red lid to the living room table. Simultaneously, pick up the remote controls off the sofa and place them on the coffee table. After completing these tasks, examine keys with a lamp."
+            }
+        },
+        {
+            "task_list":[
+                "Pick up the remote controls off the sofa and place them on the coffee table.",
+                "Examine a set of keys under the light of a lamp. ",
+                "pick up credit cards and put them down on the white chair",
+                "Put a red round object, a silver vase on the white table.",
+                "Place a statue on a table."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-227/trial_T20190909_011438_661075/traj_data.json",
+                    "train/look_at_obj_in_light-KeyChain-None-FloorLamp-227/trial_T20190908_170525_472933/traj_data.json",
+                    "train/pick_two_obj_and_place-CreditCard-None-ArmChair-227/trial_T20190907_075752_838584/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-DiningTable-227/trial_T20190909_050706_578681/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up the remote controls off the sofa and place them on the coffee table. Examine a set of keys under the light of a lamp. Put a red round object, a silver vase on the white table. Place a statue on a table. Pick up credit cards and put them down on the white chair.",
+                "compose 2":"Examine a set of keys under the light of a lamp. Put a red round object, a silver vase on the white table. Place a statue on a table. Pick up the remote controls off the sofa and place them on the coffee table. Pick up credit cards and put them down on the white chair.",
+                "compose 3":"Pick up the remote controls off the sofa and place them on the coffee table. Pick up credit cards and put them down on the white chair. Examine a set of keys under the light of a lamp. Put a red round object, a silver vase on the white table. Place a statue on a table."
+            }
+        },
+        {
+            "task_list":[
+                "Place a remote control on a chair.",
+                "Put the box with keys on the sofa",
+                "TO move a blue and red lid to the living room table.",
+                "Place a statue on a table.",
+                "Put a credit card in a drawer."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500/traj_data.json",
+                    "tests_seen/trial_T20190907_043415_902731/traj_data.json",
+                    "train/pick_two_obj_and_place-Vase-None-CoffeeTable-227/trial_T20190909_034051_446517/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-227/trial_T20190909_101650_071380/traj_data.json",
+                    "train/pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215750_186147/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the box with keys on the sofa. After putting the box, place a remote control on a chair. Simultaneously, move a blue and red lid to the living room table. After completing the previous tasks, place a statue on a table. Finally, put a credit card in a drawer.",
+                "compose 2":"Place a remote control on a chair. Simultaneously, put the box with keys on the sofa. After placing the remote control, move a blue and red lid to the living room table. After completing the previous tasks, place a statue on a table. Finally, put a credit card in a drawer.",
+                "compose 3":"Put a credit card in a drawer. Simultaneously, place a remote control on a chair. After putting the credit card, put the box with keys on the sofa. After completing the previous tasks, move a blue and red lid to the living room table. Finally, place a statue on a table."
+            }
         }
     ],
     "tasks_6":[],

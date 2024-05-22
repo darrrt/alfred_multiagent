@@ -18,8 +18,8 @@
             ],
             "relative_objects":[
                 "Desk",
-                "Chair",
-                "AlarmClock"
+                "AlarmClock",
+                "Chair"
             ]
         },
         "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json":{
@@ -100,9 +100,9 @@
                 "Put a pencil in a mug and put the mug next to the laptop."
             ],
             "relative_objects":[
-                "Mug",
                 "Pencil",
-                "Laptop"
+                "Laptop",
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json":{
@@ -114,9 +114,9 @@
                 "Put the white pencil inside the white mug, put it on the other side of the desk "
             ],
             "relative_objects":[
-                "Mug",
                 "Pencil",
-                "Laptop"
+                "Laptop",
+                "Mug"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193928_556578/traj_data.json":{
@@ -128,10 +128,10 @@
                 "Put a mug with a pencil in it on the desk."
             ],
             "relative_objects":[
-                "Desk",
-                "Mug",
                 "Pencil",
-                "Laptop"
+                "Laptop",
+                "Mug",
+                "Desk"
             ]
         },
         "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190322_270194/traj_data.json":{
@@ -165,14 +165,6 @@
                 "CD"
             ]
         },
-        "train/pick_two_obj_and_place-AlarmClock-None-Dresser-318/trial_T20190919_024708_968984/traj_data.json":{
-            "tasks":[
-                "Put 2 alarm clock side by side on the brown shelf near the AC"
-            ],
-            "relative_objects":[
-                "AlarmClock"
-            ]
-        },
         "train/pick_two_obj_and_place-KeyChain-None-Dresser-318/trial_T20190907_181205_590674/traj_data.json":{
             "tasks":[
                 "Put the keys on the desk",
@@ -197,8 +189,8 @@
                 "Move a phone to a chair."
             ],
             "relative_objects":[
-                "Chair",
-                "CellPhone"
+                "CellPhone",
+                "Chair"
             ]
         },
         "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json":{
@@ -232,8 +224,8 @@
                 "Putting a mug with a pen inside on a drawer"
             ],
             "relative_objects":[
-                "Pen",
-                "Mug"
+                "Mug",
+                "Pen"
             ]
         },
         "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083127_735120/traj_data.json":{
@@ -243,9 +235,9 @@
                 "Place a mug with a pen in it on a dresser."
             ],
             "relative_objects":[
-                "Pen",
+                "Pencil",
                 "Mug",
-                "Pencil"
+                "Pen"
             ]
         },
         "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json":{
@@ -255,8 +247,8 @@
                 "Put a phone on a chair."
             ],
             "relative_objects":[
-                "Chair",
-                "CellPhone"
+                "CellPhone",
+                "Chair"
             ]
         },
         "tests_seen/trial_T20190908_005144_131948/traj_data.json":{
@@ -274,36 +266,6 @@
     "tasks_1":[
         {
             "task_list":[
-                "put a CD on to the dresser"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move book from dresser to chair"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "put a CD on to the dresser"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Place a cell phone on a chair."
             ],
             "orign":[
@@ -314,11 +276,41 @@
         },
         {
             "task_list":[
-                "Place a set of keys on a chair."
+                "View the black and brown object in the light. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json"
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the blue pens on the top of the dresser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the mug with pen on the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083114_148001/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Put the keys on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-318/trial_T20190907_181205_590674/traj_data.json"
                 ]
             ]
         }
@@ -326,15 +318,37 @@
     "tasks_2":[
         {
             "task_list":[
-                "Place a cell phone on a chair.",
-                "move book from dresser to chair"
+                "Put the tennis racket on the desk.",
+                "Place the disc on the desk onto the dresser beside the book."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json"
+                    "tests_seen/trial_T20190908_005144_131948/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190322_270194/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the tennis racket on the desk at any time. Simultaneously, place the disc on the desk onto the dresser beside the book.",
+                "compose 2":"Place the disc on the desk onto the dresser beside the book at any time. After placing the disc, put the tennis racket on the desk.",
+                "compose 3":"Put the tennis racket on the desk at any time. Then, place the disc on the desk onto the dresser beside the book."
+            }
+        },
+        {
+            "task_list":[
+                "move book from dresser to chair",
+                "put a CD on to the dresser"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a CD on to the dresser. After putting the CD on the dresser, move book from dresser to chair.",
+                "compose 2":"Move book from dresser to chair. Alternatively, put a CD on to the dresser.",
+                "compose 3":"Put a CD on to the dresser. Move book from dresser to chair simultaneously."
+            }
         },
         {
             "task_list":[
@@ -346,441 +360,635 @@
                     "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json",
                     "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190322_270194/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a cell phone on a chair.",
-                "View the black and brown object in the light. "
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put the tennis racket on the desk at any time. Simultaneously, place the disc on the desk onto the dresser beside the book.",
+                "compose 2":"Place the disc on the desk onto the dresser beside the book after putting the tennis racket on the desk. ",
+                "compose 3":"Put the tennis racket on the desk at any time. After putting the tennis racket, place the disc on the desk onto the dresser beside the book."
+            }
         },
         {
             "task_list":[
-                "Put the blue pens on the top of the dresser. ",
-                "Put the keys on the desk"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-318/trial_T20190907_181205_590674/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Pick up the cups on the desk and place them in the desk drawer.",
+                "Move the keys to the chair.",
                 "Put the tennis racket on the desk."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Mug-None-Cabinet-318/trial_T20190910_055356_172564/traj_data.json",
-                    "tests_seen/trial_T20190908_005144_131948/traj_data.json"
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the keys to the chair at any time. Simultaneously, put the tennis racket on the desk.",
+                "compose 2":"Put the tennis racket on the desk at any time. Simultaneously, move the keys to the chair.",
+                "compose 3":"Move the keys to the chair at any time. After moving the keys, put the tennis racket on the desk."
+            }
+        },
+        {
+            "task_list":[
+                "move book from dresser to chair",
+                "Put a mug that's got a pencil in it on a desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a book from dresser to chair at any time. Simultaneously, put a mug that's got a pencil in it on a desk.",
+                "compose 2":"Put a mug that's got a pencil in it on a desk at any time. Simultaneously, move a book from dresser to chair.",
+                "compose 3":"Move a book from dresser to chair. After moving the book, put a mug that's got a pencil in it on a desk."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Put a mug that's got a pencil in it on a desk.",
-                "View the black and brown object in the light. ",
-                "Move the keys to the chair."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a mug that's got a pencil in it on a desk.",
-                "Take an alarm clock to move it to the desk.",
-                "Put the tennis racket on the desk."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Put an alarm clock on the desk.",
-                "Move some keys from a desk to the floral armchair.",
-                "Put a mug that's got a pencil in it on a desk."
+                "Place the disc on the desk onto the dresser beside the book.",
+                "Pick up the cups on the desk and place them in the desk drawer."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json"
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190322_270194/traj_data.json",
+                    "train/pick_two_obj_and_place-Mug-None-Cabinet-318/trial_T20190910_055356_172564/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put an alarm clock on the desk. Simultaneously, place the disc on the desk onto the dresser beside the book. After placing the alarm clock and the disc on the dresser, pick up the cups on the desk and place them in the desk drawer.",
+                "compose 2":"Pick up the cups on the desk and place them in the desk drawer at any time. Simultaneously, put an alarm clock on the desk. After putting the alarm clock on the desk, place the disc on the desk onto the dresser beside the book.",
+                "compose 3":"Place the disc on the desk onto the dresser beside the book. After placing the disc, put an alarm clock on the desk. After putting the alarm clock on the desk, pick up the cups on the desk and place them in the desk drawer."
+            }
+        },
+        {
+            "task_list":[
+                "Put a mug that's got a pencil in it on a desk.",
+                "Move some keys from a desk to the floral armchair.",
+                "View the black and brown object in the light. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move some keys from a desk to the floral armchair. After moving the keys, put a mug that's got a pencil in it on a desk. View the black and brown object in the light.",
+                "compose 2":"View the black and brown object in the light. Put a mug that's got a pencil in it on a desk. Move some keys from a desk to the floral armchair.",
+                "compose 3":"Put a mug that's got a pencil in it on a desk. View the black and brown object in the light. Move some keys from a desk to the floral armchair."
+            }
+        },
+        {
+            "task_list":[
+                "Move a tennis racket from the floor to a desk.",
+                "Move some keys from a desk to the floral armchair.",
+                "Put an alarm clock on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a tennis racket from the floor to a desk. Simultaneously, move some keys from a desk to the floral armchair. After moving the tennis racket and keys, put an alarm clock on the desk.",
+                "compose 2":"Put an alarm clock on the desk at any time. Simultaneously, move a tennis racket from the floor to a desk and move some keys from a desk to the floral armchair.",
+                "compose 3":"Move some keys from a desk to the floral armchair at any time. Simultaneously, move a tennis racket from the floor to a desk. After moving the keys and tennis racket, put an alarm clock on the desk."
+            }
         },
         {
             "task_list":[
                 "Put the blue pens on the top of the dresser. ",
-                "put a CD on to the dresser",
-                "Move the keys to the chair."
+                "Move a CD on the desk to the right.",
+                "Move a tennis racket from the floor to a desk."
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json"
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the blue pens on the top of the dresser. Simultaneously, move a CD on the desk to the right. After placing the pens and moving the CD, move a tennis racket from the floor to a desk.",
+                "compose 2":"Move a CD on the desk to the right. After moving the CD, put the blue pens on the top of the dresser. Simultaneously, move a tennis racket from the floor to a desk.",
+                "compose 3":"Move a tennis racket from the floor to a desk. Simultaneously, put the blue pens on the top of the dresser. After moving the racket and placing the pens, move a CD on the desk to the right."
+            }
         },
         {
             "task_list":[
                 "View the black and brown object in the light. ",
-                "Pick up the cups on the desk and place them in the desk drawer.",
-                "Move a CD on the desk to the right."
+                "Put a mug that's got a pencil in it on a desk.",
+                "Place a cell phone on a chair."
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/traj_data.json",
-                    "train/pick_two_obj_and_place-Mug-None-Cabinet-318/trial_T20190910_055356_172564/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"View the black and brown object in the light at any time. Simultaneously, put a mug that's got a pencil in it on a desk. Once done, place a cell phone on a chair.",
+                "compose 2":"Put a mug that's got a pencil in it on a desk at any time. After putting the mug, view the black and brown object in the light. Finally, place a cell phone on a chair.",
+                "compose 3":"Place a cell phone on a chair at any time. Simultaneously, view the black and brown object in the light. Once done, put a mug that's got a pencil in it on a desk."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
+                "Place the disc on the desk onto the dresser beside the book.",
+                "Move a mug containing a pen from a desk to a chest of drawers.",
                 "Place a cell phone on a chair.",
-                "Put the mug with pen on the dresser",
-                "Move some keys from a desk to the floral armchair.",
-                "Put the tennis racket on the desk."
+                "Place a set of keys on a chair."
             ],
             "orign":[
                 [
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190322_270194/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083127_735120/traj_data.json",
                     "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083114_148001/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json"
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cell phone on a chair at any time. Simultaneously, move a mug containing a pen from a desk to a chest of drawers. After completing the previous tasks, place the disc on the desk onto the dresser beside the book.",
+                "compose 2":"Move a mug containing a pen from a desk to a chest of drawers at any time. Simultaneously, place a set of keys on a chair. After completing the previous tasks, place the disc on the desk onto the dresser beside the book.",
+                "compose 3":"Place a set of keys on a chair at any time. Simultaneously, place a cell phone on a chair. After completing the previous tasks, move a mug containing a pen from a desk to a chest of drawers followed by placing the disc on the desk onto the dresser beside the book."
+            }
         },
         {
             "task_list":[
                 "Place a cell phone on a chair.",
                 "Put the blue pens on the top of the dresser. ",
-                "Put a mug that's got a pencil in it on a desk.",
-                "Put an alarm clock on the desk."
-            ],
-            "orign":[
-                [
-                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "move book from dresser to chair",
                 "Move a tennis racket from the floor to a desk.",
-                "put a CD on to the dresser",
-                "Put 2 alarm clock side by side on the brown shelf near the AC"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
-                    "train/pick_two_obj_and_place-AlarmClock-None-Dresser-318/trial_T20190919_024708_968984/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move some keys from a desk to the floral armchair.",
-                "Place a cell phone on a chair.",
-                "Take an alarm clock to move it to the desk.",
-                "Put the mug with pen on the dresser"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083114_148001/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put an alarm clock on the desk.",
-                "Place a cell phone on a chair.",
-                "Move a CD on the desk to the right.",
-                "Put a mug with pencil in it on the desk, left of the computer. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_5":[
-        {
-            "task_list":[
-                "Put the blue pens on the top of the dresser. ",
-                "Place a set of keys on a chair.",
-                "move book from dresser to chair",
-                "Move a tennis racket from the floor to a desk.",
-                "Put a mug that's got a pencil in it on a desk."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the blue pens on the top of the dresser. ",
-                "Move a tennis racket from the floor to a desk.",
-                "Put a mug with pencil in it on the desk, left of the computer. ",
-                "Move the keys to the chair.",
                 "Move a CD on the desk to the right."
             ],
             "orign":[
                 [
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
                     "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
                     "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json",
                     "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cell phone on a chair at any time. Simultaneously, put the blue pens on the top of the dresser. After placing the cell phone and the pens, move a tennis racket from the floor to a desk. Finally, move a CD on the desk to the right.",
+                "compose 2":"Move a CD on the desk to the right at any time. Simultaneously, move a tennis racket from the floor to a desk. After moving the CD and the tennis racket, place a cell phone on a chair. Finally, put the blue pens on the top of the dresser.",
+                "compose 3":"Place a cell phone on a chair at any time. Simultaneously, move a CD on the desk to the right. After placing the cell phone and moving the CD, put the blue pens on the top of the dresser. Finally, move a tennis racket from the floor to a desk."
+            }
         },
         {
             "task_list":[
-                "Move a CD on the desk to the right.",
-                "Place a cell phone on a chair.",
-                "Take an alarm clock to move it to the desk.",
-                "Move the keys to the chair.",
-                "Move a mug containing a pen from a desk to a chest of drawers."
+                "move book from dresser to chair",
+                "Pick up the cups on the desk and place them in the desk drawer.",
+                "Move some keys from a desk to the floral armchair.",
+                "Move a CD on the desk to the right."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
-                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083127_735120/traj_data.json"
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_two_obj_and_place-Mug-None-Cabinet-318/trial_T20190910_055356_172564/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a cell phone on a chair.",
-                "Put an alarm clock on the desk.",
-                "Move a mug containing a pen from a desk to a chest of drawers.",
-                "Move a tennis racket from the floor to a desk.",
-                "put a CD on to the dresser"
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083127_735120/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Pick up the cups on the desk and place them in the desk drawer at any time. Simultaneously, move a CD on the desk to the right. After placing the cups and the CD, move some keys from a desk to the floral armchair.",
+                "compose 2":"Move a CD on the desk to the right at any time. Simultaneously, pick up the cups on the desk and place them in the desk drawer. After moving the CD and placing the cups, move some keys from a desk to the floral armchair.",
+                "compose 3":"Pick up the cups on the desk and place them in the desk drawer at any time. Simultaneously, move some keys from a desk to the floral armchair. After placing the cups and the keys, move a CD on the desk to the right."
+            }
         },
         {
             "task_list":[
                 "Move some keys from a desk to the floral armchair.",
-                "Move a CD on the desk to the right.",
-                "Place a cell phone on a chair.",
-                "View the black and brown object in the light. ",
-                "Put a mug with pencil in it on the desk, left of the computer. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
-                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_6":[
-        {
-            "task_list":[
-                "Place the disc on the desk onto the dresser beside the book.",
-                "Put a mug with pencil in it on the desk, left of the computer. ",
-                "Put the tennis racket on the desk.",
-                "Move the keys to the chair.",
+                "put a CD on to the dresser",
                 "Put the blue pens on the top of the dresser. ",
                 "Place a cell phone on a chair."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190322_270194/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
                     "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
                     "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move some keys from a desk to the floral armchair.",
-                "Place a cell phone on a chair.",
-                "put a CD on to the dresser",
-                "Put the tennis racket on the desk.",
-                "Put a mug that's got a pencil in it on a desk.",
-                "Put an alarm clock on the desk."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
-                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "put a CD on to the dresser",
-                "Place a cell phone on a chair.",
-                "Put the keys on the desk",
-                "Put the mug with pen on the dresser",
-                "Move a tennis racket from the floor to a desk.",
-                "Take an alarm clock to move it to the desk."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
-                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-318/trial_T20190907_181205_590674/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083114_148001/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a mug with pencil in it on the desk, left of the computer. ",
-                "Move the keys to the chair.",
-                "Put the blue pens on the top of the dresser. ",
-                "put a CD on to the dresser",
-                "Put 2 alarm clock side by side on the brown shelf near the AC",
-                "Put the tennis racket on the desk."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
-                    "train/pick_two_obj_and_place-AlarmClock-None-Dresser-318/trial_T20190919_024708_968984/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move some keys from a desk to the floral armchair at any time. Simultaneously, put a CD on to the dresser. After moving the keys and placing the CD, put the blue pens on the top of the dresser. Finally, place a cell phone on a chair.",
+                "compose 2":"Place a cell phone on a chair at any time. Simultaneously, put a CD on to the dresser. After placing the cell phone, move some keys from a desk to the floral armchair. Finally, put the blue pens on the top of the dresser.",
+                "compose 3":"Put the blue pens on the top of the dresser at any time. Simultaneously, put a CD on to the dresser. After placing the pens, place a cell phone on a chair. Finally, move some keys from a desk to the floral armchair."
+            }
         },
         {
             "task_list":[
                 "Place the disc on the desk onto the dresser beside the book.",
-                "Put a mug with pencil in it on the desk, left of the computer. ",
-                "Put the tennis racket on the desk.",
                 "Place a cell phone on a chair.",
-                "Put the keys on the desk",
-                "Put the blue pens on the top of the dresser. "
+                "Place a set of keys on a chair.",
+                "Take an alarm clock to move it to the desk."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190322_270194/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json",
                     "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
-                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-318/trial_T20190907_181205_590674/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cell phone on a chair at any time. Concurrently, place a set of keys on a chair. After placing the cell phone and keys, take an alarm clock to move it to the desk. Finally, place the disc on the desk onto the dresser beside the book.",
+                "compose 2":"Take an alarm clock to move it to the desk at any time. Concurrently, place a cell phone on a chair and place a set of keys on a chair. After moving the alarm clock, place the disc on the desk onto the dresser beside the book.",
+                "compose 3":"Place the disc on the desk onto the dresser beside the book at any time. Concurrently, place a cell phone on a chair and place a set of keys on a chair. After placing the disc, take an alarm clock to move it to the desk."
+            }
+        }
+    ],
+    "tasks_5":[
+        {
+            "task_list":[
+                "Put the tennis racket on the desk.",
+                "Take an alarm clock to move it to the desk.",
+                "move book from dresser to chair",
+                "Place a set of keys on a chair.",
+                "Put a mug that's got a pencil in it on a desk."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_005144_131948/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Take an alarm clock to move it to the desk. Put a mug that's got a pencil in it on a desk. Simultaneously, put the tennis racket on the desk. After placing the mug and tennis racket, move a book from the dresser to the chair. Finally, place a set of keys on the chair.",
+                "compose 2":"Put the tennis racket on the desk. Simultaneously, move a book from the dresser to the chair. After placing the tennis racket and book, take an alarm clock to move it to the desk. Finally, put a mug that's got a pencil in it on a desk.",
+                "compose 3":"Put a mug that's got a pencil in it on a desk. Simultaneously, place a set of keys on a chair. After placing the mug and keys, put the tennis racket on the desk. Finally, take an alarm clock to move it to the desk, and at the same time, move a book from the dresser to the chair."
+            }
+        },
+        {
+            "task_list":[
+                "move book from dresser to chair",
+                "Place a set of keys on a chair.",
+                "Put the blue pens on the top of the dresser. ",
+                "Move a clock from a chair to a desk.",
+                "Put a mug that's got a pencil in it on a desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190907_143604_622776/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a clock from a chair to a desk at any time. Simultaneously, place a set of keys on a chair. After moving the clock and placing the keys, put the blue pens on the top of the dresser.",
+                "compose 2":"Put a mug that's got a pencil in it on a desk at any time. Simultaneously, move a book from the dresser to a chair. After placing the mug, move a clock from a chair to a desk.",
+                "compose 3":"Move a book from dresser to chair at any time. Simultaneously, put the blue pens on the top of the dresser. After moving the book and placing the pens, put a mug that's got a pencil in it on a desk."
+            }
+        },
+        {
+            "task_list":[
+                "Put the tennis racket on the desk.",
+                "put a CD on to the dresser",
+                "Take an alarm clock to move it to the desk.",
+                "Place a cell phone on a chair.",
+                "Move the keys to the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cell phone on a chair at any time. Simultaneously, put a CD on to the dresser. After placing the cell phone, move the keys to the chair. Lastly, take an alarm clock to move it to the desk.",
+                "compose 2":"Put a CD on to the dresser at any time. Simultaneously, place a cell phone on a chair. After placing the CD, put the tennis racket on the desk. Lastly, take an alarm clock to move it to the desk.",
+                "compose 3":"Take an alarm clock to move it to the desk at any time. Simultaneously, move the keys to the chair. After moving the alarm clock, put a CD on to the dresser. Lastly, put the tennis racket on the desk."
+            }
+        },
+        {
+            "task_list":[
+                "put a CD on to the dresser",
+                "Place a cell phone on a chair.",
+                "Put the mug with pen on the dresser",
+                "Move a tennis racket from the floor to a desk.",
+                "move book from dresser to chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083114_148001/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the mug with pen on the dresser. Simultaneously, place a cell phone on a chair. After placing the mug with pen, put a CD on to the dresser, and then move a tennis racket from the floor to a desk. Finally, move a book from the dresser to the chair.",
+                "compose 2":"Place a cell phone on a chair. Simultaneously, put a CD on to the dresser. After placing the cell phone, put the mug with pen on the dresser. Next, move a tennis racket from the floor to a desk. Finally, move a book from the dresser to the chair.",
+                "compose 3":"Move a tennis racket from the floor to a desk. Simultaneously, move a book from the dresser to the chair. After moving the tennis racket, place a cell phone on a chair. Then, put the mug with pen on the dresser. Finally, put a CD on to the dresser."
+            }
+        },
+        {
+            "task_list":[
+                "Move the keys to the chair.",
+                "put a CD on to the dresser",
+                "move book from dresser to chair",
+                "Put an alarm clock on the desk.",
+                "Place a cell phone on a chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the keys to the chair at any time. Simultaneously, put a CD on to the dresser. After moving the keys and placing the CD, move book from dresser to chair. Finally, put an alarm clock on the desk and place a cell phone on a chair.",
+                "compose 2":"Put a CD on to the dresser. After that, move book from dresser to chair. Simultaneously, move the keys to the chair. After completing those tasks, put an alarm clock on the desk and place a cell phone on a chair.",
+                "compose 3":"Place a cell phone on a chair. Simultaneously, move the keys to the chair and put a CD on to the dresser. After completing those tasks, move book from dresser to chair. Finally, put an alarm clock on the desk."
+            }
+        }
+    ],
+    "tasks_6":[
+        {
+            "task_list":[
+                "put a CD on to the dresser",
+                "Place a cell phone on a chair.",
+                "Take an alarm clock to move it to the desk.",
+                "Move some keys from a desk to the floral armchair.",
+                "Put a mug that's got a pencil in it on a desk.",
+                "Put the blue pens on the top of the dresser. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
                     "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Take an alarm clock to move it to the desk. Simultaneously, put a mug that's got a pencil in it on a desk. After completing these tasks, put a CD on to the dresser.",
+                "compose 2":"Place a cell phone on a chair at any time. Simultaneously, put the blue pens on the top of the dresser. After placing the cell phone and pens, move some keys from a desk to the floral armchair.",
+                "compose 3":"Put a mug that's got a pencil in it on a desk. Then, put the blue pens on the top of the dresser. After completing these tasks, take an alarm clock to move it to the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Put the tennis racket on the desk.",
+                "Place a set of keys on a chair.",
+                "Move a CD on the desk to the right.",
+                "Place a cell phone on a chair.",
+                "Put the mug with pen on the dresser",
+                "Put an alarm clock on the desk."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_005144_131948/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083114_148001/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the tennis racket on the desk at any time. Simultaneously, place a set of keys on a chair. After placing the tennis racket and keys, move a CD on the desk to the right and place a cell phone on a chair. Finally, put the mug with pen on the dresser and then put an alarm clock on the desk.",
+                "compose 2":"Put the mug with pen on the dresser first. Simultaneously, put an alarm clock on the desk. After that, place a cell phone on a chair and move a CD on the desk to the right. Finally, put the tennis racket on the desk and place a set of keys on a chair.",
+                "compose 3":"Put an alarm clock on the desk at any time. Simultaneously, put the mug with pen on the dresser. After placing the alarm clock and mug, put a cell phone on a chair and move a CD on the desk to the right. Finally, put the tennis racket on the desk and place a set of keys on a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Put the blue pens on the top of the dresser. ",
+                "Put an alarm clock on the desk.",
+                "Place a cell phone on a chair.",
+                "Put the tennis racket on the desk.",
+                "Put a mug with pencil in it on the desk, left of the computer. ",
+                "move book from dresser to chair"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
+                    "tests_seen/trial_T20190908_005144_131948/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put an alarm clock on the desk. Simultaneously, place a cell phone on a chair. After placing the alarm clock and cell phone, put the blue pens on the top of the dresser.",
+                "compose 2":"Put the blue pens on the top of the dresser. Simultaneously, put a mug with pencil in it on the desk, left of the computer. After placing the pens and mug, move the book from the dresser to the chair.",
+                "compose 3":"Put a mug with pencil in it on the desk, left of the computer. Simultaneously, move the book from the dresser to the chair. After completing these tasks, put the tennis racket on the desk."
+            }
+        },
+        {
+            "task_list":[
+                "Put the tennis racket on the desk.",
+                "Place a cell phone on a chair.",
+                "Put the mug with pen on the dresser",
+                "Move a CD on the desk to the right.",
+                "Put an alarm clock on the desk.",
+                "Move some keys from a desk to the floral armchair."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_005144_131948/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pen-Mug-Dresser-318/trial_T20190908_083114_148001/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the tennis racket on the desk at any time. Simultaneously, place a cell phone on a chair.After placing the tennis racket, put the mug with pen on the dresser. Next, move a CD on the desk to the right. Following that, put an alarm clock on the desk. Lastly, move some keys from a desk to the floral armchair.",
+                "compose 2":"Put an alarm clock on the desk at any time. Simultaneously, place a cell phone on a chair.After placing the alarm clock, put the mug with pen on the dresser. Next, move a CD on the desk to the right. Following that, put the tennis racket on the desk. Lastly, move some keys from a desk to the floral armchair.",
+                "compose 3":"Move a CD on the desk to the right at any time. Simultaneously, put an alarm clock on the desk.After moving the CD, put the tennis racket on the desk. Next, place a cell phone on a chair. Following that, put the mug with pen on the dresser. Lastly, move some keys from a desk to the floral armchair."
+            }
+        },
+        {
+            "task_list":[
+                "move book from dresser to chair",
+                "Put the blue pens on the top of the dresser. ",
+                "Pick up the cups on the desk and place them in the desk drawer.",
+                "Put the tennis racket on the desk.",
+                "Place a cell phone on a chair.",
+                "Put the keys on the desk"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
+                    "train/pick_two_obj_and_place-Mug-None-Cabinet-318/trial_T20190910_055356_172564/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
+                    "train/pick_two_obj_and_place-KeyChain-None-Dresser-318/trial_T20190907_181205_590674/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move book from dresser to chair at any time. Simultaneously, put the blue pens on the top of the dresser. After moving the book and putting the pens, pick up the cups on the desk and place them in the desk drawer.",
+                "compose 2":"Place a cell phone on a chair at any time. Simultaneously, put the keys on the desk. After placing the phone and keys, pick up the cups on the desk and place them in the desk drawer.",
+                "compose 3":"Pick up the cups on the desk and place them in the desk drawer at any time. After placing the cups, put the blue pens on the top of the dresser. Finish by moving the book from the dresser to the chair."
+            }
         }
     ],
     "tasks_7":[
         {
             "task_list":[
+                "Put a mug with pencil in it on the desk, left of the computer. ",
                 "Place a cell phone on a chair.",
-                "Take an alarm clock to move it to the desk.",
+                "move book from dresser to chair",
                 "Put the blue pens on the top of the dresser. ",
-                "Put the tennis racket on the desk.",
-                "Pick up the cups on the desk and place them in the desk drawer.",
+                "put a CD on to the dresser",
+                "Move some keys from a desk to the floral armchair.",
+                "Put the tennis racket on the desk."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114611_014873/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cell phone on a chair. Simultaneously, put a mug with pencil in it on the desk, left of the computer. After placing the cell phone, move some keys from a desk to the floral armchair. Finally, put the blue pens on the top of the dresser.",
+                "compose 2":"Move some keys from a desk to the floral armchair. Simultaneously, put the blue pens on the top of the dresser. After moving the keys and placing the pens, put a CD on to the dresser.",
+                "compose 3":"Put the tennis racket on the desk at any time. Simultaneously, move book from dresser to chair. After placing the tennis racket, put a CD on to the dresser. Finally, put a mug with pencil in it on the desk, left of the computer."
+            }
+        },
+        {
+            "task_list":[
+                "Move a tennis racket from the floor to a desk.",
+                "Put the blue pens on the top of the dresser. ",
+                "Move the keys to the chair.",
+                "Take an alarm clock to move it to the desk.",
                 "Move a CD on the desk to the right.",
+                "move book from dresser to chair",
+                "Place a cell phone on a chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a tennis racket from the floor to a desk at any time. Simultaneously, take an alarm clock to move it to the desk. After moving the tennis racket and alarm clock, put the blue pens on the top of the dresser. Then, move the keys to the chair. Finally, place a cell phone on a chair.",
+                "compose 2":"Put the blue pens on the top of the dresser at any time. Simultaneously, move a tennis racket from the floor to a desk. After putting the pens and moving the racket, take an alarm clock to move it to the desk. Then, move the keys to the chair. Finally, place a cell phone on a chair.",
+                "compose 3":"Move a CD on the desk to the right at any time. Simultaneously, move book from dresser to chair. After moving the CD and book, put the blue pens on the top of the dresser. Then, take an alarm clock to move it to the desk. Finally, move the keys to the chair and place a cell phone on a chair."
+            }
+        },
+        {
+            "task_list":[
+                "Place a cell phone on a chair.",
+                "Put the blue pens on the top of the dresser. ",
+                "put a CD on to the dresser",
+                "Move a tennis racket from the floor to a desk.",
+                "Put a mug with pencil in it on the desk, left of the computer. ",
+                "move book from dresser to chair",
                 "Put the keys on the desk"
             ],
             "orign":[
                 [
-                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
-                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_025509_493764/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
                     "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005120_288439/traj_data.json",
-                    "train/pick_two_obj_and_place-Mug-None-Cabinet-318/trial_T20190910_055356_172564/traj_data.json",
-                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
                     "train/pick_two_obj_and_place-KeyChain-None-Dresser-318/trial_T20190907_181205_590674/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cell phone on a chair at any time. Simultaneously, put the blue pens on the top of the dresser and put a CD on to the dresser. After placing the cell phone, move a tennis racket from the floor to a desk. Finally, put a mug with pencil in it on the desk, left of the computer.",
+                "compose 2":"Put a mug with pencil in it on the desk, left of the computer at any time. Simultaneously, put the blue pens on the top of the dresser and put a CD on to the dresser. After placing the mug, move a tennis racket from the floor to a desk. Finally, place a cell phone on a chair.",
+                "compose 3":"Put the keys on the desk at any time. Simultaneously, move a book from dresser to chair and move a tennis racket from the floor to a desk. After moving the book and tennis racket, place a cell phone on a chair. Finally, put the blue pens on the top of the dresser and put a CD on to the dresser."
+            }
+        },
+        {
+            "task_list":[
+                "View the black and brown object in the light. ",
+                "Place a cell phone on a chair.",
+                "Place a set of keys on a chair.",
+                "Put the blue pens on the top of the dresser. ",
+                "Move a tennis racket from the floor to a desk.",
+                "Move a CD on the desk to the right.",
+                "Put a mug with pencil in it on the desk, left of the computer. "
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-AlarmClock-None-DeskLamp-318/trial_T20190906_180754_637797/traj_data.json",
+                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
+                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json",
+                    "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190229_164232/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190907_122607_508159/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"View the black and brown object in the light at any time. Simultaneously, place a cell phone on a chair. After viewing the object and placing the cell phone, put the blue pens on the top of the dresser.",
+                "compose 2":"Place a set of keys on a chair first. Then, move a tennis racket from the floor to a desk. After that, move a CD on the desk to the right.",
+                "compose 3":"Put a mug with pencil in it on the desk, left of the computer first. Then, move a CD on the desk to the right. Finally, place a cell phone on a chair."
+            }
         }
     ],
     "tasks_8":[
         {
             "task_list":[
-                "Place a cell phone on a chair.",
-                "Put the blue pens on the top of the dresser. ",
-                "Put 2 alarm clock side by side on the brown shelf near the AC",
-                "Place a set of keys on a chair.",
-                "Put a mug that's got a pencil in it on a desk.",
-                "move book from dresser to chair",
                 "put a CD on to the dresser",
-                "Move a tennis racket from the floor to a desk."
+                "move book from dresser to chair",
+                "Put a mug that's got a pencil in it on a desk.",
+                "Put the blue pens on the top of the dresser. ",
+                "Move the keys to the chair.",
+                "Place a cell phone on a chair.",
+                "Put the tennis racket on the desk.",
+                "Put an alarm clock on the desk."
             ],
             "orign":[
                 [
-                    "valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
-                    "train/pick_two_obj_and_place-AlarmClock-None-Dresser-318/trial_T20190919_024708_968984/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114706_369286/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
                     "train/pick_and_place_simple-CD-None-Dresser-318/trial_T20190907_190246_917982/traj_data.json",
-                    "train/pick_and_place_simple-TennisRacket-None-Desk-318/trial_T20190908_005132_258981/traj_data.json"
+                    "train/pick_and_place_simple-Book-None-ArmChair-318/trial_T20190909_113100_297495/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Pencil-Mug-Desk-318/trial_T20190908_193904_164797/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-318/trial_T20190910_101622_375359/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-ArmChair-318/trial_T20190909_114631_650488/traj_data.json",
+                    "train/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120109_366816/traj_data.json",
+                    "tests_seen/trial_T20190908_005144_131948/traj_data.json",
+                    "train/pick_and_place_simple-AlarmClock-None-Desk-318/trial_T20190910_021620_491490/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put an alarm clock on the desk at any time. Simultaneously, move the keys to the chair. After placing the alarm clock, put a CD on the dresser. Next, move a book from the dresser to the chair. Then, put the blue pens on the top of the dresser. Subsequently, place a cell phone on a chair. Finally, put a mug that's got a pencil in it on a desk.",
+                "compose 2":"Put a CD on to the dresser at any time. Simultaneously, put an alarm clock on the desk. After placing the CD, move the keys to the chair. Next, put the blue pens on the top of the dresser. Subsequently, move a book from the dresser to the chair. Then, place a cell phone on a chair. Finally, put the tennis racket on the desk.",
+                "compose 3":"Put an alarm clock on the desk at any time. Simultaneously, move the keys to the chair. After placing the alarm clock, put a CD on the dresser. Next, put the tennis racket on the desk. Subsequently, move a book from the dresser to the chair. Then, put the blue pens on the top of the dresser. Finally, put a mug that's got a pencil in it on a desk."
+            }
         }
     ],
     "tasks_9":[]

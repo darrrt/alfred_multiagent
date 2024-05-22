@@ -8,8 +8,8 @@
                 "Put a book on a couch cushion."
             ],
             "relative_objects":[
-                "Pillow",
-                "Book"
+                "Book",
+                "Pillow"
             ]
         },
         "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json":{
@@ -26,8 +26,8 @@
                 "Move the cells phones to the cloth chair."
             ],
             "relative_objects":[
-                "Chair",
-                "CellPhone"
+                "CellPhone",
+                "Chair"
             ]
         },
         "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json":{
@@ -54,9 +54,9 @@
                 "Put a box with keys in it on the couch."
             ],
             "relative_objects":[
-                "Sofa",
+                "KeyChain",
                 "Box",
-                "KeyChain"
+                "Sofa"
             ]
         },
         "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_210936_819934/traj_data.json":{
@@ -66,10 +66,10 @@
                 "Put a box with keys in it on the sofa"
             ],
             "relative_objects":[
+                "KeyChain",
                 "Pillow",
-                "Book",
                 "Box",
-                "KeyChain"
+                "Book"
             ]
         },
         "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json":{
@@ -123,17 +123,6 @@
                 "CellPhone"
             ]
         },
-        "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131523_783089/traj_data.json":{
-            "tasks":[
-                "Put 2 phone side by side on the white TV cabinet. "
-            ],
-            "relative_objects":[
-                "RemoteControl",
-                "Book",
-                "CellPhone",
-                "Laptop"
-            ]
-        },
         "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json":{
             "tasks":[
                 "To move to pens to the television stand. ",
@@ -150,8 +139,8 @@
                 "Put tissues down on a table."
             ],
             "relative_objects":[
-                "Pen",
-                "TissueBox"
+                "TissueBox",
+                "Pen"
             ]
         },
         "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json":{
@@ -181,9 +170,9 @@
                 "Removing the book from the table to place it on the chair."
             ],
             "relative_objects":[
-                "Chair",
+                "CoffeeTable",
                 "Book",
-                "CoffeeTable"
+                "Chair"
             ]
         },
         "valid_seen/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042856_259139/traj_data.json":{
@@ -202,51 +191,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "To gather cell phones in the room. "
+                "move tissue box from coffee table to a small table"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json"
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move the box and keys to the couch. "
+                "To move to pens to the television stand. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_210936_819934/traj_data.json"
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move the box and keys to the couch. "
+                "clean up pencils and put them on the table"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_210936_819934/traj_data.json"
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a book on a chair."
+                "Move the phones on the table to the TV stand. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json"
+                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131442_170447/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move the box and keys to the couch. "
+                "To move to pens to the television stand. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_210936_819934/traj_data.json"
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
                 ]
             ]
         }
@@ -254,391 +243,511 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put a box with keys in it on the sofa.",
+                "Put the box with cell phone on the sofa",
                 "Put a book on the couch. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-229/trial_T20190908_145929_148591/traj_data.json",
                     "train/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042933_874605/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the box with cell phone on the sofa at any time. Simultaneously, put a book on the couch.",
+                "compose 2":"Put a book on the couch at any time. Simultaneously, put the box with cell phone on the sofa.",
+                "compose 3":"Put a book on the couch at any time. After putting the book, put the box with cell phone on the sofa."
+            }
         },
         {
             "task_list":[
-                "Put a box with keys in it on the sofa.",
+                "To move to pens to the television stand. ",
+                "Put the box with cell phone on the sofa"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-229/trial_T20190908_145929_148591/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the box with cell phone on the sofa at any time. Simultaneously, to move two pens to the television stand.",
+                "compose 2":"To move two pens to the television stand. After moving the pens, put the box with cell phone on the sofa.",
+                "compose 3":"Put the box with cell phone on the sofa at any time. After placing the box, to move two pens to the television stand."
+            }
+        },
+        {
+            "task_list":[
+                "To move to pens to the television stand. ",
                 "Put a book on the couch. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
                     "train/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042933_874605/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"To move to pens to the television stand. Put a book on the couch.",
+                "compose 2":"Put a book on the couch. To move to pens to the television stand.",
+                "compose 3":"To move to pens to the television stand. Put a book on the couch."
+            }
         },
         {
             "task_list":[
-                "move tissue box from coffee table to a small table",
-                "Put a box with keys in it on the sofa."
+                "Move to table, pick up tissue box and place on table with pen on it.",
+                "To gather cell phones in the room. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json"
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114048_231845/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move to table and pick up tissue box. Place the tissue box on the table with the pen on it. After placing the tissue box with the pen, gather all the cell phones in the room.",
+                "compose 2":"To gather all the cell phones in the room. Move to the table, pick up the tissue box, and place it on the table with the pen on it.",
+                "compose 3":"Move to the table, pick up the tissue box, and place it on the table with the pen on it. Then, gather all the cell phones in the room."
+            }
         },
         {
             "task_list":[
-                "move tissue box from coffee table to a small table",
-                "Put a book on a chair."
+                "To move to pens to the television stand. ",
+                "To gather cell phones in the room. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json"
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "clean up pencils and put them on the table",
-                "To move to pens to the television stand. "
             ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move two pens to the television stand at any time. Simultaneously, gather cell phones in the room.",
+                "compose 2":"Gather cell phones in the room at any time. After gathering the cell phones, move two pens to the television stand.",
+                "compose 3":"Move two pens to the television stand at any time. Then, gather cell phones in the room."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Move the dog statue to the other side of the table. ",
+                "clean up pencils and put them on the table",
+                "move tissue box from coffee table to a small table",
+                "Put a book on the couch. "
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042933_874605/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move tissue box from coffee table to a small table at any time. Simultaneously, clean up pencils and put them on the table. After completing the previous tasks, put a book on the couch.",
+                "compose 2":"Clean up pencils and put them on the table at any time. Simultaneously, move tissue box from coffee table to a small table. After completing the previous tasks, put a book on the couch.",
+                "compose 3":"Put a book on the couch at any time. Simultaneously, clean up pencils and put them on the table. After completing the previous tasks, move tissue box from coffee table to a small table."
+            }
+        },
+        {
+            "task_list":[
+                "clean up pencils and put them on the table",
+                "Move the phones on the table to the TV stand. ",
+                "Place the book beside the remote on the chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131442_170447/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203105_670913/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Clean up pencils and put them on the table at any time. Move the phones on the table to the TV stand. After moving the phones, place the book beside the remote on the chair.",
+                "compose 2":"Move the phones on the table to the TV stand. Clean up pencils and put them on the table at any time. After cleaning up the pencils, place the book beside the remote on the chair.",
+                "compose 3":"Place the book beside the remote on the chair at any time. Clean up pencils and put them on the table. After putting the pencils, move the phones on the table to the TV stand."
+            }
+        },
+        {
+            "task_list":[
+                "Move to table, pick up tissue box and place on table with pen on it.",
                 "Put the box with cell phone on the sofa",
                 "Put a book on a chair."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114048_231845/traj_data.json",
                     "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-229/trial_T20190908_145929_148591/traj_data.json",
                     "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the keys on the couch.",
-                "Move the phones on the table to the TV stand. ",
-                "clean up pencils and put them on the table"
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131442_170447/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the cells phones to the cloth chair.",
-                "Move the box and keys to the couch. ",
-                "clean up pencils and put them on the table"
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082008_641926/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_210936_819934/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move to table, pick up tissue box and place on table with pen on it. After that, put the box with cell phone on the sofa. Finally, put a book on a chair.",
+                "compose 2":"Move to table, pick up tissue box and place on table with pen on it. Put a book on a chair. After that, put the box with cell phone on the sofa.",
+                "compose 3":"Put a book on a chair. Move to table, pick up tissue box and place on table with pen on it. Finally, put the box with cell phone on the sofa."
+            }
         },
         {
             "task_list":[
                 "Move the dog statue to the other side of the table. ",
                 "move tissue box from coffee table to a small table",
-                "To move to pens to the television stand. "
+                "Move the box and keys to the couch. "
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
                     "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_210936_819934/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the box and keys to the couch at any time. Simultaneously, move tissue box from coffee table to a small table. After moving the box and keys, move the dog statue to the other side of the table.",
+                "compose 2":"Move the dog statue to the other side of the table at any time. Simultaneously, move tissue box from coffee table to a small table. After moving the dog statue, move the box and keys to the couch.",
+                "compose 3":"Move the dog statue to the other side of the table at any time. Simultaneously, move the box and keys to the couch. After moving the dog statue, move tissue box from coffee table to a small table."
+            }
         },
         {
             "task_list":[
-                "Move to table, pick up tissue box and place on table with pen on it.",
+                "Put a box with keys in it on the sofa.",
                 "To gather cell phones in the room. ",
-                "Move a book from a desk to a sofa."
+                "To move to pens to the television stand. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114048_231845/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
                     "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json",
-                    "valid_seen/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042856_259139/traj_data.json"
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"To move to pens to the television stand at any time. Simultaneously, put a box with keys in it on the sofa. After moving the pens, gather cell phones in the room.",
+                "compose 2":"Put a box with keys in it on the sofa at any time. After placing the box, gather cell phones in the room. Finally, move to pens to the television stand.",
+                "compose 3":"To gather cell phones in the room at any time. Simultaneously, move to pens to the television stand. Once done, put a box with keys in it on the sofa."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Put a box with keys in it on the sofa.",
+                "Move to table, pick up tissue box and place on table with pen on it.",
+                "Move the phones on the table to the TV stand. ",
                 "clean up pencils and put them on the table",
+                "Put a book on a chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114048_231845/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131442_170447/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move to table, pick up tissue box and place on table with pen on it at any time. Simultaneously, move the phones on the table to the TV stand. After moving the phones, clean up pencils and put them on the table. Once done, put a book on a chair.",
+                "compose 2":"Move to table, pick up tissue box and place on table with pen on it at any time. After placing the tissue box, clean up pencils and put them on the table. Simultaneously, move the phones on the table to the TV stand. Once done, put a book on a chair.",
+                "compose 3":"Move to table, pick up tissue box and place on table with pen on it at any time. Simultaneously, move the phones on the table to the TV stand. After moving the phones, put a book on a chair. Once done, clean up pencils and put them on the table."
+            }
+        },
+        {
+            "task_list":[
                 "To move to pens to the television stand. ",
-                "Put a book on the couch. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042933_874605/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the dog statue to the other side of the table. ",
+                "Put a book on the couch. ",
                 "To gather cell phones in the room. ",
-                "move tissue box from coffee table to a small table",
-                "Put a book on a chair."
+                "move tissue box from coffee table to a small table"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042933_874605/traj_data.json",
                     "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json"
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a book from a desk to a sofa.",
-                "move tissue box from coffee table to a small table",
-                "Move the dog statue to the other side of the table. ",
-                "Move the cell phones to the cloth chair."
             ],
-            "orign":[
-                [
-                    "valid_seen/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042856_259139/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_081902_634047/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the dog statue to the other side of the table. ",
-                "move tissue box from coffee table to a small table",
-                "Put a box with keys in it on the sofa.",
-                "Move the cell phones to the cloth chair."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_081902_634047/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"To move tissue box from the coffee table to a small table. Put a book on the couch. Simultaneously, move pens to the television stand. After completing the previous tasks, gather cell phones in the room.",
+                "compose 2":"Put a book on the couch. Move pens to the television stand at any time. After moving the pens, gather cell phones in the room. Finally, move the tissue box from the coffee table to a small table.",
+                "compose 3":"Put a book on the couch. To move tissue box from the coffee table to a small table. Move pens to the television stand. Finally, gather cell phones in the room."
+            }
         },
         {
             "task_list":[
                 "Move the dog statue to the other side of the table. ",
                 "clean up pencils and put them on the table",
-                "Put the keys on the couch.",
-                "Put a book on a chair."
+                "Move the cell phones to the cloth chair.",
+                "Move a book from a desk to a sofa."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
                     "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json"
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_081902_634047/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042856_259139/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the dog statue to the other side of the table at any time. Simultaneously, clean up pencils and put them on the table. After completing these tasks, move the cell phones to the cloth chair. Finally, move a book from a desk to a sofa.",
+                "compose 2":"Clean up pencils and put them on the table at any time. Simultaneously, move a book from a desk to a sofa. After completing these tasks, move the dog statue to the other side of the table. Finally, move the cell phones to the cloth chair.",
+                "compose 3":"Move the dog statue to the other side of the table at any time. Simultaneously, move the cell phones to the cloth chair. After completing these tasks, clean up pencils and put them on the table. Finally, move a book from a desk to a sofa."
+            }
+        },
+        {
+            "task_list":[
+                "Put the keys on the couch.",
+                "Move a book from a desk to a sofa.",
+                "Move the dog statue to the other side of the table. ",
+                "move tissue box from coffee table to a small table"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042856_259139/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a book from a desk to a sofa. Simultaneously, move the dog statue to the other side of the table. After moving the book and the statue, put the keys on the couch. Finally, move the tissue box from the coffee table to a small table.",
+                "compose 2":"Put the keys on the couch. Next, move the dog statue to the other side of the table. After that, move a book from a desk to a sofa. Lastly, move the tissue box from the coffee table to a small table.",
+                "compose 3":"Put the keys on the couch. Simultaneously, move a book from a desk to a sofa and move the dog statue to the other side of the table. Once the book is on the sofa, move the tissue box from the coffee table to a small table."
+            }
+        },
+        {
+            "task_list":[
+                "To move to pens to the television stand. ",
+                "Place the book beside the remote on the chair.",
+                "Put the keys on the couch.",
+                "move tissue box from coffee table to a small table"
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203105_670913/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move tissue box from coffee table to a small table. Put the keys on the couch. To move pens to the television stand. Place the book beside the remote on the chair.",
+                "compose 2":"Put the keys on the couch. To move pens to the television stand. Move tissue box from coffee table to a small table. Place the book beside the remote on the chair.",
+                "compose 3":"To move pens to the television stand. Put the keys on the couch. Place the book beside the remote on the chair. Move tissue box from coffee table to a small table."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "To gather cell phones in the room. ",
-                "clean up pencils and put them on the table",
-                "Move the dog statue to the other side of the table. ",
                 "move tissue box from coffee table to a small table",
-                "Put the keys on the couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To gather cell phones in the room. ",
+                "Move the cells phones to the cloth chair.",
+                "Put a box with keys in it on the sofa.",
                 "Place the book beside the remote on the chair.",
-                "clean up pencils and put them on the table",
-                "move tissue box from coffee table to a small table",
-                "Put the keys on the couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203105_670913/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move the dog statue to the other side of the table. ",
-                "Move the phones on the table to the TV stand. ",
-                "To move to pens to the television stand. ",
-                "Put the keys on the couch.",
                 "clean up pencils and put them on the table"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131442_170447/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082008_641926/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203105_670913/traj_data.json",
                     "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "move tissue box from coffee table to a small table",
-                "clean up pencils and put them on the table",
-                "Move the dog statue to the other side of the table. ",
-                "Put the box with cell phone on the sofa",
-                "Place the book beside the remote on the chair."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-229/trial_T20190908_145929_148591/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203105_670913/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Move the cells phones to the cloth chair at any time. Simultaneously, move tissue box from coffee table to a small table. After moving the phones and tissue box, put a box with keys in it on the sofa. Once the keys are in place, place the book beside the remote on the chair. Finally, clean up pencils and put them on the table.",
+                "compose 2":"Put a box with keys in it on the sofa at any time. Simultaneously, place the book beside the remote on the chair. After placing the keys and book, move tissue box from coffee table to a small table. Once that's done, clean up pencils and put them on the table. After cleaning up, move the cells phones to the cloth chair.",
+                "compose 3":"Place the book beside the remote on the chair at any time. Simultaneously, clean up pencils and put them on the table. After arranging the book and pencils, put a box with keys in it on the sofa. Once the keys are on the sofa, move tissue box from coffee table to a small table. Finally, move the cells phones to the cloth chair."
+            }
         },
         {
             "task_list":[
+                "Put a book on a chair.",
                 "clean up pencils and put them on the table",
-                "Move the phones on the table to the TV stand. ",
+                "To move to pens to the television stand. ",
                 "Put a box with keys in it on the sofa.",
-                "Move to table, pick up tissue box and place on table with pen on it.",
-                "Place the book beside the remote on the chair."
+                "Move the cell phones to the cloth chair."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_081902_634047/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a book on a chair at any time. Simultaneously, clean up pencils and put them on the table. After placing the book and pencils, move the cell phones to the cloth chair.",
+                "compose 2":"Put a box with keys in it on the sofa at any time. Simultaneously, clean up pencils and put them on the table. After placing the box with keys, move the cell phones to the cloth chair.",
+                "compose 3":"To move to pens to the television stand at any time. Simultaneously, clean up pencils and put them on the table. After moving the pens, move the cell phones to the cloth chair."
+            }
+        },
+        {
+            "task_list":[
+                "clean up pencils and put them on the table",
+                "To gather cell phones in the room. ",
+                "Put the keys on the couch.",
+                "Put a book on a chair.",
+                "move tissue box from coffee table to a small table"
             ],
             "orign":[
                 [
                     "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131442_170447/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114048_231845/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203105_670913/traj_data.json"
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Clean up pencils and put them on the table. Simultaneously, gather cell phones in the room. After completing these tasks, put the keys on the couch. Finally, put a book on a chair.",
+                "compose 2":"Move tissue box from coffee table to a small table. After that, gather cell phones in the room. Then, put the keys on the couch and clean up pencils and put them on the table.",
+                "compose 3":"Put the keys on the couch. Next, put a book on a chair. Simultaneously, clean up pencils and put them on the table. After completing these tasks, move tissue box from coffee table to a small table."
+            }
+        },
+        {
+            "task_list":[
+                "Move the dog statue to the other side of the table. ",
+                "Put a book on a chair.",
+                "Put a box with keys in it on the sofa.",
+                "clean up pencils and put them on the table",
+                "To move to pens to the television stand. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a book on a chair at any time. Simultaneously, clean up pencils and put them on the table. After putting the book and cleaning up the pencils, move the dog statue to the other side of the table. Lastly, put a box with keys in it on the sofa.",
+                "compose 2":"To move to pens to the television stand at any time. Put a book on a chair simultaneously. After moving the pens and putting the book, put a box with keys in it on the sofa. Finally, clean up pencils and put them on the table.",
+                "compose 3":"Put a box with keys in it on the sofa at any time. Simultaneously, move the dog statue to the other side of the table. After putting the box and moving the statue, put a book on a chair. Finally, clean up pencils and put them on the table."
+            }
+        },
+        {
+            "task_list":[
+                "Move the dog statue to the other side of the table. ",
+                "To move to pens to the television stand. ",
+                "To gather cell phones in the room. ",
+                "Put a book on a chair.",
+                "Put the keys on the couch."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"To gather cell phones in the room. Simultaneously, put a book on a chair. After gathering the cell phones, move the dog statue to the other side of the table. Finally, put the keys on the couch.",
+                "compose 2":"Put a book on a chair. Simultaneously, to move to pens to the television stand. After putting the book on the chair, gather cell phones in the room. Finally, move the dog statue to the other side of the table and put the keys on the couch.",
+                "compose 3":"Put a book on a chair. Simultaneously, put the keys on the couch. After putting the book on the chair and placing the keys, gather cell phones in the room. Finally, move the dog statue to the other side of the table."
+            }
         }
     ],
     "tasks_6":[
         {
             "task_list":[
-                "Move the phones on the table to the TV stand. ",
-                "clean up pencils and put them on the table",
-                "Move the dog statue to the other side of the table. ",
-                "move tissue box from coffee table to a small table",
+                "To gather cell phones in the room. ",
                 "Put a book on a chair.",
-                "To move to pens to the television stand. "
+                "Put a box with keys in it on the sofa.",
+                "Move to table, pick up tissue box and place on table with pen on it.",
+                "Move the dog statue to the other side of the table. ",
+                "clean up pencils and put them on the table"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131442_170447/traj_data.json",
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json",
                     "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "clean up pencils and put them on the table",
-                "Move the cells phones to the cloth chair.",
-                "Move the dog statue to the other side of the table. ",
-                "Place the book beside the remote on the chair.",
-                "Put a box with keys in it on the sofa.",
-                "To move to pens to the television stand. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082008_641926/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203105_670913/traj_data.json",
                     "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114048_231845/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"At any time, put a book on a chair. Simultaneously, move to the table, pick up the tissue box and place it on the table with a pen on it. After putting the book on the chair, gather cell phones in the room. To finish, move the dog statue to the other side of the table and clean up pencils, putting them on the table.",
+                "compose 2":"Put a book on a chair. After putting the book on the chair, move to the table, pick up the tissue box, and place it on the table with a pen on it. Simultaneously, gather cell phones in the room. When done, move the dog statue to the other side of the table and clean up pencils, putting them on the table.",
+                "compose 3":"Pick up the tissue box and place it on the table with a pen on it. At any time, put a book on a chair. Afterward, gather cell phones in the room. Subsequently, move the dog statue to the other side of the table and clean up pencils, putting them on the table."
+            }
         },
         {
             "task_list":[
+                "Put a book on the couch. ",
                 "clean up pencils and put them on the table",
-                "Move the dog statue to the other side of the table. ",
-                "move tissue box from coffee table to a small table",
                 "To move to pens to the television stand. ",
-                "Put the keys on the couch.",
-                "Move the phones on the table to the TV stand. "
+                "Move the cell phones to the cloth chair.",
+                "move tissue box from coffee table to a small table",
+                "Move the dog statue to the other side of the table. "
             ],
             "orign":[
                 [
+                    "train/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042933_874605/traj_data.json",
                     "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
                     "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
-                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131442_170447/traj_data.json"
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_081902_634047/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
+                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a book on the couch. Clean up pencils and put them on the table. To move to pens to the television stand. Move the cell phones to the cloth chair. Move the dog statue to the other side of the table. Move the tissue box from the coffee table to a small table.",
+                "compose 2":"Put a book on the couch. Clean up pencils and put them on the table. Move the tissue box from the coffee table to a small table. Move the cell phones to the cloth chair. To move to pens to the television stand. Move the dog statue to the other side of the table.",
+                "compose 3":"Put a book on the couch. Move the cell phones to the cloth chair. Move the dog statue to the other side of the table. Clean up pencils and put them on the table. Move the tissue box from the coffee table to a small table. To move to pens to the television stand."
+            }
         },
         {
             "task_list":[
-                "Place the book beside the remote on the chair.",
-                "Move the cell phones to the cloth chair.",
-                "Put a box with keys in it on the sofa.",
+                "Put the keys on the couch.",
+                "Put a book on a chair.",
+                "clean up pencils and put them on the table",
+                "To move to pens to the television stand. ",
                 "move tissue box from coffee table to a small table",
-                "Move the dog statue to the other side of the table. ",
-                "To move to pens to the television stand. "
+                "To gather cell phones in the room. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203105_670913/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_081902_634047/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-KeyChain-Box-Sofa-229/trial_T20190908_143946_662864/traj_data.json",
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
+                    "train/pick_and_place_simple-Book-None-ArmChair-229/trial_T20190906_203051_143723/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
                     "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
-                    "train/pick_and_place_simple-Statue-None-CoffeeTable-229/trial_T20190908_132906_260131/traj_data.json",
-                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json"
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the keys on the couch at any time. Simultaneously, put a book on a chair.After putting the keys and book, clean up pencils and put them on the table. Then, move tissue box from coffee table to a small table. Lastly, gather cell phones in the room.",
+                "compose 2":"Gather cell phones in the room at any time. Simultaneously, put a book on a chair and clean up pencils and put them on the table. After putting the book and pencils, move tissue box from coffee table to a small table. Finally, put the keys on the couch.",
+                "compose 3":"Clean up pencils and put them on the table at any time. Simultaneously, put a book on a chair and move tissue box from coffee table to a small table. After putting the book, move pens to the television stand. Then, gather cell phones in the room."
+            }
+        },
+        {
+            "task_list":[
+                "Put the keys on the couch.",
+                "move tissue box from coffee table to a small table",
+                "clean up pencils and put them on the table",
+                "To gather cell phones in the room. ",
+                "To move to pens to the television stand. ",
+                "Move a book from a desk to a sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-KeyChain-None-Sofa-229/trial_T20190908_123359_988104/traj_data.json",
+                    "train/pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114140_648099/traj_data.json",
+                    "train/pick_two_obj_and_place-Pencil-None-CoffeeTable-229/trial_T20190908_122920_453209/traj_data.json",
+                    "train/pick_two_obj_and_place-CellPhone-None-ArmChair-229/trial_T20190907_082130_368931/traj_data.json",
+                    "train/pick_two_obj_and_place-Pen-None-Dresser-229/trial_T20190908_043711_689596/traj_data.json",
+                    "valid_seen/pick_and_place_simple-Book-None-Sofa-229/trial_T20190907_042856_259139/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the keys on the couch. Then, move a book from a desk to a sofa. After that, clean up pencils and put them on the table.",
+                "compose 2":"To move to pens to the television stand. Simultaneously, gather cell phones in the room. After that, move a book from a desk to a sofa and clean up pencils and put them on the table.",
+                "compose 3":"Move a book from a desk to a sofa. Following that, move a tissue box from the coffee table to a small table. Put the keys on the couch, and finally, gather cell phones in the room."
+            }
         }
     ],
     "tasks_7":[],

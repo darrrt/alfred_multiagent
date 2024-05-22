@@ -43,9 +43,9 @@
             ],
             "relative_objects":[
                 "Dresser",
-                "Television",
+                "CellPhone",
                 "Plate",
-                "CellPhone"
+                "Television"
             ]
         },
         "train/pick_and_place_with_movable_recep-CellPhone-Plate-Dresser-218/trial_T20190906_200527_066733/traj_data.json":{
@@ -55,8 +55,8 @@
                 "Put a grey plate with a phone on it on the dresser."
             ],
             "relative_objects":[
-                "Plate",
-                "CellPhone"
+                "CellPhone",
+                "Plate"
             ]
         },
         "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-218/trial_T20190906_195517_392225/traj_data.json":{
@@ -98,8 +98,8 @@
                 "Put the plate with cell phone on the side table"
             ],
             "relative_objects":[
-                "Plate",
-                "CellPhone"
+                "CellPhone",
+                "Plate"
             ]
         },
         "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-218/trial_T20190908_172058_228056/traj_data.json":{
@@ -109,16 +109,8 @@
                 "Move the plate and phone to the side table."
             ],
             "relative_objects":[
-                "Plate",
-                "CellPhone"
-            ]
-        },
-        "train/pick_two_obj_and_place-CellPhone-None-Sofa-218/trial_T20190907_231953_945601/traj_data.json":{
-            "tasks":[
-                "To gather 2 media devices and place them on the right side of the couch."
-            ],
-            "relative_objects":[
-                "CellPhone"
+                "CellPhone",
+                "Plate"
             ]
         },
         "train/pick_and_place_with_movable_recep-CellPhone-Plate-CoffeeTable-218/trial_T20190909_060746_550958/traj_data.json":{
@@ -128,9 +120,9 @@
                 "Put a smartphone on a plate to set on the coffee table."
             ],
             "relative_objects":[
-                "Plate",
+                "CoffeeTable",
                 "CellPhone",
-                "CoffeeTable"
+                "Plate"
             ]
         },
         "train/pick_and_place_with_movable_recep-CellPhone-Plate-CoffeeTable-218/trial_T20190909_060543_022173/traj_data.json":{
@@ -140,29 +132,19 @@
                 "clean up a plate and a phone and put them onto the table"
             ],
             "relative_objects":[
-                "Plate",
-                "CellPhone"
+                "CellPhone",
+                "Plate"
             ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "Move the grey plate on the end table to the TV cabinet"
+                "Move a phone and plate to a coffee table. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013555_841038/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a plate with a cell phone on it on a coffee table."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-CoffeeTable-218/trial_T20190909_060746_550958/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-218/trial_T20190908_172146_877162/traj_data.json"
                 ]
             ]
         },
@@ -178,21 +160,31 @@
         },
         {
             "task_list":[
-                "Place the newspapers in the trash."
+                "Examine the tea pot under light of the table lamp"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json"
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a plate with a phone on it on a dresser."
+                "Place a grey plate with a white phone on it onto the dresser."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-Dresser-218/trial_T20190906_200527_066733/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-Dresser-218/trial_T20190906_200605_664317/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
+                "Move a phone and plate to a coffee table. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-218/trial_T20190908_172146_877162/traj_data.json"
                 ]
             ]
         }
@@ -200,201 +192,250 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put the plate with phone on the center table",
-                "Examine the tea pot under light of the table lamp"
+                "Look at a pitcher by the light of a lamp.",
+                "Place a grey plate with a white phone on it onto the dresser."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-CoffeeTable-218/trial_T20190909_060543_022173/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json"
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-Dresser-218/trial_T20190906_200605_664317/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Look at a pitcher by the light of a lamp at any time. Simultaneously, place a grey plate with a white phone on it onto the dresser.",
+                "compose 2":"Place a grey plate with a white phone on it onto the dresser and then look at a pitcher by the light of a lamp.",
+                "compose 3":"Look at a pitcher by the light of a lamp at any time. After looking at the pitcher, place a grey plate with a white phone on it onto the dresser."
+            }
+        },
+        {
+            "task_list":[
+                "Place the newspapers in the trash.",
+                "Look at a pitcher by the light of a lamp."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Look at a pitcher by the light of a lamp at any time. Simultaneously, place the newspapers in the trash.",
+                "compose 2":"Place the newspapers in the trash first. After that, look at a pitcher by the light of a lamp.",
+                "compose 3":"Look at a pitcher by the light of a lamp. Following that, place the newspapers in the trash."
+            }
+        },
+        {
+            "task_list":[
+                "Look at a pitcher by the light of a lamp.",
+                "Put a plate with a phone on it on a dresser."
+            ],
+            "orign":[
+                [
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-Dresser-218/trial_T20190906_200527_066733/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Look at a pitcher by the light of a lamp at any time. Simultaneously, put a plate with a phone on it on a dresser.",
+                "compose 2":"Put a plate with a phone on it on a dresser. After placing the plate, look at a pitcher by the light of a lamp at any time.",
+                "compose 3":"Look at a pitcher by the light of a lamp at any time. Simultaneously, put a plate with a phone on it on a dresser."
+            }
         },
         {
             "task_list":[
                 "Examine the tea pot under light of the table lamp",
-                "Place a plate with a cell phone on it on a coffee table."
+                "Put the plate with phone on the center table"
             ],
             "orign":[
                 [
                     "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-CoffeeTable-218/trial_T20190909_060746_550958/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-CoffeeTable-218/trial_T20190909_060543_022173/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the tea pot under light of the table lamp at any time. Simultaneously, put the plate with phone on the center table.",
+                "compose 2":"Put the plate with phone on the center table at any time. Simultaneously, examine the tea pot under light of the table lamp.",
+                "compose 3":"Examine the tea pot under light of the table lamp at any time. After examining the tea pot, put the plate with phone on the center table."
+            }
         },
         {
             "task_list":[
-                "Examine the tea pot under light of the table lamp",
-                "Place the plate from the table on the tv stand."
+                "Place the newspapers in the trash.",
+                "Place the box with one of the phones on the sofa."
             ],
             "orign":[
                 [
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json",
-                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013614_368009/traj_data.json"
+                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-218/trial_T20190906_195517_392225/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "To gather 2 media devices and place them on the right side of the couch.",
-                "Place the plate from the table on the tv stand."
             ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-218/trial_T20190907_231953_945601/traj_data.json",
-                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013614_368009/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a grey plate with a white phone on it onto the dresser.",
-                "Examine the tea pot under light of the table lamp"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-Dresser-218/trial_T20190906_200605_664317/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place the newspapers in the trash. Place the box with one of the phones on the sofa.",
+                "compose 2":"Place the box with one of the phones on the sofa. Place the newspapers in the trash.",
+                "compose 3":"Place the newspapers in the trash. Place the box with one of the phones on the sofa."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
+                "Place the box with one of the phones on the sofa.",
                 "Place the newspapers in the trash.",
-                "Move the grey plate on the end table to the TV cabinet",
-                "Look at a pitcher by the light of a lamp."
+                "Place the plate from the table on the tv stand."
             ],
             "orign":[
                 [
+                    "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-218/trial_T20190906_195517_392225/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
-                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013555_841038/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json"
+                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013614_368009/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the newspapers in the trash at any time. Simultaneously, place the box with one of the phones on the sofa. After completing the previous tasks, place the plate from the table on the tv stand.",
+                "compose 2":"Place the plate from the table on the tv stand at any time. Simultaneously, place the box with one of the phones on the sofa. After completing the previous tasks, place the newspapers in the trash.",
+                "compose 3":"Place the box with one of the phones on the sofa at any time. Simultaneously, place the newspapers in the trash. After completing the previous tasks, place the plate from the table on the tv stand."
+            }
         },
         {
             "task_list":[
-                "To gather 2 media devices and place them on the right side of the couch.",
-                "Examine the tea pot under light of the table lamp",
-                "Move the grey plate on the end table to the TV cabinet"
+                "Look at a pitcher by the light of a lamp.",
+                "Place the newspapers in the trash.",
+                "Put the plate with phone on the center table"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-218/trial_T20190907_231953_945601/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json",
-                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013555_841038/traj_data.json"
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json",
+                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-CoffeeTable-218/trial_T20190909_060543_022173/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Look at a pitcher by the light of a lamp. Simultaneously, put the plate with phone on the center table. After looking at the pitcher, place the newspapers in the trash.",
+                "compose 2":"Look at a pitcher by the light of a lamp. After looking at the pitcher, put the plate with phone on the center table. Finally, place the newspapers in the trash.",
+                "compose 3":"Put the plate with phone on the center table at any time. Simultaneously, look at a pitcher by the light of a lamp. After placing the plate with phone, place the newspapers in the trash."
+            }
+        },
+        {
+            "task_list":[
+                "Place the plate from the table on the tv stand.",
+                "Look at a pitcher by the light of a lamp.",
+                "Place the box with one of the phones on the sofa."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013614_368009/traj_data.json",
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-218/trial_T20190906_195517_392225/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Look at a pitcher by the light of a lamp at any time. Simultaneously, place the plate from the table on the TV stand. After looking at the pitcher and placing the plate, put the box with one of the phones on the sofa.",
+                "compose 2":"Place the plate from the table on the TV stand at any time. Simultaneously, look at a pitcher by the light of a lamp. After placing the plate, put the box with one of the phones on the sofa.",
+                "compose 3":"Look at a pitcher by the light of a lamp at any time. Simultaneously, put the box with one of the phones on the sofa. After looking at the pitcher and placing the box, place the plate from the table on the TV stand."
+            }
         },
         {
             "task_list":[
                 "Move a phone and plate to a coffee table. ",
                 "Place the newspapers in the trash.",
-                "Look at a pitcher by the light of a lamp."
+                "Examine the tea pot under light of the table lamp"
             ],
             "orign":[
                 [
                     "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-218/trial_T20190908_172146_877162/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json"
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a phone and plate to a coffee table. After moving the phone and plate, place the newspapers in the trash. Finally, examine the tea pot under the light of the table lamp.",
+                "compose 2":"Examine the tea pot under the light of the table lamp first. Then, move a phone and plate to a coffee table simultaneously with placing the newspapers in the trash afterwards.",
+                "compose 3":"Place the newspapers in the trash first. Move a phone and plate to a coffee table after placing the newspapers. Lastly, examine the tea pot under the light of the table lamp."
+            }
         },
         {
             "task_list":[
-                "Place a grey plate with a white phone on it onto the dresser.",
                 "Place the newspapers in the trash.",
-                "Look at a pitcher by the light of a lamp."
+                "Examine the tea pot under light of the table lamp",
+                "Move a phone and plate to a coffee table. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-Dresser-218/trial_T20190906_200605_664317/traj_data.json",
                     "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json"
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-218/trial_T20190908_172146_877162/traj_data.json"
                 ]
-            ]
-        },
+            ],
+            "finetuned":{
+                "compose 1":"Examine the tea pot under light of the table lamp. After examining the tea pot, move a phone and plate to a coffee table. Finally, place the newspapers in the trash.",
+                "compose 2":"Move a phone and plate to a coffee table. Simultaneously, place the newspapers in the trash. After completing these tasks, examine the tea pot under light of the table lamp.",
+                "compose 3":"Place the newspapers in the trash at any time. Once the newspapers are placed, examine the tea pot under light of the table lamp. After examining the tea pot, move a phone and plate to a coffee table."
+            }
+        }
+    ],
+    "tasks_4":[
         {
             "task_list":[
+                "Place the newspapers in the trash.",
                 "Move the grey plate on the end table to the TV cabinet",
                 "Examine the tea pot under light of the table lamp",
                 "Place the box with one of the phones on the sofa."
             ],
             "orign":[
                 [
+                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
                     "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013555_841038/traj_data.json",
                     "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json",
                     "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-218/trial_T20190906_195517_392225/traj_data.json"
                 ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Move the grey plate on the end table to the TV cabinet",
-                "Examine the tea pot under light of the table lamp",
-                "To gather 2 media devices and place them on the right side of the couch.",
-                "Place the newspapers in the trash."
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013555_841038/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-218/trial_T20190907_231953_945601/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place the newspapers in the trash at any time. Simultaneously, move the grey plate on the end table to the TV cabinet. After completing the previous tasks, examine the tea pot under light of the table lamp. Finally, place the box with one of the phones on the sofa.",
+                "compose 2":"Examine the tea pot under light of the table lamp at any time. Simultaneously, place the box with one of the phones on the sofa. After examining the tea pot and placing the box on the sofa, move the grey plate on the end table to the TV cabinet. Finish by placing the newspapers in the trash.",
+                "compose 3":"Move the grey plate on the end table to the TV cabinet at any time. Simultaneously, place the box with one of the phones on the sofa. After moving the grey plate and placing the box on the sofa, examine the tea pot under light of the table lamp. Conclude by placing the newspapers in the trash."
+            }
         },
         {
             "task_list":[
-                "To gather 2 media devices and place them on the right side of the couch.",
-                "Look at a pitcher by the light of a lamp.",
+                "Place the box with one of the phones on the sofa.",
                 "Place the plate from the table on the tv stand.",
-                "Place the newspapers in the trash."
+                "Place the newspapers in the trash.",
+                "Examine the tea pot under light of the table lamp"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-218/trial_T20190907_231953_945601/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-218/trial_T20190906_195517_392225/traj_data.json",
                     "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013614_368009/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json"
+                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
+                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Examine the tea pot under light of the table lamp. After examining the tea pot, place the plate from the table on the tv stand. Once the plate is placed, place the box with one of the phones on the sofa. Finally, place the newspapers in the trash.",
+                "compose 2":"Place the plate from the table on the tv stand. Place the box with one of the phones on the sofa at any time. Examine the tea pot under light of the table lamp. After placing the box and examining the tea pot, place the newspapers in the trash.",
+                "compose 3":"Place the newspapers in the trash. Place the box with one of the phones on the sofa. Examine the tea pot under light of the table lamp. Finally, place the plate from the table on the tv stand."
+            }
         },
         {
             "task_list":[
                 "Place the newspapers in the trash.",
-                "Look at a pitcher by the light of a lamp.",
-                "Place the plate from the table on the tv stand.",
-                "To gather 2 media devices and place them on the right side of the couch."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
-                    "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json",
-                    "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013614_368009/traj_data.json",
-                    "train/pick_two_obj_and_place-CellPhone-None-Sofa-218/trial_T20190907_231953_945601/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Move the grey plate on the end table to the TV cabinet",
                 "Place the box with one of the phones on the sofa.",
-                "Place the newspapers in the trash.",
                 "Look at a pitcher by the light of a lamp."
             ],
             "orign":[
                 [
+                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
                     "train/pick_and_place_simple-Plate-None-Dresser-218/trial_T20190907_013555_841038/traj_data.json",
                     "train/pick_and_place_with_movable_recep-CellPhone-Box-Sofa-218/trial_T20190906_195517_392225/traj_data.json",
-                    "train/pick_two_obj_and_place-Newspaper-None-GarbageCan-218/trial_T20190907_225437_969645/traj_data.json",
                     "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182650_151382/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place the newspapers in the trash at any time. After that, move the grey plate on the end table to the TV cabinet. Finally, place the box with one of the phones on the sofa.",
+                "compose 2":"Move the grey plate on the end table to the TV cabinet first. Then, look at a pitcher by the light of a lamp. After that, place the newspapers in the trash.",
+                "compose 3":"Look at a pitcher by the light of a lamp at any time. After that, place the box with one of the phones on the sofa. Finally, move the grey plate on the end table to the TV cabinet."
+            }
         }
     ],
     "tasks_5":[],

@@ -28,14 +28,6 @@
                 "ToiletPaper"
             ]
         },
-        "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013040_862247/traj_data.json":{
-            "tasks":[
-                "Move 2 rolls of toilet paper - one empty, one full - to the lower right drawer of the vanity. "
-            ],
-            "relative_objects":[
-                "ToiletPaper"
-            ]
-        },
         "train/pick_and_place_simple-HandTowel-None-SinkBasin-416/trial_T20190909_032528_576498/traj_data.json":{
             "tasks":[
                 "To move a towel from the wall to the left side of the sink.",
@@ -43,8 +35,8 @@
                 "Put a towel in a sink."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-SinkBasin-416/trial_T20190909_032632_791113/traj_data.json":{
@@ -54,8 +46,8 @@
                 "Move a white towel from it's hanger to the left-hand sink."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -77,9 +69,9 @@
                 "Wash the pink towel in the trash bin and put it back "
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel",
                 "Plunger",
+                "Towel",
+                "HandTowel",
                 "SoapBar"
             ]
         },
@@ -90,8 +82,8 @@
                 "Soak the towel, and place it inside the drawer."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -102,8 +94,8 @@
                 "Put a rinsed cloth in the drawer below the rightmost sink."
             ],
             "relative_objects":[
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040609_717998/traj_data.json":{
@@ -114,8 +106,8 @@
             ],
             "relative_objects":[
                 "HandTowel",
-                "Cloth",
-                "SoapBottle"
+                "SoapBottle",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032310_871218/traj_data.json":{
@@ -145,8 +137,8 @@
                 "place a clean bar of soap on top of the bathroom sink counter"
             ],
             "relative_objects":[
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json":{
@@ -163,8 +155,8 @@
                 "take bottle off of counter, place in trash can, take bottle off of back of toilet, put in trash can "
             ],
             "relative_objects":[
-                "SprayBottle",
-                "SoapBottle"
+                "SoapBottle",
+                "SprayBottle"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045204_373695/traj_data.json":{
@@ -174,8 +166,8 @@
                 "place a towel down on top of the bathroom sink counter"
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045221_760575/traj_data.json":{
@@ -196,8 +188,8 @@
                 "Move a towel to the counter."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202104_886119/traj_data.json":{
@@ -227,8 +219,8 @@
                 "Place a towel in a container."
             ],
             "relative_objects":[
-                "GarbageCan",
-                "Towel"
+                "Towel",
+                "GarbageCan"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190908_234733_986177/traj_data.json":{
@@ -238,8 +230,8 @@
                 "Remove a hanging towel and throw it away."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190908_234752_613977/traj_data.json":{
@@ -249,8 +241,8 @@
                 "Move a wash cloth into a small silver bin."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -300,16 +292,6 @@
     "tasks_1":[
         {
             "task_list":[
-                "To throw away an empty toilet paper roll."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202104_886119/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Move a towel from a towel holder to a garbage bin"
             ],
             "orign":[
@@ -320,6 +302,16 @@
         },
         {
             "task_list":[
+                "Place a bottle in the can near the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json"
+                ]
+            ]
+        },
+        {
+            "task_list":[
                 "put a bar of soap into the trash can"
             ],
             "orign":[
@@ -330,21 +322,21 @@
         },
         {
             "task_list":[
-                "Put a wash cloth in the left sink."
+                "Put a cleaned rag in a drawer under the right sink. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-416/trial_T20190909_032549_730713/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040722_151303/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Wash the bar soap from the silver bin."
+                "Move a bar of soap to the trash bin. "
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-416/trial_T20190907_024728_127108/traj_data.json"
+                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020828_777495/traj_data.json"
                 ]
             ]
         }
@@ -352,201 +344,229 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put an empty roll of toilet paper into the trash can.",
-                "put a towel into a garbage can"
+                "Place an empty and a full toilet paper roll in a drawer.",
+                "Wash the bar soap from the silver bin."
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190906_202203_193951/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190909_062150_965386/traj_data.json"
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013116_583250/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-416/trial_T20190907_024728_127108/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place an empty and a full toilet paper roll in a drawer at any time. Wash the bar soap from the silver bin after placing the toilet paper rolls.",
+                "compose 2":"Wash the bar soap from the silver bin at any time. Place an empty and a full toilet paper roll in a drawer after washing the bar soap.",
+                "compose 3":"Place an empty and a full toilet paper roll in a drawer at any time. Wash the bar soap from the silver bin after placing the toilet paper rolls."
+            }
         },
         {
             "task_list":[
-                "Put the hand towel on the counter. ",
-                "Wash the bar of soap and place it on the sink counter. "
+                "Put a bar of soap in the trash.",
+                "Put the hand towel on the counter. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045148_475019/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032422_085040/traj_data.json"
+                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045148_475019/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a bar of soap in the trash at any time. Simultaneously, put the hand towel on the counter.",
+                "compose 2":"Put a bar of soap in the trash at any time. After putting the soap in the trash, put the hand towel on the counter.",
+                "compose 3":"Put the hand towel on the counter at any time. Simultaneously, put a bar of soap in the trash."
+            }
         },
         {
             "task_list":[
-                "To throw away an empty toilet paper roll.",
-                "To rinse off a bar of soap and put it on the counter. "
+                "put a towel into a garbage can",
+                "Put a wash clean cloth in a cabinet."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202104_886119/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032310_871218/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190909_062150_965386/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040609_717998/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a towel into a garbage can at any time. Simultaneously, put a wash clean cloth in a cabinet.",
+                "compose 2":"Put a wash clean cloth in a cabinet at any time. Simultaneously, put a towel into a garbage can.",
+                "compose 3":"Put a towel into a garbage can at any time. After putting the towel, put a wash clean cloth in a cabinet."
+            }
         },
         {
             "task_list":[
-                "Put the wet rag in the drawer. ",
-                "Place the spray bottle in the can on the right of the toilet."
+                "Put a cleaned rag in a drawer under the right sink. ",
+                "Place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040658_918781/traj_data.json",
-                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-416/trial_T20190909_001522_308289/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040722_151303/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013005_772043/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cleaned rag in a drawer under the right sink at any time. Simultaneously, place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity.",
+                "compose 2":"Place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity at any time. Simultaneously, put a cleaned rag in a drawer under the right sink.",
+                "compose 3":"Put a cleaned rag in a drawer under the right sink at any time. After placing the rag, place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity."
+            }
         },
         {
             "task_list":[
                 "Place a cardboard roll into a rubbish bin.",
-                "Put a bar of soap in the trash."
+                "Place a towel in a sink."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202053_549622/traj_data.json",
-                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-416/trial_T20190909_032632_791113/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cardboard roll into a rubbish bin at any time. Simultaneously, place a towel in a sink.",
+                "compose 2":"Place a towel in a sink at any time. After placing the towel, place a cardboard roll into a rubbish bin.",
+                "compose 3":"Place a cardboard roll into a rubbish bin at any time. Place a towel in a sink at any time."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Put the hand towel on the counter. ",
-                "Place a cardboard roll into a rubbish bin.",
-                "Put a bar of soap in the trash."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045148_475019/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202053_549622/traj_data.json",
-                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "To rinse off a bar of soap and put it on the counter. ",
-                "Place a cardboard roll into a rubbish bin.",
-                "Place bottle in the bin near the toilet."
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032310_871218/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202053_549622/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003049_760772/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Wash soap to return to counter",
-                "To throw away an empty toilet paper roll.",
-                "move towel from towel rack to trash can"
+                "To place the hand towel onto the bathroom sink next the candle.",
+                "Place a bottle in the can near the toilet."
             ],
             "orign":[
                 [
                     "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_090331_330612/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202104_886119/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190908_234752_613977/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045221_760575/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Wash soap to return to counter. Simultaneously, place the hand towel onto the bathroom sink next to the candle. After washing the soap and placing the hand towel, put a bottle in the can near the toilet.",
+                "compose 2":"Place a bottle in the can near the toilet. Simultaneously, wash soap to return to counter. After placing the bottle and washing the soap, place the hand towel onto the bathroom sink next to the candle.",
+                "compose 3":"Place a bottle in the can near the toilet at any time. Simultaneously, place the hand towel onto the bathroom sink next to the candle. After placing the bottle and the hand towel, wash soap to return to counter."
+            }
         },
         {
             "task_list":[
-                "Put the wet rag in the drawer. ",
-                "Move 2 rolls of toilet paper - one empty, one full - to the lower right drawer of the vanity. ",
-                "To move a towel from the wall to the left side of the sink."
+                "Put a wash clean cloth in a cabinet.",
+                "put a towel into a garbage can",
+                "Place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040658_918781/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013040_862247/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-416/trial_T20190909_032528_576498/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040609_717998/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190909_062150_965386/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013005_772043/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a wash clean cloth in a cabinet at any time. Simultaneously, put a towel into a garbage can. After placing the cloth and the towel, place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity.",
+                "compose 2":"Put a wash clean cloth in a cabinet at any time. After putting the cloth, place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity. Simultaneously, put a towel into a garbage can.",
+                "compose 3":"Put a wash clean cloth in a cabinet at any time. Simultaneously, place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity. After placing the cloth, put a towel into a garbage can."
+            }
+        },
+        {
+            "task_list":[
+                "Put a bar of soap in the trash.",
+                "Put an empty roll of toilet paper into the trash can.",
+                "To place the hand towel onto the bathroom sink next the candle."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json",
+                    "tests_seen/trial_T20190906_202203_193951/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045221_760575/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a bar of soap in the trash. After that, put an empty roll of toilet paper into the trash can. Finally, place the hand towel onto the bathroom sink next to the candle.",
+                "compose 2":"Put an empty roll of toilet paper into the trash can. Simultaneously, place the hand towel onto the bathroom sink next to the candle. Once both are done, put a bar of soap in the trash.",
+                "compose 3":"Place the hand towel onto the bathroom sink next to the candle. Subsequently, put a bar of soap in the trash. Finally, put an empty roll of toilet paper into the trash can."
+            }
         },
         {
             "task_list":[
                 "move towel from towel rack to trash can",
-                "Place the spray bottle in the can on the right of the toilet.",
-                "put a bar of soap into the trash can"
+                "Put an empty roll of toilet paper into the trash can.",
+                "To rinse off a bar of soap and put it on the counter. "
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190908_234752_613977/traj_data.json",
-                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-416/trial_T20190909_001522_308289/traj_data.json",
-                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020805_738262/traj_data.json"
+                    "tests_seen/trial_T20190906_202203_193951/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032310_871218/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Rinse off a bar of soap and put it on the counter. Simultaneously, move towel from towel rack to trash can. After completing the previous tasks, put an empty roll of toilet paper into the trash can.",
+                "compose 2":"Put an empty roll of toilet paper into the trash can at any time. Simultaneously, rinse off a bar of soap and put it on the counter. After completing the previous tasks, move towel from the towel rack to the trash can.",
+                "compose 3":"Move towel from the towel rack to the trash can at any time. Simultaneously, put an empty roll of toilet paper into the trash can. After completing the previous tasks, rinse off a bar of soap and put it on the counter."
+            }
+        },
+        {
+            "task_list":[
+                "Move a bar of soap to the trash bin. ",
+                "Put a wash clean cloth in a cabinet.",
+                "Place the spray bottle in the can on the right of the toilet."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020828_777495/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040609_717998/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-416/trial_T20190909_001522_308289/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a bar of soap to the trash bin at any time. Put a wash clean cloth in a cabinet simultaneously. After moving the soap and placing the cloth, place the spray bottle in the can on the right of the toilet.",
+                "compose 2":"Put a wash clean cloth in a cabinet at any time. Move a bar of soap to the trash bin simultaneously. After putting the cloth, place the spray bottle in the can on the right of the toilet.",
+                "compose 3":"Place the spray bottle in the can on the right of the toilet at any time. Move a bar of soap to the trash bin simultaneously. After placing the bottle, put a wash clean cloth in a cabinet."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Put a bar of soap in the trash.",
-                "Put a wash cloth in the left sink.",
-                "Place bottle in the bin near the toilet.",
-                "Place an empty and a full toilet paper roll in a drawer."
+                "Wash soap to return to counter",
+                "Place a bottle in the can near the toilet.",
+                "Move a towel from a towel holder to a garbage bin",
+                "To throw away an empty toilet paper roll."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-416/trial_T20190909_032549_730713/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003049_760772/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013116_583250/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_090331_330612/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190908_234733_986177/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202104_886119/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Wash soap to return to counter at any time. Simultaneously, move a towel from a towel holder to a garbage bin. After returning the soap and moving the towel, place a bottle in the can near the toilet. Finally, throw away an empty toilet paper roll.",
+                "compose 2":"Wash soap to return to counter at any time. Simultaneously, throw away an empty toilet paper roll. After returning the soap and throwing away the paper roll, move a towel from a towel holder to a garbage bin. Finally, place a bottle in the can near the toilet.",
+                "compose 3":"Wash soap to return to counter at any time. Simultaneously, place a bottle in the can near the toilet. After returning the soap and placing the bottle, move a towel from a towel holder to a garbage bin. Finally, throw away an empty toilet paper roll."
+            }
         },
         {
             "task_list":[
                 "To throw away an empty toilet paper roll.",
                 "To take the hand towel and set it down on the sink.",
-                "Put a bar of soap in the trash.",
-                "Place bottle in the bin near the toilet."
+                "Place a bottle in the can near the toilet.",
+                "Put a bar of soap in the trash."
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202104_886119/traj_data.json",
                     "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045204_373695/traj_data.json",
-                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003049_760772/traj_data.json"
+                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json",
+                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a bar of soap in the trash.",
-                "Place the spray bottle in the can on the right of the toilet.",
-                "Put a wash clean cloth in a cabinet.",
-                "put a towel into a garbage can"
             ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json",
-                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-416/trial_T20190909_001522_308289/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040609_717998/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190909_062150_965386/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "put a towel into a garbage can",
-                "Place bottle in the bin near the toilet.",
-                "Move 2 rolls of toilet paper - one empty, one full - to the lower right drawer of the vanity. ",
-                "Wash the bar of soap and place it on the sink counter. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190909_062150_965386/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003049_760772/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013040_862247/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032422_085040/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"To throw away an empty toilet paper roll. After throwing away the paper roll, put a bar of soap in the trash. Simultaneously, take the hand towel and set it down on the sink. Place a bottle in the can near the toilet.",
+                "compose 2":"To take the hand towel and set it down on the sink. Simultaneously, place a bottle in the can near the toilet. After setting down the towel and placing the bottle, put a bar of soap in the trash. Finally, throw away an empty toilet paper roll.",
+                "compose 3":"To throw away an empty toilet paper roll. To take the hand towel and set it down on the sink. After throwing away the paper roll and setting down the towel, place a bottle in the can near the toilet. Put a bar of soap in the trash."
+            }
         },
         {
             "task_list":[
@@ -562,63 +582,79 @@
                     "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032422_085040/traj_data.json",
                     "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045148_475019/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cardboard roll into a rubbish bin at any time. Simultaneously, put the hand towel on the counter. After placing the cardboard roll and the hand towel, wash the bar of soap and place it on the sink counter. Finally, place a bottle in the can near the toilet.",
+                "compose 2":"Wash the bar of soap and place it on the sink counter at any time. Simultaneously, place a cardboard roll into a rubbish bin. After washing the soap and placing it on the counter, put the hand towel on the counter. Finally, place a bottle in the can near the toilet.",
+                "compose 3":"Put the hand towel on the counter at any time. Simultaneously, place a cardboard roll into a rubbish bin. After placing the towel and the cardboard roll, wash the bar of soap and place it on the sink counter. Finally, place a bottle in the can near the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "To rinse off a bar of soap and put it on the counter. ",
+                "Place bottle in the bin near the toilet.",
+                "Place a cardboard roll into a rubbish bin.",
+                "Put the hand towel on the counter. "
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032310_871218/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003049_760772/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202053_549622/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045148_475019/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Rinse off a bar of soap and put it on the counter at any time. Simultaneously, place a cardboard roll into a rubbish bin. After completing these tasks, put the hand towel on the counter. Finally, place the bottle in the bin near the toilet.",
+                "compose 2":"Put the hand towel on the counter first. Afterwards, rinse off a bar of soap and put it on the counter. Simultaneously, place a cardboard roll into a rubbish bin. Lastly, place the bottle in the bin near the toilet.",
+                "compose 3":"Place a cardboard roll into a rubbish bin first. Simultaneously, rinse off a bar of soap and put it on the counter. After completing these tasks, put the hand towel on the counter. Finally, place the bottle in the bin near the toilet."
+            }
+        },
+        {
+            "task_list":[
+                "Place an empty and a full toilet paper roll in a drawer.",
+                "Move a towel from a towel holder to a garbage bin",
+                "Place a bottle in the can near the toilet.",
+                "Put a bar of soap in the trash."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013116_583250/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190908_234733_986177/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json",
+                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place an empty and a full toilet paper roll in a drawer. After placing the rolls, move a towel from a towel holder to a garbage bin. Finally, place a bottle in the can near the toilet and put a bar of soap in the trash.",
+                "compose 2":"Place an empty and a full toilet paper roll in a drawer. Put a bar of soap in the trash. After that, move a towel from a towel holder to a garbage bin and place a bottle in the can near the toilet.",
+                "compose 3":"Move a towel from a towel holder to a garbage bin. Place a bottle in the can near the toilet. After that, Place an empty and a full toilet paper roll in a drawer and put a bar of soap in the trash."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "To throw away an empty toilet paper roll.",
-                "Place the spray bottle in the can on the right of the toilet.",
-                "Wash the bar of soap and place it on the sink counter. ",
-                "Place a bottle in the can near the toilet.",
+                "Place bottle in the bin near the toilet.",
+                "Wash soap to return to counter",
+                "Place a cardboard roll into a rubbish bin.",
+                "put a towel into a garbage can",
                 "To place the hand towel onto the bathroom sink next the candle."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202104_886119/traj_data.json",
-                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-416/trial_T20190909_001522_308289/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_032422_085040/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003049_760772/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-416/trial_T20190909_090331_330612/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-416/trial_T20190906_202053_549622/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190909_062150_965386/traj_data.json",
                     "train/pick_and_place_simple-HandTowel-None-CounterTop-416/trial_T20190909_045221_760575/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place the spray bottle in the can on the right of the toilet.",
-                "Move a bar of soap to the trash bin. ",
-                "Place a towel in a sink.",
-                "Place a bottle in the can near the toilet.",
-                "Place an empty and a full toilet paper roll in a drawer."
             ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-416/trial_T20190909_001522_308289/traj_data.json",
-                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020828_777495/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-416/trial_T20190909_032632_791113/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013116_583250/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity.",
-                "Place a bottle in the can near the toilet.",
-                "Put a bar of soap in the trash.",
-                "Place the spray bottle in the can on the right of the toilet.",
-                "Put a cleaned rag in a drawer under the right sink. "
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013005_772043/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003119_083823/traj_data.json",
-                    "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020839_714699/traj_data.json",
-                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-416/trial_T20190909_001522_308289/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040722_151303/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Place bottle in the bin near the toilet at any time. Simultaneously, wash soap to return to counter. After completing the previous tasks, put a towel into a garbage can. Finally, place a cardboard roll into a rubbish bin.",
+                "compose 2":"Place a cardboard roll into a rubbish bin at any time. Simultaneously, put a towel into a garbage can. After completing the previous tasks, wash soap to return to counter. Finally, place bottle in the bin near the toilet.",
+                "compose 3":"Place bottle in the bin near the toilet at any time. Simultaneously, place a cardboard roll into a rubbish bin. After placing the bottle, wash soap to return to counter. Finally, put a towel into a garbage can."
+            }
         }
     ],
     "tasks_6":[],

@@ -44,8 +44,8 @@
                 "put a washed bar of soap into a bureau drawer"
             ],
             "relative_objects":[
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-415/trial_T20190909_052929_590517/traj_data.json":{
@@ -55,11 +55,11 @@
                 "Put a clean bar of soap in a drawer."
             ],
             "relative_objects":[
-                "HandTowel",
+                "SoapBottle",
                 "Towel",
-                "Cloth",
                 "SoapBar",
-                "SoapBottle"
+                "HandTowel",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-415/trial_T20190909_003330_390467/traj_data.json":{
@@ -80,8 +80,8 @@
                 "Put the cleaned rag in the bottom drawer. "
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -92,11 +92,11 @@
                 "Clean the rag from the bath tub and put it in the towel dresser."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel",
-                "Cloth",
+                "SoapBottle",
                 "SprayBottle",
-                "SoapBottle"
+                "Towel",
+                "HandTowel",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-415/trial_T20190906_190057_260207/traj_data.json":{
@@ -107,8 +107,8 @@
             ],
             "relative_objects":[
                 "HandTowel",
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Shelf-415/trial_T20190909_051803_814459/traj_data.json":{
@@ -128,8 +128,8 @@
                 "Put a clean white rag on a shelf below a white table."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -140,8 +140,8 @@
                 "Put a cleaned rag on a shelf"
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050534_003993/traj_data.json":{
@@ -181,8 +181,8 @@
                 "Place a towel in the sink."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051520_901055/traj_data.json":{
@@ -200,8 +200,8 @@
                 "Move to white rags to a shelf."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -210,8 +210,8 @@
                 "Move the wash cloths to the shelf."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -233,8 +233,8 @@
                 "Put a clean wash cloth on the toilet."
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -245,12 +245,12 @@
                 "Place a clean rag on top of the toilet."
             ],
             "relative_objects":[
-                "ScrubBrush",
-                "HandTowel",
                 "Towel",
-                "Cloth",
                 "SoapBar",
-                "Plunger"
+                "Plunger",
+                "HandTowel",
+                "ScrubBrush",
+                "Cloth"
             ]
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-415/trial_T20190908_080148_528030/traj_data.json":{
@@ -279,8 +279,8 @@
                 "move the spray bottle from the dresser to the back of the toilet"
             ],
             "relative_objects":[
-                "Toilet",
-                "SprayBottle"
+                "SprayBottle",
+                "Toilet"
             ]
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-415/trial_T20190908_172002_224650/traj_data.json":{
@@ -300,8 +300,8 @@
                 "Put toilet paper and an empty toilet paper roll on the shelf."
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "HandTowel"
+                "HandTowel",
+                "ToiletPaper"
             ]
         },
         "valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/traj_data.json":{
@@ -311,8 +311,8 @@
                 "Place a roll of toilet paper on a toilet paper holder."
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "Towel"
+                "Towel",
+                "ToiletPaper"
             ]
         },
         "valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_075955_678702/traj_data.json":{
@@ -361,51 +361,51 @@
     "tasks_1":[
         {
             "task_list":[
-                "Put a roll of toilet paper on the toilet paper holder."
+                "Wash the dirty cloth from the tub, put it in the bottom drawer of the cabinet"
             ],
             "orign":[
                 [
-                    "valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-415/trial_T20190906_190118_700255/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move a spray bottle from the toilet to the trash"
+                " put the spray bottle on the back of the toilet"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070502_104667/traj_data.json"
+                    "valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_075955_678702/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Move a washed bar of soap to the dresser. "
+                "Pick up soap off of counter, put in water, move to cabinet"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-415/trial_T20190909_003330_390467/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-415/trial_T20190909_052957_687258/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "place a clean cloth on top of the back side of the toilet"
+                "Put a clean cloth on top of the dresser."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-415/trial_T20190909_022258_647350/traj_data.json"
+                    "tests_seen/trial_T20190906_235957_360315/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put toilet paper rolls onto shelf"
+                "Move towel from place on wall to center of sink."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-415/trial_T20190908_172037_784467/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051520_901055/traj_data.json"
                 ]
             ]
         }
@@ -413,169 +413,271 @@
     "tasks_2":[
         {
             "task_list":[
-                "Move an empty toilet paper roll to the holder.",
-                "Move the wash cloths to the shelf."
+                "Move towel from place on wall to center of sink.",
+                "Place a spray bottle on a toilet tank."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050443_333939/traj_data.json",
-                    "train/pick_two_obj_and_place-Cloth-None-Shelf-415/trial_T20190908_112300_533888/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051520_901055/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_080011_253379/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move towel from place on wall to center of sink at any time. Simultaneously, place a spray bottle on a toilet tank.",
+                "compose 2":"Place a spray bottle on a toilet tank at any time. After placing the spray bottle, move towel from place on wall to center of sink.",
+                "compose 3":"Move towel from place on wall to center of sink at any time. Then, place a spray bottle on a toilet tank."
+            }
         },
         {
             "task_list":[
-                "Put a roll of toilet paper on the toilet paper holder.",
-                "Put a clean rag on the back of the toilet."
+                "put a clean rag in a bottom dresser drawer",
+                "To move toilet paper and a tube to the shelf. "
             ],
             "orign":[
                 [
-                    "valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-415/trial_T20190909_022341_367862/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-415/trial_T20190906_190033_133211/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-415/trial_T20190908_172002_224650/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"To move toilet paper and a tube to the shelf at any time. Simultaneously, put a clean rag in a bottom dresser drawer.",
+                "compose 2":"Put a clean rag in a bottom dresser drawer at any time. After putting the rag, move toilet paper and a tube to the shelf.",
+                "compose 3":"Put a clean rag in a bottom dresser drawer at any time. Simultaneously, move toilet paper and a tube to the shelf."
+            }
         },
         {
             "task_list":[
-                "Place a clean cloth on a white dresser.",
-                "Move an empty toilet paper roll to the holder."
+                "Put a clean cloth on top of the dresser.",
+                " put the spray bottle on the back of the toilet"
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190906_235935_435622/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050443_333939/traj_data.json"
+                    "tests_seen/trial_T20190906_235957_360315/traj_data.json",
+                    "valid_seen/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_075955_678702/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean cloth on top of the dresser at any time. Simultaneously, put the spray bottle on the back of the toilet.",
+                "compose 2":"Put the spray bottle on the back of the toilet at any time. After placing the spray bottle, put a clean cloth on top of the dresser.",
+                "compose 3":"Put a clean cloth on top of the dresser at any time. After placing the cloth, put the spray bottle on the back of the toilet."
+            }
         },
         {
             "task_list":[
-                "Move spray bottle to the back of the toilet.",
-                "Place a towel in a sink."
+                "To move toilet paper and a tube to the shelf. ",
+                "Throw away the spray bottle on the counter."
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190909_075937_250444/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051530_134543/traj_data.json"
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-415/trial_T20190908_172002_224650/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Throw away the spray bottle on the counter at any time. Simultaneously, move toilet paper and a tube to the shelf.",
+                "compose 2":"Move toilet paper and a tube to the shelf. After moving the items, throw away the spray bottle on the counter.",
+                "compose 3":"Throw away the spray bottle on the counter at any time. Once done, move toilet paper and a tube to the shelf."
+            }
         },
         {
             "task_list":[
-                "Move spray bottle to the back of the toilet.",
-                "Put a clean cloth on top of the dresser."
+                "Place a spray bottle on a toilet tank.",
+                "Pick up soap off of counter, put in water, move to cabinet"
             ],
             "orign":[
                 [
-                    "tests_seen/trial_T20190909_075937_250444/traj_data.json",
-                    "tests_seen/trial_T20190906_235957_360315/traj_data.json"
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_080011_253379/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-415/trial_T20190909_052957_687258/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a spray bottle on a toilet tank at any time. Simultaneously, pick up soap off of counter, put in water, and move to cabinet.",
+                "compose 2":"Pick up soap off of counter, put in water, and move to cabinet first. After completing that task, place a spray bottle on a toilet tank.",
+                "compose 3":"Place a spray bottle on a toilet tank at any time. After that, pick up soap off of counter, put in water, and move to cabinet."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Place a clean cloth on a white dresser.",
-                "Place a spray bottle on a toilet tank.",
-                "Put a roll of toilet paper on the toilet paper holder."
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190906_235935_435622/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_080011_253379/traj_data.json",
-                    "valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move a spray bottle from the toilet to the trash",
-                "Put a toilet paper roll on a toilet paper holder.",
-                "Move a washed bar of soap to the dresser. "
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070502_104667/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050534_003993/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-415/trial_T20190909_003330_390467/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Move towel from place on wall to center of sink.",
-                "Throw away the spray bottle on the counter.",
-                "Put a clean cloth on top of the dresser."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051520_901055/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/traj_data.json",
-                    "tests_seen/trial_T20190906_235957_360315/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put the empty toilet paper roll on the toilet tank. ",
-                "Move a spray bottle from the toilet to the trash",
-                "Put a clean cloth on the shelf."
-            ],
-            "orign":[
-                [
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-415/trial_T20190908_080311_139840/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070502_104667/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Shelf-415/trial_T20190909_051803_814459/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a clean cloth on the shelf.",
-                "Put toilet paper rolls onto shelf",
-                "Move a spray bottle from the toilet to the trash"
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Shelf-415/trial_T20190909_051803_814459/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-415/trial_T20190908_172037_784467/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070502_104667/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
-        {
-            "task_list":[
-                "Move a white towel from it's hanger to the sink basin.",
-                "Throw away the spray bottle on the counter.",
-                "Move the candle and toilet paper roll on to the toilet",
+                "To move toilet paper and a tube to the shelf. ",
+                "Move spray bottle to the back of the toilet.",
                 "Move towel from place on wall to center of sink."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051506_703363/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-415/trial_T20190908_080148_528030/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-415/trial_T20190908_172002_224650/traj_data.json",
+                    "tests_seen/trial_T20190909_075937_250444/traj_data.json",
                     "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051520_901055/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Move towel from place on wall to center of sink at any time. Simultaneously, move spray bottle to the back of the toilet. After moving the spray bottle, move toilet paper and a tube to the shelf.",
+                "compose 2":"Move towel from place on wall to center of sink at any time. Simultaneously, move toilet paper and a tube to the shelf. After moving the towel, move the spray bottle to the back of the toilet.",
+                "compose 3":"Move spray bottle to the back of the toilet at any time. Simultaneously, move towel from place on wall to center of sink. After moving the spray bottle, move toilet paper and a tube to the shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Clean dirty rag, put rag in bottom dresser drawer",
+                "Put the empty toilet paper roll on the toilet tank. ",
+                "Move a spray bottle from the toilet to the trash"
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-415/trial_T20190906_190057_260207/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-415/trial_T20190908_080311_139840/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070502_104667/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a spray bottle from the toilet to the trash at any time. Put the empty toilet paper roll on the toilet tank. After putting the empty toilet paper roll, clean dirty rag and put the rag in the bottom dresser drawer.",
+                "compose 2":"Put the empty toilet paper roll on the toilet tank. Simultaneously, move a spray bottle from the toilet to the trash. After completing these tasks, clean the dirty rag and put it in the bottom dresser drawer.",
+                "compose 3":"Clean dirty rag and put the rag in the bottom dresser drawer. Put the empty toilet paper roll on the toilet tank. After putting the toilet paper roll, move a spray bottle from the toilet to the trash."
+            }
         },
         {
             "task_list":[
                 "Move an empty toilet paper roll to the holder.",
                 "Place a spray bottle on a toilet tank.",
-                "Move towel from place on wall to center of sink.",
-                "Put a clean rag on a dresser."
+                "Clean dirty rag, put rag in bottom dresser drawer"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050443_333939/traj_data.json",
                     "train/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_080011_253379/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051520_901055/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Dresser-415/trial_T20190907_000021_504649/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-415/trial_T20190906_190057_260207/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a spray bottle on a toilet tank at any time. Simultaneously, move an empty toilet paper roll to the holder. After placing the spray bottle and toilet paper roll, clean the dirty rag and put it in the bottom dresser drawer.",
+                "compose 2":"Move an empty toilet paper roll to the holder at any time. Simultaneously, clean the dirty rag and put it in the bottom dresser drawer.After moving the toilet paper roll, place a spray bottle on a toilet tank.",
+                "compose 3":"Place a spray bottle on a toilet tank at any time. After placing the spray bottle, move an empty toilet paper roll to the holder. Finally, clean the dirty rag and put it in the bottom dresser drawer."
+            }
+        },
+        {
+            "task_list":[
+                "place a clean cloth on top of the back side of the toilet",
+                "Put the empty toilet paper roll on the toilet tank. ",
+                "Place a spray bottle on a toilet tank."
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-415/trial_T20190909_022258_647350/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-415/trial_T20190908_080311_139840/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_080011_253379/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a clean cloth on top of the back side of the toilet at any time. Simultaneously, put the empty toilet paper roll on the toilet tank. After placing the cloth and the empty toilet paper roll, place a spray bottle on the toilet tank.",
+                "compose 2":"Place a clean cloth on top of the back side of the toilet at any time. Simultaneously, place a spray bottle on the toilet tank. After placing the cloth and the spray bottle, put the empty toilet paper roll on the toilet tank.",
+                "compose 3":"Put the empty toilet paper roll on the toilet tank at any time. Simultaneously, place a clean cloth on top of the back side of the toilet. After placing the toilet paper roll and the cloth, place a spray bottle on the toilet tank."
+            }
+        },
+        {
+            "task_list":[
+                "Move the candle and toilet paper roll on to the toilet",
+                "Throw away the spray bottle on the counter.",
+                "Move to white rags to a shelf."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-415/trial_T20190908_080148_528030/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/traj_data.json",
+                    "train/pick_two_obj_and_place-Cloth-None-Shelf-415/trial_T20190918_160612_509595/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move the candle and toilet paper roll on to the toilet, then throw away the spray bottle on the counter. Afterward, move the white rags to a shelf.",
+                "compose 2":"Move the candle and toilet paper roll on to the toilet at any time. Simultaneously, throw away the spray bottle on the counter. Once done, move the white rags to a shelf.",
+                "compose 3":"Throw away the spray bottle on the counter. Subsequently, move the candle and toilet paper roll on to the toilet. Finally, move the white rags to a shelf."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "Pick up soap off of counter, put in water, move to cabinet",
+                "Move a white towel from it's hanger to the sink basin.",
+                "Move a spray bottle from the toilet to the trash",
+                "To move toilet paper and a tube to the shelf. "
+            ],
+            "orign":[
+                [
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-415/trial_T20190909_052957_687258/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051506_703363/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070502_104667/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-415/trial_T20190908_172002_224650/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up soap off of counter, put in water, move to cabinet at any time. Simultaneously, move a white towel from it's hanger to the sink basin.After completing these tasks, move a spray bottle from the toilet to the trash. Finally, move toilet paper and a tube to the shelf.",
+                "compose 2":"Pick up soap off of counter, put in water, move to cabinet at any time. After placing the soap, move a white towel from it's hanger to the sink basin. Subsequently, move a spray bottle from the toilet to the trash. To finish, move toilet paper and a tube to the shelf.",
+                "compose 3":"Pick up soap off of counter, put in water, move to cabinet first. Once this is done, move a white towel from it's hanger to the sink basin. Following that, move a spray bottle from the toilet to the trash. Lastly, move toilet paper and a tube to the shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Place a spray bottle on a toilet tank.",
+                "Move towel from place on wall to center of sink.",
+                "Pick up soap off of counter, put in water, move to cabinet",
+                "Move a white towel from it's hanger to the sink basin."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_080011_253379/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051520_901055/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-415/trial_T20190909_052957_687258/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051506_703363/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up soap off of counter, put in water, move to cabinet at any time. Simultaneously, move towel from place on wall to center of sink. After moving the towel, place a spray bottle on a toilet tank. Finally, move a white towel from it's hanger to the sink basin.",
+                "compose 2":"Move a white towel from it's hanger to the sink basin at any time. Simultaneously, place a spray bottle on a toilet tank. After placing the spray bottle, pick up soap off of counter, put in water, move to cabinet, and finally move towel from place on wall to center of sink.",
+                "compose 3":"Move towel from place on wall to center of sink at any time. Simultaneously, move a white towel from it's hanger to the sink basin. After moving the towels, pick up soap off of counter, put in water, move to cabinet, and place a spray bottle on a toilet tank."
+            }
+        },
+        {
+            "task_list":[
+                "Throw away the spray bottle on the counter.",
+                "To move toilet paper and a tube to the shelf. ",
+                "Move a white towel from it's hanger to the sink basin.",
+                "Put a clean cloth on top of the dresser."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-GarbageCan-415/trial_T20190907_070419_171501/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Shelf-415/trial_T20190908_172002_224650/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051506_703363/traj_data.json",
+                    "tests_seen/trial_T20190906_235957_360315/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Throw away the spray bottle on the counter. Move a white towel from it's hanger to the sink basin. Simultaneously, move a white towel from it's hanger to the sink basin. Put a clean cloth on top of the dresser.",
+                "compose 2":"To move toilet paper and a tube to the shelf. Put a clean cloth on top of the dresser. Simultaneously, move a white towel from it's hanger to the sink basin. Throw away the spray bottle on the counter.",
+                "compose 3":"Throw away the spray bottle on the counter. Put a clean cloth on top of the dresser. Simultaneously, move a white towel from it's hanger to the sink basin. To move toilet paper and a tube to the shelf."
+            }
+        },
+        {
+            "task_list":[
+                "Move the candle and toilet paper roll on to the toilet",
+                "Place a spray bottle on a toilet tank.",
+                "Put a clean cloth on top of the dresser.",
+                "Move a white towel from it's hanger to the sink basin."
+            ],
+            "orign":[
+                [
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Toilet-415/trial_T20190908_080148_528030/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Toilet-415/trial_T20190909_080011_253379/traj_data.json",
+                    "tests_seen/trial_T20190906_235957_360315/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-SinkBasin-415/trial_T20190909_051506_703363/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean cloth on top of the dresser at any time. Simultaneously, move the candle and toilet paper roll onto the toilet. After placing the cloth and items on the toilet, place a spray bottle on the toilet tank.",
+                "compose 2":"Move the candle and toilet paper roll onto the toilet at any time. Simultaneously, put a clean cloth on top of the dresser. After placing the items on the toilet and the cloth on the dresser, move a white towel from its hanger to the sink basin.",
+                "compose 3":"Put a clean cloth on top of the dresser at any time. Simultaneously, move a white towel from its hanger to the sink basin. After placing the cloth on the dresser and the towel on the sink basin, place a spray bottle on the toilet tank."
+            }
         }
     ],
     "tasks_5":[],

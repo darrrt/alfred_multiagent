@@ -8,10 +8,10 @@
                 "Put a clean, wet, rag in the bath tub. "
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
-                "Cloth",
-                "SoapBar"
+                "HandTowel",
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-423/trial_T20190908_051048_362590/traj_data.json":{
@@ -21,8 +21,8 @@
                 "Place a clean rag into the tub."
             ],
             "relative_objects":[
-                "Cloth",
-                "SoapBottle"
+                "SoapBottle",
+                "Cloth"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044455_524924/traj_data.json":{
@@ -32,8 +32,8 @@
                 "Put the towel in the tub."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044525_750270/traj_data.json":{
@@ -53,8 +53,8 @@
                 "To move a towel to the tub. "
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json":{
@@ -92,8 +92,8 @@
                 "Put a towel in the garbage."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140626_609969/traj_data.json":{
@@ -104,8 +104,8 @@
             ],
             "relative_objects":[
                 "SoapBottle",
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140728_318318/traj_data.json":{
@@ -115,8 +115,8 @@
                 "Putting a clean rag in a drawer"
             ],
             "relative_objects":[
-                "HandTowel",
                 "Towel",
+                "HandTowel",
                 "Cloth"
             ]
         },
@@ -157,9 +157,9 @@
                 "Move a white spray bottle into a drawer."
             ],
             "relative_objects":[
-                "Cloth",
+                "SoapBottle",
                 "SprayBottle",
-                "SoapBottle"
+                "Cloth"
             ]
         },
         "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json":{
@@ -200,8 +200,8 @@
                 "Put toilet paper on a holder on the wall."
             ],
             "relative_objects":[
-                "ToiletPaper",
-                "HandTowel"
+                "HandTowel",
+                "ToiletPaper"
             ]
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-423/trial_T20190906_202403_601985/traj_data.json":{
@@ -241,8 +241,8 @@
             ],
             "relative_objects":[
                 "SoapBar",
-                "SprayBottle",
-                "SoapBottle"
+                "SoapBottle",
+                "SprayBottle"
             ]
         },
         "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json":{
@@ -293,8 +293,8 @@
                 "rinse the soap to put it in a drawer"
             ],
             "relative_objects":[
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "tests_seen/trial_T20190906_202428_389010/traj_data.json":{
@@ -304,8 +304,8 @@
                 "Put clean soap in a drawer."
             ],
             "relative_objects":[
-                "Cloth",
-                "SoapBar"
+                "SoapBar",
+                "Cloth"
             ]
         },
         "tests_seen/trial_T20190908_051013_004115/traj_data.json":{
@@ -315,39 +315,39 @@
                 "Put a clean rag in the tub."
             ],
             "relative_objects":[
-                "HandTowel",
-                "Towel"
+                "Towel",
+                "HandTowel"
             ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "Place a spray bottle in a drawer."
+                "Put a clean rag in the drawer. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140728_318318/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a full roll of toilet paper on an empty toilet paper holder."
+                "wash the pink bar by the sink, put the pink bar in the tub"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json"
+                    "valid_seen/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064808_086925/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Pick up cleaner from counter and place below in drawer"
+                "Put a spray bottle in the drawer, under the sink. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071948_483717/traj_data.json"
+                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071833_221808/traj_data.json"
                 ]
             ]
         },
@@ -363,11 +363,11 @@
         },
         {
             "task_list":[
-                "Put toilet paper on the holder. "
+                "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022416_998587/traj_data.json"
+                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json"
                 ]
             ]
         }
@@ -375,291 +375,381 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put toilet paper on the holder. ",
+                "pick up a towel and put it down onto the edge of the bathtub",
                 "Move soap from counter and garbage can into tub."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022416_998587/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044455_524924/traj_data.json",
                     "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-423/trial_T20190909_034155_743816/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up a towel and put it down onto the edge of the bathtub at any time. Simultaneously, move soap from the counter and garbage can into the tub.",
+                "compose 2":"Move soap from the counter and garbage can into the tub at any time. Simultaneously, pick up a towel and put it down onto the edge of the bathtub.",
+                "compose 3":"Pick up a towel and put it down onto the edge of the bathtub at any time. After placing the towel, move soap from the counter and garbage can into the tub."
+            }
         },
         {
             "task_list":[
                 "Get wash rag wet and put it away in drawer.",
-                "place the toilet paper in the bottom right side of the cabinet"
+                "Move a towel from next to the mirror to the bathtub."
             ],
             "orign":[
                 [
                     "valid_seen/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140701_251653/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044428_237048/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Get wash rag wet and put it away in drawer at any time. After that, move a towel from next to the mirror to the bathtub.",
+                "compose 2":"Move a towel from next to the mirror to the bathtub at any time. Simultaneously, get wash rag wet and put it away in drawer.",
+                "compose 3":"Move a towel from next to the mirror to the bathtub at any time. After moving the towel, get wash rag wet and put it away in drawer."
+            }
         },
         {
             "task_list":[
-                "To move a bottle to the bottom drawer. ",
+                "wash the pink bar by the sink, put the pink bar in the tub",
                 "Put a spray bottle in the drawer, under the sink. "
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064750_271273/traj_data.json",
+                    "valid_seen/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064808_086925/traj_data.json",
                     "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071833_221808/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Wash the pink bar by the sink, put the pink bar in the tub. Put a spray bottle in the drawer, under the sink.",
+                "compose 2":"Put a spray bottle in the drawer, under the sink. Wash the pink bar by the sink, put the pink bar in the tub.",
+                "compose 3":"Wash the pink bar by the sink, put the pink bar in the tub. Put a spray bottle in the drawer, under the sink."
+            }
         },
         {
             "task_list":[
-                "Put toilet paper on the holder. ",
-                "Put a towel in the tub. "
+                "Place a spray bottle in a drawer.",
+                "Put away clean soap."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022416_998587/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044525_750270/traj_data.json"
+                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json",
+                    "valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Drawer-423/trial_T20190906_202340_749336/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put away clean soap at any time. Simultaneously, place a spray bottle in a drawer.",
+                "compose 2":"Place a spray bottle in a drawer at any time. After placing the spray bottle, put away clean soap.",
+                "compose 3":"Put away clean soap at any time. Place a spray bottle in a drawer afterwards."
+            }
         },
         {
             "task_list":[
-                "Place the spray bottle in the can.",
-                "Rinse a bar of soap and place it on the bath tub."
+                "Put a clean rag in the drawer. ",
+                "Put a clean bar of soap into the cabinet drawer"
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-423/trial_T20190909_012941_820281/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190907_204545_504401/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140728_318318/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-423/trial_T20190906_202403_601985/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a clean rag in the drawer at any time. Simultaneously, put a clean bar of soap into the cabinet drawer.",
+                "compose 2":"Put a clean bar of soap into the cabinet drawer at any time. Simultaneously, put a clean rag in the drawer.",
+                "compose 3":"Put a clean rag in the drawer at any time. After putting the rag, put a clean bar of soap into the cabinet drawer."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Place a full roll of toilet paper on an empty toilet paper holder.",
-                "Put a spray bottle in the drawer, under the sink. ",
-                "Clean off a towel in the tub."
+                "Clean off a towel in the tub.",
+                "wash the pink bar by the sink, put the pink bar in the tub",
+                "place the toilet paper in the bottom right side of the cabinet"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071833_221808/traj_data.json",
-                    "tests_seen/trial_T20190908_051013_004115/traj_data.json"
+                    "tests_seen/trial_T20190908_051013_004115/traj_data.json",
+                    "valid_seen/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064808_086925/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Wash the pink bar by the sink, put the pink bar in the tub. After that, place the toilet paper in the bottom right side of the cabinet. Clean off a towel in the tub can be done at any time.",
+                "compose 2":"Place the toilet paper in the bottom right side of the cabinet at any time. Simultaneously, clean off a towel in the tub. After these tasks, wash the pink bar by the sink and put the pink bar in the tub.",
+                "compose 3":"Clean off a towel in the tub. Wash the pink bar by the sink, put the pink bar in the tub can be done at any order. Finally, place the toilet paper in the bottom right side of the cabinet."
+            }
         },
-        {
-            "task_list":[
-                "Wash the green rag for 4 seconds, put the rag in the drawer",
-                "Put a spray bottle in the drawer, under the sink. ",
-                "Clean off a towel in the tub."
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140626_609969/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071833_221808/traj_data.json",
-                    "tests_seen/trial_T20190908_051013_004115/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a spray bottle in the drawer, under the sink. ",
-                "place a web cloth in the tub",
-                "Put the small towel from the rack in the trashcan beside the shower"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071833_221808/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-423/trial_T20190908_051048_362590/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "place a web cloth in the tub",
-                "place the toilet paper in the bottom right side of the cabinet",
-                "Put the small towel from the rack in the trashcan beside the shower"
-            ],
-            "orign":[
-                [
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-423/trial_T20190908_051048_362590/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "pick up a towel and put it down onto the edge of the bathtub",
-                "Place a spray bottle in a drawer.",
-                "Get wash rag wet and put it away in drawer."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044455_524924/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json",
-                    "valid_seen/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140701_251653/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_4":[
         {
             "task_list":[
                 "Place a full roll of toilet paper on an empty toilet paper holder.",
                 "Move a towel from next to the mirror to the bathtub.",
-                "place a web cloth in the tub",
                 "wash the pink bar by the sink, put the pink bar in the tub"
             ],
             "orign":[
                 [
                     "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json",
                     "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044428_237048/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-423/trial_T20190908_051048_362590/traj_data.json",
                     "valid_seen/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064808_086925/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the pink bar by the sink in the tub at any time. Simultaneously, move a towel from next to the mirror to the bathtub. Once the towel is moved, place a full roll of toilet paper on an empty toilet paper holder.",
+                "compose 2":"Place a full roll of toilet paper on an empty toilet paper holder at any time. After placing the toilet paper roll, move a towel from next to the mirror to the bathtub. Once the towel is moved, wash the pink bar by the sink and put it in the tub.",
+                "compose 3":"Wash the pink bar by the sink, put the pink bar in the tub at any time. Simultaneously, place a full roll of toilet paper on an empty toilet paper holder. After completing these tasks, move a towel from next to the mirror to the bathtub."
+            }
         },
         {
             "task_list":[
+                "Put the small towel from the rack in the trashcan beside the shower",
                 "wash the pink bar by the sink, put the pink bar in the tub",
-                "Put a towel in the tub. ",
-                "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink.",
                 "Place the spray bottle in the can."
             ],
             "orign":[
                 [
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json",
                     "valid_seen/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064808_086925/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044525_750270/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json",
                     "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-423/trial_T20190909_012941_820281/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put the small towel from the rack in the trashcan beside the shower",
-                "place the toilet paper in the bottom right side of the cabinet",
-                "place a web cloth in the tub",
-                "to put the candles in the drawer"
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-423/trial_T20190908_051048_362590/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Drawer-423/trial_T20190909_022005_295641/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Get wash rag wet and put it away in drawer.",
-                "to put the candles in the drawer",
-                "place the toilet paper in the bottom right side of the cabinet",
-                "Put the small towel from the rack in the trashcan beside the shower"
+                "wash the pink bar by the sink, put the pink bar in the tub",
+                "To move a bottle to the bottom drawer. "
             ],
             "orign":[
                 [
                     "valid_seen/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140701_251653/traj_data.json",
-                    "train/pick_two_obj_and_place-Candle-None-Drawer-423/trial_T20190909_022005_295641/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json"
+                    "valid_seen/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064808_086925/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064750_271273/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Get wash rag wet and put it away in drawer. After putting away the wash rag, wash the pink bar by the sink and put the pink bar in the tub. To finish, move a bottle to the bottom drawer.",
+                "compose 2":"Wash the pink bar by the sink and put the pink bar in the tub. After completing that task, get wash rag wet and put it away in drawer. Finally, move a bottle to the bottom drawer.",
+                "compose 3":"Get wash rag wet and put it away in drawer. Simultaneously, wash the pink bar by the sink and put the pink bar in the tub. After completing both tasks, move a bottle to the bottom drawer."
+            }
         },
         {
             "task_list":[
-                "Put the toilet paper rolls into the drawer under the sink",
-                "Place a spray bottle in a drawer.",
-                "wash the pink bar by the sink, put the pink bar in the tub",
-                "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink."
+                "Clean off a towel in the tub.",
+                "Place a full roll of toilet paper on an empty toilet paper holder.",
+                "Take the soap from the toilet tank, rinse it, put it in a bottom left drawer."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111226_698552/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json",
-                    "valid_seen/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064808_086925/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json"
+                    "tests_seen/trial_T20190908_051013_004115/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json",
+                    "tests_seen/trial_T20190906_202428_389010/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Clean off a towel in the tub at any time. Simultaneously, take the soap from the toilet tank, rinse it, and put it in a bottom left drawer. After cleaning the towel and storing the soap, place a full roll of toilet paper on an empty toilet paper holder.",
+                "compose 2":"Take the soap from the toilet tank, rinse it, and put it in a bottom left drawer at any time. Simultaneously, place a full roll of toilet paper on an empty toilet paper holder. After storing the soap and placing the toilet paper, clean off a towel in the tub.",
+                "compose 3":"Place a full roll of toilet paper on an empty toilet paper holder at any time. Simultaneously, clean off a towel in the tub. After placing the toilet paper and cleaning the towel, take the soap from the toilet tank, rinse it, and put it in a bottom left drawer."
+            }
+        }
+    ],
+    "tasks_4":[
+        {
+            "task_list":[
+                "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink.",
+                "Take the soap from the toilet tank, rinse it, put it in a bottom left drawer.",
+                "place the toilet paper in the bottom right side of the cabinet",
+                "pick up a towel and put it down onto the edge of the bathtub"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json",
+                    "tests_seen/trial_T20190906_202428_389010/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044455_524924/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Pick up a towel and put it down onto the edge of the bathtub at any time. Simultaneously, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. After putting down the towel, take the soap from the toilet tank, rinse it, and put it in a bottom left drawer. Finally, place the toilet paper in the bottom right side of the cabinet.",
+                "compose 2":"Take the soap from the toilet tank, rinse it, put it in a bottom left drawer in any time. Simultaneously, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. After putting the soap from the toilet tank, pick up a towel and put it down onto the edge of the bathtub. Finally, place the toilet paper in the bottom right side of the cabinet.",
+                "compose 3":"Place the toilet paper in the bottom right side of the cabinet at any time. Simultaneously, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. After placing the toilet paper, take the soap from the toilet tank, rinse it, and put it in a bottom left drawer. Finally, pick up a towel and put it down onto the edge of the bathtub."
+            }
+        },
+        {
+            "task_list":[
+                "Place a full roll of toilet paper on an empty toilet paper holder.",
+                "Get wash rag wet and put it away in drawer.",
+                "to put the candles in the drawer",
+                "Put a spray bottle in the drawer, under the sink. "
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json",
+                    "valid_seen/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140701_251653/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Drawer-423/trial_T20190909_022005_295641/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071833_221808/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Get wash rag wet and put it away in drawer. Place a full roll of toilet paper on an empty toilet paper holder. Put a spray bottle in the drawer, under the sink. to put the candles in the drawer",
+                "compose 2":"Put a spray bottle in the drawer, under the sink. Get wash rag wet and put it away in drawer. to put the candles in the drawer. Place a full roll of toilet paper on an empty toilet paper holder.",
+                "compose 3":"Place a full roll of toilet paper on an empty toilet paper holder. Get wash rag wet and put it away in drawer. to put the candles in the drawer. Put a spray bottle in the drawer, under the sink."
+            }
+        },
+        {
+            "task_list":[
+                "Clean off a towel in the tub.",
+                "to put the candles in the drawer",
+                "place a web cloth in the tub",
+                "Place the spray bottle in the can."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190908_051013_004115/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Drawer-423/trial_T20190909_022005_295641/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-423/trial_T20190908_051048_362590/traj_data.json",
+                    "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-423/trial_T20190909_012941_820281/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Clean off a towel in the tub at any time. Put the candles in the drawer simultaneously with placing a web cloth in the tub. After completing the previous tasks, place the spray bottle in the can.",
+                "compose 2":"Place the spray bottle in the can at any time. Simultaneously, clean off a towel in the tub and put the candles in the drawer. After placing the spray bottle, place a web cloth in the tub.",
+                "compose 3":"Put the candles in the drawer at any time. Place a web cloth in the tub simultaneously with cleaning off a towel in the tub. After placing the candles and web cloth, place the spray bottle in the can."
+            }
+        },
+        {
+            "task_list":[
+                "Place a full roll of toilet paper on an empty toilet paper holder.",
+                "Put the small towel from the rack in the trashcan beside the shower",
+                "Put a spray bottle in the drawer, under the sink. ",
+                "Rinse a bar of soap and place it on the bath tub."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071833_221808/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190907_204545_504401/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a full roll of toilet paper on an empty toilet paper holder at any time. Simultaneously, put a spray bottle in the drawer under the sink. After placing the toilet paper and spray bottle, rinse a bar of soap and place it on the bathtub. Finally, put the small towel from the rack in the trashcan beside the shower.",
+                "compose 2":"Put the small towel from the rack in the trashcan beside the shower at any time. Simultaneously, put a spray bottle in the drawer under the sink. After putting the towel and spray bottle, place a full roll of toilet paper on an empty toilet paper holder. Finally, rinse a bar of soap and place it on the bathtub.",
+                "compose 3":"Rinse a bar of soap and place it on the bathtub at any time. Simultaneously, put a spray bottle in the drawer under the sink. After rinsing the soap and placing the spray bottle, put the small towel from the rack in the trashcan beside the shower. Finally, place a full roll of toilet paper on an empty toilet paper holder."
+            }
+        },
+        {
+            "task_list":[
+                "Place a spray bottle in a drawer.",
+                "Put the small towel from the rack in the trashcan beside the shower",
+                "to put the candles in the drawer",
+                "Put the toilet paper rolls into the drawer under the sink"
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json",
+                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Drawer-423/trial_T20190909_022005_295641/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111226_698552/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the small towel from the rack in the trashcan beside the shower at any time. Simultaneously, place a spray bottle in a drawer. Once the towel is in the trashcan and the spray bottle is in the drawer, put the candles in the drawer. After completing the previous tasks, put the toilet paper rolls into the drawer under the sink.",
+                "compose 2":"Put the small towel from the rack in the trashcan beside the shower at any time. Simultaneously, place a spray bottle in a drawer. After placing the towel and the spray bottle, put the candles in the drawer. Finish by putting the toilet paper rolls into the drawer under the sink.",
+                "compose 3":"Place a spray bottle in a drawer at any time. Simultaneously, put the small towel from the rack in the trashcan beside the shower. After placing the spray bottle and the towel in the trashcan, put the candles in the drawer. Complete the sequence by putting the toilet paper rolls into the drawer under the sink."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "Place a full roll of toilet paper on an empty toilet paper holder.",
-                "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink.",
-                "place a wet bar of soap in a bath tub",
-                "Put a clean rag in the drawer. ",
-                "Place a spray bottle in a drawer."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064827_189096/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140728_318318/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "place the toilet paper in the bottom right side of the cabinet",
-                "Move soap from counter and garbage can into tub.",
+                "Place a spray bottle in a drawer.",
                 "Get wash rag wet and put it away in drawer.",
-                "Put the small towel from the rack in the trashcan beside the shower",
+                "Rinse a bar of soap and place it on the bath tub.",
+                "Place a full roll of toilet paper on an empty toilet paper holder.",
                 "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink."
             ],
             "orign":[
                 [
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json",
-                    "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-423/trial_T20190909_034155_743816/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json",
                     "valid_seen/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140701_251653/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190907_204545_504401/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json",
                     "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Get wash rag wet and put it away in a drawer. Simultaneously, place a spray bottle in a drawer. After putting away the wash rag and placing the spray bottle, rinse a bar of soap and place it on the bath tub. Once the soap is placed, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. Finally, place a full roll of toilet paper on an empty toilet paper holder.",
+                "compose 2":"To take the soap bottle from the top of the sink and put it in the drawer underneath the sink. First, place a full roll of toilet paper on an empty toilet paper holder. Once the toilet paper is placed, get wash rag wet and put it away in a drawer. Simultaneously, rinse a bar of soap and place it on the bath tub. Finally, place a spray bottle in a drawer.",
+                "compose 3":"Get wash rag wet and put it away in a drawer. Followed by placing a full roll of toilet paper on an empty toilet paper holder. After that, rinse a bar of soap and place it on the bath tub. Simultaneously, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. Finish by placing a spray bottle in a drawer."
+            }
         },
         {
             "task_list":[
+                "Place a spray bottle in a drawer.",
+                "Place a full roll of toilet paper on an empty toilet paper holder.",
+                "Put a clean rag in the drawer. ",
+                "To move a bottle to the bottom drawer. ",
+                "Move soap from counter and garbage can into tub."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json",
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140728_318318/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064750_271273/traj_data.json",
+                    "train/pick_two_obj_and_place-SoapBar-None-BathtubBasin-423/trial_T20190909_034155_743816/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a spray bottle in a drawer. Simultaneously, put a clean rag in the drawer. After placing the spray bottle and clean rag, place a full roll of toilet paper on an empty toilet paper holder. Next, move soap from the counter and garbage can into the tub. Finally, move a bottle to the bottom drawer.",
+                "compose 2":"Place a spray bottle in a drawer. Simultaneously, put a clean rag in the drawer. After placing the spray bottle and clean rag, move soap from the counter and garbage can into the tub. Next, move a bottle to the bottom drawer. Finally, place a full roll of toilet paper on an empty toilet paper holder.",
+                "compose 3":"Place a spray bottle in a drawer. Simultaneously, put a clean rag in the drawer. After placing the spray bottle and clean rag, move a bottle to the bottom drawer. Next, place a full roll of toilet paper on an empty toilet paper holder. Finally, move soap from the counter and garbage can into the tub."
+            }
+        },
+        {
+            "task_list":[
+                "To move a bottle to the bottom drawer. ",
+                "to put the candles in the drawer",
                 "Place the spray bottle in the can.",
-                "place the toilet paper in the bottom right side of the cabinet",
-                "Move a towel from next to the mirror to the bathtub.",
-                "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink.",
-                "place a wet bar of soap in a bath tub"
+                "Put toilet paper on the holder. ",
+                "Get wash rag wet and put it away in drawer."
             ],
             "orign":[
                 [
+                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064750_271273/traj_data.json",
+                    "train/pick_two_obj_and_place-Candle-None-Drawer-423/trial_T20190909_022005_295641/traj_data.json",
                     "train/pick_two_obj_and_place-SprayBottle-None-GarbageCan-423/trial_T20190909_012941_820281/traj_data.json",
-                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111333_143099/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044428_237048/traj_data.json",
-                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190908_064827_189096/traj_data.json"
+                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022416_998587/traj_data.json",
+                    "valid_seen/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140701_251653/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"To move a bottle to the bottom drawer at any time. Simultaneously, put the candles in the drawer. After moving the bottle and putting the candles, place the spray bottle in the can.",
+                "compose 2":"Put toilet paper on the holder before getting the wash rag wet and putting it away in the drawer. Move a bottle to the bottom drawer before putting the candles in the drawer. After putting the candles, place the spray bottle in the can.",
+                "compose 3":"Put toilet paper on the holder. Get the wash rag wet and put it away in the drawer. Move a bottle to the bottom drawer at any time, and then put the candles in the drawer simultaneously. After putting the candles, place the spray bottle in the can."
+            }
         },
         {
             "task_list":[
-                "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink.",
-                "Put the small towel from the rack in the trashcan beside the shower",
-                "Put a spray bottle in the drawer, under the sink. ",
-                "Rinse a bar of soap and place it on the bath tub.",
-                "Place a full roll of toilet paper on an empty toilet paper holder."
+                "Put a towel in the tub. ",
+                "Take the soap from the toilet tank, rinse it, put it in a bottom left drawer.",
+                "To move a bottle to the bottom drawer. ",
+                "Put the toilet paper rolls into the drawer under the sink",
+                "Place a spray bottle in a drawer."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064813_906845/traj_data.json",
-                    "train/pick_and_place_simple-HandTowel-None-GarbageCan-423/trial_T20190907_025926_506401/traj_data.json",
-                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071833_221808/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-423/trial_T20190907_204545_504401/traj_data.json",
-                    "train/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-423/trial_T20190908_022354_663784/traj_data.json"
+                    "train/pick_and_place_simple-HandTowel-None-BathtubBasin-423/trial_T20190909_044525_750270/traj_data.json",
+                    "tests_seen/trial_T20190906_202428_389010/traj_data.json",
+                    "train/pick_and_place_simple-SoapBottle-None-Drawer-423/trial_T20190909_064750_271273/traj_data.json",
+                    "train/pick_two_obj_and_place-ToiletPaper-None-Drawer-423/trial_T20190907_111226_698552/traj_data.json",
+                    "train/pick_and_place_simple-SprayBottle-None-Drawer-423/trial_T20190909_071924_418051/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a towel in the tub at any time. Simultaneously, take the soap from the toilet tank, rinse it, and put it in a bottom left drawer. Once done, move a bottle to the bottom drawer.",
+                "compose 2":"Put a towel in the tub at any time. Simultaneously, take the soap from the toilet tank, rinse it, and put it in a bottom left drawer. After completing these tasks, put the toilet paper rolls into the drawer under the sink and place a spray bottle in a drawer.",
+                "compose 3":"Put a towel in the tub at any time. After that, take the soap from the toilet tank, rinse it, and put it in a bottom left drawer. Once this is done, move a bottle to the bottom drawer, followed by putting the toilet paper rolls into the drawer under the sink, and finally placing a spray bottle in a drawer."
+            }
         }
     ],
     "tasks_6":[],

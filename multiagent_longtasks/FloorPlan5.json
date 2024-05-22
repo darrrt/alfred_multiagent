@@ -3,7 +3,6 @@
     "trials":{
         "train/pick_two_obj_and_place-SaltShaker-None-Drawer-5/trial_T20190907_151211_150451/traj_data.json":{
             "tasks":[
-                "Put 2 bottles of salt in the drawer of the cabinet that has a knife on the counter top. ",
                 "Place salt shakers in the drawer. "
             ],
             "relative_objects":[
@@ -61,8 +60,8 @@
                 "Place a potato on a counter."
             ],
             "relative_objects":[
-                "DishSponge",
-                "Potato"
+                "Potato",
+                "DishSponge"
             ]
         },
         "train/pick_clean_then_place_in_recep-Potato-None-CounterTop-5/trial_T20190909_123141_081448/traj_data.json":{
@@ -73,8 +72,8 @@
             ],
             "relative_objects":[
                 "Knife",
-                "Plate",
-                "Potato"
+                "Potato",
+                "Plate"
             ]
         },
         "train/pick_clean_then_place_in_recep-Pan-None-StoveBurner-5/trial_T20190907_124437_794732/traj_data.json":{
@@ -94,10 +93,10 @@
                 "Find and clean a pan before placing it back on the stove."
             ],
             "relative_objects":[
-                "Pot",
-                "DishSponge",
                 "ButterKnife",
-                "Pan"
+                "Pot",
+                "Pan",
+                "DishSponge"
             ]
         },
         "train/pick_cool_then_place_in_recep-PotatoSliced-None-Microwave-5/trial_T20190914_020559_534073/traj_data.json":{
@@ -111,9 +110,9 @@
             ],
             "relative_objects":[
                 "Knife",
-                "Apple",
+                "Potato",
                 "Microwave",
-                "Potato"
+                "Apple"
             ]
         },
         "train/pick_cool_then_place_in_recep-PotatoSliced-None-Microwave-5/trial_T20190914_020406_181731/traj_data.json":{
@@ -137,9 +136,9 @@
                 "Place a slice of potato on a plate inside a microwave"
             ],
             "relative_objects":[
+                "Potato",
                 "Plate",
-                "Microwave",
-                "Potato"
+                "Microwave"
             ]
         },
         "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190911_081633_704611/traj_data.json":{
@@ -152,8 +151,8 @@
                 "Place a washed spoon in a drawer."
             ],
             "relative_objects":[
-                "Spoon",
-                "DishSponge"
+                "DishSponge",
+                "Spoon"
             ]
         },
         "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190907_080537_064131/traj_data.json":{
@@ -163,9 +162,9 @@
                 "Put a cleaned spoon in the drawer right of the sink. "
             ],
             "relative_objects":[
-                "Spoon",
                 "Fork",
-                "DishSponge"
+                "DishSponge",
+                "Spoon"
             ]
         },
         "train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-5/trial_T20190908_111836_482484/traj_data.json":{
@@ -221,8 +220,8 @@
                 "place a microwaved egg inside the garbage bin"
             ],
             "relative_objects":[
-                "Egg",
-                "Microwave"
+                "Microwave",
+                "Egg"
             ]
         },
         "train/pick_heat_then_place_in_recep-Plate-None-CounterTop-5/trial_T20190908_202750_896176/traj_data.json":{
@@ -232,8 +231,8 @@
                 "To heat a plate and place it on the counter."
             ],
             "relative_objects":[
-                "Plate",
-                "ButterKnife"
+                "ButterKnife",
+                "Plate"
             ]
         },
         "train/pick_heat_then_place_in_recep-Plate-None-CounterTop-5/trial_T20190908_202657_722894/traj_data.json":{
@@ -243,15 +242,15 @@
                 "Put a heated grey plate on the counter."
             ],
             "relative_objects":[
-                "Plate",
-                "PaperTowelRoll",
-                "Cup",
                 "Knife",
-                "Spatula",
+                "PaperTowelRoll",
                 "Pan",
-                "Vase",
+                "ButterKnife",
                 "Mug",
-                "ButterKnife"
+                "Plate",
+                "Cup",
+                "Spatula",
+                "Vase"
             ]
         },
         "train/pick_cool_then_place_in_recep-Potato-None-Microwave-5/trial_T20190909_102546_579154/traj_data.json":{
@@ -261,8 +260,8 @@
                 "Put a cold potato in the microwave."
             ],
             "relative_objects":[
-                "Microwave",
-                "Potato"
+                "Potato",
+                "Microwave"
             ]
         },
         "train/pick_cool_then_place_in_recep-Potato-None-Microwave-5/trial_T20190910_115040_425451/traj_data.json":{
@@ -272,9 +271,9 @@
                 "Put the cooled potato in the microwave."
             ],
             "relative_objects":[
+                "Potato",
                 "Fridge",
-                "Microwave",
-                "Potato"
+                "Microwave"
             ]
         },
         "train/pick_cool_then_place_in_recep-Potato-None-Microwave-5/trial_T20190909_102625_235688/traj_data.json":{
@@ -284,9 +283,9 @@
                 "Put a cold potato in the microwave."
             ],
             "relative_objects":[
+                "Potato",
                 "Plate",
-                "Egg",
-                "Potato"
+                "Egg"
             ]
         },
         "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190908_174001_568929/traj_data.json":{
@@ -382,16 +381,16 @@
                 "Put a cooked apple on the counter."
             ],
             "relative_objects":[
-                "Pot",
-                "Plate",
-                "Apple",
-                "Cup",
                 "Knife",
-                "Spatula",
                 "Pan",
-                "Fork",
+                "Apple",
                 "Mug",
-                "Bowl"
+                "Plate",
+                "Bowl",
+                "Fork",
+                "Cup",
+                "Pot",
+                "Spatula"
             ]
         },
         "train/pick_heat_then_place_in_recep-Apple-None-CounterTop-5/trial_T20190907_113507_490654/traj_data.json":{
@@ -526,8 +525,8 @@
                 "Put a cold egg in the microwave."
             ],
             "relative_objects":[
-                "Egg",
-                "Microwave"
+                "Microwave",
+                "Egg"
             ]
         },
         "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005812_214691/traj_data.json":{
@@ -537,8 +536,8 @@
                 "Place a cooled egg in the microwave."
             ],
             "relative_objects":[
-                "Egg",
-                "Microwave"
+                "Microwave",
+                "Egg"
             ]
         },
         "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005859_323253/traj_data.json":{
@@ -548,8 +547,8 @@
                 "Put a chilled egg in the microwave."
             ],
             "relative_objects":[
-                "Egg",
-                "Microwave"
+                "Microwave",
+                "Egg"
             ]
         },
         "train/pick_heat_then_place_in_recep-Potato-None-Fridge-5/trial_T20190908_140553_410521/traj_data.json":{
@@ -591,9 +590,9 @@
             ],
             "relative_objects":[
                 "Knife",
+                "Pan",
                 "Plate",
-                "Tomato",
-                "Pan"
+                "Tomato"
             ]
         },
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-Fridge-5/trial_T20190908_061256_003021/traj_data.json":{
@@ -686,8 +685,8 @@
                 "Put a mug with a spoon inside it in a sink."
             ],
             "relative_objects":[
-                "Spoon",
-                "Mug"
+                "Mug",
+                "Spoon"
             ]
         },
         "train/pick_and_place_with_movable_recep-Spoon-Mug-SinkBasin-5/trial_T20190909_061045_798817/traj_data.json":{
@@ -697,8 +696,8 @@
                 "Put a mug with a spoon in it, in the sink. "
             ],
             "relative_objects":[
-                "Spoon",
-                "Mug"
+                "Mug",
+                "Spoon"
             ]
         },
         "train/pick_and_place_with_movable_recep-Spoon-Mug-SinkBasin-5/trial_T20190918_142658_767151/traj_data.json":{
@@ -708,8 +707,8 @@
                 "put a spoon in a mug and put them in the sink"
             ],
             "relative_objects":[
-                "Spoon",
-                "Mug"
+                "Mug",
+                "Spoon"
             ]
         },
         "train/pick_cool_then_place_in_recep-Mug-None-Shelf-5/trial_T20190907_210715_411153/traj_data.json":{
@@ -776,8 +775,8 @@
             ],
             "relative_objects":[
                 "Sink",
-                "Tomato",
-                "Microwave"
+                "Microwave",
+                "Tomato"
             ]
         },
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000505_338579/traj_data.json":{
@@ -787,10 +786,10 @@
                 "Place a heated slice of tomato in the kitchen sink."
             ],
             "relative_objects":[
-                "Sink",
                 "Knife",
-                "Tomato",
-                "Pan"
+                "Sink",
+                "Pan",
+                "Tomato"
             ]
         },
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000201_737796/traj_data.json":{
@@ -833,8 +832,8 @@
             ],
             "relative_objects":[
                 "Fridge",
-                "Tomato",
-                "Microwave"
+                "Microwave",
+                "Tomato"
             ]
         },
         "train/pick_cool_then_place_in_recep-Tomato-None-Microwave-5/trial_T20190908_132410_284943/traj_data.json":{
@@ -844,8 +843,8 @@
                 "Put a chilled tomato in the microwave"
             ],
             "relative_objects":[
-                "Tomato",
-                "Microwave"
+                "Microwave",
+                "Tomato"
             ]
         },
         "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_042851_438667/traj_data.json":{
@@ -856,8 +855,8 @@
             ],
             "relative_objects":[
                 "Kettle",
-                "DishSponge",
-                "SoapBottle"
+                "SoapBottle",
+                "DishSponge"
             ]
         },
         "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_043020_330212/traj_data.json":{
@@ -890,9 +889,9 @@
                 "Place a bowl with a potato in a microwave."
             ],
             "relative_objects":[
-                "Bowl",
+                "Potato",
                 "Microwave",
-                "Potato"
+                "Bowl"
             ]
         },
         "train/pick_and_place_with_movable_recep-Potato-Bowl-Microwave-5/trial_T20190907_082510_677045/traj_data.json":{
@@ -902,8 +901,8 @@
                 "Put a bowl with a potato inside in the microwave."
             ],
             "relative_objects":[
-                "Bowl",
-                "Potato"
+                "Potato",
+                "Bowl"
             ]
         },
         "train/pick_clean_then_place_in_recep-Plate-None-Fridge-5/trial_T20190909_112954_869911/traj_data.json":{
@@ -924,8 +923,8 @@
                 "Place a glass bowl with a spoon in it into an upper kitchen cabinet."
             ],
             "relative_objects":[
-                "Bowl",
-                "Ladle"
+                "Ladle",
+                "Bowl"
             ]
         },
         "train/pick_heat_then_place_in_recep-AppleSliced-None-CounterTop-5/trial_T20190907_232136_007074/traj_data.json":{
@@ -936,8 +935,8 @@
             ],
             "relative_objects":[
                 "Knife",
-                "Plate",
-                "Pan"
+                "Pan",
+                "Plate"
             ]
         },
         "train/pick_heat_then_place_in_recep-AppleSliced-None-CounterTop-5/trial_T20190913_143737_531902/traj_data.json":{
@@ -1003,8 +1002,8 @@
             ],
             "relative_objects":[
                 "Knife",
-                "DishSponge",
-                "Potato"
+                "Potato",
+                "DishSponge"
             ]
         },
         "train/pick_clean_then_place_in_recep-PotatoSliced-None-Fridge-5/trial_T20190919_004543_609348/traj_data.json":{
@@ -1025,8 +1024,8 @@
                 "Place an apple on a plate into a microwave."
             ],
             "relative_objects":[
-                "Plate",
                 "Apple",
+                "Plate",
                 "Microwave"
             ]
         },
@@ -1037,8 +1036,8 @@
                 "Put a plate with an apple on it in the microwave."
             ],
             "relative_objects":[
-                "Plate",
                 "Apple",
+                "Plate",
                 "Microwave"
             ]
         },
@@ -1123,9 +1122,9 @@
                 "Put a glass bowl containing a whole potato inside the red microwave."
             ],
             "relative_objects":[
-                "Bowl",
+                "Potato",
                 "Microwave",
-                "Potato"
+                "Bowl"
             ]
         },
         "tests_seen/trial_T20190908_140351_635006/traj_data.json":{
@@ -1136,8 +1135,8 @@
             ],
             "relative_objects":[
                 "Pot",
-                "Plate",
-                "Potato"
+                "Potato",
+                "Plate"
             ]
         },
         "tests_seen/trial_T20190911_082932_280904/traj_data.json":{
@@ -1150,14 +1149,14 @@
                 "Washing the dirty spoon "
             ],
             "relative_objects":[
-                "PepperShaker",
-                "Plate",
-                "Bowl",
                 "Knife",
-                "SaltShaker",
                 "SoapBottle",
                 "ButterKnife",
-                "DishSponge"
+                "Plate",
+                "Bowl",
+                "DishSponge",
+                "SaltShaker",
+                "PepperShaker"
             ]
         },
         "tests_seen/trial_T20190909_153604_287800/traj_data.json":{
@@ -1198,59 +1197,59 @@
                 "Putting a plate beneath an apple for heating in the microwave."
             ],
             "relative_objects":[
-                "Plate",
-                "Apple"
+                "Apple",
+                "Plate"
             ]
         }
     },
     "tasks_1":[
         {
             "task_list":[
-                "put the green sponge in the cupboard below the microwave"
+                "Place a chilled egg in the microwave."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-DishSponge-None-Cabinet-5/trial_T20190906_192854_230657/traj_data.json"
+                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005812_214691/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a cooked slice of potato in a bin."
+                "Put the cooked tomato slice in the fridge"
             ],
             "orign":[
                 [
-                    "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-5/trial_T20190907_153316_365659/traj_data.json"
+                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-Fridge-5/trial_T20190908_061553_146524/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Place a chilled mug on the top brown shelf next to the door."
+                "To put the dishes in the sink."
             ],
             "orign":[
                 [
-                    "train/pick_cool_then_place_in_recep-Mug-None-Shelf-5/trial_T20190907_210715_411153/traj_data.json"
+                    "train/pick_and_place_with_movable_recep-ButterKnife-Plate-SinkBasin-5/trial_T20190908_075025_456952/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Put a cold potato slice in the microwave."
+                "Put a tomato in the microwave. "
             ],
             "orign":[
                 [
-                    "train/pick_cool_then_place_in_recep-PotatoSliced-None-Microwave-5/trial_T20190914_020559_534073/traj_data.json"
+                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190918_171755_707602/traj_data.json"
                 ]
             ]
         },
         {
             "task_list":[
-                "Slice a tomato, cook a slice in the microwave"
+                "Place a cooled bowl on a shelf in the kitchen."
             ],
             "orign":[
                 [
-                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000729_930505/traj_data.json"
+                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190907_170219_219243/traj_data.json"
                 ]
             ]
         }
@@ -1258,376 +1257,412 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put a cold cooking pot on the counter. ",
-                "Put a knife and clean potato in the fridge. "
+                "Wash a spoon and put it away in the drawer.",
+                "Place a chilled pot on a stove."
             ],
             "orign":[
                 [
-                    "train/pick_cool_then_place_in_recep-Pot-None-CounterTop-5/trial_T20190908_073440_035026/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-PotatoSliced-None-Fridge-5/trial_T20190919_004543_609348/traj_data.json"
+                    "tests_seen/trial_T20190911_082932_280904/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-StoveBurner-5/trial_T20190906_182110_576616/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Wash a spoon and put it away in the drawer. After washing the spoon, place a chilled pot on a stove.",
+                "compose 2":"Place a chilled pot on a stove at any time. Simultaneously, wash a spoon and put it away in the drawer.",
+                "compose 3":"Wash a spoon and put it away in the drawer. Then, place a chilled pot on a stove."
+            }
         },
         {
             "task_list":[
-                "Cut a tomato in half.",
-                "Put the cold bowl on the shelves"
+                "Put a salt shaker in the drawer.",
+                "Place a tomato in a microwave."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-TomatoSliced-None-SinkBasin-5/trial_T20190907_233342_973242/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190908_091641_481598/traj_data.json"
+                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195236_701456/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Tomato-None-Microwave-5/trial_T20190908_132219_315033/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a salt shaker in the drawer. Place a tomato in a microwave.",
+                "compose 2":"Place a tomato in a microwave. Put a salt shaker in the drawer.",
+                "compose 3":"Put a salt shaker in the drawer. Place a tomato in a microwave."
+            }
         },
         {
             "task_list":[
-                "Refrigerate a slice of warm bread.",
-                "Put a cold apple in the garbage."
+                "To heat a piece of apple and place it on the counter by the toaster.",
+                "Put a heated potato in the fridge. "
             ],
             "orign":[
                 [
-                    "train/pick_heat_then_place_in_recep-BreadSliced-None-Fridge-5/trial_T20190908_180947_483441/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-5/trial_T20190908_111747_660187/traj_data.json"
+                    "train/pick_heat_then_place_in_recep-AppleSliced-None-CounterTop-5/trial_T20190907_232136_007074/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Potato-None-Fridge-5/trial_T20190908_140513_739727/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Heat a piece of apple. Put a heated potato in the fridge. Place the heated apple on the counter by the toaster.",
+                "compose 2":"Heat a piece of apple. Place the heated apple on the counter by the toaster at any time. Put a heated potato in the fridge.",
+                "compose 3":"Put a heated potato in the fridge. Heat a piece of apple. Place the heated apple on the counter by the toaster."
+            }
         },
         {
             "task_list":[
-                "Place a chilled pot on a stove.",
-                "place a slice of tomato in the fridge."
+                "Put the tomato in the microwave",
+                "Cook the potato and put it into the recycle bin."
             ],
             "orign":[
                 [
-                    "train/pick_cool_then_place_in_recep-Pot-None-StoveBurner-5/trial_T20190906_182110_576616/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-PotatoSliced-None-Microwave-5/trial_T20190914_020406_181731/traj_data.json"
+                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190908_174001_568929/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Potato-None-GarbageCan-5/trial_T20190908_144144_976529/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the tomato in the microwave at any time. Simultaneously, cook the potato and put it into the recycle bin.",
+                "compose 2":"Cook the potato and put it into the recycle bin. After finishing, put the tomato in the microwave.",
+                "compose 3":"Put the tomato in the microwave at any time. After that, cook the potato and put it into the recycle bin."
+            }
         },
         {
             "task_list":[
-                "Put a tomato in the microwave.",
-                "Put a cooked apple on the counter."
+                "Put a cold apple in the garbage.",
+                "Chill a pot and place it on the counter."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190908_174014_984950/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-Apple-None-CounterTop-5/trial_T20190907_113622_802677/traj_data.json"
+                    "train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-5/trial_T20190908_111747_660187/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-CounterTop-5/trial_T20190908_073249_042493/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Chill a pot and place it on the counter at any time. Simultaneously, put a cold apple in the garbage.",
+                "compose 2":"Put a cold apple in the garbage at any time. After that, chill a pot and place it on the counter.",
+                "compose 3":"Chill a pot and place it on the counter at any time. Simultaneously, put a cold apple in the garbage."
+            }
         }
     ],
     "tasks_3":[
         {
             "task_list":[
-                "Chill the egg and put it back in the microwave",
-                "Put the clean kettle in the cabinet",
-                "Put a tomato in the microwave. "
-            ],
-            "orign":[
-                [
-                    "train/pick_cool_then_place_in_recep-Potato-None-Microwave-5/trial_T20190909_102625_235688/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_042946_201517/traj_data.json",
-                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190918_171755_707602/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Cut a tomato in half.",
-                "Put a bowl with a potato in it in the microwave.",
-                "Put a salt shaker in a drawer."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-TomatoSliced-None-SinkBasin-5/trial_T20190907_233342_973242/traj_data.json",
-                    "tests_seen/trial_T20190909_213235_625876/traj_data.json",
-                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195258_714603/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
                 "Put a cold cooking pot on the counter. ",
-                "Place a chilled potato in a microwave.",
-                "to clean off the kettle and place it in the cabinet"
+                "Put a washed slice of tomato in the fridge.",
+                "Put a clean plate in the fridge."
             ],
             "orign":[
                 [
                     "train/pick_cool_then_place_in_recep-Pot-None-CounterTop-5/trial_T20190908_073440_035026/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Potato-None-Microwave-5/trial_T20190910_115040_425451/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_042851_438667/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a plate with an apple inside the microwave.",
-                "Take a cold copper pot to a cabinet.",
-                "Slice a tomato, cook a slice in the microwave"
-            ],
-            "orign":[
-                [
-                    "tests_seen/trial_T20190908_230634_487118/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235508_226899/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000729_930505/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Microwave a potato in a bowl.",
-                "Put a washed slice of tomato in the fridge.",
-                "Take a cold copper pot to a cabinet."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Potato-Bowl-Microwave-5/trial_T20190909_213600_430769/traj_data.json",
                     "train/pick_clean_then_place_in_recep-TomatoSliced-None-Fridge-5/trial_T20190907_022348_821953/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235508_226899/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Plate-None-Fridge-5/trial_T20190909_112954_869911/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cold cooking pot on the counter. Next, put a washed slice of tomato in the fridge. Finally, put a clean plate in the fridge.",
+                "compose 2":"Put a washed slice of tomato in the fridge first. Simultaneously, put a cold cooking pot on the counter and put a clean plate in the fridge afterward.",
+                "compose 3":"Put a cold cooking pot on the counter. After that, put a clean plate in the fridge. Once done, put a washed slice of tomato in the fridge."
+            }
+        },
+        {
+            "task_list":[
+                "Put a cold potato in the microwave.",
+                "Put a cooked apple on the counter.",
+                "Place a cooled bowl on a shelf in the kitchen."
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Potato-None-Microwave-5/trial_T20190909_102546_579154/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Apple-None-CounterTop-5/trial_T20190907_113555_848211/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190907_170219_219243/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cold potato in the microwave at any time. Simultaneously, put a cooked apple on the counter. After completing these tasks, place a cooled bowl on a shelf in the kitchen.",
+                "compose 2":"Put a cooked apple on the counter at any time. Simultaneously, place a cooled bowl on a shelf in the kitchen. After completing these tasks, put a cold potato in the microwave.",
+                "compose 3":"Put a cold potato in the microwave first. After that, put a cooked apple on the counter. Finally, place a cooled bowl on a shelf in the kitchen."
+            }
+        },
+        {
+            "task_list":[
+                "Put a chilled tomato in a small blue bin.",
+                "Put the cold bowl on the shelves",
+                "Set a clean pan on the stove."
+            ],
+            "orign":[
+                [
+                    "tests_seen/trial_T20190909_153604_287800/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190908_091641_481598/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Pan-None-StoveBurner-5/trial_T20190907_124437_794732/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put the cold bowl on the shelves. Set a clean pan on the stove.At any time, put a chilled tomato in a small blue bin.",
+                "compose 2":"Put a chilled tomato in a small blue bin. Set a clean pan on the stove. After setting the pan, put the cold bowl on the shelves.",
+                "compose 3":"Set a clean pan on the stove. Put a chilled tomato in a small blue bin.Simultaneously, put the cold bowl on the shelves."
+            }
+        },
+        {
+            "task_list":[
+                "Put a cold apple in the garbage.",
+                "Put a washed slice of tomato in the refrigerator.",
+                "Put the plate with knife in the sink"
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-5/trial_T20190908_111747_660187/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-TomatoSliced-None-Fridge-5/trial_T20190918_155639_032485/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-ButterKnife-Plate-SinkBasin-5/trial_T20190908_075239_767503/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cold apple in the garbage at any time. Simultaneously, put a washed slice of tomato in the refrigerator. After completing the previous tasks, put the plate with knife in the sink.",
+                "compose 2":"Put a washed slice of tomato in the refrigerator at any time. Simultaneously, put a cold apple in the garbage. After completing the previous tasks, put the plate with knife in the sink.",
+                "compose 3":"Put a cold apple in the garbage at any time. Simultaneously, put the plate with knife in the sink. After completing the previous tasks, put a washed slice of tomato in the refrigerator."
+            }
+        },
+        {
+            "task_list":[
+                "Place a cooled egg inside the microwave.",
+                "Put a salt shaker in the drawer.",
+                "Put a washed slice of tomato in the refrigerator."
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005703_215661/traj_data.json",
+                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195236_701456/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-TomatoSliced-None-Fridge-5/trial_T20190918_155639_032485/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a washed slice of tomato in the refrigerator at any time. Simultaneously, put a salt shaker in the drawer. After putting the tomato in the refrigerator and the salt shaker in the drawer, place a cooled egg inside the microwave.",
+                "compose 2":"Put a salt shaker in the drawer at any time. Simultaneously, place a cooled egg inside the microwave. After putting the salt shaker in the drawer, put a washed slice of tomato in the refrigerator.",
+                "compose 3":"Put a washed slice of tomato in the refrigerator at any time. Simultaneously, place a cooled egg inside the microwave. After putting the tomato in the refrigerator, put a salt shaker in the drawer."
+            }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Put a knife and clean potato in the fridge. ",
-                "Slice a tomato, cook a slice in the microwave",
-                "Put the clean spoon on the cabinet drawer.",
-                "Put a cold apple in the garbage."
+                "Put a hot plate on a counter top.",
+                "cool a pot to put it in a cabinet",
+                "Put a warm slice of bread in the fridge",
+                "Place a heated slice of tomato in the kitchen sink."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-PotatoSliced-None-Fridge-5/trial_T20190919_004543_609348/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000729_930505/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190911_081633_704611/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-5/trial_T20190908_111747_660187/traj_data.json"
+                    "train/pick_heat_then_place_in_recep-Plate-None-CounterTop-5/trial_T20190908_202750_896176/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235356_747730/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-BreadSliced-None-Fridge-5/trial_T20190908_180634_224903/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000201_737796/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Cool a pot to put it in a cabinet first. After cooling the pot, put a hot plate on a counter top. Simultaneously, place a heated slice of tomato in the kitchen sink. Finally, put a warm slice of bread in the fridge.",
+                "compose 2":"Put a hot plate on a counter top at any time. Simultaneously, place a heated slice of tomato in the kitchen sink. Cool a pot to put it in a cabinet after putting the hot plate. Finally, put a warm slice of bread in the fridge.",
+                "compose 3":"Put a hot plate on a counter top at any time. Place a heated slice of tomato in the kitchen sink at any time. Cool a pot to put it in a cabinet after putting the hot plate. Finally, put a warm slice of bread in the fridge."
+            }
         },
         {
             "task_list":[
-                "Put a cold cooking pot on the counter. ",
-                "Place a bowl with a ladle in it in a cabinet.",
-                "Move a salt shaker to a drawer. ",
-                "Place a chilled egg in the microwave."
+                "Place a chilled mug under the coffee maker.",
+                "Put a chilled tomato in the microwave. ",
+                "Place a rinsed plate in the fridge.",
+                "Place a washed spoon in a drawer with the fork."
             ],
             "orign":[
                 [
-                    "train/pick_cool_then_place_in_recep-Pot-None-CounterTop-5/trial_T20190908_073440_035026/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Ladle-Bowl-Cabinet-5/trial_T20190912_084707_199300/traj_data.json",
-                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195340_064065/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005812_214691/traj_data.json"
+                    "tests_seen/trial_T20190907_013151_551854/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Tomato-None-Microwave-5/trial_T20190908_132124_203759/traj_data.json",
+                    "valid_seen/pick_clean_then_place_in_recep-Plate-None-Fridge-5/trial_T20190909_112854_740612/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190907_080537_064131/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a chilled mug under the coffee maker at any time. Simultaneously, put a chilled tomato in the microwave. After placing the mug and tomato, place a rinsed plate in the fridge. Finally, place a washed spoon in a drawer with the fork.",
+                "compose 2":"Put a chilled tomato in the microwave. Place a chilled mug under the coffee maker. After placing the tomato and mug, place a rinsed plate in the fridge. Finally, place a washed spoon in a drawer with the fork.",
+                "compose 3":"Place a rinsed plate in the fridge. Place a washed spoon in a drawer with the fork. Simultaneously, place a chilled mug under the coffee maker and put a chilled tomato in the microwave."
+            }
         },
         {
             "task_list":[
-                "Put the cold bowl on the shelves",
-                "Put a clean potato on the counter.",
-                "Put the clean kettle in the cabinet",
-                "Put a mug holding a spoon into a kitchen sink."
+                "Put a cold apple in the garbage.",
+                "Put a chilled tomato in a small blue bin.",
+                "Place a chilled pot on a stove.",
+                "Put a cooked slice of potato in a bin."
             ],
             "orign":[
                 [
-                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190908_091641_481598/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Potato-None-CounterTop-5/trial_T20190909_123141_081448/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_042946_201517/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Spoon-Mug-SinkBasin-5/trial_T20190918_142658_767151/traj_data.json"
+                    "train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-5/trial_T20190908_111747_660187/traj_data.json",
+                    "tests_seen/trial_T20190909_153604_287800/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-StoveBurner-5/trial_T20190906_182110_576616/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-5/trial_T20190907_153316_365659/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cold apple in the garbage. Place a chilled pot on a stove. Put a cooked slice of potato in a bin. Put a chilled tomato in a small blue bin.",
+                "compose 2":"Place a chilled pot on a stove. Put a cold apple in the garbage. Put a cooked slice of potato in a bin. Put a chilled tomato in a small blue bin.",
+                "compose 3":"Put a cold apple in the garbage. Put a chilled tomato in a small blue bin. Place a chilled pot on a stove. Put a cooked slice of potato in a bin."
+            }
         },
         {
             "task_list":[
-                "Put the clean spoon on the cabinet drawer.",
-                "Slice a tomato, cook a slice in the microwave",
-                "To put the dishes in the sink.",
-                "To heat a cup and put it back in the coffee maker."
+                "Slice a tomato, cook it and bring it to the sink",
+                "Place a chilled pot on a stove top.",
+                "To place an apple on a plate in the microwave. ",
+                "Place a washed spoon in a drawer with the fork."
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190911_081633_704611/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000729_930505/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-ButterKnife-Plate-SinkBasin-5/trial_T20190908_075025_456952/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-5/trial_T20190908_003743_285560/traj_data.json"
+                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000505_338579/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-StoveBurner-5/trial_T20190906_182039_801244/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Apple-Plate-Microwave-5/trial_T20190907_052446_780366/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190907_080537_064131/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Slice a tomato, cook it and bring it to the sink. Simultaneously, place a chilled pot on a stove top. After cooking the tomato and placing the pot, place a washed spoon in a drawer with the fork. Finally, place an apple on a plate in the microwave.",
+                "compose 2":"Place a chilled pot on a stove top at any time. Simultaneously, slice a tomato, cook it and bring it to the sink. After bringing the cooked tomato to the sink, place a washed spoon in a drawer with the fork. Finally, place an apple on a plate in the microwave.",
+                "compose 3":"Slice a tomato, cook it and bring it to the sink. Simultaneously, place a chilled pot on a stove top. Simultaneously, place a washed spoon in a drawer with the fork. Finally, place an apple on a plate in the microwave."
+            }
         },
         {
             "task_list":[
-                "Put a clean plate in the fridge.",
-                "Take a cold copper pot to a cabinet.",
-                "Put a tomato in the microwave.",
-                "Put a chilled apple in the microwave. "
+                "Cut a tomato in half.",
+                "place a microwaved potato inside of the refrigerator",
+                "Place a chilled mug under the coffee maker.",
+                "Put the clean kettle in the cabinet"
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Plate-None-Fridge-5/trial_T20190909_112954_869911/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235508_226899/traj_data.json",
-                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190908_174014_984950/traj_data.json",
-                    "valid_seen/pick_cool_then_place_in_recep-Apple-None-Microwave-5/trial_T20190908_150807_823817/traj_data.json"
+                    "train/pick_and_place_simple-TomatoSliced-None-SinkBasin-5/trial_T20190907_233342_973242/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Potato-None-Fridge-5/trial_T20190908_140553_410521/traj_data.json",
+                    "tests_seen/trial_T20190907_013151_551854/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_042946_201517/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Cut a tomato in half at any time. Simultaneously, place a microwaved potato inside of the refrigerator. After cutting the tomato and storing the potato, place a chilled mug under the coffee maker. Once all previous tasks are completed, put the clean kettle in the cabinet.",
+                "compose 2":"Place a chilled mug under the coffee maker first. Next, cut a tomato in half and simultaneously put the clean kettle in the cabinet. Once the kettle is stored, place a microwaved potato inside of the refrigerator.",
+                "compose 3":"Put the clean kettle in the cabinet before doing anything else. Then, cut a tomato in half. After that, place a chilled mug under the coffee maker. Finally, place a microwaved potato inside of the refrigerator."
+            }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
+                "Put a mug holding a spoon into a kitchen sink.",
                 "Put a washed slice of tomato in the refrigerator.",
-                "Place a washed spoon in a drawer with the fork.",
-                "Place a chilled pot on a stove.",
-                "Place a rinsed plate in the fridge.",
-                "Put a cold potato slice in the microwave."
+                "to clean off the kettle and place it in the cabinet",
+                "Put a cooked slice of potato in a bin.",
+                "cool a pot to put it in a cabinet"
             ],
             "orign":[
                 [
+                    "train/pick_and_place_with_movable_recep-Spoon-Mug-SinkBasin-5/trial_T20190918_142658_767151/traj_data.json",
                     "train/pick_clean_then_place_in_recep-TomatoSliced-None-Fridge-5/trial_T20190918_155639_032485/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_042851_438667/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-5/trial_T20190907_153316_365659/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235356_747730/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a washed slice of tomato in the refrigerator at any time. Simultaneously, cool a pot to put it in a cabinet. After putting the tomato in the refrigerator and cooling the pot, put a cooked slice of potato in a bin. Lastly, put a mug holding a spoon into a kitchen sink.",
+                "compose 2":"Put a cooked slice of potato in a bin at any time. Simultaneously, to clean off the kettle and place it in the cabinet. After placing the potato in the bin and cleaning off the kettle, put a washed slice of tomato in the refrigerator. Lastly, put a mug holding a spoon into a kitchen sink.",
+                "compose 3":"Put a mug holding a spoon into a kitchen sink at any time. Simultaneously, to clean off the kettle and place it in the cabinet. After putting the spoon in the kitchen sink and cleaning off the kettle, put a washed slice of tomato in the refrigerator. Lastly, cool a pot to put it in a cabinet."
+            }
+        },
+        {
+            "task_list":[
+                "Put a cooked egg in the garbage.",
+                "Put a chilled tomato in a small blue bin.",
+                "Put a cooked slice of potato in a bin.",
+                "Place a washed spoon in a drawer with the fork.",
+                "Put the clean kettle in the cabinet"
+            ],
+            "orign":[
+                [
+                    "train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-5/trial_T20190906_190707_776806/traj_data.json",
+                    "tests_seen/trial_T20190909_153604_287800/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-5/trial_T20190907_152653_461614/traj_data.json",
                     "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190907_080537_064131/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pot-None-StoveBurner-5/trial_T20190906_182110_576616/traj_data.json",
-                    "valid_seen/pick_clean_then_place_in_recep-Plate-None-Fridge-5/trial_T20190909_112854_740612/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-PotatoSliced-None-Microwave-5/trial_T20190914_020559_534073/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_042946_201517/traj_data.json"
                 ]
-            ]
-        },
-        {
-            "task_list":[
-                "Put a chilled tomato in the microwave. ",
-                "Place a chilled egg in the microwave.",
-                "Put a hot plate on a counter top.",
-                "Put the clean spoon on the cabinet drawer.",
-                "Move a salt shaker to a drawer. "
             ],
-            "orign":[
-                [
-                    "train/pick_cool_then_place_in_recep-Tomato-None-Microwave-5/trial_T20190908_132124_203759/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005812_214691/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-Plate-None-CounterTop-5/trial_T20190908_202750_896176/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190911_081633_704611/traj_data.json",
-                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195340_064065/traj_data.json"
-                ]
-            ]
+            "finetuned":{
+                "compose 1":"Put a cooked slice of potato in a bin at any time. Simultaneously, put a chilled tomato in a small blue bin. After placing the potato slice and tomato, place a washed spoon in a drawer with the fork. Finally, put a cooked egg in the garbage.",
+                "compose 2":"Put a cooked egg in the garbage at any time. Simultaneously, put the clean kettle in the cabinet. After disposing of the egg and storing the kettle, put a cooked slice of potato in a bin. Finally, place a washed spoon in a drawer with the fork.",
+                "compose 3":"Put a chilled tomato in a small blue bin at any time. Simultaneously, put a cooked slice of potato in a bin. After storing the tomato and potato slice, put the clean kettle in the cabinet. Finally, place a washed spoon in a drawer with the fork."
+            }
         },
         {
             "task_list":[
-                "Place a bowl with a ladle in it in a cabinet.",
+                "Put the cold bowl on the shelves",
                 "Put a salt shaker in the drawer.",
-                "Take a cold copper pot to a cabinet.",
-                "Chill the pan and put it away in the cupboard.",
-                "To put the dishes in the sink."
+                "Place a washed spoon in a drawer with the fork.",
+                "Put a microwaved plate on the counter.",
+                "Place a cooled egg inside the microwave."
             ],
             "orign":[
                 [
-                    "train/pick_and_place_with_movable_recep-Ladle-Bowl-Cabinet-5/trial_T20190912_084707_199300/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190908_091641_481598/traj_data.json",
                     "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195236_701456/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235508_226899/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pan-None-Cabinet-5/trial_T20190919_044853_269939/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-ButterKnife-Plate-SinkBasin-5/trial_T20190908_075025_456952/traj_data.json"
+                    "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190907_080537_064131/traj_data.json",
+                    "tests_seen/trial_T20190908_202723_575325/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005703_215661/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a salt shaker in the drawer at any time. Simultaneously, place a washed spoon in a drawer with the fork. After placing the salt shaker and the spoon, put the cold bowl on the shelves. Finally, put a microwaved plate on the counter.",
+                "compose 2":"Place a washed spoon in a drawer with the fork at any time. Simultaneously, put a microwaved plate on the counter. After placing the spoon and the plate, put a salt shaker in the drawer. Finally, place a cooled egg inside the microwave.",
+                "compose 3":"Put a microwaved plate on the counter at any time. Simultaneously, place a cooled egg inside the microwave. After placing the plate and the egg, put a salt shaker in the drawer. Finally, put the cold bowl on the shelves."
+            }
         },
         {
             "task_list":[
-                "put the green sponge in the cupboard below the microwave",
-                "Place a chilled mug on the top brown shelf next to the door.",
-                "Put a salt shaker in a drawer.",
+                "Move a salt shaker to a drawer. ",
                 "Chill a pot and place it on the counter.",
-                "Put the apple on a plate and put it in the microwave."
+                "Put a chilled cup in the coffee maker.",
+                "Place a bowl with a ladle in it in a cabinet.",
+                "place a cooked potato slice inside of the garbage bin"
             ],
             "orign":[
                 [
-                    "train/pick_and_place_simple-DishSponge-None-Cabinet-5/trial_T20190906_192854_230657/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Mug-None-Shelf-5/trial_T20190907_210715_411153/traj_data.json",
-                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195258_714603/traj_data.json",
+                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195340_064065/traj_data.json",
                     "train/pick_cool_then_place_in_recep-Pot-None-CounterTop-5/trial_T20190908_073249_042493/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Apple-Plate-Microwave-5/trial_T20190907_052536_122048/traj_data.json"
+                    "train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-5/trial_T20190907_013225_891350/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Ladle-Bowl-Cabinet-5/trial_T20190912_084707_199300/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-5/trial_T20190913_001454_339370/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Chill a pot and place it on the counter. Subsequently, put a chilled cup in the coffee maker. After completing those tasks, move a salt shaker to a drawer. Lastly, place a cooked potato slice inside of the garbage bin.",
+                "compose 2":"Place a bowl with a ladle in it in a cabinet at any time. Simultaneously, move a salt shaker to a drawer and chill a pot, then place it on the counter. Following that, put a chilled cup in the coffee maker. Conclude by placing a cooked potato slice inside of the garbage bin.",
+                "compose 3":"Chill a pot and place it on the counter. Then, put a chilled cup in the coffee maker before moving a salt shaker to a drawer. Once those are done, place a bowl with a ladle in it in a cabinet. Finally, complete the tasks by placing a cooked potato slice inside of the garbage bin."
+            }
         },
         {
             "task_list":[
-                "remove the potato from the recycle bin and rinse it off then put it on the counter ",
-                "Slice a tomato, cook it and bring it to the sink",
-                "Place a cooled egg inside the microwave.",
-                "Place a bowl with a ladle in it in a cabinet.",
-                "Chill a pot and place it on the counter."
+                "Put a microwaved plate on the counter.",
+                "Place salt shakers in the drawer. ",
+                "to clean off the kettle and place it in the cabinet",
+                "Put the chilled egg in the microwave",
+                "Put a cold cooking pot on the counter. "
             ],
             "orign":[
                 [
-                    "train/pick_clean_then_place_in_recep-Potato-None-CounterTop-5/trial_T20190909_123251_802466/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000505_338579/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005703_215661/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Ladle-Bowl-Cabinet-5/trial_T20190912_084707_199300/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pot-None-CounterTop-5/trial_T20190908_073249_042493/traj_data.json"
+                    "tests_seen/trial_T20190908_202723_575325/traj_data.json",
+                    "train/pick_two_obj_and_place-SaltShaker-None-Drawer-5/trial_T20190907_151211_150451/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_042851_438667/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005859_323253/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-CounterTop-5/trial_T20190908_073440_035026/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a microwaved plate on the counter. Place salt shakers in the drawer. To clean off the kettle and place it in the cabinet. Put the chilled egg in the microwave. Put a cold cooking pot on the counter. ",
+                "compose 2":"Put a microwaved plate on the counter. Put the chilled egg in the microwave. Place salt shakers in the drawer. Put a cold cooking pot on the counter. To clean off the kettle and place it in the cabinet. ",
+                "compose 3":"Put a microwaved plate on the counter. Put a cold cooking pot on the counter. Place salt shakers in the drawer. To clean off the kettle and place it in the cabinet. Put the chilled egg in the microwave. "
+            }
         }
     ],
     "tasks_6":[
-        {
-            "task_list":[
-                "Place a rinsed plate in the fridge.",
-                "Put the clean spoon on the cabinet drawer.",
-                "Put a cooked piece of apple on a counter.",
-                "Place a cooled bowl on a shelf in the kitchen.",
-                "To heat a cup and put it back in the coffee maker.",
-                "Put a tomato in the microwave."
-            ],
-            "orign":[
-                [
-                    "valid_seen/pick_clean_then_place_in_recep-Plate-None-Fridge-5/trial_T20190909_112854_740612/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-Spoon-None-Drawer-5/trial_T20190911_081633_704611/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-AppleSliced-None-CounterTop-5/trial_T20190913_143737_531902/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190907_170219_219243/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-5/trial_T20190908_003743_285560/traj_data.json",
-                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190908_174014_984950/traj_data.json"
-                ]
-            ]
-        },
-        {
-            "task_list":[
-                "Place a bowl with a ladle in it in a cabinet.",
-                "Put a microwaved plate on the counter.",
-                "Put a knife and clean potato in the fridge. ",
-                "Put a tomato in the microwave.",
-                "put the green sponge in the cupboard below the microwave",
-                "Place a chilled pot on a stove top."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_with_movable_recep-Ladle-Bowl-Cabinet-5/trial_T20190912_084707_199300/traj_data.json",
-                    "tests_seen/trial_T20190908_202723_575325/traj_data.json",
-                    "train/pick_clean_then_place_in_recep-PotatoSliced-None-Fridge-5/trial_T20190919_004543_609348/traj_data.json",
-                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190908_174014_984950/traj_data.json",
-                    "train/pick_and_place_simple-DishSponge-None-Cabinet-5/trial_T20190906_192854_230657/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pot-None-StoveBurner-5/trial_T20190906_182039_801244/traj_data.json"
-                ]
-            ]
-        }
-    ],
-    "tasks_7":[
-        {
-            "task_list":[
-                "Put a salt shaker in a drawer.",
-                "Slice a tomato, cook a slice in the microwave",
-                "place a cooked potato slice inside of the garbage bin",
-                "To put the dishes in the sink.",
-                "Put a cooked apple on the counter.",
-                "put the green sponge in the cupboard below the microwave",
-                "Put a mug with a spoon in it in a sink."
-            ],
-            "orign":[
-                [
-                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195258_714603/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000729_930505/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-5/trial_T20190913_001454_339370/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-ButterKnife-Plate-SinkBasin-5/trial_T20190908_075025_456952/traj_data.json",
-                    "train/pick_heat_then_place_in_recep-Apple-None-CounterTop-5/trial_T20190907_113555_848211/traj_data.json",
-                    "train/pick_and_place_simple-DishSponge-None-Cabinet-5/trial_T20190906_192854_230657/traj_data.json",
-                    "train/pick_and_place_with_movable_recep-Spoon-Mug-SinkBasin-5/trial_T20190909_061045_798817/traj_data.json"
-                ]
-            ]
-        },
         {
             "task_list":[
                 "Place a cold pot on the stove.",
@@ -1635,8 +1670,7 @@
                 "Heat a potato in the microwave.",
                 "Slice a tomato, cook a slice in the microwave",
                 "place a clean tea kettle inside of the kitchen cabinet",
-                "Chill the pan and put it away in the cupboard.",
-                "Put a chilled cup in the coffee maker."
+                "Chill the pan and put it away in the cupboard."
             ],
             "orign":[
                 [
@@ -1645,12 +1679,97 @@
                     "train/pick_and_place_with_movable_recep-Potato-Bowl-Microwave-5/trial_T20190907_082510_677045/traj_data.json",
                     "train/pick_heat_then_place_in_recep-TomatoSliced-None-SinkBasin-5/trial_T20190909_000729_930505/traj_data.json",
                     "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_043020_330212/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Pan-None-Cabinet-5/trial_T20190919_044853_269939/traj_data.json",
-                    "train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-5/trial_T20190907_013225_891350/traj_data.json"
+                    "train/pick_cool_then_place_in_recep-Pan-None-Cabinet-5/trial_T20190919_044853_269939/traj_data.json"
                 ]
-            ]
+            ],
+            "finetuned":{
+                "compose 1":"Place a cold pot on the stove. Simultaneously, heat a potato in the microwave. After placing the pot, chill the pan and put it away in the cupboard. Once the potato is heated, slice a tomato, cook a slice in the microwave and put a cold apple in the garbage. Finally, place a clean tea kettle inside of the kitchen cabinet.",
+                "compose 2":"Place a cold pot on the stove. Simultaneously, heat a potato in the microwave. After placing the pot, chill the pan and put it away in the cupboard. Once the potato is heated, place a clean tea kettle inside of the kitchen cabinet. Next, slice a tomato, cook a slice in the microwave and put a cold apple in the garbage.",
+                "compose 3":"Place a cold pot on the stove. Simultaneously, place a clean tea kettle inside of the kitchen cabinet. After placing the pot and the tea kettle, heat a potato in the microwave. Once the potato is heated, chill the pan and put it away in the cupboard. Next, slice a tomato, cook a slice in the microwave and put a cold apple in the garbage."
+            }
+        },
+        {
+            "task_list":[
+                "Put a cold apple in the garbage.",
+                "Put a cold cooking pot on the counter. ",
+                "Put a mug in the sink with a spoon in it.",
+                "Put a hot plate on a counter top.",
+                "Refrigerate a slightly warm tomato slice",
+                "Heat a potato in the microwave."
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-5/trial_T20190908_111747_660187/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-CounterTop-5/trial_T20190908_073440_035026/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Spoon-Mug-SinkBasin-5/trial_T20190909_060643_039504/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-Plate-None-CounterTop-5/trial_T20190908_202750_896176/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-TomatoSliced-None-Fridge-5/trial_T20190908_061256_003021/traj_data.json",
+                    "train/pick_and_place_with_movable_recep-Potato-Bowl-Microwave-5/trial_T20190907_082510_677045/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a cold apple in the garbage at any time. Simultaneously, put a mug in the sink with a spoon in it. After completing these tasks, refrigerate a slightly warm tomato slice.",
+                "compose 2":"Put a hot plate on a counter top at any time. Simultaneously, put a cold cooking pot on the counter. After placing the hot plate and the cooking pot, heat a potato in the microwave.",
+                "compose 3":"Refrigerate a slightly warm tomato slice at any time. Simultaneously, put a cold apple in the garbage. After refrigerating the tomato slice and disposing of the apple, put a hot plate on a counter top."
+            }
+        },
+        {
+            "task_list":[
+                "Take a cold copper pot to a cabinet.",
+                "Put a microwaved plate on the counter.",
+                "Put the tomato in the microwave",
+                "Place a cooled egg inside the microwave.",
+                "place a cooked potato slice inside of the garbage bin",
+                "Put a salt shaker in a drawer."
+            ],
+            "orign":[
+                [
+                    "train/pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235508_226899/traj_data.json",
+                    "tests_seen/trial_T20190908_202723_575325/traj_data.json",
+                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190908_174001_568929/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005703_215661/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-5/trial_T20190913_001454_339370/traj_data.json",
+                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195258_714603/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Put a microwaved plate on the counter. Place a cooled egg inside the microwave at any time. Simultaneously, take a cold copper pot to a cabinet. After placing the egg, put a salt shaker in a drawer. Finally, put the tomato in the microwave.",
+                "compose 2":"Put a microwaved plate on the counter. Put the tomato in the microwave at any time. Simultaneously, place a cooled egg inside the microwave. After microwaving the tomato, take a cold copper pot to a cabinet. Finally, put a salt shaker in a drawer.",
+                "compose 3":"Take a cold copper pot to a cabinet. Put a microwaved plate on the counter. Put the tomato in the microwave at any time. Simultaneously, place a cooled egg inside the microwave. After placing the egg inside the microwave, put a salt shaker in a drawer."
+            }
         }
     ],
-    "tasks_8":[],
+    "tasks_7":[],
+    "tasks_8":[
+        {
+            "task_list":[
+                "Move a salt shaker to a drawer. ",
+                "Put a tomato in the microwave. ",
+                "Chill the pan and put it away in the cupboard.",
+                "Move one of the pots on the stove to the cabinet next to the refrigerator.",
+                "Refrigerate a slice of warm bread.",
+                "place a clean tea kettle inside of the kitchen cabinet",
+                "Place a chilled egg in the microwave.",
+                "Put a chilled cup in the coffee maker."
+            ],
+            "orign":[
+                [
+                    "train/pick_and_place_simple-PepperShaker-None-Drawer-5/trial_T20190908_195340_064065/traj_data.json",
+                    "train/pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190918_171755_707602/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pan-None-Cabinet-5/trial_T20190919_044853_269939/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235541_875587/traj_data.json",
+                    "train/pick_heat_then_place_in_recep-BreadSliced-None-Fridge-5/trial_T20190908_180947_483441/traj_data.json",
+                    "train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-5/trial_T20190909_043020_330212/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Egg-None-Microwave-5/trial_T20190908_005812_214691/traj_data.json",
+                    "train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-5/trial_T20190907_013225_891350/traj_data.json"
+                ]
+            ],
+            "finetuned":{
+                "compose 1":"Move a salt shaker to a drawer at any time. Put a tomato in the microwave at any time. Chill the pan and put it away in the cupboard at any time. Move one of the pots on the stove to the cabinet next to the refrigerator after putting the tomato in the microwave. Refrigerate a slice of warm bread at any time. Place a clean tea kettle inside of the kitchen cabinet at any time. Place a chilled egg in the microwave at any time. Put a chilled cup in the coffee maker at any time.",
+                "compose 2":"Move a salt shaker to a drawer at any time. Put a tomato in the microwave at any time. Chill the pan and put it away in the cupboard at any time. Move one of the pots on the stove to the cabinet next to the refrigerator at any time. Refrigerate a slice of warm bread after moving the pot. Place a clean tea kettle inside of the kitchen cabinet at any time. Place a chilled egg in the microwave at any time. Put a chilled cup in the coffee maker after refrigerating the bread.",
+                "compose 3":"Move a salt shaker to a drawer at any time. Put a tomato in the microwave at any time. Chill the pan and put it away in the cupboard at any time. Move one of the pots on the stove to the cabinet next to the refrigerator at any time. Refrigerate a slice of warm bread at any time. Place a clean tea kettle inside of the kitchen cabinet after putting the tomato in the microwave. Place a chilled egg in the microwave at any time. Put a chilled cup in the coffee maker after chilling the pan."
+            }
+        }
+    ],
     "tasks_9":[]
 }
