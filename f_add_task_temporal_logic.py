@@ -74,9 +74,9 @@ for scene_name in scene_dict.keys():
     please return in json:
     ```json
         {{
-            "compose 1": "",
-            "compose 2": ...,
-            "compose 3": ...,
+            "fintune 1": "",
+            "fintune 2": ...,
+            "fintune 3": ...,
         }}
     ```
     """.format(task_lists[tasks_id]["task_list"])

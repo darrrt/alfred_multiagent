@@ -1478,11 +1478,11 @@
                     "tests_unseen/trial_T20190918_220534_463098/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Put a heated egg on a round table at any time. Simultaneously, put the sponge in the bowl.\",\"compose 2\": \"Put the sponge in the bowl at any time. After putting the sponge, put a heated egg on a round table.\",\"compose 3\": \"Put a heated egg on a round table at any time. After putting the egg, put the sponge in the bowl.\"}",
+            "adjust":"{\"fintune 1\": \"Put a heated egg on a round table at any time. Simultaneously, put the sponge in the bowl.\",\"fintune 2\": \"Put the sponge in the bowl at any time. After putting the sponge, put a heated egg on a round table.\",\"fintune 3\": \"Put a heated egg on a round table at any time. After putting the egg, put the sponge in the bowl.\"}",
             "finetuned":{
-                "compose 1":"Put a heated egg on a round table at any time. Simultaneously, put the sponge in the bowl.",
-                "compose 2":"Put the sponge in the bowl at any time. After putting the sponge in the bowl, put a heated egg on a round table.",
-                "compose 3":"Put a heated egg on a round table at any time. Put the sponge in the bowl after putting the heated egg on the round table."
+                "fintune 1":"Put a heated egg on a round table at any time. Simultaneously, put the sponge in the bowl.",
+                "fintune 2":"Put the sponge in the bowl at any time. After putting the sponge in the bowl, put a heated egg on a round table.",
+                "fintune 3":"Put a heated egg on a round table at any time. Put the sponge in the bowl after putting the heated egg on the round table."
             }
         },
         {
@@ -1496,11 +1496,11 @@
                     "tests_unseen/trial_T20190918_215556_955588/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Put a cooled slice of potato in the microwave at any time. Simultaneously, place chilled tomato in the sink.\",\"compose 2\": \"Place chilled tomato in the sink at any time. After placing the tomato, put a cooled slice of potato in the microwave.\",\"compose 3\": \"Put a cooled slice of potato in the microwave at any time. Then, place chilled tomato in the sink.\"}",
+            "adjust":"{\"fintune 1\": \"Put a cooled slice of potato in the microwave at any time. Simultaneously, place chilled tomato in the sink.\",\"fintune 2\": \"Place chilled tomato in the sink at any time. After placing the tomato, put a cooled slice of potato in the microwave.\",\"fintune 3\": \"Put a cooled slice of potato in the microwave at any time. Then, place chilled tomato in the sink.\"}",
             "finetuned":{
-                "compose 1":"Place chilled tomato in the sink at any time. Simultaneously, put a cooled slice of potato in the microwave.",
-                "compose 2":"Put a cooled slice of potato in the microwave at any time. After putting the potato slice in the microwave, place chilled tomato in the sink.",
-                "compose 3":"Put a cooled slice of potato in the microwave. After putting the potato slice in the microwave, place chilled tomato in the sink."
+                "fintune 1":"Place chilled tomato in the sink at any time. Simultaneously, put a cooled slice of potato in the microwave.",
+                "fintune 2":"Put a cooled slice of potato in the microwave at any time. After putting the potato slice in the microwave, place chilled tomato in the sink.",
+                "fintune 3":"Put a cooled slice of potato in the microwave. After putting the potato slice in the microwave, place chilled tomato in the sink."
             }
         },
         {
@@ -1514,11 +1514,11 @@
                     "tests_unseen/trial_T20190909_160509_108044/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Cut a slice of a potato, put it in the microwave, and then place it on the counter next to the knife. Simultaneously, place a cup with a spoon in a sink.\",\"compose 2\": \"Place a cup with a spoon in a sink. After that, cut a slice of a potato, put it in the microwave, and place it on the counter next to the knife.\",\"compose 3\": \"Cut a slice of a potato, put it in the microwave, and place it on the counter next to the knife. Then, place a cup with a spoon in a sink.\"}",
+            "adjust":"{\"fintune 1\": \"Cut a slice of a potato, put it in the microwave, and then place it on the counter next to the knife. Simultaneously, place a cup with a spoon in a sink.\",\"fintune 2\": \"Place a cup with a spoon in a sink. After that, cut a slice of a potato, put it in the microwave, and place it on the counter next to the knife.\",\"fintune 3\": \"Cut a slice of a potato, put it in the microwave, and place it on the counter next to the knife. Then, place a cup with a spoon in a sink.\"}",
             "finetuned":{
-                "compose 1":"Place a cup with a spoon in a sink at any time. Simultaneously, cut a slice of a potato, put it in the microwave, and put it on the counter next to the knife.",
-                "compose 2":"Place a cup with a spoon in a sink at any time. Simultaneously, cut a slice of a potato, put it in the microwave, and put it on the counter next to the knife.",
-                "compose 3":"Cut a slice of a potato, put it in the microwave, and put it on the counter next to the knife at any time. After that, place a cup with a spoon in a sink."
+                "fintune 1":"Place a cup with a spoon in a sink at any time. Simultaneously, cut a slice of a potato, put it in the microwave, and put it on the counter next to the knife.",
+                "fintune 2":"Place a cup with a spoon in a sink at any time. Simultaneously, cut a slice of a potato, put it in the microwave, and put it on the counter next to the knife.",
+                "fintune 3":"Cut a slice of a potato, put it in the microwave, and put it on the counter next to the knife at any time. After that, place a cup with a spoon in a sink."
             }
         },
         {
@@ -1532,11 +1532,11 @@
                     "tests_unseen/trial_T20190908_074855_782261/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Place a section of apple into a container, place the container into the microwave. After completing this task, return the mug to the coffee machine chilled.\",\"compose 2\": \"Return the mug to the coffee machine chilled. Simultaneously, place a section of apple into a container and place the container into the microwave.\",\"compose 3\": \"Place a section of apple into a container, place the container into the microwave. Return the mug to the coffee machine chilled after completing the previous tasks.\"}",
+            "adjust":"{\"fintune 1\": \"Place a section of apple into a container, place the container into the microwave. After completing this task, return the mug to the coffee machine chilled.\",\"fintune 2\": \"Return the mug to the coffee machine chilled. Simultaneously, place a section of apple into a container and place the container into the microwave.\",\"fintune 3\": \"Place a section of apple into a container, place the container into the microwave. Return the mug to the coffee machine chilled after completing the previous tasks.\"}",
             "finetuned":{
-                "compose 1":"Place a section of apple into a container, place the container into the microwave. Simultaneously, return the mug to the coffee machine chilled.",
-                "compose 2":"Return the mug to the coffee machine chilled. After returning the mug, place a section of apple into a container, place the container into the microwave.",
-                "compose 3":"Place a section of apple into a container, place the container into the microwave. Return the mug to the coffee machine chilled."
+                "fintune 1":"Place a section of apple into a container, place the container into the microwave. Simultaneously, return the mug to the coffee machine chilled.",
+                "fintune 2":"Return the mug to the coffee machine chilled. After returning the mug, place a section of apple into a container, place the container into the microwave.",
+                "fintune 3":"Place a section of apple into a container, place the container into the microwave. Return the mug to the coffee machine chilled."
             }
         },
         {
@@ -1550,11 +1550,11 @@
                     "tests_unseen/trial_T20190907_234208_014074/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Put the sponge in the bowl at any time. Simultaneously, move a knife and a cup to the table.\",\"compose 2\": \"Move a knife and a cup to the table. After moving the knife and cup, put the sponge in the bowl.\",\"compose 3\": \"Put the sponge in the bowl. Once the sponge is in the bowl, move a knife and a cup to the table.\"}",
+            "adjust":"{\"fintune 1\": \"Put the sponge in the bowl at any time. Simultaneously, move a knife and a cup to the table.\",\"fintune 2\": \"Move a knife and a cup to the table. After moving the knife and cup, put the sponge in the bowl.\",\"fintune 3\": \"Put the sponge in the bowl. Once the sponge is in the bowl, move a knife and a cup to the table.\"}",
             "finetuned":{
-                "compose 1":"To move a knife and a cup to the table. Put the sponge in the bowl.",
-                "compose 2":"Put the sponge in the bowl. To move a knife and a cup to the table.",
-                "compose 3":"To move a knife and a cup to the table. Put the sponge in the bowl."
+                "fintune 1":"To move a knife and a cup to the table. Put the sponge in the bowl.",
+                "fintune 2":"Put the sponge in the bowl. To move a knife and a cup to the table.",
+                "fintune 3":"To move a knife and a cup to the table. Put the sponge in the bowl."
             }
         }
     ],
@@ -1572,11 +1572,11 @@
                     "tests_unseen/trial_T20190906_184649_964773/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Take a potato, heat it, place it on the table after cooling an egg and putting it into the microwave. Simultaneously, place a heated glass in a cabinet.\",\"compose 2\": \"Cool an egg, put it into the microwave. After cooling the egg, simultaneously take a potato, heat it, and place it on the table. Place a heated glass in a cabinet after heating the potato.\",\"compose 3\": \"Cool an egg, put it into the microwave. Simultaneously, take a potato, heat it, and place it on the table. After cooling the egg and heating the potato, place a heated glass in a cabinet.\"}",
+            "adjust":"{\"fintune 1\": \"Take a potato, heat it, place it on the table after cooling an egg and putting it into the microwave. Simultaneously, place a heated glass in a cabinet.\",\"fintune 2\": \"Cool an egg, put it into the microwave. After cooling the egg, simultaneously take a potato, heat it, and place it on the table. Place a heated glass in a cabinet after heating the potato.\",\"fintune 3\": \"Cool an egg, put it into the microwave. Simultaneously, take a potato, heat it, and place it on the table. After cooling the egg and heating the potato, place a heated glass in a cabinet.\"}",
             "finetuned":{
-                "compose 1":"Take a potato, heat it, place it on the table. Simultaneously, cool an egg and put it into the microwave. After placing the potato on the table and putting the egg in the microwave, place a heated glass in a cabinet.",
-                "compose 2":"Cool an egg, put it into the microwave. Once the egg is in the microwave, take a potato and heat it. Finally, place the heated glass in a cabinet.",
-                "compose 3":"Take a potato, heat it, place it on the table. Cool an egg, put it into the microwave. After placing the potato on the table and putting the egg in the microwave, place a heated glass in a cabinet."
+                "fintune 1":"Take a potato, heat it, place it on the table. Simultaneously, cool an egg and put it into the microwave. After placing the potato on the table and putting the egg in the microwave, place a heated glass in a cabinet.",
+                "fintune 2":"Cool an egg, put it into the microwave. Once the egg is in the microwave, take a potato and heat it. Finally, place the heated glass in a cabinet.",
+                "fintune 3":"Take a potato, heat it, place it on the table. Cool an egg, put it into the microwave. After placing the potato on the table and putting the egg in the microwave, place a heated glass in a cabinet."
             }
         },
         {
@@ -1593,9 +1593,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Place a bowl holding a knife and potato slice into the microwave at any time. Simultaneously, place a microwave coffee cup in the coffee maker. After placing the bowl in the microwave, wash dirty dishes & return them to the proper place.",
-                "compose 2":"Place a microwave coffee cup in the coffee maker. After placing the cup, wash dirty dishes & return them to the proper place. Once the dishes are washed, place a bowl holding a knife and potato slice into the microwave at any time.",
-                "compose 3":"Wash dirty dishes & return them to the proper place first. After that, place a microwave coffee cup in the coffee maker. Finally, place a bowl holding a knife and potato slice into the microwave."
+                "fintune 1":"Place a bowl holding a knife and potato slice into the microwave at any time. Simultaneously, place a microwave coffee cup in the coffee maker. After placing the bowl in the microwave, wash dirty dishes & return them to the proper place.",
+                "fintune 2":"Place a microwave coffee cup in the coffee maker. After placing the cup, wash dirty dishes & return them to the proper place. Once the dishes are washed, place a bowl holding a knife and potato slice into the microwave at any time.",
+                "fintune 3":"Wash dirty dishes & return them to the proper place first. After that, place a microwave coffee cup in the coffee maker. Finally, place a bowl holding a knife and potato slice into the microwave."
             }
         },
         {
@@ -1611,11 +1611,11 @@
                     "tests_unseen/trial_T20190909_025305_845942/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Put a knife in a pot from the stove to place on the circular table. Then, place a microwave coffee cup in the coffee maker. Finally, put a kettle of water on the counter.\",\"compose 2\": \"Place a microwave coffee cup in the coffee maker. Simultaneously, put a kettle of water on the counter. After placing the coffee cup and kettle, put a knife in a pot from the stove to place on the circular table.\",\"compose 3\": \"Put a knife in a pot from the stove to place on the circular table. Then, put a kettle of water on the counter. Afterward, place a microwave coffee cup in the coffee maker.\"}",
+            "adjust":"{\"fintune 1\": \"Put a knife in a pot from the stove to place on the circular table. Then, place a microwave coffee cup in the coffee maker. Finally, put a kettle of water on the counter.\",\"fintune 2\": \"Place a microwave coffee cup in the coffee maker. Simultaneously, put a kettle of water on the counter. After placing the coffee cup and kettle, put a knife in a pot from the stove to place on the circular table.\",\"fintune 3\": \"Put a knife in a pot from the stove to place on the circular table. Then, put a kettle of water on the counter. Afterward, place a microwave coffee cup in the coffee maker.\"}",
             "finetuned":{
-                "compose 1":"Put a knife in a pot from the stove to place on the circular table at any time. Simultaneously, place a microwave coffee cup in the coffee maker. After placing the knife and coffee cup, put a kettle of water on the counter.",
-                "compose 2":"Put a knife in a pot from the stove to place on the circular table. After placing the knife, place a microwave coffee cup in the coffee maker. Lastly, put a kettle of water on the counter.",
-                "compose 3":"Put a kettle of water on the counter at any time. Simultaneously, place a microwave coffee cup in the coffee maker. After placing the water kettle and coffee cup, put a knife in a pot from the stove to place on the circular table."
+                "fintune 1":"Put a knife in a pot from the stove to place on the circular table at any time. Simultaneously, place a microwave coffee cup in the coffee maker. After placing the knife and coffee cup, put a kettle of water on the counter.",
+                "fintune 2":"Put a knife in a pot from the stove to place on the circular table. After placing the knife, place a microwave coffee cup in the coffee maker. Lastly, put a kettle of water on the counter.",
+                "fintune 3":"Put a kettle of water on the counter at any time. Simultaneously, place a microwave coffee cup in the coffee maker. After placing the water kettle and coffee cup, put a knife in a pot from the stove to place on the circular table."
             }
         },
         {
@@ -1632,9 +1632,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Place chilled coffee mug on coffee maker at any time. Simultaneously, putting a knife on a table. After placing the coffee mug and knife, place a bowl with a sponge inside on the counter.",
-                "compose 2":"Putting a knife on a table can be done at any time. Simultaneously, place chilled coffee mug on coffee maker. After placing the mug and knife, place a bowl with a sponge inside on the counter.",
-                "compose 3":"Place a bowl with a sponge inside on the counter can be done at any time. Simultaneously, place chilled coffee mug on coffee maker. After placing the mug, put a knife on a table."
+                "fintune 1":"Place chilled coffee mug on coffee maker at any time. Simultaneously, putting a knife on a table. After placing the coffee mug and knife, place a bowl with a sponge inside on the counter.",
+                "fintune 2":"Putting a knife on a table can be done at any time. Simultaneously, place chilled coffee mug on coffee maker. After placing the mug and knife, place a bowl with a sponge inside on the counter.",
+                "fintune 3":"Place a bowl with a sponge inside on the counter can be done at any time. Simultaneously, place chilled coffee mug on coffee maker. After placing the mug, put a knife on a table."
             }
         },
         {
@@ -1651,9 +1651,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Put a cup with a knife on the table at any time. While or after putting the cup on the table, move a chilled tomato to the kitchen sink. After moving the tomato, put a potato on the table.",
-                "compose 2":"Move a chilled tomato to the kitchen sink at any time. While or after moving the tomato to the kitchen sink, put a cup with a knife on the table. After moving the tomato and putting the cup on the table, put a potato on the table.",
-                "compose 3":"Put a potato on the table at any time. While or after putting the potato on the table, put a cup with a knife on the table. After putting the potato and the cup on the table, move a chilled tomato to the kitchen sink."
+                "fintune 1":"Put a cup with a knife on the table at any time. While or after putting the cup on the table, move a chilled tomato to the kitchen sink. After moving the tomato, put a potato on the table.",
+                "fintune 2":"Move a chilled tomato to the kitchen sink at any time. While or after moving the tomato to the kitchen sink, put a cup with a knife on the table. After moving the tomato and putting the cup on the table, put a potato on the table.",
+                "fintune 3":"Put a potato on the table at any time. While or after putting the potato on the table, put a cup with a knife on the table. After putting the potato and the cup on the table, move a chilled tomato to the kitchen sink."
             }
         }
     ],
@@ -1674,9 +1674,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Put a chilled bowl in a cabinet. Subsequently, rinse a tea kettle and set it next to the coffee maker. Finally, put a cup with a knife in it on the table.",
-                "compose 2":"Rinse a tea kettle and set it next to the coffee maker. Simultaneously, put a chilled bowl in a cabinet. After completing the previous tasks, put a cup with a knife in it on the table.",
-                "compose 3":"Put a heated egg on a round table. After that, put a chilled bowl in a cabinet. Once done, rinse a tea kettle and set it next to the coffee maker. Finally, put a cup with a knife in it on the table."
+                "fintune 1":"Put a chilled bowl in a cabinet. Subsequently, rinse a tea kettle and set it next to the coffee maker. Finally, put a cup with a knife in it on the table.",
+                "fintune 2":"Rinse a tea kettle and set it next to the coffee maker. Simultaneously, put a chilled bowl in a cabinet. After completing the previous tasks, put a cup with a knife in it on the table.",
+                "fintune 3":"Put a heated egg on a round table. After that, put a chilled bowl in a cabinet. Once done, rinse a tea kettle and set it next to the coffee maker. Finally, put a cup with a knife in it on the table."
             }
         },
         {
@@ -1695,9 +1695,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Put a heated apple in a bin. Next, put a glass with a butter knife in it on a round table. Finally, put a microwaved egg on the table.",
-                "compose 2":"Put a microwaved egg on the table at any time. Simultaneously, put a heated apple in a bin. After putting the apple, put a glass with a butter knife in it on a round table.",
-                "compose 3":"Put the potato inside the refrigerator. After that, put a glass with a butter knife in it on a round table. Finally, put a microwaved egg on the table."
+                "fintune 1":"Put a heated apple in a bin. Next, put a glass with a butter knife in it on a round table. Finally, put a microwaved egg on the table.",
+                "fintune 2":"Put a microwaved egg on the table at any time. Simultaneously, put a heated apple in a bin. After putting the apple, put a glass with a butter knife in it on a round table.",
+                "fintune 3":"Put the potato inside the refrigerator. After that, put a glass with a butter knife in it on a round table. Finally, put a microwaved egg on the table."
             }
         },
         {
@@ -1715,11 +1715,11 @@
                     "tests_unseen/trial_T20190906_195956_153637/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Put a cup with a knife on the table. Simultaneously, put a cleaned fork in a drawer left of the stove. After placing the cup and fork, put the potato inside the refrigerator.\",\"compose 2\": \"Put a cleaned fork in a drawer left of the stove. Simultaneously, put a cup with a knife on the table. After placing the cup and fork, put the potato inside the refrigerator.\",\"compose 3\": \"Put a cup with a knife on the table. Simultaneously, put a cleaned fork in a drawer left of the stove. After placing the cup and fork, put a heated egg on a round table.\"}",
+            "adjust":"{\"fintune 1\": \"Put a cup with a knife on the table. Simultaneously, put a cleaned fork in a drawer left of the stove. After placing the cup and fork, put the potato inside the refrigerator.\",\"fintune 2\": \"Put a cleaned fork in a drawer left of the stove. Simultaneously, put a cup with a knife on the table. After placing the cup and fork, put the potato inside the refrigerator.\",\"fintune 3\": \"Put a cup with a knife on the table. Simultaneously, put a cleaned fork in a drawer left of the stove. After placing the cup and fork, put a heated egg on a round table.\"}",
             "finetuned":{
-                "compose 1":"Put a cup with a knife on the table at any time. Simultaneously, put a cleaned fork in a drawer left of the stove. After putting the cup and fork, put the potato inside the refrigerator. Once the potato is inside the refrigerator, put a heated egg on a round table.",
-                "compose 2":"Put a cleaned fork in a drawer left of the stove at any time. Simultaneously, put a cup with a knife on the table. After putting the fork and cup, put a heated egg on a round table. Once the egg is on the table, put the potato inside the refrigerator.",
-                "compose 3":"Put a cup with a knife on the table at any time. Simultaneously, put a cleaned fork in a drawer left of the stove. After putting the cup and fork, put a heated egg on a round table. Once the egg is on the table, put the potato inside the refrigerator."
+                "fintune 1":"Put a cup with a knife on the table at any time. Simultaneously, put a cleaned fork in a drawer left of the stove. After putting the cup and fork, put the potato inside the refrigerator. Once the potato is inside the refrigerator, put a heated egg on a round table.",
+                "fintune 2":"Put a cleaned fork in a drawer left of the stove at any time. Simultaneously, put a cup with a knife on the table. After putting the fork and cup, put a heated egg on a round table. Once the egg is on the table, put the potato inside the refrigerator.",
+                "fintune 3":"Put a cup with a knife on the table at any time. Simultaneously, put a cleaned fork in a drawer left of the stove. After putting the cup and fork, put a heated egg on a round table. Once the egg is on the table, put the potato inside the refrigerator."
             }
         },
         {
@@ -1738,9 +1738,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Put a washed potato in the refrigerator at any time. Simultaneously, put a knife in a pot from the stove to place on the circular table. After putting the potato and the knife, place a heated glass in a cabinet. Finally, put microwaved apple in recycling bin.",
-                "compose 2":"Put a washed potato in the refrigerator at any time. After putting the potato, put microwaved apple in recycling bin. Simultaneously, put a knife in a pot from the stove to place on the circular table. Finally, place a heated glass in a cabinet.",
-                "compose 3":"Put a washed potato in the refrigerator at any time. Simultaneously, place a heated glass in a cabinet. After putting the potato and the glass, put microwaved apple in recycling bin. Finally, put a knife in a pot from the stove to place on the circular table."
+                "fintune 1":"Put a washed potato in the refrigerator at any time. Simultaneously, put a knife in a pot from the stove to place on the circular table. After putting the potato and the knife, place a heated glass in a cabinet. Finally, put microwaved apple in recycling bin.",
+                "fintune 2":"Put a washed potato in the refrigerator at any time. After putting the potato, put microwaved apple in recycling bin. Simultaneously, put a knife in a pot from the stove to place on the circular table. Finally, place a heated glass in a cabinet.",
+                "fintune 3":"Put a washed potato in the refrigerator at any time. Simultaneously, place a heated glass in a cabinet. After putting the potato and the glass, put microwaved apple in recycling bin. Finally, put a knife in a pot from the stove to place on the circular table."
             }
         },
         {
@@ -1759,9 +1759,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Put a chilled bowl in a cabinet at any time. Simultaneously, put microwaved apple in recycling bin. After putting the bowl and apple, put the knife and a microwaved piece of bread in the blue trash bin. Finally, put a clean fork into the drawer.",
-                "compose 2":"Put the knife and a microwaved piece of bread in the blue trash bin first. Then, put a chilled bowl in a cabinet. Simultaneously, put microwaved apple in recycling bin. Finally, put a clean fork into the drawer.",
-                "compose 3":"Put microwaved apple in recycling bin first. Then, put a chilled bowl in a cabinet. Simultaneously, put the knife and a microwaved piece of bread in the blue trash bin. Finally, put a clean fork into the drawer."
+                "fintune 1":"Put a chilled bowl in a cabinet at any time. Simultaneously, put microwaved apple in recycling bin. After putting the bowl and apple, put the knife and a microwaved piece of bread in the blue trash bin. Finally, put a clean fork into the drawer.",
+                "fintune 2":"Put the knife and a microwaved piece of bread in the blue trash bin first. Then, put a chilled bowl in a cabinet. Simultaneously, put microwaved apple in recycling bin. Finally, put a clean fork into the drawer.",
+                "fintune 3":"Put microwaved apple in recycling bin first. Then, put a chilled bowl in a cabinet. Simultaneously, put the knife and a microwaved piece of bread in the blue trash bin. Finally, put a clean fork into the drawer."
             }
         }
     ],
@@ -1783,11 +1783,11 @@
                     "tests_unseen/trial_T20190907_172648_626804/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Put a microwaved egg on the table at any time. Simultaneously, put a metal pan with a butter knife in it in the sink. After placing the egg and pan, put a kettle of water on the counter. Once these are done, place a microwave coffee cup in the coffee maker. Finally, put a glass with a spoon in it in the sink.\",\"compose 2\": \"Put a metal pan with a butter knife in it in the sink first. Simultaneously, put a glass with a spoon in it in the sink. After that, put a microwaved egg on the table. Once these are done, place a microwave coffee cup in the coffee maker. Finally, put a kettle of water on the counter.\",\"compose 3\": \"Put a kettle of water on the counter at any time. Simultaneously, put a microwave coffee cup in the coffee maker. After that, put a microwaved egg on the table. Once these are done, put a metal pan with a butter knife in it in the sink. Finally, put a glass with a spoon in it in the sink.\"}",
+            "adjust":"{\"fintune 1\": \"Put a microwaved egg on the table at any time. Simultaneously, put a metal pan with a butter knife in it in the sink. After placing the egg and pan, put a kettle of water on the counter. Once these are done, place a microwave coffee cup in the coffee maker. Finally, put a glass with a spoon in it in the sink.\",\"fintune 2\": \"Put a metal pan with a butter knife in it in the sink first. Simultaneously, put a glass with a spoon in it in the sink. After that, put a microwaved egg on the table. Once these are done, place a microwave coffee cup in the coffee maker. Finally, put a kettle of water on the counter.\",\"fintune 3\": \"Put a kettle of water on the counter at any time. Simultaneously, put a microwave coffee cup in the coffee maker. After that, put a microwaved egg on the table. Once these are done, put a metal pan with a butter knife in it in the sink. Finally, put a glass with a spoon in it in the sink.\"}",
             "finetuned":{
-                "compose 1":"Put a microwaved egg on the table at any time. Simultaneously, put a metal pan with a butter knife in it in the sink. After placing the egg and pan, put a kettle of water on the counter. Once the water is on the counter, place a microwave coffee cup in the coffee maker. Finally, put a glass with a spoon in it in the sink.",
-                "compose 2":"Put a glass with a spoon in it in the sink at any time. Simultaneously, put a metal pan with a butter knife in it in the sink. After placing the glass and pan, put a kettle of water on the counter. Once the water is on the counter, put a microwaved egg on the table.",
-                "compose 3":"Put a metal pan with a butter knife in it in the sink at any time. Simultaneously, put a kettle of water on the counter. After placing the pan and kettle, put a microwave coffee cup in the coffee maker. Once the cup is in the coffee maker, put a microwaved egg on the table. Finally, put a glass with a spoon in it in the sink."
+                "fintune 1":"Put a microwaved egg on the table at any time. Simultaneously, put a metal pan with a butter knife in it in the sink. After placing the egg and pan, put a kettle of water on the counter. Once the water is on the counter, place a microwave coffee cup in the coffee maker. Finally, put a glass with a spoon in it in the sink.",
+                "fintune 2":"Put a glass with a spoon in it in the sink at any time. Simultaneously, put a metal pan with a butter knife in it in the sink. After placing the glass and pan, put a kettle of water on the counter. Once the water is on the counter, put a microwaved egg on the table.",
+                "fintune 3":"Put a metal pan with a butter knife in it in the sink at any time. Simultaneously, put a kettle of water on the counter. After placing the pan and kettle, put a microwave coffee cup in the coffee maker. Once the cup is in the coffee maker, put a microwaved egg on the table. Finally, put a glass with a spoon in it in the sink."
             }
         },
         {
@@ -1807,11 +1807,11 @@
                     "tests_unseen/trial_T20190909_014524_943132/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Slice a potato in order to recycle a piece of it. After slicing the potato, heat up a slice of apple in the microwave to put it in the sink. Once the apple slice is heated and placed in the sink, clean off a teapot and place it back on the stove. Put a glass with a spoon in it in the sink. Finally, put a cleaned fork in a drawer left of the stove.\",\"compose 2\": \"Put a glass with a spoon in it in the sink. Clean off a teapot and place it back on the stove. Heat up a slice of apple in the microwave to put it in the sink. Slice a potato in order to recycle a piece of it. After slicing the potato, put a cleaned fork in a drawer left of the stove.\",\"compose 3\": \"Clean off a teapot and place it back on the stove. Put a cleaned fork in a drawer left of the stove. Slice a potato in order to recycle a piece of it. After slicing the potato, put a glass with a spoon in it in the sink. Heat up a slice of apple in the microwave to put it in the sink.\"}",
+            "adjust":"{\"fintune 1\": \"Slice a potato in order to recycle a piece of it. After slicing the potato, heat up a slice of apple in the microwave to put it in the sink. Once the apple slice is heated and placed in the sink, clean off a teapot and place it back on the stove. Put a glass with a spoon in it in the sink. Finally, put a cleaned fork in a drawer left of the stove.\",\"fintune 2\": \"Put a glass with a spoon in it in the sink. Clean off a teapot and place it back on the stove. Heat up a slice of apple in the microwave to put it in the sink. Slice a potato in order to recycle a piece of it. After slicing the potato, put a cleaned fork in a drawer left of the stove.\",\"fintune 3\": \"Clean off a teapot and place it back on the stove. Put a cleaned fork in a drawer left of the stove. Slice a potato in order to recycle a piece of it. After slicing the potato, put a glass with a spoon in it in the sink. Heat up a slice of apple in the microwave to put it in the sink.\"}",
             "finetuned":{
-                "compose 1":"Slice a potato in order to recycle a piece of it. Put a glass with a spoon in it in the sink. Clean off a teapot and place it back on the stove. Heat up a slice of apple in the microwave to put it in the sink.",
-                "compose 2":"Clean off a teapot and place it back on the stove. Slice a potato in order to recycle a piece of it. Heat up a slice of apple in the microwave to put it in the sink. Put a glass with a spoon in it in the sink.",
-                "compose 3":"Put a glass with a spoon in it in the sink. Slice a potato in order to recycle a piece of it. Clean off a teapot and place it back on the stove. Heat up a slice of apple in the microwave to put it in the sink."
+                "fintune 1":"Slice a potato in order to recycle a piece of it. Put a glass with a spoon in it in the sink. Clean off a teapot and place it back on the stove. Heat up a slice of apple in the microwave to put it in the sink.",
+                "fintune 2":"Clean off a teapot and place it back on the stove. Slice a potato in order to recycle a piece of it. Heat up a slice of apple in the microwave to put it in the sink. Put a glass with a spoon in it in the sink.",
+                "fintune 3":"Put a glass with a spoon in it in the sink. Slice a potato in order to recycle a piece of it. Clean off a teapot and place it back on the stove. Heat up a slice of apple in the microwave to put it in the sink."
             }
         },
         {
@@ -1831,11 +1831,11 @@
                     "tests_unseen/trial_T20190908_044804_986661/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Place a cooked apple into a trash can at any time. Simultaneously, put a slice of chilled potato inside the microwave. After completing the previous tasks, place a cooled tomato into the microwave. Finally, move a knife and a cup to the table.\",\"compose 2\": \"Place a cooked apple into a trash can at any time. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After completing the previous tasks, put a slice of chilled potato inside the microwave. Finally, move a knife and a cup to the table.\",\"compose 3\": \"Place a cooked apple into a trash can at any time. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After completing the previous tasks, place a cooled tomato into the microwave. Finally, move a knife and a cup to the table.\"}",
+            "adjust":"{\"fintune 1\": \"Place a cooked apple into a trash can at any time. Simultaneously, put a slice of chilled potato inside the microwave. After completing the previous tasks, place a cooled tomato into the microwave. Finally, move a knife and a cup to the table.\",\"fintune 2\": \"Place a cooked apple into a trash can at any time. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After completing the previous tasks, put a slice of chilled potato inside the microwave. Finally, move a knife and a cup to the table.\",\"fintune 3\": \"Place a cooked apple into a trash can at any time. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After completing the previous tasks, place a cooled tomato into the microwave. Finally, move a knife and a cup to the table.\"}",
             "finetuned":{
-                "compose 1":"Place a cooked apple into a trash can at any time. Simultaneously, move a knife and a cup to the table. After placing the cooked apple and moving the knife and cup, place a cooled tomato into the microwave followed by putting a slice of chilled potato inside the microwave. Finally, place a chilled piece of lettuce into the blue recycling bin.",
-                "compose 2":"Move a knife and a cup to the table at any time. Simultaneously, place a cooked apple into a trash can. After moving the knife and cup, place a cooled tomato into the microwave followed by putting a slice of a chilled potato inside the microwave. Finally, place a chilled piece of lettuce into the blue recycling bin.",
-                "compose 3":"Place a cooked apple into a trash can at any time. Simultaneously, place a cooled tomato into the microwave followed by putting a slice of chilled potato inside the microwave. After placing the cooked apple, move a knife and a cup to the table. Finally, place a chilled piece of lettuce into the blue recycling bin."
+                "fintune 1":"Place a cooked apple into a trash can at any time. Simultaneously, move a knife and a cup to the table. After placing the cooked apple and moving the knife and cup, place a cooled tomato into the microwave followed by putting a slice of chilled potato inside the microwave. Finally, place a chilled piece of lettuce into the blue recycling bin.",
+                "fintune 2":"Move a knife and a cup to the table at any time. Simultaneously, place a cooked apple into a trash can. After moving the knife and cup, place a cooled tomato into the microwave followed by putting a slice of a chilled potato inside the microwave. Finally, place a chilled piece of lettuce into the blue recycling bin.",
+                "fintune 3":"Place a cooked apple into a trash can at any time. Simultaneously, place a cooled tomato into the microwave followed by putting a slice of chilled potato inside the microwave. After placing the cooked apple, move a knife and a cup to the table. Finally, place a chilled piece of lettuce into the blue recycling bin."
             }
         },
         {
@@ -1855,11 +1855,11 @@
                     "tests_unseen/trial_T20190909_042124_419116/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg, place a pot filled with water on a stove. Next, move a knife and a cup to the table. Finally, put the apple from the microwave to the sink.\",\"compose 2\": \"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg, move a knife and a cup to the table. Next, place a pot filled with water on a stove. Finally, put the apple from the microwave to the sink.\",\"compose 3\": \"Place a pot filled with water on a stove at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After placing the pot, put a brown egg in the microwave. Next, move a knife and a cup to the table. Finally, put the apple from the microwave to the sink.\"}",
+            "adjust":"{\"fintune 1\": \"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg, place a pot filled with water on a stove. Next, move a knife and a cup to the table. Finally, put the apple from the microwave to the sink.\",\"fintune 2\": \"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg, move a knife and a cup to the table. Next, place a pot filled with water on a stove. Finally, put the apple from the microwave to the sink.\",\"fintune 3\": \"Place a pot filled with water on a stove at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After placing the pot, put a brown egg in the microwave. Next, move a knife and a cup to the table. Finally, put the apple from the microwave to the sink.\"}",
             "finetuned":{
-                "compose 1":"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg in the microwave, place a pot filled with water on a stove. Once the pot is on the stove, move a knife and a cup to the table. Finally, put the apple from microwave to the sink.",
-                "compose 2":"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg in the microwave, place a pot filled with water on a stove. Once the pot is on the stove, put the apple from microwave to the sink. Finally, move a knife and a cup to the table.",
-                "compose 3":"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg in the microwave, move a knife and a cup to the table. Once the knife and cup are on the table, place a pot filled with water on a stove. Finally, put the apple from microwave to the sink."
+                "fintune 1":"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg in the microwave, place a pot filled with water on a stove. Once the pot is on the stove, move a knife and a cup to the table. Finally, put the apple from microwave to the sink.",
+                "fintune 2":"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg in the microwave, place a pot filled with water on a stove. Once the pot is on the stove, put the apple from microwave to the sink. Finally, move a knife and a cup to the table.",
+                "fintune 3":"Put a brown egg in the microwave at any time. Simultaneously, put a cleaned fork in a drawer left of the stove.After putting the egg in the microwave, move a knife and a cup to the table. Once the knife and cup are on the table, place a pot filled with water on a stove. Finally, put the apple from microwave to the sink."
             }
         },
         {
@@ -1879,11 +1879,11 @@
                     "tests_unseen/trial_T20190909_025305_845942/traj_data.json"
                 ]
             ],
-            "adjust":"{\"compose 1\": \"Place a cup with a spoon in a sink. Simultaneously, put a cleaned fork in a drawer left of the stove. After placing the cup and fork, put a kettle of water on the counter.\",\"compose 2\": \"Put a microwaved apple by the coffee machine. Simultaneously, place a microwaved tomato in the fridge. Afterwards, put a cleaned fork in a drawer left of the stove.\",\"compose 3\": \"Put a kettle of water on the counter. Simultaneously, place a cup with a spoon in a sink and put a microwaved apple by the coffee machine. After placing the items, put a microwaved tomato in the fridge.\"}",
+            "adjust":"{\"fintune 1\": \"Place a cup with a spoon in a sink. Simultaneously, put a cleaned fork in a drawer left of the stove. After placing the cup and fork, put a kettle of water on the counter.\",\"fintune 2\": \"Put a microwaved apple by the coffee machine. Simultaneously, place a microwaved tomato in the fridge. Afterwards, put a cleaned fork in a drawer left of the stove.\",\"fintune 3\": \"Put a kettle of water on the counter. Simultaneously, place a cup with a spoon in a sink and put a microwaved apple by the coffee machine. After placing the items, put a microwaved tomato in the fridge.\"}",
             "finetuned":{
-                "compose 1":"Put a cleaned fork in a drawer left of the stove at any time. Simultaneously, place a cup with a spoon in a sink. After completing these tasks, put a microwaved tomato in the fridge. Finally, put a microwaved apple by the coffee machine and put a kettle of water on the counter.",
-                "compose 2":"Put a cleaned fork in a drawer left of the stove first. Then, place a cup with a spoon in a sink. After that, put a microwaved tomato in the fridge. Next, put a microwaved apple by the coffee machine. Finally, put a kettle of water on the counter.",
-                "compose 3":"Put a cleaned fork in a drawer left of the stove at any time. Simultaneously, place a cup with a spoon in a sink. After placing the fork and cup, put a microwaved tomato in the fridge. Following this, put a microwaved apple by the coffee machine. Lastly, put a kettle of water on the counter."
+                "fintune 1":"Put a cleaned fork in a drawer left of the stove at any time. Simultaneously, place a cup with a spoon in a sink. After completing these tasks, put a microwaved tomato in the fridge. Finally, put a microwaved apple by the coffee machine and put a kettle of water on the counter.",
+                "fintune 2":"Put a cleaned fork in a drawer left of the stove first. Then, place a cup with a spoon in a sink. After that, put a microwaved tomato in the fridge. Next, put a microwaved apple by the coffee machine. Finally, put a kettle of water on the counter.",
+                "fintune 3":"Put a cleaned fork in a drawer left of the stove at any time. Simultaneously, place a cup with a spoon in a sink. After placing the fork and cup, put a microwaved tomato in the fridge. Following this, put a microwaved apple by the coffee machine. Lastly, put a kettle of water on the counter."
             }
         }
     ],
@@ -1908,9 +1908,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Rinse a tea kettle and set it next to the coffee maker. After rinsing the tea kettle, put a clean pot filled with water on a stove top. Finally, place a warm slice of tomato in the fridge.",
-                "compose 2":"Put a heated apple in a bin. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After placing the apple and lettuce, put a clean pot filled with water on a stove top.",
-                "compose 3":"Put a heated egg on a round table. After putting the egg, place a warm slice of tomato in the fridge. Finally, rinse a tea kettle and set it next to the coffee maker."
+                "fintune 1":"Rinse a tea kettle and set it next to the coffee maker. After rinsing the tea kettle, put a clean pot filled with water on a stove top. Finally, place a warm slice of tomato in the fridge.",
+                "fintune 2":"Put a heated apple in a bin. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After placing the apple and lettuce, put a clean pot filled with water on a stove top.",
+                "fintune 3":"Put a heated egg on a round table. After putting the egg, place a warm slice of tomato in the fridge. Finally, rinse a tea kettle and set it next to the coffee maker."
             }
         },
         {
@@ -1933,9 +1933,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Place a cooled tomato into the microwave at any time. Simultaneously, rinse a tea kettle and set it next to the coffee maker. After placing the tomato and kettle, place a piece of rinsed lettuce on the table with the gray tablecloth. Once done, put a heated egg on a round table. Finally, place chilled coffee mug on the coffee maker.",
-                "compose 2":"Place a piece of rinsed lettuce on the table with the gray tablecloth at any time. Simultaneously, place a cooled tomato into the microwave. After placing the lettuce and tomato, rinse a tea kettle and set it next to the coffee maker. Once done, place a microwaved potato slice in the blue bin. Finally, put a heated egg on a round table.",
-                "compose 3":"Place a heated egg on a round table at any time. Simultaneously, place a microwaved potato slice in the blue bin. After placing the egg and potato, place a piece of rinsed lettuce on the table with the gray tablecloth. Once done, rinse a tea kettle and set it next to the coffee maker. Finally, place a cooled tomato into the microwave."
+                "fintune 1":"Place a cooled tomato into the microwave at any time. Simultaneously, rinse a tea kettle and set it next to the coffee maker. After placing the tomato and kettle, place a piece of rinsed lettuce on the table with the gray tablecloth. Once done, put a heated egg on a round table. Finally, place chilled coffee mug on the coffee maker.",
+                "fintune 2":"Place a piece of rinsed lettuce on the table with the gray tablecloth at any time. Simultaneously, place a cooled tomato into the microwave. After placing the lettuce and tomato, rinse a tea kettle and set it next to the coffee maker. Once done, place a microwaved potato slice in the blue bin. Finally, put a heated egg on a round table.",
+                "fintune 3":"Place a heated egg on a round table at any time. Simultaneously, place a microwaved potato slice in the blue bin. After placing the egg and potato, place a piece of rinsed lettuce on the table with the gray tablecloth. Once done, rinse a tea kettle and set it next to the coffee maker. Finally, place a cooled tomato into the microwave."
             }
         },
         {
@@ -1958,9 +1958,9 @@
                 ]
             ],
             "finetuned":{
-                "compose 1":"Move a chilled tomato to the kitchen sink. After moving the tomato, put a knife on a table. Then, place a pot filled with water on a stove. Simultaneously, put a clean fork on the round table. After placing the pot on the stove and the fork on the table, put a section of apple into a container and place the container into the microwave. Finally, place a heated glass in a cabinet.",
-                "compose 2":"Place a section of apple into a container, place the container into the microwave. After placing the apple in the container, move a chilled tomato to the kitchen sink. Then, put a knife on a table. Simultaneously, put a clean fork on the round table. After completing these tasks, place a pot filled with water on a stove. Finally, place a heated glass in a cabinet.",
-                "compose 3":"Place a pot filled with water on a stove. After placing the pot, put a knife on a table. Then, move a chilled tomato to the kitchen sink. Simultaneously, put a clean fork on the round table. After completing these tasks, place a section of apple into a container and place the container into the microwave. Finally, place a heated glass in a cabinet."
+                "fintune 1":"Move a chilled tomato to the kitchen sink. After moving the tomato, put a knife on a table. Then, place a pot filled with water on a stove. Simultaneously, put a clean fork on the round table. After placing the pot on the stove and the fork on the table, put a section of apple into a container and place the container into the microwave. Finally, place a heated glass in a cabinet.",
+                "fintune 2":"Place a section of apple into a container, place the container into the microwave. After placing the apple in the container, move a chilled tomato to the kitchen sink. Then, put a knife on a table. Simultaneously, put a clean fork on the round table. After completing these tasks, place a pot filled with water on a stove. Finally, place a heated glass in a cabinet.",
+                "fintune 3":"Place a pot filled with water on a stove. After placing the pot, put a knife on a table. Then, move a chilled tomato to the kitchen sink. Simultaneously, put a clean fork on the round table. After completing these tasks, place a section of apple into a container and place the container into the microwave. Finally, place a heated glass in a cabinet."
             }
         }
     ],
