@@ -8,16 +8,27 @@ def transform_json(input_data, pattern):
     # Iterate over each entry in the input JSON
     for entry in input_data:
         # Extract the task key and value
-        task_key = list(entry.keys())[0]
-        task_value = entry[task_key]
+        task_keys = list(entry.keys())
+        i = 0
 
-        # Extract the floor plan from the task key
-        floor_plan = task_key.split('.')[0]
+        for key in task_keys:
 
-        
-        # Extract the first initial position
-        init_pos = entry["init_pos"][0][0]
-        
+            if i == 0:
+                task_value = entry[key]
+
+                # Extract the floor plan from the task key
+                floor_plan = key.split('.')[0]
+
+            if i == 1:
+                # Extract the first initial position
+                init_pos = entry["init_pos"][0][0]
+
+            if i == 2:
+
+                pass
+
+            i += 1
+
         # Construct the new dictionary
         new_entry = {
             "FloorPlan": floor_plan,
@@ -31,7 +42,12 @@ def transform_json(input_data, pattern):
         
         # Append the new entry to the transformed data list
         data_after.append(new_entry)
+        print(new_entry)
 
+
+
+
+        
         
         return data_after
 
@@ -47,7 +63,6 @@ with open(input_file, 'r') as f:
 first_50_dict = input_json[:50]
 
 # output_file_name = first_key.split('|')[0] + '.json'
-
 # Transform the input JSON
 transformed_data = transform_json(first_50_dict, pattern)
 
