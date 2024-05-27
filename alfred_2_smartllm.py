@@ -4,11 +4,14 @@ import json
 def transform_json(input_data, pattern):
   # List to hold the transformed data
     data_after = []
+    
 
     # Iterate over each entry in the input JSON
     for entry in input_data:
         # Extract the task key and value
         task_keys = list(entry.keys())
+        print(entry)
+
         i = 0
 
         for key in task_keys:
@@ -25,7 +28,7 @@ def transform_json(input_data, pattern):
 
             if i == 2:
 
-                pass
+                i = 0
 
             i += 1
 
@@ -42,14 +45,16 @@ def transform_json(input_data, pattern):
         
         # Append the new entry to the transformed data list
         data_after.append(new_entry)
-        print(new_entry)
+        #print(new_entry)
+    
+    return data_after
 
 
 
 
         
         
-        return data_after
+        
 
 # Load the JSON data from a file
 input_file = '/home/tim/alfred_multiagent/multiagent_tasks_1_summary_with_robot_init_pos.json'
