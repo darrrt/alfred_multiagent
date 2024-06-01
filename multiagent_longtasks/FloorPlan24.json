@@ -139,7 +139,7 @@
         },
         "train/pick_clean_then_place_in_recep-Spatula-None-DiningTable-24/trial_T20190909_021012_621960/traj_data.json":{
             "tasks":[
-                "put washed spatula on kitchen table",
+                "put washed spatula on dining table",
                 "Wash off the spatula so you can place it on the white table.",
                 "Put a cleaned spatula on the table. "
             ],
@@ -322,7 +322,7 @@
         "train/pick_and_place_with_movable_recep-ButterKnife-Cup-DiningTable-24/trial_T20190907_020037_391369/traj_data.json":{
             "tasks":[
                 "Place a cup with a knife in it on a table.",
-                "place a cup with a knife in it on top of the kitchen table",
+                "place a cup with a knife in it on top of the dining table",
                 "Place cup with a knife on the table"
             ],
             "relative_objects":[
@@ -1127,7 +1127,7 @@
         "train/pick_clean_then_place_in_recep-Fork-None-DiningTable-24/trial_T20190906_205125_257251/traj_data.json":{
             "tasks":[
                 "Put a cleaned fork on the table next to the potato. ",
-                "Clean and replace the fork on the kitchen table.",
+                "Clean and replace the fork on the dining table.",
                 "Clean a fork to put it on the table."
             ],
             "relative_objects":[
@@ -1314,7 +1314,7 @@
         },
         "train/pick_heat_then_place_in_recep-Tomato-None-DiningTable-24/trial_T20190907_073329_394002/traj_data.json":{
             "tasks":[
-                "Place a cooked tomato on a kitchen table.",
+                "Place a cooked tomato on a dining table.",
                 "Put a heated tomato on the table. ",
                 "Put a cooked pumpkin on the table."
             ],
@@ -1483,7 +1483,7 @@
     "tasks_2":[
         {
             "task_list":[
-                "put washed spatula on kitchen table",
+                "put washed spatula on dining table",
                 "Chill a microwaved tomato. "
             ],
             "orign":[
@@ -1493,9 +1493,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put washed spatula on kitchen table at any time. Simultaneously, chill a microwaved tomato.",
-                "fintune 2":"Chill a microwaved tomato at any time. Simultaneously, put washed spatula on kitchen table.",
-                "fintune 3":"Put washed spatula on kitchen table. After placing the spatula, chill a microwaved tomato."
+                "fintune 1":"Put washed spatula on dining table at any time. Simultaneously, chill a microwaved tomato.",
+                "fintune 2":"Chill a microwaved tomato at any time. Simultaneously, put washed spatula on dining table.",
+                "fintune 3":"Put washed spatula on dining table. After placing the spatula, chill a microwaved tomato."
             }
         },
         {
@@ -1732,7 +1732,7 @@
             "task_list":[
                 "place a cooled egg inside the microwave",
                 "Put a large metal pan with an apple slice in it in the fridge.",
-                "Place a cooked tomato on a kitchen table.",
+                "Place a cooked tomato on a dining table.",
                 "Put a cleaned fork on the table next to the potato. "
             ],
             "orign":[
@@ -1841,7 +1841,7 @@
                 "Put a chilled wine glass on a table.",
                 "Place the cleaned fruit/apple in the fridge ",
                 "Cool a lettuce, put it on the table",
-                "Place a cooked tomato on a kitchen table.",
+                "Place a cooked tomato on a dining table.",
                 "Put the chilled potato in the sink"
             ],
             "orign":[
@@ -1854,9 +1854,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place the cleaned fruit/apple in the fridge at any time. Simultaneously, put a chilled wine glass on a table. After placing the fruit, cool a lettuce and put it on the table. Once done, place a cooked tomato on a kitchen table. Finally, put the chilled potato in the sink.",
-                "fintune 2":"Put a chilled wine glass on a table at any time. Simultaneously, place the cleaned fruit/apple in the fridge. After placing the wine glass, cool a lettuce and put it on the table. Once done, place a cooked tomato on a kitchen table. Finally, put the chilled potato in the sink.",
-                "fintune 3":"Cool a lettuce and put it on the table at any time. Simultaneously, place a cooked tomato on a kitchen table. After placing the lettuce, put a chilled wine glass on a table. Once done, put the chilled potato in the sink. Finally, place the cleaned fruit/apple in the fridge."
+                "fintune 1":"Place the cleaned fruit/apple in the fridge at any time. Simultaneously, put a chilled wine glass on a table. After placing the fruit, cool a lettuce and put it on the table. Once done, place a cooked tomato on a dining table. Finally, put the chilled potato in the sink.",
+                "fintune 2":"Put a chilled wine glass on a table at any time. Simultaneously, place the cleaned fruit/apple in the fridge. After placing the wine glass, cool a lettuce and put it on the table. Once done, place a cooked tomato on a dining table. Finally, put the chilled potato in the sink.",
+                "fintune 3":"Cool a lettuce and put it on the table at any time. Simultaneously, place a cooked tomato on a dining table. After placing the lettuce, put a chilled wine glass on a table. Once done, put the chilled potato in the sink. Finally, place the cleaned fruit/apple in the fridge."
             }
         },
         {

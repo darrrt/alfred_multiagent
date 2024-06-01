@@ -135,7 +135,7 @@
         },
         "train/pick_and_place_with_movable_recep-Fork-Pan-DiningTable-16/trial_T20190907_135620_184841/traj_data.json":{
             "tasks":[
-                "place a sauce pan down on the kitchen table with a fork in it",
+                "place a sauce pan down on the dining table with a fork in it",
                 "Put the pan with fork on the round table",
                 "put the fork from drawer in the pan, move the pan to the dining table",
                 "Move a fork and pan to the table.",
@@ -149,7 +149,7 @@
         },
         "train/pick_and_place_simple-Ladle-None-SinkBasin-16/trial_T20190906_224212_899748/traj_data.json":{
             "tasks":[
-                "Move one metal spoon from the kitchen table to the sink.",
+                "Move one metal spoon from the dining table to the sink.",
                 "Put a spoon in the sink.",
                 "Move the spoon from the white table to the sink"
             ],
@@ -369,7 +369,7 @@
             "tasks":[
                 "Put a pan with a spoon in it on a table.",
                 "Place a pan with a spoon in it on the table",
-                "place a sauce pan with a spoon in it on the kitchen table"
+                "place a sauce pan with a spoon in it on the dining table"
             ],
             "relative_objects":[
                 "Pan",
@@ -573,7 +573,7 @@
         },
         "train/pick_clean_then_place_in_recep-PotatoSliced-None-DiningTable-16/trial_T20190908_201151_855255/traj_data.json":{
             "tasks":[
-                "Place a clean slice of potato on the kitchen table. ",
+                "Place a clean slice of potato on the dining table. ",
                 "Put the clean slice potato on the table",
                 "put a slice of a potato on top of the white table"
             ],
@@ -989,7 +989,7 @@
         "train/pick_cool_then_place_in_recep-WineBottle-None-DiningTable-16/trial_T20190906_202125_834855/traj_data.json":{
             "tasks":[
                 "Cool down one wine bottle from the table.",
-                "place cooled wine down on the kitchen table",
+                "place cooled wine down on the dining table",
                 "Place a chilled bottle of wine on the table."
             ],
             "relative_objects":[
@@ -1053,7 +1053,7 @@
         },
         "train/pick_heat_then_place_in_recep-Potato-None-DiningTable-16/trial_T20190908_015113_664393/traj_data.json":{
             "tasks":[
-                "Put a cooked potato onto a round kitchen table.",
+                "Put a cooked potato onto a round dining table.",
                 "Place a heated potato on a table.",
                 "Put a cooked potato on the table."
             ],
@@ -1207,7 +1207,7 @@
         },
         "valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-DiningTable-16/trial_T20190909_114508_617301/traj_data.json":{
             "tasks":[
-                "To wash an knife and place it on the kitchen table.",
+                "To wash an knife and place it on the dining table.",
                 "Put a clean butter knife on a round white table.",
                 "Put a clean knife on the table."
             ],
@@ -1242,7 +1242,7 @@
         "valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-16/trial_T20190909_183724_205399/traj_data.json":{
             "tasks":[
                 "Put a clean large metal spoon on the round white table.",
-                "To clean a ladle and put it back on the kitchen table.",
+                "To clean a ladle and put it back on the dining table.",
                 "Place a washed spoon on a table."
             ],
             "relative_objects":[
@@ -1275,7 +1275,7 @@
         },
         "tests_seen/trial_T20190906_204204_985533/traj_data.json":{
             "tasks":[
-                "Pick up a spoon to place in a pan for preparing meal on the kitchen table.",
+                "Pick up a spoon to place in a pan for preparing meal on the dining table.",
                 "Place the pan with the spoon in it on the table."
             ],
             "relative_objects":[
@@ -1288,7 +1288,7 @@
             "tasks":[
                 "Put a bowl with a spatula in it on a table.",
                 "Get utensils out of the cabinet to the table ",
-                "Place a bowl containing a spatula on the kitchen table.",
+                "Place a bowl containing a spatula on the dining table.",
                 "Put a cup with a spatula on a table.",
                 "Get the spatula off the table, put the spatula in the bowl, put the bowl on the table. "
             ],
@@ -1476,7 +1476,7 @@
         },
         {
             "task_list":[
-                "Put a cooked potato onto a round kitchen table.",
+                "Put a cooked potato onto a round dining table.",
                 "Put chilled wine in the cabinet."
             ],
             "orign":[
@@ -1688,7 +1688,7 @@
         },
         {
             "task_list":[
-                "place a sauce pan down on the kitchen table with a fork in it",
+                "place a sauce pan down on the dining table with a fork in it",
                 "Put a heated tomato in the trash.",
                 "Place a chilled loaf of bread on a counter.",
                 "Put a bowl with a spatula on the table."
@@ -1702,9 +1702,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a chilled loaf of bread on a counter at any time. Simultaneously, put a bowl with a spatula on the table. After placing the bread and bowl, place a saucepan down on the kitchen table with a fork in it. Finally, put a heated tomato in the trash.",
-                "fintune 2":"Put a bowl with a spatula on the table at any time. Simultaneously, place a chilled loaf of bread on a counter. After that, place a saucepan down on the kitchen table with a fork in it. Finally, put a heated tomato in the trash.",
-                "fintune 3":"Place a chilled loaf of bread on a counter at any time. After that, put a bowl with a spatula on the table. Simultaneously, place a saucepan down on the kitchen table with a fork in it. Finally, put a heated tomato in the trash."
+                "fintune 1":"Place a chilled loaf of bread on a counter at any time. Simultaneously, put a bowl with a spatula on the table. After placing the bread and bowl, place a saucepan down on the dining table with a fork in it. Finally, put a heated tomato in the trash.",
+                "fintune 2":"Put a bowl with a spatula on the table at any time. Simultaneously, place a chilled loaf of bread on a counter. After that, place a saucepan down on the dining table with a fork in it. Finally, put a heated tomato in the trash.",
+                "fintune 3":"Place a chilled loaf of bread on a counter at any time. After that, put a bowl with a spatula on the table. Simultaneously, place a saucepan down on the dining table with a fork in it. Finally, put a heated tomato in the trash."
             }
         }
     ],
@@ -1758,7 +1758,7 @@
         {
             "task_list":[
                 "Put away the spatulas.",
-                "place a sauce pan down on the kitchen table with a fork in it",
+                "place a sauce pan down on the dining table with a fork in it",
                 "Cool down one wine bottle from the table.",
                 "Put a mug with a spoon in it on the counter.",
                 "Put a washed ladle on a cabinet."
@@ -1773,15 +1773,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a washed ladle on a cabinet. Simultaneously, put a mug with a spoon in it on the counter. After putting away the spatulas, place a sauce pan down on the kitchen table with a fork in it. Finally, cool down one wine bottle from the table.",
-                "fintune 2":"Put a mug with a spoon in it on the counter. Simultaneously, put a washed ladle on a cabinet. After putting away the spatulas, place a sauce pan down on the kitchen table with a fork in it. Finally, cool down one wine bottle from the table.",
-                "fintune 3":"Put away the spatulas. Simultaneously, put a washed ladle on a cabinet and put a mug with a spoon in it on the counter. Then, place a sauce pan down on the kitchen table with a fork in it. Finally, cool down one wine bottle from the table."
+                "fintune 1":"Put a washed ladle on a cabinet. Simultaneously, put a mug with a spoon in it on the counter. After putting away the spatulas, place a sauce pan down on the dining table with a fork in it. Finally, cool down one wine bottle from the table.",
+                "fintune 2":"Put a mug with a spoon in it on the counter. Simultaneously, put a washed ladle on a cabinet. After putting away the spatulas, place a sauce pan down on the dining table with a fork in it. Finally, cool down one wine bottle from the table.",
+                "fintune 3":"Put away the spatulas. Simultaneously, put a washed ladle on a cabinet and put a mug with a spoon in it on the counter. Then, place a sauce pan down on the dining table with a fork in it. Finally, cool down one wine bottle from the table."
             }
         },
         {
             "task_list":[
                 "Place a chilled head of lettuce in a sink.",
-                "Put a cooked potato onto a round kitchen table.",
+                "Put a cooked potato onto a round dining table.",
                 "Put a mug with a spoon in it on the counter.",
                 "Wash the ladle and put it back on the table.",
                 "Put a plate with a knife on it in the sink."
@@ -1796,9 +1796,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a chilled head of lettuce in a sink. Simultaneously, put a cooked potato onto a round kitchen table. After placing the lettuce and potato, put a mug with a spoon in it on the counter. After that, wash the ladle and put it back on the table. Finally, put a plate with a knife on it in the sink.",
-                "fintune 2":"Put a plate with a knife on it in the sink. Simultaneously, put a cooked potato onto a round kitchen table. After placing the plate and potato, wash the ladle and put it back on the table. After that, place a chilled head of lettuce in a sink. Finally, put a mug with a spoon in it on the counter.",
-                "fintune 3":"Place a chilled head of lettuce in a sink. Simultaneously, put a plate with a knife on it in the sink. After placing the lettuce and plate, put a cooked potato onto a round kitchen table. After that, put a mug with a spoon in it on the counter. Finally, wash the ladle and put it back on the table."
+                "fintune 1":"Place a chilled head of lettuce in a sink. Simultaneously, put a cooked potato onto a round dining table. After placing the lettuce and potato, put a mug with a spoon in it on the counter. After that, wash the ladle and put it back on the table. Finally, put a plate with a knife on it in the sink.",
+                "fintune 2":"Put a plate with a knife on it in the sink. Simultaneously, put a cooked potato onto a round dining table. After placing the plate and potato, wash the ladle and put it back on the table. After that, place a chilled head of lettuce in a sink. Finally, put a mug with a spoon in it on the counter.",
+                "fintune 3":"Place a chilled head of lettuce in a sink. Simultaneously, put a plate with a knife on it in the sink. After placing the lettuce and plate, put a cooked potato onto a round dining table. After that, put a mug with a spoon in it on the counter. Finally, wash the ladle and put it back on the table."
             }
         },
         {
@@ -1856,7 +1856,7 @@
                 "Put a cold bread in the trash can ",
                 "Put a plate with a ladle in the cabinet closest to the stove.",
                 "Put cleaned lettuce on the counter.",
-                "Move one metal spoon from the kitchen table to the sink.",
+                "Move one metal spoon from the dining table to the sink.",
                 "Put a bowl with a spatula in it on a table.",
                 "Pick up a bottle, place it into the fridge, take it back to the trash"
             ],
@@ -1871,7 +1871,7 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put cleaned lettuce on the counter at any time. Simultaneously, move one metal spoon from the kitchen table to the sink. After putting the lettuce and spoon, put a plate with a ladle in the cabinet closest to the stove.",
+                "fintune 1":"Put cleaned lettuce on the counter at any time. Simultaneously, move one metal spoon from the dining table to the sink. After putting the lettuce and spoon, put a plate with a ladle in the cabinet closest to the stove.",
                 "fintune 2":"Put a bowl with a spatula in it on a table at any time. Simultaneously, pick up a bottle, place it into the fridge, then take it back to the trash.",
                 "fintune 3":"Put a cold bread in the trash can at any time. Simultaneously, pick up a bottle, place it into the fridge, then take it back to the trash. After disposing of the bread and bottle, put a plate with a ladle in the cabinet closest to the stove."
             }
@@ -1880,7 +1880,7 @@
             "task_list":[
                 "cook the apple in the microwave, put it in the refrigerator",
                 "Place the microwaved bread slice into the waste basket.",
-                "Put a cooked potato onto a round kitchen table.",
+                "Put a cooked potato onto a round dining table.",
                 "Put a plate with a knife on it in the sink.",
                 "Put a chilled wine bottle on the counter.",
                 "Put a spoon in a bowl in the sink. "
@@ -1896,9 +1896,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Cook the apple in the microwave, put it in the refrigerator at any time. At the same time, put a plate with a knife on it in the sink. After cooking the apple, put a chilled wine bottle on the counter. Once done, put a cooked potato onto a round kitchen table, followed by putting a spoon in a bowl in the sink.",
-                "fintune 2":"Put a plate with a knife on it in the sink at any time. Simultaneously, put a chilled wine bottle on the counter. After that, cook the apple in the microwave and put it in the refrigerator. Once done, put a cooked potato onto a round kitchen table, followed by placing the microwaved bread slice into the waste basket.",
-                "fintune 3":"Cook the apple in the microwave, put it in the refrigerator at any time. Simultaneously, put a spoon in a bowl in the sink. After cooking the apple, put a plate with a knife on it in the sink. Next, put a chilled wine bottle on the counter and then put a cooked potato onto a round kitchen table."
+                "fintune 1":"Cook the apple in the microwave, put it in the refrigerator at any time. At the same time, put a plate with a knife on it in the sink. After cooking the apple, put a chilled wine bottle on the counter. Once done, put a cooked potato onto a round dining table, followed by putting a spoon in a bowl in the sink.",
+                "fintune 2":"Put a plate with a knife on it in the sink at any time. Simultaneously, put a chilled wine bottle on the counter. After that, cook the apple in the microwave and put it in the refrigerator. Once done, put a cooked potato onto a round dining table, followed by placing the microwaved bread slice into the waste basket.",
+                "fintune 3":"Cook the apple in the microwave, put it in the refrigerator at any time. Simultaneously, put a spoon in a bowl in the sink. After cooking the apple, put a plate with a knife on it in the sink. Next, put a chilled wine bottle on the counter and then put a cooked potato onto a round dining table."
             }
         },
         {
@@ -1931,7 +1931,7 @@
                 "Put a frying pan with a fork in it on a round table.",
                 "Place a apple on a table.",
                 "Chill bottle in refrigerator, throw in trash can to front left of paper towels",
-                "Move one metal spoon from the kitchen table to the sink.",
+                "Move one metal spoon from the dining table to the sink.",
                 "Put a plate with a ladle in the cabinet closest to the stove.",
                 "Put the washed potato slice on the table"
             ],
@@ -1946,9 +1946,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move one metal spoon from the kitchen table to the sink. Simultaneously, Put a frying pan with a fork in it on a round table. After moving the spoon and placing the frying pan, place a apple on a table.",
+                "fintune 1":"Move one metal spoon from the dining table to the sink. Simultaneously, Put a frying pan with a fork in it on a round table. After moving the spoon and placing the frying pan, place a apple on a table.",
                 "fintune 2":"Put a plate with a ladle in the cabinet closest to the stove. Afterward, Chill bottle in refrigerator, throw in trash can to front left of paper towels. Once that is done, Put the washed potato slice on the table.",
-                "fintune 3":"Put a frying pan with a fork in it on a round table at any time. Simultaneously, Put the washed potato slice on the table. After placing the frying pan and the potato slice,Move one metal spoon from the kitchen table to the sink. Next, Put a plate with a ladle in the cabinet closest to the stove. Finally, place a apple on a table."
+                "fintune 3":"Put a frying pan with a fork in it on a round table at any time. Simultaneously, Put the washed potato slice on the table. After placing the frying pan and the potato slice,Move one metal spoon from the dining table to the sink. Next, Put a plate with a ladle in the cabinet closest to the stove. Finally, place a apple on a table."
             }
         }
     ],

@@ -190,7 +190,7 @@
         },
         "train/pick_heat_then_place_in_recep-Potato-None-DiningTable-11/trial_T20190909_101343_448575/traj_data.json":{
             "tasks":[
-                "TO heat a potato and place it on the kitchen table.",
+                "TO heat a potato and place it on the dining table.",
                 "Put a cooked potato on a table.",
                 "Cook the potato and put it on the table"
             ],
@@ -226,7 +226,7 @@
         "train/pick_clean_then_place_in_recep-Egg-None-DiningTable-11/trial_T20190908_021945_742587/traj_data.json":{
             "tasks":[
                 "Put the a clean egg on the table.",
-                "Move a clean egg to a kitchen table. ",
+                "Move a clean egg to a dining table. ",
                 "Put a cleaned egg on a dining table."
             ],
             "relative_objects":[
@@ -298,7 +298,7 @@
         },
         "train/pick_cool_then_place_in_recep-TomatoSliced-None-DiningTable-11/trial_T20190918_185859_702751/traj_data.json":{
             "tasks":[
-                "Slice a tomato, chill it and put it on the kitchen table",
+                "Slice a tomato, chill it and put it on the dining table",
                 "Put a chilled tomato on a table.",
                 "Place a chilled piece of tomato on the table across from the fridge."
             ],
@@ -495,7 +495,7 @@
             "tasks":[
                 "Place a metal bowl with a tomato slice inside on a white table.",
                 "Put a cooking pot with a tomato slice in it on a table.",
-                "place a pan with a tomato slice inside down on the kitchen table",
+                "place a pan with a tomato slice inside down on the dining table",
                 "To cut a tomato slice plus putting it into a pot as well as moving the pot from the stove to a table.",
                 "Slice tomato to put in pot.",
                 "Move a pot from the stove to the table by the door. "
@@ -990,7 +990,7 @@
             "tasks":[
                 "Place a mug with a knife on the table",
                 "Put a mug with a knife in it on a dining table.",
-                "move a knife into a mug on a kitchen table"
+                "move a knife into a mug on a dining table"
             ],
             "relative_objects":[
                 "Knife",
@@ -1501,7 +1501,7 @@
         },
         {
             "task_list":[
-                "Slice a tomato, chill it and put it on the kitchen table",
+                "Slice a tomato, chill it and put it on the dining table",
                 "Put a cleaned kettle in a cabinet. "
             ],
             "orign":[
@@ -1511,9 +1511,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Slice a tomato, chill it and put it on the kitchen table at any time. Simultaneously, put a cleaned kettle in a cabinet.",
-                "fintune 2":"Put a cleaned kettle in a cabinet at any time. After that, slice a tomato, chill it and put it on the kitchen table.",
-                "fintune 3":"Slice a tomato, chill it and put it on the kitchen table at any time. After that, put a cleaned kettle in a cabinet."
+                "fintune 1":"Slice a tomato, chill it and put it on the dining table at any time. Simultaneously, put a cleaned kettle in a cabinet.",
+                "fintune 2":"Put a cleaned kettle in a cabinet at any time. After that, slice a tomato, chill it and put it on the dining table.",
+                "fintune 3":"Slice a tomato, chill it and put it on the dining table at any time. After that, put a cleaned kettle in a cabinet."
             }
         },
         {
@@ -1805,7 +1805,7 @@
         {
             "task_list":[
                 "Put a warm egg in the recycle bin. ",
-                "Slice a tomato, chill it and put it on the kitchen table",
+                "Slice a tomato, chill it and put it on the dining table",
                 "Put a washed piece of lettuce into the refrigerator",
                 "cool a piece of bread",
                 "Put the washed tea kettle in the cabinet. "
@@ -1820,9 +1820,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a warm egg in the recycle bin at any time. Simultaneously, put the washed tea kettle in the cabinet. After disposing of the egg and placing the kettle, slice a tomato, chill it and put it on the kitchen table. Finally, put a washed piece of lettuce into the refrigerator and cool a piece of bread.",
-                "fintune 2":"Put a washed piece of lettuce into the refrigerator at any time. Simultaneously, put the washed tea kettle in the cabinet. After storing the lettuce and the kettle, cool a piece of bread. Next, slice a tomato, chill it and put it on the kitchen table. Lastly, put a warm egg in the recycle bin.",
-                "fintune 3":"Slice a tomato, chill it and put it on the kitchen table at any time. After placing the tomato, put a washed piece of lettuce into the refrigerator. Next, put the washed tea kettle in the cabinet. Then, cool a piece of bread. Finally, put a warm egg in the recycle bin."
+                "fintune 1":"Put a warm egg in the recycle bin at any time. Simultaneously, put the washed tea kettle in the cabinet. After disposing of the egg and placing the kettle, slice a tomato, chill it and put it on the dining table. Finally, put a washed piece of lettuce into the refrigerator and cool a piece of bread.",
+                "fintune 2":"Put a washed piece of lettuce into the refrigerator at any time. Simultaneously, put the washed tea kettle in the cabinet. After storing the lettuce and the kettle, cool a piece of bread. Next, slice a tomato, chill it and put it on the dining table. Lastly, put a warm egg in the recycle bin.",
+                "fintune 3":"Slice a tomato, chill it and put it on the dining table at any time. After placing the tomato, put a washed piece of lettuce into the refrigerator. Next, put the washed tea kettle in the cabinet. Then, cool a piece of bread. Finally, put a warm egg in the recycle bin."
             }
         },
         {

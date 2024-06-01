@@ -197,7 +197,7 @@
         "train/pick_clean_then_place_in_recep-Ladle-None-DiningTable-27/trial_T20190911_131452_462560/traj_data.json":{
             "tasks":[
                 "Put the washed ladle on the gray pot on the table.",
-                "Put a clean ladle on a kitchen table.",
+                "Put a clean ladle on a dining table.",
                 "Place a rinsed spoon on a table."
             ],
             "relative_objects":[
@@ -475,7 +475,7 @@
         },
         "train/pick_cool_then_place_in_recep-Pot-None-DiningTable-27/trial_T20190909_013353_413841/traj_data.json":{
             "tasks":[
-                "Place a chilled pan on the kitchen table. ",
+                "Place a chilled pan on the dining table. ",
                 "Chill a pan and place it on the table.",
                 "Put a cold pan on the table. "
             ],
@@ -566,7 +566,7 @@
             "tasks":[
                 "To chill a piece of apple and put it down on the white table. ",
                 "Cut an apple slice, chill it to place on a table",
-                "Slice, chill and place an apple on a kitchen table"
+                "Slice, chill and place an apple on a dining table"
             ],
             "relative_objects":[
                 "ButterKnife",
@@ -631,7 +631,7 @@
                 "Put a clean, apple slice in the dining table.",
                 "Place a clean apple slice on the table.",
                 "Place a rinsed apple slice onto a table located next to a wall.",
-                "Put a rinsed piece of an apple on a kitchen table.",
+                "Put a rinsed piece of an apple on a dining table.",
                 "Put a washed slice of apple on the table. ",
                 "Put a rinsed slice of apple on the table."
             ],
@@ -790,7 +790,7 @@
         },
         "train/pick_and_place_with_movable_recep-Knife-Mug-DiningTable-27/trial_T20190907_175400_807268/traj_data.json":{
             "tasks":[
-                "Put a mug with a knife in it on the kitchen table.",
+                "Put a mug with a knife in it on the dining table.",
                 "Put a knife into a cup in the fridge, put them on the table",
                 "put knife into white mug and place on white table"
             ],
@@ -997,7 +997,7 @@
         },
         "train/pick_cool_then_place_in_recep-LettuceSliced-None-DiningTable-27/trial_T20190909_061209_506966/traj_data.json":{
             "tasks":[
-                "To cool a slice of lettuce and place it on the kitchen table.",
+                "To cool a slice of lettuce and place it on the dining table.",
                 "Cool a slice of lettuce",
                 "Place a cold lettuce slice on the table."
             ],
@@ -1365,7 +1365,7 @@
         },
         {
             "task_list":[
-                "To cool a slice of lettuce and place it on the kitchen table."
+                "To cool a slice of lettuce and place it on the dining table."
             ],
             "orign":[
                 [
@@ -1810,7 +1810,7 @@
                 "place a cold lettuce slice at the side of the fridge",
                 "To cool a slice of potato and place it on the table.",
                 "To cool a slice of tomato and place it in the microwave.",
-                "Place a chilled pan on the kitchen table. "
+                "Place a chilled pan on the dining table. "
             ],
             "orign":[
                 [
@@ -1823,9 +1823,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"To chill a piece of apple and put it down on the white table at any time. Simultaneously, put a cup with a knife in it on the table to the left of the sink. After placing the apple, place a cold lettuce slice at the side of the fridge. Once done, cool a slice of potato and place it on the table. Afterwards, cool a slice of tomato and place it in the microwave. Finally, place a chilled pan on the kitchen table.",
-                "fintune 2":"To chill a piece of apple and put it down on the white table at any time. Simultaneously, put a cup with a knife in it on the table to the left of the sink. After placing the apple, place a cold lettuce slice at the side of the fridge. Once done, place a chilled pan on the kitchen table. After that, cool a slice of potato and place it on the table. Lastly, cool a slice of tomato and place it in the microwave.",
-                "fintune 3":"Put a cup with a knife in it on the table to the left of the sink at any time. Simultaneously, place a cold lettuce slice at the side of the fridge. After placing the cup, cool a slice of potato and place it on the table. Then, cool a slice of tomato and place it in the microwave. Once done, chill a piece of apple and put it down on the white table. Finally, place a chilled pan on the kitchen table."
+                "fintune 1":"To chill a piece of apple and put it down on the white table at any time. Simultaneously, put a cup with a knife in it on the table to the left of the sink. After placing the apple, place a cold lettuce slice at the side of the fridge. Once done, cool a slice of potato and place it on the table. Afterwards, cool a slice of tomato and place it in the microwave. Finally, place a chilled pan on the dining table.",
+                "fintune 2":"To chill a piece of apple and put it down on the white table at any time. Simultaneously, put a cup with a knife in it on the table to the left of the sink. After placing the apple, place a cold lettuce slice at the side of the fridge. Once done, place a chilled pan on the dining table. After that, cool a slice of potato and place it on the table. Lastly, cool a slice of tomato and place it in the microwave.",
+                "fintune 3":"Put a cup with a knife in it on the table to the left of the sink at any time. Simultaneously, place a cold lettuce slice at the side of the fridge. After placing the cup, cool a slice of potato and place it on the table. Then, cool a slice of tomato and place it in the microwave. Once done, chill a piece of apple and put it down on the white table. Finally, place a chilled pan on the dining table."
             }
         },
         {

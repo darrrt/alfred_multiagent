@@ -48,7 +48,7 @@
             "tasks":[
                 "Put a bowl with a spoon in it on the table.",
                 "Move a spoon and bowl to a table",
-                "To put a spoon in a bowl plus moving them to the kitchen table."
+                "To put a spoon in a bowl plus moving them to the dining table."
             ],
             "relative_objects":[
                 "Bowl",
@@ -126,7 +126,7 @@
         },
         "train/pick_heat_then_place_in_recep-AppleSliced-None-DiningTable-18/trial_T20190908_203745_938189/traj_data.json":{
             "tasks":[
-                "To heat a piece of apple as well as place it on the kitchen table.",
+                "To heat a piece of apple as well as place it on the dining table.",
                 "Microwave a slice of yellow fruit and bring it back to the round black table.",
                 "Put a cooked slice of apple on the table."
             ],
@@ -140,7 +140,7 @@
             "tasks":[
                 "Place a cooked section of apple on the table.",
                 "Cut an apple, cook a piece of the apple",
-                "To heat a piece of apple and place it on the kitchen table."
+                "To heat a piece of apple and place it on the dining table."
             ],
             "relative_objects":[
                 "Knife",
@@ -213,7 +213,7 @@
         "train/pick_cool_then_place_in_recep-LettuceSliced-None-DiningTable-18/trial_T20190907_142152_300348/traj_data.json":{
             "tasks":[
                 "Put a chilled slice of lettuce on a table.",
-                "Place a chilled piece of lettuce on the kitchen table.",
+                "Place a chilled piece of lettuce on the dining table.",
                 "Put a cold slice of lettuce on a table.",
                 "Place a cold slice of lettuce on the dining table. ",
                 "Put a slice of lettuce in the center of a table."
@@ -408,7 +408,7 @@
             "tasks":[
                 "Put a chilled head of lettuce in a sink",
                 "Put a chilled head of lettuce in the kitchen sink.",
-                "To move a head of lettuce from the kitchen table to the sink."
+                "To move a head of lettuce from the dining table to the sink."
             ],
             "relative_objects":[
                 "Lettuce"
@@ -665,7 +665,7 @@
             "tasks":[
                 "Put a slice of apple on a table.",
                 "slice an apple and cool one of the slices in the refrigerator",
-                "To cool a piece of apple and place it on the kitchen table."
+                "To cool a piece of apple and place it on the dining table."
             ],
             "relative_objects":[
                 "Knife",
@@ -675,7 +675,7 @@
         },
         "train/pick_cool_then_place_in_recep-AppleSliced-None-DiningTable-18/trial_T20190909_022438_980686/traj_data.json":{
             "tasks":[
-                "TO cool a piece of apple and place it on the kitchen table.",
+                "TO cool a piece of apple and place it on the dining table.",
                 "Place a cold apple slice on the table.",
                 "Cut an apple, cool a piece of the apple"
             ],
@@ -902,7 +902,7 @@
         "train/pick_and_place_simple-Kettle-None-Cabinet-18/trial_T20190918_172244_129893/traj_data.json":{
             "tasks":[
                 "put a kettle inside a cabinet",
-                "To move a tea pot from the kitchen table to a cabinet at the left end of the stove.",
+                "To move a tea pot from the dining table to a cabinet at the left end of the stove.",
                 "Place a tea kettle in a cabinet."
             ],
             "relative_objects":[
@@ -999,7 +999,7 @@
         "train/pick_clean_then_place_in_recep-Kettle-None-DiningTable-18/trial_T20190908_085532_288859/traj_data.json":{
             "tasks":[
                 "Wash the kettle in the sink and put in on the black table.",
-                "place a tea kettle with water inside on the kitchen table",
+                "place a tea kettle with water inside on the dining table",
                 "Put the tea pot on the black round table to the left of the plant. "
             ],
             "relative_objects":[
@@ -1667,7 +1667,7 @@
         {
             "task_list":[
                 "Put cooked potato on a counter. ",
-                "To heat a piece of apple as well as place it on the kitchen table."
+                "To heat a piece of apple as well as place it on the dining table."
             ],
             "orign":[
                 [
@@ -1676,9 +1676,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put cooked potato on a counter at any time. Simultaneously, heat a piece of apple and place it on the kitchen table.",
-                "fintune 2":"Heat a piece of apple and place it on the kitchen table at any time. After that, put cooked potato on a counter.",
-                "fintune 3":"Put cooked potato on a counter before heating a piece of apple. Once the potato is placed, heat the apple and place it on the kitchen table."
+                "fintune 1":"Put cooked potato on a counter at any time. Simultaneously, heat a piece of apple and place it on the dining table.",
+                "fintune 2":"Heat a piece of apple and place it on the dining table at any time. After that, put cooked potato on a counter.",
+                "fintune 3":"Put cooked potato on a counter before heating a piece of apple. Once the potato is placed, heat the apple and place it on the dining table."
             }
         },
         {
@@ -1742,7 +1742,7 @@
             "task_list":[
                 "Put a white cup into the refrigerator and close the refrigerator door. ",
                 "Place the microwaved bread inside of the refrigerator.",
-                "To heat a piece of apple as well as place it on the kitchen table."
+                "To heat a piece of apple as well as place it on the dining table."
             ],
             "orign":[
                 [
@@ -1752,9 +1752,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"To heat a piece of apple as well as place it on the kitchen table. Simultaneously, put a white cup into the refrigerator and close the refrigerator door. After heating the apple and placing it on the table, place the microwaved bread inside of the refrigerator.",
-                "fintune 2":"To heat a piece of apple as well as place it on the kitchen table. Simultaneously, put a white cup into the refrigerator and close the refrigerator door. Simultaneously, place the microwaved bread inside of the refrigerator.",
-                "fintune 3":"Put a white cup into the refrigerator and close the refrigerator door. To heat a piece of apple as well as place it on the kitchen table. After putting the cup in the refrigerator, place the microwaved bread inside of the refrigerator."
+                "fintune 1":"To heat a piece of apple as well as place it on the dining table. Simultaneously, put a white cup into the refrigerator and close the refrigerator door. After heating the apple and placing it on the table, place the microwaved bread inside of the refrigerator.",
+                "fintune 2":"To heat a piece of apple as well as place it on the dining table. Simultaneously, put a white cup into the refrigerator and close the refrigerator door. Simultaneously, place the microwaved bread inside of the refrigerator.",
+                "fintune 3":"Put a white cup into the refrigerator and close the refrigerator door. To heat a piece of apple as well as place it on the dining table. After putting the cup in the refrigerator, place the microwaved bread inside of the refrigerator."
             }
         },
         {
@@ -1778,7 +1778,7 @@
         },
         {
             "task_list":[
-                "To heat a piece of apple as well as place it on the kitchen table.",
+                "To heat a piece of apple as well as place it on the dining table.",
                 "Put in the chilled bowl inside the cabinet",
                 "Cool a pan in the refrigerator to place on the back left burner of the stove. "
             ],
@@ -1790,9 +1790,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Cool a pan in the refrigerator to place on the back left burner of the stove at any time. Afterwards, put in the chilled bowl inside the cabinet. Finally, heat a piece of apple as well as place it on the kitchen table.",
-                "fintune 2":"Put in the chilled bowl inside the cabinet at any time. Simultaneously, cool a pan in the refrigerator to place on the back left burner of the stove. Once both these tasks are completed, heat a piece of apple as well as place it on the kitchen table.",
-                "fintune 3":"Heat a piece of apple as well as place it on the kitchen table at any time. Then, cool a pan in the refrigerator to place on the back left burner of the stove. Finally, put in the chilled bowl inside the cabinet."
+                "fintune 1":"Cool a pan in the refrigerator to place on the back left burner of the stove at any time. Afterwards, put in the chilled bowl inside the cabinet. Finally, heat a piece of apple as well as place it on the dining table.",
+                "fintune 2":"Put in the chilled bowl inside the cabinet at any time. Simultaneously, cool a pan in the refrigerator to place on the back left burner of the stove. Once both these tasks are completed, heat a piece of apple as well as place it on the dining table.",
+                "fintune 3":"Heat a piece of apple as well as place it on the dining table at any time. Then, cool a pan in the refrigerator to place on the back left burner of the stove. Finally, put in the chilled bowl inside the cabinet."
             }
         }
     ],

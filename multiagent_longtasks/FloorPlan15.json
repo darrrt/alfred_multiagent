@@ -108,8 +108,8 @@
         "train/pick_and_place_with_movable_recep-Knife-Pan-DiningTable-15/trial_T20190908_062153_135818/traj_data.json":{
             "tasks":[
                 "Place a pan with a knife on a table.",
-                "Move a pan with a knife in it to the kitchen table. ",
-                "Put a knife into a pan and move the pan from the counter to the kitchen table."
+                "Move a pan with a knife in it to the dining table. ",
+                "Put a knife into a pan and move the pan from the counter to the dining table."
             ],
             "relative_objects":[
                 "Knife",
@@ -144,7 +144,7 @@
             "tasks":[
                 "Place a cup with a fork on the table.",
                 "Put a mug with a fork in it on the table. ",
-                "Put a fork in a cup and place it in on the kitchen table."
+                "Put a fork in a cup and place it in on the dining table."
             ],
             "relative_objects":[
                 "Fork",
@@ -438,8 +438,8 @@
             "tasks":[
                 "Put a spoon on a plate on the table.",
                 "Put the plate with the spoon on the table. ",
-                "Put a plate with a spoon on it at the end of the kitchen table.",
-                "Put a plate with a spoon on it on the kitchen table"
+                "Put a plate with a spoon on it at the end of the dining table.",
+                "Put a plate with a spoon on it on the dining table"
             ],
             "relative_objects":[
                 "Plate",
@@ -531,7 +531,7 @@
         },
         "train/pick_and_place_simple-WineBottle-None-DiningTable-15/trial_T20190906_184006_967003/traj_data.json":{
             "tasks":[
-                "Move a wine bottle from a bin to the kitchen table.",
+                "Move a wine bottle from a bin to the dining table.",
                 "Place a bottle on the white table.",
                 "Put a bottle from the bin on a table.",
                 "Place a green bottle on top of the table.",
@@ -608,7 +608,7 @@
         "train/pick_and_place_with_movable_recep-DishSponge-Pot-DiningTable-15/trial_T20190909_000925_292180/traj_data.json":{
             "tasks":[
                 "Put a brass pot with a sponge in it on a white table.",
-                "Set down a pot with a sponge inside on the white kitchen table. ",
+                "Set down a pot with a sponge inside on the white dining table. ",
                 "place pot with green sponge on table by wood stool"
             ],
             "relative_objects":[
@@ -619,7 +619,7 @@
         "train/pick_and_place_with_movable_recep-DishSponge-Pot-DiningTable-15/trial_T20190909_000847_931640/traj_data.json":{
             "tasks":[
                 "Put a pot with sponge on the table. ",
-                "place a pan with a sponge in it down on the kitchen table",
+                "place a pan with a sponge in it down on the dining table",
                 "put pot and sponge onto table"
             ],
             "relative_objects":[
@@ -730,7 +730,7 @@
             "tasks":[
                 "Put a pan with a knife in it on the table. ",
                 "Place a frying pan with a metal butter knife in it on a white table.",
-                "put a sauce pan with a butter knife on it on top of the kitchen table"
+                "put a sauce pan with a butter knife on it on top of the dining table"
             ],
             "relative_objects":[
                 "ButterKnife",
@@ -740,7 +740,7 @@
         },
         "train/pick_and_place_with_movable_recep-ButterKnife-Pan-DiningTable-15/trial_T20190906_212512_408611/traj_data.json":{
             "tasks":[
-                "place a sauce pan with a knife in it on top of the kitchen table",
+                "place a sauce pan with a knife in it on top of the dining table",
                 "Place a plate with a knife on it on a table."
             ],
             "relative_objects":[
@@ -903,7 +903,7 @@
         },
         "train/pick_cool_then_place_in_recep-Bread-None-DiningTable-15/trial_T20190908_195749_792875/traj_data.json":{
             "tasks":[
-                "place a cooled loaf of bread down on the kitchen table",
+                "place a cooled loaf of bread down on the dining table",
                 "To cool a loaf of bread as well as return it to the white table.",
                 "Put cold bread on the table."
             ],
@@ -991,7 +991,7 @@
             "tasks":[
                 "move the frying pan from the counter to the table",
                 "Place a pan on a table",
-                "Move the dish from the counter to the white kitchen table."
+                "Move the dish from the counter to the white dining table."
             ],
             "relative_objects":[
                 "Pan",
@@ -1090,7 +1090,7 @@
         "train/pick_clean_then_place_in_recep-Kettle-None-DiningTable-15/trial_T20190909_151144_561657/traj_data.json":{
             "tasks":[
                 "Put a rinsed teakettle on the white table.",
-                "Rinse a tea kettle and place it on the kitchen table",
+                "Rinse a tea kettle and place it on the dining table",
                 "Put a clean kettle on the white table."
             ],
             "relative_objects":[
@@ -1317,7 +1317,7 @@
         },
         {
             "task_list":[
-                "place a sauce pan with a knife in it on top of the kitchen table"
+                "place a sauce pan with a knife in it on top of the dining table"
             ],
             "orign":[
                 [
@@ -1495,7 +1495,7 @@
             "task_list":[
                 "Rinse a tea kettle to put on the table.",
                 "Put a chilled apple on the table. ",
-                "place a sauce pan with a knife in it on top of the kitchen table"
+                "place a sauce pan with a knife in it on top of the dining table"
             ],
             "orign":[
                 [
@@ -1505,9 +1505,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a chilled apple on the table at any time. Simultaneously, rinse a tea kettle to put on the table. After completing these tasks, place a sauce pan with a knife in it on top of the kitchen table.",
-                "fintune 2":"Rinse a tea kettle to put on the table at any time. Simultaneously, place a sauce pan with a knife in it on top of the kitchen table. After completing these tasks, put a chilled apple on the table.",
-                "fintune 3":"Place a sauce pan with a knife in it on top of the kitchen table at any time. Simultaneously, rinse a tea kettle to put on the table. After completing these tasks, put a chilled apple on the table."
+                "fintune 1":"Put a chilled apple on the table at any time. Simultaneously, rinse a tea kettle to put on the table. After completing these tasks, place a sauce pan with a knife in it on top of the dining table.",
+                "fintune 2":"Rinse a tea kettle to put on the table at any time. Simultaneously, place a sauce pan with a knife in it on top of the dining table. After completing these tasks, put a chilled apple on the table.",
+                "fintune 3":"Place a sauce pan with a knife in it on top of the dining table at any time. Simultaneously, rinse a tea kettle to put on the table. After completing these tasks, put a chilled apple on the table."
             }
         },
         {
@@ -1597,7 +1597,7 @@
         {
             "task_list":[
                 "Place a hot potato on the counter.",
-                "Move a wine bottle from a bin to the kitchen table.",
+                "Move a wine bottle from a bin to the dining table.",
                 "Heat the bread in microwave, cool it down in the fridge",
                 "Warm a cup up and put it away in cupboard."
             ],
@@ -1610,9 +1610,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a hot potato on the counter at any time. Simultaneously, warm a cup up and put it away in cupboard. After placing the potato and warming the cup, move a wine bottle from a bin to the kitchen table. Heat the bread in microwave, and once done, cool it down in the fridge.",
-                "fintune 2":"Heat the bread in microwave, cool it down in the fridge. After heating and cooling the bread, place a hot potato on the counter. Simultaneously, warm a cup up and put it away in cupboard. Once the cup is warmed and stored, move a wine bottle from a bin to the kitchen table.",
-                "fintune 3":"Move a wine bottle from a bin to the kitchen table at any time. Simultaneously, heat the bread in microwave and cool it down in the fridge. After moving the wine bottle and cooling the bread, place a hot potato on the counter. Warm a cup up and put it away in cupboard."
+                "fintune 1":"Place a hot potato on the counter at any time. Simultaneously, warm a cup up and put it away in cupboard. After placing the potato and warming the cup, move a wine bottle from a bin to the dining table. Heat the bread in microwave, and once done, cool it down in the fridge.",
+                "fintune 2":"Heat the bread in microwave, cool it down in the fridge. After heating and cooling the bread, place a hot potato on the counter. Simultaneously, warm a cup up and put it away in cupboard. Once the cup is warmed and stored, move a wine bottle from a bin to the dining table.",
+                "fintune 3":"Move a wine bottle from a bin to the dining table at any time. Simultaneously, heat the bread in microwave and cool it down in the fridge. After moving the wine bottle and cooling the bread, place a hot potato on the counter. Warm a cup up and put it away in cupboard."
             }
         },
         {

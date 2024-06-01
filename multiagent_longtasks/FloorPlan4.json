@@ -637,7 +637,7 @@
             "tasks":[
                 "Chill pan in fridge, put on table.",
                 "Put a cold bowl near the bread on the table across the fridge. ",
-                "Move a chilled pan to the kitchen table."
+                "Move a chilled pan to the dining table."
             ],
             "relative_objects":[
                 "Pan",
@@ -703,7 +703,7 @@
             "tasks":[
                 "Put the chilled  glass on the table",
                 "Move bowl to table.",
-                "To cool a glass in the fridge and place it on the kitchen table."
+                "To cool a glass in the fridge and place it on the dining table."
             ],
             "relative_objects":[
                 "Bowl"
@@ -1141,7 +1141,7 @@
         "train/pick_clean_then_place_in_recep-LettuceSliced-None-DiningTable-4/trial_T20190909_074018_639968/traj_data.json":{
             "tasks":[
                 "Putting clean sliced lettuce on a table",
-                "To wash a slice of lettuce and place it on the kitchen table.",
+                "To wash a slice of lettuce and place it on the dining table.",
                 "Place a clean lettuce slice on the table."
             ],
             "relative_objects":[
@@ -1466,8 +1466,8 @@
         },
         "tests_seen/trial_T20190908_103506_064692/traj_data.json":{
             "tasks":[
-                "place a bowl with a spoon in it down on the kitchen table",
-                "put a bowl and spoon onto a kitchen table",
+                "place a bowl with a spoon in it down on the dining table",
+                "put a bowl and spoon onto a dining table",
                 "Get spoon from back of sink, put in bowl in refrigerator, put bowl and spoon on table."
             ],
             "relative_objects":[
@@ -1705,7 +1705,7 @@
         },
         {
             "task_list":[
-                "place a bowl with a spoon in it down on the kitchen table",
+                "place a bowl with a spoon in it down on the dining table",
                 "Put a cold plate in the cabinet below the counter.",
                 "Place a cup with a knife in it on the ledge of the sink."
             ],
@@ -1717,15 +1717,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a cup with a knife in it on the ledge of the sink at any time. Simultaneously, put a cold plate in the cabinet below the counter. After placing the cup, place a bowl with a spoon in it down on the kitchen table.",
-                "fintune 2":"Put a cold plate in the cabinet below the counter at any time. Simultaneously, place a cup with a knife in it on the ledge of the sink. After placing the plate, place a bowl with a spoon in it down on the kitchen table.",
-                "fintune 3":"Place a bowl with a spoon in it down on the kitchen table at any time. Simultaneously, place a cup with a knife in it on the ledge of the sink. After placing the bowl, put a cold plate in the cabinet below the counter."
+                "fintune 1":"Place a cup with a knife in it on the ledge of the sink at any time. Simultaneously, put a cold plate in the cabinet below the counter. After placing the cup, place a bowl with a spoon in it down on the dining table.",
+                "fintune 2":"Put a cold plate in the cabinet below the counter at any time. Simultaneously, place a cup with a knife in it on the ledge of the sink. After placing the plate, place a bowl with a spoon in it down on the dining table.",
+                "fintune 3":"Place a bowl with a spoon in it down on the dining table at any time. Simultaneously, place a cup with a knife in it on the ledge of the sink. After placing the bowl, put a cold plate in the cabinet below the counter."
             }
         },
         {
             "task_list":[
                 "place a microwaved apple slice inside of the sink",
-                "place a bowl with a spoon in it down on the kitchen table",
+                "place a bowl with a spoon in it down on the dining table",
                 "Put a washed tomato on the table."
             ],
             "orign":[
@@ -1736,9 +1736,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a microwaved apple slice inside of the sink. Simultaneously, place a bowl with a spoon in it down on the kitchen table. After placing the apple slice and the bowl, put a washed tomato on the table.",
-                "fintune 2":"Place a microwaved apple slice inside of the sink at any time. Put a washed tomato on the table. After placing the tomato, place a bowl with a spoon in it down on the kitchen table.",
-                "fintune 3":"Put a washed tomato on the table. Simultaneously, place a bowl with a spoon in it down on the kitchen table. After placing the tomato and the bowl, place a microwaved apple slice inside of the sink."
+                "fintune 1":"Place a microwaved apple slice inside of the sink. Simultaneously, place a bowl with a spoon in it down on the dining table. After placing the apple slice and the bowl, put a washed tomato on the table.",
+                "fintune 2":"Place a microwaved apple slice inside of the sink at any time. Put a washed tomato on the table. After placing the tomato, place a bowl with a spoon in it down on the dining table.",
+                "fintune 3":"Put a washed tomato on the table. Simultaneously, place a bowl with a spoon in it down on the dining table. After placing the tomato and the bowl, place a microwaved apple slice inside of the sink."
             }
         },
         {

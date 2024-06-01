@@ -49,7 +49,7 @@
         },
         "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214830_497445/traj_data.json":{
             "tasks":[
-                "Take the box from the kitchen table, put it on the red couch",
+                "Take the box from the dining table, put it on the red couch",
                 "Move an empty box to the sofa",
                 "Put a box on the couch."
             ],
@@ -60,7 +60,7 @@
         "train/pick_and_place_simple-Box-None-Sofa-205/trial_T20190907_214755_478301/traj_data.json":{
             "tasks":[
                 "Move an empty box to the sofa",
-                "Move a cardboard box from a kitchen table to a couch",
+                "Move a cardboard box from a dining table to a couch",
                 "Put a box on the couch next to the laptop"
             ],
             "relative_objects":[
@@ -235,7 +235,7 @@
         },
         {
             "task_list":[
-                "Take the box from the kitchen table, put it on the red couch",
+                "Take the box from the dining table, put it on the red couch",
                 "Pick up the keys near the lamp to turn it off."
             ],
             "orign":[
@@ -245,9 +245,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take the box from the kitchen table, put it on the red couch. After completing this task, pick up the keys near the lamp to turn it off.",
-                "fintune 2":"Pick up the keys near the lamp to turn it off at any time. Simultaneously, take the box from the kitchen table, put it on the red couch.",
-                "fintune 3":"Take the box from the kitchen table, put it on the red couch. Only after completing this task, pick up the keys near the lamp to turn it off."
+                "fintune 1":"Take the box from the dining table, put it on the red couch. After completing this task, pick up the keys near the lamp to turn it off.",
+                "fintune 2":"Pick up the keys near the lamp to turn it off at any time. Simultaneously, take the box from the dining table, put it on the red couch.",
+                "fintune 3":"Take the box from the dining table, put it on the red couch. Only after completing this task, pick up the keys near the lamp to turn it off."
             }
         },
         {
@@ -345,7 +345,7 @@
             "task_list":[
                 "Pick up the keys near the lamp to turn it off.",
                 "Moving a laptop from a table to a chair. ",
-                "Take the box from the kitchen table, put it on the red couch"
+                "Take the box from the dining table, put it on the red couch"
             ],
             "orign":[
                 [
@@ -355,9 +355,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Moving a laptop from a table to a chair at any time. Simultaneously, pick up the keys near the lamp to turn it off. After moving the laptop and turning off the lamp, take the box from the kitchen table and put it on the red couch.",
-                "fintune 2":"Pick up the keys near the lamp to turn it off at any time. After turning off the lamp, move a laptop from a table to a chair. Then, take the box from the kitchen table and put it on the red couch.",
-                "fintune 3":"Pick up the keys near the lamp to turn it off. Once the lamp is off, take the box from the kitchen table, put it on the red couch. Finally, move a laptop from a table to a chair."
+                "fintune 1":"Moving a laptop from a table to a chair at any time. Simultaneously, pick up the keys near the lamp to turn it off. After moving the laptop and turning off the lamp, take the box from the dining table and put it on the red couch.",
+                "fintune 2":"Pick up the keys near the lamp to turn it off at any time. After turning off the lamp, move a laptop from a table to a chair. Then, take the box from the dining table and put it on the red couch.",
+                "fintune 3":"Pick up the keys near the lamp to turn it off. Once the lamp is off, take the box from the dining table, put it on the red couch. Finally, move a laptop from a table to a chair."
             }
         },
         {
@@ -426,7 +426,7 @@
                 "Pick up the keys near the lamp to turn it off.",
                 "Turn off the floor lamp with a watch in hand. ",
                 "Moving a laptop from a table to a chair. ",
-                "Take the box from the kitchen table, put it on the red couch"
+                "Take the box from the dining table, put it on the red couch"
             ],
             "orign":[
                 [
@@ -437,9 +437,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Pick up the keys near the lamp to turn it off. Simultaneously, turn off the floor lamp with a watch in hand. After turning off the lamps, move a laptop from a table to a chair. Once the laptop is moved, take the box from the kitchen table and put it on the red couch.",
-                "fintune 2":"Turn off the floor lamp with a watch in hand. Simultaneously, pick up the keys near the lamp to turn it off. After turning off the lamps, move a laptop from a table to a chair. Once the laptop is moved, take the box from the kitchen table and put it on the red couch.",
-                "fintune 3":"Turn off the floor lamp with a watch in hand. After turning off the lamp, move a laptop from a table to a chair. Simultaneously, pick up the keys near the lamp to turn it off. Once the laptop is moved, take the box from the kitchen table and put it on the red couch."
+                "fintune 1":"Pick up the keys near the lamp to turn it off. Simultaneously, turn off the floor lamp with a watch in hand. After turning off the lamps, move a laptop from a table to a chair. Once the laptop is moved, take the box from the dining table and put it on the red couch.",
+                "fintune 2":"Turn off the floor lamp with a watch in hand. Simultaneously, pick up the keys near the lamp to turn it off. After turning off the lamps, move a laptop from a table to a chair. Once the laptop is moved, take the box from the dining table and put it on the red couch.",
+                "fintune 3":"Turn off the floor lamp with a watch in hand. After turning off the lamp, move a laptop from a table to a chair. Simultaneously, pick up the keys near the lamp to turn it off. Once the laptop is moved, take the box from the dining table and put it on the red couch."
             }
         },
         {
@@ -447,7 +447,7 @@
                 "move the computer from the table to the chair",
                 "Pick up the keys near the lamp to turn it off.",
                 "Pick up a watch from the table, one-at-a-time, put them on the TV stand.",
-                "Take the box from the kitchen table, put it on the red couch"
+                "Take the box from the dining table, put it on the red couch"
             ],
             "orign":[
                 [
@@ -458,9 +458,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Pick up the keys near the lamp to turn it off. After turning off the lamp, move the computer from the table to the chair. Simultaneously, take the box from the kitchen table and put it on the red couch. Lastly, Pick up a watch from the table, one-at-a-time, and put them on the TV stand.",
-                "fintune 2":"Pick up the keys near the lamp to turn it off. After turning off the lamp, take the box from the kitchen table and put it on the red couch. Then, move the computer from the table to the chair. Finally, Pick up a watch from the table, one-at-a-time, and put them on the TV stand.",
-                "fintune 3":"Take the box from the kitchen table and put it on the red couch. Simultaneously, Pick up a watch from the table, one-at-a-time, and put them on the TV stand. After that, pick up the keys near the lamp to turn it off. Once the lamp is turned off, move the computer from the table to the chair."
+                "fintune 1":"Pick up the keys near the lamp to turn it off. After turning off the lamp, move the computer from the table to the chair. Simultaneously, take the box from the dining table and put it on the red couch. Lastly, Pick up a watch from the table, one-at-a-time, and put them on the TV stand.",
+                "fintune 2":"Pick up the keys near the lamp to turn it off. After turning off the lamp, take the box from the dining table and put it on the red couch. Then, move the computer from the table to the chair. Finally, Pick up a watch from the table, one-at-a-time, and put them on the TV stand.",
+                "fintune 3":"Take the box from the dining table and put it on the red couch. Simultaneously, Pick up a watch from the table, one-at-a-time, and put them on the TV stand. After that, pick up the keys near the lamp to turn it off. Once the lamp is turned off, move the computer from the table to the chair."
             }
         },
         {

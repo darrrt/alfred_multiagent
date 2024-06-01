@@ -1114,8 +1114,8 @@
         },
         "train/pick_clean_then_place_in_recep-Spatula-None-DiningTable-17/trial_T20190909_044757_667154/traj_data.json":{
             "tasks":[
-                "Put a clean spatula on a kitchen table.",
-                "put a washed spatula on a kitchen table",
+                "Put a clean spatula on a dining table.",
+                "put a washed spatula on a dining table",
                 "Place a rinsed spatula on a table."
             ],
             "relative_objects":[
@@ -1665,7 +1665,7 @@
             "task_list":[
                 "Putting a cold container on the counter",
                 "Put an egg in a pan in the fridge.",
-                "Put a clean spatula on a kitchen table.",
+                "Put a clean spatula on a dining table.",
                 "Put a cup with a knife in it on the counter.",
                 "put a chilled potato into a garbage bin"
             ],
@@ -1679,9 +1679,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a clean spatula on a kitchen table at any time. Simultaneously, put a cup with a knife in it on the counter. After placing the spatula and cup, put a cold container on the counter.",
-                "fintune 2":"Put an egg in a pan in the fridge first. Then put a chilled potato into a garbage bin. Finally, put a clean spatula on a kitchen table.",
-                "fintune 3":"Put a cup with a knife in it on the counter first. Simultaneously, put a chilled potato into a garbage bin. After that, put a clean spatula on a kitchen table."
+                "fintune 1":"Put a clean spatula on a dining table at any time. Simultaneously, put a cup with a knife in it on the counter. After placing the spatula and cup, put a cold container on the counter.",
+                "fintune 2":"Put an egg in a pan in the fridge first. Then put a chilled potato into a garbage bin. Finally, put a clean spatula on a dining table.",
+                "fintune 3":"Put a cup with a knife in it on the counter first. Simultaneously, put a chilled potato into a garbage bin. After that, put a clean spatula on a dining table."
             }
         },
         {
@@ -2014,7 +2014,7 @@
                 "Place bottles in cabinet.",
                 "cool the cabbage in the refrigerator, put the cabbage in the trash bin",
                 "Chill a clear bowl in the fridge to put on the kitchen counter.",
-                "Put a clean spatula on a kitchen table."
+                "Put a clean spatula on a dining table."
             ],
             "orign":[
                 [
@@ -2031,8 +2031,8 @@
             ],
             "finetuned":{
                 "fintune 1":"Chill a clear bowl in the fridge to put on the kitchen counter. After chilling the bowl, put a heated tomato on the counter. Simultaneously, warm a mug in the microwave, put it into the sink. Next, move a cup and knife to the counter. Once these tasks are done, place objects inside of the kitchen cabinet.",
-                "fintune 2":"Put a clean spatula on a kitchen table. Place bottles in cabinet. After placing the bottles, cool the cabbage in the refrigerator, then put the cabbage in the trash bin. At the same time, put a chilled potato into a garbage bin.",
-                "fintune 3":"Chill a clear bowl in the fridge to put on the kitchen counter. Put a clean spatula on a kitchen table. Move a cup and knife to the counter. After moving the cup and knife, warm a mug in the microwave, put it into the sink. Once all these tasks are completed, place objects inside of the kitchen cabinet."
+                "fintune 2":"Put a clean spatula on a dining table. Place bottles in cabinet. After placing the bottles, cool the cabbage in the refrigerator, then put the cabbage in the trash bin. At the same time, put a chilled potato into a garbage bin.",
+                "fintune 3":"Chill a clear bowl in the fridge to put on the kitchen counter. Put a clean spatula on a dining table. Move a cup and knife to the counter. After moving the cup and knife, warm a mug in the microwave, put it into the sink. Once all these tasks are completed, place objects inside of the kitchen cabinet."
             }
         }
     ]
