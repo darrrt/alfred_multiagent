@@ -210,7 +210,7 @@
         },
         "train/pick_and_place_simple-AlarmClock-None-Desk-307/trial_T20190907_072303_146844/traj_data.json":{
             "tasks":[
-                "Put the alarm clock on the large wooden desk",
+                "Put the alarm clock on the large desk",
                 "place an alarm clock down on the larger desk in the room",
                 "Move an alarm clock to the desk.",
                 "Put an alarm clock on the desk in the corner, above the drawers. "
@@ -348,7 +348,7 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put the alarm clock on the large wooden desk",
+                "Put the alarm clock on the large desk",
                 "Put the bowl with credit card on the study table"
             ],
             "orign":[
@@ -358,15 +358,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the alarm clock on the large wooden desk at any time. Simultaneously, put the bowl with the credit card on the study table.",
-                "fintune 2":"Put the bowl with the credit card on the study table at any time. Simultaneously, put the alarm clock on the large wooden desk.",
-                "fintune 3":"Put the alarm clock on the large wooden desk at any time. After placing the alarm clock, put the bowl with the credit card on the study table."
+                "fintune 1":"Put the alarm clock on the large desk at any time. Simultaneously, put the bowl with the credit card on the study table.",
+                "fintune 2":"Put the bowl with the credit card on the study table at any time. Simultaneously, put the alarm clock on the large desk.",
+                "fintune 3":"Put the alarm clock on the large desk at any time. After placing the alarm clock, put the bowl with the credit card on the study table."
             }
         },
         {
             "task_list":[
                 "To put a credit card in a bowl and put the bowl down on the desk. ",
-                "Put the alarm clock on the large wooden desk"
+                "Put the alarm clock on the large desk"
             ],
             "orign":[
                 [
@@ -375,9 +375,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the alarm clock on the large wooden desk at any time. Simultaneously, put a credit card in a bowl and put the bowl down on the desk.",
-                "fintune 2":"Put a credit card in a bowl and put the bowl down on the desk. After completing this task, put the alarm clock on the large wooden desk.",
-                "fintune 3":"Put a credit card in a bowl and put the bowl down on the desk. Simultaneously, put the alarm clock on the large wooden desk."
+                "fintune 1":"Put the alarm clock on the large desk at any time. Simultaneously, put a credit card in a bowl and put the bowl down on the desk.",
+                "fintune 2":"Put a credit card in a bowl and put the bowl down on the desk. After completing this task, put the alarm clock on the large desk.",
+                "fintune 3":"Put a credit card in a bowl and put the bowl down on the desk. Simultaneously, put the alarm clock on the large desk."
             }
         },
         {
@@ -639,7 +639,7 @@
     "tasks_5":[
         {
             "task_list":[
-                "Put the alarm clock on the large wooden desk",
+                "Put the alarm clock on the large desk",
                 "Place a bowl with a credit card in it on a desk.",
                 "Examine the white rag by the light of the lamp on the desk. ",
                 "Place lap tops on the desk.",
@@ -655,9 +655,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the alarm clock on the large wooden desk at any time. Simultaneously, place a bowl with a credit card in it on a desk. After placing the alarm clock and the bowl, examine the white rag by the light of the lamp on the desk. Then, place laptops on the desk. Finally, get the black pens and place them in the top drawer of the desk.",
-                "fintune 2":"Place a bowl with a credit card in it on a desk at any time. Simultaneously, put the alarm clock on the large wooden desk. After placing the bowl and the alarm clock, examine the white rag by the light of the lamp on the desk. Then, place laptops on the desk. Finally, get the black pens and place them in the top drawer of the desk.",
-                "fintune 3":"Examine the white rag by the light of the lamp on the desk at any time. Simultaneously, place laptops on the desk. After examining the rag and placing the laptops, put the alarm clock on the large wooden desk. Then, place a bowl with a credit card in it on a desk. Finally, get the black pens and place them in the top drawer of the desk."
+                "fintune 1":"Put the alarm clock on the large desk at any time. Simultaneously, place a bowl with a credit card in it on a desk. After placing the alarm clock and the bowl, examine the white rag by the light of the lamp on the desk. Then, place laptops on the desk. Finally, get the black pens and place them in the top drawer of the desk.",
+                "fintune 2":"Place a bowl with a credit card in it on a desk at any time. Simultaneously, put the alarm clock on the large desk. After placing the bowl and the alarm clock, examine the white rag by the light of the lamp on the desk. Then, place laptops on the desk. Finally, get the black pens and place them in the top drawer of the desk.",
+                "fintune 3":"Examine the white rag by the light of the lamp on the desk at any time. Simultaneously, place laptops on the desk. After examining the rag and placing the laptops, put the alarm clock on the large desk. Then, place a bowl with a credit card in it on a desk. Finally, get the black pens and place them in the top drawer of the desk."
             }
         },
         {
@@ -666,7 +666,7 @@
                 "To retrieve a credit card and place it on the desk. ",
                 "Examine a tennis racket by the light of a desk lamp.",
                 "Examine the white rag by the light of the lamp on the desk. ",
-                "Put the alarm clock on the large wooden desk"
+                "Put the alarm clock on the large desk"
             ],
             "orign":[
                 [
@@ -678,16 +678,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"To retrieve a credit card and place it on the desk. At the same time, take a CD to a new desk. After placing the credit card, examine the white rag by the light of the lamp on the desk. Finally, put the alarm clock on the large wooden desk.",
-                "fintune 2":"Take a CD to a new desk at any time. Simultaneously, examine a tennis racket by the light of a desk lamp. After examining the tennis racket, retrieve a credit card and place it on the desk. Once that's done, put the alarm clock on the large wooden desk.",
-                "fintune 3":"Put the alarm clock on the large wooden desk at any time. Then, examine the white rag by the light of the lamp on the desk. Subsequently, retrieve a credit card and place it on the desk. Lastly, take a CD to a new desk."
+                "fintune 1":"To retrieve a credit card and place it on the desk. At the same time, take a CD to a new desk. After placing the credit card, examine the white rag by the light of the lamp on the desk. Finally, put the alarm clock on the large desk.",
+                "fintune 2":"Take a CD to a new desk at any time. Simultaneously, examine a tennis racket by the light of a desk lamp. After examining the tennis racket, retrieve a credit card and place it on the desk. Once that's done, put the alarm clock on the large desk.",
+                "fintune 3":"Put the alarm clock on the large desk at any time. Then, examine the white rag by the light of the lamp on the desk. Subsequently, retrieve a credit card and place it on the desk. Lastly, take a CD to a new desk."
             }
         },
         {
             "task_list":[
                 "Get the black pens and place in the top drawer of the desk.",
                 "Take a CD to a new desk",
-                "Put the alarm clock on the large wooden desk",
+                "Put the alarm clock on the large desk",
                 "Place a bowl with a credit card in it on a desk.",
                 "Examine the white rag by the light of the lamp on the desk. "
             ],
@@ -701,9 +701,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take a CD to a new desk. After taking the CD, put the alarm clock on the large wooden desk. Finally, get the black pens and place them in the top drawer of the desk.",
+                "fintune 1":"Take a CD to a new desk. After taking the CD, put the alarm clock on the large desk. Finally, get the black pens and place them in the top drawer of the desk.",
                 "fintune 2":"Place a bowl with a credit card in it on a desk. Simultaneously, examine the white rag by the light of the lamp on the desk.",
-                "fintune 3":"Get the black pens and place them in the top drawer of the desk at any time. Take a CD to a new desk. After placing the pens, put the alarm clock on the large wooden desk. Finally, place a bowl with a credit card in it on a desk. Once done, examine the white rag by the light of the lamp on the desk."
+                "fintune 3":"Get the black pens and place them in the top drawer of the desk at any time. Take a CD to a new desk. After placing the pens, put the alarm clock on the large desk. Finally, place a bowl with a credit card in it on a desk. Once done, examine the white rag by the light of the lamp on the desk."
             }
         },
         {
@@ -736,7 +736,7 @@
             "task_list":[
                 "Examine a tennis racket by the light of a desk lamp.",
                 "Take a CD to a new desk",
-                "Put the alarm clock on the large wooden desk",
+                "Put the alarm clock on the large desk",
                 "Move the pens from the small desk and the large desk into the top large desk drawer.",
                 "Examine the white rag by the light of the lamp on the desk. ",
                 "Place lap tops on the desk.",
@@ -754,9 +754,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine a tennis racket by the light of a desk lamp at any time. Take a CD to a new desk at any time. Put the alarm clock on the large wooden desk at any time. Move the pens from the small desk and the large desk into the top large desk drawer at any time. Examine the white rag by the light of the lamp on the desk at any time. Place lap tops on the desk at any time. Put a bowl with a card in it on the small desk at any time.",
-                "fintune 2":"Examine a tennis racket by the light of a desk lamp at any time. Take a CD to a new desk at any time. Put the alarm clock on the large wooden desk at any time. Move the pens from the small desk and the large desk into the top large desk drawer at any time. Examine the white rag by the light of the lamp on the desk at any time. Place lap tops on the desk at any time. Put a bowl with a card in it on the small desk at any time.",
-                "fintune 3":"Examine a tennis racket by the light of a desk lamp at any time. Take a CD to a new desk at any time. Put the alarm clock on the large wooden desk at any time. Move the pens from the small desk and the large desk into the top large desk drawer at any time. Examine the white rag by the light of the lamp on the desk at any time. Place lap tops on the desk at any time. Put a bowl with a card in it on the small desk at any time."
+                "fintune 1":"Examine a tennis racket by the light of a desk lamp at any time. Take a CD to a new desk at any time. Put the alarm clock on the large desk at any time. Move the pens from the small desk and the large desk into the top large desk drawer at any time. Examine the white rag by the light of the lamp on the desk at any time. Place lap tops on the desk at any time. Put a bowl with a card in it on the small desk at any time.",
+                "fintune 2":"Examine a tennis racket by the light of a desk lamp at any time. Take a CD to a new desk at any time. Put the alarm clock on the large desk at any time. Move the pens from the small desk and the large desk into the top large desk drawer at any time. Examine the white rag by the light of the lamp on the desk at any time. Place lap tops on the desk at any time. Put a bowl with a card in it on the small desk at any time.",
+                "fintune 3":"Examine a tennis racket by the light of a desk lamp at any time. Take a CD to a new desk at any time. Put the alarm clock on the large desk at any time. Move the pens from the small desk and the large desk into the top large desk drawer at any time. Examine the white rag by the light of the lamp on the desk at any time. Place lap tops on the desk at any time. Put a bowl with a card in it on the small desk at any time."
             }
         }
     ],

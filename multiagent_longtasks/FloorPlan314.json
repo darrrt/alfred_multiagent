@@ -36,7 +36,7 @@
         },
         "train/pick_and_place_with_movable_recep-CreditCard-Box-Desk-314/trial_T20190907_230441_606276/traj_data.json":{
             "tasks":[
-                "Close the cardboard box on the wooden desk with a credit card in it.",
+                "Close the cardboard box on the desk with a credit card in it.",
                 "Place a box with a credit card in it on the desk.",
                 "Put a card in a box on a dresser."
             ],
@@ -173,7 +173,7 @@
         "train/pick_and_place_simple-Box-None-Desk-314/trial_T20190908_000943_623511/traj_data.json":{
             "tasks":[
                 "To move an empty box from the floor to a desk.",
-                "Move a cardboard box to the wooden desk.",
+                "Move a cardboard box to the desk.",
                 "Place an empty box on the desk."
             ],
             "relative_objects":[
@@ -193,7 +193,7 @@
             "tasks":[
                 "move a book from the bed to the desk",
                 "Place a book on a desk.",
-                "Move a book to a wooden desk."
+                "Move a book to a desk."
             ],
             "relative_objects":[
                 "Desk",
@@ -451,7 +451,7 @@
         },
         {
             "task_list":[
-                "Close the cardboard box on the wooden desk with a credit card in it.",
+                "Close the cardboard box on the desk with a credit card in it.",
                 "Place a clock on a desk",
                 "Move the pencil to the desk across the room."
             ],
@@ -463,9 +463,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Close the cardboard box on the wooden desk with a credit card in it at any time. Simultaneously, place a clock on a desk. After closing the box and placing the clock, move the pencil to the desk across the room.",
-                "fintune 2":"Place a clock on a desk at any time. Simultaneously, close the cardboard box on the wooden desk with a credit card in it. After placing the clock, move the pencil to the desk across the room.",
-                "fintune 3":"Move the pencil to the desk across the room at any time. Simultaneously, place a clock on a desk. After moving the pencil, close the cardboard box on the wooden desk with a credit card in it."
+                "fintune 1":"Close the cardboard box on the desk with a credit card in it at any time. Simultaneously, place a clock on a desk. After closing the box and placing the clock, move the pencil to the desk across the room.",
+                "fintune 2":"Place a clock on a desk at any time. Simultaneously, close the cardboard box on the desk with a credit card in it. After placing the clock, move the pencil to the desk across the room.",
+                "fintune 3":"Move the pencil to the desk across the room at any time. Simultaneously, place a clock on a desk. After moving the pencil, close the cardboard box on the desk with a credit card in it."
             }
         },
         {
