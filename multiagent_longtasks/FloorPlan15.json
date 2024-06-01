@@ -96,7 +96,7 @@
         "train/pick_and_place_with_movable_recep-Knife-Pan-DiningTable-15/trial_T20190908_062314_747952/traj_data.json":{
             "tasks":[
                 "Put the pan with knife in it on the table. ",
-                "Put a skillet with a chef's knife in it on the table.",
+                "Put a pot with a chef's knife in it on the table.",
                 "drop the plate with a knife in it on the table"
             ],
             "relative_objects":[
@@ -784,9 +784,9 @@
         },
         "train/pick_cool_then_place_in_recep-Pan-None-StoveBurner-15/trial_T20190907_071217_746222/traj_data.json":{
             "tasks":[
-                "Put a cold skillet on a stove burner.",
+                "Put a cold pot on a stove burner.",
                 "Put a chilled pan on the stove. ",
-                "Cooling a skillet in the refrigerator. "
+                "Cooling a pot in the refrigerator. "
             ],
             "relative_objects":[
                 "Pan"
@@ -1283,7 +1283,7 @@
         },
         "tests_seen/trial_T20190907_121949_710962/traj_data.json":{
             "tasks":[
-                "Place a cold skillet on a stove.",
+                "Place a cold pot on a stove.",
                 "place a cooled sauce pan down on the stove",
                 "Put a chilled pan on the stove."
             ],
@@ -1575,7 +1575,7 @@
         },
         {
             "task_list":[
-                "Put a cold skillet on a stove burner.",
+                "Put a cold pot on a stove burner.",
                 "cool the bread loaf from the counter in the refrigerator, put it in the microwave",
                 "put mug and sharp knife on kitchen counter",
                 "put a washed kettle in front of a coffee maker"
@@ -1589,9 +1589,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cold skillet on a stove burner at any time. After putting the skillet, put a washed kettle in front of a coffee maker. Finally, cool the bread loaf from the counter in the refrigerator, and put it in the microwave.",
-                "fintune 2":"Put a washed kettle in front of a coffee maker at any time. Simultaneously, put a cold skillet on a stove burner. After placing the kettle and skillet, put a mug and sharp knife on the kitchen counter.",
-                "fintune 3":"Put a mug and sharp knife on the kitchen counter at any time. After placing them, put a cold skillet on a stove burner at any time. Finally, cool the bread loaf from the counter in the refrigerator and put it in the microwave."
+                "fintune 1":"Put a cold pot on a stove burner at any time. After putting the pot, put a washed kettle in front of a coffee maker. Finally, cool the bread loaf from the counter in the refrigerator, and put it in the microwave.",
+                "fintune 2":"Put a washed kettle in front of a coffee maker at any time. Simultaneously, put a cold pot on a stove burner. After placing the kettle and pot, put a mug and sharp knife on the kitchen counter.",
+                "fintune 3":"Put a mug and sharp knife on the kitchen counter at any time. After placing them, put a cold pot on a stove burner at any time. Finally, cool the bread loaf from the counter in the refrigerator and put it in the microwave."
             }
         },
         {
