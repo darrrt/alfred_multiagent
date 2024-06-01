@@ -13,7 +13,7 @@
             "tasks":[
                 "Look at a pitcher by the light of a lamp.",
                 "Examine the tea pot under light of the lamp",
-                "Examine a tea kettle using the light from a table lamp.",
+                "Examine a tea kettle using the light from a lightswitch.",
                 "Look at a pitcher with the illumination of a lamp.",
                 "Examine a teapot near the light of a small lamp.",
                 "Examine a watering can by the light of a desk lamp."
@@ -24,11 +24,11 @@
         },
         "train/look_at_obj_in_light-WateringCan-None-DeskLamp-218/trial_T20190906_182706_439184/traj_data.json":{
             "tasks":[
-                "Examine the tea pot under light of the table lamp",
-                "Examine a watering can using the light of a table lamp.",
+                "Examine the tea pot under light of the lightswitch",
+                "Examine a watering can using the light of a lightswitch.",
                 "Examine a vase in the light of the lamp on the table. ",
                 "Examine a watering can by the light of a desk lamp.",
-                "Examine a tea pot by the light of a table lamp",
+                "Examine a tea pot by the light of a lightswitch",
                 "Grab a tea pot next to a fireplace taking it to the wooden table turning the lamp on."
             ],
             "relative_objects":[
@@ -160,7 +160,7 @@
         },
         {
             "task_list":[
-                "Examine the tea pot under light of the table lamp"
+                "Examine the tea pot under light of the lightswitch"
             ],
             "orign":[
                 [
@@ -243,7 +243,7 @@
         },
         {
             "task_list":[
-                "Examine the tea pot under light of the table lamp",
+                "Examine the tea pot under light of the lightswitch",
                 "Put the plate with phone on the center table"
             ],
             "orign":[
@@ -253,9 +253,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine the tea pot under light of the table lamp at any time. Simultaneously, put the plate with phone on the center table.",
-                "fintune 2":"Put the plate with phone on the center table at any time. Simultaneously, examine the tea pot under light of the table lamp.",
-                "fintune 3":"Examine the tea pot under light of the table lamp at any time. After examining the tea pot, put the plate with phone on the center table."
+                "fintune 1":"Examine the tea pot under light of the lightswitch at any time. Simultaneously, put the plate with phone on the center table.",
+                "fintune 2":"Put the plate with phone on the center table at any time. Simultaneously, examine the tea pot under light of the lightswitch.",
+                "fintune 3":"Examine the tea pot under light of the lightswitch at any time. After examining the tea pot, put the plate with phone on the center table."
             }
         },
         {
@@ -338,7 +338,7 @@
             "task_list":[
                 "Move a phone and plate to a coffee table. ",
                 "Place the newspapers in the trash.",
-                "Examine the tea pot under light of the table lamp"
+                "Examine the tea pot under light of the lightswitch"
             ],
             "orign":[
                 [
@@ -348,15 +348,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a phone and plate to a coffee table. After moving the phone and plate, place the newspapers in the trash. Finally, examine the tea pot under the light of the table lamp.",
-                "fintune 2":"Examine the tea pot under the light of the table lamp first. Then, move a phone and plate to a coffee table simultaneously with placing the newspapers in the trash afterwards.",
-                "fintune 3":"Place the newspapers in the trash first. Move a phone and plate to a coffee table after placing the newspapers. Lastly, examine the tea pot under the light of the table lamp."
+                "fintune 1":"Move a phone and plate to a coffee table. After moving the phone and plate, place the newspapers in the trash. Finally, examine the tea pot under the light of the lightswitch.",
+                "fintune 2":"Examine the tea pot under the light of the lightswitch first. Then, move a phone and plate to a coffee table simultaneously with placing the newspapers in the trash afterwards.",
+                "fintune 3":"Place the newspapers in the trash first. Move a phone and plate to a coffee table after placing the newspapers. Lastly, examine the tea pot under the light of the lightswitch."
             }
         },
         {
             "task_list":[
                 "Place the newspapers in the trash.",
-                "Examine the tea pot under light of the table lamp",
+                "Examine the tea pot under light of the lightswitch",
                 "Move a phone and plate to a coffee table. "
             ],
             "orign":[
@@ -367,9 +367,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine the tea pot under light of the table lamp. After examining the tea pot, move a phone and plate to a coffee table. Finally, place the newspapers in the trash.",
-                "fintune 2":"Move a phone and plate to a coffee table. Simultaneously, place the newspapers in the trash. After completing these tasks, examine the tea pot under light of the table lamp.",
-                "fintune 3":"Place the newspapers in the trash at any time. Once the newspapers are placed, examine the tea pot under light of the table lamp. After examining the tea pot, move a phone and plate to a coffee table."
+                "fintune 1":"Examine the tea pot under light of the lightswitch. After examining the tea pot, move a phone and plate to a coffee table. Finally, place the newspapers in the trash.",
+                "fintune 2":"Move a phone and plate to a coffee table. Simultaneously, place the newspapers in the trash. After completing these tasks, examine the tea pot under light of the lightswitch.",
+                "fintune 3":"Place the newspapers in the trash at any time. Once the newspapers are placed, examine the tea pot under light of the lightswitch. After examining the tea pot, move a phone and plate to a coffee table."
             }
         }
     ],
@@ -378,7 +378,7 @@
             "task_list":[
                 "Place the newspapers in the trash.",
                 "Move the grey plate on the end table to the TV cabinet",
-                "Examine the tea pot under light of the table lamp",
+                "Examine the tea pot under light of the lightswitch",
                 "Place the box with one of the phones on the sofa."
             ],
             "orign":[
@@ -390,9 +390,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place the newspapers in the trash at any time. Simultaneously, move the grey plate on the end table to the TV cabinet. After completing the previous tasks, examine the tea pot under light of the table lamp. Finally, place the box with one of the phones on the sofa.",
-                "fintune 2":"Examine the tea pot under light of the table lamp at any time. Simultaneously, place the box with one of the phones on the sofa. After examining the tea pot and placing the box on the sofa, move the grey plate on the end table to the TV cabinet. Finish by placing the newspapers in the trash.",
-                "fintune 3":"Move the grey plate on the end table to the TV cabinet at any time. Simultaneously, place the box with one of the phones on the sofa. After moving the grey plate and placing the box on the sofa, examine the tea pot under light of the table lamp. Conclude by placing the newspapers in the trash."
+                "fintune 1":"Place the newspapers in the trash at any time. Simultaneously, move the grey plate on the end table to the TV cabinet. After completing the previous tasks, examine the tea pot under light of the lightswitch. Finally, place the box with one of the phones on the sofa.",
+                "fintune 2":"Examine the tea pot under light of the lightswitch at any time. Simultaneously, place the box with one of the phones on the sofa. After examining the tea pot and placing the box on the sofa, move the grey plate on the end table to the TV cabinet. Finish by placing the newspapers in the trash.",
+                "fintune 3":"Move the grey plate on the end table to the TV cabinet at any time. Simultaneously, place the box with one of the phones on the sofa. After moving the grey plate and placing the box on the sofa, examine the tea pot under light of the lightswitch. Conclude by placing the newspapers in the trash."
             }
         },
         {
@@ -400,7 +400,7 @@
                 "Place the box with one of the phones on the sofa.",
                 "Place the plate from the table on the tv stand.",
                 "Place the newspapers in the trash.",
-                "Examine the tea pot under light of the table lamp"
+                "Examine the tea pot under light of the lightswitch"
             ],
             "orign":[
                 [
@@ -411,9 +411,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine the tea pot under light of the table lamp. After examining the tea pot, place the plate from the table on the tv stand. Once the plate is placed, place the box with one of the phones on the sofa. Finally, place the newspapers in the trash.",
-                "fintune 2":"Place the plate from the table on the tv stand. Place the box with one of the phones on the sofa at any time. Examine the tea pot under light of the table lamp. After placing the box and examining the tea pot, place the newspapers in the trash.",
-                "fintune 3":"Place the newspapers in the trash. Place the box with one of the phones on the sofa. Examine the tea pot under light of the table lamp. Finally, place the plate from the table on the tv stand."
+                "fintune 1":"Examine the tea pot under light of the lightswitch. After examining the tea pot, place the plate from the table on the tv stand. Once the plate is placed, place the box with one of the phones on the sofa. Finally, place the newspapers in the trash.",
+                "fintune 2":"Place the plate from the table on the tv stand. Place the box with one of the phones on the sofa at any time. Examine the tea pot under light of the lightswitch. After placing the box and examining the tea pot, place the newspapers in the trash.",
+                "fintune 3":"Place the newspapers in the trash. Place the box with one of the phones on the sofa. Examine the tea pot under light of the lightswitch. Finally, place the plate from the table on the tv stand."
             }
         },
         {

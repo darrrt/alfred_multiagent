@@ -113,7 +113,7 @@
         },
         "tests_unseen/trial_T20190907_193702_706432/traj_data.json":{
             "tasks":[
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Inspect a laptop by the light of a lamp. ",
                 "Inspect a laptop by lamp light."
             ],
@@ -286,7 +286,7 @@
     "tasks_2":[
         {
             "task_list":[
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Move a pen to the dresser with keys."
             ],
             "orign":[
@@ -296,9 +296,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine a notebook computer by the light of a table lamp at any time. Simultaneously, move a pen to the dresser with keys.",
-                "fintune 2":"Move a pen to the dresser with keys at any time. After moving the pen, examine a notebook computer by the light of a table lamp.",
-                "fintune 3":"Examine a notebook computer by the light of a table lamp at any time. After examining the computer, move a pen to the dresser with keys."
+                "fintune 1":"Examine a notebook computer by the light of a lightswitch at any time. Simultaneously, move a pen to the dresser with keys.",
+                "fintune 2":"Move a pen to the dresser with keys at any time. After moving the pen, examine a notebook computer by the light of a lightswitch.",
+                "fintune 3":"Examine a notebook computer by the light of a lightswitch at any time. After examining the computer, move a pen to the dresser with keys."
             }
         },
         {
@@ -430,7 +430,7 @@
         },
         {
             "task_list":[
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Put the mug with pen on the dresser",
                 "Look at the clock in the light."
             ],
@@ -442,14 +442,14 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine a notebook computer by the light of a table lamp at any time. Simultaneously, put the mug with pen on the dresser. After examining the computer and placing the mug, look at the clock in the light.",
-                "fintune 2":"Look at the clock in the light at any time. Simultaneously, put the mug with pen on the dresser. After looking at the clock, examine a notebook computer by the light of a table lamp.",
-                "fintune 3":"Examine a notebook computer by the light of a table lamp at any time. After examining the computer, put the mug with pen on the dresser. Once the mug is placed, look at the clock in the light."
+                "fintune 1":"Examine a notebook computer by the light of a lightswitch at any time. Simultaneously, put the mug with pen on the dresser. After examining the computer and placing the mug, look at the clock in the light.",
+                "fintune 2":"Look at the clock in the light at any time. Simultaneously, put the mug with pen on the dresser. After looking at the clock, examine a notebook computer by the light of a lightswitch.",
+                "fintune 3":"Examine a notebook computer by the light of a lightswitch at any time. After examining the computer, put the mug with pen on the dresser. Once the mug is placed, look at the clock in the light."
             }
         },
         {
             "task_list":[
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Look at the clock in the light.",
                 "Put a pen on the dresser."
             ],
@@ -461,9 +461,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine a notebook computer by the light of a table lamp at any time. Simultaneously, look at the clock in the light.Then, put a pen on the dresser.",
-                "fintune 2":"Look at the clock in the light before examining a notebook computer by the light of a table lamp. After looking at the clock, put a pen on the dresser.",
-                "fintune 3":"Put a pen on the dresser at any time. After putting the pen, examine a notebook computer by the light of a table lamp. Simultaneously, look at the clock in the light."
+                "fintune 1":"Examine a notebook computer by the light of a lightswitch at any time. Simultaneously, look at the clock in the light.Then, put a pen on the dresser.",
+                "fintune 2":"Look at the clock in the light before examining a notebook computer by the light of a lightswitch. After looking at the clock, put a pen on the dresser.",
+                "fintune 3":"Put a pen on the dresser at any time. After putting the pen, examine a notebook computer by the light of a lightswitch. Simultaneously, look at the clock in the light."
             }
         }
     ],
@@ -471,7 +471,7 @@
         {
             "task_list":[
                 "Put the mug with pen on the dresser",
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Move the pencil from the table to the top of the cabinet under the table",
                 "Place a set of keys on top of the desk drawers."
             ],
@@ -485,7 +485,7 @@
             ],
             "finetuned":{
                 "fintune 1":"Move the pencil from the table to the top of the cabinet under the table at any time. Simultaneously, put the mug with pen on the dresser. After moving the pencil and putting the mug with pen on the dresser, place a set of keys on top of the desk drawers.",
-                "fintune 2":"Examine a notebook computer by the light of a table lamp at any time. After examining the notebook computer, place a set of keys on top of the desk drawers. Finally, put the mug with pen on the dresser.",
+                "fintune 2":"Examine a notebook computer by the light of a lightswitch at any time. After examining the notebook computer, place a set of keys on top of the desk drawers. Finally, put the mug with pen on the dresser.",
                 "fintune 3":"Put the mug with pen on the dresser at any time. Simultaneously, move the pencil from the table to the top of the cabinet under the table. After putting the mug with pen on the dresser and moving the pencil, place a set of keys on top of the desk drawers."
             }
         },
@@ -514,7 +514,7 @@
             "task_list":[
                 "Place a mug containing a pen on top of the drawers.",
                 "take pencil's out of the trash can and place them onto the table",
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Place a set of keys on top of the desk drawers."
             ],
             "orign":[
@@ -526,15 +526,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine a notebook computer by the light of a table lamp. Simultaneously, Place a set of keys on top of the desk drawers. After examining the computer and placing the keys, Place a mug containing a pen on top of the drawers.",
-                "fintune 2":"Place a mug containing a pen on top of the drawers at any time. Simultaneously, take pencil's out of the trash can and place them onto the table. After placing the mug and pencils, Examine a notebook computer by the light of a table lamp.",
-                "fintune 3":"Place a set of keys on top of the desk drawers at any time. Simultaneously, Examine a notebook computer by the light of a table lamp. After examining the computer and placing the keys, take pencil's out of the trash can and place them onto the table."
+                "fintune 1":"Examine a notebook computer by the light of a lightswitch. Simultaneously, Place a set of keys on top of the desk drawers. After examining the computer and placing the keys, Place a mug containing a pen on top of the drawers.",
+                "fintune 2":"Place a mug containing a pen on top of the drawers at any time. Simultaneously, take pencil's out of the trash can and place them onto the table. After placing the mug and pencils, Examine a notebook computer by the light of a lightswitch.",
+                "fintune 3":"Place a set of keys on top of the desk drawers at any time. Simultaneously, Examine a notebook computer by the light of a lightswitch. After examining the computer and placing the keys, take pencil's out of the trash can and place them onto the table."
             }
         },
         {
             "task_list":[
                 "Place an alarm clock on the dresser.",
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Move the pencils from the trash bin and the brown dresser to put them on the white table.",
                 "Put the mug with pen on the dresser"
             ],
@@ -547,15 +547,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place an alarm clock on the dresser at any time. Simultaneously, examine a notebook computer by the light of a table lamp. After placing the alarm clock and examining the computer, move the pencils from the trash bin and the brown dresser to put them on the white table. Finally, put the mug with pen on the dresser.",
-                "fintune 2":"Examine a notebook computer by the light of a table lamp at any time. Simultaneously, place an alarm clock on the dresser. After examining the computer, move the pencils from the trash bin and the brown dresser to put them on the white table. Finally, put the mug with pen on the dresser.",
-                "fintune 3":"Move the pencils from the trash bin and the brown dresser to put them on the white table at any time. Simultaneously, put the mug with pen on the dresser. After moving the pencils and placing the mug with pen, place an alarm clock on the dresser. Finally, examine a notebook computer by the light of a table lamp."
+                "fintune 1":"Place an alarm clock on the dresser at any time. Simultaneously, examine a notebook computer by the light of a lightswitch. After placing the alarm clock and examining the computer, move the pencils from the trash bin and the brown dresser to put them on the white table. Finally, put the mug with pen on the dresser.",
+                "fintune 2":"Examine a notebook computer by the light of a lightswitch at any time. Simultaneously, place an alarm clock on the dresser. After examining the computer, move the pencils from the trash bin and the brown dresser to put them on the white table. Finally, put the mug with pen on the dresser.",
+                "fintune 3":"Move the pencils from the trash bin and the brown dresser to put them on the white table at any time. Simultaneously, put the mug with pen on the dresser. After moving the pencils and placing the mug with pen, place an alarm clock on the dresser. Finally, examine a notebook computer by the light of a lightswitch."
             }
         },
         {
             "task_list":[
                 "Move the pencil from the table to the top of the cabinet under the table",
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Place a mug containing a pen on top of the drawers.",
                 "Place an alarm clock on the dresser."
             ],
@@ -568,9 +568,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine a notebook computer by the light of a table lamp. Simultaneously, place an alarm clock on the dresser. After examining the computer, move the pencil from the table to the top of the cabinet under the table. Finally, place a mug containing a pen on top of the drawers.",
-                "fintune 2":"Place a mug containing a pen on top of the drawers. Simultaneously, examine a notebook computer by the light of a table lamp. After placing the mug, place an alarm clock on the dresser. Finally, move the pencil from the table to the top of the cabinet under the table.",
-                "fintune 3":"Move the pencil from the table to the top of the cabinet under the table at any time. Simultaneously, place an alarm clock on the dresser. After moving the pencil, examine a notebook computer by the light of a table lamp. Finally, place a mug containing a pen on top of the drawers."
+                "fintune 1":"Examine a notebook computer by the light of a lightswitch. Simultaneously, place an alarm clock on the dresser. After examining the computer, move the pencil from the table to the top of the cabinet under the table. Finally, place a mug containing a pen on top of the drawers.",
+                "fintune 2":"Place a mug containing a pen on top of the drawers. Simultaneously, examine a notebook computer by the light of a lightswitch. After placing the mug, place an alarm clock on the dresser. Finally, move the pencil from the table to the top of the cabinet under the table.",
+                "fintune 3":"Move the pencil from the table to the top of the cabinet under the table at any time. Simultaneously, place an alarm clock on the dresser. After moving the pencil, examine a notebook computer by the light of a lightswitch. Finally, place a mug containing a pen on top of the drawers."
             }
         }
     ],
@@ -579,7 +579,7 @@
             "task_list":[
                 "Examine an alarm clock by the light of a desk lamp.",
                 "take pencil's out of the trash can and place them onto the table",
-                "Examine a notebook computer by the light of a table lamp",
+                "Examine a notebook computer by the light of a lightswitch",
                 "Put a mug with pen on the cabinet",
                 "Place a set of keys on top of the desk drawers."
             ],
@@ -594,8 +594,8 @@
             ],
             "finetuned":{
                 "fintune 1":"Examine an alarm clock by the light of a desk lamp at any time. Simultaneously, take pencils out of the trash can and place them onto the table. After examining the alarm clock and placing the pencils, put a mug with a pen on the cabinet.",
-                "fintune 2":"Examine a notebook computer by the light of a table lamp at any time. Simultaneously, take pencils out of the trash can and place them onto the table. After examining the notebook computer and placing the pencils, place a set of keys on top of the desk drawers.",
-                "fintune 3":"Examine an alarm clock by the light of a desk lamp at any time. Simultaneously, examine a notebook computer by the light of a table lamp. After examining the alarm clock and notebook computer, take pencils out of the trash can and place them onto the table. Finally, put a mug with a pen on the cabinet."
+                "fintune 2":"Examine a notebook computer by the light of a lightswitch at any time. Simultaneously, take pencils out of the trash can and place them onto the table. After examining the notebook computer and placing the pencils, place a set of keys on top of the desk drawers.",
+                "fintune 3":"Examine an alarm clock by the light of a desk lamp at any time. Simultaneously, examine a notebook computer by the light of a lightswitch. After examining the alarm clock and notebook computer, take pencils out of the trash can and place them onto the table. Finally, put a mug with a pen on the cabinet."
             }
         },
         {
@@ -604,7 +604,7 @@
                 "Move a pencil to the dresser.",
                 "Put the mug with pen on the dresser",
                 "Place a set of keys on top of the desk drawers.",
-                "Examine a notebook computer by the light of a table lamp"
+                "Examine a notebook computer by the light of a lightswitch"
             ],
             "orign":[
                 [
@@ -616,9 +616,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine an alarm clock by the light of a desk lamp at any time. Simultaneously, move a pencil to the dresser. After moving the pencil, put the mug with pen on the dresser. Finally, place a set of keys on top of the desk drawers. Examine a notebook computer by the light of a table lamp.",
-                "fintune 2":"Place a set of keys on top of the desk drawers before examining an alarm clock by the light of a desk lamp. Simultaneously, examine a notebook computer by the light of a table lamp. After examining the clock, move a pencil to the dresser and put the mug with pen on the dresser.",
-                "fintune 3":"Move a pencil to the dresser first. Simultaneously, place a set of keys on top of the desk drawers. After moving the pencil and placing the keys, examine an alarm clock by the light of a desk lamp. Finally, put the mug with pen on the dresser and examine a notebook computer by the light of a table lamp."
+                "fintune 1":"Examine an alarm clock by the light of a desk lamp at any time. Simultaneously, move a pencil to the dresser. After moving the pencil, put the mug with pen on the dresser. Finally, place a set of keys on top of the desk drawers. Examine a notebook computer by the light of a lightswitch.",
+                "fintune 2":"Place a set of keys on top of the desk drawers before examining an alarm clock by the light of a desk lamp. Simultaneously, examine a notebook computer by the light of a lightswitch. After examining the clock, move a pencil to the dresser and put the mug with pen on the dresser.",
+                "fintune 3":"Move a pencil to the dresser first. Simultaneously, place a set of keys on top of the desk drawers. After moving the pencil and placing the keys, examine an alarm clock by the light of a desk lamp. Finally, put the mug with pen on the dresser and examine a notebook computer by the light of a lightswitch."
             }
         }
     ],
