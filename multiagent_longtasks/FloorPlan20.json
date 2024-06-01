@@ -310,7 +310,7 @@
         },
         "train/pick_and_place_with_movable_recep-DishSponge-Bowl-Shelf-20/trial_T20190909_060012_957234/traj_data.json":{
             "tasks":[
-                "Move a glass bowl with a sponge to the shelves in the corner. ",
+                "Move a glass bowl with a sponge to the shelf in the corner. ",
                 "place bowl with green sponge on middle brown shelf",
                 "Move a sponge and bowl to a shelf."
             ],
@@ -322,7 +322,7 @@
         "train/pick_and_place_with_movable_recep-DishSponge-Bowl-Shelf-20/trial_T20190908_233427_946705/traj_data.json":{
             "tasks":[
                 "Pick up a sponge, put it in a bowl, put the bowl on a shelf",
-                "Move a bowl with a sponge to the shelves in the corner. ",
+                "Move a bowl with a sponge to the shelf in the corner. ",
                 "Place a bowl with a sponge inside on the shelf."
             ],
             "relative_objects":[
@@ -527,7 +527,7 @@
             "tasks":[
                 "Put a chilled plate on the middle shelf in the corner.",
                 "Put a chilled plate on the wooden shelf.",
-                "Place a chilled gray plate on the brown shelves."
+                "Place a chilled gray plate on the brown shelf."
             ],
             "relative_objects":[
                 "Plate"
@@ -547,7 +547,7 @@
             "tasks":[
                 "Put a chilled plate on the brown tiered shelving unit.",
                 "Put a chilled plate onto the wooden shelf in the kitchen",
-                "Place a cooled plate on the wooden shelves."
+                "Place a cooled plate on the wooden shelf."
             ],
             "relative_objects":[
                 "Plate"
@@ -1184,7 +1184,7 @@
             "tasks":[
                 "To chill a bowl and place it on the shelf. ",
                 "Put the chilled bowl on the shelf rack",
-                "Place a chilled bowl on the brown shelves in the corner of the room."
+                "Place a chilled bowl on the brown shelf in the corner of the room."
             ],
             "relative_objects":[
                 "Bowl"
@@ -1204,7 +1204,7 @@
             "tasks":[
                 "Put a clean plate on the shelf.",
                 "Put clean plate on a shelf.",
-                "put washed plate on shelves"
+                "put washed plate on shelf"
             ],
             "relative_objects":[
                 "Plate",
@@ -1225,7 +1225,7 @@
         },
         "train/pick_clean_then_place_in_recep-Plate-None-Shelf-20/trial_T20190909_122849_022213/traj_data.json":{
             "tasks":[
-                "put washed plate on shelves",
+                "put washed plate on shelf",
                 "Place a clean plate on a shelf.",
                 "Put a clean plate on the shelf."
             ],
@@ -1412,7 +1412,7 @@
         },
         "train/pick_cool_then_place_in_recep-Mug-None-Shelf-20/trial_T20190908_121332_701155/traj_data.json":{
             "tasks":[
-                "Chill the mug and put it back on the shelves.",
+                "Chill the mug and put it back on the shelf.",
                 "Put a chilled mug on the shelf.",
                 "Chilling off a hot cup"
             ],
@@ -2052,7 +2052,7 @@
         {
             "task_list":[
                 "Put a heated mug in the cupboard above the microwave",
-                "put washed plate on shelves",
+                "put washed plate on shelf",
                 "Cut up a tomato, heat the sliced tomato piece",
                 "To move the salt from the counter to the brown shelf."
             ],
@@ -2065,9 +2065,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a heated mug in the cupboard above the microwave at any time. Simultaneously, put washed plate on shelves. After putting the mug and the plate, cut up a tomato, then heat the sliced tomato piece. To finish, move the salt from the counter to the brown shelf.",
-                "fintune 2":"Put washed plate on shelves at any time. Simultaneously, cut up a tomato, then heat the sliced tomato piece. After putting the plate, move the salt from the counter to the brown shelf. To finish, put a heated mug in the cupboard above the microwave.",
-                "fintune 3":"Cut up a tomato, then heat the sliced tomato piece at any time. Simultaneously, move the salt from the counter to the brown shelf. After heating the tomato, put a heated mug in the cupboard above the microwave. To finish, put washed plate on shelves."
+                "fintune 1":"Put a heated mug in the cupboard above the microwave at any time. Simultaneously, put washed plate on shelf. After putting the mug and the plate, cut up a tomato, then heat the sliced tomato piece. To finish, move the salt from the counter to the brown shelf.",
+                "fintune 2":"Put washed plate on shelf at any time. Simultaneously, cut up a tomato, then heat the sliced tomato piece. After putting the plate, move the salt from the counter to the brown shelf. To finish, put a heated mug in the cupboard above the microwave.",
+                "fintune 3":"Cut up a tomato, then heat the sliced tomato piece at any time. Simultaneously, move the salt from the counter to the brown shelf. After heating the tomato, put a heated mug in the cupboard above the microwave. To finish, put washed plate on shelf."
             }
         }
     ],

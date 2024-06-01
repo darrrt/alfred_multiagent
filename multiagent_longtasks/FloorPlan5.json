@@ -466,7 +466,7 @@
         "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190907_170219_219243/traj_data.json":{
             "tasks":[
                 "Place a cooled bowl on a shelf in the kitchen.",
-                "Chill the bowl and set it back on the shelves.",
+                "Chill the bowl and set it back on the shelf.",
                 "place a cold glass bowl on the shelf"
             ],
             "relative_objects":[
@@ -475,7 +475,7 @@
         },
         "train/pick_cool_then_place_in_recep-Bowl-None-Shelf-5/trial_T20190908_091641_481598/traj_data.json":{
             "tasks":[
-                "Put the cold bowl on the shelves",
+                "Put the cold bowl on the shelf",
                 "Pick up a bowl, refrigerate it, place it on a shelf",
                 "Put a chilled bowl on a shelf."
             ],
@@ -715,7 +715,7 @@
             "tasks":[
                 "Place a chilled mug on the top brown shelf next to the door.",
                 "Chill a mug and place it on the shelf.",
-                "Chill the coffee cup on the shelves."
+                "Chill the coffee cup on the shelf."
             ],
             "relative_objects":[
                 "Mug"
@@ -1383,7 +1383,7 @@
         {
             "task_list":[
                 "Put a chilled tomato in a small blue bin.",
-                "Put the cold bowl on the shelves",
+                "Put the cold bowl on the shelf",
                 "Set a clean pan on the stove."
             ],
             "orign":[
@@ -1394,9 +1394,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the cold bowl on the shelves. Set a clean pan on the stove.At any time, put a chilled tomato in a small blue bin.",
-                "fintune 2":"Put a chilled tomato in a small blue bin. Set a clean pan on the stove. After setting the pan, put the cold bowl on the shelves.",
-                "fintune 3":"Set a clean pan on the stove. Put a chilled tomato in a small blue bin.Simultaneously, put the cold bowl on the shelves."
+                "fintune 1":"Put the cold bowl on the shelf. Set a clean pan on the stove.At any time, put a chilled tomato in a small blue bin.",
+                "fintune 2":"Put a chilled tomato in a small blue bin. Set a clean pan on the stove. After setting the pan, put the cold bowl on the shelf.",
+                "fintune 3":"Set a clean pan on the stove. Put a chilled tomato in a small blue bin.Simultaneously, put the cold bowl on the shelf."
             }
         },
         {
@@ -1594,7 +1594,7 @@
         },
         {
             "task_list":[
-                "Put the cold bowl on the shelves",
+                "Put the cold bowl on the shelf",
                 "Put a salt shaker in the drawer.",
                 "Place a washed spoon in a drawer with the fork.",
                 "Put a microwaved plate on the counter.",
@@ -1610,9 +1610,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a salt shaker in the drawer at any time. Simultaneously, place a washed spoon in a drawer with the fork. After placing the salt shaker and the spoon, put the cold bowl on the shelves. Finally, put a microwaved plate on the counter.",
+                "fintune 1":"Put a salt shaker in the drawer at any time. Simultaneously, place a washed spoon in a drawer with the fork. After placing the salt shaker and the spoon, put the cold bowl on the shelf. Finally, put a microwaved plate on the counter.",
                 "fintune 2":"Place a washed spoon in a drawer with the fork at any time. Simultaneously, put a microwaved plate on the counter. After placing the spoon and the plate, put a salt shaker in the drawer. Finally, place a cooled egg inside the microwave.",
-                "fintune 3":"Put a microwaved plate on the counter at any time. Simultaneously, place a cooled egg inside the microwave. After placing the plate and the egg, put a salt shaker in the drawer. Finally, put the cold bowl on the shelves."
+                "fintune 3":"Put a microwaved plate on the counter at any time. Simultaneously, place a cooled egg inside the microwave. After placing the plate and the egg, put a salt shaker in the drawer. Finally, put the cold bowl on the shelf."
             }
         },
         {

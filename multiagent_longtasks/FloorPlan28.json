@@ -100,7 +100,7 @@
         "train/pick_and_place_with_movable_recep-Spoon-Mug-SideTable-28/trial_T20190909_003734_276999/traj_data.json":{
             "tasks":[
                 "To put a spoon in a mug and put the mug on the black table. ",
-                "place mug with spoon on top of black shelves",
+                "place mug with spoon on top of black shelf",
                 "Put a mug with a spoon in it on a black shelving unit."
             ],
             "relative_objects":[
@@ -112,7 +112,7 @@
             "tasks":[
                 "Put a coffee cup containing a spoon on the black stand. ",
                 "Place a cold mug with a spoon on a table.",
-                "put mug and spoon onto black shelves"
+                "put mug and spoon onto black shelf"
             ],
             "relative_objects":[
                 "Mug",
@@ -455,7 +455,7 @@
             "tasks":[
                 "Place a black heated mug on the black table.",
                 "To warm up a mug. ",
-                "take black glass, heat in microwave, and put on black shelves in kitchen"
+                "take black glass, heat in microwave, and put on black shelf in kitchen"
             ],
             "relative_objects":[
                 "Mug"
@@ -639,7 +639,7 @@
             "tasks":[
                 "Slice the tomato on the black stand.",
                 "Cut a tomato with a knife.",
-                "cut a tomato on small black shelves"
+                "cut a tomato on small black shelf"
             ],
             "relative_objects":[
                 "Knife",
@@ -752,7 +752,7 @@
         },
         "train/pick_heat_then_place_in_recep-Mug-None-SideTable-28/trial_T20190908_212726_073302/traj_data.json":{
             "tasks":[
-                "place microwaved mug on shelves to the left of counter",
+                "place microwaved mug on shelf to the left of counter",
                 "Put a warm coffee mug on the shelf.",
                 "Put a warm mug on the table."
             ],
@@ -791,7 +791,7 @@
                 "Place the heated apple onto the black table.",
                 "Cook the apple.",
                 "TO heat an apple as well as place it on the black table.",
-                "put a cook apple onto black shelves",
+                "put a cook apple onto black shelf",
                 "Place a heated apple on a table.",
                 "Put a heated apple on the black table. "
             ],
@@ -1054,7 +1054,7 @@
         {
             "task_list":[
                 "warm a tomato then put it on the corner stand",
-                "place microwaved mug on shelves to the left of counter"
+                "place microwaved mug on shelf to the left of counter"
             ],
             "orign":[
                 [
@@ -1063,9 +1063,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Warm a tomato then put it on the corner stand. After warming a tomato, place microwaved mug on shelves to the left of counter.",
-                "fintune 2":"Warm a tomato then put it on the corner stand. Simultaneously, place microwaved mug on shelves to the left of counter.",
-                "fintune 3":"Place microwaved mug on shelves to the left of counter at any time. After placing the mug, warm a tomato then put it on the corner stand."
+                "fintune 1":"Warm a tomato then put it on the corner stand. After warming a tomato, place microwaved mug on shelf to the left of counter.",
+                "fintune 2":"Warm a tomato then put it on the corner stand. Simultaneously, place microwaved mug on shelf to the left of counter.",
+                "fintune 3":"Place microwaved mug on shelf to the left of counter at any time. After placing the mug, warm a tomato then put it on the corner stand."
             }
         },
         {

@@ -431,7 +431,7 @@ OBJECTS_PLURAL = [
     'safes',
     'saltshakers',
     'scrubbrushes',
-    'shelves',
+    'shelf',
     'showerdoors',
     'showerglassess',
     'sinks',
