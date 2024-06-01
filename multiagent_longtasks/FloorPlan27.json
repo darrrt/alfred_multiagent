@@ -506,7 +506,7 @@
         },
         "train/pick_clean_then_place_in_recep-Ladle-None-Cabinet-27/trial_T20190908_142710_998510/traj_data.json":{
             "tasks":[
-                "Put a clean ice cream scoop in the cabinet.",
+                "Put a clean spoon in the cabinet.",
                 "Place clean measuring spoon in cabinet below sink",
                 "Put s cleaned spoon in the right cabinet under the sink. "
             ],
@@ -861,7 +861,7 @@
         },
         "train/pick_clean_then_place_in_recep-Ladle-None-Drawer-27/trial_T20190906_211454_169080/traj_data.json":{
             "tasks":[
-                "Place a clean ice cream scoop in a drawer.",
+                "Place a clean spoon in a drawer.",
                 "Put the cleaned spoon in the drawer under the microwave. ",
                 "Place a cleaned ladle in a drawer."
             ],
@@ -1543,7 +1543,7 @@
             "task_list":[
                 "To place a knife on a pan on the white table plus cutting it into slices.",
                 "Place a chilled apple on a counter.",
-                "Place a clean ice cream scoop in a drawer."
+                "Place a clean spoon in a drawer."
             ],
             "orign":[
                 [
@@ -1553,9 +1553,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a chilled apple on a counter. Simultaneously, place a clean ice cream scoop in a drawer. After placing the apple and ice cream scoop, place a knife on a pan on the white table plus cutting it into slices.",
-                "fintune 2":"Place a clean ice cream scoop in a drawer. Simultaneously, place a chilled apple on a counter. After placing the ice cream scoop and apple, place a knife on a pan on the white table plus cutting it into slices.",
-                "fintune 3":"Place a chilled apple on a counter at any time. Simultaneously, place a clean ice cream scoop in a drawer. After placing the apple and ice cream scoop, place a knife on a pan on the white table plus cutting it into slices."
+                "fintune 1":"Place a chilled apple on a counter. Simultaneously, place a clean spoon in a drawer. After placing the apple and spoon, place a knife on a pan on the white table plus cutting it into slices.",
+                "fintune 2":"Place a clean spoon in a drawer. Simultaneously, place a chilled apple on a counter. After placing the spoon and apple, place a knife on a pan on the white table plus cutting it into slices.",
+                "fintune 3":"Place a chilled apple on a counter at any time. Simultaneously, place a clean spoon in a drawer. After placing the apple and spoon, place a knife on a pan on the white table plus cutting it into slices."
             }
         },
         {
@@ -1668,7 +1668,7 @@
                 "To chill an egg and put it on the counter. ",
                 "Place the clean apple in the fridge.",
                 "Put a shaker on the counter.",
-                "Put a clean ice cream scoop in the cabinet."
+                "Put a clean spoon in the cabinet."
             ],
             "orign":[
                 [
@@ -1679,9 +1679,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Chill an egg and put it on the counter. Simultaneously, place the clean apple in the fridge. Put a shaker on the counter. Finally, put a clean ice cream scoop in the cabinet.",
-                "fintune 2":"Chill an egg and put it on the counter. Place the clean apple in the fridge. Simultaneously, put a shaker on the counter and put a clean ice cream scoop in the cabinet.",
-                "fintune 3":"Put a shaker on the counter. Chill an egg and put it on the counter. Place the clean apple in the fridge. Finally, put a clean ice cream scoop in the cabinet."
+                "fintune 1":"Chill an egg and put it on the counter. Simultaneously, place the clean apple in the fridge. Put a shaker on the counter. Finally, put a clean spoon in the cabinet.",
+                "fintune 2":"Chill an egg and put it on the counter. Place the clean apple in the fridge. Simultaneously, put a shaker on the counter and put a clean spoon in the cabinet.",
+                "fintune 3":"Put a shaker on the counter. Chill an egg and put it on the counter. Place the clean apple in the fridge. Finally, put a clean spoon in the cabinet."
             }
         }
     ],
@@ -1761,7 +1761,7 @@
                 "Place a chilled pan on a table.",
                 "Move a chilled piece of lettuce to the table. ",
                 "Place a cup with a knife in it on a table.",
-                "Place a clean ice cream scoop in a drawer."
+                "Place a clean spoon in a drawer."
             ],
             "orign":[
                 [
@@ -1773,9 +1773,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a clean ice cream scoop in a drawer. At any time, put a cooked slice of bread on a table. Simultaneously, place a chilled pan on a table. After placing the bread and pan, move a chilled piece of lettuce to the table. Finally, place a cup with a knife in it on the table.",
-                "fintune 2":"Place a clean ice cream scoop in a drawer. At any time, put a cooked slice of bread on a table. Simultaneously, place a chilled pan on a table. After placing the bread, move a chilled piece of lettuce to the table. Finally, place a cup with a knife in it on a table.",
-                "fintune 3":"Place a clean ice cream scoop in a drawer. At any time, put a cooked slice of bread on a table. Simultaneously, place a chilled pan on a table. After placing the pan, move a chilled piece of lettuce to the table. Finally, place a cup with a knife in it on the table."
+                "fintune 1":"Place a clean spoon in a drawer. At any time, put a cooked slice of bread on a table. Simultaneously, place a chilled pan on a table. After placing the bread and pan, move a chilled piece of lettuce to the table. Finally, place a cup with a knife in it on the table.",
+                "fintune 2":"Place a clean spoon in a drawer. At any time, put a cooked slice of bread on a table. Simultaneously, place a chilled pan on a table. After placing the bread, move a chilled piece of lettuce to the table. Finally, place a cup with a knife in it on a table.",
+                "fintune 3":"Place a clean spoon in a drawer. At any time, put a cooked slice of bread on a table. Simultaneously, place a chilled pan on a table. After placing the pan, move a chilled piece of lettuce to the table. Finally, place a cup with a knife in it on the table."
             }
         },
         {
@@ -1859,7 +1859,7 @@
                 "Find a knife then clean it before putting back on the table.",
                 "Put a clean, apple slice in the dining table.",
                 "place a cold tomato slice in the oven",
-                "Put a clean ice cream scoop in the cabinet.",
+                "Put a clean spoon in the cabinet.",
                 "Move a seasoning shaker to the counter. "
             ],
             "orign":[
@@ -1874,8 +1874,8 @@
             ],
             "finetuned":{
                 "fintune 1":"Place a cold lettuce slice at the side of the fridge. Find a knife then clean it before putting back on the table. Put a clean, apple slice in the dining table.",
-                "fintune 2":"Move a seasoning shaker to the counter. Put a clean ice cream scoop in the cabinet. Find a knife then clean it before putting back on the table.",
-                "fintune 3":"Put a clean, apple slice in the dining table. Move a seasoning shaker to the counter. Put a clean ice cream scoop in the cabinet."
+                "fintune 2":"Move a seasoning shaker to the counter. Put a clean spoon in the cabinet. Find a knife then clean it before putting back on the table.",
+                "fintune 3":"Put a clean, apple slice in the dining table. Move a seasoning shaker to the counter. Put a clean spoon in the cabinet."
             }
         },
         {

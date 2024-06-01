@@ -40,7 +40,7 @@
         },
         "train/pick_and_place_with_movable_recep-Ladle-Pan-CounterTop-8/trial_T20190909_043109_075547/traj_data.json":{
             "tasks":[
-                "Put a pan with an ice cream scoop in it on the counter.",
+                "Put a pan with an spoon in it on the counter.",
                 "Put a pan with a large spoon in it on the counter.",
                 "Put the pan with ladle on the counter"
             ],
@@ -531,7 +531,7 @@
         "train/pick_clean_then_place_in_recep-Ladle-None-Cabinet-8/trial_T20190908_005649_247429/traj_data.json":{
             "tasks":[
                 "Place a washed spoon in a cabinet. ",
-                "Put a clean ice cream scoop in the cupboard.",
+                "Put a clean spoon in the cupboard.",
                 "Put a cleaned scoop in a cabinet."
             ],
             "relative_objects":[
@@ -708,7 +708,7 @@
         "valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-8/trial_T20190909_121908_219603/traj_data.json":{
             "tasks":[
                 "Place a clean ladle on a counter.",
-                "Put a clean ice cream scoop on the counter.",
+                "Put a clean spoon on the counter.",
                 "put washed ladle on counter"
             ],
             "relative_objects":[
@@ -1214,7 +1214,7 @@
                 "Cooking potatoes in the microwave. ",
                 "Put a microwaved egg in the garbage.",
                 "Put a couple of pepper grinders in the kitchen cabinet",
-                "Put a pan with an ice cream scoop in it on the counter."
+                "Put a pan with an spoon in it on the counter."
             ],
             "orign":[
                 [
@@ -1226,7 +1226,7 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a microwaved egg in the garbage. Simultaneously, place a warmed glass in the sink. After putting the egg in the garbage and the glass in the sink, put a pan with an ice cream scoop in it on the counter.",
+                "fintune 1":"Put a microwaved egg in the garbage. Simultaneously, place a warmed glass in the sink. After putting the egg in the garbage and the glass in the sink, put a pan with an spoon in it on the counter.",
                 "fintune 2":"Put a couple of pepper grinders in the kitchen cabinet at any time. Simultaneously, cooking potatoes in the microwave.",
                 "fintune 3":"Cooking potatoes in the microwave. After cooking the potatoes, put a couple of pepper grinders in the kitchen cabinet. Once these tasks are completed, put a microwaved egg in the garbage and place a warmed glass in the sink."
             }
