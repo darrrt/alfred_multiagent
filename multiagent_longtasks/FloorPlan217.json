@@ -67,7 +67,7 @@
         },
         "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/traj_data.json":{
             "tasks":[
-                "Move the remotes to the arm chair seat."
+                "Move the remote control to the arm chair seat."
             ],
             "relative_objects":[
                 "RemoteControl"
@@ -75,7 +75,7 @@
         },
         "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115832_508705/traj_data.json":{
             "tasks":[
-                "Move the remotes from the table to the arm chair seat."
+                "Move the remote control from the table to the arm chair seat."
             ],
             "relative_objects":[
                 "RemoteControl"
@@ -322,7 +322,7 @@
         {
             "task_list":[
                 "Move pillows to the chair.",
-                "Move the remotes to the arm chair seat."
+                "Move the remote control to the arm chair seat."
             ],
             "orign":[
                 [
@@ -331,9 +331,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move pillows to the chair at any time. Simultaneously, move the remotes to the arm chair seat.",
-                "fintune 2":"Move the remotes to the arm chair seat first. Then, move pillows to the chair.",
-                "fintune 3":"Move pillows to the chair. Subsequently, move the remotes to the arm chair seat."
+                "fintune 1":"Move pillows to the chair at any time. Simultaneously, move the remote control to the arm chair seat.",
+                "fintune 2":"Move the remote control to the arm chair seat first. Then, move pillows to the chair.",
+                "fintune 3":"Move pillows to the chair. Subsequently, move the remote control to the arm chair seat."
             }
         },
         {
@@ -431,7 +431,7 @@
         },
         {
             "task_list":[
-                "Move the remotes to the arm chair seat.",
+                "Move the remote control to the arm chair seat.",
                 "Examine a credit card under a lamp",
                 "Grab the watch on the coffee table, turn on the floor lamp in the corner"
             ],
@@ -443,9 +443,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the remotes to the arm chair seat at any time. Simultaneously, examine a credit card under a lamp. Once done, grab the watch on the coffee table and then turn on the floor lamp in the corner.",
-                "fintune 2":"Grab the watch on the coffee table, then turn on the floor lamp in the corner. Once completed, move the remotes to the arm chair seat followed by examining a credit card under a lamp.",
-                "fintune 3":"Examine a credit card under a lamp first. After that, grab the watch on the coffee table, turn on the floor lamp in the corner and move the remotes to the arm chair seat."
+                "fintune 1":"Move the remote control to the arm chair seat at any time. Simultaneously, examine a credit card under a lamp. Once done, grab the watch on the coffee table and then turn on the floor lamp in the corner.",
+                "fintune 2":"Grab the watch on the coffee table, then turn on the floor lamp in the corner. Once completed, move the remote control to the arm chair seat followed by examining a credit card under a lamp.",
+                "fintune 3":"Examine a credit card under a lamp first. After that, grab the watch on the coffee table, turn on the floor lamp in the corner and move the remote control to the arm chair seat."
             }
         },
         {
@@ -473,7 +473,7 @@
             "task_list":[
                 "Move keys to a couch. ",
                 "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Move the remotes from the table to the arm chair seat.",
+                "Move the remote control from the table to the arm chair seat.",
                 "move the credit cards to the chair."
             ],
             "orign":[
@@ -485,9 +485,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move the remotes from the table to the arm chair seat. After completing the previous tasks, move keys to a couch.",
-                "fintune 2":"Move keys to a couch. After moving the keys, move the remotes from the table to the arm chair seat. Simultaneously, grab the watch on the coffee table, turn on the floor lamp in the corner.",
-                "fintune 3":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move keys to a couch. After completing the previous tasks, move the remotes from the table to the arm chair seat, then move the credit cards to the chair."
+                "fintune 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move the remote control from the table to the arm chair seat. After completing the previous tasks, move keys to a couch.",
+                "fintune 2":"Move keys to a couch. After moving the keys, move the remote control from the table to the arm chair seat. Simultaneously, grab the watch on the coffee table, turn on the floor lamp in the corner.",
+                "fintune 3":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move keys to a couch. After completing the previous tasks, move the remote control from the table to the arm chair seat, then move the credit cards to the chair."
             }
         },
         {
@@ -513,7 +513,7 @@
         },
         {
             "task_list":[
-                "Move the remotes to the arm chair seat.",
+                "Move the remote control to the arm chair seat.",
                 "Move a box from the couch to the chair.",
                 "move the credit cards to the chair.",
                 "To move the keys."
@@ -527,9 +527,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a box from the couch to the chair at any time. Simultaneously, move the credit cards to the chair.After moving the box and credit cards, move the remotes to the arm chair seat.",
-                "fintune 2":"Move a box from the couch to the chair at any time. After moving the box, move the credit cards to the chair. Once both are completed, move the remotes to the arm chair seat.",
-                "fintune 3":"Move the remotes to the arm chair seat at any time. After moving the remotes, move a box from the couch to the chair and then move the credit cards to the chair. Finally, move the keys."
+                "fintune 1":"Move a box from the couch to the chair at any time. Simultaneously, move the credit cards to the chair.After moving the box and credit cards, move the remote control to the arm chair seat.",
+                "fintune 2":"Move a box from the couch to the chair at any time. After moving the box, move the credit cards to the chair. Once both are completed, move the remote control to the arm chair seat.",
+                "fintune 3":"Move the remote control to the arm chair seat at any time. After moving the remote control, move a box from the couch to the chair and then move the credit cards to the chair. Finally, move the keys."
             }
         },
         {
@@ -605,7 +605,7 @@
                 "Place a watering can in a cabinet",
                 "move the credit cards to the chair.",
                 "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Move the remotes from the table to the arm chair seat."
+                "Move the remote control from the table to the arm chair seat."
             ],
             "orign":[
                 [
@@ -617,9 +617,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Then place a watering can in a cabinet. After that, move the credit cards to the chair. Finally, move the remotes from the table to the arm chair seat. To move the keys can be done at any time.",
-                "fintune 2":"Place a watering can in a cabinet. Next, grab the watch on the coffee table, turn on the floor lamp in the corner. Then move the remotes from the table to the arm chair seat. After that, move the credit cards to the chair. To move the keys can be done at any time.",
-                "fintune 3":"Move the credit cards to the chair. Then move the remotes from the table to the arm chair seat. Next, grab the watch on the coffee table, turn on the floor lamp in the corner. After that, place a watering can in a cabinet. To move the keys can be done at any time."
+                "fintune 1":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Then place a watering can in a cabinet. After that, move the credit cards to the chair. Finally, move the remote control from the table to the arm chair seat. To move the keys can be done at any time.",
+                "fintune 2":"Place a watering can in a cabinet. Next, grab the watch on the coffee table, turn on the floor lamp in the corner. Then move the remote control from the table to the arm chair seat. After that, move the credit cards to the chair. To move the keys can be done at any time.",
+                "fintune 3":"Move the credit cards to the chair. Then move the remote control from the table to the arm chair seat. Next, grab the watch on the coffee table, turn on the floor lamp in the corner. After that, place a watering can in a cabinet. To move the keys can be done at any time."
             }
         },
         {
@@ -670,7 +670,7 @@
         },
         {
             "task_list":[
-                "Move the remotes to the arm chair seat.",
+                "Move the remote control to the arm chair seat.",
                 "move a box from the table to the chair",
                 "Move a watering can into a dresser cabinet.",
                 "Move pillows to the chair.",
@@ -686,9 +686,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the remotes to the arm chair seat. After moving the remotes, move a box from the table to the chair. Finally, move a watering can into a dresser cabinet.",
+                "fintune 1":"Move the remote control to the arm chair seat. After moving the remote control, move a box from the table to the chair. Finally, move a watering can into a dresser cabinet.",
                 "fintune 2":"Examine a credit card under a lamp. Simultaneously, move pillows to the chair. After examining the credit card and moving the pillows, move a box from the table to the chair.",
-                "fintune 3":"Move a box from the table to the chair at any time. After moving the box, move pillows to the chair. Finally, move the remotes to the arm chair seat. After completing these tasks, examine a credit card under a lamp and then move a watering can into a dresser cabinet."
+                "fintune 3":"Move a box from the table to the chair at any time. After moving the box, move pillows to the chair. Finally, move the remote control to the arm chair seat. After completing these tasks, examine a credit card under a lamp and then move a watering can into a dresser cabinet."
             }
         }
     ],
@@ -724,7 +724,7 @@
                 "To move the keys.",
                 "move a box from the table to the chair",
                 "Grab the watch on the coffee table, turn on the floor lamp in the corner",
-                "Move the remotes from the table to the arm chair seat.",
+                "Move the remote control from the table to the arm chair seat.",
                 "Examine a credit card under a lamp"
             ],
             "orign":[
@@ -738,9 +738,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move pillows to the chair. To move the keys. Move a box from the table to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remotes from the table to the arm chair seat. Examine a credit card under a lamp.",
-                "fintune 2":"Move pillows to the chair. Move a box from the table to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remotes from the table to the arm chair seat. Examine a credit card under a lamp. To move the keys.",
-                "fintune 3":"Move pillows to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remotes from the table to the arm chair seat. Examine a credit card under a lamp. To move the keys. Move a box from the table to the chair."
+                "fintune 1":"Move pillows to the chair. To move the keys. Move a box from the table to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remote control from the table to the arm chair seat. Examine a credit card under a lamp.",
+                "fintune 2":"Move pillows to the chair. Move a box from the table to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remote control from the table to the arm chair seat. Examine a credit card under a lamp. To move the keys.",
+                "fintune 3":"Move pillows to the chair. Grab the watch on the coffee table, turn on the floor lamp in the corner. Move the remote control from the table to the arm chair seat. Examine a credit card under a lamp. To move the keys. Move a box from the table to the chair."
             }
         },
         {
@@ -798,7 +798,7 @@
                 "Move a box from the couch to the chair.",
                 "Move keys from the sofa to the TV stand.",
                 "Move the credit card to the coffee table.",
-                "Move the remotes from the table to the arm chair seat.",
+                "Move the remote control from the table to the arm chair seat.",
                 "Grab the watch on the coffee table, turn on the floor lamp in the corner",
                 "Move a watering can into a dresser cabinet."
             ],
@@ -813,16 +813,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move keys from the sofa to the TV stand. Simultaneously, grab the watch on the coffee table, turn on the floor lamp in the corner. After moving the keys, move the credit card to the coffee table. Finally, move a box from the couch to the chair. After all, move the remotes from the table to the armchair seat. At last, move a watering can into the dresser cabinet.",
-                "fintune 2":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move the remotes from the table to the armchair seat. After grabbing the watch and turning on the lamp, move a box from the couch to the chair. Next, move keys from the sofa to the TV stand. After that, move the credit card to the coffee table. To complete the tasks, move a watering can into the dresser cabinet.",
-                "fintune 3":"Move keys from the sofa to the TV stand. Then, grab the watch on the coffee table, turn on the floor lamp in the corner. After completing that, move the remotes from the table to the armchair seat. Next, move a box from the couch to the chair. Following that, move the credit card to the coffee table. Lastly, move a watering can into the dresser cabinet."
+                "fintune 1":"Move keys from the sofa to the TV stand. Simultaneously, grab the watch on the coffee table, turn on the floor lamp in the corner. After moving the keys, move the credit card to the coffee table. Finally, move a box from the couch to the chair. After all, move the remote control from the table to the armchair seat. At last, move a watering can into the dresser cabinet.",
+                "fintune 2":"Grab the watch on the coffee table, turn on the floor lamp in the corner. Simultaneously, move the remote control from the table to the armchair seat. After grabbing the watch and turning on the lamp, move a box from the couch to the chair. Next, move keys from the sofa to the TV stand. After that, move the credit card to the coffee table. To complete the tasks, move a watering can into the dresser cabinet.",
+                "fintune 3":"Move keys from the sofa to the TV stand. Then, grab the watch on the coffee table, turn on the floor lamp in the corner. After completing that, move the remote control from the table to the armchair seat. Next, move a box from the couch to the chair. Following that, move the credit card to the coffee table. Lastly, move a watering can into the dresser cabinet."
             }
         }
     ],
     "tasks_7":[
         {
             "task_list":[
-                "Move the remotes from the table to the arm chair seat.",
+                "Move the remote control from the table to the arm chair seat.",
                 "Move the keys from the table to the sofa",
                 "Move the credit card to the coffee table.",
                 "Move a watering can into a dresser cabinet.",
@@ -842,9 +842,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the keys from the table to the sofa. Turn on the floor lamp in the corner. After moving the keys and turning on the lamp, move the credit card to the coffee table. Then, move a box from the couch to the chair. Simultaneously, move the remotes from the table to the arm chair seat and grab the watch on the coffee table. Finally, move pillows to the chair and move a watering can into a dresser cabinet.",
-                "fintune 2":"Move the remotes from the table to the arm chair seat. Move the keys from the table to the sofa. After moving the keys, turn on the floor lamp in the corner. Then, move a watering can into a dresser cabinet. Simultaneously, move pillows to the chair and grab the watch on the coffee table. Finally, move a box from the couch to the chair and move the credit card to the coffee table.",
-                "fintune 3":"Move pillows to the chair. Move the keys from the table to the sofa. After moving the keys, turn on the floor lamp in the corner. Then, move the credit card to the coffee table. Simultaneously, move the remotes from the table to the arm chair seat and grab the watch on the coffee table. Finally, move a box from the couch to the chair and move a watering can into a dresser cabinet."
+                "fintune 1":"Move the keys from the table to the sofa. Turn on the floor lamp in the corner. After moving the keys and turning on the lamp, move the credit card to the coffee table. Then, move a box from the couch to the chair. Simultaneously, move the remote control from the table to the arm chair seat and grab the watch on the coffee table. Finally, move pillows to the chair and move a watering can into a dresser cabinet.",
+                "fintune 2":"Move the remote control from the table to the arm chair seat. Move the keys from the table to the sofa. After moving the keys, turn on the floor lamp in the corner. Then, move a watering can into a dresser cabinet. Simultaneously, move pillows to the chair and grab the watch on the coffee table. Finally, move a box from the couch to the chair and move the credit card to the coffee table.",
+                "fintune 3":"Move pillows to the chair. Move the keys from the table to the sofa. After moving the keys, turn on the floor lamp in the corner. Then, move the credit card to the coffee table. Simultaneously, move the remote control from the table to the arm chair seat and grab the watch on the coffee table. Finally, move a box from the couch to the chair and move a watering can into a dresser cabinet."
             }
         }
     ],

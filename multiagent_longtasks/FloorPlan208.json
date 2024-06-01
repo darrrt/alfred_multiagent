@@ -180,7 +180,7 @@
         },
         "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000903_032547/traj_data.json":{
             "tasks":[
-                "Move remotes to chair."
+                "Move remote control to chair."
             ],
             "relative_objects":[
                 "RemoteControl"
@@ -188,7 +188,7 @@
         },
         "train/pick_two_obj_and_place-RemoteControl-None-ArmChair-208/trial_T20190908_000931_826783/traj_data.json":{
             "tasks":[
-                "Put the remotes on the same chair."
+                "Put the remote control on the same chair."
             ],
             "relative_objects":[
                 "RemoteControl",
@@ -348,7 +348,7 @@
     "tasks_3":[
         {
             "task_list":[
-                "Put the remotes on the same chair.",
+                "Put the remote control on the same chair.",
                 "Examine the credit card by light of the floor lamp.",
                 "Put the keys on the couch"
             ],
@@ -360,16 +360,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine the credit card by light of the floor lamp at any time. Simultaneously, put the remotes on the same chair. After examining the credit card, put the keys on the couch.",
-                "fintune 2":"Put the keys on the couch at any time. Simultaneously, put the remotes on the same chair. After putting the keys, examine the credit card by light of the floor lamp.",
-                "fintune 3":"Put the remotes on the same chair at any time. Simultaneously, put the keys on the couch. After putting the remotes, examine the credit card by light of the floor lamp."
+                "fintune 1":"Examine the credit card by light of the floor lamp at any time. Simultaneously, put the remote control on the same chair. After examining the credit card, put the keys on the couch.",
+                "fintune 2":"Put the keys on the couch at any time. Simultaneously, put the remote control on the same chair. After putting the keys, examine the credit card by light of the floor lamp.",
+                "fintune 3":"Put the remote control on the same chair at any time. Simultaneously, put the keys on the couch. After putting the remote control, examine the credit card by light of the floor lamp."
             }
         },
         {
             "task_list":[
                 "put a cushion on an ottoman",
                 "Put the keys in the drawer.",
-                "Move remotes to chair."
+                "Move remote control to chair."
             ],
             "orign":[
                 [
@@ -379,9 +379,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the keys in the drawer. Move remotes to chair. Put a cushion on an ottoman.",
-                "fintune 2":"Move remotes to chair. Put the keys in the drawer. Put a cushion on an ottoman.",
-                "fintune 3":"Put a cushion on an ottoman. Put the keys in the drawer. Move remotes to chair."
+                "fintune 1":"Put the keys in the drawer. Move remote control to chair. Put a cushion on an ottoman.",
+                "fintune 2":"Move remote control to chair. Put the keys in the drawer. Put a cushion on an ottoman.",
+                "fintune 3":"Put a cushion on an ottoman. Put the keys in the drawer. Move remote control to chair."
             }
         },
         {
@@ -405,7 +405,7 @@
         },
         {
             "task_list":[
-                "Put the remotes on the same chair.",
+                "Put the remote control on the same chair.",
                 "Pick up a vase, open the blinds on the window",
                 "Move the left-most set of keys from the lounge chair to the couch."
             ],
@@ -417,9 +417,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Pick up a vase, open the blinds on the window at any time. Simultaneously, put the remotes on the same chair. After picking up the vase and putting the remotes on the chair, move the left-most set of keys from the lounge chair to the couch.",
-                "fintune 2":"Put the remotes on the same chair at any time. Simultaneously, pick up a vase and open the blinds on the window. After placing the remotes on the chair, move the left-most set of keys from the lounge chair to the couch.",
-                "fintune 3":"Put the remotes on the same chair at any time. Simultaneously, move the left-most set of keys from the lounge chair to the couch. After placing the remotes on the chair, pick up a vase and open the blinds on the window."
+                "fintune 1":"Pick up a vase, open the blinds on the window at any time. Simultaneously, put the remote control on the same chair. After picking up the vase and putting the remote control on the chair, move the left-most set of keys from the lounge chair to the couch.",
+                "fintune 2":"Put the remote control on the same chair at any time. Simultaneously, pick up a vase and open the blinds on the window. After placing the remote control on the chair, move the left-most set of keys from the lounge chair to the couch.",
+                "fintune 3":"Put the remote control on the same chair at any time. Simultaneously, move the left-most set of keys from the lounge chair to the couch. After placing the remote control on the chair, pick up a vase and open the blinds on the window."
             }
         },
         {
@@ -487,7 +487,7 @@
         },
         {
             "task_list":[
-                "Move remotes to chair.",
+                "Move remote control to chair.",
                 "Move the keys from the top of the black table to the drawer inside.",
                 "Pick up a vase, open the blinds on the window",
                 "Move a plaid cushion to the ottoman"
@@ -501,16 +501,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move remotes to chair at any time. Simultaneously, pick up a vase and open the blinds on the window.After moving the remotes, move the keys from the top of the black table to the drawer inside. Finally, move a plaid cushion to the ottoman.",
-                "fintune 2":"Move the keys from the top of the black table to the drawer inside at any time. After that, pick up a vase and open the blinds on the window. Simultaneously, move remotes to chair. Finally, move a plaid cushion to the ottoman.",
-                "fintune 3":"Pick up a vase and open the blinds on the window at any time. Simultaneously, move remotes to chair. After that, move the keys from the top of the black table to the drawer inside. Finally, move a plaid cushion to the ottoman."
+                "fintune 1":"Move remote control to chair at any time. Simultaneously, pick up a vase and open the blinds on the window.After moving the remote control, move the keys from the top of the black table to the drawer inside. Finally, move a plaid cushion to the ottoman.",
+                "fintune 2":"Move the keys from the top of the black table to the drawer inside at any time. After that, pick up a vase and open the blinds on the window. Simultaneously, move remote control to chair. Finally, move a plaid cushion to the ottoman.",
+                "fintune 3":"Pick up a vase and open the blinds on the window at any time. Simultaneously, move remote control to chair. After that, move the keys from the top of the black table to the drawer inside. Finally, move a plaid cushion to the ottoman."
             }
         },
         {
             "task_list":[
                 "Put the keys in the drawer.",
                 "The ro",
-                "Put the remotes on the same chair.",
+                "Put the remote control on the same chair.",
                 "Pick up a vase, open the blinds on the window"
             ],
             "orign":[
@@ -522,9 +522,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the remotes on the same chair. After putting the remotes, pick up a vase, open the blinds on the window. Finally, put the keys in the drawer.",
-                "fintune 2":"Pick up a vase, open the blinds on the window. Simultaneously, put the keys in the drawer. After completing these, put the remotes on the same chair.",
-                "fintune 3":"Put the keys in the drawer at any time. Simultaneously, pick up a vase, open the blinds on the window. After putting the keys, put the remotes on the same chair."
+                "fintune 1":"Put the remote control on the same chair. After putting the remote control, pick up a vase, open the blinds on the window. Finally, put the keys in the drawer.",
+                "fintune 2":"Pick up a vase, open the blinds on the window. Simultaneously, put the keys in the drawer. After completing these, put the remote control on the same chair.",
+                "fintune 3":"Put the keys in the drawer at any time. Simultaneously, pick up a vase, open the blinds on the window. After putting the keys, put the remote control on the same chair."
             }
         },
         {
@@ -555,7 +555,7 @@
                 "Put the keys in the drawer.",
                 "Place a throw pillow on the foot stool.",
                 "Examine the credit card by light of the floor lamp.",
-                "Put the remotes on the same chair.",
+                "Put the remote control on the same chair.",
                 "Pick up a vase, open the blinds on the window"
             ],
             "orign":[
@@ -569,8 +569,8 @@
             ],
             "finetuned":{
                 "fintune 1":"Examine the credit card by light of the floor lamp at any time. Simultaneously, put the keys in the drawer. After examining the credit card and putting the keys in the drawer, place a throw pillow on the foot stool. Lastly, pick up a vase, and open the blinds on the window.",
-                "fintune 2":"Put the keys in the drawer at any time. Simultaneously, examine the credit card by light of the floor lamp. After putting the keys and examining the credit card, pick up a vase, open the blinds on the window, and place a throw pillow on the foot stool. Finally, put the remotes on the same chair.",
-                "fintune 3":"Put the keys in the drawer at any time. Simultaneously, pick up a vase, open the blinds on the window, and put the remotes on the same chair. After putting the keys, examine the credit card by light of the floor lamp. Lastly, place a throw pillow on the foot stool."
+                "fintune 2":"Put the keys in the drawer at any time. Simultaneously, examine the credit card by light of the floor lamp. After putting the keys and examining the credit card, pick up a vase, open the blinds on the window, and place a throw pillow on the foot stool. Finally, put the remote control on the same chair.",
+                "fintune 3":"Put the keys in the drawer at any time. Simultaneously, pick up a vase, open the blinds on the window, and put the remote control on the same chair. After putting the keys, examine the credit card by light of the floor lamp. Lastly, place a throw pillow on the foot stool."
             }
         },
         {
@@ -598,7 +598,7 @@
         },
         {
             "task_list":[
-                "Move remotes to chair.",
+                "Move remote control to chair.",
                 "Pick up the pillows on the sofa, move them to the ottoman.",
                 "Pick up a vase, open the blinds on the window",
                 "Examine the credit card by light of the floor lamp.",
@@ -614,9 +614,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Pick up a vase and open the blinds on the window. Simultaneously, move remotes to chair. After completing these tasks, pick up the pillows on the sofa and move them to the ottoman. Finally, examine the credit card by light of the floor lamp.",
-                "fintune 2":"Move the left-most set of keys from the lounge chair to the couch. After completing this task, pick up a vase and open the blinds on the window. Simultaneously, move remotes to chair. Once these are done, pick up the pillows on the sofa and move them to the ottoman. Finally, examine the credit card by light of the floor lamp.",
-                "fintune 3":"Pick up a vase and open the blinds on the window. Simultaneously, move the left-most set of keys from the lounge chair to the couch. Once these are done, move remotes to chair. After completing these tasks, pick up the pillows on the sofa and move them to the ottoman. Finally, examine the credit card by light of the floor lamp."
+                "fintune 1":"Pick up a vase and open the blinds on the window. Simultaneously, move remote control to chair. After completing these tasks, pick up the pillows on the sofa and move them to the ottoman. Finally, examine the credit card by light of the floor lamp.",
+                "fintune 2":"Move the left-most set of keys from the lounge chair to the couch. After completing this task, pick up a vase and open the blinds on the window. Simultaneously, move remote control to chair. Once these are done, pick up the pillows on the sofa and move them to the ottoman. Finally, examine the credit card by light of the floor lamp.",
+                "fintune 3":"Pick up a vase and open the blinds on the window. Simultaneously, move the left-most set of keys from the lounge chair to the couch. Once these are done, move remote control to chair. After completing these tasks, pick up the pillows on the sofa and move them to the ottoman. Finally, examine the credit card by light of the floor lamp."
             }
         }
     ],
