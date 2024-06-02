@@ -417,8 +417,8 @@ void build_orig_constant_list( void )
   
 
   /* now build FactList of ALL  constant -> type   pairs.
-   * for each constant / object, let it appear separately
-   * for each type it is a member of; compute type
+   * for a constant / object, let it appear separately
+   * for a type it is a member of; compute type
    * membership based on propagating constants / objects
    * through inclusions matrix.
    *

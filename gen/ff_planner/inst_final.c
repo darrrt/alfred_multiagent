@@ -95,7 +95,7 @@ int lf_args[MAX_VARS];
 
 
 
-void perform_reachability_analysis( void )
+void perform_raability_analysis( void )
 
 {
 
@@ -319,7 +319,7 @@ void perform_reachability_analysis( void )
   gnum_pp_facts = gnum_initial + gnum_relevant_facts;
 
   if ( gcmd_line.display_info == 118 ) {
-    printf("\nreachability analysys came up with:");
+    printf("\nraability analysys came up with:");
 
     printf("\n\npossibly positive facts:");
     for ( f = ginitial; f; f = f->next ) {
@@ -582,7 +582,7 @@ void collect_relevant_facts_and_fluents( void )
   }
   /* fluents: collect all that are defined in initial state, plus
    * all that are assigned to by an effect of an action
-   * (i.e. preconds poss. pos. due to reachability)
+   * (i.e. preconds poss. pos. due to raability)
    *
    * first initialise fast access structures
    */
@@ -750,7 +750,7 @@ void collect_relevant_facts_and_fluents( void )
 	print_Action( a );
       }
     }
-    printf("\n\n--------------------GOAL REACHED ops-----------\n\n");
+    printf("\n\n--------------------GOAL RaED ops-----------\n\n");
     for ( a = gactions; a; a = a->next ) {
       if ( !a->norm_operator &&
 	   !a->pseudo_action ) {
@@ -1225,7 +1225,7 @@ void create_final_actions( void )
 	    no->preconds[i].args[j] : a->inst_table[DECODE_VAR( no->preconds[i].args[j] )];
 	}
 	adr = fact_adress();	
-	/* preconds are lpos in all cases due to reachability analysis
+	/* preconds are lpos in all cases due to raability analysis
 	 */
 	if ( !lneg[lp][adr] ) {
 	  continue;
@@ -1316,7 +1316,7 @@ void create_final_actions( void )
 	      ne->conditions[i].args[j] : a->inst_table[DECODE_VAR( ne->conditions[i].args[j] )];
 	  }
 	  adr = fact_adress();
-	  if ( !lpos[lp][adr] ) {/* condition not reachable: skip effect */
+	  if ( !lpos[lp][adr] ) {/* condition not raable: skip effect */
 	    break;
 	  }
 	  if ( !lneg[lp][adr] ) {/* condition always true: skip it */
@@ -1324,7 +1324,7 @@ void create_final_actions( void )
 	  }
 	  aa->conditions[aa->num_conditions++] = lindex[lp][adr];
 	}
-	if ( i < ne->num_conditions ) {/* found unreachable condition: free condition space */
+	if ( i < ne->num_conditions ) {/* found unraable condition: free condition space */
 	  free( aa->conditions );
 	  continue;
 	}
@@ -1525,7 +1525,7 @@ void create_final_actions( void )
 	  largs[j] = pa->preconds[i].args[j];
 	}
 	adr = fact_adress();
-	/* preconds are lpos in all cases due to reachability analysis
+	/* preconds are lpos in all cases due to raability analysis
 	 */
 	if ( !lneg[lp][adr] ) {
 	  continue;
@@ -1595,7 +1595,7 @@ void create_final_actions( void )
 	    largs[j] = pae->conditions[i].args[j];
 	  }
 	  adr = fact_adress();
-	  if ( !lpos[lp][adr] ) {/* condition not reachable: skip effect */
+	  if ( !lpos[lp][adr] ) {/* condition not raable: skip effect */
 	    break;
 	  }
 	  if ( !lneg[lp][adr] ) {/* condition always true: skip it */
@@ -1603,7 +1603,7 @@ void create_final_actions( void )
 	  }
 	  aa->conditions[aa->num_conditions++] = lindex[lp][adr];
 	}
-	if ( i < pae->num_conditions ) {/* found unreachable condition: free condition space */
+	if ( i < pae->num_conditions ) {/* found unraable condition: free condition space */
 	  free( aa->conditions );
 	  continue;
 	}

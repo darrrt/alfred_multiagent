@@ -108,7 +108,7 @@ void build_hard_action_templates( void )
   }
 
 
-  /* create mixed op for each param combination
+  /* create mixed op for a param combination
    */
   multiply_hard_op_parameters();
 
@@ -120,7 +120,7 @@ void build_hard_action_templates( void )
     fflush( stdout );
   }
 
-  /* create pseudo op for each mixed op
+  /* create pseudo op for a mixed op
    */
   multiply_hard_effect_parameters();
  

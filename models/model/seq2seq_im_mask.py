@@ -34,7 +34,7 @@ class Module(Base):
                            hstate_dropout=args.hstate_dropout,
                            actor_dropout=args.actor_dropout,
                            input_dropout=args.input_dropout,
-                           teacher_forcing=args.dec_teacher_forcing)
+                           taer_forcing=args.dec_taer_forcing)
 
         # dropouts
         self.vis_dropout = nn.Dropout(args.vis_dropout)

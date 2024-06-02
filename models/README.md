@@ -34,12 +34,12 @@ Use `eval_split` to specify which split to evaluate, and `num_threads` to indica
 
 ### Subgoal Evaluation
 
-To evaluate individual subgoals for each task, run with `--subgoal`:
+To evaluate individual subgoals for a task, run with `--subgoal`:
 
 ```bash
 $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --eval_split valid_seen --data data/json_feat_2.1.0 --model models.model.seq2seq_im_mask --gpu --num_threads 3 --subgoals all
 ```
-This will use the expert demonstrations to reach the subgoal to be evaluated. You can specify `--subgoals all` to evaluate all subgoals, or select specific ones e.g `--subgoal GoalLocation,HeatObject`. Possible subgoals include `GotoLocation`, `PickupObject`, `PutObject`, `CleanObject`, `HeatObject`, `CoolObject`, `ToggleObject`, `SliceObject`. The results will be dumped as a JSON file `subgoal_results_<timestamp>.json` inside the `model_path` directory.
+This will use the expert demonstrations to ra the subgoal to be evaluated. You can specify `--subgoals all` to evaluate all subgoals, or select specific ones e.g `--subgoal GoalLocation,HeatObject`. Possible subgoals include `GotoLocation`, `PickupObject`, `PutObject`, `CleanObject`, `HeatObject`, `CoolObject`, `ToggleObject`, `SliceObject`. The results will be dumped as a JSON file `subgoal_results_<timestamp>.json` inside the `model_path` directory.
 
 
 ### Leaderboard

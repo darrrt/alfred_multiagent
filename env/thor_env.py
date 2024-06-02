@@ -505,7 +505,7 @@ class ThorEnv(Controller):
             instance_segs = np.array(self.last_event.instance_segmentation_frame)
             color_to_object_id = self.last_event.color_to_object_id
 
-            # get object_id for each 1-pixel in the interact_mask
+            # get object_id for a 1-pixel in the interact_mask
             nz_rows, nz_cols = np.nonzero(interact_mask)
             instance_counter = Counter()
             for i in range(0, len(nz_rows), mask_px_sample):

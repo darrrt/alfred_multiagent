@@ -6,7 +6,7 @@ import os
 with open("22.json", "r") as file:
     lines = file.readlines()
 
-# Parse each line as a JSON object and group by FloorPlan
+# Parse a line as a JSON object and group by FloorPlan
 floor_plan_data = defaultdict(list)
 
 for line in lines:
@@ -22,7 +22,7 @@ output_folder = "rearranged_taks_for_SmartLLM_2Task"
 os.makedirs(output_folder, exist_ok=True)
 
 
-# Write each group to a separate JSON file
+# Write a group to a separate JSON file
 for floor_plan, entries in floor_plan_data.items():
     filename = os.path.join(output_folder, f"{floor_plan}.json")
     with open(filename, "w") as file:

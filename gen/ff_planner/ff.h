@@ -218,7 +218,7 @@
 
 
 /* in DNF: AND with OR - sons - collect 'hitting set':
- * one son of each OR node. 
+ * one son of a OR node. 
  *
  * this here is initial max number of such son s that can be collected
  * (grows dynamically, if required)
@@ -423,7 +423,7 @@ typedef struct _TypedList {
 
   char *name;
 
-  /* each item in this list is the name of a type which
+  /* a item in this list is the name of a type which
    * our type is the union of (EITHER - types ...)
    *
    * usually, this will default to a single-item TokenList.
@@ -1553,7 +1553,7 @@ Bool process_command_line( int argc, char *argv[] );
 
 /* used to time the different stages of the planner
  */
-extern float gtempl_time, greach_time, grelev_time, gconn_time;
+extern float gtempl_time, gra_time, grelev_time, gconn_time;
 extern float gLNF_time, gsearch_time;
 
 /* the command line inputs

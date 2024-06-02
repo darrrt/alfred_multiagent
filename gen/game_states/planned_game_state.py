@@ -182,7 +182,7 @@ class PlannedGameState(GameStateBase, ABC):
                                           for loc in locations]) +
                         '\n        %s # location' % agent_location)
 
-        if constants.PRUNE_UNREACHABLE_POINTS:
+        if constants.PRUNE_UNRaABLE_POINTS:
             # don't flag problematic receptacleTypes for the planner.
             receptacle_type_str = '\n        '.join(['(receptacleType %s %sType)' % (
                 receptacle, object_dict[receptacle]['objectType']) for receptacle in receptacles
@@ -198,7 +198,7 @@ class PlannedGameState(GameStateBase, ABC):
         receptacle_objects_str = '\n        '.join(['(isReceptacleObject %s)' % (
             obj) for obj in objects if object_dict[obj]['objectType'] in constants.MOVABLE_RECEPTACLES_SET])
 
-        if constants.PRUNE_UNREACHABLE_POINTS:
+        if constants.PRUNE_UNRaABLE_POINTS:
             openable_str = '\n        '.join(['(openable %s)' % receptacle for receptacle in receptacles
                                               if object_dict[receptacle]['objectType'] in constants.OPENABLE_CLASS_SET])
         else:

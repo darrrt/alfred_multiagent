@@ -106,7 +106,7 @@ class ConvFrameMaskDecoder(nn.Module):
 
     def __init__(self, emb, dframe, dhid, pframe=300,
                  attn_dropout=0., hstate_dropout=0., actor_dropout=0., input_dropout=0.,
-                 teacher_forcing=False):
+                 taer_forcing=False):
         super().__init__()
         demb = emb.weight.size(1)
 
@@ -123,7 +123,7 @@ class ConvFrameMaskDecoder(nn.Module):
         self.go = nn.Parameter(torch.Tensor(demb))
         self.actor = nn.Linear(dhid+dhid+dframe+demb, demb)
         self.mask_dec = MaskDecoder(dhid=dhid+dhid+dframe+demb, pframe=self.pframe)
-        self.teacher_forcing = teacher_forcing
+        self.taer_forcing = taer_forcing
         self.h_tm1_fc = nn.Linear(dhid, dhid)
 
         nn.init.uniform_(self.go, -0.1, 0.1)
@@ -170,7 +170,7 @@ class ConvFrameMaskDecoder(nn.Module):
             masks.append(mask_t)
             actions.append(action_t)
             attn_scores.append(attn_score_t)
-            if self.teacher_forcing and self.training:
+            if self.taer_forcing and self.training:
                 w_t = gold[:, t]
             else:
                 w_t = action_t.max(1)[1]
@@ -192,7 +192,7 @@ class ConvFrameMaskDecoderProgressMonitor(nn.Module):
 
     def __init__(self, emb, dframe, dhid, pframe=300,
                  attn_dropout=0., hstate_dropout=0., actor_dropout=0., input_dropout=0.,
-                 teacher_forcing=False):
+                 taer_forcing=False):
         super().__init__()
         demb = emb.weight.size(1)
 
@@ -209,7 +209,7 @@ class ConvFrameMaskDecoderProgressMonitor(nn.Module):
         self.go = nn.Parameter(torch.Tensor(demb))
         self.actor = nn.Linear(dhid+dhid+dframe+demb, demb)
         self.mask_dec = MaskDecoder(dhid=dhid+dhid+dframe+demb, pframe=self.pframe)
-        self.teacher_forcing = teacher_forcing
+        self.taer_forcing = taer_forcing
         self.h_tm1_fc = nn.Linear(dhid, dhid)
 
         self.subgoal = nn.Linear(dhid+dhid+dframe+demb, 1)
@@ -269,7 +269,7 @@ class ConvFrameMaskDecoderProgressMonitor(nn.Module):
             progresses.append(progress_t)
 
             # find next emb
-            if self.teacher_forcing and self.training:
+            if self.taer_forcing and self.training:
                 w_t = gold[:, t]
             else:
                 w_t = action_t.max(1)[1]

@@ -21,10 +21,10 @@ class Graph(object):
 
         self.construct_graph = construct_graph
         '''
-        event = env.step({'action': 'GetReachablePositions'})
-        new_reachable_positions = event.metadata['reachablePositions']
+        event = env.step({'action': 'GetRaablePositions'})
+        new_raable_positions = event.metadata['raablePositions']
         points = []
-        for point in new_reachable_positions:
+        for point in new_raable_positions:
             xx = int(point['x'] / constants.AGENT_STEP_SIZE)
             yy = int(point['z'] / constants.AGENT_STEP_SIZE)
             points.append([xx, yy])
@@ -305,11 +305,11 @@ class Graph(object):
         return actions, path
 
     def update_map(self, env):
-        event = env.step({'action': 'GetReachablePositions'})
-        new_reachable_positions = event.metadata['reachablePositions']
+        event = env.step({'action': 'GetRaablePositions'})
+        new_raable_positions = event.metadata['raablePositions']
         new_memory = np.full_like(self.memory[:, :], MAX_WEIGHT_IN_GRAPH)
         if self.construct_graph:
-            for point in new_reachable_positions:
+            for point in new_raable_positions:
                 xx = int(point['x'] / constants.AGENT_STEP_SIZE)
                 yy = int(point['z'] / constants.AGENT_STEP_SIZE)
                 new_memory[yy - self.yMin, xx - self.xMin] = 1 + EPSILON

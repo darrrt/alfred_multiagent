@@ -89,7 +89,7 @@
 
 /* used to time the different stages of the planner
  */
-float gtempl_time = 0, greach_time = 0, grelev_time = 0, gconn_time = 0;
+float gtempl_time = 0, gra_time = 0, grelev_time = 0, gconn_time = 0;
 float gLNF_time = 0, gsearch_time = 0;
 
 
@@ -798,13 +798,13 @@ int main( int argc, char *argv[] )
 
   times( &start );
 
-  /* perform reachability analysis in terms of relaxed 
+  /* perform raability analysis in terms of relaxed 
    * fixpoint
    */
-  perform_reachability_analysis();
+  perform_raability_analysis();
 
   times( &end );
-  TIME( greach_time );
+  TIME( gra_time );
 
   times( &start );
 
@@ -1052,8 +1052,8 @@ void output_planner_info( void )
 
   printf( "\n\ntime spent: %7.2f seconds instantiating %d easy, %d hard action templates", 
 	  gtempl_time, gnum_easy_templates, gnum_hard_mixed_operators );
-  printf( "\n            %7.2f seconds reachability analysis, yielding %d facts and %d actions", 
-	  greach_time, gnum_pp_facts, gnum_actions );
+  printf( "\n            %7.2f seconds raability analysis, yielding %d facts and %d actions", 
+	  gra_time, gnum_pp_facts, gnum_actions );
   printf( "\n            %7.2f seconds creating final representation with %d relevant facts, %d relevant fluents", 
 	  grelev_time, gnum_relevant_facts, gnum_relevant_fluents );
   printf( "\n            %7.2f seconds computing LNF",
@@ -1063,7 +1063,7 @@ void output_planner_info( void )
   printf( "\n            %7.2f seconds searching, evaluating %d states, to a max depth of %d", 
 	  gsearch_time, gevaluated_states, gmax_search_depth );
   printf( "\n            %7.2f seconds total time", 
-	  gtempl_time + greach_time + grelev_time + gLNF_time + gconn_time + gsearch_time );
+	  gtempl_time + gra_time + grelev_time + gLNF_time + gconn_time + gsearch_time );
 
   printf("\n\n");
 
@@ -1120,7 +1120,7 @@ void ff_usage( void )
     printf("    115     cleaned up hard domain representation\n");
     printf("    116     mixed hard domain representation\n");
     printf("    117     final hard domain representation\n");
-    printf("    118     reachability analysis results\n");
+    printf("    118     raability analysis results\n");
     printf("    119     facts selected as relevant\n");
     printf("    120     final domain and problem representations\n");
     printf("    121     normalized expressions representation\n");
@@ -1128,9 +1128,9 @@ void ff_usage( void )
     printf("    123     summarized effects LNF  representation\n");
     printf("    124     encoded LNF representation\n");
     printf("    125     connectivity graph\n");
-    printf("    126     fixpoint result on each evaluated state\n");
-    printf("    127     1P extracted on each evaluated state\n");
-    printf("    128     H set collected for each evaluated state\n");
+    printf("    126     fixpoint result on a evaluated state\n");
+    printf("    127     1P extracted on a evaluated state\n");
+    printf("    128     H set collected for a evaluated state\n");
     
     printf("\n-d <num>    switch on debugging\n\n");
   }

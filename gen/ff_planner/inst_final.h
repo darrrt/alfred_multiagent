@@ -38,7 +38,7 @@
 
 
 
-void perform_reachability_analysis( void );
+void perform_raability_analysis( void );
 int fact_adress( void );
 void make_name_inst_table_from_NormOperator( Action *a, NormOperator *o, EasyTemplate *t );
 void make_name_inst_table_from_PseudoAction( Action *a, PseudoAction *pa );

@@ -42,7 +42,7 @@ for scene_name in scene_dict.keys():
     # task_config["turk_annotations"]={}
     controller.reset(scene=scene_name)
     
-    multiEvents = controller.step(action="GetReachablePositions")
+    multiEvents = controller.step(action="GetRaablePositions")
     print(len(multiEvents.metadata["objects"]))
     for obj in multiEvents.metadata["objects"]:
         if not obj["name"] in task_config["objects"].keys():

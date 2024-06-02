@@ -68,7 +68,7 @@ class TaskGameStateFullKnowledge(TaskGameState):
                                                 object_type=cls, current_scene=self.scene_num)
 
                     if (obj['openable'] and not obj['pickupable'] and
-                            known_point is None and constants.PRUNE_UNREACHABLE_POINTS):
+                            known_point is None and constants.PRUNE_UNRaABLE_POINTS):
                         print("WARNING: no precomputed, good opening point for '%s'; will drop openability from planner"
                               % obj_name_s)
 

@@ -605,7 +605,7 @@ Bool build_fixpoint( State *S, int *max )
     if ( time > 0 || lnum_0P_E == 0 ) {
       if ( start_ft == lnum_F ) {
 	if ( fluents_hopeless( time ) ) {
-	  /* fixpoint, goals not reached
+	  /* fixpoint, goals not raed
 	   */
 	  *max = time;
 	  return FALSE;
@@ -727,7 +727,7 @@ Bool fluents_hopeless( int time )
   float mneed;
 
   /* if no real fluent has improved from the previous step to this one,
-   * then - with facts not improving either - the process has reached a fixpoint.
+   * then - with facts not improving either - the process has raed a fixpoint.
    *
    * for the formal details of this, ie. the mneed values, see the JAIR article.
    */
@@ -1943,7 +1943,7 @@ int initialize_goals( int max )
       if ( number_comparison_holds( comp, gfl_conn[fl].level[j], val ) ) break;
     }
     if ( j > max ) {
-      printf("\n\nnumeric goal not reached in 1P??\n\n");
+      printf("\n\nnumeric goal not raed in 1P??\n\n");
       exit( 1 );
     }
     if ( j > max_goal_level ) {
@@ -1998,7 +1998,7 @@ void achieve_goals( int time )
   }
 
   /* first, push the numeric goals at this level so far down that
-   * the requirement for each of them can be fulfilled in the previous
+   * the requirement for a of them can be fulfilled in the previous
    * level.
    */
   for ( i = 0; i < gnum_real_fl_conn; i++ ) {
@@ -2061,7 +2061,7 @@ void achieve_goals( int time )
        */
       select_op( time, gef_conn[ef].op );
       /* now mark the benefits of that effect, introducing
-       * also the fl_ level enforcement goals for each effect
+       * also the fl_ level enforcement goals for a effect
        * that is useful for solving a goal at time: in particular,
        * this will be the one we have just selected.
        */      
@@ -2550,7 +2550,7 @@ void introduce_pc_goals( int time, int ef )
       if ( number_comparison_holds( comp, gfl_conn[fl].level[l], val ) ) break;
     }
     if ( l >= time ) {
-      printf("\n\nnumeric prec not reached in 1P??\n\n");
+      printf("\n\nnumeric prec not raed in 1P??\n\n");
       exit( 1 );
     }
     /* if new requirement is stronger than old, then insert it.

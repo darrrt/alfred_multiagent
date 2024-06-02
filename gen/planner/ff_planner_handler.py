@@ -37,7 +37,7 @@ CAPS_ACTION_TO_PLAN_ACTION = {
     'TOGGLEOBJECT': 'ToggleObject',
     'COOLOBJECT': 'CoolObject',
     'SLICEOBJECT': 'SliceObject',
-    'REACH-GOAL': 'End'
+    'Ra-GOAL': 'End'
 }
 
 LOWER_TO_FULL = {name.lower(): name for name in constants.OBJECTS}

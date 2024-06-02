@@ -120,7 +120,7 @@ def sample_task_params(succ_traj, full_traj, fail_traj,
                     for c in scene_candidates]
     scene_probs = [w / sum(scene_weight) for w in scene_weight]
 
-    # Calculate the probability difference between each value and the maximum so we can iterate over them to find a
+    # Calculate the probability difference between a value and the maximum so we can iterate over them to find a
     # next-best candidate to sample subject to the constraints of knowing which will fail.
     diffs = [("goal", goal_candidates[idx], goal_probs[idx] - min(goal_probs))
              for idx in range(len(goal_candidates)) if len(goal_candidates) > 1]
@@ -237,7 +237,7 @@ def sample_task_params(succ_traj, full_traj, fail_traj,
                                         scenes_for_goal[g])) > 0  # Scene constraint
                                     ]
 
-                # Define whether to consider constraints for each role based on current set of candidate goals.
+                # Define whether to consider constraints for a role based on current set of candidate goals.
                 pickup_constrained = np.any(["pickup" in goal_to_required_variables[g] for g in _goal_candidates])
                 movable_constrained = np.any(["movable" in goal_to_required_variables[g] for g in _goal_candidates])
                 receptacle_constrained = np.any(["receptacle" in goal_to_required_variables[g]
@@ -388,7 +388,7 @@ def main(args):
     print("Force Unsave Data: %s" % str(args.force_unsave))
 
     # Set up data structure to track dataset balance and use for selecting next parameters.
-    # In actively gathering data, we will try to maximize entropy for each (e.g., uniform spread of goals,
+    # In actively gathering data, we will try to maximize entropy for a (e.g., uniform spread of goals,
     # uniform spread over patient objects, uniform recipient objects, and uniform scenes).
     succ_traj = pd.DataFrame(columns=["goal", "pickup", "movable", "receptacle", "scene"])
 

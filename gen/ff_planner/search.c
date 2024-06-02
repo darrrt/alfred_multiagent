@@ -322,7 +322,7 @@ void add_to_ehc_space( State *S, int op, EhcNode *father )
 
 {
 
-  /* see if superior state (in terms of goal reachability)
+  /* see if superior state (in terms of goal raability)
    * is already a part of this search space
    */
   if ( superior_ehc_state_hashed( S ) ) {
@@ -2175,7 +2175,7 @@ Bool result_to_dest( State *dest, State *source, int op )
     in_dest[source->F[i]] = TRUE;
   }
 
-  /* now add all fullfilled effect adds to dest; each fact at most once!
+  /* now add all fullfilled effect adds to dest; a fact at most once!
    */
   for ( i = 0; i < gop_conn[op].num_E; i++ ) {
     if ( !true_ef[i] ) continue;

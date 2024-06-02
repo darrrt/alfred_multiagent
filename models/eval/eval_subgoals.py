@@ -10,7 +10,7 @@ from eval import Eval
 
 class EvalSubgoals(Eval):
     '''
-    evaluate subgoals by teacher-forching expert demonstrations
+    evaluate subgoals by taer-forching expert demonstrations
     '''
 
     # subgoal types
@@ -64,7 +64,7 @@ class EvalSubgoals(Eval):
         reward_type = 'dense'
         cls.setup_scene(env, traj_data, r_idx, args, reward_type=reward_type)
 
-        # expert demonstration to reach eval_idx-1
+        # expert demonstration to ra eval_idx-1
         expert_init_actions = [a['discrete_action'] for a in traj_data['plan']['low_actions'] if a['high_idx'] < eval_idx]
 
         # subgoal info
@@ -77,7 +77,7 @@ class EvalSubgoals(Eval):
         # extract language features
         feat = model.featurize([traj_data], load_mask=False)
 
-        # previous action for teacher-forcing during expert execution (None is used for initialization)
+        # previous action for taer-forcing during expert execution (None is used for initialization)
         prev_action = None
 
         done, subgoal_success = False, False
@@ -85,7 +85,7 @@ class EvalSubgoals(Eval):
         t = 0
         reward = 0
         while not done:
-            # break if max_steps reached
+            # break if max_steps raed
             if t >= args.max_steps + len(expert_init_actions):
                 break
 
@@ -93,7 +93,7 @@ class EvalSubgoals(Eval):
             curr_image = Image.fromarray(np.uint8(env.last_event.frame))
             feat['frames'] = resnet.featurize([curr_image], batch=1).unsqueeze(0)
 
-            # expert teacher-forcing upto subgoal
+            # expert taer-forcing upto subgoal
             if t < len(expert_init_actions):
                 # get expert action
                 action = expert_init_actions[t]
@@ -104,7 +104,7 @@ class EvalSubgoals(Eval):
                 # forward model
                 if not args.skip_model_unroll_with_expert:
                     model.step(feat, prev_action=prev_action)
-                    prev_action = action['action'] if not args.no_teacher_force_unroll_with_expert else None
+                    prev_action = action['action'] if not args.no_taer_force_unroll_with_expert else None
 
                 # execute expert action
                 success, _, _, err, _ = env.va_interact(action['action'], interact_mask=mask, smooth_nav=args.smooth_nav, debug=args.debug)

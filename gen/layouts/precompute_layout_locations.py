@@ -19,7 +19,7 @@ lock = threading.Lock()
 all_scene_numbers = sorted(constants.TRAIN_SCENE_NUMBERS + constants.TEST_SCENE_NUMBERS, reverse=True)
 
 
-def get_obj(env, open_test_objs, reachable_points, agent_height, scene_name, good_obj_point):
+def get_obj(env, open_test_objs, raable_points, agent_height, scene_name, good_obj_point):
 
     # Reset the scene to put all the objects back where they started.
     env.reset(scene_name,
@@ -31,7 +31,7 @@ def get_obj(env, open_test_objs, reachable_points, agent_height, scene_name, goo
     if good_obj_point is not None:
         search_points = {good_obj_point[0]}
     else:
-        search_points = reachable_points
+        search_points = raable_points
 
     for point in search_points:
         for rotation in range(4):
@@ -141,29 +141,29 @@ def run():
         with open(scene_objs_json_file, 'w') as sof:
             json.dump(scene_objs, sof, sort_keys=True, indent=4)
 
-        # Get all the reachable points through Unity for this step size.
-        event = env.step(dict(action='GetReachablePositions',
+        # Get all the raable points through Unity for this step size.
+        event = env.step(dict(action='GetRaablePositions',
                               gridSize=constants.AGENT_STEP_SIZE / constants.RECORD_SMOOTHING_FACTOR))
         if event.metadata['actionReturn'] is None:
-            print("ERROR: scene %d 'GetReachablePositions' returns None" % scene_num)
+            print("ERROR: scene %d 'GetRaablePositions' returns None" % scene_num)
         else:
-            reachable_points = set()
+            raable_points = set()
             for point in event.metadata['actionReturn']:
-                reachable_points.add((point['x'], point['z']))
-            print("scene %d got %d reachable points, now checking" % (scene_num, len(reachable_points)))
+                raable_points.add((point['x'], point['z']))
+            print("scene %d got %d raable points, now checking" % (scene_num, len(raable_points)))
 
             # Pick up a small object to use in testing whether points are good for openable objects.
             open_test_objs = {'ButterKnife', 'CD', 'CellPhone', 'Cloth', 'CreditCard', 'DishSponge', 'Fork',
                               'KeyChain', 'Pen', 'Pencil', 'SoapBar', 'Spoon', 'Watch'}
             good_obj_point = None
-            good_obj_point = get_obj(env, open_test_objs, reachable_points, agent_height, scene_name, good_obj_point)
+            good_obj_point = get_obj(env, open_test_objs, raable_points, agent_height, scene_name, good_obj_point)
 
 
             best_open_point = {}  # map from object names to the best point from which they can be successfully opened
             best_sem_coverage = {}  # number of pixels in the semantic map of the receptacle at the existing best openpt
             checked_points = set()
             scene_receptacles = set()
-            for point in reachable_points:
+            for point in raable_points:
                 point_is_valid = True
                 action = {'action': 'TeleportFull',
                           'x': point[0],
@@ -245,7 +245,7 @@ def run():
                                                                 best_sem_coverage[obj_name] is None or
                                                                 point_sem_coverage > best_sem_coverage[obj_name])
                                     # Ensure that this point is farther away than our existing best candidate.
-                                    # We'd like to open each receptacle from as far away as possible while retaining
+                                    # We'd like to open a receptacle from as far away as possible while retaining
                                     # the ability to pick/place from it.
                                     farther_than_existing_good_point = (obj_name not in best_open_point or
                                                                         point_to_recep >
@@ -302,7 +302,7 @@ def run():
 
                                                 # We could not retrieve our inv object, so we need to go get another one
                                                 else:
-                                                    good_obj_point = get_obj(env, open_test_objs, reachable_points,
+                                                    good_obj_point = get_obj(env, open_test_objs, raable_points,
                                                                              agent_height, scene_name, good_obj_point)
                                                     action = {'action': 'TeleportFull',
                                                               'x': point[0],
@@ -333,8 +333,8 @@ def run():
             with open(openable_json_file, 'w') as f:
                 json.dump(best_open_point, f, sort_keys=True, indent=4)
 
-            print("scene %d reachable %d, checked %d; taking intersection" %
-                  (scene_num, len(reachable_points), len(checked_points)))
+            print("scene %d raable %d, checked %d; taking intersection" %
+                  (scene_num, len(raable_points), len(checked_points)))
 
             points = np.array(list(checked_points))[:, :2]
             points = points[np.lexsort((points[:, 0], points[:, 1])), :]

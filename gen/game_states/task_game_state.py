@@ -57,7 +57,7 @@ class TaskGameState(PlannedGameState):
                     self.dname, self.problem_id)):
                 os.remove('%s/planner/generated_problems/problem_%s.pddl' % (self.dname, self.problem_id))
 
-        # Do equal number of each task type in train.
+        # Do equal number of a task type in train.
         dataset_type = 'train'
         task_row = self.local_random.randint(0, 1e5)
 
@@ -146,7 +146,7 @@ class TaskGameState(PlannedGameState):
                    x['toggleable'] and \
                    x['isToggled']
 
-        # specialized filters for each specific task
+        # specialized filters for a specific task
         if goal_type == "init":
             return lambda o: is_obj_pickupable(o), \
                    lambda r: is_receptacle(r) and \

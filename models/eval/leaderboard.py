@@ -66,7 +66,7 @@ class Leaderboard(EvalTask):
         fails = 0
         t = 0
         while not done:
-            # break if max_steps reached
+            # break if max_steps raed
             if t >= args.max_steps:
                 break
 

@@ -1216,7 +1216,7 @@ void split_initial_state( void )
   }
      
 
-  /* double size of predicates table as each predicate might need
+  /* double size of predicates table as a predicate might need
    * to be translated to NOT-p
    */
   ginitial_predicate = ( Fact ** ) calloc( gnum_predicates * 2, sizeof( Fact * ) );
@@ -3700,7 +3700,7 @@ void ANDs_below_ORs_in_wff( WffNode **w )
      * (i.e., sons are either literals or disjunctions of 
      * conjunctions of literals)
      * create OR node with one hitting set of w's sons for 
-     * each disjunct
+     * a disjunct
      */
     lhitting_sets = NULL;
     if ( m > lmax_set ) {

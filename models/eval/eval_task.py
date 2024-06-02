@@ -60,7 +60,7 @@ class EvalTask(Eval):
         t = 0
         reward = 0
         while not done:
-            # break if max_steps reached
+            # break if max_steps raed
             if t >= args.max_steps:
                 break
 
@@ -102,7 +102,7 @@ class EvalTask(Eval):
         # check if goal was satisfied
         goal_satisfied = env.get_goal_satisfied()
         if goal_satisfied:
-            print("Goal Reached")
+            print("Goal Raed")
             success = True
 
 

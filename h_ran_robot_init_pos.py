@@ -39,11 +39,11 @@ for scene_name in scene_dict.keys():
     task_config={}
     task_config["scene_name"]=scene_name
     task_config["gridSize"]=gridSize
-    # task_config["ReachablePositions"]={}
+    # task_config["RaablePositions"]={}
     # task_config["turk_annotations"]={}
     controller.reset(scene=scene_name)
     
-    multiEvents = controller.step(action="GetReachablePositions")
+    multiEvents = controller.step(action="GetRaablePositions")
 
     corners = np.array(multiEvents.metadata["sceneBounds"]['cornerPoints'])
     scene_most_left, scene_most_right, scene_most_top, scene_most_bottom = np.min(
@@ -57,13 +57,13 @@ for scene_name in scene_dict.keys():
     
     gridBoard = np.zeros((x_len, y_len))
 
-    reachable_positions = multiEvents.metadata["actionReturn"]
+    raable_positions = multiEvents.metadata["actionReturn"]
     region = []
-    for pos in reachable_positions:
+    for pos in raable_positions:
         x, y = pos['x'], pos['z']
         region.append([x, y])  
     
-    task_config["ReachablePositions"]=region
+    task_config["RaablePositions"]=region
     region_np=np.array(region).reshape((-1,2))
     region_range=len(region)
     task_config["random"]={}

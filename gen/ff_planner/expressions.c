@@ -199,7 +199,7 @@ Bool transform_to_LNF( void )
   encode_lfns_as_artificial_fluents();
   /* optimization is translated into minimizing
    * effect costs... here, determine the cost that
-   * each effect has.
+   * a effect has.
    *
    * returns TRUE if a non-trivial optimization expression
    * could be established.
@@ -373,7 +373,7 @@ void print_lnf_representation( void )
       print_lnf_Action( a );
     }
   }
-  printf("\n\n--------------------GOAL REACHED ops-----------\n\n");
+  printf("\n\n--------------------GOAL RaED ops-----------\n\n");
   for ( a = gactions; a; a = a->next ) {
     if ( !a->norm_operator &&
 	 !a->pseudo_action ) {

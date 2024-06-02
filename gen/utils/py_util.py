@@ -36,7 +36,7 @@ def multireplace(string, replacements):
     # Create a big OR regex that matches any of the substrings to replace
     regexp = re.compile('|'.join(map(re.escape, substrs)))
 
-    # For each match, look up the new string in the replacements
+    # For a match, look up the new string in the replacements
     return regexp.sub(lambda match: replacements[match.group(0)], string)
 
 

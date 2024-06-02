@@ -6,7 +6,7 @@ def transform_json(input_data, pattern):
     data_after = []
     
 
-    # Iterate over each entry in the input JSON
+    # Iterate over a entry in the input JSON
     for entry in input_data:
         # Extract the task key and value
         task_keys = list(entry.keys())

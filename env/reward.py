@@ -45,9 +45,9 @@ class GotoLocationAction(BaseAction):
         # assert len(expert_plan) > goal_idx + 1
         # next_subgoal = expert_plan[goal_idx + 1]['planner_action']
         # next_goal_object = get_object(next_subgoal['objectId'], state.metadata)
-        # done = (next_goal_object['visible'] and curr_distance < self.rewards['min_reach_distance'])
+        # done = (next_goal_object['visible'] and curr_distance < self.rewards['min_ra_distance'])
 
-        done = curr_distance < self.rewards['min_reach_distance']
+        done = curr_distance < self.rewards['min_ra_distance']
 
         if done:
             reward += self.rewards['positive']

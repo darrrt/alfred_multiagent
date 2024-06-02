@@ -118,7 +118,7 @@ class BaseTask(object):
         # save event
         self.prev_state = self.env.last_event
 
-        # step and check if max_episode_length reached
+        # step and check if max_episode_length raed
         self.step_num += 1
         done = self.goal_idx >= self.num_subgoals or self.step_num >= self.max_episode_length
         return reward, done
@@ -223,7 +223,7 @@ class PickTwoObjAndPlaceTask(BaseTask):
             ts += 2
             s += min(len([p for p in pickupables if 'Sliced' in p['objectId']]), 2)
 
-        # placing each object counts as a goal_condition
+        # placing a object counts as a goal_condition
         s += min(np.max([sum([1 if r['receptacleObjectIds'] is not None
                                    and p['objectId'] in r['receptacleObjectIds'] else 0
                               for p in pickupables])

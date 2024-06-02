@@ -27,7 +27,7 @@ PLANNER_MAX_STEPS = 100          # if the generated plan is more than these step
 MAX_EPISODE_LENGTH = 1000        # maximum number of API steps allowed per trajectory
 
 FORCED_SAMPLING = False          # set True for debugging instead of proper sampling
-PRUNE_UNREACHABLE_POINTS = True  # prune navigation points that were deemed unreachable by the proprocessing script
+PRUNE_UNRaABLE_POINTS = True  # prune navigation points that were deemed unraable by the proprocessing script
 
 ########################################################################################################################
 # Goals

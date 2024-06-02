@@ -55,7 +55,7 @@ if __name__ == '__main__':
     parser.add_argument('--actor_dropout', help='dropout rate for actor fc', default=0., type=float)
 
     # other settings
-    parser.add_argument('--dec_teacher_forcing', help='use gpu', action='store_true')
+    parser.add_argument('--dec_taer_forcing', help='use gpu', action='store_true')
     parser.add_argument('--temp_no_history', help='use gpu', action='store_true')
 
     # debugging
