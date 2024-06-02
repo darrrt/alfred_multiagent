@@ -49,7 +49,7 @@
             "tasks":[
                 "Slice a head of lettuce, chill a slice, put the slice in front of the sink",
                 "Put a cold slice of lettuce in the sink. ",
-                "Put the chilled slice cabbage in front of the sink"
+                "Put the chilled slice lettuce in front of the sink"
             ],
             "relative_objects":[
                 "Knife",
@@ -73,7 +73,7 @@
         "train/pick_cool_then_place_in_recep-LettuceSliced-None-SinkBasin-19/trial_T20190908_212522_895477/traj_data.json":{
             "tasks":[
                 "Place a cold lettuce slice in the sink.",
-                "Put the chilled sliced cabbage in the sink",
+                "Put the chilled sliced lettuce in the sink",
                 "Place a slice of chilled lettuce in the sink."
             ],
             "relative_objects":[
@@ -829,7 +829,7 @@
         },
         "train/pick_clean_then_place_in_recep-Lettuce-None-Fridge-19/trial_T20190908_100102_253901/traj_data.json":{
             "tasks":[
-                "Wash off cabbage and put in fridge ",
+                "Wash off lettuce and put in fridge ",
                 "Place a washed head of lettuce in the fridge.",
                 "Put washed lettuce in the fridge. "
             ],
@@ -1084,7 +1084,7 @@
         "train/pick_clean_then_place_in_recep-LettuceSliced-None-Fridge-19/trial_T20190909_010330_401774/traj_data.json":{
             "tasks":[
                 "To clean a slice of lettuce plus store it in the fridge.",
-                "Put a knife and a clean cabbage slice in the fridge",
+                "Put a knife and a clean lettuce slice in the fridge",
                 "Put a washed slice of lettuce in the refrigerator."
             ],
             "relative_objects":[
@@ -1781,7 +1781,7 @@
     "tasks_5":[
         {
             "task_list":[
-                "Wash off cabbage and put in fridge ",
+                "Wash off lettuce and put in fridge ",
                 "Put a spoon in the sink. ",
                 "Put a chilled bowl in the cabinet under the sink. ",
                 "place the a microwaved cup in the cabinet under the microwave on the right",
@@ -1797,9 +1797,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Wash off cabbage and put in fridge at any time. Put a chilled bowl in the cabinet under the sink. After putting the bowl, place a heated potato on a counter. Simultaneously, put a spoon in the sink. Finally, place the microwaved cup in the cabinet under the microwave on the right.",
-                "fintune 2":"Put a chilled bowl in the cabinet under the sink at any time. Put a spoon in the sink. Simultaneously, place a heated potato on a counter. After placing the potato, wash off cabbage and put in the fridge. Finally, place the microwaved cup in the cabinet under the microwave on the right.",
-                "fintune 3":"Put a spoon in the sink at any time. Simultaneously, place a heated potato on a counter and put a chilled bowl in the cabinet under the sink. After putting the bowl, wash off cabbage and put it in the fridge. Finally, place the microwaved cup in the cabinet under the microwave on the right."
+                "fintune 1":"Wash off lettuce and put in fridge at any time. Put a chilled bowl in the cabinet under the sink. After putting the bowl, place a heated potato on a counter. Simultaneously, put a spoon in the sink. Finally, place the microwaved cup in the cabinet under the microwave on the right.",
+                "fintune 2":"Put a chilled bowl in the cabinet under the sink at any time. Put a spoon in the sink. Simultaneously, place a heated potato on a counter. After placing the potato, wash off lettuce and put in the fridge. Finally, place the microwaved cup in the cabinet under the microwave on the right.",
+                "fintune 3":"Put a spoon in the sink at any time. Simultaneously, place a heated potato on a counter and put a chilled bowl in the cabinet under the sink. After putting the bowl, wash off lettuce and put it in the fridge. Finally, place the microwaved cup in the cabinet under the microwave on the right."
             }
         },
         {
@@ -1924,7 +1924,7 @@
         {
             "task_list":[
                 "place the a microwaved cup in the cabinet under the microwave on the right",
-                "Wash off cabbage and put in fridge ",
+                "Wash off lettuce and put in fridge ",
                 "Cool a bread slice plus place it in the trash can.",
                 "Put a chilled egg on the counter.",
                 "Slice potato to put in fridge and sink.",
@@ -1941,9 +1941,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Cool a bread slice plus place it in the trash can. Wash off cabbage and put in fridge. Slice potato to put in fridge and sink. Put a chilled egg on the counter. Put a chilled bowl in the cupboard. Place the a microwaved cup in the cabinet under the microwave on the right.",
-                "fintune 2":"Slice potato to put in fridge and sink. Cool a bread slice plus place it in the trash can. Wash off cabbage and put in fridge. Put a chilled bowl in the cupboard. Put a chilled egg on the counter. Place the a microwaved cup in the cabinet under the microwave on the right.",
-                "fintune 3":"Put a chilled egg on the counter. Put a chilled bowl in the cupboard. Place the a microwaved cup in the cabinet under the microwave on the right. Slice potato to put in fridge and sink. Cool a bread slice plus place it in the trash can. Wash off cabbage and put in the fridge."
+                "fintune 1":"Cool a bread slice plus place it in the trash can. Wash off lettuce and put in fridge. Slice potato to put in fridge and sink. Put a chilled egg on the counter. Put a chilled bowl in the cupboard. Place the a microwaved cup in the cabinet under the microwave on the right.",
+                "fintune 2":"Slice potato to put in fridge and sink. Cool a bread slice plus place it in the trash can. Wash off lettuce and put in fridge. Put a chilled bowl in the cupboard. Put a chilled egg on the counter. Place the a microwaved cup in the cabinet under the microwave on the right.",
+                "fintune 3":"Put a chilled egg on the counter. Put a chilled bowl in the cupboard. Place the a microwaved cup in the cabinet under the microwave on the right. Slice potato to put in fridge and sink. Cool a bread slice plus place it in the trash can. Wash off lettuce and put in the fridge."
             }
         }
     ],

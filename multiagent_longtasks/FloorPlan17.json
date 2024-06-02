@@ -102,7 +102,7 @@
         },
         "train/pick_cool_then_place_in_recep-Lettuce-None-GarbageCan-17/trial_T20190907_114517_865985/traj_data.json":{
             "tasks":[
-                "cool the cabbage in the refrigerator, put the cabbage in the trash bin",
+                "cool the lettuce in the refrigerator, put the lettuce in the trash bin",
                 "Put chilled lettuce in the trash can. ",
                 "Put chilled lettuce in the trash can."
             ],
@@ -125,7 +125,7 @@
             "tasks":[
                 "Place a cooled lettuce in the red bin.",
                 "Throw away lettuce from the fridge.",
-                "Put the cabbage from the fridge going to the trash can"
+                "Put the lettuce from the fridge going to the trash can"
             ],
             "relative_objects":[
                 "Knife",
@@ -587,11 +587,11 @@
         },
         "train/pick_and_place_with_movable_recep-LettuceSliced-Pot-CounterTop-17/trial_T20190909_051014_277741/traj_data.json":{
             "tasks":[
-                "Putting a pot with a slice of cabbage in it on the counter",
+                "Putting a pot with a slice of lettuce in it on the counter",
                 "Put the pot with the lettuce slice on the counter. ",
                 "place a pot with a slice of lettuce in it down on the kitchen counter",
                 "To cut a vegetable plus put a slice of it into a pot as well as set the pot on the counter.",
-                "Cut a slice of cabbage and place it in a pot on the right side of the counter top"
+                "Cut a slice of lettuce and place it in a pot on the right side of the counter top"
             ],
             "relative_objects":[
                 "Pot",
@@ -1471,7 +1471,7 @@
         {
             "task_list":[
                 "Putting a slice of bread in the fridge",
-                "Putting a pot with a slice of cabbage in it on the counter",
+                "Putting a pot with a slice of lettuce in it on the counter",
                 "Take a cup and put a knife in it."
             ],
             "orign":[
@@ -1482,16 +1482,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Putting a slice of bread in the fridge at any time. Simultaneously, take a cup and put a knife in it. After putting the bread in the fridge, put a pot with a slice of cabbage in it on the counter.",
-                "fintune 2":"Putting a pot with a slice of cabbage in it on the counter at any time. Simultaneously, take a cup and put a knife in it. After putting the pot with cabbage in it on the counter, put a slice of bread in the fridge.",
-                "fintune 3":"Take a cup and put a knife in it at any time. Simultaneously, put a slice of bread in the fridge. After putting the bread in the fridge, put a pot with a slice of cabbage in it on the counter."
+                "fintune 1":"Putting a slice of bread in the fridge at any time. Simultaneously, take a cup and put a knife in it. After putting the bread in the fridge, put a pot with a slice of lettuce in it on the counter.",
+                "fintune 2":"Putting a pot with a slice of lettuce in it on the counter at any time. Simultaneously, take a cup and put a knife in it. After putting the pot with lettuce in it on the counter, put a slice of bread in the fridge.",
+                "fintune 3":"Take a cup and put a knife in it at any time. Simultaneously, put a slice of bread in the fridge. After putting the bread in the fridge, put a pot with a slice of lettuce in it on the counter."
             }
         },
         {
             "task_list":[
                 "place a cooked apple slice in the fridge",
                 "Put a glass bowl with a spatula in it on the counter.",
-                "cool the cabbage in the refrigerator, put the cabbage in the trash bin"
+                "cool the lettuce in the refrigerator, put the lettuce in the trash bin"
             ],
             "orign":[
                 [
@@ -1501,9 +1501,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a glass bowl with a spatula in it on the counter. After that, place a cooked apple slice in the fridge. Finally, cool the cabbage in the refrigerator and put the cabbage in the trash bin.",
-                "fintune 2":"Cool the cabbage in the refrigerator and put the cabbage in the trash bin. After that, put a glass bowl with a spatula in it on the counter. Finally, place a cooked apple slice in the fridge.",
-                "fintune 3":"Cool the cabbage in the refrigerator and put the cabbage in the trash bin. Simultaneously, put a glass bowl with a spatula in it on the counter. Lastly, place a cooked apple slice in the fridge."
+                "fintune 1":"Put a glass bowl with a spatula in it on the counter. After that, place a cooked apple slice in the fridge. Finally, cool the lettuce in the refrigerator and put the lettuce in the trash bin.",
+                "fintune 2":"Cool the lettuce in the refrigerator and put the lettuce in the trash bin. After that, put a glass bowl with a spatula in it on the counter. Finally, place a cooked apple slice in the fridge.",
+                "fintune 3":"Cool the lettuce in the refrigerator and put the lettuce in the trash bin. Simultaneously, put a glass bowl with a spatula in it on the counter. Lastly, place a cooked apple slice in the fridge."
             }
         }
     ],
@@ -1511,7 +1511,7 @@
         {
             "task_list":[
                 "Heat a cup and place it on the counter.",
-                "cool the cabbage in the refrigerator, put the cabbage in the trash bin",
+                "cool the lettuce in the refrigerator, put the lettuce in the trash bin",
                 "Organize all the wine bottles into the cupboard.",
                 "Making toast to be thrown away."
             ],
@@ -1524,9 +1524,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Heat a cup and place it on the counter at any time. Simultaneously, organize all the wine bottles into the cupboard. After placing the cup and organizing the wine bottles, cool the cabbage in the refrigerator, then put the cabbage in the trash bin. Lastly, make toast to be thrown away.",
-                "fintune 2":"Organize all the wine bottles into the cupboard at any time. Simultaneously, heat a cup and place it on the counter. After organizing the wine bottles and placing the cup, make toast to be thrown away. Finally, cool the cabbage in the refrigerator, then put the cabbage in the trash bin.",
-                "fintune 3":"Make toast to be thrown away first. Then, heat a cup and place it on the counter. After making the toast and placing the cup, organize all the wine bottles into the cupboard. Lastly, cool the cabbage in the refrigerator, then put the cabbage in the trash bin."
+                "fintune 1":"Heat a cup and place it on the counter at any time. Simultaneously, organize all the wine bottles into the cupboard. After placing the cup and organizing the wine bottles, cool the lettuce in the refrigerator, then put the lettuce in the trash bin. Lastly, make toast to be thrown away.",
+                "fintune 2":"Organize all the wine bottles into the cupboard at any time. Simultaneously, heat a cup and place it on the counter. After organizing the wine bottles and placing the cup, make toast to be thrown away. Finally, cool the lettuce in the refrigerator, then put the lettuce in the trash bin.",
+                "fintune 3":"Make toast to be thrown away first. Then, heat a cup and place it on the counter. After making the toast and placing the cup, organize all the wine bottles into the cupboard. Lastly, cool the lettuce in the refrigerator, then put the lettuce in the trash bin."
             }
         },
         {
@@ -1764,7 +1764,7 @@
                 "Place the potato in a fridge and a bin. ",
                 "Put heated apple in the sink.",
                 "Put a plate in the refrigerator with a tomato on top of it",
-                "Putting a pot with a slice of cabbage in it on the counter"
+                "Putting a pot with a slice of lettuce in it on the counter"
             ],
             "orign":[
                 [
@@ -1778,8 +1778,8 @@
             ],
             "finetuned":{
                 "fintune 1":"Heat an egg and put it back in the fridge at any time. Simultaneously, put salt and pepper in the kitchen cabinet.After heating the egg, place the potato in a fridge and a bin. Once done, put heated apple in the sink. Finally, put a plate in the refrigerator with a tomato on top of it.",
-                "fintune 2":"Put salt and pepper in the kitchen cabinet at any time. Simultaneously, heat an egg and put it back in the fridge. After that, place the potato in a fridge and a bin. When done, put a plate in the refrigerator with a tomato on top of it. Finally, put a pot with a slice of cabbage in it on the counter.",
-                "fintune 3":"Put a plate in the refrigerator with a tomato on top of it at any time. Simultaneously, put salt and pepper in the kitchen cabinet. After that, put a pot with a slice of cabbage in it on the counter. Once done, place the potato in a fridge and a bin. Finally, heat an egg and put it back in the fridge."
+                "fintune 2":"Put salt and pepper in the kitchen cabinet at any time. Simultaneously, heat an egg and put it back in the fridge. After that, place the potato in a fridge and a bin. When done, put a plate in the refrigerator with a tomato on top of it. Finally, put a pot with a slice of lettuce in it on the counter.",
+                "fintune 3":"Put a plate in the refrigerator with a tomato on top of it at any time. Simultaneously, put salt and pepper in the kitchen cabinet. After that, put a pot with a slice of lettuce in it on the counter. Once done, place the potato in a fridge and a bin. Finally, heat an egg and put it back in the fridge."
             }
         },
         {
@@ -2012,7 +2012,7 @@
                 "Move a cup and knife to the counter.",
                 "place objects inside of the kitchen cabinet",
                 "Place bottles in cabinet.",
-                "cool the cabbage in the refrigerator, put the cabbage in the trash bin",
+                "cool the lettuce in the refrigerator, put the lettuce in the trash bin",
                 "Chill a clear bowl in the fridge to put on the kitchen counter.",
                 "Put a clean spatula on a dining table."
             ],
@@ -2031,7 +2031,7 @@
             ],
             "finetuned":{
                 "fintune 1":"Chill a clear bowl in the fridge to put on the kitchen counter. After chilling the bowl, put a heated tomato on the counter. Simultaneously, warm a mug in the microwave, put it into the sink. Next, move a cup and knife to the counter. Once these tasks are done, place objects inside of the kitchen cabinet.",
-                "fintune 2":"Put a clean spatula on a dining table. Place bottles in cabinet. After placing the bottles, cool the cabbage in the refrigerator, then put the cabbage in the trash bin. At the same time, put a chilled potato into a garbage bin.",
+                "fintune 2":"Put a clean spatula on a dining table. Place bottles in cabinet. After placing the bottles, cool the lettuce in the refrigerator, then put the lettuce in the trash bin. At the same time, put a chilled potato into a garbage bin.",
                 "fintune 3":"Chill a clear bowl in the fridge to put on the kitchen counter. Put a clean spatula on a dining table. Move a cup and knife to the counter. After moving the cup and knife, warm a mug in the microwave, put it into the sink. Once all these tasks are completed, place objects inside of the kitchen cabinet."
             }
         }
