@@ -23,7 +23,7 @@
         },
         "train/pick_two_obj_and_place-CellPhone-None-SideTable-310/trial_T20190908_123211_754215/traj_data.json":{
             "tasks":[
-                "Move the phones from the bed to the end table. "
+                "Move the phones from the bed to the table. "
             ],
             "relative_objects":[
                 "CellPhone"
@@ -390,7 +390,7 @@
         {
             "task_list":[
                 "Place a pencil on a desk.",
-                "Move the phones from the bed to the end table. "
+                "Move the phones from the bed to the table. "
             ],
             "orign":[
                 [
@@ -399,9 +399,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a pencil on a desk at any time. Simultaneously, move the phones from the bed to the end table.",
-                "fintune 2":"Move the phones from the bed to the end table at any time. Simultaneously, place a pencil on a desk.",
-                "fintune 3":"Place a pencil on a desk at any time. After placing the pencil, move the phones from the bed to the end table."
+                "fintune 1":"Place a pencil on a desk at any time. Simultaneously, move the phones from the bed to the table.",
+                "fintune 2":"Move the phones from the bed to the table at any time. Simultaneously, place a pencil on a desk.",
+                "fintune 3":"Place a pencil on a desk at any time. After placing the pencil, move the phones from the bed to the table."
             }
         },
         {
@@ -775,7 +775,7 @@
                 "Put the clock on the desk",
                 "Move a book into a cabinet.",
                 "Place a blue pen on a desk",
-                "Move the phones from the bed to the end table. ",
+                "Move the phones from the bed to the table. ",
                 "Move keys from the shelf to the desk."
             ],
             "orign":[
@@ -789,8 +789,8 @@
             ],
             "finetuned":{
                 "fintune 1":"Move keys from the shelf to the desk at any time. Simultaneously, move a book into a cabinet.After moving the keys, put the clock on the desk.",
-                "fintune 2":"Place a blue pen on a desk at any time. Simultaneously, move the phones from the bed to the end table.After placing the pen, move keys from the shelf to the desk.",
-                "fintune 3":"Put the clock on the desk at any time. Simultaneously, move a book into a cabinet.After placing the clock, move the phones from the bed to the end table."
+                "fintune 2":"Place a blue pen on a desk at any time. Simultaneously, move the phones from the bed to the table.After placing the pen, move keys from the shelf to the desk.",
+                "fintune 3":"Put the clock on the desk at any time. Simultaneously, move a book into a cabinet.After placing the clock, move the phones from the bed to the table."
             }
         }
     ],
@@ -852,7 +852,7 @@
                 "Move a wooden bat from the ground to a bed.",
                 "Place a set of keys on a desk",
                 "Carry a clock to the desk",
-                "Move the phones from the bed to the end table. "
+                "Move the phones from the bed to the table. "
             ],
             "orign":[
                 [
@@ -866,13 +866,13 @@
             ],
             "finetuned":{
                 "fintune 1":"Move a wooden bat from the ground to a bed at any time. Simultaneously, put a credit card on a desk. After moving the bat and placing the credit card, place a set of keys on a desk.",
-                "fintune 2":"Put a credit card on a desk at any time. Simultaneously, move the phones from the bed to the end table. After placing the credit card and moving the phones, carry a clock to the desk.",
+                "fintune 2":"Put a credit card on a desk at any time. Simultaneously, move the phones from the bed to the table. After placing the credit card and moving the phones, carry a clock to the desk.",
                 "fintune 3":"Place a set of keys on a desk at any time. Simultaneously, placing a tennis racket on a table and moving the wooden bat from the ground to a bed. After placing the keys, the other tasks can be completed in any order."
             }
         },
         {
             "task_list":[
-                "Move the phones from the bed to the end table. ",
+                "Move the phones from the bed to the table. ",
                 "move book from desk to cabinet",
                 "move pen from desk to shelf",
                 "Move keys from the shelf to the desk.",
@@ -890,15 +890,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the phones from the bed to the end table at any time. Simultaneously, move book from desk to cabinet and move pen from desk to shelf. After moving the phones, move keys from the shelf to the desk. Finally, place a credit card on the desk and place a clock on a desk.",
-                "fintune 2":"Move keys from the shelf to the desk first. Then, move book from desk to cabinet and move pen from desk to shelf simultaneously. After that, move the phones from the bed to the end table. Lastly, place a credit card on the desk and place a clock on a desk.",
-                "fintune 3":"Move book from desk to cabinet first. Next, move pen from desk to shelf. Then, place a credit card on the desk and place a clock on a desk simultaneously. After that, move the phones from the bed to the end table. Finally, move keys from the shelf to the desk."
+                "fintune 1":"Move the phones from the bed to the table at any time. Simultaneously, move book from desk to cabinet and move pen from desk to shelf. After moving the phones, move keys from the shelf to the desk. Finally, place a credit card on the desk and place a clock on a desk.",
+                "fintune 2":"Move keys from the shelf to the desk first. Then, move book from desk to cabinet and move pen from desk to shelf simultaneously. After that, move the phones from the bed to the table. Lastly, place a credit card on the desk and place a clock on a desk.",
+                "fintune 3":"Move book from desk to cabinet first. Next, move pen from desk to shelf. Then, place a credit card on the desk and place a clock on a desk simultaneously. After that, move the phones from the bed to the table. Finally, move keys from the shelf to the desk."
             }
         },
         {
             "task_list":[
                 "Placing a tennis racket on a table. ",
-                "Move the phones from the bed to the end table. ",
+                "Move the phones from the bed to the table. ",
                 "Place the clock from the table onto the top shelf.",
                 "Place a set of keys on a desk",
                 "move book from desk to cabinet",
@@ -915,9 +915,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place the clock from the table onto the top shelf. Simultaneously, move the phones from the bed to the end table. After moving the phones, pick a pencil in the dustbin and place it on the table. Finally, place a set of keys on a desk.",
+                "fintune 1":"Place the clock from the table onto the top shelf. Simultaneously, move the phones from the bed to the table. After moving the phones, pick a pencil in the dustbin and place it on the table. Finally, place a set of keys on a desk.",
                 "fintune 2":"Place a set of keys on a desk. Simultaneously, move book from desk to cabinet. After moving the book, pick a pencil in the dustbin and place it on the table. Finally, place a tennis racket on a table.",
-                "fintune 3":"Move the phones from the bed to the end table. Simultaneously, place a set of keys on a desk. After moving the phones and placing the keys, pick a pencil in the dustbin and place it on the table. Finally, place the clock from the table onto the top shelf."
+                "fintune 3":"Move the phones from the bed to the table. Simultaneously, place a set of keys on a desk. After moving the phones and placing the keys, pick a pencil in the dustbin and place it on the table. Finally, place the clock from the table onto the top shelf."
             }
         }
     ],
@@ -980,7 +980,7 @@
             "task_list":[
                 "Put a pencil on a desk.",
                 "Put the clock on the desk",
-                "Move the phones from the bed to the end table. ",
+                "Move the phones from the bed to the table. ",
                 "Put a credit card on a desk.",
                 "move book from desk to cabinet",
                 "Put a bat on a bed.",
@@ -998,9 +998,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a pencil on a desk at any time. Simultaneously, put the clock on the desk. After placing the pencil and the clock, move the phones from the bed to the end table.",
+                "fintune 1":"Put a pencil on a desk at any time. Simultaneously, put the clock on the desk. After placing the pencil and the clock, move the phones from the bed to the table.",
                 "fintune 2":"Put a credit card on a desk at any time. Simultaneously, move pen from desk to shelf. After placing the credit card and moving the pen, put a bat on a bed.",
-                "fintune 3":"Put a pencil on a desk at any time. Simultaneously, put the clock on the desk and move the phones from the bed to the end table. After completing these tasks, move the book from the desk to the cabinet."
+                "fintune 3":"Put a pencil on a desk at any time. Simultaneously, put the clock on the desk and move the phones from the bed to the table. After completing these tasks, move the book from the desk to the cabinet."
             }
         },
         {
@@ -1032,7 +1032,7 @@
         },
         {
             "task_list":[
-                "Move the phones from the bed to the end table. ",
+                "Move the phones from the bed to the table. ",
                 "Move the clock from the table to the cabinet above",
                 "Put a credit card on a desk.",
                 "Placing a tennis racket on a table. ",
@@ -1052,9 +1052,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the phones from the bed to the end table at any time. Simultaneously, place a pencil on a desk.After moving the phones, put a credit card on a desk.Then, move the clock from the table to the cabinet above. Finally, move the pen from the desk to the shelf.",
-                "fintune 2":"Move the phones from the bed to the end table at any time. Simultaneously, place a bat on a bed.After moving the phones, put a credit card on a desk.Then, place a tennis racket on a table. Finally, move the pen from the desk to the shelf.",
-                "fintune 3":"Move the phones from the bed to the end table at any time. Put a credit card on a desk.After moving the phones, place a pencil on a desk.Then, move the clock from the table to the cabinet above. Finally, put a bat on a bed."
+                "fintune 1":"Move the phones from the bed to the table at any time. Simultaneously, place a pencil on a desk.After moving the phones, put a credit card on a desk.Then, move the clock from the table to the cabinet above. Finally, move the pen from the desk to the shelf.",
+                "fintune 2":"Move the phones from the bed to the table at any time. Simultaneously, place a bat on a bed.After moving the phones, put a credit card on a desk.Then, place a tennis racket on a table. Finally, move the pen from the desk to the shelf.",
+                "fintune 3":"Move the phones from the bed to the table at any time. Put a credit card on a desk.After moving the phones, place a pencil on a desk.Then, move the clock from the table to the cabinet above. Finally, put a bat on a bed."
             }
         }
     ],
@@ -1062,7 +1062,7 @@
         {
             "task_list":[
                 "Put a credit card on a desk.",
-                "Move the phones from the bed to the end table. ",
+                "Move the phones from the bed to the table. ",
                 "Placing a tennis racket on a table. ",
                 "Take a set of keys to the desk",
                 "Put the book in the desk cabinet",
@@ -1083,9 +1083,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take a set of keys to the desk at any time. Simultaneously, move the phones from the bed to the end table. After that, put a credit card on a desk. Once done, carry a clock to the desk. Finally, put the book in the desk cabinet.",
+                "fintune 1":"Take a set of keys to the desk at any time. Simultaneously, move the phones from the bed to the table. After that, put a credit card on a desk. Once done, carry a clock to the desk. Finally, put the book in the desk cabinet.",
                 "fintune 2":"Placing a tennis racket on a table at any time. Simultaneously, move a bat from the floor to the bed. After that, put a credit card on a desk. Once done, place a blue pen on a desk. Finally, take a set of keys to the desk.",
-                "fintune 3":"Move the phones from the bed to the end table at any time. Simultaneously, take a set of keys to the desk. After that, move a bat from the floor to the bed. Once done, placing a tennis racket on a table. Finally, put the book in the desk cabinet."
+                "fintune 3":"Move the phones from the bed to the table at any time. Simultaneously, take a set of keys to the desk. After that, move a bat from the floor to the bed. Once done, placing a tennis racket on a table. Finally, put the book in the desk cabinet."
             }
         }
     ],

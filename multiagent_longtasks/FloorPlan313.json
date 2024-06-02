@@ -120,7 +120,7 @@
                 "Put a mug holding a pencil into an open cabinet.",
                 "Put the mug with pencil on the drawer",
                 "Put a mug with the pencil on it on a shelf",
-                "Place a coffee cup containing a pencil on the shelf of the end table, to the left of the desk. "
+                "Place a coffee cup containing a pencil on the shelf of the table, to the left of the desk. "
             ],
             "relative_objects":[
                 "Pencil",
@@ -171,7 +171,7 @@
         "train/pick_and_place_simple-Pencil-None-Shelf-313/trial_T20190908_182711_300162/traj_data.json":{
             "tasks":[
                 "Move a pencil to a different area. ",
-                "Move a pencil to a small end table.",
+                "Move a pencil to a small table.",
                 "Place a pencil on a shelf."
             ],
             "relative_objects":[
@@ -211,7 +211,7 @@
             "tasks":[
                 "Put a phone on a shelf.",
                 "Take the phone from the desk and place it on the night stand underneath the CD's.",
-                "Take the cell phone from the desk, put it on the end table"
+                "Take the cell phone from the desk, put it on the table"
             ],
             "relative_objects":[
                 "CD",
@@ -220,7 +220,7 @@
         },
         "train/pick_and_place_simple-CellPhone-None-Shelf-313/trial_T20190908_123725_452958/traj_data.json":{
             "tasks":[
-                "Move a phone to the shelf of an end table.",
+                "Move a phone to the shelf of an table.",
                 "Put the cell phone on the second shelf of the drawer",
                 "Place a CD on a shelf."
             ],
@@ -492,7 +492,7 @@
             "task_list":[
                 "move the book from the bed to the desk",
                 "Put a mug with a pencil in it on the shelf.",
-                "Move a phone to the shelf of an end table."
+                "Move a phone to the shelf of an table."
             ],
             "orign":[
                 [
@@ -502,9 +502,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a phone to the shelf of an end table at any time. Put a mug with a pencil in it on the shelf. After putting the mug, move the book from the bed to the desk.",
-                "fintune 2":"Put a mug with a pencil in it on the shelf at any time. Move a phone to the shelf of an end table at any time. After putting the mug, move the book from the bed to the desk.",
-                "fintune 3":"Put a mug with a pencil in it on the shelf. Move a phone to the shelf of an end table at any time. After putting the mug, move the book from the bed to the desk."
+                "fintune 1":"Move a phone to the shelf of an table at any time. Put a mug with a pencil in it on the shelf. After putting the mug, move the book from the bed to the desk.",
+                "fintune 2":"Put a mug with a pencil in it on the shelf at any time. Move a phone to the shelf of an table at any time. After putting the mug, move the book from the bed to the desk.",
+                "fintune 3":"Put a mug with a pencil in it on the shelf. Move a phone to the shelf of an table at any time. After putting the mug, move the book from the bed to the desk."
             }
         }
     ],
@@ -595,7 +595,7 @@
         },
         {
             "task_list":[
-                "Move a phone to the shelf of an end table.",
+                "Move a phone to the shelf of an table.",
                 "place the tissue box in the cabinet",
                 "Put the pencils where they belong.",
                 "Move book to the desk."
@@ -609,16 +609,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a phone to the shelf of an end table. Simultaneously, place the tissue box in the cabinet. After moving the phone and placing the tissue box, put the pencils where they belong. Finally, move the book to the desk.",
-                "fintune 2":"Place the tissue box in the cabinet at any time. Simultaneously, move a phone to the shelf of an end table. After placing the tissue box, put the pencils where they belong. Finally, move the book to the desk.",
-                "fintune 3":"Move a phone to the shelf of an end table. Simultaneously, place the tissue box in the cabinet. After placing the tissue box, move the book to the desk. Finally, put the pencils where they belong."
+                "fintune 1":"Move a phone to the shelf of an table. Simultaneously, place the tissue box in the cabinet. After moving the phone and placing the tissue box, put the pencils where they belong. Finally, move the book to the desk.",
+                "fintune 2":"Place the tissue box in the cabinet at any time. Simultaneously, move a phone to the shelf of an table. After placing the tissue box, put the pencils where they belong. Finally, move the book to the desk.",
+                "fintune 3":"Move a phone to the shelf of an table. Simultaneously, place the tissue box in the cabinet. After placing the tissue box, move the book to the desk. Finally, put the pencils where they belong."
             }
         }
     ],
     "tasks_5":[
         {
             "task_list":[
-                "Move a phone to the shelf of an end table.",
+                "Move a phone to the shelf of an table.",
                 "move the book from the bed to the desk",
                 "place the tissue box in the cabinet",
                 "Place cup on the desk.",
@@ -634,9 +634,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the book from the bed to the desk. Simultaneously, place cup on the desk. After moving the book and placing the cup, put the keys in the small shelf. Once done, move a phone to the shelf of an end table. Finally, place the tissue box in the cabinet.",
-                "fintune 2":"Put the keys in the small shelf. Simultaneously, place cup on the desk. After putting the keys and placing the cup, move the book from the bed to the desk. Once done, move a phone to the shelf of an end table. Finally, place the tissue box in the cabinet.",
-                "fintune 3":"Place cup on the desk. Simultaneously, put the keys in the small shelf. After placing the cup and putting the keys, move a phone to the shelf of an end table. Once done, move the book from the bed to the desk. Finally, place the tissue box in the cabinet."
+                "fintune 1":"Move the book from the bed to the desk. Simultaneously, place cup on the desk. After moving the book and placing the cup, put the keys in the small shelf. Once done, move a phone to the shelf of an table. Finally, place the tissue box in the cabinet.",
+                "fintune 2":"Put the keys in the small shelf. Simultaneously, place cup on the desk. After putting the keys and placing the cup, move the book from the bed to the desk. Once done, move a phone to the shelf of an table. Finally, place the tissue box in the cabinet.",
+                "fintune 3":"Place cup on the desk. Simultaneously, put the keys in the small shelf. After placing the cup and putting the keys, move a phone to the shelf of an table. Once done, move the book from the bed to the desk. Finally, place the tissue box in the cabinet."
             }
         },
         {

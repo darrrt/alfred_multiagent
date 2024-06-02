@@ -54,7 +54,7 @@
         },
         "tests_unseen/trial_T20190907_074528_362136/traj_data.json":{
             "tasks":[
-                "Move the statue from the end table to the coffee table.",
+                "Move the statue from the table to the coffee table.",
                 "Move a statue from the desk to the dresser",
                 "place dog statue on table in front of couch"
             ],
@@ -222,7 +222,7 @@
         {
             "task_list":[
                 "take the watch from the coffee table, put it on the desk",
-                "Move the statue from the end table to the coffee table."
+                "Move the statue from the table to the coffee table."
             ],
             "orign":[
                 [
@@ -231,9 +231,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the statue from the end table to the coffee table at any time. After moving the statue, take the watch from the coffee table and put it on the desk.",
-                "fintune 2":"Take the watch from the coffee table and put it on the desk at any time. Simultaneously, move the statue from the end table to the coffee table.",
-                "fintune 3":"Take the watch from the coffee table and put it on the desk at any time. After putting the watch on the desk, move the statue from the end table to the coffee table."
+                "fintune 1":"Move the statue from the table to the coffee table at any time. After moving the statue, take the watch from the coffee table and put it on the desk.",
+                "fintune 2":"Take the watch from the coffee table and put it on the desk at any time. Simultaneously, move the statue from the table to the coffee table.",
+                "fintune 3":"Take the watch from the coffee table and put it on the desk at any time. After putting the watch on the desk, move the statue from the table to the coffee table."
             }
         },
         {
@@ -406,7 +406,7 @@
         {
             "task_list":[
                 "Move a set of keys to the seat of a chair.",
-                "Move the statue from the end table to the coffee table.",
+                "Move the statue from the table to the coffee table.",
                 "move the remote controls to the middle cushion of the couch",
                 "Close a cardboard box with a credit card inside."
             ],
@@ -419,8 +419,8 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the statue from the end table to the coffee table at any time. Simultaneously, move a set of keys to the seat of a chair. After moving the statue and keys, close a cardboard box with a credit card inside.",
-                "fintune 2":"Close a cardboard box with a credit card inside at any time. Simultaneously, move the remote controls to the middle cushion of the couch. After closing the box and placing the remote controls, move the statue from the end table to the coffee table.",
+                "fintune 1":"Move the statue from the table to the coffee table at any time. Simultaneously, move a set of keys to the seat of a chair. After moving the statue and keys, close a cardboard box with a credit card inside.",
+                "fintune 2":"Close a cardboard box with a credit card inside at any time. Simultaneously, move the remote controls to the middle cushion of the couch. After closing the box and placing the remote controls, move the statue from the table to the coffee table.",
                 "fintune 3":"Move the remote controls to the middle cushion of the couch at any time. Simultaneously, close a cardboard box with a credit card inside. After moving the remote controls and closing the box, move a set of keys to the seat of a chair."
             }
         },
@@ -633,7 +633,7 @@
                 "Move the box to the sofa.",
                 "put to credit cards on the coffee table",
                 "move the remote controls to the middle cushion of the couch",
-                "Move the statue from the end table to the coffee table.",
+                "Move the statue from the table to the coffee table.",
                 "Place watch in the desk drawer."
             ],
             "orign":[
@@ -647,16 +647,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a set of keys on a couch at any time. Simultaneously, move the box to the sofa. After placing the keys and the box, put two credit cards on the coffee table. After that, move the remote controls to the middle cushion of the couch. Finally, move the statue from the end table to the coffee table.",
-                "fintune 2":"Move the statue from the end table to the coffee table at any time. Simultaneously, put two credit cards on the coffee table. After moving the statue and placing the credit cards, place a set of keys on a couch. After that, move the box to the sofa. Finally, place the watch in the desk drawer.",
-                "fintune 3":"Move the box to the sofa at any time. Simultaneously, move the statue from the end table to the coffee table. After moving the box and the statue, place a set of keys on a couch. After that, move the remote controls to the middle cushion of the couch. Finally, put two credit cards on the coffee table."
+                "fintune 1":"Place a set of keys on a couch at any time. Simultaneously, move the box to the sofa. After placing the keys and the box, put two credit cards on the coffee table. After that, move the remote controls to the middle cushion of the couch. Finally, move the statue from the table to the coffee table.",
+                "fintune 2":"Move the statue from the table to the coffee table at any time. Simultaneously, put two credit cards on the coffee table. After moving the statue and placing the credit cards, place a set of keys on a couch. After that, move the box to the sofa. Finally, place the watch in the desk drawer.",
+                "fintune 3":"Move the box to the sofa at any time. Simultaneously, move the statue from the table to the coffee table. After moving the box and the statue, place a set of keys on a couch. After that, move the remote controls to the middle cushion of the couch. Finally, put two credit cards on the coffee table."
             }
         },
         {
             "task_list":[
                 "Place watch in the desk drawer.",
                 "put to credit cards on the coffee table",
-                "Move the statue from the end table to the coffee table.",
+                "Move the statue from the table to the coffee table.",
                 "Move a set of keys to a chair. ",
                 "move the remote controls to the middle cushion of the couch",
                 "Move the box to the sofa."
@@ -672,9 +672,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place watch in the desk drawer at any time. Simultaneously, put two credit cards on the coffee table. After placing the watch and credit cards, move the statue from the end table to the coffee table. Then, move a set of keys to a chair. Finally, move the remote controls to the middle cushion of the couch. After completing all previous tasks, move the box to the sofa.",
-                "fintune 2":"Put two credit cards on the coffee table at any time. Simultaneously, place watch in the desk drawer. After placing the credit cards and watch, move the statue from the end table to the coffee table. Then, move a set of keys to a chair. After that, move the remote controls to the middle cushion of the couch. Finally, move the box to the sofa.",
-                "fintune 3":"Place watch in the desk drawer at any time. Simultaneously, put two credit cards on the coffee table. After placing the watch and credit cards, move the statue from the end table to the coffee table. Then, move a set of keys to a chair. Simultaneously, move the remote controls to the middle cushion of the couch. After completing all previous tasks, move the box to the sofa."
+                "fintune 1":"Place watch in the desk drawer at any time. Simultaneously, put two credit cards on the coffee table. After placing the watch and credit cards, move the statue from the table to the coffee table. Then, move a set of keys to a chair. Finally, move the remote controls to the middle cushion of the couch. After completing all previous tasks, move the box to the sofa.",
+                "fintune 2":"Put two credit cards on the coffee table at any time. Simultaneously, place watch in the desk drawer. After placing the credit cards and watch, move the statue from the table to the coffee table. Then, move a set of keys to a chair. After that, move the remote controls to the middle cushion of the couch. Finally, move the box to the sofa.",
+                "fintune 3":"Place watch in the desk drawer at any time. Simultaneously, put two credit cards on the coffee table. After placing the watch and credit cards, move the statue from the table to the coffee table. Then, move a set of keys to a chair. Simultaneously, move the remote controls to the middle cushion of the couch. After completing all previous tasks, move the box to the sofa."
             }
         },
         {

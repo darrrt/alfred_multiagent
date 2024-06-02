@@ -62,7 +62,7 @@
         "train/pick_clean_then_place_in_recep-ButterKnife-None-SideTable-21/trial_T20190907_162219_906540/traj_data.json":{
             "tasks":[
                 "Put a cleaned knife on a side table.",
-                "Put a cleaned knife on the black end table.",
+                "Put a cleaned knife on the black table.",
                 "Washing a moving a knife to a table."
             ],
             "relative_objects":[
@@ -299,8 +299,8 @@
         "train/pick_clean_then_place_in_recep-Lettuce-None-SideTable-21/trial_T20190907_101041_316873/traj_data.json":{
             "tasks":[
                 "Put the clean cabbage on the island",
-                "Put a cleaned head of lettuce on the end table.",
-                "Set rinsed lettuce on the end table by the garbage bag.",
+                "Put a cleaned head of lettuce on the table.",
+                "Set rinsed lettuce on the table by the garbage bag.",
                 "Put the washed lettuce on the small table",
                 "Clean the lettuce from the black table.",
                 "Put a washed head of lettuce on a table."
@@ -540,7 +540,7 @@
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-SideTable-21/trial_T20190908_031311_563515/traj_data.json":{
             "tasks":[
                 "place a cooked tomato  slice on the shelf",
-                "To heat a slice of tomato and place it on the black end table.",
+                "To heat a slice of tomato and place it on the black table.",
                 "Put a warm tomato slice on the table. "
             ],
             "relative_objects":[
@@ -565,7 +565,7 @@
             "tasks":[
                 "Cut a slice of fruit and heat it. ",
                 "Put a piece of cooked apple on the table.",
-                "Put a heated tomato slice on the end table."
+                "Put a heated tomato slice on the table."
             ],
             "relative_objects":[
                 "Knife",
@@ -747,7 +747,7 @@
             "tasks":[
                 "Put a clean tomato on top of the black shelving unit.",
                 "Take a tomato from the fridge and rinse it. Then place it on the table.",
-                "Put a cleaned, chilled tomato on the black end table."
+                "Put a cleaned, chilled tomato on the black table."
             ],
             "relative_objects":[
                 "Knife",
@@ -792,7 +792,7 @@
         "train/pick_heat_then_place_in_recep-Egg-None-SideTable-21/trial_T20190907_045104_949753/traj_data.json":{
             "tasks":[
                 "Place a warmed egg on the small black table.",
-                "Put a heated egg on the black end table.",
+                "Put a heated egg on the black table.",
                 "heat up an egg in the microwave putting it on top of  the black table"
             ],
             "relative_objects":[
@@ -1289,7 +1289,7 @@
         "train/pick_cool_then_place_in_recep-Apple-None-SideTable-21/trial_T20190907_180711_700359/traj_data.json":{
             "tasks":[
                 "Put a chilled apple on the counter.",
-                "Put a chilled apple on the end table to the left of the sink.",
+                "Put a chilled apple on the table to the left of the sink.",
                 "Place a cooled apple on a table."
             ],
             "relative_objects":[
@@ -1557,7 +1557,7 @@
         },
         "tests_seen/trial_T20190907_043932_996593/traj_data.json":{
             "tasks":[
-                "Put a cold egg on the end table.",
+                "Put a cold egg on the table.",
                 "Put egg in out the fridge going to the black shelf",
                 "Place a cooled egg on the small black table."
             ],
@@ -1919,7 +1919,7 @@
         {
             "task_list":[
                 "Put a frying pan holding a potato slice on the table.",
-                "Put a cold egg on the end table.",
+                "Put a cold egg on the table.",
                 "Place a cold slice of bread on a brown table.",
                 "put a washed knife into a drawer"
             ],
@@ -1932,9 +1932,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cold egg on the end table. At any time, put a cold slice of bread on a brown table. Once both are placed, put a frying pan holding a potato slice on the table. Finally, put a washed knife into a drawer.",
-                "fintune 2":"Put a cold egg on the end table. Simultaneously, put a cold slice of bread on a brown table. After that, put a frying pan holding a potato slice on the table. Once done, put a washed knife into a drawer.",
-                "fintune 3":"Put a cold egg on the end table. Put a washed knife into a drawer. Once these are done, put a cold slice of bread on a brown table. Finally, put a frying pan holding a potato slice on the table."
+                "fintune 1":"Put a cold egg on the table. At any time, put a cold slice of bread on a brown table. Once both are placed, put a frying pan holding a potato slice on the table. Finally, put a washed knife into a drawer.",
+                "fintune 2":"Put a cold egg on the table. Simultaneously, put a cold slice of bread on a brown table. After that, put a frying pan holding a potato slice on the table. Once done, put a washed knife into a drawer.",
+                "fintune 3":"Put a cold egg on the table. Put a washed knife into a drawer. Once these are done, put a cold slice of bread on a brown table. Finally, put a frying pan holding a potato slice on the table."
             }
         },
         {
@@ -2032,7 +2032,7 @@
                 "Put a mug with a spoon in it on the small black table.",
                 "Put a slice of cold potato on a stand.",
                 "Put a clean apple on the table.",
-                "Put a cold egg on the end table.",
+                "Put a cold egg on the table.",
                 "Put chilled lettuce on a table."
             ],
             "orign":[
@@ -2045,9 +2045,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a clean apple on the table at any time. Simultaneously, put a cold egg on the end table. After placing the apple and egg, put chilled lettuce on a table. Next, put a slice of cold potato on a stand. Finally, put a mug with a spoon in it on the small black table.",
-                "fintune 2":"Put a slice of cold potato on a stand at any time. Simultaneously, put chilled lettuce on a table. After placing the potato and lettuce, put a clean apple on the table. Next, put a cold egg on the end table. Finally, put a mug with a spoon in it on the small black table.",
-                "fintune 3":"Put a clean apple on the table at any time. Simultaneously, put a cold egg on the end table. After placing the apple and egg, put chilled lettuce on a table. Next, put a mug with a spoon in it on the small black table. Finally, put a slice of cold potato on a stand."
+                "fintune 1":"Put a clean apple on the table at any time. Simultaneously, put a cold egg on the table. After placing the apple and egg, put chilled lettuce on a table. Next, put a slice of cold potato on a stand. Finally, put a mug with a spoon in it on the small black table.",
+                "fintune 2":"Put a slice of cold potato on a stand at any time. Simultaneously, put chilled lettuce on a table. After placing the potato and lettuce, put a clean apple on the table. Next, put a cold egg on the table. Finally, put a mug with a spoon in it on the small black table.",
+                "fintune 3":"Put a clean apple on the table at any time. Simultaneously, put a cold egg on the table. After placing the apple and egg, put chilled lettuce on a table. Next, put a mug with a spoon in it on the small black table. Finally, put a slice of cold potato on a stand."
             }
         },
         {
@@ -2056,7 +2056,7 @@
                 "Return the chilled tan cup to the small black table.",
                 "Place a salt shaker on the table.",
                 "Place pan on the counter with a tomato on it.",
-                "Put a cold egg on the end table."
+                "Put a cold egg on the table."
             ],
             "orign":[
                 [
@@ -2068,9 +2068,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place pan on the counter with a tomato on it. After placing the pan, put a cold egg on the end table. Simultaneously, Put a heated potato on the small black table and Return the chilled tan cup to the small black table. Once all the previous tasks are completed, place a salt shaker on the table.",
-                "fintune 2":"Put a cold egg on the end table at any time. Simultaneously, Put a heated potato on the small black table and Return the chilled tan cup to the small black table. Then, place pan on the counter with a tomato on it. After all the previous tasks are done, place a salt shaker on the table.",
-                "fintune 3":"Place pan on the counter with a tomato on it. After that, put a cold egg on the end table and Put a heated potato on the small black table. Simultaneously, Return the chilled tan cup to the small black table. Finally, place a salt shaker on the table."
+                "fintune 1":"Place pan on the counter with a tomato on it. After placing the pan, put a cold egg on the table. Simultaneously, Put a heated potato on the small black table and Return the chilled tan cup to the small black table. Once all the previous tasks are completed, place a salt shaker on the table.",
+                "fintune 2":"Put a cold egg on the table at any time. Simultaneously, Put a heated potato on the small black table and Return the chilled tan cup to the small black table. Then, place pan on the counter with a tomato on it. After all the previous tasks are done, place a salt shaker on the table.",
+                "fintune 3":"Place pan on the counter with a tomato on it. After that, put a cold egg on the table and Put a heated potato on the small black table. Simultaneously, Return the chilled tan cup to the small black table. Finally, place a salt shaker on the table."
             }
         },
         {
@@ -2125,7 +2125,7 @@
         },
         {
             "task_list":[
-                "Put a cold egg on the end table.",
+                "Put a cold egg on the table.",
                 "Place salt shakers on a table",
                 "Put a cleaned knife on a side table.",
                 "Put the black cup in the fridge for seven seconds, put it on small black table.",
@@ -2143,7 +2143,7 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place salt shakers on a table at any time. Simultaneously, put a cold egg on the end table. After placing the salt shakers and the egg, put a cleaned knife on a side table.",
+                "fintune 1":"Place salt shakers on a table at any time. Simultaneously, put a cold egg on the table. After placing the salt shakers and the egg, put a cleaned knife on a side table.",
                 "fintune 2":"Put a clean piece of apple on a stand at any time. Simultaneously, put the clean lettuce on the black table. After placing the apple and lettuce, put the black cup in the fridge for seven seconds, then put it on the small black table.",
                 "fintune 3":"Put a clean piece of apple on a stand at any time. Simultaneously, put the clean lettuce on the black table. After placing the apple and lettuce, put the black cup in the fridge for seven seconds, then put it on the small black table. At the end, put a cleaned knife on a side table."
             }

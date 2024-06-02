@@ -86,7 +86,7 @@
         },
         "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-211/trial_T20190908_012307_913456/traj_data.json":{
             "tasks":[
-                "Move a plate with a plate on it to the black end table",
+                "Move a plate with a plate on it to the black table",
                 "To put the plate and cell phone on the table. ",
                 "Move a cell phone and plate to a table."
             ],
@@ -98,7 +98,7 @@
         "train/pick_and_place_with_movable_recep-CellPhone-Plate-SideTable-211/trial_T20190908_012205_528141/traj_data.json":{
             "tasks":[
                 "Move a plate with a phone on it to a side table.",
-                "Put a bowl with a phone inside on a end table."
+                "Put a bowl with a phone inside on a table."
             ],
             "relative_objects":[
                 "CellPhone",
@@ -139,7 +139,7 @@
             "tasks":[
                 "Put a bowl with a phone it it on the table.",
                 "Moving a cell phone into a tray and placing it on a side table beside a couch",
-                "Put a blue plate with a phone on it down on the end table."
+                "Put a blue plate with a phone on it down on the table."
             ],
             "relative_objects":[
                 "CellPhone",
@@ -262,7 +262,7 @@
         },
         {
             "task_list":[
-                "Move a plate with a plate on it to the black end table",
+                "Move a plate with a plate on it to the black table",
                 "Examine a key chain by the light of a floor lamp."
             ],
             "orign":[
@@ -272,9 +272,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a plate with a plate on it to the black end table at any time. Simultaneously, examine a key chain by the light of a floor lamp.",
-                "fintune 2":"Examine a key chain by the light of a floor lamp at any time. Simultaneously, move a plate with a plate on it to the black end table.",
-                "fintune 3":"Move a plate with a plate on it to the black end table at any time. After moving the plate, examine a key chain by the light of a floor lamp."
+                "fintune 1":"Move a plate with a plate on it to the black table at any time. Simultaneously, examine a key chain by the light of a floor lamp.",
+                "fintune 2":"Examine a key chain by the light of a floor lamp at any time. Simultaneously, move a plate with a plate on it to the black table.",
+                "fintune 3":"Move a plate with a plate on it to the black table at any time. After moving the plate, examine a key chain by the light of a floor lamp."
             }
         },
         {
@@ -438,7 +438,7 @@
         {
             "task_list":[
                 "Examine a set of keys using the light of a floor lamp.",
-                "Move a plate with a plate on it to the black end table",
+                "Move a plate with a plate on it to the black table",
                 "Put box on table and put remote in box",
                 "Take the newspapers on the chair and the TV stand to the coffee table."
             ],
@@ -451,14 +451,14 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Examine a set of keys using the light of a floor lamp. Move a plate with a plate on it to the black end table. Put box on table and put remote in box. After completing the previous tasks, take the newspapers on the chair and the TV stand to the coffee table.",
-                "fintune 2":"Examine a set of keys using the light of a floor lamp. Take the newspapers on the chair and the TV stand to the coffee table. Put box on table and put remote in box. Move a plate with a plate on it to the black end table.",
-                "fintune 3":"Move a plate with a plate on it to the black end table. Examine a set of keys using the light of a floor lamp. After placing the plate, put box on table and put remote in box. Take the newspapers on the chair and the TV stand to the coffee table."
+                "fintune 1":"Examine a set of keys using the light of a floor lamp. Move a plate with a plate on it to the black table. Put box on table and put remote in box. After completing the previous tasks, take the newspapers on the chair and the TV stand to the coffee table.",
+                "fintune 2":"Examine a set of keys using the light of a floor lamp. Take the newspapers on the chair and the TV stand to the coffee table. Put box on table and put remote in box. Move a plate with a plate on it to the black table.",
+                "fintune 3":"Move a plate with a plate on it to the black table. Examine a set of keys using the light of a floor lamp. After placing the plate, put box on table and put remote in box. Take the newspapers on the chair and the TV stand to the coffee table."
             }
         },
         {
             "task_list":[
-                "Move a plate with a plate on it to the black end table",
+                "Move a plate with a plate on it to the black table",
                 "Put box on table and put remote in box",
                 "Move a newspaper from a TV stand to a sofa.",
                 "Examine a set of keys using the light of a floor lamp."
@@ -473,8 +473,8 @@
             ],
             "finetuned":{
                 "fintune 1":"Move a newspaper from a TV stand to a sofa at any time. Simultaneously, examine a set of keys using the light of a floor lamp. After moving the newspaper, put a box on the table and put the remote in the box.",
-                "fintune 2":"Examine a set of keys using the light of a floor lamp at any time. Simultaneously, move a plate with a plate on it to the black end table. After examining the keys, put a box on the table and put the remote in the box.",
-                "fintune 3":"Move a plate with a plate on it to the black end table at any time. Simultaneously, put a box on the table and put the remote in the box. After placing the plate, move a newspaper from a TV stand to a sofa and examine a set of keys using the light of a floor lamp."
+                "fintune 2":"Examine a set of keys using the light of a floor lamp at any time. Simultaneously, move a plate with a plate on it to the black table. After examining the keys, put a box on the table and put the remote in the box.",
+                "fintune 3":"Move a plate with a plate on it to the black table at any time. Simultaneously, put a box on the table and put the remote in the box. After placing the plate, move a newspaper from a TV stand to a sofa and examine a set of keys using the light of a floor lamp."
             }
         },
         {
