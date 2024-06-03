@@ -297,7 +297,7 @@
         },
         "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113609_142533/traj_data.json":{
             "tasks":[
-                "Put a pen in the cubby hole above the desk.",
+                "Put a pen in the box above the desk.",
                 "Place a pen on the shelf.",
                 "Place a pen on a desk."
             ],
@@ -312,7 +312,7 @@
         "train/pick_and_place_simple-Pen-None-Shelf-310/trial_T20190909_113544_965358/traj_data.json":{
             "tasks":[
                 "move pen from desk to shelf",
-                "Put a pen in the cubby hole above the desk.",
+                "Put a pen in the box above the desk.",
                 "Move a blue pen from the desk to the cabinet above it."
             ],
             "relative_objects":[
@@ -407,7 +407,7 @@
         {
             "task_list":[
                 "Put a bat on a bed.",
-                "Put a pen in the cubby hole above the desk."
+                "Put a pen in the box above the desk."
             ],
             "orign":[
                 [
@@ -416,9 +416,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a bat on a bed at any time. Put a pen in the cubby hole above the desk after putting the bat on the bed.",
-                "fintune 2":"Put a pen in the cubby hole above the desk at any time. Put a bat on a bed after putting the pen in the cubby hole above the desk.",
-                "fintune 3":"Put a pen in the cubby hole above the desk at any time. Simultaneously, put a bat on a bed."
+                "fintune 1":"Put a bat on a bed at any time. Put a pen in the box above the desk after putting the bat on the bed.",
+                "fintune 2":"Put a pen in the box above the desk at any time. Put a bat on a bed after putting the pen in the box above the desk.",
+                "fintune 3":"Put a pen in the box above the desk at any time. Simultaneously, put a bat on a bed."
             }
         },
         {
