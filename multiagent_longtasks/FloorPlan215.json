@@ -36,7 +36,7 @@
         },
         "tests_unseen/trial_T20190907_211732_655276/traj_data.json":{
             "tasks":[
-                "Move the hand on the shelf to the table. ",
+                "move the statue on the shelf to the table. ",
                 "Put a golden statue hand on the TV stand.",
                 "Move hand from shelf to table."
             ],
@@ -165,7 +165,7 @@
         },
         {
             "task_list":[
-                "Move the hand on the shelf to the table. "
+                "move the statue on the shelf to the table. "
             ],
             "orign":[
                 [
@@ -175,7 +175,7 @@
         },
         {
             "task_list":[
-                "Move the hand on the shelf to the table. "
+                "move the statue on the shelf to the table. "
             ],
             "orign":[
                 [
@@ -188,7 +188,7 @@
         {
             "task_list":[
                 "Put the newspaper on the shelf.",
-                "Move the hand on the shelf to the table. "
+                "move the statue on the shelf to the table. "
             ],
             "orign":[
                 [
@@ -197,9 +197,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the newspaper on the shelf. Move the hand on the shelf to the table.",
-                "fintune 2":"Move the hand on the shelf to the table. Put the newspaper on the shelf.",
-                "fintune 3":"Put the newspaper on the shelf. Move the hand on the shelf to the table."
+                "fintune 1":"Put the newspaper on the shelf. move the statue on the shelf to the table.",
+                "fintune 2":"move the statue on the shelf to the table. Put the newspaper on the shelf.",
+                "fintune 3":"Put the newspaper on the shelf. move the statue on the shelf to the table."
             }
         },
         {
@@ -275,7 +275,7 @@
         {
             "task_list":[
                 "Put the newspaper on the shelf. ",
-                "Move the hand on the shelf to the table. ",
+                "move the statue on the shelf to the table. ",
                 "Put a remote control in a cardboard box"
             ],
             "orign":[
@@ -286,9 +286,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a remote control in a cardboard box first. Then, move the hand on the shelf to the table. Finally, put the newspaper on the shelf.",
-                "fintune 2":"Move the hand on the shelf to the table at any time. Simultaneously, put a remote control in a cardboard box. After moving the hand and putting the remote control, put the newspaper on the shelf.",
-                "fintune 3":"Put the newspaper on the shelf. After putting the newspaper, move the hand on the shelf to the table. Once the hand is moved, put a remote control in a cardboard box."
+                "fintune 1":"Put a remote control in a cardboard box first. Then, move the statue on the shelf to the table. Finally, put the newspaper on the shelf.",
+                "fintune 2":"move the statue on the shelf to the table at any time. Simultaneously, put a remote control in a cardboard box. After moving the hand and putting the remote control, put the newspaper on the shelf.",
+                "fintune 3":"Put the newspaper on the shelf. After putting the newspaper, move the statue on the shelf to the table. Once the hand is moved, put a remote control in a cardboard box."
             }
         },
         {
@@ -312,7 +312,7 @@
         },
         {
             "task_list":[
-                "Move the hand on the shelf to the table. ",
+                "move the statue on the shelf to the table. ",
                 "put bowl and credit card on coffee table",
                 "To look at the keys in the light."
             ],
@@ -324,16 +324,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the hand on the shelf to the table at any time. Simultaneously, put the bowl and credit card on the coffee table. After completing the previous tasks, look at the keys in the light.",
-                "fintune 2":"Put the bowl and credit card on the coffee table at any time. Simultaneously, look at the keys in the light. After placing the bowl and credit card, move the hand on the shelf to the table.",
-                "fintune 3":"Look at the keys in the light at any time. Simultaneously, move the hand on the shelf to the table. After completing the previous tasks, put the bowl and credit card on the coffee table."
+                "fintune 1":"move the statue on the shelf to the table at any time. Simultaneously, put the bowl and credit card on the coffee table. After completing the previous tasks, look at the keys in the light.",
+                "fintune 2":"Put the bowl and credit card on the coffee table at any time. Simultaneously, look at the keys in the light. After placing the bowl and credit card, move the statue on the shelf to the table.",
+                "fintune 3":"Look at the keys in the light at any time. Simultaneously, move the statue on the shelf to the table. After completing the previous tasks, put the bowl and credit card on the coffee table."
             }
         },
         {
             "task_list":[
                 "get keys to take to lamp to examine them in the light",
                 "Put a remote control in a cardboard box",
-                "Move the hand on the shelf to the table. "
+                "move the statue on the shelf to the table. "
             ],
             "orign":[
                 [
@@ -343,9 +343,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Get keys to take to lamp to examine them in the light. Put a remote control in a cardboard box. Move the hand on the shelf to the table.",
-                "fintune 2":"Put a remote control in a cardboard box. Move the hand on the shelf to the table. Get keys to take to lamp to examine them in the light.",
-                "fintune 3":"Move the hand on the shelf to the table. Get keys to take to lamp to examine them in the light. Put a remote control in a cardboard box."
+                "fintune 1":"Get keys to take to lamp to examine them in the light. Put a remote control in a cardboard box. move the statue on the shelf to the table.",
+                "fintune 2":"Put a remote control in a cardboard box. move the statue on the shelf to the table. Get keys to take to lamp to examine them in the light.",
+                "fintune 3":"move the statue on the shelf to the table. Get keys to take to lamp to examine them in the light. Put a remote control in a cardboard box."
             }
         },
         {
@@ -481,7 +481,7 @@
                 "put bowl and credit card on coffee table",
                 "Put the newspaper on the shelf. ",
                 "To look at the keys in the light.",
-                "Move the hand on the shelf to the table. ",
+                "move the statue on the shelf to the table. ",
                 "Place a box and a remote on the couch. "
             ],
             "orign":[
@@ -494,15 +494,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the newspaper on the shelf at any time. Simultaneously, put bowl and credit card on coffee table. After putting the newspaper and items on the coffee table, move the hand on the shelf to the table. Finally, place a box and a remote on the couch.",
-                "fintune 2":"Put bowl and credit card on coffee table at any time. Simultaneously, place a box and a remote on the couch. After placing the items, move the hand on the shelf to the table. Finally, look at the keys in the light.",
-                "fintune 3":"Place a box and a remote on the couch at any time. Simultaneously, put the newspaper on the shelf. After completing these tasks, put bowl and credit card on coffee table. Finally, move the hand on the shelf to the table."
+                "fintune 1":"Put the newspaper on the shelf at any time. Simultaneously, put bowl and credit card on coffee table. After putting the newspaper and items on the coffee table, move the statue on the shelf to the table. Finally, place a box and a remote on the couch.",
+                "fintune 2":"Put bowl and credit card on coffee table at any time. Simultaneously, place a box and a remote on the couch. After placing the items, move the statue on the shelf to the table. Finally, look at the keys in the light.",
+                "fintune 3":"Place a box and a remote on the couch at any time. Simultaneously, put the newspaper on the shelf. After completing these tasks, put bowl and credit card on coffee table. Finally, move the statue on the shelf to the table."
             }
         },
         {
             "task_list":[
                 "To look at the keys in the light.",
-                "Move the hand on the shelf to the table. ",
+                "move the statue on the shelf to the table. ",
                 "Place a box and a remote on the couch. ",
                 "Look at a container by the light of a lamp.",
                 "Put the newspaper on the shelf."
@@ -517,14 +517,14 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"To look at the keys in the light, put the newspaper on the shelf simultaneously. After looking at the keys and placing the newspaper, move the hand on the shelf to the table. Finally, place a box and a remote on the couch.",
-                "fintune 2":"Place a box and a remote on the couch at any time. Simultaneously, look at a container by the light of a lamp. Once done, move the hand on the shelf to the table. After that, put the newspaper on the shelf.",
-                "fintune 3":"Put the newspaper on the shelf at any time. Simultaneously, place a box and a remote on the couch. After placing the newspaper and the box, look at a container by the light of a lamp. Finally, move the hand on the shelf to the table."
+                "fintune 1":"To look at the keys in the light, put the newspaper on the shelf simultaneously. After looking at the keys and placing the newspaper, move the statue on the shelf to the table. Finally, place a box and a remote on the couch.",
+                "fintune 2":"Place a box and a remote on the couch at any time. Simultaneously, look at a container by the light of a lamp. Once done, move the statue on the shelf to the table. After that, put the newspaper on the shelf.",
+                "fintune 3":"Put the newspaper on the shelf at any time. Simultaneously, place a box and a remote on the couch. After placing the newspaper and the box, look at a container by the light of a lamp. Finally, move the statue on the shelf to the table."
             }
         },
         {
             "task_list":[
-                "Move the hand on the shelf to the table. ",
+                "move the statue on the shelf to the table. ",
                 "put bowl and credit card on coffee table",
                 "Put the newspaper on the shelf. ",
                 "To look at the keys in the light.",
@@ -540,8 +540,8 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the hand on the shelf to the table at any time. Simultaneously, put bowl and credit card on coffee table.After moving the hand, put the newspaper on the shelf.",
-                "fintune 2":"To look at the keys in the light must be done before placing a box and a remote on the couch.After examining the keys, put bowl and credit card on coffee table.After that, Move the hand on the shelf to the table.Finally, place a box and a remote on the couch.",
+                "fintune 1":"move the statue on the shelf to the table at any time. Simultaneously, put bowl and credit card on coffee table.After moving the hand, put the newspaper on the shelf.",
+                "fintune 2":"To look at the keys in the light must be done before placing a box and a remote on the couch.After examining the keys, put bowl and credit card on coffee table.After that, move the statue on the shelf to the table.Finally, place a box and a remote on the couch.",
                 "fintune 3":"Place a box and a remote on the couch at any time. Simultaneously, put bowl and credit card on coffee table.After placing the box and remote, Put the newspaper on the shelf. "
             }
         },
@@ -550,7 +550,7 @@
                 "Place a bowl with a credit card on a table.",
                 "To look at the keys in the light.",
                 "Put a remote control in a cardboard box",
-                "Move the hand on the shelf to the table. ",
+                "move the statue on the shelf to the table. ",
                 "Put the newspaper on the shelf. "
             ],
             "orign":[
@@ -563,9 +563,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a bowl with a credit card on a table. Simultaneously, put a remote control in a cardboard box. After placing the bowl and remote control, move the hand on the shelf to the table. Finally, put the newspaper on the shelf.",
-                "fintune 2":"Place a bowl with a credit card on a table. After placing the bowl, put a remote control in a cardboard box. Simultaneously, move the hand on the shelf to the table. Then, put the newspaper on the shelf.",
-                "fintune 3":"Put the newspaper on the shelf. Simultaneously, move the hand on the shelf to the table. After moving the hand and placing the newspaper, place a bowl with a credit card on a table. Finally, put a remote control in a cardboard box."
+                "fintune 1":"Place a bowl with a credit card on a table. Simultaneously, put a remote control in a cardboard box. After placing the bowl and remote control, move the statue on the shelf to the table. Finally, put the newspaper on the shelf.",
+                "fintune 2":"Place a bowl with a credit card on a table. After placing the bowl, put a remote control in a cardboard box. Simultaneously, move the statue on the shelf to the table. Then, put the newspaper on the shelf.",
+                "fintune 3":"Put the newspaper on the shelf. Simultaneously, move the statue on the shelf to the table. After moving the hand and placing the newspaper, place a bowl with a credit card on a table. Finally, put a remote control in a cardboard box."
             }
         },
         {
@@ -573,7 +573,7 @@
                 "To look at the keys in the light.",
                 "Place a bowl with a credit card on a table.",
                 "Put the newspaper on the shelf. ",
-                "Move the hand on the shelf to the table. ",
+                "move the statue on the shelf to the table. ",
                 "Put a remote control in a cardboard box"
             ],
             "orign":[
@@ -586,9 +586,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"To look at the keys in the light, place a bowl with a credit card on a table. After placing the bowl, put the newspaper on the shelf. Finally, move the hand on the shelf to the table and put a remote control in a cardboard box.",
-                "fintune 2":"Put the newspaper on the shelf and move the hand on the shelf to the table simultaneously. Next, place a bowl with a credit card on a table. After that, to look at the keys in the light and put a remote control in a cardboard box.",
-                "fintune 3":"Place a bowl with a credit card on a table first. Then, move the hand on the shelf to the table and put the newspaper on the shelf simultaneously. After that, to look at the keys in the light and put a remote control in a cardboard box."
+                "fintune 1":"To look at the keys in the light, place a bowl with a credit card on a table. After placing the bowl, put the newspaper on the shelf. Finally, move the statue on the shelf to the table and put a remote control in a cardboard box.",
+                "fintune 2":"Put the newspaper on the shelf and move the statue on the shelf to the table simultaneously. Next, place a bowl with a credit card on a table. After that, to look at the keys in the light and put a remote control in a cardboard box.",
+                "fintune 3":"Place a bowl with a credit card on a table first. Then, move the statue on the shelf to the table and put the newspaper on the shelf simultaneously. After that, to look at the keys in the light and put a remote control in a cardboard box."
             }
         }
     ],
