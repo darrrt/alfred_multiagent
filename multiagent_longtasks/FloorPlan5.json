@@ -55,7 +55,7 @@
         },
         "train/pick_clean_then_place_in_recep-Potato-None-CounterTop-5/trial_T20190909_123251_802466/traj_data.json":{
             "tasks":[
-                "remove the potato from the recycle bin and rinse it off then put it on the counter ",
+                "remove the potato from the garbage can and rinse it off then put it on the counter ",
                 "To was a potato and place it on the counter.",
                 "Place a potato on a counter."
             ],
@@ -411,7 +411,7 @@
         },
         "train/pick_heat_then_place_in_recep-Potato-None-GarbageCan-5/trial_T20190908_144144_976529/traj_data.json":{
             "tasks":[
-                "Cook the potato and put it into the recycle bin.",
+                "Cook the potato and put it into the garbage can.",
                 "Place a heated potato in the garbage.",
                 "Heat up a potato and place it in the blue bin. "
             ],
@@ -1309,7 +1309,7 @@
         {
             "task_list":[
                 "Put the tomato in the microwave",
-                "Cook the potato and put it into the recycle bin."
+                "Cook the potato and put it into the garbage can."
             ],
             "orign":[
                 [
@@ -1318,9 +1318,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the tomato in the microwave at any time. Simultaneously, cook the potato and put it into the recycle bin.",
-                "fintune 2":"Cook the potato and put it into the recycle bin. After finishing, put the tomato in the microwave.",
-                "fintune 3":"Put the tomato in the microwave at any time. After that, cook the potato and put it into the recycle bin."
+                "fintune 1":"Put the tomato in the microwave at any time. Simultaneously, cook the potato and put it into the garbage can.",
+                "fintune 2":"Cook the potato and put it into the garbage can. After finishing, put the tomato in the microwave.",
+                "fintune 3":"Put the tomato in the microwave at any time. After that, cook the potato and put it into the garbage can."
             }
         },
         {

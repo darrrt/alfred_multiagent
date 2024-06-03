@@ -3,7 +3,7 @@
     "trials":{
         "train/pick_and_place_simple-SprayBottle-None-GarbageCan-409/trial_T20190908_054803_198732/traj_data.json":{
             "tasks":[
-                "Put a spray bottle in the recycle bin. ",
+                "Put a spray bottle in the garbage can. ",
                 "move the cleaner from the toilet to the trash bin",
                 "Throw away a spray bottle."
             ],
@@ -299,7 +299,7 @@
         },
         {
             "task_list":[
-                "Put a spray bottle in the recycle bin. "
+                "Put a spray bottle in the garbage can. "
             ],
             "orign":[
                 [
@@ -366,7 +366,7 @@
         {
             "task_list":[
                 "Put a rinsed bar of soap close to a bathroom sink.",
-                "Put a spray bottle in the recycle bin. "
+                "Put a spray bottle in the garbage can. "
             ],
             "orign":[
                 [
@@ -375,9 +375,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a rinsed bar of soap close to a bathroom sink. After putting the soap, put a spray bottle in the recycle bin.",
-                "fintune 2":"Put a spray bottle in the recycle bin. Simultaneously, put a rinsed bar of soap close to a bathroom sink.",
-                "fintune 3":"Put a rinsed bar of soap close to a bathroom sink at any time. Prior to that, put a spray bottle in the recycle bin."
+                "fintune 1":"Put a rinsed bar of soap close to a bathroom sink. After putting the soap, put a spray bottle in the garbage can.",
+                "fintune 2":"Put a spray bottle in the garbage can. Simultaneously, put a rinsed bar of soap close to a bathroom sink.",
+                "fintune 3":"Put a rinsed bar of soap close to a bathroom sink at any time. Prior to that, put a spray bottle in the garbage can."
             }
         },
         {
@@ -437,7 +437,7 @@
         },
         {
             "task_list":[
-                "Put a spray bottle in the recycle bin. ",
+                "Put a spray bottle in the garbage can. ",
                 "Put the rag in the drawer.",
                 "Place a rinsed bar of soap on a counter."
             ],
@@ -449,9 +449,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a spray bottle in the recycle bin at any time. Simultaneously, place a rinsed bar of soap on a counter. After putting the spray bottle in the recycle bin and placing the soap on the counter, put the rag in the drawer.",
-                "fintune 2":"Put the rag in the drawer at any time. Simultaneously, place a rinsed bar of soap on a counter. After putting the rag in the drawer, put a spray bottle in the recycle bin.",
-                "fintune 3":"Place a rinsed bar of soap on a counter at any time. Simultaneously, put the rag in the drawer. After placing the soap on the counter, put a spray bottle in the recycle bin."
+                "fintune 1":"Put a spray bottle in the garbage can at any time. Simultaneously, place a rinsed bar of soap on a counter. After putting the spray bottle in the garbage can and placing the soap on the counter, put the rag in the drawer.",
+                "fintune 2":"Put the rag in the drawer at any time. Simultaneously, place a rinsed bar of soap on a counter. After putting the rag in the drawer, put a spray bottle in the garbage can.",
+                "fintune 3":"Place a rinsed bar of soap on a counter at any time. Simultaneously, put the rag in the drawer. After placing the soap on the counter, put a spray bottle in the garbage can."
             }
         },
         {
