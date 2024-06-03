@@ -18,8 +18,8 @@
         "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022321_380927/traj_data.json":{
             "tasks":[
                 "Put a cleaned blue cloth in a cabinet.",
-                "Put a cleaned rag in the cabinet under the sink.",
-                "Place a clean rag in a cabinet."
+                "Put a cleaned towel in the cabinet under the sink.",
+                "Place a clean towel in a cabinet."
             ],
             "relative_objects":[
                 "Towel",
@@ -29,9 +29,9 @@
         },
         "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022345_347148/traj_data.json":{
             "tasks":[
-                "rinse the rag in the sink and put it in the cabinet",
-                "Place a wet rag in the cabinet under the sink.",
-                "Put a cleaned cloth rag in a cabinet."
+                "rinse the towel in the sink and put it in the cabinet",
+                "Place a wet towel in the cabinet under the sink.",
+                "Put a cleaned cloth towel in a cabinet."
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -107,9 +107,9 @@
         },
         "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_114340_674467/traj_data.json":{
             "tasks":[
-                "Place a clean rag on a counter.",
+                "Place a clean towel on a counter.",
                 "Put a clean cloth on the counter.",
-                "Put a clean rag on the counter."
+                "Put a clean towel on the counter."
             ],
             "relative_objects":[
                 "Cloth"
@@ -117,7 +117,7 @@
         },
         "valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_100512_362932/traj_data.json":{
             "tasks":[
-                "Put a clean blue rag on the counter.",
+                "Put a clean blue towel on the counter.",
                 "Put a clean cloth on the counter."
             ],
             "relative_objects":[
@@ -130,7 +130,7 @@
             "tasks":[
                 "Put a clean wash cloth on the counter.",
                 "Put a clean cloth on the counter.",
-                "Place a clean rag on a counter."
+                "Place a clean towel on a counter."
             ],
             "relative_objects":[
                 "Towel",
@@ -277,7 +277,7 @@
         },
         {
             "task_list":[
-                "Place a clean rag on a counter."
+                "Place a clean towel on a counter."
             ],
             "orign":[
                 [
@@ -316,7 +316,7 @@
         },
         {
             "task_list":[
-                "Put a clean blue rag on the counter.",
+                "Put a clean blue towel on the counter.",
                 "Move a plunger to the cabinet"
             ],
             "orign":[
@@ -326,9 +326,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a clean blue rag on the counter at any time. Simultaneously, move a plunger to the cabinet.",
-                "fintune 2":"Move a plunger to the cabinet. After moving the plunger, put a clean blue rag on the counter.",
-                "fintune 3":"Put a clean blue rag on the counter at any time. After placing the rag, move a plunger to the cabinet."
+                "fintune 1":"Put a clean blue towel on the counter at any time. Simultaneously, move a plunger to the cabinet.",
+                "fintune 2":"Move a plunger to the cabinet. After moving the plunger, put a clean blue towel on the counter.",
+                "fintune 3":"Put a clean blue towel on the counter at any time. After placing the towel, move a plunger to the cabinet."
             }
         },
         {
@@ -426,7 +426,7 @@
             "task_list":[
                 "put a rinse off bar of soap in to the cabinet",
                 "Put the toilet paper rolls inside the sink cabinet",
-                "Place a clean rag on a counter."
+                "Place a clean towel on a counter."
             ],
             "orign":[
                 [
@@ -436,9 +436,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the toilet paper rolls inside the sink cabinet at any time. Simultaneously, place a clean rag on a counter. After putting the toilet paper rolls, put a rinse off bar of soap into the cabinet.",
-                "fintune 2":"Put the toilet paper rolls inside the sink cabinet at any time. Simultaneously, put a rinse off bar of soap into the cabinet. After putting the toilet paper rolls, place a clean rag on a counter.",
-                "fintune 3":"Place a clean rag on a counter at any time. Simultaneously, put a rinse off bar of soap into the cabinet. After placing the rag, put the toilet paper rolls inside the sink cabinet."
+                "fintune 1":"Put the toilet paper rolls inside the sink cabinet at any time. Simultaneously, place a clean towel on a counter. After putting the toilet paper rolls, put a rinse off bar of soap into the cabinet.",
+                "fintune 2":"Put the toilet paper rolls inside the sink cabinet at any time. Simultaneously, put a rinse off bar of soap into the cabinet. After putting the toilet paper rolls, place a clean towel on a counter.",
+                "fintune 3":"Place a clean towel on a counter at any time. Simultaneously, put a rinse off bar of soap into the cabinet. After placing the towel, put the toilet paper rolls inside the sink cabinet."
             }
         },
         {
@@ -463,7 +463,7 @@
         {
             "task_list":[
                 "Put the toilet paper rolls inside the sink cabinet",
-                "Place a clean rag on a counter.",
+                "Place a clean towel on a counter.",
                 "Rinse off the soap and place it on the counter."
             ],
             "orign":[
@@ -474,9 +474,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a clean rag on a counter at any time. Simultaneously, rinse off the soap and place it on the counter. After placing the rag, put the toilet paper rolls inside the sink cabinet.",
-                "fintune 2":"Rinse off the soap and place it on the counter at any time. Simultaneously, put the toilet paper rolls inside the sink cabinet. After placing the soap, place a clean rag on a counter.",
-                "fintune 3":"Rinse off the soap and place it on the counter at any time. Simultaneously, place a clean rag on a counter. After placing the soap, put the toilet paper rolls inside the sink cabinet."
+                "fintune 1":"Place a clean towel on a counter at any time. Simultaneously, rinse off the soap and place it on the counter. After placing the towel, put the toilet paper rolls inside the sink cabinet.",
+                "fintune 2":"Rinse off the soap and place it on the counter at any time. Simultaneously, put the toilet paper rolls inside the sink cabinet. After placing the soap, place a clean towel on a counter.",
+                "fintune 3":"Rinse off the soap and place it on the counter at any time. Simultaneously, place a clean towel on a counter. After placing the soap, put the toilet paper rolls inside the sink cabinet."
             }
         }
     ],
@@ -485,7 +485,7 @@
             "task_list":[
                 "move the plunger from behind the toilet to the cabinet",
                 "Place the toilet paper in the cabinet.",
-                "Place a clean rag on a counter.",
+                "Place a clean towel on a counter.",
                 "Put a wet soap on the counter. "
             ],
             "orign":[
@@ -497,15 +497,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a clean rag on a counter at any time. Simultaneously, put a wet soap on the counter. After placing the rag and soap, move the plunger from behind the toilet to the cabinet. Finally, place the toilet paper in the cabinet.",
-                "fintune 2":"Place the toilet paper in the cabinet at any time. Simultaneously, put a wet soap on the counter. After placing the toilet paper and soap, place a clean rag on a counter. Finally, move the plunger from behind the toilet to the cabinet.",
-                "fintune 3":"Place a clean rag on a counter at any time. Simultaneously, place the toilet paper in the cabinet. After placing the rag and toilet paper, put a wet soap on the counter. Finally, move the plunger from behind the toilet to the cabinet."
+                "fintune 1":"Place a clean towel on a counter at any time. Simultaneously, put a wet soap on the counter. After placing the towel and soap, move the plunger from behind the toilet to the cabinet. Finally, place the toilet paper in the cabinet.",
+                "fintune 2":"Place the toilet paper in the cabinet at any time. Simultaneously, put a wet soap on the counter. After placing the toilet paper and soap, place a clean towel on a counter. Finally, move the plunger from behind the toilet to the cabinet.",
+                "fintune 3":"Place a clean towel on a counter at any time. Simultaneously, place the toilet paper in the cabinet. After placing the towel and toilet paper, put a wet soap on the counter. Finally, move the plunger from behind the toilet to the cabinet."
             }
         },
         {
             "task_list":[
                 "Put a wet soap on the counter. ",
-                "Place a clean rag on a counter.",
+                "Place a clean towel on a counter.",
                 "Put a plunger in the cabinet beneath the sink",
                 "Put the toilet paper rolls inside the sink cabinet"
             ],
@@ -518,9 +518,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a wet soap on the counter at any time. Place a clean rag on a counter at any time. Put a plunger in the cabinet beneath the sink at any time. After completing the previous tasks, put the toilet paper rolls inside the sink cabinet.",
-                "fintune 2":"Put a wet soap on the counter at any time. Put the toilet paper rolls inside the sink cabinet at any time. After completing the previous tasks, place a clean rag on a counter. After completing the above tasks, put a plunger in the cabinet beneath the sink.",
-                "fintune 3":"Put a plunger in the cabinet beneath the sink at any time. Place a clean rag on a counter at any time. After placing the plunger, put the toilet paper rolls inside the sink cabinet. After completing the previous tasks, put a wet soap on the counter."
+                "fintune 1":"Put a wet soap on the counter at any time. Place a clean towel on a counter at any time. Put a plunger in the cabinet beneath the sink at any time. After completing the previous tasks, put the toilet paper rolls inside the sink cabinet.",
+                "fintune 2":"Put a wet soap on the counter at any time. Put the toilet paper rolls inside the sink cabinet at any time. After completing the previous tasks, place a clean towel on a counter. After completing the above tasks, put a plunger in the cabinet beneath the sink.",
+                "fintune 3":"Put a plunger in the cabinet beneath the sink at any time. Place a clean towel on a counter at any time. After placing the plunger, put the toilet paper rolls inside the sink cabinet. After completing the previous tasks, put a wet soap on the counter."
             }
         },
         {

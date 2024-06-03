@@ -19,7 +19,7 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-407/trial_T20190908_014745_634613/traj_data.json":{
             "tasks":[
-                "To clean a rag to put back into the tub.",
+                "To clean a towel to put back into the tub.",
                 "Clean cloth and return to tub.",
                 "Put a clean towel in the tub."
             ],
@@ -30,8 +30,8 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-407/trial_T20190908_054352_258440/traj_data.json":{
             "tasks":[
-                "Put a cleaned rag in the tub. ",
-                "To clean a rag as well as put it back in the bath tub.",
+                "Put a cleaned towel in the tub. ",
+                "To clean a towel as well as put it back in the bath tub.",
                 "Throw a rinsed washcloth back into the bathtub it came from."
             ],
             "relative_objects":[
@@ -139,8 +139,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-407/trial_T20190907_022127_756670/traj_data.json":{
             "tasks":[
                 "Take a dirty towel from the tub to clean it.",
-                "Get the wash rag, get it wet to place it on the back of the toilet.",
-                "Clean the rag on the right, put it on the toilet lid. "
+                "Get the wash towel, get it wet to place it on the back of the toilet.",
+                "Clean the towel on the right, put it on the toilet lid. "
             ],
             "relative_objects":[
                 "Towel",
@@ -149,8 +149,8 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-407/trial_T20190907_022212_907021/traj_data.json":{
             "tasks":[
-                "Place a cleaned rag on top of a toilet.",
-                "Put a cleaned rag on the toilet tank lid. ",
+                "Place a cleaned towel on top of a toilet.",
+                "Put a cleaned towel on the toilet tank lid. ",
                 "place a clean cloth on top of the toilet"
             ],
             "relative_objects":[
@@ -162,7 +162,7 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-407/trial_T20190907_022153_466691/traj_data.json":{
             "tasks":[
                 "put a clean cloth on top of the toilet",
-                "Place clean rags on the toilet tank.",
+                "Place clean towels on the toilet tank.",
                 "Clean a dirty shirt using the sink"
             ],
             "relative_objects":[
@@ -241,8 +241,8 @@
         },
         "train/pick_and_place_simple-Cloth-None-BathtubBasin-407/trial_T20190906_201736_928899/traj_data.json":{
             "tasks":[
-                "Put a rag in the tub.",
-                "Put a black rag in a tub.",
+                "Put a towel in the tub.",
+                "Put a black towel in a tub.",
                 "Move the cloth from the sink to the tub"
             ],
             "relative_objects":[
@@ -251,8 +251,8 @@
         },
         "train/pick_and_place_simple-Cloth-None-BathtubBasin-407/trial_T20190906_201712_058488/traj_data.json":{
             "tasks":[
-                "Place a rag in the tub.",
-                "Put a rag in the tub. ",
+                "Place a towel in the tub.",
+                "Put a towel in the tub. ",
                 "place a black cloth inside the bathtub"
             ],
             "relative_objects":[
@@ -293,7 +293,7 @@
         },
         "tests_seen/trial_T20190908_175218_818728/traj_data.json":{
             "tasks":[
-                "Place a wet rag in the bath tub.",
+                "Place a wet towel in the bath tub.",
                 "Put a wet towel into the tub",
                 "Put the clean right in the tub."
             ],
@@ -426,7 +426,7 @@
         {
             "task_list":[
                 "Move a candle from the top of a toilet to a cabinet.",
-                "Put a cleaned rag in the tub. "
+                "Put a cleaned towel in the tub. "
             ],
             "orign":[
                 [
@@ -435,9 +435,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a candle from the top of a toilet to a cabinet. Put a cleaned rag in the tub.",
-                "fintune 2":"Put a cleaned rag in the tub. Move a candle from the top of a toilet to a cabinet.",
-                "fintune 3":"Move a candle from the top of a toilet to a cabinet at any time. Simultaneously, put a cleaned rag in the tub."
+                "fintune 1":"Move a candle from the top of a toilet to a cabinet. Put a cleaned towel in the tub.",
+                "fintune 2":"Put a cleaned towel in the tub. Move a candle from the top of a toilet to a cabinet.",
+                "fintune 3":"Move a candle from the top of a toilet to a cabinet at any time. Simultaneously, put a cleaned towel in the tub."
             }
         }
     ],
@@ -446,7 +446,7 @@
             "task_list":[
                 "Put the pump bottles on the bathroom counter",
                 "Place soap in the tub.",
-                "Place a rag in the tub."
+                "Place a towel in the tub."
             ],
             "orign":[
                 [
@@ -456,15 +456,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the pump bottles on the bathroom counter at any time. Simultaneously, place soap in the tub. After placing the soap, place a rag in the tub.",
-                "fintune 2":"Place soap in the tub at any time. Simultaneously, put the pump bottles on the bathroom counter. After placing the soap, place a rag in the tub.",
-                "fintune 3":"Put the pump bottles on the bathroom counter at any time. Simultaneously, place a rag in the tub. After placing the pump bottles, place soap in the tub."
+                "fintune 1":"Put the pump bottles on the bathroom counter at any time. Simultaneously, place soap in the tub. After placing the soap, place a towel in the tub.",
+                "fintune 2":"Place soap in the tub at any time. Simultaneously, put the pump bottles on the bathroom counter. After placing the soap, place a towel in the tub.",
+                "fintune 3":"Put the pump bottles on the bathroom counter at any time. Simultaneously, place a towel in the tub. After placing the pump bottles, place soap in the tub."
             }
         },
         {
             "task_list":[
                 "Put a cleaned bar of soap in a garbage bin.",
-                "Place a cleaned rag on top of a toilet.",
+                "Place a cleaned towel on top of a toilet.",
                 "Put a candle on the toilet tank lid. "
             ],
             "orign":[
@@ -475,9 +475,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a cleaned rag on top of a toilet at any time. Simultaneously, put a candle on the toilet tank lid. After placing the rag and candle, put a cleaned bar of soap in a garbage bin.",
-                "fintune 2":"Put a cleaned bar of soap in a garbage bin at any time. Simultaneously, place a cleaned rag on top of a toilet. After putting the soap in the bin, put a candle on the toilet tank lid.",
-                "fintune 3":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned bar of soap in a garbage bin. After putting the candle, place a cleaned rag on top of a toilet."
+                "fintune 1":"Place a cleaned towel on top of a toilet at any time. Simultaneously, put a candle on the toilet tank lid. After placing the towel and candle, put a cleaned bar of soap in a garbage bin.",
+                "fintune 2":"Put a cleaned bar of soap in a garbage bin at any time. Simultaneously, place a cleaned towel on top of a toilet. After putting the soap in the bin, put a candle on the toilet tank lid.",
+                "fintune 3":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned bar of soap in a garbage bin. After putting the candle, place a cleaned towel on top of a toilet."
             }
         },
         {
@@ -563,7 +563,7 @@
         {
             "task_list":[
                 "Put a candle on the toilet tank lid. ",
-                "Put a cleaned rag in the tub. ",
+                "Put a cleaned towel in the tub. ",
                 "Place a soap pump into a garbage bin",
                 "Put a cleaned bar of soap in a bath tub."
             ],
@@ -576,9 +576,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle on the toilet tank lid. Place a soap pump into a garbage bin. Put a cleaned bar of soap in a bath tub. Put a cleaned rag in the tub.",
-                "fintune 2":"Put a cleaned rag in the tub. Put a candle on the toilet tank lid. Place a soap pump into a garbage bin. Put a cleaned bar of soap in a bath tub.",
-                "fintune 3":"Put a candle on the toilet tank lid. Put a cleaned rag in the tub. Place a soap pump into a garbage bin. Put a cleaned bar of soap in a bath tub."
+                "fintune 1":"Put a candle on the toilet tank lid. Place a soap pump into a garbage bin. Put a cleaned bar of soap in a bath tub. Put a cleaned towel in the tub.",
+                "fintune 2":"Put a cleaned towel in the tub. Put a candle on the toilet tank lid. Place a soap pump into a garbage bin. Put a cleaned bar of soap in a bath tub.",
+                "fintune 3":"Put a candle on the toilet tank lid. Put a cleaned towel in the tub. Place a soap pump into a garbage bin. Put a cleaned bar of soap in a bath tub."
             }
         },
         {
@@ -628,7 +628,7 @@
                 "Move the spray bottles to the cabinet under the sink. ",
                 "Put a candle on the toilet tank lid. ",
                 "Put a cleaned bar of soap in a bath tub.",
-                "Put a cleaned rag in the tub. "
+                "Put a cleaned towel in the tub. "
             ],
             "orign":[
                 [
@@ -639,9 +639,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned rag in the tub. After placing the candle and the rag, move the spray bottles to the cabinet under the sink. Finally, put a cleaned bar of soap in a bath tub.",
-                "fintune 2":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned bar of soap in a bath tub. After placing the candle and the soap, move the spray bottles to the cabinet under the sink. Finally, put a cleaned rag in the tub.",
-                "fintune 3":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned bar of soap in a bath tub. After placing the candle and the soap, put a cleaned rag in the tub. Finally, move the spray bottles to the cabinet under the sink."
+                "fintune 1":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned towel in the tub. After placing the candle and the towel, move the spray bottles to the cabinet under the sink. Finally, put a cleaned bar of soap in a bath tub.",
+                "fintune 2":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned bar of soap in a bath tub. After placing the candle and the soap, move the spray bottles to the cabinet under the sink. Finally, put a cleaned towel in the tub.",
+                "fintune 3":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned bar of soap in a bath tub. After placing the candle and the soap, put a cleaned towel in the tub. Finally, move the spray bottles to the cabinet under the sink."
             }
         }
     ],
@@ -672,7 +672,7 @@
         {
             "task_list":[
                 "Put a cleaned bar of soap in a bath tub.",
-                "Put a rag in the tub.",
+                "Put a towel in the tub.",
                 "Move the spray bottles to the cabinet under the sink. ",
                 "Place a soap pump into a garbage bin",
                 "Put a candle on the toilet tank lid. "
@@ -687,9 +687,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned bar of soap in a bath tub. Simultaneously, put a rag in the tub. After putting the soap and rag in the tub, move the spray bottles to the cabinet under the sink. Finally, place a soap pump into a garbage bin and put a candle on the toilet tank lid.",
-                "fintune 2":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned bar of soap in a bath tub and a rag in the tub. After placing the soap and rag in the tub, move the spray bottles to the cabinet under the sink. Finally, place a soap pump into a garbage bin.",
-                "fintune 3":"Put a cleaned bar of soap in a bath tub. Simultaneously, put a rag in the tub. After putting the soap and rag in the tub, place a soap pump into a garbage bin. Finally, put a candle on the toilet tank lid and move the spray bottles to the cabinet under the sink."
+                "fintune 1":"Put a cleaned bar of soap in a bath tub. Simultaneously, put a towel in the tub. After putting the soap and towel in the tub, move the spray bottles to the cabinet under the sink. Finally, place a soap pump into a garbage bin and put a candle on the toilet tank lid.",
+                "fintune 2":"Put a candle on the toilet tank lid at any time. Simultaneously, put a cleaned bar of soap in a bath tub and a towel in the tub. After placing the soap and towel in the tub, move the spray bottles to the cabinet under the sink. Finally, place a soap pump into a garbage bin.",
+                "fintune 3":"Put a cleaned bar of soap in a bath tub. Simultaneously, put a towel in the tub. After putting the soap and towel in the tub, place a soap pump into a garbage bin. Finally, put a candle on the toilet tank lid and move the spray bottles to the cabinet under the sink."
             }
         },
         {
@@ -720,7 +720,7 @@
                 "Move the spray bottles to the cabinet under the sink. ",
                 "Put a candle away in the cabinet under the right sink. ",
                 "Put the pump bottles on the bathroom counter",
-                "Put a rag in the tub.",
+                "Put a towel in the tub.",
                 "Place soap in the tub."
             ],
             "orign":[
@@ -734,15 +734,15 @@
             ],
             "finetuned":{
                 "fintune 1":"Put a candle away in the cabinet under the right sink. Simultaneously, put the pump bottles on the bathroom counter. After putting the candle and pump bottles, move the spray bottles to the cabinet under the sink. Finally, place soap in the tub.",
-                "fintune 2":"Put a rag in the tub. After placing the rag, put a candle away in the cabinet under the right sink. Simultaneously, put the pump bottles on the bathroom counter. Then, move the spray bottles to the cabinet under the sink. Finally, place soap in the tub.",
+                "fintune 2":"Put a towel in the tub. After placing the towel, put a candle away in the cabinet under the right sink. Simultaneously, put the pump bottles on the bathroom counter. Then, move the spray bottles to the cabinet under the sink. Finally, place soap in the tub.",
                 "fintune 3":"Put a candle away in the cabinet under the right sink. Put the pump bottles on the bathroom counter. Simultaneously, place soap in the tub. After putting the candle, pump bottles, and soap, move the spray bottles to the cabinet under the sink."
             }
         },
         {
             "task_list":[
-                "Put a cleaned rag in the tub. ",
+                "Put a cleaned towel in the tub. ",
                 "Put the pump bottles on the bathroom counter",
-                "Place a wet rag in the bath tub.",
+                "Place a wet towel in the bath tub.",
                 "Place soap in the tub.",
                 "Move a candle from the top of a toilet to a cabinet."
             ],
@@ -756,9 +756,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned rag in the tub at any time. Simultaneously, put the pump bottles on the bathroom counter. After putting the rag and bottles, move a candle from the top of a toilet to a cabinet.",
-                "fintune 2":"Place a wet rag in the bath tub at any time. Simultaneously, place soap in the tub. After placing the wet rag and soap, put the pump bottles on the bathroom counter.",
-                "fintune 3":"Put the pump bottles on the bathroom counter at any time. Simultaneously, move a candle from the top of a toilet to a cabinet. After moving the candle, put a cleaned rag in the tub."
+                "fintune 1":"Put a cleaned towel in the tub at any time. Simultaneously, put the pump bottles on the bathroom counter. After putting the towel and bottles, move a candle from the top of a toilet to a cabinet.",
+                "fintune 2":"Place a wet towel in the bath tub at any time. Simultaneously, place soap in the tub. After placing the wet towel and soap, put the pump bottles on the bathroom counter.",
+                "fintune 3":"Put the pump bottles on the bathroom counter at any time. Simultaneously, move a candle from the top of a toilet to a cabinet. After moving the candle, put a cleaned towel in the tub."
             }
         }
     ],
@@ -767,10 +767,10 @@
             "task_list":[
                 "Move a candle from the top of a toilet to a cabinet.",
                 "Move toilet paper to the toilet paper roll holder",
-                "Put a rag in the tub.",
+                "Put a towel in the tub.",
                 "Move the spray bottles from the top of the toilet to the cabinet under the sink",
                 "Put the pump bottles on the bathroom counter",
-                "Place a wet rag in the bath tub."
+                "Place a wet towel in the bath tub."
             ],
             "orign":[
                 [
@@ -784,18 +784,18 @@
             ],
             "finetuned":{
                 "fintune 1":"Move toilet paper to the toilet paper roll holder at any time. Simultaneously, put the pump bottles on the bathroom counter. After completing the previous steps, move a candle from the top of the toilet to a cabinet.",
-                "fintune 2":"Put a rag in the tub at any time. Simultaneously, place a wet rag in the bath tub. After completing these steps, move the spray bottles from the top of the toilet to the cabinet under the sink.",
+                "fintune 2":"Put a towel in the tub at any time. Simultaneously, place a wet towel in the bath tub. After completing these steps, move the spray bottles from the top of the toilet to the cabinet under the sink.",
                 "fintune 3":"Move a candle from the top of a toilet to a cabinet at any time. Simultaneously, put the pump bottles on the bathroom counter. After completing the previous steps, move the spray bottles from the top of the toilet to the cabinet under the sink."
             }
         },
         {
             "task_list":[
-                "Put a cleaned rag in the tub. ",
+                "Put a cleaned towel in the tub. ",
                 "Put a cleaned bar of soap in a bath tub.",
                 "Put the pump bottles on the bathroom counter",
                 "Move toilet paper to the toilet paper roll holder",
                 "Move the spray bottles to the cabinet under the sink. ",
-                "Place a wet rag in the bath tub."
+                "Place a wet towel in the bath tub."
             ],
             "orign":[
                 [
@@ -808,9 +808,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned bar of soap in a bath tub at any time. Simultaneously, put a cleaned rag in the tub.After putting the soap and rag, move the pump bottles on the bathroom counter.",
-                "fintune 2":"Move the spray bottles to the cabinet under the sink at any time. Simultaneously, place a wet rag in the bath tub.After moving the spray bottles and placing the rag, move toilet paper to the toilet paper roll holder.",
-                "fintune 3":"Put a cleaned rag in the tub at any time. Simultaneously, put a cleaned bar of soap in a bath tub.After putting the rag and soap, move the pump bottles on the bathroom counter.Then, move toilet paper to the toilet paper roll holder."
+                "fintune 1":"Put a cleaned bar of soap in a bath tub at any time. Simultaneously, put a cleaned towel in the tub.After putting the soap and towel, move the pump bottles on the bathroom counter.",
+                "fintune 2":"Move the spray bottles to the cabinet under the sink at any time. Simultaneously, place a wet towel in the bath tub.After moving the spray bottles and placing the towel, move toilet paper to the toilet paper roll holder.",
+                "fintune 3":"Put a cleaned towel in the tub at any time. Simultaneously, put a cleaned bar of soap in a bath tub.After putting the towel and soap, move the pump bottles on the bathroom counter.Then, move toilet paper to the toilet paper roll holder."
             }
         },
         {
@@ -820,7 +820,7 @@
                 "Move a soap bottle into a green bin.",
                 "Move toilet paper to the toilet paper roll holder",
                 "Put a candle on the toilet tank lid. ",
-                "Place a wet rag in the bath tub."
+                "Place a wet towel in the bath tub."
             ],
             "orign":[
                 [
@@ -834,7 +834,7 @@
             ],
             "finetuned":{
                 "fintune 1":"Move the spray bottles from the top of the toilet to the cabinet under the sink, at any time. Simultaneously, place soap in the tub. After moving the spray bottles and placing the soap, move a soap bottle into a green bin.",
-                "fintune 2":"Place a wet rag in the bath tub at any time. Simultaneously, put a candle on the toilet tank lid. After placing the wet rag and the candle, move toilet paper to the toilet paper roll holder.",
+                "fintune 2":"Place a wet towel in the bath tub at any time. Simultaneously, put a candle on the toilet tank lid. After placing the wet towel and the candle, move toilet paper to the toilet paper roll holder.",
                 "fintune 3":"Put a candle on the toilet tank lid at any time. Simultaneously, move toilet paper to the toilet paper roll holder. After putting the candle and moving the toilet paper, place soap in the tub."
             }
         }

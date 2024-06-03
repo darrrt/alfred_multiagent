@@ -160,7 +160,7 @@ def run():
 
 
             best_open_point = {}  # map from object names to the best point from which they can be successfully opened
-            best_sem_coverage = {}  # number of pixels in the semantic map of the receptacle at the existing best openpt
+            best_sem_covetowele = {}  # number of pixels in the semantic map of the receptacle at the existing best openpt
             checked_points = set()
             scene_receptacles = set()
             for point in raable_points:
@@ -235,15 +235,15 @@ def run():
                                     heuristic_far_enough_from_recep = 0.5 < point_to_recep
                                     # Ensure this point affords a larger view according to the semantic segmentation
                                     # of the receptacle than the existing.
-                                    point_sem_coverage = get_mask_of_obj(env, obj['objectId'])
-                                    if point_sem_coverage is None:
+                                    point_sem_covetowele = get_mask_of_obj(env, obj['objectId'])
+                                    if point_sem_covetowele is None:
                                         use_sem_heuristic = False
                                         better_sem_covereage = False
                                     else:
                                         use_sem_heuristic = True
-                                        better_sem_covereage = (obj_name not in best_sem_coverage or
-                                                                best_sem_coverage[obj_name] is None or
-                                                                point_sem_coverage > best_sem_coverage[obj_name])
+                                        better_sem_covereage = (obj_name not in best_sem_covetowele or
+                                                                best_sem_covetowele[obj_name] is None or
+                                                                point_sem_covetowele > best_sem_covetowele[obj_name])
                                     # Ensure that this point is farther away than our existing best candidate.
                                     # We'd like to open a receptacle from as far away as possible while retaining
                                     # the ability to pick/place from it.
@@ -298,7 +298,7 @@ def run():
                                                         # We have already ensured this point is farther than any
                                                         # existing best, so this is the new best.
                                                         best_open_point[obj_name] = [point[0], point[1], rotation * 90, horizon]
-                                                        best_sem_coverage[obj_name] = point_sem_coverage
+                                                        best_sem_covetowele[obj_name] = point_sem_covetowele
 
                                                 # We could not retrieve our inv object, so we need to go get another one
                                                 else:

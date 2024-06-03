@@ -89,7 +89,7 @@
         "train/pick_two_obj_and_place-Cloth-None-Drawer-427/trial_T20190908_131037_058357/traj_data.json":{
             "tasks":[
                 "Pick up cloths and place them in drawer.",
-                "Move wash rags to drawer."
+                "Move wash towels to drawer."
             ],
             "relative_objects":[
                 "Towel",
@@ -217,8 +217,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232302_241090/traj_data.json":{
             "tasks":[
                 "Put a cleaned washcloth in the tub.",
-                "Put the cleaned rag in the bathtub",
-                "Clean a dirty rag in the bathtub. "
+                "Put the cleaned towel in the bathtub",
+                "Clean a dirty towel in the bathtub. "
             ],
             "relative_objects":[
                 "Towel",
@@ -227,9 +227,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232142_172713/traj_data.json":{
             "tasks":[
-                "Replace a dirty rag from the bathtub with a clean one.",
+                "Replace a dirty towel from the bathtub with a clean one.",
                 "Put a cleaned cloth in a bath tub.",
-                "Place a wet rag in a bath tub"
+                "Place a wet towel in a bath tub"
             ],
             "relative_objects":[
                 "Towel",
@@ -239,7 +239,7 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-427/trial_T20190908_232213_642551/traj_data.json":{
             "tasks":[
                 "place a clean cloth inside the bath tub",
-                "Place clean red rag in bathtub",
+                "Place clean red towel in bathtub",
                 "Clean a cloth and place it in the bath tub."
             ],
             "relative_objects":[
@@ -282,7 +282,7 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070336_423393/traj_data.json":{
             "tasks":[
                 "Put a cleaned cloth in a drawer.",
-                "Place a clean rag in a cabinet.",
+                "Place a clean towel in a cabinet.",
                 "put a clean cloth in to the drawer"
             ],
             "relative_objects":[
@@ -291,9 +291,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070424_021083/traj_data.json":{
             "tasks":[
-                "Rinse a pink rag from the bathtub to put in a drawer.",
-                "Put a clean rag in a drawer.",
-                "Place a clean rag in a cabinet."
+                "Rinse a pink towel from the bathtub to put in a drawer.",
+                "Put a clean towel in a drawer.",
+                "Place a clean towel in a cabinet."
             ],
             "relative_objects":[
                 "Towel",
@@ -303,9 +303,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-427/trial_T20190909_070356_398456/traj_data.json":{
             "tasks":[
-                "Rinse a pink rag and put it in the dresser.",
+                "Rinse a pink towel and put it in the dresser.",
                 "Put the washed pink cloth in the drawer",
-                "To clean a rag and place it  in the second cabinet from the left of the top row of the dresser."
+                "To clean a towel and place it  in the second cabinet from the left of the top row of the dresser."
             ],
             "relative_objects":[
                 "Cloth"
@@ -586,7 +586,7 @@
             "task_list":[
                 "Move tissues to the trash bin",
                 "Wet a sponge and put it away.",
-                "Rinse a pink rag and put it in the dresser."
+                "Rinse a pink towel and put it in the dresser."
             ],
             "orign":[
                 [
@@ -596,9 +596,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Wet a sponge and put it away. Afterwards, rinse a pink rag and put it in the dresser. Finally, move tissues to the trash bin.",
-                "fintune 2":"Rinse a pink rag and put it in the dresser. Next, move tissues to the trash bin. After that, wet a sponge and put it away.",
-                "fintune 3":"Move tissues to the trash bin at any time. Simultaneously, wet a sponge and put it away. After completing these tasks, rinse a pink rag and put it in the dresser."
+                "fintune 1":"Wet a sponge and put it away. Afterwards, rinse a pink towel and put it in the dresser. Finally, move tissues to the trash bin.",
+                "fintune 2":"Rinse a pink towel and put it in the dresser. Next, move tissues to the trash bin. After that, wet a sponge and put it away.",
+                "fintune 3":"Move tissues to the trash bin at any time. Simultaneously, wet a sponge and put it away. After completing these tasks, rinse a pink towel and put it in the dresser."
             }
         },
         {
@@ -642,7 +642,7 @@
         {
             "task_list":[
                 "place a paper box in the trash can",
-                "Rinse a pink rag and put it in the dresser.",
+                "Rinse a pink towel and put it in the dresser.",
                 "Place a newly rinsed off sponge into the tub"
             ],
             "orign":[
@@ -653,9 +653,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a paper box in the trash can at any time. Simultaneously, rinse a pink rag and put it in the dresser. After placing the paper box and putting the rag in the dresser, place a newly rinsed off sponge into the tub.",
-                "fintune 2":"Rinse a pink rag and put it in the dresser at any time. Simultaneously, place a newly rinsed off sponge into the tub. After rinsing the rag and placing the sponge in the tub, place a paper box in the trash can.",
-                "fintune 3":"Place a paper box in the trash can at any time. Rinse a pink rag and put it in the dresser. After placing the paper box and putting the rag in the dresser, place a newly rinsed off sponge into the tub."
+                "fintune 1":"Place a paper box in the trash can at any time. Simultaneously, rinse a pink towel and put it in the dresser. After placing the paper box and putting the towel in the dresser, place a newly rinsed off sponge into the tub.",
+                "fintune 2":"Rinse a pink towel and put it in the dresser at any time. Simultaneously, place a newly rinsed off sponge into the tub. After rinsing the towel and placing the sponge in the tub, place a paper box in the trash can.",
+                "fintune 3":"Place a paper box in the trash can at any time. Rinse a pink towel and put it in the dresser. After placing the paper box and putting the towel in the dresser, place a newly rinsed off sponge into the tub."
             }
         }
     ],
@@ -794,7 +794,7 @@
             "task_list":[
                 "put toilet paper roll on the holder",
                 "place a paper box in the trash can",
-                "Replace a dirty rag from the bathtub with a clean one.",
+                "Replace a dirty towel from the bathtub with a clean one.",
                 "Place a newly rinsed off sponge into the tub",
                 "Pick up candle from top of cabinet and place on the back of the toilet."
             ],
@@ -808,9 +808,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Replace a dirty rag from the bathtub with a clean one. Simultaneously, place a newly rinsed off sponge into the tub. After replacing the rag and placing the sponge, put toilet paper roll on the holder.",
+                "fintune 1":"Replace a dirty towel from the bathtub with a clean one. Simultaneously, place a newly rinsed off sponge into the tub. After replacing the towel and placing the sponge, put toilet paper roll on the holder.",
                 "fintune 2":"Pick up candle from top of cabinet and place on the back of the toilet at any time. Simultaneously, place a paper box in the trash can. After placing the candle and the paper box, put toilet paper roll on the holder.",
-                "fintune 3":"Pick up candle from top of cabinet and place on the back of the toilet. After placing the candle, place a paper box in the trash can. Finally, replace a dirty rag from the bathtub with a clean one and place a newly rinsed off sponge into the tub."
+                "fintune 3":"Pick up candle from top of cabinet and place on the back of the toilet. After placing the candle, place a paper box in the trash can. Finally, replace a dirty towel from the bathtub with a clean one and place a newly rinsed off sponge into the tub."
             }
         },
         {
@@ -867,7 +867,7 @@
                 "clean up candle's and put them inside the table drawer",
                 "Put a bottle on the counter.",
                 "place a paper box in the trash can",
-                "Rinse a pink rag and put it in the dresser.",
+                "Rinse a pink towel and put it in the dresser.",
                 "Put the hand towels in the sink"
             ],
             "orign":[
@@ -881,9 +881,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"To wet a sponge, as to prepare the tub for cleaning, put a bottle on the counter. After putting the bottle on the counter, clean up candles and put them inside the table drawer. Finally, rinse a pink rag and put it in the dresser.",
-                "fintune 2":"Put a bottle on the counter. Simultaneously, place a paper box in the trash can. After putting the bottle on the counter, clean up candles and put them inside the table drawer. Once the candles are inside the drawer, rinse a pink rag and put it in the dresser. Finish by putting the hand towels in the sink.",
-                "fintune 3":"To wet a sponge, as to prepare the tub for cleaning, rinse a pink rag and put it in the dresser. After putting the rag in the dresser, put a bottle on the counter. Subsequently, place a paper box in the trash can. Lastly, clean up candles and put them inside the table drawer, followed by putting the hand towels in the sink."
+                "fintune 1":"To wet a sponge, as to prepare the tub for cleaning, put a bottle on the counter. After putting the bottle on the counter, clean up candles and put them inside the table drawer. Finally, rinse a pink towel and put it in the dresser.",
+                "fintune 2":"Put a bottle on the counter. Simultaneously, place a paper box in the trash can. After putting the bottle on the counter, clean up candles and put them inside the table drawer. Once the candles are inside the drawer, rinse a pink towel and put it in the dresser. Finish by putting the hand towels in the sink.",
+                "fintune 3":"To wet a sponge, as to prepare the tub for cleaning, rinse a pink towel and put it in the dresser. After putting the towel in the dresser, put a bottle on the counter. Subsequently, place a paper box in the trash can. Lastly, clean up candles and put them inside the table drawer, followed by putting the hand towels in the sink."
             }
         }
     ],

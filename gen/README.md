@@ -44,7 +44,7 @@ python scripts/augment_trajectories.py --data_path data/json_2.1.0 --num_threads
 
 ![](../media/aug.png)
 
-Note that these files consume a lot of storage space. 
+Note that these files consume a lot of stotowele space. 
 
 ## PDDL Tasks
 

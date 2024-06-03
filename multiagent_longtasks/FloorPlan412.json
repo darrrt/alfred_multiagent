@@ -57,8 +57,8 @@
         },
         "train/pick_and_place_simple-Cloth-None-SinkBasin-412/trial_T20190909_055708_322701/traj_data.json":{
             "tasks":[
-                "Move a white rag from under the sink on the left to the sink basin.",
-                "Put a rag in the sink. ",
+                "Move a white towel from under the sink on the left to the sink basin.",
+                "Put a towel in the sink. ",
                 "Put a white towel into the sink furthest to the left."
             ],
             "relative_objects":[
@@ -70,7 +70,7 @@
         "train/pick_and_place_simple-Cloth-None-SinkBasin-412/trial_T20190909_055641_384378/traj_data.json":{
             "tasks":[
                 "Put a cloth in the sink.",
-                "Put a rag in the sink.",
+                "Put a towel in the sink.",
                 "Move a towel to the sink"
             ],
             "relative_objects":[
@@ -215,7 +215,7 @@
             "tasks":[
                 "Put a wash cloth in the sink.",
                 "Pick up the cloth from the flush tank and put in the sink",
-                "Move rag from toilet to sink"
+                "Move towel from toilet to sink"
             ],
             "relative_objects":[
                 "ToiletPaper",
@@ -424,7 +424,7 @@
             "task_list":[
                 "Put the toilet paper roll on the holder.",
                 "Put a dispenser on the back of the toilet.",
-                "Move a white rag from under the sink on the left to the sink basin."
+                "Move a white towel from under the sink on the left to the sink basin."
             ],
             "orign":[
                 [
@@ -434,15 +434,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a dispenser on the back of the toilet. After putting the dispenser, move a white rag from under the sink on the left to the sink basin. Finally, put the toilet paper roll on the holder.",
-                "fintune 2":"Move a white rag from under the sink on the left to the sink basin. Simultaneously, put a dispenser on the back of the toilet. After moving the rag and putting the dispenser, put the toilet paper roll on the holder.",
-                "fintune 3":"Put the toilet paper roll on the holder. After putting the roll on the holder, put a dispenser on the back of the toilet. Finally, move a white rag from under the sink on the left to the sink basin."
+                "fintune 1":"Put a dispenser on the back of the toilet. After putting the dispenser, move a white towel from under the sink on the left to the sink basin. Finally, put the toilet paper roll on the holder.",
+                "fintune 2":"Move a white towel from under the sink on the left to the sink basin. Simultaneously, put a dispenser on the back of the toilet. After moving the towel and putting the dispenser, put the toilet paper roll on the holder.",
+                "fintune 3":"Put the toilet paper roll on the holder. After putting the roll on the holder, put a dispenser on the back of the toilet. Finally, move a white towel from under the sink on the left to the sink basin."
             }
         },
         {
             "task_list":[
                 "Move an empty toilet paper roll to the toilet paper roll holder",
-                "Move a white rag from under the sink on the left to the sink basin.",
+                "Move a white towel from under the sink on the left to the sink basin.",
                 "Find to jars and place then in between the sinks."
             ],
             "orign":[
@@ -453,9 +453,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move an empty toilet paper roll to the toilet paper roll holder at any time. Simultaneously, move a white rag from under the sink on the left to the sink basin. After completing these tasks, find two jars and place them in between the sinks.",
-                "fintune 2":"Move a white rag from under the sink on the left to the sink basin at any time. Simultaneously, move an empty toilet paper roll to the toilet paper roll holder. After completing these tasks, find two jars and place them in between the sinks.",
-                "fintune 3":"Find two jars and place them in between the sinks at any time. Simultaneously, move an empty toilet paper roll to the toilet paper roll holder. After completing these tasks, move a white rag from under the sink on the left to the sink basin."
+                "fintune 1":"Move an empty toilet paper roll to the toilet paper roll holder at any time. Simultaneously, move a white towel from under the sink on the left to the sink basin. After completing these tasks, find two jars and place them in between the sinks.",
+                "fintune 2":"Move a white towel from under the sink on the left to the sink basin at any time. Simultaneously, move an empty toilet paper roll to the toilet paper roll holder. After completing these tasks, find two jars and place them in between the sinks.",
+                "fintune 3":"Find two jars and place them in between the sinks at any time. Simultaneously, move an empty toilet paper roll to the toilet paper roll holder. After completing these tasks, move a white towel from under the sink on the left to the sink basin."
             }
         }
     ],

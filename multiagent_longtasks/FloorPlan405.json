@@ -4,7 +4,7 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Cabinet-405/trial_T20190907_080943_173175/traj_data.json":{
             "tasks":[
                 "place a clean washcloth inside of the cabinet",
-                "Put a clean rag into the cabinet.",
+                "Put a clean towel into the cabinet.",
                 "Washed the red towel to place it in the cabinet."
             ],
             "relative_objects":[
@@ -15,8 +15,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Cabinet-405/trial_T20190907_080924_812825/traj_data.json":{
             "tasks":[
                 "Put a rinsed cloth in a cabinet.",
-                "Clean a rag, put it away.",
-                "Put a cleaned rag in the left cabinet. "
+                "Clean a towel, put it away.",
+                "Put a cleaned towel in the left cabinet. "
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -185,7 +185,7 @@
         },
         "train/pick_two_obj_and_place-Cloth-None-SinkBasin-405/trial_T20190909_074450_340302/traj_data.json":{
             "tasks":[
-                "Pick up the rags from the bathtub and move them to the sink."
+                "Pick up the towels from the bathtub and move them to the sink."
             ],
             "relative_objects":[
                 "Cloth"
@@ -195,7 +195,7 @@
             "tasks":[
                 "Put a clean cloth on the back of the toilet.",
                 "Put the clean cloth on the toilet tank",
-                "Put a washed rag on the toilet."
+                "Put a washed towel on the toilet."
             ],
             "relative_objects":[
                 "Towel",
@@ -216,9 +216,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-405/trial_T20190909_003552_005398/traj_data.json":{
             "tasks":[
-                "Put a clean rag in the tub.",
-                "To clean a rag and put it in the tub. ",
-                "Put a clean rag in the tub."
+                "Put a clean towel in the tub.",
+                "To clean a towel and put it in the tub. ",
+                "Put a clean towel in the tub."
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -240,7 +240,7 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-405/trial_T20190909_010040_832816/traj_data.json":{
             "tasks":[
                 "Rinse out one of the wash cloths in the bathtub and put it back. ",
-                "Put a clean red rag into the tub.",
+                "Put a clean red towel into the tub.",
                 "Put clean cloth in the tub."
             ],
             "relative_objects":[
@@ -251,11 +251,11 @@
         "valid_seen/pick_and_place_simple-Cloth-None-BathtubBasin-405/trial_T20190906_162502_940304/traj_data.json":{
             "tasks":[
                 "move the red cloth from the cabinet to the tub",
-                "move a rag from cabinet to the tub",
-                "place a rag inside the tub",
+                "move a towel from cabinet to the tub",
+                "place a towel inside the tub",
                 "Put a cloth in a bath tub.",
-                "Put the red rag into the bathtub",
-                "Move the rag from the bottom left cupboard to the bath tub."
+                "Put the red towel into the bathtub",
+                "Move the towel from the bottom left cupboard to the bath tub."
             ],
             "relative_objects":[
                 "Cloth"
@@ -274,7 +274,7 @@
         },
         "tests_seen/trial_T20190909_074512_088673/traj_data.json":{
             "tasks":[
-                "Take the rags from the bathtub and the cabinet under the sink, place the rags in the sink."
+                "Take the towels from the bathtub and the cabinet under the sink, place the towels in the sink."
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -284,7 +284,7 @@
         },
         "tests_seen/trial_T20190909_042815_019597/traj_data.json":{
             "tasks":[
-                "Place a clean rag on top of a toilet tank.",
+                "Place a clean towel on top of a toilet tank.",
                 "place a clean cloth on top of the back side of the toilet",
                 "Rinse the wash cloth and put it on the back of the toilet. "
             ],
@@ -302,11 +302,11 @@
         },
         "tests_seen/trial_T20190919_012436_072996/traj_data.json":{
             "tasks":[
-                "get the rag below the counter and toss it in the tub",
+                "get the towel below the counter and toss it in the tub",
                 "Put a red cloth in the bath tub.",
-                "Move the rag from the cupboard to the bath tub. ",
+                "Move the towel from the cupboard to the bath tub. ",
                 "Put the red cloth in the tub. ",
-                "Put the red rag in the bathtub. ",
+                "Put the red towel in the bathtub. ",
                 "Move a red cloth from a cabinet to a bath tub."
             ],
             "relative_objects":[
@@ -327,7 +327,7 @@
         },
         {
             "task_list":[
-                "get the rag below the counter and toss it in the tub"
+                "get the towel below the counter and toss it in the tub"
             ],
             "orign":[
                 [
@@ -370,7 +370,7 @@
         {
             "task_list":[
                 "Putting a cardboard tube and toilet paper on top of the toilet",
-                "get the rag below the counter and toss it in the tub"
+                "get the towel below the counter and toss it in the tub"
             ],
             "orign":[
                 [
@@ -379,9 +379,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the cardboard tube and toilet paper on top of the toilet at any time. Simultaneously, get the rag below the counter and toss it in the tub.",
-                "fintune 2":"Get the rag below the counter and toss it in the tub. Afterward, put the cardboard tube and toilet paper on top of the toilet.",
-                "fintune 3":"Put the cardboard tube and toilet paper on top of the toilet at any time. After putting the cardboard tube and toilet paper on top of the toilet, get the rag below the counter and toss it in the tub."
+                "fintune 1":"Put the cardboard tube and toilet paper on top of the toilet at any time. Simultaneously, get the towel below the counter and toss it in the tub.",
+                "fintune 2":"Get the towel below the counter and toss it in the tub. Afterward, put the cardboard tube and toilet paper on top of the toilet.",
+                "fintune 3":"Put the cardboard tube and toilet paper on top of the toilet at any time. After putting the cardboard tube and toilet paper on top of the toilet, get the towel below the counter and toss it in the tub."
             }
         },
         {
@@ -420,7 +420,7 @@
         },
         {
             "task_list":[
-                "get the rag below the counter and toss it in the tub",
+                "get the towel below the counter and toss it in the tub",
                 "Place soap in the tub."
             ],
             "orign":[
@@ -430,9 +430,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Get the rag below the counter and toss it in the tub. Place soap in the tub.",
-                "fintune 2":"Place soap in the tub. Get the rag below the counter and toss it in the tub.",
-                "fintune 3":"Get the rag below the counter and toss it in the tub. After placing the soap in the tub, gather two ladles and store them in the cabinet to the right of the fridge."
+                "fintune 1":"Get the towel below the counter and toss it in the tub. Place soap in the tub.",
+                "fintune 2":"Place soap in the tub. Get the towel below the counter and toss it in the tub.",
+                "fintune 3":"Get the towel below the counter and toss it in the tub. After placing the soap in the tub, gather two ladles and store them in the cabinet to the right of the fridge."
             }
         },
         {
@@ -663,7 +663,7 @@
                 "Move the plunger from next to the toilet to the cupboard under the sink",
                 "Place soap in the tub.",
                 "Place a toilet paper roll from the cabinet along with a cardboard roll on the toilet tank.",
-                "Pick up the rags from the bathtub and move them to the sink.",
+                "Pick up the towels from the bathtub and move them to the sink.",
                 "Place the soap bottle on the back of the toilet. "
             ],
             "orign":[
@@ -676,9 +676,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place soap in the tub at any time. Simultaneously, move the plunger from next to the toilet to the cupboard under the sink. After placing the soap, pick up the rags from the bathtub and move them to the sink. Finally, place a toilet paper roll from the cabinet along with a cardboard roll on the toilet tank.",
-                "fintune 2":"Place a toilet paper roll from the cabinet along with a cardboard roll on the toilet tank at any time. Simultaneously, place the soap bottle on the back of the toilet. After placing the rolls and soap bottle, move the plunger from next to the toilet to the cupboard under the sink. Finally, pick up the rags from the bathtub and move them to the sink.",
-                "fintune 3":"Place soap in the tub at any time. Simultaneously, pick up the rags from the bathtub and move them to the sink. After placing the soap, place the soap bottle on the back of the toilet. Finally, move the plunger from next to the toilet to the cupboard under the sink, and place a toilet paper roll from the cabinet along with a cardboard roll on the toilet tank."
+                "fintune 1":"Place soap in the tub at any time. Simultaneously, move the plunger from next to the toilet to the cupboard under the sink. After placing the soap, pick up the towels from the bathtub and move them to the sink. Finally, place a toilet paper roll from the cabinet along with a cardboard roll on the toilet tank.",
+                "fintune 2":"Place a toilet paper roll from the cabinet along with a cardboard roll on the toilet tank at any time. Simultaneously, place the soap bottle on the back of the toilet. After placing the rolls and soap bottle, move the plunger from next to the toilet to the cupboard under the sink. Finally, pick up the towels from the bathtub and move them to the sink.",
+                "fintune 3":"Place soap in the tub at any time. Simultaneously, pick up the towels from the bathtub and move them to the sink. After placing the soap, place the soap bottle on the back of the toilet. Finally, move the plunger from next to the toilet to the cupboard under the sink, and place a toilet paper roll from the cabinet along with a cardboard roll on the toilet tank."
             }
         },
         {
@@ -733,7 +733,7 @@
                 "Gather cleaning supplies",
                 "Move a toilet paper roll and an empty roll to the toilet. ",
                 "Place soap in the tub.",
-                "get the rag below the counter and toss it in the tub"
+                "get the towel below the counter and toss it in the tub"
             ],
             "orign":[
                 [
@@ -745,9 +745,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place the soap bottle on the back of the toilet. Gather cleaning supplies. Move a toilet paper roll and an empty roll to the toilet. Place soap in the tub. Get the rag below the counter and toss it in the tub.",
-                "fintune 2":"Gather cleaning supplies. Place the soap bottle on the back of the toilet. Move a toilet paper roll and an empty roll to the toilet. Get the rag below the counter and toss it in the tub. Place soap in the tub.",
-                "fintune 3":"Gather cleaning supplies. Place the soap bottle on the back of the toilet. Move a toilet paper roll and an empty roll to the toilet. Place soap in the tub. Get the rag below the counter and toss it in the tub."
+                "fintune 1":"Place the soap bottle on the back of the toilet. Gather cleaning supplies. Move a toilet paper roll and an empty roll to the toilet. Place soap in the tub. Get the towel below the counter and toss it in the tub.",
+                "fintune 2":"Gather cleaning supplies. Place the soap bottle on the back of the toilet. Move a toilet paper roll and an empty roll to the toilet. Get the towel below the counter and toss it in the tub. Place soap in the tub.",
+                "fintune 3":"Gather cleaning supplies. Place the soap bottle on the back of the toilet. Move a toilet paper roll and an empty roll to the toilet. Place soap in the tub. Get the towel below the counter and toss it in the tub."
             }
         },
         {

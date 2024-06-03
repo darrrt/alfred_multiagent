@@ -6,10 +6,10 @@ from agents.plan_agent import PlanAgent
 from game_states.planned_game_state import PlannedGameState
 
 
-class SemanticMapPlannerAgent(AgentBase):
+class SemanticMapPlannetowelent(AgentBase):
     def __init__(self, thread_id=0, game_state=None):
         assert(isinstance(game_state, PlannedGameState))
-        super(SemanticMapPlannerAgent, self).__init__(thread_id, game_state)
+        super(SemanticMapPlannetowelent, self).__init__(thread_id, game_state)
 
         self.plan_agent = PlanAgent(thread_id, game_state, self)
         self.planning = False
@@ -17,13 +17,13 @@ class SemanticMapPlannerAgent(AgentBase):
     def reset(self, seed=None, info=None, scene=None, objs=None):
         self.planning = False
         info = self.game_state.get_setup_info(info, scene=scene)[0]
-        super(SemanticMapPlannerAgent, self).reset({'seed': seed, 'info': info}, scene=scene, objs=objs)
+        super(SemanticMapPlannetowelent, self).reset({'seed': seed, 'info': info}, scene=scene, objs=objs)
         if self.plan_agent is not None:
             self.plan_agent.reset()
         return info
 
     def setup_problem(self, game_state_problem_args, scene=None, objs=None):
-        super(SemanticMapPlannerAgent, self).setup_problem(game_state_problem_args, scene=scene, objs=objs)
+        super(SemanticMapPlannetowelent, self).setup_problem(game_state_problem_args, scene=scene, objs=objs)
         self.pose = self.game_state.pose
 
     def get_reward(self):
@@ -67,6 +67,6 @@ class SemanticMapPlannerAgent(AgentBase):
                     self.current_frame_count += 1
                 self.total_frame_count += 1
             else:
-                super(SemanticMapPlannerAgent, self).step(action)
+                super(SemanticMapPlannetowelent, self).step(action)
 
 

@@ -15,8 +15,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-CounterTop-409/trial_T20190908_150707_250921/traj_data.json":{
             "tasks":[
                 "Put the clean cloth on the right side of sink counter",
-                "Put a cleaned rag on the counter right of the sink. ",
-                "Place a clean rag on a counter."
+                "Put a cleaned towel on the counter right of the sink. ",
+                "Place a clean towel on a counter."
             ],
             "relative_objects":[
                 "Towel",
@@ -234,7 +234,7 @@
         },
         "train/pick_and_place_simple-Cloth-None-Drawer-409/trial_T20190908_032838_597592/traj_data.json":{
             "tasks":[
-                "Put the rag in the drawer.",
+                "Put the towel in the drawer.",
                 "move the cloth from the vanity to the bottom drawer",
                 "Put a white wash cloth in the drawer."
             ],
@@ -265,9 +265,9 @@
         },
         "tests_seen/trial_T20190912_064329_127255/traj_data.json":{
             "tasks":[
-                "Put a wash rag in a drawer under the sink.",
+                "Put a wash towel in a drawer under the sink.",
                 "Place the towel from the toilet basin into the drawer.",
-                "Move a cloth rag from the top of a toilet to a drawer."
+                "Move a cloth towel from the top of a toilet to a drawer."
             ],
             "relative_objects":[
                 "Towel",
@@ -331,7 +331,7 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put a wash rag in a drawer under the sink.",
+                "Put a wash towel in a drawer under the sink.",
                 "Place a roll of toilet paper on the toilet paper holder."
             ],
             "orign":[
@@ -341,9 +341,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a wash rag in a drawer under the sink at any time. Simultaneously, place a roll of toilet paper on the toilet paper holder.",
-                "fintune 2":"Place a roll of toilet paper on the toilet paper holder at any time. Simultaneously, put a wash rag in a drawer under the sink.",
-                "fintune 3":"Put a wash rag in a drawer under the sink at any time. After placing the wash rag, place a roll of toilet paper on the toilet paper holder."
+                "fintune 1":"Put a wash towel in a drawer under the sink at any time. Simultaneously, place a roll of toilet paper on the toilet paper holder.",
+                "fintune 2":"Place a roll of toilet paper on the toilet paper holder at any time. Simultaneously, put a wash towel in a drawer under the sink.",
+                "fintune 3":"Put a wash towel in a drawer under the sink at any time. After placing the wash towel, place a roll of toilet paper on the toilet paper holder."
             }
         },
         {
@@ -418,7 +418,7 @@
     "tasks_3":[
         {
             "task_list":[
-                "Put the rag in the drawer.",
+                "Put the towel in the drawer.",
                 "place the toilet paper roll roller in the toilet paper roll holder",
                 "Place a rinsed bar of soap on a counter."
             ],
@@ -430,15 +430,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a rinsed bar of soap on a counter at any time. Simultaneously, put the rag in the drawer. After placing the soap and the rag, place the toilet paper roll roller in the toilet paper roll holder.",
-                "fintune 2":"Put the rag in the drawer at any time. Simultaneously, place a rinsed bar of soap on a counter. After placing the rag and the soap, place the toilet paper roll roller in the toilet paper roll holder.",
-                "fintune 3":"Place the toilet paper roll roller in the toilet paper roll holder at any time. Simultaneously, put the rag in the drawer. After placing the roller and the rag, place a rinsed bar of soap on a counter."
+                "fintune 1":"Place a rinsed bar of soap on a counter at any time. Simultaneously, put the towel in the drawer. After placing the soap and the towel, place the toilet paper roll roller in the toilet paper roll holder.",
+                "fintune 2":"Put the towel in the drawer at any time. Simultaneously, place a rinsed bar of soap on a counter. After placing the towel and the soap, place the toilet paper roll roller in the toilet paper roll holder.",
+                "fintune 3":"Place the toilet paper roll roller in the toilet paper roll holder at any time. Simultaneously, put the towel in the drawer. After placing the roller and the towel, place a rinsed bar of soap on a counter."
             }
         },
         {
             "task_list":[
                 "Put a spray bottle in the garbage can. ",
-                "Put the rag in the drawer.",
+                "Put the towel in the drawer.",
                 "Place a rinsed bar of soap on a counter."
             ],
             "orign":[
@@ -449,16 +449,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a spray bottle in the garbage can at any time. Simultaneously, place a rinsed bar of soap on a counter. After putting the spray bottle in the garbage can and placing the soap on the counter, put the rag in the drawer.",
-                "fintune 2":"Put the rag in the drawer at any time. Simultaneously, place a rinsed bar of soap on a counter. After putting the rag in the drawer, put a spray bottle in the garbage can.",
-                "fintune 3":"Place a rinsed bar of soap on a counter at any time. Simultaneously, put the rag in the drawer. After placing the soap on the counter, put a spray bottle in the garbage can."
+                "fintune 1":"Put a spray bottle in the garbage can at any time. Simultaneously, place a rinsed bar of soap on a counter. After putting the spray bottle in the garbage can and placing the soap on the counter, put the towel in the drawer.",
+                "fintune 2":"Put the towel in the drawer at any time. Simultaneously, place a rinsed bar of soap on a counter. After putting the towel in the drawer, put a spray bottle in the garbage can.",
+                "fintune 3":"Place a rinsed bar of soap on a counter at any time. Simultaneously, put the towel in the drawer. After placing the soap on the counter, put a spray bottle in the garbage can."
             }
         },
         {
             "task_list":[
                 "put soap in drawer",
                 "Place a candle on the back of a toilet",
-                "Put a wash rag in a drawer under the sink."
+                "Put a wash towel in a drawer under the sink."
             ],
             "orign":[
                 [
@@ -468,9 +468,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a wash rag in a drawer under the sink. Place a candle on the back of a toilet. Put soap in drawer.",
-                "fintune 2":"Put soap in drawer. Put a wash rag in a drawer under the sink. Place a candle on the back of a toilet.",
-                "fintune 3":"Place a candle on the back of a toilet. Put a wash rag in a drawer under the sink. Put soap in drawer."
+                "fintune 1":"Put a wash towel in a drawer under the sink. Place a candle on the back of a toilet. Put soap in drawer.",
+                "fintune 2":"Put soap in drawer. Put a wash towel in a drawer under the sink. Place a candle on the back of a toilet.",
+                "fintune 3":"Place a candle on the back of a toilet. Put a wash towel in a drawer under the sink. Put soap in drawer."
             }
         },
         {
@@ -494,7 +494,7 @@
         },
         {
             "task_list":[
-                "Put a wash rag in a drawer under the sink.",
+                "Put a wash towel in a drawer under the sink.",
                 "wash the soap on the vanity, put it in the drawer",
                 "place the toilet paper roll roller in the toilet paper roll holder"
             ],
@@ -506,9 +506,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Wash the soap on the vanity, put it in the drawer. Put a wash rag in a drawer under the sink. Place the toilet paper roll roller in the toilet paper roll holder.",
-                "fintune 2":"Place the toilet paper roll roller in the toilet paper roll holder. Wash the soap on the vanity, put it in the drawer. Put a wash rag in a drawer under the sink.",
-                "fintune 3":"Wash the soap on the vanity, put it in the drawer. Place the toilet paper roll roller in the toilet paper roll holder. Put a wash rag in a drawer under the sink."
+                "fintune 1":"Wash the soap on the vanity, put it in the drawer. Put a wash towel in a drawer under the sink. Place the toilet paper roll roller in the toilet paper roll holder.",
+                "fintune 2":"Place the toilet paper roll roller in the toilet paper roll holder. Wash the soap on the vanity, put it in the drawer. Put a wash towel in a drawer under the sink.",
+                "fintune 3":"Wash the soap on the vanity, put it in the drawer. Place the toilet paper roll roller in the toilet paper roll holder. Put a wash towel in a drawer under the sink."
             }
         }
     ],
@@ -516,7 +516,7 @@
         {
             "task_list":[
                 "remove the towels from the wall and put them on the sink counter",
-                "Put the rag in the drawer.",
+                "Put the towel in the drawer.",
                 "put soap in drawer",
                 "Place a candle on a toilet tank lid."
             ],
@@ -529,9 +529,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Remove the towels from the wall and put them on the sink counter. Put the rag in the drawer. Put soap in drawer. Place a candle on a toilet tank lid.",
-                "fintune 2":"Put the rag in the drawer. Remove the towels from the wall and put them on the sink counter. Place a candle on a toilet tank lid. Put soap in drawer.",
-                "fintune 3":"Place a candle on a toilet tank lid. Put the rag in the drawer. Remove the towels from the wall and put them on the sink counter. Put soap in drawer."
+                "fintune 1":"Remove the towels from the wall and put them on the sink counter. Put the towel in the drawer. Put soap in drawer. Place a candle on a toilet tank lid.",
+                "fintune 2":"Put the towel in the drawer. Remove the towels from the wall and put them on the sink counter. Place a candle on a toilet tank lid. Put soap in drawer.",
+                "fintune 3":"Place a candle on a toilet tank lid. Put the towel in the drawer. Remove the towels from the wall and put them on the sink counter. Put soap in drawer."
             }
         },
         {
@@ -559,7 +559,7 @@
             "task_list":[
                 "wash the soap on the vanity, put it in the drawer",
                 "put the tube and the toilet paper roll in the kitchen cabinet drawer",
-                "Put a wash rag in a drawer under the sink.",
+                "Put a wash towel in a drawer under the sink.",
                 "Place a candle on a toilet tank lid."
             ],
             "orign":[
@@ -571,14 +571,14 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Wash the soap on the vanity, put it in the drawer. Put the tube and the toilet paper roll in the kitchen cabinet drawer. Place a candle on a toilet tank lid. Put a wash rag in a drawer under the sink.",
-                "fintune 2":"Put the tube and the toilet paper roll in the kitchen cabinet drawer. Wash the soap on the vanity, put it in the drawer. Place a candle on a toilet tank lid. Put a wash rag in a drawer under the sink.",
-                "fintune 3":"Put a wash rag in a drawer under the sink. Wash the soap on the vanity, put it in the drawer. Put the tube and the toilet paper roll in the kitchen cabinet drawer. Place a candle on a toilet tank lid."
+                "fintune 1":"Wash the soap on the vanity, put it in the drawer. Put the tube and the toilet paper roll in the kitchen cabinet drawer. Place a candle on a toilet tank lid. Put a wash towel in a drawer under the sink.",
+                "fintune 2":"Put the tube and the toilet paper roll in the kitchen cabinet drawer. Wash the soap on the vanity, put it in the drawer. Place a candle on a toilet tank lid. Put a wash towel in a drawer under the sink.",
+                "fintune 3":"Put a wash towel in a drawer under the sink. Wash the soap on the vanity, put it in the drawer. Put the tube and the toilet paper roll in the kitchen cabinet drawer. Place a candle on a toilet tank lid."
             }
         },
         {
             "task_list":[
-                "Put the rag in the drawer.",
+                "Put the towel in the drawer.",
                 "Place a roll of toilet paper on the toilet paper holder.",
                 "Place a rinsed bar of soap on a counter.",
                 "Move a candle from the bathroom counter to the back of the toilet. "
@@ -592,9 +592,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a candle from the bathroom counter to the back of the toilet. Put the rag in the drawer. Place a rinsed bar of soap on a counter. Place a roll of toilet paper on the toilet paper holder.",
-                "fintune 2":"Place a rinsed bar of soap on a counter. Put the rag in the drawer. Move a candle from the bathroom counter to the back of the toilet. Place a roll of toilet paper on the toilet paper holder.",
-                "fintune 3":"Put the rag in the drawer. Place a rinsed bar of soap on a counter. Place a roll of toilet paper on the toilet paper holder. Move a candle from the bathroom counter to the back of the toilet."
+                "fintune 1":"Move a candle from the bathroom counter to the back of the toilet. Put the towel in the drawer. Place a rinsed bar of soap on a counter. Place a roll of toilet paper on the toilet paper holder.",
+                "fintune 2":"Place a rinsed bar of soap on a counter. Put the towel in the drawer. Move a candle from the bathroom counter to the back of the toilet. Place a roll of toilet paper on the toilet paper holder.",
+                "fintune 3":"Put the towel in the drawer. Place a rinsed bar of soap on a counter. Place a roll of toilet paper on the toilet paper holder. Move a candle from the bathroom counter to the back of the toilet."
             }
         },
         {

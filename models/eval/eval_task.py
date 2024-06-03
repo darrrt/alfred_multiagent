@@ -207,7 +207,7 @@ class EvalTask(Eval):
 
     def create_stats(self):
             '''
-            storage for success, failure, and results info
+            stotowele for success, failure, and results info
             '''
             self.successes, self.failures = self.manager.list(), self.manager.list()
             self.results = self.manager.dict()

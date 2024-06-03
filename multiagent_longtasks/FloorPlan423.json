@@ -3,9 +3,9 @@
     "trials":{
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-423/trial_T20190908_051030_660004/traj_data.json":{
             "tasks":[
-                "Put the washed rag into the bath tub.",
+                "Put the washed towel into the bath tub.",
                 "Place a clean towel in the tub.",
-                "Put a clean, wet, rag in the bath tub. "
+                "Put a clean, wet, towel in the bath tub. "
             ],
             "relative_objects":[
                 "Towel",
@@ -17,8 +17,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-423/trial_T20190908_051048_362590/traj_data.json":{
             "tasks":[
                 "place a web cloth in the tub",
-                "Put a cleaned rag in the tub.",
-                "Place a clean rag into the tub."
+                "Put a cleaned towel in the tub.",
+                "Place a clean towel into the tub."
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -98,7 +98,7 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140626_609969/traj_data.json":{
             "tasks":[
-                "Wash the green rag for 4 seconds, put the rag in the drawer",
+                "Wash the green towel for 4 seconds, put the towel in the drawer",
                 "Pick up dirty cloth from counter, wash cloth, put in drawer.",
                 "Put a cloth in a drawer."
             ],
@@ -110,9 +110,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140728_318318/traj_data.json":{
             "tasks":[
-                "Put a clean rag in the drawer. ",
+                "Put a clean towel in the drawer. ",
                 "Place a rinsed towel in a drawer.",
-                "Putting a clean rag in a drawer"
+                "Putting a clean towel in a drawer"
             ],
             "relative_objects":[
                 "Towel",
@@ -268,8 +268,8 @@
         },
         "valid_seen/pick_clean_then_place_in_recep-Cloth-None-Drawer-423/trial_T20190908_140701_251653/traj_data.json":{
             "tasks":[
-                "Get wash rag wet and put it away in drawer.",
-                "Put a cleaned rag in a drawer. ",
+                "Get wash towel wet and put it away in drawer.",
+                "Put a cleaned towel in a drawer. ",
                 "Put a clean cloth in a drawer."
             ],
             "relative_objects":[
@@ -311,8 +311,8 @@
         "tests_seen/trial_T20190908_051013_004115/traj_data.json":{
             "tasks":[
                 "Clean off a towel in the tub.",
-                "Place cleaned green rag in bathtub",
-                "Put a clean rag in the tub."
+                "Place cleaned green towel in bathtub",
+                "Put a clean towel in the tub."
             ],
             "relative_objects":[
                 "Towel",
@@ -323,7 +323,7 @@
     "tasks_1":[
         {
             "task_list":[
-                "Put a clean rag in the drawer. "
+                "Put a clean towel in the drawer. "
             ],
             "orign":[
                 [
@@ -392,7 +392,7 @@
         },
         {
             "task_list":[
-                "Get wash rag wet and put it away in drawer.",
+                "Get wash towel wet and put it away in drawer.",
                 "Move a towel from next to the mirror to the bathtub."
             ],
             "orign":[
@@ -402,9 +402,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Get wash rag wet and put it away in drawer at any time. After that, move a towel from next to the mirror to the bathtub.",
-                "fintune 2":"Move a towel from next to the mirror to the bathtub at any time. Simultaneously, get wash rag wet and put it away in drawer.",
-                "fintune 3":"Move a towel from next to the mirror to the bathtub at any time. After moving the towel, get wash rag wet and put it away in drawer."
+                "fintune 1":"Get wash towel wet and put it away in drawer at any time. After that, move a towel from next to the mirror to the bathtub.",
+                "fintune 2":"Move a towel from next to the mirror to the bathtub at any time. Simultaneously, get wash towel wet and put it away in drawer.",
+                "fintune 3":"Move a towel from next to the mirror to the bathtub at any time. After moving the towel, get wash towel wet and put it away in drawer."
             }
         },
         {
@@ -443,7 +443,7 @@
         },
         {
             "task_list":[
-                "Put a clean rag in the drawer. ",
+                "Put a clean towel in the drawer. ",
                 "Put a clean bar of soap into the cabinet drawer"
             ],
             "orign":[
@@ -453,9 +453,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a clean rag in the drawer at any time. Simultaneously, put a clean bar of soap into the cabinet drawer.",
-                "fintune 2":"Put a clean bar of soap into the cabinet drawer at any time. Simultaneously, put a clean rag in the drawer.",
-                "fintune 3":"Put a clean rag in the drawer at any time. After putting the rag, put a clean bar of soap into the cabinet drawer."
+                "fintune 1":"Put a clean towel in the drawer at any time. Simultaneously, put a clean bar of soap into the cabinet drawer.",
+                "fintune 2":"Put a clean bar of soap into the cabinet drawer at any time. Simultaneously, put a clean towel in the drawer.",
+                "fintune 3":"Put a clean towel in the drawer at any time. After putting the towel, put a clean bar of soap into the cabinet drawer."
             }
         }
     ],
@@ -514,7 +514,7 @@
         },
         {
             "task_list":[
-                "Get wash rag wet and put it away in drawer.",
+                "Get wash towel wet and put it away in drawer.",
                 "wash the pink bar by the sink, put the pink bar in the tub",
                 "To move a bottle to the bottom drawer. "
             ],
@@ -526,9 +526,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Get wash rag wet and put it away in drawer. After putting away the wash rag, wash the pink bar by the sink and put the pink bar in the tub. To finish, move a bottle to the bottom drawer.",
-                "fintune 2":"Wash the pink bar by the sink and put the pink bar in the tub. After completing that task, get wash rag wet and put it away in drawer. Finally, move a bottle to the bottom drawer.",
-                "fintune 3":"Get wash rag wet and put it away in drawer. Simultaneously, wash the pink bar by the sink and put the pink bar in the tub. After completing both tasks, move a bottle to the bottom drawer."
+                "fintune 1":"Get wash towel wet and put it away in drawer. After putting away the wash towel, wash the pink bar by the sink and put the pink bar in the tub. To finish, move a bottle to the bottom drawer.",
+                "fintune 2":"Wash the pink bar by the sink and put the pink bar in the tub. After completing that task, get wash towel wet and put it away in drawer. Finally, move a bottle to the bottom drawer.",
+                "fintune 3":"Get wash towel wet and put it away in drawer. Simultaneously, wash the pink bar by the sink and put the pink bar in the tub. After completing both tasks, move a bottle to the bottom drawer."
             }
         },
         {
@@ -576,7 +576,7 @@
         {
             "task_list":[
                 "Place a full roll of toilet paper on an empty toilet paper holder.",
-                "Get wash rag wet and put it away in drawer.",
+                "Get wash towel wet and put it away in drawer.",
                 "to put the candles in the drawer",
                 "Put a spray bottle in the drawer, under the sink. "
             ],
@@ -589,9 +589,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Get wash rag wet and put it away in drawer. Place a full roll of toilet paper on an empty toilet paper holder. Put a spray bottle in the drawer, under the sink. to put the candles in the drawer",
-                "fintune 2":"Put a spray bottle in the drawer, under the sink. Get wash rag wet and put it away in drawer. to put the candles in the drawer. Place a full roll of toilet paper on an empty toilet paper holder.",
-                "fintune 3":"Place a full roll of toilet paper on an empty toilet paper holder. Get wash rag wet and put it away in drawer. to put the candles in the drawer. Put a spray bottle in the drawer, under the sink."
+                "fintune 1":"Get wash towel wet and put it away in drawer. Place a full roll of toilet paper on an empty toilet paper holder. Put a spray bottle in the drawer, under the sink. to put the candles in the drawer",
+                "fintune 2":"Put a spray bottle in the drawer, under the sink. Get wash towel wet and put it away in drawer. to put the candles in the drawer. Place a full roll of toilet paper on an empty toilet paper holder.",
+                "fintune 3":"Place a full roll of toilet paper on an empty toilet paper holder. Get wash towel wet and put it away in drawer. to put the candles in the drawer. Put a spray bottle in the drawer, under the sink."
             }
         },
         {
@@ -662,7 +662,7 @@
         {
             "task_list":[
                 "Place a spray bottle in a drawer.",
-                "Get wash rag wet and put it away in drawer.",
+                "Get wash towel wet and put it away in drawer.",
                 "Rinse a bar of soap and place it on the bath tub.",
                 "Place a full roll of toilet paper on an empty toilet paper holder.",
                 "To take the soap bottle from the top of the sink and put it in the drawer underneath the sink."
@@ -677,16 +677,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Get wash rag wet and put it away in a drawer. Simultaneously, place a spray bottle in a drawer. After putting away the wash rag and placing the spray bottle, rinse a bar of soap and place it on the bath tub. Once the soap is placed, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. Finally, place a full roll of toilet paper on an empty toilet paper holder.",
-                "fintune 2":"To take the soap bottle from the top of the sink and put it in the drawer underneath the sink. First, place a full roll of toilet paper on an empty toilet paper holder. Once the toilet paper is placed, get wash rag wet and put it away in a drawer. Simultaneously, rinse a bar of soap and place it on the bath tub. Finally, place a spray bottle in a drawer.",
-                "fintune 3":"Get wash rag wet and put it away in a drawer. Followed by placing a full roll of toilet paper on an empty toilet paper holder. After that, rinse a bar of soap and place it on the bath tub. Simultaneously, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. Finish by placing a spray bottle in a drawer."
+                "fintune 1":"Get wash towel wet and put it away in a drawer. Simultaneously, place a spray bottle in a drawer. After putting away the wash towel and placing the spray bottle, rinse a bar of soap and place it on the bath tub. Once the soap is placed, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. Finally, place a full roll of toilet paper on an empty toilet paper holder.",
+                "fintune 2":"To take the soap bottle from the top of the sink and put it in the drawer underneath the sink. First, place a full roll of toilet paper on an empty toilet paper holder. Once the toilet paper is placed, get wash towel wet and put it away in a drawer. Simultaneously, rinse a bar of soap and place it on the bath tub. Finally, place a spray bottle in a drawer.",
+                "fintune 3":"Get wash towel wet and put it away in a drawer. Followed by placing a full roll of toilet paper on an empty toilet paper holder. After that, rinse a bar of soap and place it on the bath tub. Simultaneously, take the soap bottle from the top of the sink and put it in the drawer underneath the sink. Finish by placing a spray bottle in a drawer."
             }
         },
         {
             "task_list":[
                 "Place a spray bottle in a drawer.",
                 "Place a full roll of toilet paper on an empty toilet paper holder.",
-                "Put a clean rag in the drawer. ",
+                "Put a clean towel in the drawer. ",
                 "To move a bottle to the bottom drawer. ",
                 "Move soap from counter and garbage can into tub."
             ],
@@ -700,9 +700,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a spray bottle in a drawer. Simultaneously, put a clean rag in the drawer. After placing the spray bottle and clean rag, place a full roll of toilet paper on an empty toilet paper holder. Next, move soap from the counter and garbage can into the tub. Finally, move a bottle to the bottom drawer.",
-                "fintune 2":"Place a spray bottle in a drawer. Simultaneously, put a clean rag in the drawer. After placing the spray bottle and clean rag, move soap from the counter and garbage can into the tub. Next, move a bottle to the bottom drawer. Finally, place a full roll of toilet paper on an empty toilet paper holder.",
-                "fintune 3":"Place a spray bottle in a drawer. Simultaneously, put a clean rag in the drawer. After placing the spray bottle and clean rag, move a bottle to the bottom drawer. Next, place a full roll of toilet paper on an empty toilet paper holder. Finally, move soap from the counter and garbage can into the tub."
+                "fintune 1":"Place a spray bottle in a drawer. Simultaneously, put a clean towel in the drawer. After placing the spray bottle and clean towel, place a full roll of toilet paper on an empty toilet paper holder. Next, move soap from the counter and garbage can into the tub. Finally, move a bottle to the bottom drawer.",
+                "fintune 2":"Place a spray bottle in a drawer. Simultaneously, put a clean towel in the drawer. After placing the spray bottle and clean towel, move soap from the counter and garbage can into the tub. Next, move a bottle to the bottom drawer. Finally, place a full roll of toilet paper on an empty toilet paper holder.",
+                "fintune 3":"Place a spray bottle in a drawer. Simultaneously, put a clean towel in the drawer. After placing the spray bottle and clean towel, move a bottle to the bottom drawer. Next, place a full roll of toilet paper on an empty toilet paper holder. Finally, move soap from the counter and garbage can into the tub."
             }
         },
         {
@@ -711,7 +711,7 @@
                 "to put the candles in the drawer",
                 "Place the spray bottle in the can.",
                 "Put toilet paper on the holder. ",
-                "Get wash rag wet and put it away in drawer."
+                "Get wash towel wet and put it away in drawer."
             ],
             "orign":[
                 [
@@ -724,8 +724,8 @@
             ],
             "finetuned":{
                 "fintune 1":"To move a bottle to the bottom drawer at any time. Simultaneously, put the candles in the drawer. After moving the bottle and putting the candles, place the spray bottle in the can.",
-                "fintune 2":"Put toilet paper on the holder before getting the wash rag wet and putting it away in the drawer. Move a bottle to the bottom drawer before putting the candles in the drawer. After putting the candles, place the spray bottle in the can.",
-                "fintune 3":"Put toilet paper on the holder. Get the wash rag wet and put it away in the drawer. Move a bottle to the bottom drawer at any time, and then put the candles in the drawer simultaneously. After putting the candles, place the spray bottle in the can."
+                "fintune 2":"Put toilet paper on the holder before getting the wash towel wet and putting it away in the drawer. Move a bottle to the bottom drawer before putting the candles in the drawer. After putting the candles, place the spray bottle in the can.",
+                "fintune 3":"Put toilet paper on the holder. Get the wash towel wet and put it away in the drawer. Move a bottle to the bottom drawer at any time, and then put the candles in the drawer simultaneously. After putting the candles, place the spray bottle in the can."
             }
         },
         {

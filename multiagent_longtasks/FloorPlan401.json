@@ -24,8 +24,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Cart-401/trial_T20190907_045506_880679/traj_data.json":{
             "tasks":[
                 "Put the cleaned cloth on the metal shelf",
-                "Put a clean rag on the top shelf of a shelving unit.",
-                "Put a clean rag on the rack."
+                "Put a clean towel on the top shelf of a shelving unit.",
+                "Put a clean towel on the rack."
             ],
             "relative_objects":[
                 "Towel",
@@ -35,7 +35,7 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Cart-401/trial_T20190907_045451_101032/traj_data.json":{
             "tasks":[
                 "Put a wet towel on top of the wire rack.",
-                "Place a clean rag on top of the metal rack.",
+                "Place a clean towel on top of the metal rack.",
                 "Put a wet cloth on a shelf."
             ],
             "relative_objects":[
@@ -122,9 +122,9 @@
         },
         "train/pick_and_place_simple-Cloth-None-Cart-401/trial_T20190909_054535_981513/traj_data.json":{
             "tasks":[
-                "Put a rag on the metal rack. ",
+                "Put a towel on the metal rack. ",
                 "pick up the black clothing from the toilet and bring to the cart",
-                "Move a cloth to the storage cart."
+                "Move a cloth to the stotowele cart."
             ],
             "relative_objects":[
                 "Towel",
@@ -133,9 +133,9 @@
         },
         "train/pick_and_place_simple-Cloth-None-Cart-401/trial_T20190909_054522_876529/traj_data.json":{
             "tasks":[
-                "clean up a rag inside the tub and put it on the shelf ",
+                "clean up a towel inside the tub and put it on the shelf ",
                 "Place a towel on a wire shelf.",
-                "Move a black rag from the bathtub to the metal shelf."
+                "Move a black towel from the bathtub to the metal shelf."
             ],
             "relative_objects":[
                 "Towel",
@@ -415,7 +415,7 @@
         {
             "task_list":[
                 "Put a cleaned sponge on a top shelf. ",
-                "Put a rag on the metal rack. "
+                "Put a towel on the metal rack. "
             ],
             "orign":[
                 [
@@ -424,9 +424,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned sponge on a top shelf. Put a rag on the metal rack.",
-                "fintune 2":"Put a rag on the metal rack at any time. Simultaneously, put a cleaned sponge on a top shelf.",
-                "fintune 3":"Put a cleaned sponge on a top shelf at any time. After putting the sponge, put a rag on the metal rack."
+                "fintune 1":"Put a cleaned sponge on a top shelf. Put a towel on the metal rack.",
+                "fintune 2":"Put a towel on the metal rack at any time. Simultaneously, put a cleaned sponge on a top shelf.",
+                "fintune 3":"Put a cleaned sponge on a top shelf at any time. After putting the sponge, put a towel on the metal rack."
             }
         }
     ],
@@ -473,7 +473,7 @@
             "task_list":[
                 "clean up bottles and put them onto the shelf ",
                 "Put spray bottles on shelf.",
-                "clean up a rag inside the tub and put it on the shelf "
+                "clean up a towel inside the tub and put it on the shelf "
             ],
             "orign":[
                 [
@@ -483,9 +483,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Clean up bottles and put them onto the shelf. Put spray bottles on shelf. Clean up a rag inside the tub and put it on the shelf.",
-                "fintune 2":"Put spray bottles on shelf. Clean up bottles and put them onto the shelf. Clean up a rag inside the tub and put it on the shelf.",
-                "fintune 3":"Clean up bottles and put them onto the shelf. Clean up a rag inside the tub and put it on the shelf. Put spray bottles on shelf."
+                "fintune 1":"Clean up bottles and put them onto the shelf. Put spray bottles on shelf. Clean up a towel inside the tub and put it on the shelf.",
+                "fintune 2":"Put spray bottles on shelf. Clean up bottles and put them onto the shelf. Clean up a towel inside the tub and put it on the shelf.",
+                "fintune 3":"Clean up bottles and put them onto the shelf. Clean up a towel inside the tub and put it on the shelf. Put spray bottles on shelf."
             }
         },
         {
@@ -509,7 +509,7 @@
         },
         {
             "task_list":[
-                "Put a rag on the metal rack. ",
+                "Put a towel on the metal rack. ",
                 "Move a sponge to the wire shelf ",
                 "Put spray bottles on shelf."
             ],
@@ -521,16 +521,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a rag on the metal rack. After putting the rag, move a sponge to the wire shelf. Finally, put spray bottles on the shelf.",
-                "fintune 2":"Move a sponge to the wire shelf. Simultaneously, put spray bottles on the shelf. After moving the sponge and placing the spray bottles, put a rag on the metal rack.",
-                "fintune 3":"Put spray bottles on the shelf. After putting the spray bottles, put a rag on the metal rack. Finally, move a sponge to the wire shelf."
+                "fintune 1":"Put a towel on the metal rack. After putting the towel, move a sponge to the wire shelf. Finally, put spray bottles on the shelf.",
+                "fintune 2":"Move a sponge to the wire shelf. Simultaneously, put spray bottles on the shelf. After moving the sponge and placing the spray bottles, put a towel on the metal rack.",
+                "fintune 3":"Put spray bottles on the shelf. After putting the spray bottles, put a towel on the metal rack. Finally, move a sponge to the wire shelf."
             }
         }
     ],
     "tasks_4":[
         {
             "task_list":[
-                "Put a rag on the metal rack. ",
+                "Put a towel on the metal rack. ",
                 "Place clean soap on the utility cart.",
                 "Put a candle on a rack.",
                 "Put a cleaned sponge on a top shelf. "
@@ -544,9 +544,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned sponge on a top shelf at any time. Simultaneously, place clean soap on the utility cart. After placing the sponge and soap, put a rag on the metal rack. Finally, put a candle on a rack.",
-                "fintune 2":"Place clean soap on the utility cart at any time. Simultaneously, put a cleaned sponge on a top shelf. After placing the soap and sponge, put a rag on the metal rack. Finally, put a candle on a rack.",
-                "fintune 3":"Put a rag on the metal rack at any time. Simultaneously, put a cleaned sponge on a top shelf. After placing the rag and sponge, place clean soap on the utility cart. Finally, put a candle on a rack."
+                "fintune 1":"Put a cleaned sponge on a top shelf at any time. Simultaneously, place clean soap on the utility cart. After placing the sponge and soap, put a towel on the metal rack. Finally, put a candle on a rack.",
+                "fintune 2":"Place clean soap on the utility cart at any time. Simultaneously, put a cleaned sponge on a top shelf. After placing the soap and sponge, put a towel on the metal rack. Finally, put a candle on a rack.",
+                "fintune 3":"Put a towel on the metal rack at any time. Simultaneously, put a cleaned sponge on a top shelf. After placing the towel and sponge, place clean soap on the utility cart. Finally, put a candle on a rack."
             }
         },
         {
@@ -754,7 +754,7 @@
     "tasks_6":[
         {
             "task_list":[
-                "Put a rag on the metal rack. ",
+                "Put a towel on the metal rack. ",
                 "Place a roll of toilet paper onto a toilet paper holder",
                 "To place the soap on the rack.",
                 "Put away spray bottles.",
@@ -772,9 +772,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a rag on the metal rack at any time. Simultaneously, place a roll of toilet paper onto a toilet paper holder. After placing the rag and the toilet paper, put away spray bottles.",
+                "fintune 1":"Put a towel on the metal rack at any time. Simultaneously, place a roll of toilet paper onto a toilet paper holder. After placing the towel and the toilet paper, put away spray bottles.",
                 "fintune 2":"Move a sponge to the wire shelf at any time. Simultaneously, put a candle on a shelf. After moving the sponge and placing the candle, put away spray bottles.",
-                "fintune 3":"Put a rag on the metal rack at any time. Simultaneously, place a roll of toilet paper onto a toilet paper holder. After placing the rag and the toilet paper, move a sponge to the wire shelf."
+                "fintune 3":"Put a towel on the metal rack at any time. Simultaneously, place a roll of toilet paper onto a toilet paper holder. After placing the towel and the toilet paper, move a sponge to the wire shelf."
             }
         }
     ],

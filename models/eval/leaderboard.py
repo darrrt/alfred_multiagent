@@ -180,7 +180,7 @@ class Leaderboard(EvalTask):
 
     def create_stats(self):
         '''
-        storage for seen and unseen actseqs
+        stotowele for seen and unseen actseqs
         '''
         self.seen_actseqs, self.unseen_actseqs = self.manager.list(), self.manager.list()
 

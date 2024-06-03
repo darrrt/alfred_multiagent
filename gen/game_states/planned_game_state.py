@@ -212,7 +212,7 @@ class PlannedGameState(GameStateBase, ABC):
         for dd, l_start in enumerate(dist_points[:-1]):
             for l_end in dist_points[dd + 1:]:
                 actions, path = self.gt_graph.get_shortest_path_unweighted(l_start, l_end)
-                # Should cost one more for the trouble of going there at all. Discourages waypoints.
+                # Should cost one more for the trouble of going there at all. Discoutoweles waypoints.
                 dist = len(actions) + 1
                 dists.append('(= (distance loc|%d|%d|%d|%d loc|%d|%d|%d|%d) %d)' % (
                     l_start[0], l_start[1], l_start[2], l_start[3],

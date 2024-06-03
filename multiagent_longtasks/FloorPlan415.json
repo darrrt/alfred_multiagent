@@ -3,9 +3,9 @@
     "trials":{
         "train/pick_clean_then_place_in_recep-Cloth-None-Dresser-415/trial_T20190907_000021_504649/traj_data.json":{
             "tasks":[
-                "Put a clean rag on a dresser.",
-                "Put a clean rag on a dresser.",
-                "Put a clean rag on the dresser."
+                "Put a clean towel on a dresser.",
+                "Put a clean towel on a dresser.",
+                "Put a clean towel on the dresser."
             ],
             "relative_objects":[
                 "Cloth"
@@ -75,9 +75,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-415/trial_T20190906_190033_133211/traj_data.json":{
             "tasks":[
-                "put a clean rag in a bottom dresser drawer",
+                "put a clean towel in a bottom dresser drawer",
                 "Clean the dirty towel to place inside the dresser.",
-                "Put the cleaned rag in the bottom drawer. "
+                "Put the cleaned towel in the bottom drawer. "
             ],
             "relative_objects":[
                 "Towel",
@@ -89,7 +89,7 @@
             "tasks":[
                 "Wash the dirty cloth from the tub, put it in the bottom drawer of the cabinet",
                 "place a clean cloth in the bottom drawer of the bathroom cabinet",
-                "Clean the rag from the bath tub and put it in the towel dresser."
+                "Clean the towel from the bath tub and put it in the towel dresser."
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -101,9 +101,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-415/trial_T20190906_190057_260207/traj_data.json":{
             "tasks":[
-                "Clean dirty rag, put rag in bottom dresser drawer",
-                "Put a clean rag in a dresser.",
-                "Put the cleaned rag in the bottom white drawer. "
+                "Clean dirty towel, put towel in bottom dresser drawer",
+                "Put a clean towel in a dresser.",
+                "Put the cleaned towel in the bottom white drawer. "
             ],
             "relative_objects":[
                 "HandTowel",
@@ -115,7 +115,7 @@
             "tasks":[
                 "Put a clean cloth on the shelf.",
                 "Put the clean cloth on the second layer of the drawer",
-                "Place a clean rag on a shelf"
+                "Place a clean towel on a shelf"
             ],
             "relative_objects":[
                 "Cloth"
@@ -125,7 +125,7 @@
             "tasks":[
                 "Put a rinsed cloth on the shelf under the counter",
                 "place a clean cloth in the bathroom shelf",
-                "Put a clean white rag on a shelf below a white table."
+                "Put a clean white towel on a shelf below a white table."
             ],
             "relative_objects":[
                 "Towel",
@@ -136,8 +136,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Shelf-415/trial_T20190908_234737_125816/traj_data.json":{
             "tasks":[
                 "put a clean tissue onto a shelf",
-                "Place a clean rag on the shelf below the counter.",
-                "Put a cleaned rag on a shelf"
+                "Place a clean towel on the shelf below the counter.",
+                "Put a cleaned towel on a shelf"
             ],
             "relative_objects":[
                 "Towel",
@@ -197,7 +197,7 @@
         },
         "train/pick_two_obj_and_place-Cloth-None-Shelf-415/trial_T20190918_160612_509595/traj_data.json":{
             "tasks":[
-                "Move to white rags to a shelf."
+                "Move to white towels to a shelf."
             ],
             "relative_objects":[
                 "Towel",
@@ -217,8 +217,8 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-415/trial_T20190909_022341_367862/traj_data.json":{
             "tasks":[
-                "Put a clean rag on the back of the toilet.",
-                "Place a clean rag on a toilet tank.",
+                "Put a clean towel on the back of the toilet.",
+                "Place a clean towel on a toilet tank.",
                 "Put the clean cloth on the tank"
             ],
             "relative_objects":[
@@ -241,8 +241,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-415/trial_T20190909_022258_647350/traj_data.json":{
             "tasks":[
                 "place a clean cloth on top of the back side of the toilet",
-                "Rinse a white rag from the bathtub to put it on the lid of the toilet tank.",
-                "Place a clean rag on top of the toilet."
+                "Rinse a white towel from the bathtub to put it on the lid of the toilet tank.",
+                "Place a clean towel on top of the toilet."
             ],
             "relative_objects":[
                 "Towel",
@@ -430,7 +430,7 @@
         },
         {
             "task_list":[
-                "put a clean rag in a bottom dresser drawer",
+                "put a clean towel in a bottom dresser drawer",
                 "To move toilet paper and a tube to the shelf. "
             ],
             "orign":[
@@ -440,9 +440,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"To move toilet paper and a tube to the shelf at any time. Simultaneously, put a clean rag in a bottom dresser drawer.",
-                "fintune 2":"Put a clean rag in a bottom dresser drawer at any time. After putting the rag, move toilet paper and a tube to the shelf.",
-                "fintune 3":"Put a clean rag in a bottom dresser drawer at any time. Simultaneously, move toilet paper and a tube to the shelf."
+                "fintune 1":"To move toilet paper and a tube to the shelf at any time. Simultaneously, put a clean towel in a bottom dresser drawer.",
+                "fintune 2":"Put a clean towel in a bottom dresser drawer at any time. After putting the towel, move toilet paper and a tube to the shelf.",
+                "fintune 3":"Put a clean towel in a bottom dresser drawer at any time. Simultaneously, move toilet paper and a tube to the shelf."
             }
         },
         {
@@ -519,7 +519,7 @@
         },
         {
             "task_list":[
-                "Clean dirty rag, put rag in bottom dresser drawer",
+                "Clean dirty towel, put towel in bottom dresser drawer",
                 "Put the empty toilet paper roll on the toilet tank. ",
                 "Move a spray bottle from the toilet to the trash"
             ],
@@ -531,16 +531,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a spray bottle from the toilet to the trash at any time. Put the empty toilet paper roll on the toilet tank. After putting the empty toilet paper roll, clean dirty rag and put the rag in the bottom dresser drawer.",
-                "fintune 2":"Put the empty toilet paper roll on the toilet tank. Simultaneously, move a spray bottle from the toilet to the trash. After completing these tasks, clean the dirty rag and put it in the bottom dresser drawer.",
-                "fintune 3":"Clean dirty rag and put the rag in the bottom dresser drawer. Put the empty toilet paper roll on the toilet tank. After putting the toilet paper roll, move a spray bottle from the toilet to the trash."
+                "fintune 1":"Move a spray bottle from the toilet to the trash at any time. Put the empty toilet paper roll on the toilet tank. After putting the empty toilet paper roll, clean dirty towel and put the towel in the bottom dresser drawer.",
+                "fintune 2":"Put the empty toilet paper roll on the toilet tank. Simultaneously, move a spray bottle from the toilet to the trash. After completing these tasks, clean the dirty towel and put it in the bottom dresser drawer.",
+                "fintune 3":"Clean dirty towel and put the towel in the bottom dresser drawer. Put the empty toilet paper roll on the toilet tank. After putting the toilet paper roll, move a spray bottle from the toilet to the trash."
             }
         },
         {
             "task_list":[
                 "Move an empty toilet paper roll to the holder.",
                 "Place a spray bottle on a toilet tank.",
-                "Clean dirty rag, put rag in bottom dresser drawer"
+                "Clean dirty towel, put towel in bottom dresser drawer"
             ],
             "orign":[
                 [
@@ -550,9 +550,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a spray bottle on a toilet tank at any time. Simultaneously, move an empty toilet paper roll to the holder. After placing the spray bottle and toilet paper roll, clean the dirty rag and put it in the bottom dresser drawer.",
-                "fintune 2":"Move an empty toilet paper roll to the holder at any time. Simultaneously, clean the dirty rag and put it in the bottom dresser drawer.After moving the toilet paper roll, place a spray bottle on a toilet tank.",
-                "fintune 3":"Place a spray bottle on a toilet tank at any time. After placing the spray bottle, move an empty toilet paper roll to the holder. Finally, clean the dirty rag and put it in the bottom dresser drawer."
+                "fintune 1":"Place a spray bottle on a toilet tank at any time. Simultaneously, move an empty toilet paper roll to the holder. After placing the spray bottle and toilet paper roll, clean the dirty towel and put it in the bottom dresser drawer.",
+                "fintune 2":"Move an empty toilet paper roll to the holder at any time. Simultaneously, clean the dirty towel and put it in the bottom dresser drawer.After moving the toilet paper roll, place a spray bottle on a toilet tank.",
+                "fintune 3":"Place a spray bottle on a toilet tank at any time. After placing the spray bottle, move an empty toilet paper roll to the holder. Finally, clean the dirty towel and put it in the bottom dresser drawer."
             }
         },
         {
@@ -578,7 +578,7 @@
             "task_list":[
                 "Move the candle and toilet paper roll on to the toilet",
                 "Throw away the spray bottle on the counter.",
-                "Move to white rags to a shelf."
+                "Move to white towels to a shelf."
             ],
             "orign":[
                 [
@@ -588,9 +588,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move the candle and toilet paper roll on to the toilet, then throw away the spray bottle on the counter. Afterward, move the white rags to a shelf.",
-                "fintune 2":"Move the candle and toilet paper roll on to the toilet at any time. Simultaneously, throw away the spray bottle on the counter. Once done, move the white rags to a shelf.",
-                "fintune 3":"Throw away the spray bottle on the counter. Subsequently, move the candle and toilet paper roll on to the toilet. Finally, move the white rags to a shelf."
+                "fintune 1":"Move the candle and toilet paper roll on to the toilet, then throw away the spray bottle on the counter. Afterward, move the white towels to a shelf.",
+                "fintune 2":"Move the candle and toilet paper roll on to the toilet at any time. Simultaneously, throw away the spray bottle on the counter. Once done, move the white towels to a shelf.",
+                "fintune 3":"Throw away the spray bottle on the counter. Subsequently, move the candle and toilet paper roll on to the toilet. Finally, move the white towels to a shelf."
             }
         }
     ],

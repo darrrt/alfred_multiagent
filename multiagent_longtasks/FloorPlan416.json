@@ -77,7 +77,7 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040722_151303/traj_data.json":{
             "tasks":[
-                "Put a cleaned rag in a drawer under the right sink. ",
+                "Put a cleaned towel in a drawer under the right sink. ",
                 "Place a clean towel in a drawer",
                 "Soak the towel, and place it inside the drawer."
             ],
@@ -89,7 +89,7 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-416/trial_T20190908_040658_918781/traj_data.json":{
             "tasks":[
-                "Put the wet rag in the drawer. ",
+                "Put the wet towel in the drawer. ",
                 "Soak a cloth and put it away",
                 "Put a rinsed cloth in the drawer below the rightmost sink."
             ],
@@ -322,7 +322,7 @@
         },
         {
             "task_list":[
-                "Put a cleaned rag in a drawer under the right sink. "
+                "Put a cleaned towel in a drawer under the right sink. "
             ],
             "orign":[
                 [
@@ -395,7 +395,7 @@
         },
         {
             "task_list":[
-                "Put a cleaned rag in a drawer under the right sink. ",
+                "Put a cleaned towel in a drawer under the right sink. ",
                 "Place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity."
             ],
             "orign":[
@@ -405,9 +405,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned rag in a drawer under the right sink at any time. Simultaneously, place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity.",
-                "fintune 2":"Place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity at any time. Simultaneously, put a cleaned rag in a drawer under the right sink.",
-                "fintune 3":"Put a cleaned rag in a drawer under the right sink at any time. After placing the rag, place one  toilet paper roll in the bathroom vanity."
+                "fintune 1":"Put a cleaned towel in a drawer under the right sink at any time. Simultaneously, place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity.",
+                "fintune 2":"Place one full toilet paper roll and one empty toilet paper roll in the bathroom vanity at any time. Simultaneously, put a cleaned towel in a drawer under the right sink.",
+                "fintune 3":"Put a cleaned towel in a drawer under the right sink at any time. After placing the towel, place one  toilet paper roll in the bathroom vanity."
             }
         },
         {

@@ -47,7 +47,7 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-406/trial_T20190907_183616_578160/traj_data.json":{
             "tasks":[
-                "Place a clean rag in the middle of the tub.",
+                "Place a clean towel in the middle of the tub.",
                 "Clean the dirty cloth put back on the tub",
                 "Rinse a washcloth and take it to the bath tub."
             ],
@@ -62,7 +62,7 @@
             "tasks":[
                 "wash the cloth from the tub in the sink, put it back in the tub",
                 "put a clean cloth in to the bath tub",
-                "Put a cleaned rag in the tub."
+                "Put a cleaned towel in the tub."
             ],
             "relative_objects":[
                 "Towel",
@@ -150,9 +150,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-406/trial_T20190908_102552_835735/traj_data.json":{
             "tasks":[
-                "Put the washed rag on the toilet",
-                "Put a clean rag on the toilet tank.",
-                "Move a washed rag to the toilet."
+                "Put the washed towel on the toilet",
+                "Put a clean towel on the toilet tank.",
+                "Move a washed towel to the toilet."
             ],
             "relative_objects":[
                 "HandTowel",
@@ -162,7 +162,7 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-406/trial_T20190908_102735_461565/traj_data.json":{
             "tasks":[
-                "Put the washed rag on the top of the toilet tank.",
+                "Put the washed towel on the top of the toilet tank.",
                 "Rinse a cloth and put it on the toilet tank.",
                 "Place a clean towel on a toilet tank."
             ],
@@ -175,7 +175,7 @@
             "tasks":[
                 "Rinse a cloth and place it on the toilet tank.",
                 "Place a cleaned cloth on top of the toilet's water tank",
-                "Place a clean rag on a toilet tank."
+                "Place a clean towel on a toilet tank."
             ],
             "relative_objects":[
                 "SoapBar",
@@ -193,7 +193,7 @@
         },
         "train/pick_two_obj_and_place-Cloth-None-BathtubBasin-406/trial_T20190907_125825_765067/traj_data.json":{
             "tasks":[
-                "Put wash rags in the tub."
+                "Put wash towels in the tub."
             ],
             "relative_objects":[
                 "Cloth"
@@ -352,7 +352,7 @@
         },
         {
             "task_list":[
-                "Place a clean rag in the middle of the tub."
+                "Place a clean towel in the middle of the tub."
             ],
             "orign":[
                 [
@@ -496,7 +496,7 @@
             "task_list":[
                 "Place the toilet plunger in the cabinet below the sink.",
                 "Put the candles on the bathroom counter",
-                "Put wash rags in the tub."
+                "Put wash towels in the tub."
             ],
             "orign":[
                 [
@@ -506,9 +506,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the candles on the bathroom counter at any time. Simultaneously, place the toilet plunger in the cabinet below the sink. After placing the candles and the plunger, put wash rags in the tub.",
-                "fintune 2":"Put the candles on the bathroom counter at any time. After putting the candles, place the toilet plunger in the cabinet below the sink. Finally, put wash rags in the tub.",
-                "fintune 3":"Place the toilet plunger in the cabinet below the sink at any time. Simultaneously, put wash rags in the tub. After placing the plunger and the wash rags, put the candles on the bathroom counter."
+                "fintune 1":"Put the candles on the bathroom counter at any time. Simultaneously, place the toilet plunger in the cabinet below the sink. After placing the candles and the plunger, put wash towels in the tub.",
+                "fintune 2":"Put the candles on the bathroom counter at any time. After putting the candles, place the toilet plunger in the cabinet below the sink. Finally, put wash towels in the tub.",
+                "fintune 3":"Place the toilet plunger in the cabinet below the sink at any time. Simultaneously, put wash towels in the tub. After placing the plunger and the wash towels, put the candles on the bathroom counter."
             }
         },
         {
@@ -683,7 +683,7 @@
         },
         {
             "task_list":[
-                "Put wash rags in the tub.",
+                "Put wash towels in the tub.",
                 "Move a toilet paper roll and an empty toilet paper roll to the counter.",
                 "put the plunger inside the cupboard",
                 "Collect spraybottle, store under sink",
@@ -699,9 +699,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put wash rags in the tub at any time. Simultaneously, collect spraybottle and store them under the sink. After placing the wash rags, move a toilet paper roll and an empty toilet paper roll to the counter. Finally, put the plunger inside the cupboard and place the rinsed off soap into the trash can.",
-                "fintune 2":"Collect spraybottle and store them under the sink at any time. Simultaneously, put the wash rags in the tub. After collecting the spraybottle, move a toilet paper roll and an empty toilet paper roll to the counter. Then, put the plunger inside the cupboard and place the rinsed off soap into the trash can.",
-                "fintune 3":"Put the plunger inside the cupboard at any time. Simultaneously, move a toilet paper roll and an empty toilet paper roll to the counter. After placing the plunger, put wash rags in the tub. Then, collect spraybottle and store them under the sink, and finally place the rinsed off soap into the trash can."
+                "fintune 1":"Put wash towels in the tub at any time. Simultaneously, collect spraybottle and store them under the sink. After placing the wash towels, move a toilet paper roll and an empty toilet paper roll to the counter. Finally, put the plunger inside the cupboard and place the rinsed off soap into the trash can.",
+                "fintune 2":"Collect spraybottle and store them under the sink at any time. Simultaneously, put the wash towels in the tub. After collecting the spraybottle, move a toilet paper roll and an empty toilet paper roll to the counter. Then, put the plunger inside the cupboard and place the rinsed off soap into the trash can.",
+                "fintune 3":"Put the plunger inside the cupboard at any time. Simultaneously, move a toilet paper roll and an empty toilet paper roll to the counter. After placing the plunger, put wash towels in the tub. Then, collect spraybottle and store them under the sink, and finally place the rinsed off soap into the trash can."
             }
         },
         {

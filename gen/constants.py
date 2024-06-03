@@ -76,7 +76,7 @@ SAVE_FRAME_BEFORE_AND_AFTER_COUNTS = {
 VIDEO_FRAME_RATE = 5
 
 ########################################################################################################################
-# Data & Storage
+# Data & Stotowele
 
 save_path = DATA_SAVE_PATH
 data_dict = OrderedDict()  # dictionary for storing trajectory data to be dumped

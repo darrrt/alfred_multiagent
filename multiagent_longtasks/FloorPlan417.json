@@ -135,7 +135,7 @@
         },
         "train/pick_and_place_simple-Cloth-None-Toilet-417/trial_T20190908_163225_559074/traj_data.json":{
             "tasks":[
-                "Move a rag to the back of the toilet. ",
+                "Move a towel to the back of the toilet. ",
                 "Move a wash cloth to the back end of a toilet seat. ",
                 "put a cloth on the back of the toilet"
             ],
@@ -175,7 +175,7 @@
         "train/pick_two_obj_and_place-Cloth-None-Toilet-417/trial_T20190908_152140_753366/traj_data.json":{
             "tasks":[
                 "Put the red towels on the toilet.",
-                "Move the red rags from the cabinet to the top of the toilet tank."
+                "Move the red towels from the cabinet to the top of the toilet tank."
             ],
             "relative_objects":[
                 "Towel",
@@ -184,7 +184,7 @@
         },
         "train/pick_and_place_simple-Cloth-None-SinkBasin-417/trial_T20190908_120409_207224/traj_data.json":{
             "tasks":[
-                "Place a rag in one of the bathroom sinks.",
+                "Place a towel in one of the bathroom sinks.",
                 "Put a cloth in a sink.",
                 "Put a red cloth into the sink."
             ],
@@ -194,9 +194,9 @@
         },
         "train/pick_and_place_simple-Cloth-None-SinkBasin-417/trial_T20190908_120422_949453/traj_data.json":{
             "tasks":[
-                "Move a rag from a cabinet to the sink.",
-                "Put the red rag under the sink into the sink basin.",
-                "Move a red rag into a sink."
+                "Move a towel from a cabinet to the sink.",
+                "Put the red towel under the sink into the sink basin.",
+                "Move a red towel into a sink."
             ],
             "relative_objects":[
                 "HandTowel",
@@ -274,7 +274,7 @@
         },
         {
             "task_list":[
-                "Move a rag from a cabinet to the sink."
+                "Move a towel from a cabinet to the sink."
             ],
             "orign":[
                 [
@@ -316,7 +316,7 @@
     "tasks_2":[
         {
             "task_list":[
-                "Move a rag to the back of the toilet. ",
+                "Move a towel to the back of the toilet. ",
                 "Put a toilet paper roll on the toilet paper holder. "
             ],
             "orign":[
@@ -326,9 +326,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a toilet paper roll on the toilet paper holder at any time. Simultaneously, move a rag to the back of the toilet.",
-                "fintune 2":"Move a rag to the back of the toilet before putting a toilet paper roll on the toilet paper holder.",
-                "fintune 3":"Put a toilet paper roll on the toilet paper holder at any time. After that, move a rag to the back of the toilet."
+                "fintune 1":"Put a toilet paper roll on the toilet paper holder at any time. Simultaneously, move a towel to the back of the toilet.",
+                "fintune 2":"Move a towel to the back of the toilet before putting a toilet paper roll on the toilet paper holder.",
+                "fintune 3":"Put a toilet paper roll on the toilet paper holder at any time. After that, move a towel to the back of the toilet."
             }
         },
         {
@@ -424,7 +424,7 @@
             "task_list":[
                 "Move the spray cleaners to the toilet tank. ",
                 "Move a candle to the bathroom counter top",
-                "Place a rag in one of the bathroom sinks."
+                "Place a towel in one of the bathroom sinks."
             ],
             "orign":[
                 [
@@ -434,15 +434,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a rag in one of the bathroom sinks. Move a candle to the bathroom counter top. Move the spray cleaners to the toilet tank.",
-                "fintune 2":"Move a candle to the bathroom counter top. Place a rag in one of the bathroom sinks. Move the spray cleaners to the toilet tank.",
-                "fintune 3":"Move a candle to the bathroom counter top. Move the spray cleaners to the toilet tank. Place a rag in one of the bathroom sinks."
+                "fintune 1":"Place a towel in one of the bathroom sinks. Move a candle to the bathroom counter top. Move the spray cleaners to the toilet tank.",
+                "fintune 2":"Move a candle to the bathroom counter top. Place a towel in one of the bathroom sinks. Move the spray cleaners to the toilet tank.",
+                "fintune 3":"Move a candle to the bathroom counter top. Move the spray cleaners to the toilet tank. Place a towel in one of the bathroom sinks."
             }
         },
         {
             "task_list":[
                 "Put an empty roll on a toilet paper holder.",
-                "Move a rag from a cabinet to the sink.",
+                "Move a towel from a cabinet to the sink.",
                 "Place a bottle in a cabinet."
             ],
             "orign":[
@@ -453,16 +453,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put an empty roll on a toilet paper holder at any time. Simultaneously, move a rag from a cabinet to the sink. After completing these tasks, place a bottle in a cabinet.",
-                "fintune 2":"Move a rag from a cabinet to the sink at any time. Simultaneously, put an empty roll on a toilet paper holder. After completing these tasks, place a bottle in a cabinet.",
-                "fintune 3":"Put an empty roll on a toilet paper holder at any time. Simultaneously, move a rag from a cabinet to the sink. After placing the roll and the rag, place a bottle in a cabinet."
+                "fintune 1":"Put an empty roll on a toilet paper holder at any time. Simultaneously, move a towel from a cabinet to the sink. After completing these tasks, place a bottle in a cabinet.",
+                "fintune 2":"Move a towel from a cabinet to the sink at any time. Simultaneously, put an empty roll on a toilet paper holder. After completing these tasks, place a bottle in a cabinet.",
+                "fintune 3":"Put an empty roll on a toilet paper holder at any time. Simultaneously, move a towel from a cabinet to the sink. After placing the roll and the towel, place a bottle in a cabinet."
             }
         },
         {
             "task_list":[
                 "Put a toilet paper roll on the toilet paper holder. ",
                 "take the Spray Bottle out of the cabinet, put it on the counter",
-                "Move a rag to the back of the toilet. "
+                "Move a towel to the back of the toilet. "
             ],
             "orign":[
                 [
@@ -472,9 +472,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take the Spray Bottle out of the cabinet, put it on the counter. After putting the Spray Bottle on the counter, put a toilet paper roll on the toilet paper holder. Finally, move a rag to the back of the toilet.",
-                "fintune 2":"Move a rag to the back of the toilet. At any time, put a toilet paper roll on the toilet paper holder. Simultaneously, take the Spray Bottle out of the cabinet and put it on the counter.",
-                "fintune 3":"Put a toilet paper roll on the toilet paper holder. After putting the toilet paper roll, take the Spray Bottle out of the cabinet, put it on the counter. Finally, move a rag to the back of the toilet."
+                "fintune 1":"Take the Spray Bottle out of the cabinet, put it on the counter. After putting the Spray Bottle on the counter, put a toilet paper roll on the toilet paper holder. Finally, move a towel to the back of the toilet.",
+                "fintune 2":"Move a towel to the back of the toilet. At any time, put a toilet paper roll on the toilet paper holder. Simultaneously, take the Spray Bottle out of the cabinet and put it on the counter.",
+                "fintune 3":"Put a toilet paper roll on the toilet paper holder. After putting the toilet paper roll, take the Spray Bottle out of the cabinet, put it on the counter. Finally, move a towel to the back of the toilet."
             }
         },
         {
@@ -502,7 +502,7 @@
             "task_list":[
                 "Put a toilet paper roll on the toilet paper holder. ",
                 "Move a candle to the bathroom counter top",
-                "Move a rag from a cabinet to the sink.",
+                "Move a towel from a cabinet to the sink.",
                 "Move the spray cleaners to the toilet tank. "
             ],
             "orign":[
@@ -514,14 +514,14 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a toilet paper roll on the toilet paper holder at any time. Simultaneously, move a candle to the bathroom counter top.After putting the toilet paper roll, move a rag from a cabinet to the sink. Finally, move the spray cleaners to the toilet tank.",
-                "fintune 2":"Move a rag from a cabinet to the sink at any time. Simultaneously, put a toilet paper roll on the toilet paper holder.After moving the rag, move a candle to the bathroom counter top. Finally, move the spray cleaners to the toilet tank.",
-                "fintune 3":"Move a candle to the bathroom counter top at any time. Simultaneously, move a rag from a cabinet to the sink.After moving the candle, put a toilet paper roll on the toilet paper holder. Finally, move the spray cleaners to the toilet tank."
+                "fintune 1":"Put a toilet paper roll on the toilet paper holder at any time. Simultaneously, move a candle to the bathroom counter top.After putting the toilet paper roll, move a towel from a cabinet to the sink. Finally, move the spray cleaners to the toilet tank.",
+                "fintune 2":"Move a towel from a cabinet to the sink at any time. Simultaneously, put a toilet paper roll on the toilet paper holder.After moving the towel, move a candle to the bathroom counter top. Finally, move the spray cleaners to the toilet tank.",
+                "fintune 3":"Move a candle to the bathroom counter top at any time. Simultaneously, move a towel from a cabinet to the sink.After moving the candle, put a toilet paper roll on the toilet paper holder. Finally, move the spray cleaners to the toilet tank."
             }
         },
         {
             "task_list":[
-                "Place a rag in one of the bathroom sinks.",
+                "Place a towel in one of the bathroom sinks.",
                 "Put a plunger in a cabinet.",
                 "Place a green candle on a counter.",
                 "To move a bottle from the cabinet to the counter. "
@@ -535,15 +535,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a rag in one of the bathroom sinks. Subsequently, put a plunger in a cabinet. After that, place a green candle on a counter. Finally, move a bottle from the cabinet to the counter.",
-                "fintune 2":"Place a rag in one of the bathroom sinks. Simultaneously, put a plunger in a cabinet. After completing the previous tasks, place a green candle on a counter. To finish, move a bottle from the cabinet to the counter.",
-                "fintune 3":"Put a plunger in a cabinet. Next, place a green candle on a counter. Subsequently, place a rag in one of the bathroom sinks. To complete the tasks, move a bottle from the cabinet to the counter."
+                "fintune 1":"Place a towel in one of the bathroom sinks. Subsequently, put a plunger in a cabinet. After that, place a green candle on a counter. Finally, move a bottle from the cabinet to the counter.",
+                "fintune 2":"Place a towel in one of the bathroom sinks. Simultaneously, put a plunger in a cabinet. After completing the previous tasks, place a green candle on a counter. To finish, move a bottle from the cabinet to the counter.",
+                "fintune 3":"Put a plunger in a cabinet. Next, place a green candle on a counter. Subsequently, place a towel in one of the bathroom sinks. To complete the tasks, move a bottle from the cabinet to the counter."
             }
         },
         {
             "task_list":[
                 "take the Spray Bottle out of the cabinet, put it on the counter",
-                "Place a rag in one of the bathroom sinks.",
+                "Place a towel in one of the bathroom sinks.",
                 "Put an empty roll on a toilet paper holder.",
                 "place a candle at the side of the sink"
             ],
@@ -557,7 +557,7 @@
             ],
             "finetuned":{
                 "fintune 1":"Take the Spray Bottle out of the cabinet and put it on the counter at any time. After placing the Spray Bottle, put an empty roll on a toilet paper holder. Finally, place a candle at the side of the sink.",
-                "fintune 2":"Take the Spray Bottle out of the cabinet and put it on the counter at any time. After placing the Spray Bottle, place a candle at the side of the sink. Finally, put a rag in one of the bathroom sinks.",
+                "fintune 2":"Take the Spray Bottle out of the cabinet and put it on the counter at any time. After placing the Spray Bottle, place a candle at the side of the sink. Finally, put a towel in one of the bathroom sinks.",
                 "fintune 3":"Put an empty roll on a toilet paper holder at any time. After that, take the Spray Bottle out of the cabinet and put it on the counter. Finally, place a candle at the side of the sink."
             }
         },
@@ -608,7 +608,7 @@
         {
             "task_list":[
                 "Move the spray cleaners to the toilet tank. ",
-                "Move a rag from a cabinet to the sink.",
+                "Move a towel from a cabinet to the sink.",
                 "Place a bottle in a cabinet.",
                 "place a candle at the side of the sink",
                 "Put a plunger in a cabinet."
@@ -623,8 +623,8 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a rag from a cabinet to the sink at any time. After moving the rag, place a bottle in a cabinet. Finally, put a plunger in a cabinet.",
-                "fintune 2":"Place a bottle in a cabinet at any time. Simultaneously, move a rag from a cabinet to the sink. Once done, move the spray cleaners to the toilet tank.",
+                "fintune 1":"Move a towel from a cabinet to the sink at any time. After moving the towel, place a bottle in a cabinet. Finally, put a plunger in a cabinet.",
+                "fintune 2":"Place a bottle in a cabinet at any time. Simultaneously, move a towel from a cabinet to the sink. Once done, move the spray cleaners to the toilet tank.",
                 "fintune 3":"Put a plunger in a cabinet at any time. Afterward, move the spray cleaners to the toilet tank. Finally, place a candle at the side of the sink."
             }
         },
@@ -677,7 +677,7 @@
         {
             "task_list":[
                 "Place a green candle on a counter.",
-                "Move a rag to the back of the toilet. ",
+                "Move a towel to the back of the toilet. ",
                 "Put the plunger in the bathroom cabinet",
                 "Put a toilet paper roll on the toilet paper holder. ",
                 "Place the bottle into the trash can."
@@ -692,9 +692,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a green candle on a counter at any time. Simultaneously, put a toilet paper roll on the toilet paper holder. After placing the candle and toilet paper roll, move a rag to the back of the toilet. Finally, put the plunger in the bathroom cabinet and place the bottle into the trash can.",
-                "fintune 2":"Place a green candle on a counter at any time. Simultaneously, place the bottle into the trash can. After placing the candle and the bottle in the trash can, put a toilet paper roll on the toilet paper holder. Then move a rag to the back of the toilet and put the plunger in the bathroom cabinet.",
-                "fintune 3":"Put the plunger in the bathroom cabinet at any time. Simultaneously, place a green candle on a counter. After putting the plunger and placing the candle, put a toilet paper roll on the toilet paper holder. Then move a rag to the back of the toilet and place the bottle into the trash can."
+                "fintune 1":"Place a green candle on a counter at any time. Simultaneously, put a toilet paper roll on the toilet paper holder. After placing the candle and toilet paper roll, move a towel to the back of the toilet. Finally, put the plunger in the bathroom cabinet and place the bottle into the trash can.",
+                "fintune 2":"Place a green candle on a counter at any time. Simultaneously, place the bottle into the trash can. After placing the candle and the bottle in the trash can, put a toilet paper roll on the toilet paper holder. Then move a towel to the back of the toilet and put the plunger in the bathroom cabinet.",
+                "fintune 3":"Put the plunger in the bathroom cabinet at any time. Simultaneously, place a green candle on a counter. After putting the plunger and placing the candle, put a toilet paper roll on the toilet paper holder. Then move a towel to the back of the toilet and place the bottle into the trash can."
             }
         },
         {
@@ -725,7 +725,7 @@
         {
             "task_list":[
                 "Move the spray cleaners to the toilet tank. ",
-                "Move a rag from a cabinet to the sink.",
+                "Move a towel from a cabinet to the sink.",
                 "To move a bottle from the cabinet to the counter. ",
                 "Put away the toilet paper.",
                 "Place a green candle on a counter.",
@@ -742,9 +742,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a green candle on a counter at any time. Simultaneously, move a rag from a cabinet to the sink. After placing the candle and moving the rag, put away the toilet paper. Finally, move the spray cleaners to the toilet tank.",
+                "fintune 1":"Place a green candle on a counter at any time. Simultaneously, move a towel from a cabinet to the sink. After placing the candle and moving the towel, put away the toilet paper. Finally, move the spray cleaners to the toilet tank.",
                 "fintune 2":"To move a bottle from the cabinet to the counter at any time. Simultaneously, place the plunger underneath the sink in the cabinet. After moving the bottle and placing the plunger, put away the toilet paper.",
-                "fintune 3":"Move a rag from a cabinet to the sink at any time. Simultaneously, place a green candle on a counter. After moving the rag and placing the candle, move the spray cleaners to the toilet tank. Finally, put away the toilet paper."
+                "fintune 3":"Move a towel from a cabinet to the sink at any time. Simultaneously, place a green candle on a counter. After moving the towel and placing the candle, move the spray cleaners to the toilet tank. Finally, put away the toilet paper."
             }
         },
         {

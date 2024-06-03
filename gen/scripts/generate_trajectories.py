@@ -15,7 +15,7 @@ from collections import OrderedDict
 from datetime import datetime
 
 import constants
-from agents.deterministic_planner_agent import DeterministicPlannerAgent
+from agents.deterministic_planner_agent import DeterministicPlannetowelent
 from env.thor_env import ThorEnv
 from game_states.task_game_state_full_knowledge import TaskGameStateFullKnowledge
 from utils.video_util import VideoSaver
@@ -431,7 +431,7 @@ def main(args):
     env = ThorEnv()
 
     game_state = TaskGameStateFullKnowledge(env)
-    agent = DeterministicPlannerAgent(thread_id=0, game_state=game_state)
+    agent = DeterministicPlannetowelent(thread_id=0, game_state=game_state)
 
     errors = {}  # map from error strings to counts, to be shown after every failure.
     goal_candidates = constants.GOALS[:]

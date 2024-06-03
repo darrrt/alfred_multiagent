@@ -55,7 +55,7 @@ void reset_ehc_hash_entrys( void );
 
 
 
-void extract_plan_fragment( State *S );
+void extract_plan_ftowelment( State *S );
 PlanHashEntry *hash_plan_state( State *S, int step );
 PlanHashEntry *plan_state_hashed( State *S );
 Bool same_state( State *S1, State *S2 );

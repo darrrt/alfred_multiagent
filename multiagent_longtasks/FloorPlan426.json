@@ -44,8 +44,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-426/trial_T20190910_045202_007687/traj_data.json":{
             "tasks":[
                 "Place a rinsed towel on a toilet tank.",
-                "rinse and rag then put it on the back of the toilet",
-                "Put a washed rag on a toilet tank."
+                "rinse and towel then put it on the back of the toilet",
+                "Put a washed towel on a toilet tank."
             ],
             "relative_objects":[
                 "Towel",
@@ -55,8 +55,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-Toilet-426/trial_T20190910_045221_427487/traj_data.json":{
             "tasks":[
                 "Place a rinsed towel on a toilet tank.",
-                "Putting a clean rag on the toilet",
-                "Place a washed green rag on top of the toilet tank"
+                "Putting a clean towel on the toilet",
+                "Place a washed green towel on top of the toilet tank"
             ],
             "relative_objects":[
                 "Towel",
@@ -101,9 +101,9 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-426/trial_T20190909_100532_757751/traj_data.json":{
             "tasks":[
-                "Put the washed rag in the drawer. ",
-                "Place a washed rag in a cabinet.",
-                "put a clean rag away."
+                "Put the washed towel in the drawer. ",
+                "Place a washed towel in a cabinet.",
+                "put a clean towel away."
             ],
             "relative_objects":[
                 "Cloth"
@@ -111,8 +111,8 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-Drawer-426/trial_T20190909_100612_910742/traj_data.json":{
             "tasks":[
-                "Put a cleaned rag away in a drawer. ",
-                "put washed rag in bathroom drawer",
+                "Put a cleaned towel away in a drawer. ",
+                "put washed towel in bathroom drawer",
                 "drop a clean piece of cloth in the drawer"
             ],
             "relative_objects":[
@@ -197,8 +197,8 @@
         },
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-426/trial_T20190907_012549_247712/traj_data.json":{
             "tasks":[
-                "Clean the rag to place it back in the tub.",
-                "Put a clean rag in the tub.",
+                "Clean the towel to place it back in the tub.",
+                "Put a clean towel in the tub.",
                 "Place a cleaned wash cloth back in the tub. "
             ],
             "relative_objects":[
@@ -221,8 +221,8 @@
         "train/pick_clean_then_place_in_recep-Cloth-None-BathtubBasin-426/trial_T20190907_012506_129403/traj_data.json":{
             "tasks":[
                 "place a clean green cloth in the bathtub",
-                "Place a washed rag in a bathtub.",
-                "Put a clean rag in the bathtub."
+                "Place a washed towel in a bathtub.",
+                "Put a clean towel in the bathtub."
             ],
             "relative_objects":[
                 "Cloth"
@@ -265,7 +265,7 @@
         "train/pick_clean_then_place_in_recep-SoapBar-None-Drawer-426/trial_T20190909_074606_425858/traj_data.json":{
             "tasks":[
                 "place a bar of soap inside the drawers of the bathroom cabinet",
-                "Put a bar of soap in the storage table once it is rinsed off.",
+                "Put a bar of soap in the stotowele table once it is rinsed off.",
                 "Move a rinse bar of soap to a drawer."
             ],
             "relative_objects":[
@@ -295,8 +295,8 @@
         },
         "tests_seen/trial_T20190909_100640_329421/traj_data.json":{
             "tasks":[
-                "Wash a rag and put it in the drawer",
-                "Put a clean green rag in a drawer.",
+                "Wash a towel and put it in the drawer",
+                "Put a clean green towel in a drawer.",
                 "Put a wet green cloth in one of the bottom drawers of the bathroom cabinet."
             ],
             "relative_objects":[
@@ -306,9 +306,9 @@
         },
         "tests_seen/trial_T20190909_095218_969235/traj_data.json":{
             "tasks":[
-                "Put a rinsed rag on the back of the toilet.",
-                "TO clean a rag and place it on the back of the toilet.",
-                "Put a clean green rag on the back of the toilet."
+                "Put a rinsed towel on the back of the toilet.",
+                "TO clean a towel and place it on the back of the toilet.",
+                "Put a clean green towel on the back of the toilet."
             ],
             "relative_objects":[
                 "Towel",
@@ -382,7 +382,7 @@
     "tasks_2":[
         {
             "task_list":[
-                "Put a cleaned rag away in a drawer. ",
+                "Put a cleaned towel away in a drawer. ",
                 "Place a bottle on top of the toilet."
             ],
             "orign":[
@@ -392,9 +392,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a bottle on top of the toilet at any time. Simultaneously, put a cleaned rag away in a drawer.",
-                "fintune 2":"Put a cleaned rag away in a drawer at any time. Simultaneously, place a bottle on top of the toilet.",
-                "fintune 3":"Put a cleaned rag away in a drawer at any time. After putting away the rag, place a bottle on top of the toilet."
+                "fintune 1":"Place a bottle on top of the toilet at any time. Simultaneously, put a cleaned towel away in a drawer.",
+                "fintune 2":"Put a cleaned towel away in a drawer at any time. Simultaneously, place a bottle on top of the toilet.",
+                "fintune 3":"Put a cleaned towel away in a drawer at any time. After putting away the towel, place a bottle on top of the toilet."
             }
         },
         {
@@ -416,7 +416,7 @@
         },
         {
             "task_list":[
-                "Wash a rag and put it in the drawer",
+                "Wash a towel and put it in the drawer",
                 "Put wet soap in the tub."
             ],
             "orign":[
@@ -426,9 +426,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Wash a rag and put it in the drawer at any time. Simultaneously, put wet soap in the tub.",
-                "fintune 2":"Put wet soap in the tub at any time. Simultaneously, wash a rag and put it in the drawer.",
-                "fintune 3":"Wash a rag and put it in the drawer at any time. After putting the rag, put wet soap in the tub."
+                "fintune 1":"Wash a towel and put it in the drawer at any time. Simultaneously, put wet soap in the tub.",
+                "fintune 2":"Put wet soap in the tub at any time. Simultaneously, wash a towel and put it in the drawer.",
+                "fintune 3":"Wash a towel and put it in the drawer at any time. After putting the towel, put wet soap in the tub."
             }
         },
         {
@@ -451,7 +451,7 @@
         {
             "task_list":[
                 "put a rinsed bar of soap in to the bath tub",
-                "Put the washed rag in the drawer. "
+                "Put the washed towel in the drawer. "
             ],
             "orign":[
                 [
@@ -460,9 +460,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the washed rag in the drawer at any time. Simultaneously, put a rinsed bar of soap into the bath tub.",
-                "fintune 2":"Put a rinsed bar of soap into the bath tub at any time. Simultaneously, put the washed rag in the drawer.",
-                "fintune 3":"Put the washed rag in the drawer at any time. After that, put a rinsed bar of soap into the bath tub."
+                "fintune 1":"Put the washed towel in the drawer at any time. Simultaneously, put a rinsed bar of soap into the bath tub.",
+                "fintune 2":"Put a rinsed bar of soap into the bath tub at any time. Simultaneously, put the washed towel in the drawer.",
+                "fintune 3":"Put the washed towel in the drawer at any time. After that, put a rinsed bar of soap into the bath tub."
             }
         }
     ],
@@ -490,7 +490,7 @@
             "task_list":[
                 "Put the soap bottle bottles on top of the toilet",
                 "Put the candles on the toilet in the bottom right drawer below the counter.",
-                "Put a cleaned rag away in a drawer. "
+                "Put a cleaned towel away in a drawer. "
             ],
             "orign":[
                 [
@@ -500,9 +500,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the soap bottle bottles on top of the toilet at any time. Simultaneously, put a cleaned rag away in a drawer. After putting the soap bottle bottles, put the candles on the toilet in the bottom right drawer below the counter.",
-                "fintune 2":"Put the soap bottle bottles on top of the toilet at any time. Simultaneously, put a cleaned rag away in a drawer. After putting the soap bottle bottles, put the candles on the toilet in the bottom right drawer below the counter.",
-                "fintune 3":"Put a cleaned rag away in a drawer at any time. Simultaneously, put the soap bottle bottles on top of the toilet. After putting the rag away, put the candles on the toilet in the bottom right drawer below the counter."
+                "fintune 1":"Put the soap bottle bottles on top of the toilet at any time. Simultaneously, put a cleaned towel away in a drawer. After putting the soap bottle bottles, put the candles on the toilet in the bottom right drawer below the counter.",
+                "fintune 2":"Put the soap bottle bottles on top of the toilet at any time. Simultaneously, put a cleaned towel away in a drawer. After putting the soap bottle bottles, put the candles on the toilet in the bottom right drawer below the counter.",
+                "fintune 3":"Put a cleaned towel away in a drawer at any time. Simultaneously, put the soap bottle bottles on top of the toilet. After putting the towel away, put the candles on the toilet in the bottom right drawer below the counter."
             }
         },
         {
@@ -547,7 +547,7 @@
             "task_list":[
                 "Place a toilet paper roll on a toilet paper holder.",
                 "Put the soap bottle bottles on top of the toilet",
-                "Put a cleaned rag away in a drawer. "
+                "Put a cleaned towel away in a drawer. "
             ],
             "orign":[
                 [
@@ -583,7 +583,7 @@
         {
             "task_list":[
                 "Place a rinsed bar of soap in a drawer.",
-                "Put the washed rag in the drawer. ",
+                "Put the washed towel in the drawer. ",
                 "Place a bottle on top of the toilet.",
                 "Move tissues from counter to toilet"
             ],
@@ -596,16 +596,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a rinsed bar of soap in a drawer at any time. Put the washed rag in the drawer at any time. Place a bottle on top of the toilet at any time. Move tissues from counter to toilet after placing the soap and rag in the drawer.",
-                "fintune 2":"Place a rinsed bar of soap in a drawer at any time. Put the washed rag in the drawer at any time. Move tissues from counter to toilet at any time. Place a bottle on top of the toilet after moving the tissues.",
-                "fintune 3":"Put the washed rag in the drawer at any time. Place a bottle on top of the toilet at any time. Place a rinsed bar of soap in a drawer after putting the rag in the drawer. Move tissues from counter to toilet after placing the bottle on the toilet."
+                "fintune 1":"Place a rinsed bar of soap in a drawer at any time. Put the washed towel in the drawer at any time. Place a bottle on top of the toilet at any time. Move tissues from counter to toilet after placing the soap and towel in the drawer.",
+                "fintune 2":"Place a rinsed bar of soap in a drawer at any time. Put the washed towel in the drawer at any time. Move tissues from counter to toilet at any time. Place a bottle on top of the toilet after moving the tissues.",
+                "fintune 3":"Put the washed towel in the drawer at any time. Place a bottle on top of the toilet at any time. Place a rinsed bar of soap in a drawer after putting the towel in the drawer. Move tissues from counter to toilet after placing the bottle on the toilet."
             }
         },
         {
             "task_list":[
                 "Put a clean bar of soap in a bin.",
                 "Place a bottle on top of the toilet.",
-                "Put a cleaned rag away in a drawer. ",
+                "Put a cleaned towel away in a drawer. ",
                 "Put the candles on the toilet in the bottom right drawer below the counter."
             ],
             "orign":[
@@ -617,9 +617,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a clean bar of soap in a bin. Simultaneously, place a bottle on top of the toilet. After placing the soap and the bottle, put a cleaned rag away in a drawer.",
+                "fintune 1":"Put a clean bar of soap in a bin. Simultaneously, place a bottle on top of the toilet. After placing the soap and the bottle, put a cleaned towel away in a drawer.",
                 "fintune 2":"Put a clean bar of soap in a bin. Simultaneously, place a bottle on top of the toilet. After placing the soap and the bottle, put the candles on the toilet in the bottom right drawer below the counter.",
-                "fintune 3":"Put a clean bar of soap in a bin. After putting the soap, place a bottle on top of the toilet. Simultaneously, put the candles on the toilet in the bottom right drawer below the counter. Finally, put the cleaned rag away in a drawer."
+                "fintune 3":"Put a clean bar of soap in a bin. After putting the soap, place a bottle on top of the toilet. Simultaneously, put the candles on the toilet in the bottom right drawer below the counter. Finally, put the cleaned towel away in a drawer."
             }
         },
         {
@@ -646,7 +646,7 @@
         {
             "task_list":[
                 "Put wet soap in the bin.k",
-                "Put the washed rag in the drawer. ",
+                "Put the washed towel in the drawer. ",
                 "Put the candles in the bathroom in a drawer.",
                 "To put an empty roll on the toilet paper holder on the wall."
             ],
@@ -659,9 +659,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the candles in the bathroom in a drawer at any time. Simultaneously, put the washed rag in the drawer. After putting the candles and the washed rag, put wet soap in the bin.",
-                "fintune 2":"Put wet soap in the bin. Simultaneously, put the candles in the bathroom in a drawer. After putting the soap and candles, put the washed rag in the drawer.",
-                "fintune 3":"Put the washed rag in the drawer at any time. Simultaneously, put the candles in the bathroom in a drawer. After putting the rag and candles, put wet soap in the bin."
+                "fintune 1":"Put the candles in the bathroom in a drawer at any time. Simultaneously, put the washed towel in the drawer. After putting the candles and the washed towel, put wet soap in the bin.",
+                "fintune 2":"Put wet soap in the bin. Simultaneously, put the candles in the bathroom in a drawer. After putting the soap and candles, put the washed towel in the drawer.",
+                "fintune 3":"Put the washed towel in the drawer at any time. Simultaneously, put the candles in the bathroom in a drawer. After putting the towel and candles, put wet soap in the bin."
             }
         }
     ],

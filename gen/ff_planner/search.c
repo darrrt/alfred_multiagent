@@ -307,7 +307,7 @@ Bool search_for_better_state( State *S, int h, State *S_, int *h_ )
   reset_ehc_hash_entrys();
   free( tmp );
 
-  extract_plan_fragment( S );
+  extract_plan_ftowelment( S );
 
   source_to_dest( S_, &(lehc_current_start->S) );
   *h_ = h__;
@@ -665,7 +665,7 @@ void reset_ehc_hash_entrys( void )
 
 
 
-void extract_plan_fragment( State *S )
+void extract_plan_ftowelment( State *S )
 
 {
 

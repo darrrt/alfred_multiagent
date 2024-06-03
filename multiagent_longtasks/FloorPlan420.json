@@ -184,7 +184,7 @@
         },
         "train/pick_two_obj_and_place-Cloth-None-SideTable-420/trial_T20190907_182048_009770/traj_data.json":{
             "tasks":[
-                "Put away clean rags"
+                "Put away clean towels"
             ],
             "relative_objects":[
                 "Towel",
@@ -268,8 +268,8 @@
         },
         "train/pick_and_place_simple-Cloth-None-SideTable-420/trial_T20190909_091135_148287/traj_data.json":{
             "tasks":[
-                "Place a rag on a table.",
-                "Put a rag on the black table.",
+                "Place a towel on a table.",
+                "Put a towel on the black table.",
                 "Place washcloth to dry on table"
             ],
             "relative_objects":[
@@ -279,9 +279,9 @@
         },
         "train/pick_and_place_simple-Cloth-None-SideTable-420/trial_T20190909_091108_122104/traj_data.json":{
             "tasks":[
-                "Move a purple rag to the black table.",
-                "Put a rag on the black table.",
-                "Put a rag on a table."
+                "Move a purple towel to the black table.",
+                "Put a towel on the black table.",
+                "Put a towel on a table."
             ],
             "relative_objects":[
                 "Towel",
@@ -569,7 +569,7 @@
         {
             "task_list":[
                 "Put a candle on a table.",
-                "Put away clean rags",
+                "Put away clean towels",
                 "Place a clean bar of soap into a small green trash can."
             ],
             "orign":[
@@ -580,9 +580,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle on a table at any time. Simultaneously, put away clean rags. Once done, place a clean bar of soap into a small green trash can.",
-                "fintune 2":"Put away clean rags at any time. Simultaneously, place a clean bar of soap into a small green trash can. Once done, put a candle on a table.",
-                "fintune 3":"Put a candle on a table at any time. Afterward, put away clean rags. Once done, place a clean bar of soap into a small green trash can."
+                "fintune 1":"Put a candle on a table at any time. Simultaneously, put away clean towels. Once done, place a clean bar of soap into a small green trash can.",
+                "fintune 2":"Put away clean towels at any time. Simultaneously, place a clean bar of soap into a small green trash can. Once done, put a candle on a table.",
+                "fintune 3":"Put a candle on a table at any time. Afterward, put away clean towels. Once done, place a clean bar of soap into a small green trash can."
             }
         }
     ],
