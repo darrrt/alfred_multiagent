@@ -99,7 +99,7 @@
         },
         "tests_unseen/trial_T20190909_153749_278030/traj_data.json":{
             "tasks":[
-                "Move a bottle of lotion to the toilet tank.",
+                "Move a bottle of soap bottle to the toilet tank.",
                 "Put a soap dispenser on top of the toilet.",
                 "Put a soap bottle on the toilet tank lid. "
             ],
@@ -132,7 +132,7 @@
         },
         "tests_unseen/trial_T20190911_215052_838062/traj_data.json":{
             "tasks":[
-                "Pick up a bottle of lotion to throw it away.",
+                "Pick up a bottle of soap bottle to throw it away.",
                 "throw away a soap bottle into the garbage can",
                 "put pumper bottle in green bin"
             ],
@@ -165,7 +165,7 @@
         },
         "tests_unseen/trial_T20190909_153940_526649/traj_data.json":{
             "tasks":[
-                "Move a bottle of lotion to the toilet tank.",
+                "Move a bottle of soap bottle to the toilet tank.",
                 "Place a soap bottle on a toilet tank.",
                 "Place the bottle on the toilet."
             ],
@@ -198,7 +198,7 @@
         "tests_unseen/trial_T20190909_151931_440231/traj_data.json":{
             "tasks":[
                 "Place a soap bottle in a trash bin.",
-                "Move a bottle of lotion into a small green bin.",
+                "Move a bottle of soap bottle into a small green bin.",
                 "Put a bottle in a trash can."
             ],
             "relative_objects":[
@@ -269,7 +269,7 @@
         },
         "tests_unseen/trial_T20190909_154013_536038/traj_data.json":{
             "tasks":[
-                "Pick up the bottle of lotion from the sinks to move to the lid of the toilet tank.",
+                "Pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank.",
                 "Move a bottle of soap from a counter to the top of a toilet.",
                 "Place a bottle on a toilet tank."
             ],
@@ -355,7 +355,7 @@
     "tasks_2":[
         {
             "task_list":[
-                "Move a bottle of lotion to the toilet tank.",
+                "Move a bottle of soap bottle to the toilet tank.",
                 "Store a plunger in a bathroom vanity."
             ],
             "orign":[
@@ -365,14 +365,14 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move a bottle of lotion to the toilet tank at any time. Store a plunger in a bathroom vanity after moving the bottle of lotion.",
-                "fintune 2":"Store a plunger in a bathroom vanity at any time. Move a bottle of lotion to the toilet tank after storing the plunger.",
-                "fintune 3":"Move a bottle of lotion to the toilet tank at any time. Store a plunger in a bathroom vanity simultaneously with moving the bottle of lotion."
+                "fintune 1":"Move a bottle of soap bottle to the toilet tank at any time. Store a plunger in a bathroom vanity after moving the bottle of soap bottle.",
+                "fintune 2":"Store a plunger in a bathroom vanity at any time. Move a bottle of soap bottle to the toilet tank after storing the plunger.",
+                "fintune 3":"Move a bottle of soap bottle to the toilet tank at any time. Store a plunger in a bathroom vanity simultaneously with moving the bottle of soap bottle."
             }
         },
         {
             "task_list":[
-                "Move a bottle of lotion to the toilet tank.",
+                "Move a bottle of soap bottle to the toilet tank.",
                 "Put wet soap on the toilet. "
             ],
             "orign":[
@@ -382,9 +382,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put wet soap on the toilet.After putting the soap on the toilet, move a bottle of lotion to the toilet tank.",
-                "fintune 2":"Put wet soap on the toilet.Move a bottle of lotion to the toilet tank at any time.",
-                "fintune 3":"Move a bottle of lotion to the toilet tank at any time. After moving the lotion to the toilet tank, put wet soap on the toilet."
+                "fintune 1":"Put wet soap on the toilet.After putting the soap on the toilet, move a bottle of soap bottle to the toilet tank.",
+                "fintune 2":"Put wet soap on the toilet.Move a bottle of soap bottle to the toilet tank at any time.",
+                "fintune 3":"Move a bottle of soap bottle to the toilet tank at any time. After moving the soap bottle to the toilet tank, put wet soap on the toilet."
             }
         },
         {
@@ -423,7 +423,7 @@
         },
         {
             "task_list":[
-                "Pick up the bottle of lotion from the sinks to move to the lid of the toilet tank.",
+                "Pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank.",
                 "Put wet soap on the toilet. "
             ],
             "orign":[
@@ -433,9 +433,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put wet soap on the toilet. Move the bottle of lotion from the sinks to the lid of the toilet tank.",
-                "fintune 2":"Move the bottle of lotion from the sinks to the lid of the toilet tank. Put wet soap on the toilet.",
-                "fintune 3":"Put wet soap on the toilet. Move the bottle of lotion from the sinks to the lid of the toilet tank."
+                "fintune 1":"Put wet soap on the toilet. Move the bottle of soap bottle from the sinks to the lid of the toilet tank.",
+                "fintune 2":"Move the bottle of soap bottle from the sinks to the lid of the toilet tank. Put wet soap on the toilet.",
+                "fintune 3":"Put wet soap on the toilet. Move the bottle of soap bottle from the sinks to the lid of the toilet tank."
             }
         }
     ],
@@ -499,7 +499,7 @@
         },
         {
             "task_list":[
-                "Move a bottle of lotion to the toilet tank.",
+                "Move a bottle of soap bottle to the toilet tank.",
                 "Store a plunger in a bathroom vanity.",
                 "Put a  box of tissues on the toilet."
             ],
@@ -511,16 +511,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Store a plunger in a bathroom vanity at any time. Simultaneously, move a bottle of lotion to the toilet tank. After storing the plunger, put a box of tissues on the toilet.",
-                "fintune 2":"Move a bottle of lotion to the toilet tank at any time. Simultaneously, put a box of tissues on the toilet. After moving the lotion, store a plunger in a bathroom vanity.",
-                "fintune 3":"Put a box of tissues on the toilet at any time. Simultaneously, store a plunger in a bathroom vanity. After putting the tissues, move a bottle of lotion to the toilet tank."
+                "fintune 1":"Store a plunger in a bathroom vanity at any time. Simultaneously, move a bottle of soap bottle to the toilet tank. After storing the plunger, put a box of tissues on the toilet.",
+                "fintune 2":"Move a bottle of soap bottle to the toilet tank at any time. Simultaneously, put a box of tissues on the toilet. After moving the soap bottle, store a plunger in a bathroom vanity.",
+                "fintune 3":"Put a box of tissues on the toilet at any time. Simultaneously, store a plunger in a bathroom vanity. After putting the tissues, move a bottle of soap bottle to the toilet tank."
             }
         },
         {
             "task_list":[
                 "Put away candles in the bathroom cabinet",
                 "Put wet soap on the toilet. ",
-                "Pick up the bottle of lotion from the sinks to move to the lid of the toilet tank."
+                "Pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank."
             ],
             "orign":[
                 [
@@ -530,9 +530,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put away candles in the bathroom cabinet at any time. Simultaneously, put wet soap on the toilet. After putting away the candles and wetting the soap, pick up the bottle of lotion from the sinks to move to the lid of the toilet tank.",
-                "fintune 2":"Put wet soap on the toilet at any time. Simultaneously, pick up the bottle of lotion from the sinks to move to the lid of the toilet tank. After wetting the soap, put away candles in the bathroom cabinet.",
-                "fintune 3":"Put away candles in the bathroom cabinet at any time. Simultaneously, pick up the bottle of lotion from the sinks to move to the lid of the toilet tank. After putting away the candles, put wet soap on the toilet."
+                "fintune 1":"Put away candles in the bathroom cabinet at any time. Simultaneously, put wet soap on the toilet. After putting away the candles and wetting the soap, pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank.",
+                "fintune 2":"Put wet soap on the toilet at any time. Simultaneously, pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank. After wetting the soap, put away candles in the bathroom cabinet.",
+                "fintune 3":"Put away candles in the bathroom cabinet at any time. Simultaneously, pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank. After putting away the candles, put wet soap on the toilet."
             }
         }
     ],
@@ -583,7 +583,7 @@
             "task_list":[
                 "Place the toilet plunger beneath the sink.",
                 "move empty toilet paper roll from back of toilet to holder",
-                "Pick up the bottle of lotion from the sinks to move to the lid of the toilet tank.",
+                "Pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank.",
                 "Put a  box of tissues on the toilet."
             ],
             "orign":[
@@ -595,9 +595,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place the toilet plunger beneath the sink at any time. Simultaneously, move empty toilet paper roll from back of toilet to holder. After placing the plunger and moving the toilet paper roll, pick up the bottle of lotion from the sinks to move to the lid of the toilet tank. Finally, put a box of tissues on the toilet.",
-                "fintune 2":"Place the toilet plunger beneath the sink at any time. Simultaneously, pick up the bottle of lotion from the sinks to move to the lid of the toilet tank. After placing the plunger and moving the lotion, move empty toilet paper roll from back of toilet to holder. Finally, put a box of tissues on the toilet.",
-                "fintune 3":"Move empty toilet paper roll from back of toilet to holder at any time. Simultaneously, pick up the bottle of lotion from the sinks to move to the lid of the toilet tank. After moving the toilet paper roll and lotion, place the toilet plunger beneath the sink. Finally, put a box of tissues on the toilet."
+                "fintune 1":"Place the toilet plunger beneath the sink at any time. Simultaneously, move empty toilet paper roll from back of toilet to holder. After placing the plunger and moving the toilet paper roll, pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank. Finally, put a box of tissues on the toilet.",
+                "fintune 2":"Place the toilet plunger beneath the sink at any time. Simultaneously, pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank. After placing the plunger and moving the soap bottle, move empty toilet paper roll from back of toilet to holder. Finally, put a box of tissues on the toilet.",
+                "fintune 3":"Move empty toilet paper roll from back of toilet to holder at any time. Simultaneously, pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank. After moving the toilet paper roll and soap bottle, place the toilet plunger beneath the sink. Finally, put a box of tissues on the toilet."
             }
         },
         {
@@ -648,7 +648,7 @@
             "task_list":[
                 "Put away candles in the bathroom cabinet",
                 "Place the toilet plunger beneath the sink.",
-                "Pick up a bottle of lotion to throw it away.",
+                "Pick up a bottle of soap bottle to throw it away.",
                 "Put the toilet paper rolls away.",
                 "Put a  box of tissues on the toilet."
             ],
@@ -662,9 +662,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the toilet paper rolls away. Sequentially, put away candles in the bathroom cabinet and place the toilet plunger beneath the sink. After that, pick up a bottle of lotion to throw it away. Finally, put a box of tissues on the toilet.",
-                "fintune 2":"Put away candles in the bathroom cabinet at any time. Simultaneously, place the toilet plunger beneath the sink and pick up a bottle of lotion to throw it away. After that, put the toilet paper rolls away. Finally, put a box of tissues on the toilet.",
-                "fintune 3":"Pick up a bottle of lotion to throw it away first. Sequentially, put the toilet paper rolls away and put away candles in the bathroom cabinet. Simultaneously, place the toilet plunger beneath the sink and put a box of tissues on the toilet."
+                "fintune 1":"Put the toilet paper rolls away. Sequentially, put away candles in the bathroom cabinet and place the toilet plunger beneath the sink. After that, pick up a bottle of soap bottle to throw it away. Finally, put a box of tissues on the toilet.",
+                "fintune 2":"Put away candles in the bathroom cabinet at any time. Simultaneously, place the toilet plunger beneath the sink and pick up a bottle of soap bottle to throw it away. After that, put the toilet paper rolls away. Finally, put a box of tissues on the toilet.",
+                "fintune 3":"Pick up a bottle of soap bottle to throw it away first. Sequentially, put the toilet paper rolls away and put away candles in the bathroom cabinet. Simultaneously, place the toilet plunger beneath the sink and put a box of tissues on the toilet."
             }
         },
         {
@@ -672,7 +672,7 @@
                 "place a clean bar of soap down on top of the toilet",
                 "Put an empty roll and a full roll of toilet paper in a sink cabinet",
                 "Place the toilet plunger beneath the sink.",
-                "Pick up the bottle of lotion from the sinks to move to the lid of the toilet tank.",
+                "Pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank.",
                 "Put a box of tissues on the toilet."
             ],
             "orign":[
@@ -685,9 +685,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place the toilet plunger beneath the sink. Simultaneously, put an empty roll and a full roll of toilet paper in a sink cabinet. After placing the plunger and toilet paper, place a clean bar of soap down on top of the toilet. Next, pick up the bottle of lotion from the sinks and move it to the lid of the toilet tank. Finally, put a box of tissues on the toilet.",
-                "fintune 2":"Put an empty roll and a full roll of toilet paper in a sink cabinet at any time. Simultaneously, pick up the bottle of lotion from the sinks to move to the lid of the toilet tank. After placing the toilet paper and lotion, place a clean bar of soap down on top of the toilet. Next, put a box of tissues on the toilet. Finally, place the toilet plunger beneath the sink.",
-                "fintune 3":"Place a clean bar of soap down on top of the toilet at any time. Simultaneously, pick up the bottle of lotion from the sinks to move to the lid of the toilet tank. After placing the soap and lotion, put an empty roll and a full roll of toilet paper in a sink cabinet. Next, place the toilet plunger beneath the sink. Finally, put a box of tissues on the toilet."
+                "fintune 1":"Place the toilet plunger beneath the sink. Simultaneously, put an empty roll and a full roll of toilet paper in a sink cabinet. After placing the plunger and toilet paper, place a clean bar of soap down on top of the toilet. Next, pick up the bottle of soap bottle from the sinks and move it to the lid of the toilet tank. Finally, put a box of tissues on the toilet.",
+                "fintune 2":"Put an empty roll and a full roll of toilet paper in a sink cabinet at any time. Simultaneously, pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank. After placing the toilet paper and soap bottle, place a clean bar of soap down on top of the toilet. Next, put a box of tissues on the toilet. Finally, place the toilet plunger beneath the sink.",
+                "fintune 3":"Place a clean bar of soap down on top of the toilet at any time. Simultaneously, pick up the bottle of soap bottle from the sinks to move to the lid of the toilet tank. After placing the soap and soap bottle, put an empty roll and a full roll of toilet paper in a sink cabinet. Next, place the toilet plunger beneath the sink. Finally, put a box of tissues on the toilet."
             }
         },
         {
@@ -740,7 +740,7 @@
     "tasks_6":[
         {
             "task_list":[
-                "Move a bottle of lotion to the toilet tank.",
+                "Move a bottle of soap bottle to the toilet tank.",
                 "place a clean bar of soap down on top of the toilet",
                 "Put away candles in the bathroom cabinet",
                 "Move the spray bottles to the top of the toilet. ",
@@ -758,9 +758,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a box of tissues on the toilet at any time. Simultaneously, place a clean bar of soap down on top of the toilet.After putting the tissues and soap, move the spray bottles to the top of the toilet. Finally, put away candles in the bathroom cabinet and move the bottle of lotion to the toilet tank.",
-                "fintune 2":"Move a bottle of lotion to the toilet tank. Next, place the toilet plunger beneath the sink. After that, put a box of tissues on the toilet. Subsequently, move the spray bottles to the top of the toilet. Finally, put away candles in the bathroom cabinet and place a clean bar of soap down on top of the toilet.",
-                "fintune 3":"Place a clean bar of soap down on top of the toilet at any time. Simultaneously, put away candles in the bathroom cabinet and move the spray bottles to the top of the toilet. After that, put a box of tissues on the toilet and move the bottle of lotion to the toilet tank. Finally, place the toilet plunger beneath the sink."
+                "fintune 1":"Put a box of tissues on the toilet at any time. Simultaneously, place a clean bar of soap down on top of the toilet.After putting the tissues and soap, move the spray bottles to the top of the toilet. Finally, put away candles in the bathroom cabinet and move the bottle of soap bottle to the toilet tank.",
+                "fintune 2":"Move a bottle of soap bottle to the toilet tank. Next, place the toilet plunger beneath the sink. After that, put a box of tissues on the toilet. Subsequently, move the spray bottles to the top of the toilet. Finally, put away candles in the bathroom cabinet and place a clean bar of soap down on top of the toilet.",
+                "fintune 3":"Place a clean bar of soap down on top of the toilet at any time. Simultaneously, put away candles in the bathroom cabinet and move the spray bottles to the top of the toilet. After that, put a box of tissues on the toilet and move the bottle of soap bottle to the toilet tank. Finally, place the toilet plunger beneath the sink."
             }
         }
     ],

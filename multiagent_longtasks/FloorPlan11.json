@@ -753,7 +753,7 @@
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-11/trial_T20190908_175640_840876/traj_data.json":{
             "tasks":[
                 "Place soap into a bin.",
-                "Move a bottle of lotion into a green bin.",
+                "Move a bottle of soap bottle into a green bin.",
                 "Throw away a bottle of soap."
             ],
             "relative_objects":[
@@ -764,7 +764,7 @@
             "tasks":[
                 "Put a bottle of soap in the trash.",
                 "Place a soap bottle in a container.",
-                "Throw away the bottle of lotion."
+                "Throw away the bottle of soap bottle."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -772,7 +772,7 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-11/trial_T20190908_175650_970050/traj_data.json":{
             "tasks":[
-                "Move lotion from the counter to the trash.",
+                "Move soap bottle from the counter to the trash.",
                 "Move a soap dispenser from the counter to the trashcan. ",
                 "Throw away a soap dispenser."
             ],
@@ -1575,7 +1575,7 @@
             "task_list":[
                 "Place a cooled slice of lettuce to the right of the knife.",
                 "place a microwaved apple slice inside of the refrigerator",
-                "Move lotion from the counter to the trash."
+                "Move soap bottle from the counter to the trash."
             ],
             "orign":[
                 [
@@ -1585,9 +1585,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a microwaved apple slice inside of the refrigerator at any time. After placing the apple slice, move lotion from the counter to the trash. Lastly, place a cooled slice of lettuce to the right of the knife.",
-                "fintune 2":"Move lotion from the counter to the trash at any time. After moving the lotion, place a microwaved apple slice inside of the refrigerator. Finally, place a cooled slice of lettuce to the right of the knife.",
-                "fintune 3":"Place a cooled slice of lettuce to the right of the knife at any time. Simultaneously, place a microwaved apple slice inside of the refrigerator. After placing the lettuce and apple slice, move lotion from the counter to the trash."
+                "fintune 1":"Place a microwaved apple slice inside of the refrigerator at any time. After placing the apple slice, move soap bottle from the counter to the trash. Lastly, place a cooled slice of lettuce to the right of the knife.",
+                "fintune 2":"Move soap bottle from the counter to the trash at any time. After moving the soap bottle, place a microwaved apple slice inside of the refrigerator. Finally, place a cooled slice of lettuce to the right of the knife.",
+                "fintune 3":"Place a cooled slice of lettuce to the right of the knife at any time. Simultaneously, place a microwaved apple slice inside of the refrigerator. After placing the lettuce and apple slice, move soap bottle from the counter to the trash."
             }
         },
         {

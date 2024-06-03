@@ -124,7 +124,7 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-Toilet-408/trial_T20190907_084114_235446/traj_data.json":{
             "tasks":[
-                "Set a bottle of lotion on the back of the toilet.",
+                "Set a bottle of soap bottle on the back of the toilet.",
                 "Put the bottle on the toilet",
                 "place a soap dispenser on top of the toilet"
             ],
@@ -437,7 +437,7 @@
             "task_list":[
                 "Move a plunger from the floor to a cabinet.",
                 "Place a rinsed bar of soap on a toilet tank.",
-                "Set a bottle of lotion on the back of the toilet."
+                "Set a bottle of soap bottle on the back of the toilet."
             ],
             "orign":[
                 [
@@ -447,9 +447,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a rinsed bar of soap on a toilet tank at any time. Simultaneously, set a bottle of lotion on the back of the toilet. After placing the soap and lotion, move a plunger from the floor to a cabinet.",
-                "fintune 2":"Set a bottle of lotion on the back of the toilet at any time. Simultaneously, move a plunger from the floor to a cabinet. After setting the lotion and plunger, place a rinsed bar of soap on a toilet tank.",
-                "fintune 3":"Move a plunger from the floor to a cabinet first. Then, place a rinsed bar of soap on a toilet tank. Once the soap is placed, set a bottle of lotion on the back of the toilet."
+                "fintune 1":"Place a rinsed bar of soap on a toilet tank at any time. Simultaneously, set a bottle of soap bottle on the back of the toilet. After placing the soap and soap bottle, move a plunger from the floor to a cabinet.",
+                "fintune 2":"Set a bottle of soap bottle on the back of the toilet at any time. Simultaneously, move a plunger from the floor to a cabinet. After setting the soap bottle and plunger, place a rinsed bar of soap on a toilet tank.",
+                "fintune 3":"Move a plunger from the floor to a cabinet first. Then, place a rinsed bar of soap on a toilet tank. Once the soap is placed, set a bottle of soap bottle on the back of the toilet."
             }
         },
         {

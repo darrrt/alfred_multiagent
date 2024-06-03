@@ -5,7 +5,7 @@
             "tasks":[
                 "Place the bottle into the trash can.",
                 "move soap bottle from back of toilet to trash can",
-                "Throw away a bottle of lotion."
+                "Throw away a bottle of soap bottle."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -76,7 +76,7 @@
             "tasks":[
                 "To move a bottle from the cabinet to the counter. ",
                 "Move the bottle the counter top.",
-                "Move a bottle of lotion to the bathroom counter. "
+                "Move a bottle of soap bottle to the bathroom counter. "
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -125,7 +125,7 @@
         "train/pick_and_place_simple-SoapBottle-None-Cabinet-417/trial_T20190910_084745_955519/traj_data.json":{
             "tasks":[
                 "Place a bottle in a cabinet.",
-                "Put a bottle of lotion in the cabinet.",
+                "Put a bottle of soap bottle in the cabinet.",
                 "Put the soap in the right cabinet."
             ],
             "relative_objects":[
@@ -251,7 +251,7 @@
         },
         "tests_seen/trial_T20190908_135226_283490/traj_data.json":{
             "tasks":[
-                "take the air freshener out of the cabinet, put it on the counter",
+                "take the Spray Bottle out of the cabinet, put it on the counter",
                 "Place a pump bottle on a couter top"
             ],
             "relative_objects":[
@@ -350,7 +350,7 @@
         },
         {
             "task_list":[
-                "take the air freshener out of the cabinet, put it on the counter",
+                "take the Spray Bottle out of the cabinet, put it on the counter",
                 "Put an empty roll on a toilet paper holder."
             ],
             "orign":[
@@ -360,9 +360,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take the air freshener out of the cabinet, put it on the counter in any order. Afterward, put an empty roll on a toilet paper holder.",
-                "fintune 2":"Put an empty roll on a toilet paper holder first. Then, take the air freshener out of the cabinet, put it on the counter.",
-                "fintune 3":"Take the air freshener out of the cabinet, put it on the counter at any time. Simultaneously, put an empty roll on a toilet paper holder."
+                "fintune 1":"Take the Spray Bottle out of the cabinet, put it on the counter in any order. Afterward, put an empty roll on a toilet paper holder.",
+                "fintune 2":"Put an empty roll on a toilet paper holder first. Then, take the Spray Bottle out of the cabinet, put it on the counter.",
+                "fintune 3":"Take the Spray Bottle out of the cabinet, put it on the counter at any time. Simultaneously, put an empty roll on a toilet paper holder."
             }
         },
         {
@@ -384,7 +384,7 @@
         },
         {
             "task_list":[
-                "take the air freshener out of the cabinet, put it on the counter",
+                "take the Spray Bottle out of the cabinet, put it on the counter",
                 "Put the red cloth beside the other cloth on the tank"
             ],
             "orign":[
@@ -394,9 +394,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the red cloth beside the other cloth on the tank at any time. Simultaneously, take the air freshener out of the cabinet and put it on the counter.",
-                "fintune 2":"Take the air freshener out of the cabinet and put it on the counter. After completing this task, put the red cloth beside the other cloth on the tank.",
-                "fintune 3":"Put the red cloth beside the other cloth on the tank at any time. After placing the red cloth, take the air freshener out of the cabinet and put it on the counter."
+                "fintune 1":"Put the red cloth beside the other cloth on the tank at any time. Simultaneously, take the Spray Bottle out of the cabinet and put it on the counter.",
+                "fintune 2":"Take the Spray Bottle out of the cabinet and put it on the counter. After completing this task, put the red cloth beside the other cloth on the tank.",
+                "fintune 3":"Put the red cloth beside the other cloth on the tank at any time. After placing the red cloth, take the Spray Bottle out of the cabinet and put it on the counter."
             }
         }
     ],
@@ -461,7 +461,7 @@
         {
             "task_list":[
                 "Put a toilet paper roll on the toilet paper holder. ",
-                "take the air freshener out of the cabinet, put it on the counter",
+                "take the Spray Bottle out of the cabinet, put it on the counter",
                 "Move a rag to the back of the toilet. "
             ],
             "orign":[
@@ -472,9 +472,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take the air freshener out of the cabinet, put it on the counter. After putting the air freshener on the counter, put a toilet paper roll on the toilet paper holder. Finally, move a rag to the back of the toilet.",
-                "fintune 2":"Move a rag to the back of the toilet. At any time, put a toilet paper roll on the toilet paper holder. Simultaneously, take the air freshener out of the cabinet and put it on the counter.",
-                "fintune 3":"Put a toilet paper roll on the toilet paper holder. After putting the toilet paper roll, take the air freshener out of the cabinet, put it on the counter. Finally, move a rag to the back of the toilet."
+                "fintune 1":"Take the Spray Bottle out of the cabinet, put it on the counter. After putting the Spray Bottle on the counter, put a toilet paper roll on the toilet paper holder. Finally, move a rag to the back of the toilet.",
+                "fintune 2":"Move a rag to the back of the toilet. At any time, put a toilet paper roll on the toilet paper holder. Simultaneously, take the Spray Bottle out of the cabinet and put it on the counter.",
+                "fintune 3":"Put a toilet paper roll on the toilet paper holder. After putting the toilet paper roll, take the Spray Bottle out of the cabinet, put it on the counter. Finally, move a rag to the back of the toilet."
             }
         },
         {
@@ -542,7 +542,7 @@
         },
         {
             "task_list":[
-                "take the air freshener out of the cabinet, put it on the counter",
+                "take the Spray Bottle out of the cabinet, put it on the counter",
                 "Place a rag in one of the bathroom sinks.",
                 "Put an empty roll on a toilet paper holder.",
                 "place a candle at the side of the sink"
@@ -556,9 +556,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take the air freshener out of the cabinet and put it on the counter at any time. After placing the air freshener, put an empty roll on a toilet paper holder. Finally, place a candle at the side of the sink.",
-                "fintune 2":"Take the air freshener out of the cabinet and put it on the counter at any time. After placing the air freshener, place a candle at the side of the sink. Finally, put a rag in one of the bathroom sinks.",
-                "fintune 3":"Put an empty roll on a toilet paper holder at any time. After that, take the air freshener out of the cabinet and put it on the counter. Finally, place a candle at the side of the sink."
+                "fintune 1":"Take the Spray Bottle out of the cabinet and put it on the counter at any time. After placing the Spray Bottle, put an empty roll on a toilet paper holder. Finally, place a candle at the side of the sink.",
+                "fintune 2":"Take the Spray Bottle out of the cabinet and put it on the counter at any time. After placing the Spray Bottle, place a candle at the side of the sink. Finally, put a rag in one of the bathroom sinks.",
+                "fintune 3":"Put an empty roll on a toilet paper holder at any time. After that, take the Spray Bottle out of the cabinet and put it on the counter. Finally, place a candle at the side of the sink."
             }
         },
         {

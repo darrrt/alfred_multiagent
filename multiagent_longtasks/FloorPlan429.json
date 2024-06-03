@@ -202,7 +202,7 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-Toilet-429/trial_T20190906_201712_940852/traj_data.json":{
             "tasks":[
-                "Move lotion to back of toilet.",
+                "Move soap bottle to back of toilet.",
                 "Put a soap dispenser on the toilet.",
                 "Put hand soap on the back of the toilet. "
             ],
@@ -302,7 +302,7 @@
         },
         {
             "task_list":[
-                "Move lotion to back of toilet."
+                "Move soap bottle to back of toilet."
             ],
             "orign":[
                 [
@@ -413,7 +413,7 @@
         {
             "task_list":[
                 "Take the rags out of of the tub and to the hamper.",
-                "Move lotion to back of toilet."
+                "Move soap bottle to back of toilet."
             ],
             "orign":[
                 [
@@ -422,9 +422,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take the rags out of the tub and to the hamper at any time. Move lotion to back of toilet after taking the rags out of the tub and to the hamper.",
-                "fintune 2":"Move lotion to back of toilet at any time. Take the rags out of the tub and to the hamper after moving lotion to back of toilet.",
-                "fintune 3":"Move lotion to back of toilet at any time. Take the rags out of the tub and to the hamper after moving lotion to back of toilet."
+                "fintune 1":"Take the rags out of the tub and to the hamper at any time. Move soap bottle to back of toilet after taking the rags out of the tub and to the hamper.",
+                "fintune 2":"Move soap bottle to back of toilet at any time. Take the rags out of the tub and to the hamper after moving soap bottle to back of toilet.",
+                "fintune 3":"Move soap bottle to back of toilet at any time. Take the rags out of the tub and to the hamper after moving soap bottle to back of toilet."
             }
         }
     ],
@@ -615,7 +615,7 @@
                 "Take the rags out of of the tub and to the hamper.",
                 "move the candlesticks from the toilet to the shelf ",
                 "Move toilet paper and a roll to the toilet. ",
-                "Move lotion to back of toilet."
+                "Move soap bottle to back of toilet."
             ],
             "orign":[
                 [
@@ -626,9 +626,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move lotion to back of toilet at any time. Simultaneously, move the candlesticks from the toilet to the shelf. After completing these tasks, take the rags out of the tub and to the hamper. Finally, move toilet paper and a roll to the toilet.",
-                "fintune 2":"Move the candlesticks from the toilet to the shelf at any time. Next, take the rags out of the tub and to the hamper. After completing these tasks, move lotion to back of toilet. Finally, move toilet paper and a roll to the toilet.",
-                "fintune 3":"Move lotion to back of toilet at any time. Simultaneously, take the rags out of the tub and to the hamper. After completing these tasks, move the candlesticks from the toilet to the shelf. Finally, move toilet paper and a roll to the toilet."
+                "fintune 1":"Move soap bottle to back of toilet at any time. Simultaneously, move the candlesticks from the toilet to the shelf. After completing these tasks, take the rags out of the tub and to the hamper. Finally, move toilet paper and a roll to the toilet.",
+                "fintune 2":"Move the candlesticks from the toilet to the shelf at any time. Next, take the rags out of the tub and to the hamper. After completing these tasks, move soap bottle to back of toilet. Finally, move toilet paper and a roll to the toilet.",
+                "fintune 3":"Move soap bottle to back of toilet at any time. Simultaneously, take the rags out of the tub and to the hamper. After completing these tasks, move the candlesticks from the toilet to the shelf. Finally, move toilet paper and a roll to the toilet."
             }
         }
     ],
