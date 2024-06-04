@@ -41,7 +41,7 @@
         "train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195837_992466/traj_data.json":{
             "tasks":[
                 "Put a chilled apple in the trash.",
-                "Put the apple from the fridge into the trash can.",
+                "Put the apple from the fridge into the garbage can.",
                 "Put a cold apple in a bin."
             ],
             "relative_objects":[
@@ -72,7 +72,7 @@
         },
         "train/pick_cool_then_place_in_recep-Potato-None-GarbageCan-2/trial_T20190908_101532_809731/traj_data.json":{
             "tasks":[
-                "To cool a potato as well as place it in the trash can.",
+                "To cool a potato as well as place it in the garbage can.",
                 "Put the chilled potato in the trash bin",
                 "Place a chilled potato inside of a container."
             ],
@@ -197,7 +197,7 @@
             "tasks":[
                 "Put a knife and cooked potato in a garbage can. ",
                 "Throw away the end of the potato. ",
-                "Place a heated slice of potato into a trash can."
+                "Place a heated slice of potato into a garbage can."
             ],
             "relative_objects":[
                 "ButterKnife",
@@ -208,7 +208,7 @@
         "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-2/trial_T20190912_220225_454348/traj_data.json":{
             "tasks":[
                 "Throw away a microwaved slice of potato.",
-                "Throwing a potato slice in the trash can",
+                "Throwing a potato slice in the garbage can",
                 "Throw out a heated slice of potato. "
             ],
             "relative_objects":[
@@ -342,7 +342,7 @@
         },
         "train/pick_heat_then_place_in_recep-BreadSliced-None-GarbageCan-2/trial_T20190908_105707_315068/traj_data.json":{
             "tasks":[
-                "put a heated slice of bread in the trash can",
+                "put a heated slice of bread in the garbage can",
                 "Microwave a slice of bread and put it in the trash bin.",
                 "Place cooked bread into a trashcan"
             ],
@@ -353,7 +353,7 @@
         "train/pick_heat_then_place_in_recep-BreadSliced-None-GarbageCan-2/trial_T20190908_105926_372842/traj_data.json":{
             "tasks":[
                 "Put cooked bread in the garbage can.",
-                "Put a knife and cooked slice of bread into the trash can.",
+                "Put a knife and cooked slice of bread into the garbage can.",
                 "Put a microwaved slice of bread in the garbage."
             ],
             "relative_objects":[
@@ -501,7 +501,7 @@
             "tasks":[
                 "Heat a tomato and throw it away.",
                 "Place a heated tomato in a container.",
-                "Throw a cooked tomato into the trash can."
+                "Throw a cooked tomato into the garbage can."
             ],
             "relative_objects":[
                 "Pan",
@@ -510,7 +510,7 @@
         },
         "train/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-2/trial_T20190908_111837_382989/traj_data.json":{
             "tasks":[
-                "cook a tomato then throw it away in the trash can",
+                "cook a tomato then throw it away in the garbage can",
                 "Put a heated tomato in a white bin.",
                 "Put a hot tomato in a garbage can."
             ],
@@ -869,7 +869,7 @@
         "train/pick_heat_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190908_204114_322747/traj_data.json":{
             "tasks":[
                 "Place a cooked apple inside the waste basket.",
-                "Heat up an apple to put into the trash can.",
+                "Heat up an apple to put into the garbage can.",
                 "Place a heated apple in a container."
             ],
             "relative_objects":[
@@ -1454,7 +1454,7 @@
         },
         {
             "task_list":[
-                "cook a tomato then throw it away in the trash can",
+                "cook a tomato then throw it away in the garbage can",
                 "Put a clean spoon in a cabinet.",
                 "Put a clean potato in the microwave.",
                 "Throw out a microwaved slice of bread. ",
@@ -1470,9 +1470,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a clean spoon in a cabinet. Simultaneously, put a clean potato in the microwave. After putting the spoon and potato, throw out a microwaved slice of bread. Finally, cook a tomato then throw it away in the trash can.",
-                "fintune 2":"Put a clean potato in the microwave first. Simultaneously, put a clean spoon in a cabinet. After putting the potato and spoon, throw out a microwaved slice of bread. Finally, cook a tomato then throw it away in the trash can.",
-                "fintune 3":"Put the dirty fork in a cup to place it in the sink. Next, put a clean spoon in a cabinet. After that, put a clean potato in the microwave. Then, throw out a microwaved slice of bread. Lastly, cook a tomato then throw it away in the trash can."
+                "fintune 1":"Put a clean spoon in a cabinet. Simultaneously, put a clean potato in the microwave. After putting the spoon and potato, throw out a microwaved slice of bread. Finally, cook a tomato then throw it away in the garbage can.",
+                "fintune 2":"Put a clean potato in the microwave first. Simultaneously, put a clean spoon in a cabinet. After putting the potato and spoon, throw out a microwaved slice of bread. Finally, cook a tomato then throw it away in the garbage can.",
+                "fintune 3":"Put the dirty fork in a cup to place it in the sink. Next, put a clean spoon in a cabinet. After that, put a clean potato in the microwave. Then, throw out a microwaved slice of bread. Lastly, cook a tomato then throw it away in the garbage can."
             }
         },
         {
@@ -1527,7 +1527,7 @@
         },
         {
             "task_list":[
-                "cook a tomato then throw it away in the trash can",
+                "cook a tomato then throw it away in the garbage can",
                 "Throw away a microwaved slice of potato.",
                 "Place a warm mug on the coffee maker. ",
                 "Wash spoon and put it in a cabinet",
@@ -1545,9 +1545,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Throw out a microwaved slice of bread. Cook a tomato then throw it away in the trash can. Place a warm mug on the coffee maker. Wash spoon and put it in a cabinet. Throw away a microwaved slice of potato. Put a piece of apple in a microwave.",
-                "fintune 2":"Wash spoon and put it in a cabinet. Throw away a microwaved slice of potato. Throw out a microwaved slice of bread. Place a warm mug on the coffee maker. Cook a tomato then throw it away in the trash can. Put a piece of apple in a microwave.",
-                "fintune 3":"Cook a tomato then throw it away in the trash can. Put a piece of apple in a microwave. Place a warm mug on the coffee maker. Throw away a microwaved slice of potato. Throw out a microwaved slice of bread. Wash spoon and put it in a cabinet."
+                "fintune 1":"Throw out a microwaved slice of bread. Cook a tomato then throw it away in the garbage can. Place a warm mug on the coffee maker. Wash spoon and put it in a cabinet. Throw away a microwaved slice of potato. Put a piece of apple in a microwave.",
+                "fintune 2":"Wash spoon and put it in a cabinet. Throw away a microwaved slice of potato. Throw out a microwaved slice of bread. Place a warm mug on the coffee maker. Cook a tomato then throw it away in the garbage can. Put a piece of apple in a microwave.",
+                "fintune 3":"Cook a tomato then throw it away in the garbage can. Put a piece of apple in a microwave. Place a warm mug on the coffee maker. Throw away a microwaved slice of potato. Throw out a microwaved slice of bread. Wash spoon and put it in a cabinet."
             }
         },
         {

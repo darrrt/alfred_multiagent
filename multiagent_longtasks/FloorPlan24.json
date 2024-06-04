@@ -215,10 +215,10 @@
         },
         "train/pick_heat_then_place_in_recep-AppleSliced-None-GarbageCan-24/trial_T20190906_183643_116250/traj_data.json":{
             "tasks":[
-                "Put the cooked apple slice in the trash can",
+                "Put the cooked apple slice in the garbage can",
                 "Put a heated apple piece in a garbage can.",
                 "Throw the cooked apple slice in the trash.",
-                "To heat a piece of apple and place it in the trash can.",
+                "To heat a piece of apple and place it in the garbage can.",
                 "Throw away a microwaved apple slice."
             ],
             "relative_objects":[
@@ -744,8 +744,8 @@
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-GarbageCan-24/trial_T20190907_225307_007085/traj_data.json":{
             "tasks":[
                 "Throw out a heated slice of tomato. ",
-                "To heat a tomato slice and place it in the trash can.",
-                "Put a heated slice of tomato in the trash can."
+                "To heat a tomato slice and place it in the garbage can.",
+                "Put a heated slice of tomato in the garbage can."
             ],
             "relative_objects":[
                 "Tomato"
@@ -754,8 +754,8 @@
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-GarbageCan-24/trial_T20190911_060653_582126/traj_data.json":{
             "tasks":[
                 "Put the heated slice tomato in the trash bin",
-                "Put a heated slice of tomato in the golden trash can. ",
-                "Place a warmed tomato slice in the trash can."
+                "Put a heated slice of tomato in the golden garbage can. ",
+                "Place a warmed tomato slice in the garbage can."
             ],
             "relative_objects":[
                 "Pan",
@@ -765,7 +765,7 @@
         },
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-GarbageCan-24/trial_T20190907_225734_462221/traj_data.json":{
             "tasks":[
-                "Heat a slice of tomato and place it in the trash can.",
+                "Heat a slice of tomato and place it in the garbage can.",
                 "Microwave the slice of tomato and throw it away.",
                 "Throw a warm tomato slice into the trash. "
             ],
@@ -1590,7 +1590,7 @@
         {
             "task_list":[
                 "Place potato in the sink.",
-                "Put the cooked apple slice in the trash can",
+                "Put the cooked apple slice in the garbage can",
                 "Wash the fork on the table, put it on the white table"
             ],
             "orign":[
@@ -1601,16 +1601,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place potato in the sink at any time. Simultaneously, wash the fork on the table and put it on the white table. After placing the potato and washing the fork, put the cooked apple slice in the trash can.",
-                "fintune 2":"Wash the fork on the table and put it on the white table at any time. Simultaneously, place potato in the sink. After washing the fork, put the cooked apple slice in the trash can.",
-                "fintune 3":"Wash the fork on the table and put it on the white table at any time. Simultaneously, put the cooked apple slice in the trash can. After washing the fork, place potato in the sink."
+                "fintune 1":"Place potato in the sink at any time. Simultaneously, wash the fork on the table and put it on the white table. After placing the potato and washing the fork, put the cooked apple slice in the garbage can.",
+                "fintune 2":"Wash the fork on the table and put it on the white table at any time. Simultaneously, place potato in the sink. After washing the fork, put the cooked apple slice in the garbage can.",
+                "fintune 3":"Wash the fork on the table and put it on the white table at any time. Simultaneously, put the cooked apple slice in the garbage can. After washing the fork, place potato in the sink."
             }
         },
         {
             "task_list":[
                 "Slice a bread, cook a slice, put it in the fridge",
                 "Cool a lettuce, put it on the table",
-                "Heat a slice of tomato and place it in the trash can."
+                "Heat a slice of tomato and place it in the garbage can."
             ],
             "orign":[
                 [
@@ -1620,9 +1620,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Slice a bread and cook a slice. After cooking, put it in the fridge. Simultaneously, cool a lettuce and put it on the table. Heat a slice of tomato and place it in the trash can.",
-                "fintune 2":"Slice a bread, cook a slice, and put it in the fridge. Cool a lettuce and put it on the table. Heat a slice of tomato and place it in the trash can.",
-                "fintune 3":"Slice a bread, cook a slice, and put it in the fridge. Heat a slice of tomato and place it in the trash can. Cool a lettuce and put it on the table."
+                "fintune 1":"Slice a bread and cook a slice. After cooking, put it in the fridge. Simultaneously, cool a lettuce and put it on the table. Heat a slice of tomato and place it in the garbage can.",
+                "fintune 2":"Slice a bread, cook a slice, and put it in the fridge. Cool a lettuce and put it on the table. Heat a slice of tomato and place it in the garbage can.",
+                "fintune 3":"Slice a bread, cook a slice, and put it in the fridge. Heat a slice of tomato and place it in the garbage can. Cool a lettuce and put it on the table."
             }
         },
         {

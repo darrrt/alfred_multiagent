@@ -125,7 +125,7 @@
         "tests_unseen/trial_T20190909_130959_018918/traj_data.json":{
             "tasks":[
                 "Put a warm slice of bread in the recycling bin.",
-                "pick up knife, cut bread, cook in microwave, place bread in the trash can",
+                "pick up knife, cut bread, cook in microwave, place bread in the garbage can",
                 "Place a cooked slice of bread in the garbage can."
             ],
             "relative_objects":[
@@ -205,7 +205,7 @@
         "tests_unseen/trial_T20190909_130627_569885/traj_data.json":{
             "tasks":[
                 "Cook a bread slice in a microwave and put it in a recycling bin. ",
-                "pick up knife, cut bread, cook bread in microwave, place in trash can",
+                "pick up knife, cut bread, cook bread in microwave, place in garbage can",
                 "Throw out a heated slice of bread in the recycling bin. "
             ],
             "relative_objects":[
@@ -247,7 +247,7 @@
         },
         "tests_unseen/trial_T20190908_041144_959112/traj_data.json":{
             "tasks":[
-                "Place a cooked apple into a trash can",
+                "Place a cooked apple into a garbage can",
                 "Put the cooked apple in the recycling bin",
                 "Heat and then throw away an apple."
             ],
@@ -465,7 +465,7 @@
         "tests_unseen/trial_T20190909_101422_952563/traj_data.json":{
             "tasks":[
                 "place knife in microwave, place microwaved potato slice in blue bin",
-                "Place a microwaved slice of potato into the trash can.",
+                "Place a microwaved slice of potato into the garbage can.",
                 "trash a cooked potato slice"
             ],
             "relative_objects":[
@@ -864,7 +864,7 @@
             "tasks":[
                 "recycle sliced potato and knife",
                 "Put a cooked slice of potato in the recycling bin.",
-                "To heat a potato slice plus place it in the trash can."
+                "To heat a potato slice plus place it in the garbage can."
             ],
             "relative_objects":[
                 "Knife",
@@ -1816,7 +1816,7 @@
         },
         {
             "task_list":[
-                "Place a cooked apple into a trash can",
+                "Place a cooked apple into a garbage can",
                 "To move a knife and a cup to the table. ",
                 "Place a cooled tomato into the microwave. ",
                 "Put a slice of chilled potato inside the microwave.",
@@ -1831,11 +1831,11 @@
                     "tests_unseen/trial_T20190908_044804_986661/traj_data.json"
                 ]
             ],
-            "adjust":"{\"fintune 1\": \"Place a cooked apple into a trash can at any time. Simultaneously, put a slice of chilled potato inside the microwave. After completing the previous tasks, place a cooled tomato into the microwave. Finally, move a knife and a cup to the table.\",\"fintune 2\": \"Place a cooked apple into a trash can at any time. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After completing the previous tasks, put a slice of chilled potato inside the microwave. Finally, move a knife and a cup to the table.\",\"fintune 3\": \"Place a cooked apple into a trash can at any time. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After completing the previous tasks, place a cooled tomato into the microwave. Finally, move a knife and a cup to the table.\"}",
+            "adjust":"{\"fintune 1\": \"Place a cooked apple into a garbage can at any time. Simultaneously, put a slice of chilled potato inside the microwave. After completing the previous tasks, place a cooled tomato into the microwave. Finally, move a knife and a cup to the table.\",\"fintune 2\": \"Place a cooked apple into a garbage can at any time. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After completing the previous tasks, put a slice of chilled potato inside the microwave. Finally, move a knife and a cup to the table.\",\"fintune 3\": \"Place a cooked apple into a garbage can at any time. Simultaneously, place a chilled piece of lettuce into the blue recycling bin. After completing the previous tasks, place a cooled tomato into the microwave. Finally, move a knife and a cup to the table.\"}",
             "finetuned":{
-                "fintune 1":"Place a cooked apple into a trash can at any time. Simultaneously, move a knife and a cup to the table. After placing the cooked apple and moving the knife and cup, place a cooled tomato into the microwave followed by putting a slice of chilled potato inside the microwave. Finally, place a chilled piece of lettuce into the blue recycling bin.",
-                "fintune 2":"Move a knife and a cup to the table at any time. Simultaneously, place a cooked apple into a trash can. After moving the knife and cup, place a cooled tomato into the microwave followed by putting a slice of a chilled potato inside the microwave. Finally, place a chilled piece of lettuce into the blue recycling bin.",
-                "fintune 3":"Place a cooked apple into a trash can at any time. Simultaneously, place a cooled tomato into the microwave followed by putting a slice of chilled potato inside the microwave. After placing the cooked apple, move a knife and a cup to the table. Finally, place a chilled piece of lettuce into the blue recycling bin."
+                "fintune 1":"Place a cooked apple into a garbage can at any time. Simultaneously, move a knife and a cup to the table. After placing the cooked apple and moving the knife and cup, place a cooled tomato into the microwave followed by putting a slice of chilled potato inside the microwave. Finally, place a chilled piece of lettuce into the blue recycling bin.",
+                "fintune 2":"Move a knife and a cup to the table at any time. Simultaneously, place a cooked apple into a garbage can. After moving the knife and cup, place a cooled tomato into the microwave followed by putting a slice of a chilled potato inside the microwave. Finally, place a chilled piece of lettuce into the blue recycling bin.",
+                "fintune 3":"Place a cooked apple into a garbage can at any time. Simultaneously, place a cooled tomato into the microwave followed by putting a slice of chilled potato inside the microwave. After placing the cooked apple, move a knife and a cup to the table. Finally, place a chilled piece of lettuce into the blue recycling bin."
             }
         },
         {

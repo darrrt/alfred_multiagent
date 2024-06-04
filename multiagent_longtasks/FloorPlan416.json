@@ -152,7 +152,7 @@
         "train/pick_two_obj_and_place-SoapBottle-None-GarbageCan-416/trial_T20190909_003049_760772/traj_data.json":{
             "tasks":[
                 "Place bottle in the bin near the toilet.",
-                "take bottle off of counter, place in trash can, take bottle off of back of toilet, put in trash can "
+                "take bottle off of counter, place in garbage can, take bottle off of back of toilet, put in garbage can "
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -206,7 +206,7 @@
             "tasks":[
                 "Place a cardboard roll into a rubbish bin.",
                 "Throw out an empty toilet paper roll. ",
-                "Move a cardboard toilet paper tube into a trash can."
+                "Move a cardboard toilet paper tube into a garbage can."
             ],
             "relative_objects":[
                 "ToiletPaper"
@@ -236,8 +236,8 @@
         },
         "train/pick_and_place_simple-HandTowel-None-GarbageCan-416/trial_T20190908_234752_613977/traj_data.json":{
             "tasks":[
-                "move towel from towel rack to trash can",
-                "Put a towel in the trash can next to the toilet.",
+                "move towel from towel rack to garbage can",
+                "Put a towel in the garbage can next to the toilet.",
                 "Move a wash cloth into a small silver bin."
             ],
             "relative_objects":[
@@ -268,7 +268,7 @@
         },
         "train/pick_and_place_simple-SoapBar-None-GarbageCan-416/trial_T20190908_020805_738262/traj_data.json":{
             "tasks":[
-                "put a bar of soap into the trash can",
+                "put a bar of soap into the garbage can",
                 "Throw away the soap that is on top of the toilet.",
                 "Put a soap in the trash. "
             ],
@@ -280,8 +280,8 @@
         },
         "tests_seen/trial_T20190906_202203_193951/traj_data.json":{
             "tasks":[
-                "Put an empty roll of toilet paper into the trash can.",
-                "Put the empty toilet paper roll in the trash can.",
+                "Put an empty roll of toilet paper into the garbage can.",
+                "Put the empty toilet paper roll in the garbage can.",
                 "Throw away an empty toilet paper roll."
             ],
             "relative_objects":[
@@ -312,7 +312,7 @@
         },
         {
             "task_list":[
-                "put a bar of soap into the trash can"
+                "put a bar of soap into the garbage can"
             ],
             "orign":[
                 [
@@ -470,7 +470,7 @@
         {
             "task_list":[
                 "Put a bar of soap in the trash.",
-                "Put an empty roll of toilet paper into the trash can.",
+                "Put an empty roll of toilet paper into the garbage can.",
                 "To place the hand towel onto the bathroom sink next the candle."
             ],
             "orign":[
@@ -481,15 +481,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a bar of soap in the trash. After that, put an empty roll of toilet paper into the trash can. Finally, place the hand towel onto the bathroom sink next to the candle.",
-                "fintune 2":"Put an empty roll of toilet paper into the trash can. Simultaneously, place the hand towel onto the bathroom sink next to the candle. Once both are done, put a bar of soap in the trash.",
-                "fintune 3":"Place the hand towel onto the bathroom sink next to the candle. Subsequently, put a bar of soap in the trash. Finally, put an empty roll of toilet paper into the trash can."
+                "fintune 1":"Put a bar of soap in the trash. After that, put an empty roll of toilet paper into the garbage can. Finally, place the hand towel onto the bathroom sink next to the candle.",
+                "fintune 2":"Put an empty roll of toilet paper into the garbage can. Simultaneously, place the hand towel onto the bathroom sink next to the candle. Once both are done, put a bar of soap in the trash.",
+                "fintune 3":"Place the hand towel onto the bathroom sink next to the candle. Subsequently, put a bar of soap in the trash. Finally, put an empty roll of toilet paper into the garbage can."
             }
         },
         {
             "task_list":[
-                "move towel from towel rack to trash can",
-                "Put an empty roll of toilet paper into the trash can.",
+                "move towel from towel rack to garbage can",
+                "Put an empty roll of toilet paper into the garbage can.",
                 "To rinse off a bar of soap and put it on the counter. "
             ],
             "orign":[
@@ -500,9 +500,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Rinse off a bar of soap and put it on the counter. Simultaneously, move towel from towel rack to trash can. After completing the previous tasks, put an empty roll of toilet paper into the trash can.",
-                "fintune 2":"Put an empty roll of toilet paper into the trash can at any time. Simultaneously, rinse off a bar of soap and put it on the counter. After completing the previous tasks, move towel from the towel rack to the trash can.",
-                "fintune 3":"Move towel from the towel rack to the trash can at any time. Simultaneously, put an empty roll of toilet paper into the trash can. After completing the previous tasks, rinse off a bar of soap and put it on the counter."
+                "fintune 1":"Rinse off a bar of soap and put it on the counter. Simultaneously, move towel from towel rack to garbage can. After completing the previous tasks, put an empty roll of toilet paper into the garbage can.",
+                "fintune 2":"Put an empty roll of toilet paper into the garbage can at any time. Simultaneously, rinse off a bar of soap and put it on the counter. After completing the previous tasks, move towel from the towel rack to the garbage can.",
+                "fintune 3":"Move towel from the towel rack to the garbage can at any time. Simultaneously, put an empty roll of toilet paper into the garbage can. After completing the previous tasks, rinse off a bar of soap and put it on the counter."
             }
         },
         {

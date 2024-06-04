@@ -4,7 +4,7 @@
         "train/pick_clean_then_place_in_recep-SoapBar-None-BathtubBasin-413/trial_T20190908_191059_143281/traj_data.json":{
             "tasks":[
                 "Put a clean bar of soap in the tub.",
-                "move a bar of soap from the trash can to the tub",
+                "move a bar of soap from the garbage can to the tub",
                 "Rinse a bar of soap from the garbage can to put into the bathtub."
             ],
             "relative_objects":[
@@ -26,7 +26,7 @@
             "tasks":[
                 "place a soap dispenser inside the garbage",
                 "Put a soap dispenser in the trash.",
-                "Place bottle of hand soap in the trash can."
+                "Place bottle of hand soap in the garbage can."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -35,7 +35,7 @@
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-413/trial_T20190909_073951_626932/traj_data.json":{
             "tasks":[
                 "Put a soap dispenser in the garbage.",
-                "move soap bottle from dresser to trash can",
+                "move soap bottle from dresser to garbage can",
                 "Put a bottle of soap bottle in a red bin."
             ],
             "relative_objects":[
@@ -412,7 +412,7 @@
         },
         "tests_seen/trial_T20190909_035124_112502/traj_data.json":{
             "tasks":[
-                "Take the pump bottle out of the waste basket and put it in the cabinet. ",
+                "Take the spray bottle out of the waste basket and put it in the cabinet. ",
                 "Put a soap dispenser in a cupboard under the sink.",
                 "Removed soap bottle from trash and put in cupboard under sink."
             ],
@@ -655,7 +655,7 @@
     "tasks_4":[
         {
             "task_list":[
-                "Take the pump bottle out of the waste basket and put it in the cabinet. ",
+                "Take the spray bottle out of the waste basket and put it in the cabinet. ",
                 "wash soap and put away in bathroom cabinet",
                 "Trash the spray bottles from the toilet tank.",
                 "Move toilet paper to the holder."
@@ -669,9 +669,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take the pump bottle out of the waste basket and put it in the cabinet. Simultaneously, wash soap and put it away in the bathroom cabinet. After completing these tasks, trash the spray bottles from the toilet tank. Finally, move the toilet paper to the holder.",
-                "fintune 2":"Trash the spray bottles from the toilet tank. After that, take the pump bottle out of the waste basket and put it in the cabinet. Simultaneously, wash soap and put it away in the bathroom cabinet. Once these tasks are done, move the toilet paper to the holder.",
-                "fintune 3":"Move the toilet paper to the holder. Before that, trash the spray bottles from the toilet tank. Following that, take the pump bottle out of the waste basket and put it in the cabinet. Finally, wash soap and put it away in the bathroom cabinet."
+                "fintune 1":"Take the spray bottle out of the waste basket and put it in the cabinet. Simultaneously, wash soap and put it away in the bathroom cabinet. After completing these tasks, trash the spray bottles from the toilet tank. Finally, move the toilet paper to the holder.",
+                "fintune 2":"Trash the spray bottles from the toilet tank. After that, take the spray bottle out of the waste basket and put it in the cabinet. Simultaneously, wash soap and put it away in the bathroom cabinet. Once these tasks are done, move the toilet paper to the holder.",
+                "fintune 3":"Move the toilet paper to the holder. Before that, trash the spray bottles from the toilet tank. Following that, take the spray bottle out of the waste basket and put it in the cabinet. Finally, wash soap and put it away in the bathroom cabinet."
             }
         },
         {
@@ -766,7 +766,7 @@
                 "Put a clean black towel on the toilet tank.",
                 "Put a clean bar of soap in the tub.",
                 "Move toilet paper to the holder.",
-                "Take the pump bottle out of the waste basket and put it in the cabinet. "
+                "Take the spray bottle out of the waste basket and put it in the cabinet. "
             ],
             "orign":[
                 [
@@ -778,9 +778,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a clean black towel on the toilet tank at any time. Simultaneously, put a candle on a toilet. After placing the towel, move toilet paper to the holder. Finally, take the pump bottle out of the waste basket and put it in the cabinet.",
-                "fintune 2":"Put a clean bar of soap in the tub at any time. Simultaneously, put a candle on a toilet. After placing the soap, put a clean black towel on the toilet tank. Then, move toilet paper to the holder and take the pump bottle out of the waste basket and put it in the cabinet.",
-                "fintune 3":"Put a clean black towel on the toilet tank at any time. Simultaneously, put a clean bar of soap in the tub. After placing the towel, take the pump bottle out of the waste basket and put it in the cabinet. Finally, put a candle on a toilet."
+                "fintune 1":"Put a clean black towel on the toilet tank at any time. Simultaneously, put a candle on a toilet. After placing the towel, move toilet paper to the holder. Finally, take the spray bottle out of the waste basket and put it in the cabinet.",
+                "fintune 2":"Put a clean bar of soap in the tub at any time. Simultaneously, put a candle on a toilet. After placing the soap, put a clean black towel on the toilet tank. Then, move toilet paper to the holder and take the spray bottle out of the waste basket and put it in the cabinet.",
+                "fintune 3":"Put a clean black towel on the toilet tank at any time. Simultaneously, put a clean bar of soap in the tub. After placing the towel, take the spray bottle out of the waste basket and put it in the cabinet. Finally, put a candle on a toilet."
             }
         },
         {

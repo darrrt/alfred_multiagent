@@ -237,7 +237,7 @@
         "train/pick_and_place_simple-ToiletPaper-None-GarbageCan-403/trial_T20190907_034648_807245/traj_data.json":{
             "tasks":[
                 "Throw away the roll of toilet paper.",
-                "Put a roll of toilet paper in the trash can.",
+                "Put a roll of toilet paper in the garbage can.",
                 "Place the toilet paper from the holder into the green bin."
             ],
             "relative_objects":[
@@ -247,7 +247,7 @@
         },
         "train/pick_two_obj_and_place-SoapBottle-None-Toilet-403/trial_T20190908_060213_777780/traj_data.json":{
             "tasks":[
-                "Put the pump bottles on top of the toilet"
+                "Put the spray bottles on top of the toilet"
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -473,7 +473,7 @@
         {
             "task_list":[
                 "Put a rinsed bar of soap away in a bathroom cabinet.",
-                "Put the pump bottles on top of the toilet"
+                "Put the spray bottles on top of the toilet"
             ],
             "orign":[
                 [
@@ -482,9 +482,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a rinsed bar of soap away in a bathroom cabinet at any time. Simultaneously, put the pump bottles on top of the toilet.",
-                "fintune 2":"Put the pump bottles on top of the toilet at any time. Simultaneously, put a rinsed bar of soap away in a bathroom cabinet.",
-                "fintune 3":"Put a rinsed bar of soap away in a bathroom cabinet at any time. After putting away the soap, put the pump bottles on top of the toilet."
+                "fintune 1":"Put a rinsed bar of soap away in a bathroom cabinet at any time. Simultaneously, put the spray bottles on top of the toilet.",
+                "fintune 2":"Put the spray bottles on top of the toilet at any time. Simultaneously, put a rinsed bar of soap away in a bathroom cabinet.",
+                "fintune 3":"Put a rinsed bar of soap away in a bathroom cabinet at any time. After putting away the soap, put the spray bottles on top of the toilet."
             }
         },
         {
@@ -577,7 +577,7 @@
         },
         {
             "task_list":[
-                "Put the pump bottles on top of the toilet",
+                "Put the spray bottles on top of the toilet",
                 "Move the plunger to the cabinet under the sink.",
                 "Throwing the cardboard tube in the trash"
             ],
@@ -589,9 +589,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the pump bottles on top of the toilet at any time. Simultaneously, move the plunger to the cabinet under the sink. Once these tasks are completed, throw the cardboard tube in the trash.",
-                "fintune 2":"Move the plunger to the cabinet under the sink. Once completed, put the pump bottles on top of the toilet. After these tasks, throw the cardboard tube in the trash.",
-                "fintune 3":"Throw the cardboard tube in the trash. After that, put the pump bottles on top of the toilet. Simultaneously, move the plunger to the cabinet under the sink."
+                "fintune 1":"Put the spray bottles on top of the toilet at any time. Simultaneously, move the plunger to the cabinet under the sink. Once these tasks are completed, throw the cardboard tube in the trash.",
+                "fintune 2":"Move the plunger to the cabinet under the sink. Once completed, put the spray bottles on top of the toilet. After these tasks, throw the cardboard tube in the trash.",
+                "fintune 3":"Throw the cardboard tube in the trash. After that, put the spray bottles on top of the toilet. Simultaneously, move the plunger to the cabinet under the sink."
             }
         },
         {

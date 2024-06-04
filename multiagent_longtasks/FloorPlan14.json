@@ -175,8 +175,8 @@
         },
         "train/pick_heat_then_place_in_recep-BreadSliced-None-GarbageCan-14/trial_T20190908_135505_631381/traj_data.json":{
             "tasks":[
-                "TO heat a bread slice and place it in the trash can.",
-                "Put a heated slice of bread in the trash can.",
+                "TO heat a bread slice and place it in the garbage can.",
+                "Put a heated slice of bread in the garbage can.",
                 "Place a heated slice of bread in a bin"
             ],
             "relative_objects":[
@@ -187,8 +187,8 @@
         },
         "train/pick_heat_then_place_in_recep-BreadSliced-None-GarbageCan-14/trial_T20190908_135428_707807/traj_data.json":{
             "tasks":[
-                "Put a heated slice of bread in the trash can.",
-                "To heat a slice of bread as well as place it in the trash can.",
+                "Put a heated slice of bread in the garbage can.",
+                "To heat a slice of bread as well as place it in the garbage can.",
                 "Put a heated slice of bread in a bin"
             ],
             "relative_objects":[
@@ -543,7 +543,7 @@
         },
         "train/pick_cool_then_place_in_recep-PotatoSliced-None-GarbageCan-14/trial_T20190910_090143_488192/traj_data.json":{
             "tasks":[
-                "To cool a potato slice plus place it in the trash can.",
+                "To cool a potato slice plus place it in the garbage can.",
                 "Cool a slice of potato and put it in the bin",
                 "trash a cold potato slice"
             ],
@@ -730,9 +730,9 @@
         },
         "train/pick_cool_then_place_in_recep-AppleSliced-None-GarbageCan-14/trial_T20190908_022641_748619/traj_data.json":{
             "tasks":[
-                "Cool a piece of apple and place it in the trash can.",
+                "Cool a piece of apple and place it in the garbage can.",
                 "Throw out a chilled piece of cut apple. ",
-                "Put a cooled piece of apple in the trash can."
+                "Put a cooled piece of apple in the garbage can."
             ],
             "relative_objects":[
                 "Apple"
@@ -784,7 +784,7 @@
             "tasks":[
                 "Place a heated potato in a garbage bin.",
                 "cook a potato and then throw it away in the garbage can",
-                "put cooked potato in the trash can"
+                "put cooked potato in the garbage can"
             ],
             "relative_objects":[
                 "Potato"
@@ -794,7 +794,7 @@
             "tasks":[
                 "Place a heated potato in a bin.",
                 "Put a warm potato in the trash.",
-                "Throw out a heated potato in the trash can."
+                "Throw out a heated potato in the garbage can."
             ],
             "relative_objects":[
                 "Potato"
@@ -1292,7 +1292,7 @@
         },
         {
             "task_list":[
-                "Put a heated slice of bread in the trash can.",
+                "Put a heated slice of bread in the garbage can.",
                 "Put the spoon in the pan, put the pan in the sink"
             ],
             "orign":[
@@ -1302,9 +1302,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a heated slice of bread in the trash can at any time. Simultaneously, put the spoon in the pan, put the pan in the sink.",
-                "fintune 2":"Put the spoon in the pan, put the pan in the sink. After finishing that, put a heated slice of bread in the trash can.",
-                "fintune 3":"Put a heated slice of bread in the trash can at any time, then put the spoon in the pan and put the pan in the sink simultaneously."
+                "fintune 1":"Put a heated slice of bread in the garbage can at any time. Simultaneously, put the spoon in the pan, put the pan in the sink.",
+                "fintune 2":"Put the spoon in the pan, put the pan in the sink. After finishing that, put a heated slice of bread in the garbage can.",
+                "fintune 3":"Put a heated slice of bread in the garbage can at any time, then put the spoon in the pan and put the pan in the sink simultaneously."
             }
         },
         {
@@ -1569,7 +1569,7 @@
                 "place a cooled tomato slice inside of the microwave",
                 "Place a heated egg in a fridge.",
                 "Put a chilled green cup in the microwave.",
-                "To cool a potato slice plus place it in the trash can.",
+                "To cool a potato slice plus place it in the garbage can.",
                 "put washed knife on counter"
             ],
             "orign":[
@@ -1582,9 +1582,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a chilled green cup in the microwave at any time. Simultaneously, place a cooled tomato slice inside the microwave. After completing these tasks, put a washed knife on the counter. Next, cool a potato slice and place it in the trash can. Finally, place a heated egg in the fridge.",
-                "fintune 2":"Place a heated egg in the fridge at any time. Simultaneously, put a chilled green cup in the microwave. After completing these tasks, place a cooled tomato slice inside the microwave. Next, put a washed knife on the counter. Finally, cool a potato slice and place it in the trash can.",
-                "fintune 3":"Put a washed knife on the counter at any time. Simultaneously, put a chilled green cup in the microwave. After completing these tasks, place a cooled tomato slice inside the microwave. Next, place a heated egg in the fridge. Finally, cool a potato slice and place it in the trash can."
+                "fintune 1":"Put a chilled green cup in the microwave at any time. Simultaneously, place a cooled tomato slice inside the microwave. After completing these tasks, put a washed knife on the counter. Next, cool a potato slice and place it in the garbage can. Finally, place a heated egg in the fridge.",
+                "fintune 2":"Place a heated egg in the fridge at any time. Simultaneously, put a chilled green cup in the microwave. After completing these tasks, place a cooled tomato slice inside the microwave. Next, put a washed knife on the counter. Finally, cool a potato slice and place it in the garbage can.",
+                "fintune 3":"Put a washed knife on the counter at any time. Simultaneously, put a chilled green cup in the microwave. After completing these tasks, place a cooled tomato slice inside the microwave. Next, place a heated egg in the fridge. Finally, cool a potato slice and place it in the garbage can."
             }
         },
         {
@@ -1616,7 +1616,7 @@
                 "Put a chilled green cup in the microwave.",
                 "Put a cleaned egg on a plate in a microwave.",
                 "Place a clean tomato on the counter.",
-                "TO heat a bread slice and place it in the trash can."
+                "TO heat a bread slice and place it in the garbage can."
             ],
             "orign":[
                 [
@@ -1630,7 +1630,7 @@
             "finetuned":{
                 "fintune 1":"Place a clean tomato on the counter at any time. Simultaneously, put a chilled green cup in the microwave. After placing the tomato, put a cleaned egg on a plate in a microwave.",
                 "fintune 2":"Put a cleaned egg on a plate in a microwave at any time. Simultaneously, heat a potato and place it in the sink. After heating the potato, put a chilled green cup in the microwave.",
-                "fintune 3":"Heat a bread slice and place it in the trash can at any time. Simultaneously, place a clean tomato on the counter. After disposing of the bread slice, put a cleaned egg on a plate in a microwave."
+                "fintune 3":"Heat a bread slice and place it in the garbage can at any time. Simultaneously, place a clean tomato on the counter. After disposing of the bread slice, put a cleaned egg on a plate in a microwave."
             }
         },
         {

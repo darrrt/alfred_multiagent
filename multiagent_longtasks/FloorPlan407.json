@@ -3,7 +3,7 @@
     "trials":{
         "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-407/trial_T20190908_055510_633308/traj_data.json":{
             "tasks":[
-                "Put the pump bottles on the bathroom counter"
+                "Put the spray bottles on the bathroom counter"
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -11,7 +11,7 @@
         },
         "train/pick_two_obj_and_place-SoapBottle-None-CounterTop-407/trial_T20190908_055449_353538/traj_data.json":{
             "tasks":[
-                "Put the pump bottles on the bathroom counter"
+                "Put the spray bottles on the bathroom counter"
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -50,8 +50,8 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-407/trial_T20190908_063257_497959/traj_data.json":{
             "tasks":[
-                "Put the pump bottle in the trash. ",
-                "Put a soap bottle in the trash can. ",
+                "Put the spray bottle in the trash. ",
+                "Put a soap bottle in the garbage can. ",
                 "Put a dispenser in the bin."
             ],
             "relative_objects":[
@@ -175,7 +175,7 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-407/trial_T20190907_222400_313329/traj_data.json":{
             "tasks":[
-                "Put wet soap in the trash can.",
+                "Put wet soap in the garbage can.",
                 "Put the cleaned soap bar in the green trash bin",
                 "Place a washed bar of soap in a bin."
             ],
@@ -189,7 +189,7 @@
             "tasks":[
                 "Put a cleaned bar of soap in a garbage bin.",
                 "put a washed pink soap into a green garbage can",
-                "place a wet soap in the trash can"
+                "place a wet soap in the garbage can"
             ],
             "relative_objects":[
                 "Towel",
@@ -305,7 +305,7 @@
     "tasks_1":[
         {
             "task_list":[
-                "Put wet soap in the trash can."
+                "Put wet soap in the garbage can."
             ],
             "orign":[
                 [
@@ -375,7 +375,7 @@
         {
             "task_list":[
                 "Put a candle on the toilet tank lid. ",
-                "Put the pump bottles on the bathroom counter"
+                "Put the spray bottles on the bathroom counter"
             ],
             "orign":[
                 [
@@ -384,15 +384,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle on the toilet tank lid at any time. Simultaneously, put the pump bottles on the bathroom counter.",
-                "fintune 2":"Put a candle on the toilet tank lid at any time. After putting the candle, put the pump bottles on the bathroom counter.",
-                "fintune 3":"Put the pump bottles on the bathroom counter at any time. Simultaneously, put a candle on the toilet tank lid."
+                "fintune 1":"Put a candle on the toilet tank lid at any time. Simultaneously, put the spray bottles on the bathroom counter.",
+                "fintune 2":"Put a candle on the toilet tank lid at any time. After putting the candle, put the spray bottles on the bathroom counter.",
+                "fintune 3":"Put the spray bottles on the bathroom counter at any time. Simultaneously, put a candle on the toilet tank lid."
             }
         },
         {
             "task_list":[
                 "Put a candle on top of the toilet.",
-                "Put the pump bottle in the trash. "
+                "Put the spray bottle in the trash. "
             ],
             "orign":[
                 [
@@ -401,9 +401,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle on top of the toilet at any time. Simultaneously, put the pump bottle in the trash.",
-                "fintune 2":"Put the pump bottle in the trash at any time. Simultaneously, put a candle on top of the toilet.",
-                "fintune 3":"Put a candle on top of the toilet at any time. After placing the candle, put the pump bottle in the trash."
+                "fintune 1":"Put a candle on top of the toilet at any time. Simultaneously, put the spray bottle in the trash.",
+                "fintune 2":"Put the spray bottle in the trash at any time. Simultaneously, put a candle on top of the toilet.",
+                "fintune 3":"Put a candle on top of the toilet at any time. After placing the candle, put the spray bottle in the trash."
             }
         },
         {
@@ -444,7 +444,7 @@
     "tasks_3":[
         {
             "task_list":[
-                "Put the pump bottles on the bathroom counter",
+                "Put the spray bottles on the bathroom counter",
                 "Place soap in the tub.",
                 "Place a towel in the tub."
             ],
@@ -456,9 +456,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the pump bottles on the bathroom counter at any time. Simultaneously, place soap in the tub. After placing the soap, place a towel in the tub.",
-                "fintune 2":"Place soap in the tub at any time. Simultaneously, put the pump bottles on the bathroom counter. After placing the soap, place a towel in the tub.",
-                "fintune 3":"Put the pump bottles on the bathroom counter at any time. Simultaneously, place a towel in the tub. After placing the pump bottles, place soap in the tub."
+                "fintune 1":"Put the spray bottles on the bathroom counter at any time. Simultaneously, place soap in the tub. After placing the soap, place a towel in the tub.",
+                "fintune 2":"Place soap in the tub at any time. Simultaneously, put the spray bottles on the bathroom counter. After placing the soap, place a towel in the tub.",
+                "fintune 3":"Put the spray bottles on the bathroom counter at any time. Simultaneously, place a towel in the tub. After placing the spray bottles, place soap in the tub."
             }
         },
         {
@@ -502,7 +502,7 @@
         {
             "task_list":[
                 "move candle from edge of tub to cabinet",
-                "Put the pump bottles on the bathroom counter",
+                "Put the spray bottles on the bathroom counter",
                 "Place soap in the tub."
             ],
             "orign":[
@@ -513,9 +513,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move candle from the edge of the tub to the cabinet at any time. Simultaneously, put the pump bottles on the bathroom counter. Once the candle is moved and the pump bottles are placed, place soap in the tub.",
-                "fintune 2":"Put the pump bottles on the bathroom counter at any time. After putting the pump bottles, move the candle from the edge of the tub to the cabinet. Once the pump bottles are placed and the candle is moved, place soap in the tub.",
-                "fintune 3":"Place soap in the tub at any time. After placing the soap, put the pump bottles on the bathroom counter. Once the soap is placed and the pump bottles are put on the counter, move the candle from the edge of the tub to the cabinet."
+                "fintune 1":"Move candle from the edge of the tub to the cabinet at any time. Simultaneously, put the spray bottles on the bathroom counter. Once the candle is moved and the spray bottles are placed, place soap in the tub.",
+                "fintune 2":"Put the spray bottles on the bathroom counter at any time. After putting the spray bottles, move the candle from the edge of the tub to the cabinet. Once the spray bottles are placed and the candle is moved, place soap in the tub.",
+                "fintune 3":"Place soap in the tub at any time. After placing the soap, put the spray bottles on the bathroom counter. Once the soap is placed and the spray bottles are put on the counter, move the candle from the edge of the tub to the cabinet."
             }
         },
         {
@@ -584,7 +584,7 @@
         {
             "task_list":[
                 "Move toilet paper to the toilet paper roll holder",
-                "Put the pump bottle in the trash. ",
+                "Put the spray bottle in the trash. ",
                 "Put a candle away in the cabinet under the right sink. ",
                 "Place soap in the tub."
             ],
@@ -597,14 +597,14 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle away in the cabinet under the right sink at any time. Simultaneously, place soap in the tub. After putting the candle away, move toilet paper to the toilet paper roll holder. Finally, put the pump bottle in the trash.",
-                "fintune 2":"Put a candle away in the cabinet under the right sink at any time. Simultaneously, place soap in the tub. After placing the soap, move toilet paper to the toilet paper roll holder. Finally, put the pump bottle in the trash.",
-                "fintune 3":"Put the pump bottle in the trash at any time. Simultaneously, place soap in the tub. After putting the pump bottle in the trash, move toilet paper to the toilet paper roll holder. Finally, put a candle away in the cabinet under the right sink."
+                "fintune 1":"Put a candle away in the cabinet under the right sink at any time. Simultaneously, place soap in the tub. After putting the candle away, move toilet paper to the toilet paper roll holder. Finally, put the spray bottle in the trash.",
+                "fintune 2":"Put a candle away in the cabinet under the right sink at any time. Simultaneously, place soap in the tub. After placing the soap, move toilet paper to the toilet paper roll holder. Finally, put the spray bottle in the trash.",
+                "fintune 3":"Put the spray bottle in the trash at any time. Simultaneously, place soap in the tub. After putting the spray bottle in the trash, move toilet paper to the toilet paper roll holder. Finally, put a candle away in the cabinet under the right sink."
             }
         },
         {
             "task_list":[
-                "Put the pump bottles on the bathroom counter",
+                "Put the spray bottles on the bathroom counter",
                 "Take a dirty towel from the tub to clean it.",
                 "Put a candle on top of the toilet.",
                 "Move toilet paper to the toilet paper roll holder"
@@ -618,9 +618,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the pump bottles on the bathroom counter at any time. Simultaneously, put a candle on top of the toilet. After placing the pump bottles and the candle, move toilet paper to the toilet paper roll holder.",
-                "fintune 2":"Take a dirty towel from the tub to clean it at any time. Simultaneously, put a candle on top of the toilet. Finally, put the pump bottles on the bathroom counter and move toilet paper to the toilet paper roll holder.",
-                "fintune 3":"Put a candle on top of the toilet at any time. Simultaneously, put the pump bottles on the bathroom counter. After placing the pump bottles and the candle, take a dirty towel from the tub to clean it and move toilet paper to the toilet paper roll holder."
+                "fintune 1":"Put the spray bottles on the bathroom counter at any time. Simultaneously, put a candle on top of the toilet. After placing the spray bottles and the candle, move toilet paper to the toilet paper roll holder.",
+                "fintune 2":"Take a dirty towel from the tub to clean it at any time. Simultaneously, put a candle on top of the toilet. Finally, put the spray bottles on the bathroom counter and move toilet paper to the toilet paper roll holder.",
+                "fintune 3":"Put a candle on top of the toilet at any time. Simultaneously, put the spray bottles on the bathroom counter. After placing the spray bottles and the candle, take a dirty towel from the tub to clean it and move toilet paper to the toilet paper roll holder."
             }
         },
         {
@@ -648,7 +648,7 @@
     "tasks_5":[
         {
             "task_list":[
-                "Put the pump bottle in the trash. ",
+                "Put the spray bottle in the trash. ",
                 "Move the spray bottles to the cabinet under the sink. ",
                 "Put a cleaned bar of soap in a bath tub.",
                 "Put a candle on the back of a toilet.",
@@ -664,9 +664,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the pump bottle in the trash at any time. Simultaneously, move the spray bottles to the cabinet under the sink. After disposing of the pump bottle and moving the spray bottles, put a cleaned bar of soap in a bathtub. Once the soap is in place, put a candle on the back of a toilet. Finally, take an empty toilet paper roll from the cupboard and place it on the toilet paper holder.",
-                "fintune 2":"Take an empty toilet paper roll from the cupboard and place it on the toilet paper holder at any time. Simultaneously, put the pump bottle in the trash. After completing these tasks, move the spray bottles to the cabinet under the sink. Following that, put a cleaned bar of soap in a bathtub. Once the soap is in place, put a candle on the back of a toilet.",
-                "fintune 3":"Put the pump bottle in the trash at any time. Simultaneously, move the spray bottles to the cabinet under the sink. Afterward, put a candle on the back of a toilet. Subsequently, put a cleaned bar of soap in a bathtub. Lastly, take an empty toilet paper roll from the cupboard and place it on the toilet paper holder."
+                "fintune 1":"Put the spray bottle in the trash at any time. Simultaneously, move the spray bottles to the cabinet under the sink. After disposing of the spray bottle and moving the spray bottles, put a cleaned bar of soap in a bathtub. Once the soap is in place, put a candle on the back of a toilet. Finally, take an empty toilet paper roll from the cupboard and place it on the toilet paper holder.",
+                "fintune 2":"Take an empty toilet paper roll from the cupboard and place it on the toilet paper holder at any time. Simultaneously, put the spray bottle in the trash. After completing these tasks, move the spray bottles to the cabinet under the sink. Following that, put a cleaned bar of soap in a bathtub. Once the soap is in place, put a candle on the back of a toilet.",
+                "fintune 3":"Put the spray bottle in the trash at any time. Simultaneously, move the spray bottles to the cabinet under the sink. Afterward, put a candle on the back of a toilet. Subsequently, put a cleaned bar of soap in a bathtub. Lastly, take an empty toilet paper roll from the cupboard and place it on the toilet paper holder."
             }
         },
         {
@@ -695,7 +695,7 @@
         {
             "task_list":[
                 "Move the spray bottles to the cabinet under the sink. ",
-                "Put the pump bottles on the bathroom counter",
+                "Put the spray bottles on the bathroom counter",
                 "Take empty toilet paper roll from the cupboard and place on toilet paper holder.",
                 "Place soap in the tub.",
                 "Put a candle on top of the toilet."
@@ -710,16 +710,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Take empty toilet paper roll from the cupboard and place on toilet paper holder. Move the spray bottles to the cabinet under the sink. Put the pump bottles on the bathroom counter. Place soap in the tub. Put a candle on top of the toilet.",
-                "fintune 2":"Put the pump bottles on the bathroom counter. Move the spray bottles to the cabinet under the sink. Take empty toilet paper roll from the cupboard and place on toilet paper holder. Put a candle on top of the toilet. Place soap in the tub.",
-                "fintune 3":"Take empty toilet paper roll from the cupboard and place on toilet paper holder. Move the spray bottles to the cabinet under the sink. Put a candle on top of the toilet. Put the pump bottles on the bathroom counter. Place soap in the tub."
+                "fintune 1":"Take empty toilet paper roll from the cupboard and place on toilet paper holder. Move the spray bottles to the cabinet under the sink. Put the spray bottles on the bathroom counter. Place soap in the tub. Put a candle on top of the toilet.",
+                "fintune 2":"Put the spray bottles on the bathroom counter. Move the spray bottles to the cabinet under the sink. Take empty toilet paper roll from the cupboard and place on toilet paper holder. Put a candle on top of the toilet. Place soap in the tub.",
+                "fintune 3":"Take empty toilet paper roll from the cupboard and place on toilet paper holder. Move the spray bottles to the cabinet under the sink. Put a candle on top of the toilet. Put the spray bottles on the bathroom counter. Place soap in the tub."
             }
         },
         {
             "task_list":[
                 "Move the spray bottles to the cabinet under the sink. ",
                 "Put a candle away in the cabinet under the right sink. ",
-                "Put the pump bottles on the bathroom counter",
+                "Put the spray bottles on the bathroom counter",
                 "Put a towel in the tub.",
                 "Place soap in the tub."
             ],
@@ -733,15 +733,15 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle away in the cabinet under the right sink. Simultaneously, put the pump bottles on the bathroom counter. After putting the candle and pump bottles, move the spray bottles to the cabinet under the sink. Finally, place soap in the tub.",
-                "fintune 2":"Put a towel in the tub. After placing the towel, put a candle away in the cabinet under the right sink. Simultaneously, put the pump bottles on the bathroom counter. Then, move the spray bottles to the cabinet under the sink. Finally, place soap in the tub.",
-                "fintune 3":"Put a candle away in the cabinet under the right sink. Put the pump bottles on the bathroom counter. Simultaneously, place soap in the tub. After putting the candle, pump bottles, and soap, move the spray bottles to the cabinet under the sink."
+                "fintune 1":"Put a candle away in the cabinet under the right sink. Simultaneously, put the spray bottles on the bathroom counter. After putting the candle and spray bottles, move the spray bottles to the cabinet under the sink. Finally, place soap in the tub.",
+                "fintune 2":"Put a towel in the tub. After placing the towel, put a candle away in the cabinet under the right sink. Simultaneously, put the spray bottles on the bathroom counter. Then, move the spray bottles to the cabinet under the sink. Finally, place soap in the tub.",
+                "fintune 3":"Put a candle away in the cabinet under the right sink. Put the spray bottles on the bathroom counter. Simultaneously, place soap in the tub. After putting the candle, spray bottles, and soap, move the spray bottles to the cabinet under the sink."
             }
         },
         {
             "task_list":[
                 "Put a cleaned towel in the tub. ",
-                "Put the pump bottles on the bathroom counter",
+                "Put the spray bottles on the bathroom counter",
                 "Place a wet towel in the bath tub.",
                 "Place soap in the tub.",
                 "Move a candle from the top of a toilet to a cabinet."
@@ -756,9 +756,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned towel in the tub at any time. Simultaneously, put the pump bottles on the bathroom counter. After putting the towel and bottles, move a candle from the top of a toilet to a cabinet.",
-                "fintune 2":"Place a wet towel in the bath tub at any time. Simultaneously, place soap in the tub. After placing the wet towel and soap, put the pump bottles on the bathroom counter.",
-                "fintune 3":"Put the pump bottles on the bathroom counter at any time. Simultaneously, move a candle from the top of a toilet to a cabinet. After moving the candle, put a cleaned towel in the tub."
+                "fintune 1":"Put a cleaned towel in the tub at any time. Simultaneously, put the spray bottles on the bathroom counter. After putting the towel and bottles, move a candle from the top of a toilet to a cabinet.",
+                "fintune 2":"Place a wet towel in the bath tub at any time. Simultaneously, place soap in the tub. After placing the wet towel and soap, put the spray bottles on the bathroom counter.",
+                "fintune 3":"Put the spray bottles on the bathroom counter at any time. Simultaneously, move a candle from the top of a toilet to a cabinet. After moving the candle, put a cleaned towel in the tub."
             }
         }
     ],
@@ -769,7 +769,7 @@
                 "Move toilet paper to the toilet paper roll holder",
                 "Put a towel in the tub.",
                 "Move the spray bottles from the top of the toilet to the cabinet under the sink",
-                "Put the pump bottles on the bathroom counter",
+                "Put the spray bottles on the bathroom counter",
                 "Place a wet towel in the bath tub."
             ],
             "orign":[
@@ -783,16 +783,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move toilet paper to the toilet paper roll holder at any time. Simultaneously, put the pump bottles on the bathroom counter. After completing the previous steps, move a candle from the top of the toilet to a cabinet.",
+                "fintune 1":"Move toilet paper to the toilet paper roll holder at any time. Simultaneously, put the spray bottles on the bathroom counter. After completing the previous steps, move a candle from the top of the toilet to a cabinet.",
                 "fintune 2":"Put a towel in the tub at any time. Simultaneously, place a wet towel in the bath tub. After completing these steps, move the spray bottles from the top of the toilet to the cabinet under the sink.",
-                "fintune 3":"Move a candle from the top of a toilet to a cabinet at any time. Simultaneously, put the pump bottles on the bathroom counter. After completing the previous steps, move the spray bottles from the top of the toilet to the cabinet under the sink."
+                "fintune 3":"Move a candle from the top of a toilet to a cabinet at any time. Simultaneously, put the spray bottles on the bathroom counter. After completing the previous steps, move the spray bottles from the top of the toilet to the cabinet under the sink."
             }
         },
         {
             "task_list":[
                 "Put a cleaned towel in the tub. ",
                 "Put a cleaned bar of soap in a bath tub.",
-                "Put the pump bottles on the bathroom counter",
+                "Put the spray bottles on the bathroom counter",
                 "Move toilet paper to the toilet paper roll holder",
                 "Move the spray bottles to the cabinet under the sink. ",
                 "Place a wet towel in the bath tub."
@@ -808,9 +808,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned bar of soap in a bath tub at any time. Simultaneously, put a cleaned towel in the tub.After putting the soap and towel, move the pump bottles on the bathroom counter.",
+                "fintune 1":"Put a cleaned bar of soap in a bath tub at any time. Simultaneously, put a cleaned towel in the tub.After putting the soap and towel, move the spray bottles on the bathroom counter.",
                 "fintune 2":"Move the spray bottles to the cabinet under the sink at any time. Simultaneously, place a wet towel in the bath tub.After moving the spray bottles and placing the towel, move toilet paper to the toilet paper roll holder.",
-                "fintune 3":"Put a cleaned towel in the tub at any time. Simultaneously, put a cleaned bar of soap in a bath tub.After putting the towel and soap, move the pump bottles on the bathroom counter.Then, move toilet paper to the toilet paper roll holder."
+                "fintune 3":"Put a cleaned towel in the tub at any time. Simultaneously, put a cleaned bar of soap in a bath tub.After putting the towel and soap, move the spray bottles on the bathroom counter.Then, move toilet paper to the toilet paper roll holder."
             }
         },
         {

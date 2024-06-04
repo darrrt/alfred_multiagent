@@ -128,7 +128,7 @@
             "tasks":[
                 "Put liquid soap on the toilet.",
                 "Put a bottle of soap on top of a toilet.",
-                "take the pump bottle from the sink to the toilet"
+                "take the spray bottle from the sink to the toilet"
             ],
             "relative_objects":[
                 "Plunger",
@@ -240,7 +240,7 @@
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-406/trial_T20190907_015923_805044/traj_data.json":{
             "tasks":[
                 "Place a washed soap bar in the trash.",
-                "Put a soap in the trash can. ",
+                "Put a soap in the garbage can. ",
                 "Take the pink sponge near the mirror, wash it in the sink, put the sponge in the trash bin"
             ],
             "relative_objects":[
@@ -261,9 +261,9 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-406/trial_T20190907_015846_164761/traj_data.json":{
             "tasks":[
-                "Place the rinsed off soap into the trash can.",
+                "Place the rinsed off soap into the garbage can.",
                 "Place a rinsed bar of soap into the rubbish bin.",
-                "Place a washed bar of soap in a trash can."
+                "Place a washed bar of soap in a garbage can."
             ],
             "relative_objects":[
                 "SoapBar"
@@ -409,7 +409,7 @@
         {
             "task_list":[
                 "Put a toilet paper roll on the toilet paper holder.",
-                "Place the rinsed off soap into the trash can."
+                "Place the rinsed off soap into the garbage can."
             ],
             "orign":[
                 [
@@ -597,7 +597,7 @@
             "task_list":[
                 "Move the Soap bottles to the Toilet Tank.",
                 "Put a toilet paper roll on the toilet paper holder.",
-                "Place the rinsed off soap into the trash can.",
+                "Place the rinsed off soap into the garbage can.",
                 "put the plunger inside the cupboard"
             ],
             "orign":[
@@ -609,9 +609,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a toilet paper roll on the toilet paper holder at any time. Simultaneously, move the Soap bottles to the Toilet Tank. After putting the paper roll, place the rinsed off soap into the trash can. Finally, put the plunger inside the cupboard.",
-                "fintune 2":"Put a toilet paper roll on the toilet paper holder at any time. Simultaneously, put the plunger inside the cupboard. After putting the paper roll, place the rinsed off soap into the trash can. Finally, move the Soap bottles to the Toilet Tank.",
-                "fintune 3":"Move the Soap bottles to the Toilet Tank at any time. Simultaneously, put a toilet paper roll on the toilet paper holder. After moving the bottles, put the plunger inside the cupboard. Finally, place the rinsed off soap into the trash can."
+                "fintune 1":"Put a toilet paper roll on the toilet paper holder at any time. Simultaneously, move the Soap bottles to the Toilet Tank. After putting the paper roll, place the rinsed off soap into the garbage can. Finally, put the plunger inside the cupboard.",
+                "fintune 2":"Put a toilet paper roll on the toilet paper holder at any time. Simultaneously, put the plunger inside the cupboard. After putting the paper roll, place the rinsed off soap into the garbage can. Finally, move the Soap bottles to the Toilet Tank.",
+                "fintune 3":"Move the Soap bottles to the Toilet Tank at any time. Simultaneously, put a toilet paper roll on the toilet paper holder. After moving the bottles, put the plunger inside the cupboard. Finally, place the rinsed off soap into the garbage can."
             }
         },
         {
@@ -660,7 +660,7 @@
     "tasks_5":[
         {
             "task_list":[
-                "Place the rinsed off soap into the trash can.",
+                "Place the rinsed off soap into the garbage can.",
                 "Move dirty towels to the bathtub. ",
                 "place bottle on toilet",
                 "Put the plunger in the cabinet under the sink. ",
@@ -676,9 +676,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Move dirty towels to the bathtub first. After that, place the rinsed off soap into the trash can. Then, put the plunger in the cabinet under the sink. Next, place the bottle on the toilet. Finally, move a toilet paper roll and an empty toilet paper roll to the counter.",
-                "fintune 2":"Place the rinsed off soap into the trash can first. Simultaneously, move dirty towels to the bathtub. After that, put the plunger in the cabinet under the sink. Next, place the bottle on the toilet. Finally, move a toilet paper roll and an empty toilet paper roll to the counter.",
-                "fintune 3":"Move dirty towels to the bathtub first. Simultaneously, put the plunger in the cabinet under the sink. After that, place the rinsed off soap into the trash can. Next, place the bottle on the toilet. Finally, move a toilet paper roll and an empty toilet paper roll to the counter."
+                "fintune 1":"Move dirty towels to the bathtub first. After that, place the rinsed off soap into the garbage can. Then, put the plunger in the cabinet under the sink. Next, place the bottle on the toilet. Finally, move a toilet paper roll and an empty toilet paper roll to the counter.",
+                "fintune 2":"Place the rinsed off soap into the garbage can first. Simultaneously, move dirty towels to the bathtub. After that, put the plunger in the cabinet under the sink. Next, place the bottle on the toilet. Finally, move a toilet paper roll and an empty toilet paper roll to the counter.",
+                "fintune 3":"Move dirty towels to the bathtub first. Simultaneously, put the plunger in the cabinet under the sink. After that, place the rinsed off soap into the garbage can. Next, place the bottle on the toilet. Finally, move a toilet paper roll and an empty toilet paper roll to the counter."
             }
         },
         {
@@ -687,7 +687,7 @@
                 "Move a toilet paper roll and an empty toilet paper roll to the counter.",
                 "put the plunger inside the cupboard",
                 "Collect spraybottle, store under sink",
-                "Place the rinsed off soap into the trash can."
+                "Place the rinsed off soap into the garbage can."
             ],
             "orign":[
                 [
@@ -699,9 +699,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put wash towels in the tub at any time. Simultaneously, collect spraybottle and store them under the sink. After placing the wash towels, move a toilet paper roll and an empty toilet paper roll to the counter. Finally, put the plunger inside the cupboard and place the rinsed off soap into the trash can.",
-                "fintune 2":"Collect spraybottle and store them under the sink at any time. Simultaneously, put the wash towels in the tub. After collecting the spraybottle, move a toilet paper roll and an empty toilet paper roll to the counter. Then, put the plunger inside the cupboard and place the rinsed off soap into the trash can.",
-                "fintune 3":"Put the plunger inside the cupboard at any time. Simultaneously, move a toilet paper roll and an empty toilet paper roll to the counter. After placing the plunger, put wash towels in the tub. Then, collect spraybottle and store them under the sink, and finally place the rinsed off soap into the trash can."
+                "fintune 1":"Put wash towels in the tub at any time. Simultaneously, collect spraybottle and store them under the sink. After placing the wash towels, move a toilet paper roll and an empty toilet paper roll to the counter. Finally, put the plunger inside the cupboard and place the rinsed off soap into the garbage can.",
+                "fintune 2":"Collect spraybottle and store them under the sink at any time. Simultaneously, put the wash towels in the tub. After collecting the spraybottle, move a toilet paper roll and an empty toilet paper roll to the counter. Then, put the plunger inside the cupboard and place the rinsed off soap into the garbage can.",
+                "fintune 3":"Put the plunger inside the cupboard at any time. Simultaneously, move a toilet paper roll and an empty toilet paper roll to the counter. After placing the plunger, put wash towels in the tub. Then, collect spraybottle and store them under the sink, and finally place the rinsed off soap into the garbage can."
             }
         },
         {

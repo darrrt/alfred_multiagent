@@ -91,8 +91,8 @@
         },
         "train/pick_cool_then_place_in_recep-LettuceSliced-None-GarbageCan-20/trial_T20190909_125202_088056/traj_data.json":{
             "tasks":[
-                "Put a sliced lettuce inside the trash can",
-                "Place a chilled slice of lettuce in the trash can.",
+                "Put a sliced lettuce inside the garbage can",
+                "Place a chilled slice of lettuce in the garbage can.",
                 "Place a knife and a chilled slice of lettuce in a bin."
             ],
             "relative_objects":[
@@ -1082,7 +1082,7 @@
         },
         "train/pick_heat_then_place_in_recep-AppleSliced-None-GarbageCan-20/trial_T20190910_092858_247061/traj_data.json":{
             "tasks":[
-                "To heat an apple piece plus place it in the trash can.",
+                "To heat an apple piece plus place it in the garbage can.",
                 "Put a cooked piece of apple in a green bin.",
                 "Throw away a heated slice of apple."
             ],
@@ -1095,7 +1095,7 @@
         "train/pick_cool_then_place_in_recep-Lettuce-None-GarbageCan-20/trial_T20190907_204527_530630/traj_data.json":{
             "tasks":[
                 "Throw away a head of lettuce from the fridge.",
-                "cool the lettuce from the island in the refrigerator, put the lettuce in the trash can",
+                "cool the lettuce from the island in the refrigerator, put the lettuce in the garbage can",
                 "Put lettuce in a bin."
             ],
             "relative_objects":[
@@ -1107,7 +1107,7 @@
         },
         "train/pick_cool_then_place_in_recep-Lettuce-None-GarbageCan-20/trial_T20190907_204440_642169/traj_data.json":{
             "tasks":[
-                "Put chilled lettuce in the trash can.",
+                "Put chilled lettuce in the garbage can.",
                 "Put a chilled head of lettuce in the bin.",
                 "Place cooled off lettuce into a bin. "
             ],
@@ -1486,7 +1486,7 @@
         },
         "train/pick_cool_then_place_in_recep-BreadSliced-None-GarbageCan-20/trial_T20190907_233516_916571/traj_data.json":{
             "tasks":[
-                "Cool a slice of bread and place it in the trash can.",
+                "Cool a slice of bread and place it in the garbage can.",
                 "Throw a cooled slice of bread into the trash bin. ",
                 "Put a knife and cold bread in a garbage can."
             ],
@@ -1600,7 +1600,7 @@
             "tasks":[
                 "Slice lettuce, chill, remove, and place in the green container.",
                 "Throw out a chilled slice of lettuce. ",
-                "TO cool a lettuce slice and place it in the trash can."
+                "TO cool a lettuce slice and place it in the garbage can."
             ],
             "relative_objects":[
                 "Knife",
@@ -1927,7 +1927,7 @@
         },
         {
             "task_list":[
-                "Cool a slice of bread and place it in the trash can.",
+                "Cool a slice of bread and place it in the garbage can.",
                 "put chilled bowl in cabinet",
                 "get salt shaker from island to put away on shelf"
             ],
@@ -1939,9 +1939,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Cool a slice of bread and place it in the trash can at any time. Simultaneously, put chilled bowl in cabinet. After these tasks, get salt shaker from island to put away on shelf.",
-                "fintune 2":"Get salt shaker from island to put away on shelf at any time. Simultaneously, cool a slice of bread and place it in the trash can. After these tasks, put chilled bowl in cabinet.",
-                "fintune 3":"Put chilled bowl in cabinet at any time. Simultaneously, cool a slice of bread and place it in the trash can. After these tasks, get salt shaker from island to put away on shelf."
+                "fintune 1":"Cool a slice of bread and place it in the garbage can at any time. Simultaneously, put chilled bowl in cabinet. After these tasks, get salt shaker from island to put away on shelf.",
+                "fintune 2":"Get salt shaker from island to put away on shelf at any time. Simultaneously, cool a slice of bread and place it in the garbage can. After these tasks, put chilled bowl in cabinet.",
+                "fintune 3":"Put chilled bowl in cabinet at any time. Simultaneously, cool a slice of bread and place it in the garbage can. After these tasks, get salt shaker from island to put away on shelf."
             }
         },
         {
@@ -1967,7 +1967,7 @@
     "tasks_4":[
         {
             "task_list":[
-                "Put chilled lettuce in the trash can.",
+                "Put chilled lettuce in the garbage can.",
                 "get salt shaker from island to put away on shelf",
                 "Put a clean ladle on the cabinet",
                 "Cut an apple and cook a piece of apple"
@@ -1981,9 +1981,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put chilled lettuce in the trash can. Simultaneously, get salt shaker from island to put away on shelf. After putting away the salt shaker, put a clean ladle on the cabinet. Once done with all previous tasks, cut an apple and cook a piece of apple.",
-                "fintune 2":"Put chilled lettuce in the trash can. Simultaneously, get salt shaker from island to put away on shelf. Once done with all previous tasks, put a clean ladle on the cabinet. After putting the ladle away, cut an apple and cook a piece of apple.",
-                "fintune 3":"Put chilled lettuce in the trash can. Simultaneously, put a clean ladle on the cabinet. After putting away the lettuce and ladle, get salt shaker from island to put away on shelf. Once done with all previous tasks, cut an apple and cook a piece of apple."
+                "fintune 1":"Put chilled lettuce in the garbage can. Simultaneously, get salt shaker from island to put away on shelf. After putting away the salt shaker, put a clean ladle on the cabinet. Once done with all previous tasks, cut an apple and cook a piece of apple.",
+                "fintune 2":"Put chilled lettuce in the garbage can. Simultaneously, get salt shaker from island to put away on shelf. Once done with all previous tasks, put a clean ladle on the cabinet. After putting the ladle away, cut an apple and cook a piece of apple.",
+                "fintune 3":"Put chilled lettuce in the garbage can. Simultaneously, put a clean ladle on the cabinet. After putting away the lettuce and ladle, get salt shaker from island to put away on shelf. Once done with all previous tasks, cut an apple and cook a piece of apple."
             }
         },
         {
@@ -2033,7 +2033,7 @@
                 "Put the salt, pepper on the wooden rack. ",
                 "Put a pot with a slice of potato in it in a fridge.",
                 "Drying the coffee cup and putting it away",
-                "Put chilled lettuce in the trash can."
+                "Put chilled lettuce in the garbage can."
             ],
             "orign":[
                 [
@@ -2044,9 +2044,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the salt, pepper on the wooden rack at any time. Simultaneously, drying the coffee cup and putting it away. After that, put a pot with a slice of potato in it in a fridge. Finally, put chilled lettuce in the trash can.",
-                "fintune 2":"Put a pot with a slice of potato in it in a fridge at any time. Simultaneously, drying the coffee cup and putting it away. After that, put the salt, pepper on the wooden rack. Finally, put chilled lettuce in the trash can.",
-                "fintune 3":"Drying the coffee cup and putting it away at any time. Simultaneously, put the salt, pepper on the wooden rack. After that, put a pot with a slice of potato in it in a fridge. Finally, put chilled lettuce in the trash can."
+                "fintune 1":"Put the salt, pepper on the wooden rack at any time. Simultaneously, drying the coffee cup and putting it away. After that, put a pot with a slice of potato in it in a fridge. Finally, put chilled lettuce in the garbage can.",
+                "fintune 2":"Put a pot with a slice of potato in it in a fridge at any time. Simultaneously, drying the coffee cup and putting it away. After that, put the salt, pepper on the wooden rack. Finally, put chilled lettuce in the garbage can.",
+                "fintune 3":"Drying the coffee cup and putting it away at any time. Simultaneously, put the salt, pepper on the wooden rack. After that, put a pot with a slice of potato in it in a fridge. Finally, put chilled lettuce in the garbage can."
             }
         },
         {
@@ -2245,7 +2245,7 @@
                 "Put a heated potato slice in the fridge. ",
                 "Put a clean ladle on the cabinet",
                 "Put a cold pan in the sink.",
-                "Put chilled lettuce in the trash can.",
+                "Put chilled lettuce in the garbage can.",
                 "Heat a cup and put it away."
             ],
             "orign":[
@@ -2261,7 +2261,7 @@
             "finetuned":{
                 "fintune 1":"Cut up a tomato. Then, heat the sliced tomato piece and put a clean ladle on the cabinet. After that, put a heated potato slice in the fridge. Finally, heat a cup and put it away.",
                 "fintune 2":"Put a clean ladle on the cabinet. Heat a cup and put it away. Cut up a tomato and heat the sliced tomato piece. Put a heated potato slice in the fridge.",
-                "fintune 3":"Heat a cup and put it away. Put a clean ladle on the cabinet. Put a cold pan in the sink. Cut up a tomato and heat the sliced tomato piece. Put chilled lettuce in the trash can."
+                "fintune 3":"Heat a cup and put it away. Put a clean ladle on the cabinet. Put a cold pan in the sink. Cut up a tomato and heat the sliced tomato piece. Put chilled lettuce in the garbage can."
             }
         },
         {

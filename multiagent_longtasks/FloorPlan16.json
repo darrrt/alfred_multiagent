@@ -426,8 +426,8 @@
         "train/pick_cool_then_place_in_recep-TomatoSliced-None-GarbageCan-16/trial_T20190907_204345_813064/traj_data.json":{
             "tasks":[
                 "Place a slice of chilled tomato into the trash.",
-                "Place the chilled tomato slice inside the trash can at the end of the counter.",
-                "Place a chilled slice of tomato in the trash can."
+                "Place the chilled tomato slice inside the garbage can at the end of the counter.",
+                "Place a chilled slice of tomato in the garbage can."
             ],
             "relative_objects":[
                 "Tomato"
@@ -435,10 +435,10 @@
         },
         "train/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-16/trial_T20190906_171701_034036/traj_data.json":{
             "tasks":[
-                "Put a heated tomato in the trash can. ",
+                "Put a heated tomato in the garbage can. ",
                 "Put a heated tomato in the bin.",
                 "Put a microwaved tomato in the trash",
-                "Put a tomato in the trash can. ",
+                "Put a tomato in the garbage can. ",
                 "Have a cooked tomato in the trash.",
                 "Throw away the tomato."
             ],
@@ -453,7 +453,7 @@
                 "Carry a heated tomato to the trash",
                 "Place a heated tomato in a trash bin.",
                 "Put a heated tomato in the bin.",
-                "Put the cooked tomato into the trash can"
+                "Put the cooked tomato into the garbage can"
             ],
             "relative_objects":[
                 "Pot",
@@ -499,7 +499,7 @@
         },
         "train/pick_cool_then_place_in_recep-Lettuce-None-GarbageCan-16/trial_T20190909_042958_594440/traj_data.json":{
             "tasks":[
-                "Put a chilled lettuce in the trash can. ",
+                "Put a chilled lettuce in the garbage can. ",
                 "Place a green vegetable in the bin.",
                 "Discard a dirty, refrigerated head of lettuce."
             ],
@@ -584,8 +584,8 @@
         },
         "train/pick_cool_then_place_in_recep-BreadSliced-None-GarbageCan-16/trial_T20190907_212223_428030/traj_data.json":{
             "tasks":[
-                "Put a cold bread in the trash can ",
-                "Throw away a chilled slice of bread in the trash can",
+                "Put a cold bread in the garbage can ",
+                "Throw away a chilled slice of bread in the garbage can",
                 "Put a cold slice of bread in the garbage can."
             ],
             "relative_objects":[
@@ -823,9 +823,9 @@
         },
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-GarbageCan-16/trial_T20190909_004915_638100/traj_data.json":{
             "tasks":[
-                "To put a heated slice of tomato in the trash can.",
+                "To put a heated slice of tomato in the garbage can.",
                 "To put a heated slice of tomato in a bin",
-                "Put a microwaved slice of tomato in the trash can. "
+                "Put a microwaved slice of tomato in the garbage can. "
             ],
             "relative_objects":[
                 "Plate",
@@ -1074,8 +1074,8 @@
         },
         "train/pick_cool_then_place_in_recep-WineBottle-None-GarbageCan-16/trial_T20190907_015045_510934/traj_data.json":{
             "tasks":[
-                "Chill bottle in refrigerator, throw in trash can to front left of paper towels",
-                "Put a chilled win bottle in a trash can.",
+                "Chill bottle in refrigerator, throw in garbage can to front left of paper towels",
+                "Put a chilled win bottle in a garbage can.",
                 "put cooled wine inside the garbage"
             ],
             "relative_objects":[
@@ -1087,7 +1087,7 @@
             "tasks":[
                 "Pick up a bottle, place it into the fridge, take it back to the trash",
                 "Place a chilled bottle of wine into the garbage bin.",
-                "Move the bottle from and back to the trash can."
+                "Move the bottle from and back to the garbage can."
             ],
             "relative_objects":[
                 "WineBottle"
@@ -1232,7 +1232,7 @@
             "tasks":[
                 "to cook a sliced tomato to throw it in the trash. ",
                 "Place a cooked tomato slice into the bin.",
-                "Put a hot slice of tomato and knife in the trash can."
+                "Put a hot slice of tomato and knife in the garbage can."
             ],
             "relative_objects":[
                 "Knife",
@@ -1413,7 +1413,7 @@
         },
         {
             "task_list":[
-                "Put a heated tomato in the trash can. "
+                "Put a heated tomato in the garbage can. "
             ],
             "orign":[
                 [
@@ -1712,7 +1712,7 @@
         {
             "task_list":[
                 "put the spatulas back in the drawer",
-                "Put a cold bread in the trash can ",
+                "Put a cold bread in the garbage can ",
                 "Move a ladle and pan to the table.",
                 "Put cleaned lettuce on the counter.",
                 "Putting a cold apple on the white table"
@@ -1727,9 +1727,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cold bread in the trash can at any time. Simultaneously, put cleaned lettuce on the counter.After putting the bread, move a ladle and pan to the table. Finally, put the spatulas back in the drawer.",
-                "fintune 2":"Put a cold apple on the white table at any time. Simultaneously, put cleaned lettuce on the counter.After putting the apple, put a cold bread in the trash can, move a ladle and pan to the table, and finally put the spatulas back in the drawer.",
-                "fintune 3":"Put a cold bread in the trash can at any time. Simultaneously, move a ladle and pan to the table.After putting the bread, put cleaned lettuce on the counter and finally put the spatulas back in the drawer."
+                "fintune 1":"Put a cold bread in the garbage can at any time. Simultaneously, put cleaned lettuce on the counter.After putting the bread, move a ladle and pan to the table. Finally, put the spatulas back in the drawer.",
+                "fintune 2":"Put a cold apple on the white table at any time. Simultaneously, put cleaned lettuce on the counter.After putting the apple, put a cold bread in the garbage can, move a ladle and pan to the table, and finally put the spatulas back in the drawer.",
+                "fintune 3":"Put a cold bread in the garbage can at any time. Simultaneously, move a ladle and pan to the table.After putting the bread, put cleaned lettuce on the counter and finally put the spatulas back in the drawer."
             }
         },
         {
@@ -1853,7 +1853,7 @@
         },
         {
             "task_list":[
-                "Put a cold bread in the trash can ",
+                "Put a cold bread in the garbage can ",
                 "Put a plate with a ladle in the cabinet closest to the stove.",
                 "Put cleaned lettuce on the counter.",
                 "Move one metal spoon from the dining table to the sink.",
@@ -1873,7 +1873,7 @@
             "finetuned":{
                 "fintune 1":"Put cleaned lettuce on the counter at any time. Simultaneously, move one metal spoon from the dining table to the sink. After putting the lettuce and spoon, put a plate with a ladle in the cabinet closest to the stove.",
                 "fintune 2":"Put a bowl with a spatula in it on a table at any time. Simultaneously, pick up a bottle, place it into the fridge, then take it back to the trash.",
-                "fintune 3":"Put a cold bread in the trash can at any time. Simultaneously, pick up a bottle, place it into the fridge, then take it back to the trash. After disposing of the bread and bottle, put a plate with a ladle in the cabinet closest to the stove."
+                "fintune 3":"Put a cold bread in the garbage can at any time. Simultaneously, pick up a bottle, place it into the fridge, then take it back to the trash. After disposing of the bread and bottle, put a plate with a ladle in the cabinet closest to the stove."
             }
         },
         {
@@ -1930,7 +1930,7 @@
             "task_list":[
                 "Put a frying pan with a fork in it on a round table.",
                 "Place a apple on a table.",
-                "Chill bottle in refrigerator, throw in trash can to front left of paper towels",
+                "Chill bottle in refrigerator, throw in garbage can to front left of paper towels",
                 "Move one metal spoon from the dining table to the sink.",
                 "Put a plate with a ladle in the cabinet closest to the stove.",
                 "Put the washed potato slice on the table"
@@ -1947,7 +1947,7 @@
             ],
             "finetuned":{
                 "fintune 1":"Move one metal spoon from the dining table to the sink. Simultaneously, Put a frying pan with a fork in it on a round table. After moving the spoon and placing the frying pan, place a apple on a table.",
-                "fintune 2":"Put a plate with a ladle in the cabinet closest to the stove. Afterward, Chill bottle in refrigerator, throw in trash can to front left of paper towels. Once that is done, Put the washed potato slice on the table.",
+                "fintune 2":"Put a plate with a ladle in the cabinet closest to the stove. Afterward, Chill bottle in refrigerator, throw in garbage can to front left of paper towels. Once that is done, Put the washed potato slice on the table.",
                 "fintune 3":"Put a frying pan with a fork in it on a round table at any time. Simultaneously, Put the washed potato slice on the table. After placing the frying pan and the potato slice,Move one metal spoon from the dining table to the sink. Next, Put a plate with a ladle in the cabinet closest to the stove. Finally, place a apple on a table."
             }
         }
@@ -1959,7 +1959,7 @@
                 "Put a chilled pot on the front burner of the stove top.",
                 "pick up wine from table put into fridge",
                 "place cooled lettuce inside of the kitchen sink",
-                "Put a cold bread in the trash can ",
+                "Put a cold bread in the garbage can ",
                 "put a ladle in a kitchen drawer",
                 "Place a heated apple slice in a fridge."
             ],
@@ -1976,7 +1976,7 @@
             ],
             "finetuned":{
                 "fintune 1":"Cook the potato in the microwave and put it on the table. Place a heated apple slice in a fridge. Put a chilled pot on the front burner of the stove top.",
-                "fintune 2":"Put a chilled pot on the front burner of the stove top. Place cooled lettuce inside of the kitchen sink. Put a ladle in a kitchen drawer. Put a cold bread in the trash can.",
+                "fintune 2":"Put a chilled pot on the front burner of the stove top. Place cooled lettuce inside of the kitchen sink. Put a ladle in a kitchen drawer. Put a cold bread in the garbage can.",
                 "fintune 3":"Pick up wine from the table and put it into the fridge. Place a chilled pot on the front burner of the stove top. Put a ladle in a kitchen drawer."
             }
         }

@@ -465,9 +465,9 @@
         },
         "train/pick_heat_then_place_in_recep-Apple-None-GarbageCan-8/trial_T20190907_042907_500864/traj_data.json":{
             "tasks":[
-                "Place a microwaved green apple into the trash can.",
+                "Place a microwaved green apple into the garbage can.",
                 "Heat an apple in the microwave followed by throwing it away",
-                "Put a heated apple in the trash can. "
+                "Put a heated apple in the garbage can. "
             ],
             "relative_objects":[
                 "Apple"
@@ -603,8 +603,8 @@
         },
         "train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-8/trial_T20190909_120700_524631/traj_data.json":{
             "tasks":[
-                "Put a heated egg in the trash can. ",
-                "put cooked egg in the trash can",
+                "Put a heated egg in the garbage can. ",
+                "put cooked egg in the garbage can",
                 "Place a heated egg in a bin."
             ],
             "relative_objects":[
@@ -685,7 +685,7 @@
         },
         "train/pick_heat_then_place_in_recep-PotatoSliced-None-GarbageCan-8/trial_T20190908_131559_805667/traj_data.json":{
             "tasks":[
-                "throw a heated slice of potato in the trash can",
+                "throw a heated slice of potato in the garbage can",
                 "slice a potato, cook a slice in a microwave to throw it away",
                 "Put a cooked potato slice and a knife in the bin"
             ],
@@ -698,7 +698,7 @@
             "tasks":[
                 "Put a clean slice of tomato in the trash.",
                 "Throw a clean piece of pepper away.",
-                "Moving a tomato slice to the trash can"
+                "Moving a tomato slice to the garbage can"
             ],
             "relative_objects":[
                 "Tomato",
@@ -867,7 +867,7 @@
     "tasks_1":[
         {
             "task_list":[
-                "Put a heated egg in the trash can. "
+                "Put a heated egg in the garbage can. "
             ],
             "orign":[
                 [
@@ -1126,7 +1126,7 @@
             "task_list":[
                 "Put a microwaved egg in the garbage.",
                 "Place a washed spoon in a cabinet. ",
-                "Place a microwaved green apple into the trash can.",
+                "Place a microwaved green apple into the garbage can.",
                 "Put a cooked potato in the sink."
             ],
             "orign":[
@@ -1140,7 +1140,7 @@
             "finetuned":{
                 "fintune 1":"Put a microwaved egg in the garbage at any time. After putting the egg, place a washed spoon in a cabinet.",
                 "fintune 2":"Put a cooked potato in the sink at any time. Simultaneously, place a washed spoon in a cabinet.",
-                "fintune 3":"Place a microwaved green apple into the trash can at any time. After placing the apple, put a washed spoon in a cabinet."
+                "fintune 3":"Place a microwaved green apple into the garbage can at any time. After placing the apple, put a washed spoon in a cabinet."
             }
         },
         {

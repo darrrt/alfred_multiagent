@@ -52,7 +52,7 @@
         "train/pick_and_place_simple-SoapBottle-None-CounterTop-428/trial_T20190909_114253_745915/traj_data.json":{
             "tasks":[
                 "Place a soap dispenser next to a bathroom sink.",
-                "take the pump bottle from the toilet to the counter between the sinks",
+                "take the spray bottle from the toilet to the counter between the sinks",
                 "Move the bottle to the sink."
             ],
             "relative_objects":[
@@ -172,7 +172,7 @@
         },
         "train/pick_and_place_simple-SprayBottle-None-GarbageCan-428/trial_T20190909_101535_306889/traj_data.json":{
             "tasks":[
-                "Putting a spray bottle in the trash can",
+                "Putting a spray bottle in the garbage can",
                 "Put a spray bottle in a bin.",
                 "Throw away the spray bottle."
             ],
@@ -359,7 +359,7 @@
         {
             "task_list":[
                 "Place a wet bar of soap under the sink.",
-                "Putting a spray bottle in the trash can"
+                "Putting a spray bottle in the garbage can"
             ],
             "orign":[
                 [
@@ -368,9 +368,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a wet bar of soap under the sink at any time. Simultaneously, put a spray bottle in the trash can.",
-                "fintune 2":"Putting a spray bottle in the trash can at any time. Simultaneously, place a wet bar of soap under the sink.",
-                "fintune 3":"Place a wet bar of soap under the sink. Afterwards, put a spray bottle in the trash can."
+                "fintune 1":"Place a wet bar of soap under the sink at any time. Simultaneously, put a spray bottle in the garbage can.",
+                "fintune 2":"Putting a spray bottle in the garbage can at any time. Simultaneously, place a wet bar of soap under the sink.",
+                "fintune 3":"Place a wet bar of soap under the sink. Afterwards, put a spray bottle in the garbage can."
             }
         },
         {
@@ -413,7 +413,7 @@
             "task_list":[
                 "Place a roll of toilet paper on a toilet paper holder.",
                 "Place soap in cabinet under the sink.",
-                "Putting a spray bottle in the trash can"
+                "Putting a spray bottle in the garbage can"
             ],
             "orign":[
                 [
@@ -423,9 +423,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a roll of toilet paper on a toilet paper holder at any time. Simultaneously, place soap in cabinet under the sink. After completing the previous tasks, put a spray bottle in the trash can.",
-                "fintune 2":"Place soap in cabinet under the sink at any time. Simultaneously, put a spray bottle in the trash can. After completing the previous tasks, place a roll of toilet paper on a toilet paper holder.",
-                "fintune 3":"Put a spray bottle in the trash can at any time. Simultaneously, place a roll of toilet paper on a toilet paper holder. After completing the previous tasks, place soap in cabinet under the sink."
+                "fintune 1":"Place a roll of toilet paper on a toilet paper holder at any time. Simultaneously, place soap in cabinet under the sink. After completing the previous tasks, put a spray bottle in the garbage can.",
+                "fintune 2":"Place soap in cabinet under the sink at any time. Simultaneously, put a spray bottle in the garbage can. After completing the previous tasks, place a roll of toilet paper on a toilet paper holder.",
+                "fintune 3":"Put a spray bottle in the garbage can at any time. Simultaneously, place a roll of toilet paper on a toilet paper holder. After completing the previous tasks, place soap in cabinet under the sink."
             }
         },
         {
@@ -617,7 +617,7 @@
             "task_list":[
                 "Place a cardboard roll and a toilet paper roll in a cabinet.",
                 "Put bottles on a toilet's tank.",
-                "Putting a spray bottle in the trash can",
+                "Putting a spray bottle in the garbage can",
                 "Put a towel on a toilet.",
                 "Place wet soap on a counter"
             ],
@@ -632,7 +632,7 @@
             ],
             "finetuned":{
                 "fintune 1":"Place a cardboard roll and a toilet paper roll in a cabinetat any time. Simultaneously, put bottles on a toilet's tank.After placing the rolls and bottles, put a towel on a toilet. Finally, place wet soap on a counter.",
-                "fintune 2":"Put bottles on a toilet's tank at any time. Simultaneously, putting a spray bottle in the trash can.After placing the bottles, put a towel on a toilet. Finally, place wet soap on a counter.",
+                "fintune 2":"Put bottles on a toilet's tank at any time. Simultaneously, putting a spray bottle in the garbage can.After placing the bottles, put a towel on a toilet. Finally, place wet soap on a counter.",
                 "fintune 3":"Put a towel on a toilet at any time. Simultaneously, place wet soap on a counter.After placing the towel, put bottles on a toilet's tank. Finally, put a cardboard roll and a toilet paper roll in a cabinet."
             }
         },
@@ -640,7 +640,7 @@
             "task_list":[
                 "Move a towel to the toilet.",
                 "Put a candle in the cabinet. ",
-                "Putting a spray bottle in the trash can",
+                "Putting a spray bottle in the garbage can",
                 "Move the soap from the toilet to under the sink.",
                 "Place a tube and a roll of toilet paper in the leftmost cabinet under the sink."
             ],
@@ -656,14 +656,14 @@
             "finetuned":{
                 "fintune 1":"Move a towel to the toilet at any time. Simultaneously, put a candle in the cabinet. After completing these tasks, move the soap from the toilet to under the sink. Finally, place a tube and a roll of toilet paper in the leftmost cabinet under the sink.",
                 "fintune 2":"Put a candle in the cabinet at any time. Simultaneously, move a towel to the toilet. After completing these tasks, move the soap from the toilet to under the sink. Finally, place a tube and a roll of toilet paper in the leftmost cabinet under the sink.",
-                "fintune 3":"Putting a spray bottle in the trash can at any time. Simultaneously, move the soap from the toilet to under the sink. After completing these tasks, move a towel to the toilet. Finally, place a tube and a roll of toilet paper in the leftmost cabinet under the sink."
+                "fintune 3":"Putting a spray bottle in the garbage can at any time. Simultaneously, move the soap from the toilet to under the sink. After completing these tasks, move a towel to the toilet. Finally, place a tube and a roll of toilet paper in the leftmost cabinet under the sink."
             }
         },
         {
             "task_list":[
                 "Place an empty roll of toilet paper on the toilet paper holder.",
                 "Put a candle in the cabinet. ",
-                "Putting a spray bottle in the trash can",
+                "Putting a spray bottle in the garbage can",
                 "Place a bottle of soap on a counter",
                 "Move a towel to the toilet."
             ],
@@ -677,9 +677,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle in the cabinet. At any time, place an empty roll of toilet paper on the toilet paper holder. After placing the candle, move a towel to the toilet. Then, place a bottle of soap on a counter. Finally, put a spray bottle in the trash can.",
-                "fintune 2":"At any time, place an empty roll of toilet paper on the toilet paper holder. Simultaneously, put a candle in the cabinet. After that, move a towel to the toilet. Then, place a bottle of soap on a counter. Once done, put a spray bottle in the trash can.",
-                "fintune 3":"Place a bottle of soap on a counter. Put a candle in the cabinet. After placing the soap, put a spray bottle in the trash can. Then, move a towel to the toilet. Finally, place an empty roll of toilet paper on the toilet paper holder."
+                "fintune 1":"Put a candle in the cabinet. At any time, place an empty roll of toilet paper on the toilet paper holder. After placing the candle, move a towel to the toilet. Then, place a bottle of soap on a counter. Finally, put a spray bottle in the garbage can.",
+                "fintune 2":"At any time, place an empty roll of toilet paper on the toilet paper holder. Simultaneously, put a candle in the cabinet. After that, move a towel to the toilet. Then, place a bottle of soap on a counter. Once done, put a spray bottle in the garbage can.",
+                "fintune 3":"Place a bottle of soap on a counter. Put a candle in the cabinet. After placing the soap, put a spray bottle in the garbage can. Then, move a towel to the toilet. Finally, place an empty roll of toilet paper on the toilet paper holder."
             }
         },
         {

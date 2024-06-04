@@ -83,9 +83,9 @@
         },
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-419/trial_T20190908_204732_615398/traj_data.json":{
             "tasks":[
-                "Move the soap from the white drawers to the trash can.",
-                "Put a bottle of soap bottle in the trash can.",
-                "Put a bottle in a trash can."
+                "Move the soap from the white drawers to the garbage can.",
+                "Put a bottle of soap bottle in the garbage can.",
+                "Put a bottle in a garbage can."
             ],
             "relative_objects":[
                 "SoapBottle",
@@ -95,7 +95,7 @@
         "train/pick_and_place_simple-SoapBottle-None-GarbageCan-419/trial_T20190908_204648_980146/traj_data.json":{
             "tasks":[
                 "Put the soap container in the trash.",
-                "Place a bottle of soap into a trash can",
+                "Place a bottle of soap into a garbage can",
                 "Put a soap dispenser in the trash."
             ],
             "relative_objects":[
@@ -106,7 +106,7 @@
             "tasks":[
                 "Throw away a bottle.",
                 "Put a soap bottle in the trash.",
-                "Put a bottle in the trash can."
+                "Put a bottle in the garbage can."
             ],
             "relative_objects":[
                 "SoapBottle"
@@ -302,7 +302,7 @@
         },
         {
             "task_list":[
-                "Move the soap from the white drawers to the trash can."
+                "Move the soap from the white drawers to the garbage can."
             ],
             "orign":[
                 [
@@ -552,7 +552,7 @@
             "task_list":[
                 "Put the candles on the toilet",
                 "move the paper roll from the tub to the toilet",
-                "Move the soap from the white drawers to the trash can.",
+                "Move the soap from the white drawers to the garbage can.",
                 "Retrieve a cloth from the tub, put the cloth in the sink, put the same cloth on the toilet tank."
             ],
             "orign":[
@@ -564,9 +564,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the candles on the toilet at any time. Simultaneously, move the soap from the white drawers to the trash can. After putting the candles and moving the soap, retrieve a cloth from the tub, put the cloth in the sink, and put the same cloth on the toilet tank.",
-                "fintune 2":"Retrieve a cloth from the tub, put the cloth in the sink, and put the same cloth on the toilet tank at any time. Simultaneously, move the soap from the white drawers to the trash can. After moving the soap, put the candles on the toilet.",
-                "fintune 3":"Move the soap from the white drawers to the trash can at any time. Simultaneously, retrieve a cloth from the tub, put the cloth in the sink, and put the same cloth on the toilet tank. After moving the soap, put the candles on the toilet."
+                "fintune 1":"Put the candles on the toilet at any time. Simultaneously, move the soap from the white drawers to the garbage can. After putting the candles and moving the soap, retrieve a cloth from the tub, put the cloth in the sink, and put the same cloth on the toilet tank.",
+                "fintune 2":"Retrieve a cloth from the tub, put the cloth in the sink, and put the same cloth on the toilet tank at any time. Simultaneously, move the soap from the white drawers to the garbage can. After moving the soap, put the candles on the toilet.",
+                "fintune 3":"Move the soap from the white drawers to the garbage can at any time. Simultaneously, retrieve a cloth from the tub, put the cloth in the sink, and put the same cloth on the toilet tank. After moving the soap, put the candles on the toilet."
             }
         },
         {
