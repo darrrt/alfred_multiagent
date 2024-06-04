@@ -450,7 +450,7 @@
         },
         "train/pick_clean_then_place_in_recep-Potato-None-GarbageCan-19/trial_T20190908_073836_889531/traj_data.json":{
             "tasks":[
-                "Put a cleaned potato in the trash can. ",
+                "Put a cleaned potato in the garbage can. ",
                 "Move a clean potato to the trash bin.",
                 "Place a rinsed potato in a container."
             ],
@@ -462,7 +462,7 @@
             "tasks":[
                 "Place a rinsed potato into the garbage can.",
                 "Clean off a dirty potato and put it back in the trash.",
-                "Putting a potato in the trash can"
+                "Putting a potato in the garbage can"
             ],
             "relative_objects":[
                 "GarbageCan",
@@ -474,7 +474,7 @@
             "tasks":[
                 "Put the clean potato in the trash bin ",
                 "Put a clean potato in a white bin.",
-                "put a clean potato in to the trash can"
+                "put a clean potato in to the garbage can"
             ],
             "relative_objects":[
                 "Potato"
@@ -672,7 +672,7 @@
         },
         "train/pick_heat_then_place_in_recep-AppleSliced-None-GarbageCan-19/trial_T20190907_015052_294726/traj_data.json":{
             "tasks":[
-                "Place a microwaved piece of apple into the trash can.",
+                "Place a microwaved piece of apple into the garbage can.",
                 "Put a cooked piece of apple into a bin.",
                 "Throw away a microwaved apple slice."
             ],
@@ -928,7 +928,7 @@
         "train/pick_cool_then_place_in_recep-AppleSliced-None-GarbageCan-19/trial_T20190918_181319_416330/traj_data.json":{
             "tasks":[
                 "trash a cold slice of apple",
-                "Put a chilled slice of apple in the trash can.",
+                "Put a chilled slice of apple in the garbage can.",
                 "throw away a chilled apple slice"
             ],
             "relative_objects":[
@@ -942,7 +942,7 @@
             "tasks":[
                 "Put a chilled piece of sliced apple in a silver bin.",
                 "Put cold piece of apple inside the garbage can.",
-                "Chill an apple slice in the fridge to throw it away in the trash can."
+                "Chill an apple slice in the fridge to throw it away in the garbage can."
             ],
             "relative_objects":[
                 "Knife",
@@ -954,7 +954,7 @@
             "tasks":[
                 "throw away a chilled apple slice",
                 "Throw away a slice of apple from the table that's been chilled.",
-                "Put a chilled slice of apple in the trash can."
+                "Put a chilled slice of apple in the garbage can."
             ],
             "relative_objects":[
                 "Apple"
@@ -963,7 +963,7 @@
         "train/pick_heat_then_place_in_recep-Potato-None-GarbageCan-19/trial_T20190907_073005_559245/traj_data.json":{
             "tasks":[
                 "Place a warmed potato inside a grey bin.",
-                "Put a microwaved potato in the trash can.",
+                "Put a microwaved potato in the garbage can.",
                 "place a cooked potato in the garbage"
             ],
             "relative_objects":[
@@ -991,8 +991,8 @@
         "train/pick_cool_then_place_in_recep-BreadSliced-None-GarbageCan-19/trial_T20190908_174541_150732/traj_data.json":{
             "tasks":[
                 "Put a cold slice of bread in a trash bin.",
-                "Putting cold sliced bread in the trash can",
-                "Put a chilled slice of bread in the trash can. "
+                "Putting cold sliced bread in the garbage can",
+                "Put a chilled slice of bread in the garbage can. "
             ],
             "relative_objects":[
                 "Plate",
@@ -1002,7 +1002,7 @@
         },
         "train/pick_cool_then_place_in_recep-BreadSliced-None-GarbageCan-19/trial_T20190908_174425_766449/traj_data.json":{
             "tasks":[
-                "Cool a bread slice plus place it in the trash can.",
+                "Cool a bread slice plus place it in the garbage can.",
                 "Slice a bread, put a slice into the basket",
                 "Put a cold slice of bread in the garbage. "
             ],
@@ -1200,7 +1200,7 @@
             "tasks":[
                 "Put the chilled sliced tomato in trash bin",
                 "Throw out a chilled slice of tomato along with the knife. ",
-                "put a slice of tomato inside the trash can"
+                "put a slice of tomato inside the garbage can"
             ],
             "relative_objects":[
                 "Knife",
@@ -1403,7 +1403,7 @@
             "tasks":[
                 "Put a cooked piece of apple in a bin.",
                 "Throw away a microwaved slice of apple.",
-                "Slice an apple, cook it, then place it inside a trash can"
+                "Slice an apple, cook it, then place it inside a garbage can"
             ],
             "relative_objects":[
                 "Knife",
@@ -1415,7 +1415,7 @@
         "tests_seen/trial_T20190908_174632_551228/traj_data.json":{
             "tasks":[
                 "Put a piece of cold bread in the trash.",
-                "Place cold bread in the trash can.",
+                "Place cold bread in the garbage can.",
                 "Slice bread to put in the trash."
             ],
             "relative_objects":[
@@ -1654,7 +1654,7 @@
         {
             "task_list":[
                 "Slice a potato, cool a slice of potato",
-                "Place a microwaved piece of apple into the trash can.",
+                "Place a microwaved piece of apple into the garbage can.",
                 "put chilled plate in the sink"
             ],
             "orign":[
@@ -1665,9 +1665,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Slice a potato, cool a slice of potato at any time. Put chilled plate in the sink. After cooling the potato slice, place a microwaved piece of apple into the trash can.",
-                "fintune 2":"Place a microwaved piece of apple into the trash can. Put chilled plate in the sink at any time. After placing the apple in the trash can, slice a potato, cool a slice of potato.",
-                "fintune 3":"Put chilled plate in the sink. Slice a potato, cool a slice of potato at any time. After cooling the potato slice, place a microwaved piece of apple into the trash can."
+                "fintune 1":"Slice a potato, cool a slice of potato at any time. Put chilled plate in the sink. After cooling the potato slice, place a microwaved piece of apple into the garbage can.",
+                "fintune 2":"Place a microwaved piece of apple into the garbage can. Put chilled plate in the sink at any time. After placing the apple in the garbage can, slice a potato, cool a slice of potato.",
+                "fintune 3":"Put chilled plate in the sink. Slice a potato, cool a slice of potato at any time. After cooling the potato slice, place a microwaved piece of apple into the garbage can."
             }
         }
     ],
@@ -1851,7 +1851,7 @@
         {
             "task_list":[
                 "Put a cooled egg on a counter",
-                "Put a cleaned potato in the trash can. ",
+                "Put a cleaned potato in the garbage can. ",
                 "Put a cooked apple in the kitchen sink.",
                 "Move a slice of cold bread to the microwave.",
                 "put a place with a knife on to the counter next to the microwave"
@@ -1866,9 +1866,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a cleaned potato in the trash can. At any time, put a place with a knife on to the counter next to the microwave. After putting the potato and knife in place, put a cooled egg on a counter. Simultaneously, move a slice of cold bread to the microwave. Finally, put a cooked apple in the kitchen sink.",
-                "fintune 2":"Put a cooked apple in the kitchen sink. After that, put a cleaned potato in the trash can. At any time, put a place with a knife on to the counter next to the microwave. Simultaneously, put a cooled egg on a counter. Finally, move a slice of cold bread to the microwave.",
-                "fintune 3":"Put a cooled egg on a counter. Simultaneously, put a cleaned potato in the trash can. After putting the egg and potato in place, move a slice of cold bread to the microwave. At any time, put a place with a knife on to the counter next to the microwave. Finally, put a cooked apple in the kitchen sink."
+                "fintune 1":"Put a cleaned potato in the garbage can. At any time, put a place with a knife on to the counter next to the microwave. After putting the potato and knife in place, put a cooled egg on a counter. Simultaneously, move a slice of cold bread to the microwave. Finally, put a cooked apple in the kitchen sink.",
+                "fintune 2":"Put a cooked apple in the kitchen sink. After that, put a cleaned potato in the garbage can. At any time, put a place with a knife on to the counter next to the microwave. Simultaneously, put a cooled egg on a counter. Finally, move a slice of cold bread to the microwave.",
+                "fintune 3":"Put a cooled egg on a counter. Simultaneously, put a cleaned potato in the garbage can. After putting the egg and potato in place, move a slice of cold bread to the microwave. At any time, put a place with a knife on to the counter next to the microwave. Finally, put a cooked apple in the kitchen sink."
             }
         },
         {
@@ -1903,7 +1903,7 @@
                 "Put a cold egg on the counter.",
                 "Put a spoon in the sink. ",
                 "Put the chilled  slice potato in the sink",
-                "Place a microwaved piece of apple into the trash can."
+                "Place a microwaved piece of apple into the garbage can."
             ],
             "orign":[
                 [
@@ -1916,16 +1916,16 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a chilled bowl in the cupboard at any time. Simultaneously, put a cold egg on the counter. After putting the chilled bowl, wash a plate to put it in the fridge. After putting the plate in the fridge, put a spoon in the sink. Finally, place a microwaved piece of apple into the trash can.",
-                "fintune 2":"Put a cold egg on the counter at any time. Simultaneously, put a chilled bowl in the cupboard. After putting the cold egg, put a spoon in the sink. After that, wash a plate to put it in the fridge. Finally, place a microwaved piece of apple into the trash can.",
-                "fintune 3":"Put a cold egg on the counter at any time. Simultaneously, put a chilled slice potato in the sink. After putting the cold egg, put a spoon in the sink. After that, wash a plate to put it in the fridge. Finally, place a microwaved piece of apple into the trash can."
+                "fintune 1":"Put a chilled bowl in the cupboard at any time. Simultaneously, put a cold egg on the counter. After putting the chilled bowl, wash a plate to put it in the fridge. After putting the plate in the fridge, put a spoon in the sink. Finally, place a microwaved piece of apple into the garbage can.",
+                "fintune 2":"Put a cold egg on the counter at any time. Simultaneously, put a chilled bowl in the cupboard. After putting the cold egg, put a spoon in the sink. After that, wash a plate to put it in the fridge. Finally, place a microwaved piece of apple into the garbage can.",
+                "fintune 3":"Put a cold egg on the counter at any time. Simultaneously, put a chilled slice potato in the sink. After putting the cold egg, put a spoon in the sink. After that, wash a plate to put it in the fridge. Finally, place a microwaved piece of apple into the garbage can."
             }
         },
         {
             "task_list":[
                 "place the a microwaved cup in the cabinet under the microwave on the right",
                 "Wash off lettuce and put in fridge ",
-                "Cool a bread slice plus place it in the trash can.",
+                "Cool a bread slice plus place it in the garbage can.",
                 "Put a chilled egg on the counter.",
                 "Slice potato to put in fridge and sink.",
                 "Put a chilled bowl in the cupboard. "
@@ -1941,9 +1941,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Cool a bread slice plus place it in the trash can. Wash off lettuce and put in fridge. Slice potato to put in fridge and sink. Put a chilled egg on the counter. Put a chilled bowl in the cupboard. Place the a microwaved cup in the cabinet under the microwave on the right.",
-                "fintune 2":"Slice potato to put in fridge and sink. Cool a bread slice plus place it in the trash can. Wash off lettuce and put in fridge. Put a chilled bowl in the cupboard. Put a chilled egg on the counter. Place the a microwaved cup in the cabinet under the microwave on the right.",
-                "fintune 3":"Put a chilled egg on the counter. Put a chilled bowl in the cupboard. Place the a microwaved cup in the cabinet under the microwave on the right. Slice potato to put in fridge and sink. Cool a bread slice plus place it in the trash can. Wash off lettuce and put in the fridge."
+                "fintune 1":"Cool a bread slice plus place it in the garbage can. Wash off lettuce and put in fridge. Slice potato to put in fridge and sink. Put a chilled egg on the counter. Put a chilled bowl in the cupboard. Place the a microwaved cup in the cabinet under the microwave on the right.",
+                "fintune 2":"Slice potato to put in fridge and sink. Cool a bread slice plus place it in the garbage can. Wash off lettuce and put in fridge. Put a chilled bowl in the cupboard. Put a chilled egg on the counter. Place the a microwaved cup in the cabinet under the microwave on the right.",
+                "fintune 3":"Put a chilled egg on the counter. Put a chilled bowl in the cupboard. Place the a microwaved cup in the cabinet under the microwave on the right. Slice potato to put in fridge and sink. Cool a bread slice plus place it in the garbage can. Wash off lettuce and put in the fridge."
             }
         }
     ],

@@ -143,7 +143,7 @@
         },
         "train/pick_cool_then_place_in_recep-LettuceSliced-None-GarbageCan-30/trial_T20190908_211208_027116/traj_data.json":{
             "tasks":[
-                "Put a chilled slice of lettuce in the trash can. ",
+                "Put a chilled slice of lettuce in the garbage can. ",
                 "Put the chilled sliced lettuce in the trash bin",
                 "Cut a slide of lettuce, chill it, and place in recycling bin."
             ],
@@ -395,7 +395,7 @@
         },
         "train/pick_cool_then_place_in_recep-TomatoSliced-None-GarbageCan-30/trial_T20190907_213057_066940/traj_data.json":{
             "tasks":[
-                "Slice the tomato, take a slice put it in the fridge, take it out put it in the trash can",
+                "Slice the tomato, take a slice put it in the fridge, take it out put it in the garbage can",
                 "Put a chilled slice of tomato in a bin.",
                 "Chill a knife and slice of tomato, put tomato slice in recycling bin."
             ],
@@ -407,7 +407,7 @@
         "train/pick_cool_then_place_in_recep-TomatoSliced-None-GarbageCan-30/trial_T20190907_213314_117122/traj_data.json":{
             "tasks":[
                 "trash a cold tomato slice",
-                "Put a tomato in a trash can.",
+                "Put a tomato in a garbage can.",
                 "Put a cold slice of tomato in the trash."
             ],
             "relative_objects":[
@@ -1455,7 +1455,7 @@
         {
             "task_list":[
                 "Put the mug with spoon into the kitchen sink",
-                "Slice the tomato, take a slice put it in the fridge, take it out put it in the trash can"
+                "Slice the tomato, take a slice put it in the fridge, take it out put it in the garbage can"
             ],
             "orign":[
                 [
@@ -1464,9 +1464,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Slice the tomato, take a slice put it in the fridge, take it out put it in the trash can at any time. Simultaneously, put the mug with spoon into the kitchen sink.",
-                "fintune 2":"Put the mug with spoon into the kitchen sink at any time. After putting the mug with spoon, slice the tomato, take a slice put it in the fridge, take it out put it in the trash can.",
-                "fintune 3":"Put the mug with spoon into the kitchen sink at any time. Simultaneously, slice the tomato, take a slice put it in the fridge, take it out put it in the trash can."
+                "fintune 1":"Slice the tomato, take a slice put it in the fridge, take it out put it in the garbage can at any time. Simultaneously, put the mug with spoon into the kitchen sink.",
+                "fintune 2":"Put the mug with spoon into the kitchen sink at any time. After putting the mug with spoon, slice the tomato, take a slice put it in the fridge, take it out put it in the garbage can.",
+                "fintune 3":"Put the mug with spoon into the kitchen sink at any time. Simultaneously, slice the tomato, take a slice put it in the fridge, take it out put it in the garbage can."
             }
         },
         {
@@ -1631,7 +1631,7 @@
             "task_list":[
                 "Put the clean turner on the counter",
                 "Boiling water on the stove.",
-                "Slice the tomato, take a slice put it in the fridge, take it out put it in the trash can",
+                "Slice the tomato, take a slice put it in the fridge, take it out put it in the garbage can",
                 "Slice bread, cook a slice, put it in the trash"
             ],
             "orign":[
@@ -1643,9 +1643,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Slice bread, cook a slice, put it in the trash. After slicing the bread, put the clean turner on the counter. Boil water on the stove. Slice the tomato, take a slice, put it in the fridge, take it out, and put it in the trash can.",
-                "fintune 2":"Slice the tomato, take a slice, put it in the fridge, take it out, and put it in the trash can. Put the clean turner on the counter. Boil water on the stove. Slice bread, cook a slice, put it in the trash.",
-                "fintune 3":"Boil water on the stove. Slice bread, cook a slice, put it in the trash. Put the clean turner on the counter. Slice the tomato, take a slice, put it in the fridge, take it out, and put it in the trash can."
+                "fintune 1":"Slice bread, cook a slice, put it in the trash. After slicing the bread, put the clean turner on the counter. Boil water on the stove. Slice the tomato, take a slice, put it in the fridge, take it out, and put it in the garbage can.",
+                "fintune 2":"Slice the tomato, take a slice, put it in the fridge, take it out, and put it in the garbage can. Put the clean turner on the counter. Boil water on the stove. Slice bread, cook a slice, put it in the trash.",
+                "fintune 3":"Boil water on the stove. Slice bread, cook a slice, put it in the trash. Put the clean turner on the counter. Slice the tomato, take a slice, put it in the fridge, take it out, and put it in the garbage can."
             }
         },
         {
@@ -1653,7 +1653,7 @@
                 "Put a heated egg on the counter near the toaster. ",
                 "Put the cleaned fork in a drawer",
                 "Fill a tea kettle with water, put on stove top.",
-                "Put a chilled slice of lettuce in the trash can. "
+                "Put a chilled slice of lettuce in the garbage can. "
             ],
             "orign":[
                 [
@@ -1664,9 +1664,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the cleaned fork in a drawer first. After that, put a heated egg on the counter near the toaster . Fill a tea kettle with water, put on the stove top. Finish by putting a chilled slice of lettuce in the trash can.",
-                "fintune 2":"Fill a tea kettle with water, put on the stove top at any time. Simultaneously, put a heated egg on the counter near the toaster . After filling the tea kettle and putting the egg, put the cleaned fork in a drawer. Finally, put a chilled slice of lettuce in the trash can.",
-                "fintune 3":"Put a heated egg on the counter near the toaster first. Next, put the cleaned fork in a drawer. Then, fill a tea kettle with water and put it on the stove top. Finish by putting a chilled slice of lettuce in the trash can."
+                "fintune 1":"Put the cleaned fork in a drawer first. After that, put a heated egg on the counter near the toaster . Fill a tea kettle with water, put on the stove top. Finish by putting a chilled slice of lettuce in the garbage can.",
+                "fintune 2":"Fill a tea kettle with water, put on the stove top at any time. Simultaneously, put a heated egg on the counter near the toaster . After filling the tea kettle and putting the egg, put the cleaned fork in a drawer. Finally, put a chilled slice of lettuce in the garbage can.",
+                "fintune 3":"Put a heated egg on the counter near the toaster first. Next, put the cleaned fork in a drawer. Then, fill a tea kettle with water and put it on the stove top. Finish by putting a chilled slice of lettuce in the garbage can."
             }
         },
         {
@@ -1720,7 +1720,7 @@
                 "Place a chilled egg in a microwave",
                 "Place a cooked potato in the fridge. ",
                 "Place a bowl with a spoon in it inside the sink.",
-                "Slice the tomato, take a slice put it in the fridge, take it out put it in the trash can",
+                "Slice the tomato, take a slice put it in the fridge, take it out put it in the garbage can",
                 "Put a heated apple on the counter."
             ],
             "orign":[
@@ -1733,9 +1733,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a chilled egg in a microwave. Simultaneously, slice the tomato, take a slice, put it in the fridge, and then take it out and put it in the trash can. After placing the egg in the microwave and handling the tomato, put a heated apple on the counter. Lastly, place a bowl with a spoon in it inside the sink.",
-                "fintune 2":"Place a cooked potato in the fridge. After completing this task, slice the tomato, take a slice, put it in the fridge, and then take it out and put it in the trash can. Simultaneously, put a heated apple on the counter. Lastly, place a chilled egg in a microwave and a bowl with a spoon in it inside the sink.",
-                "fintune 3":"Slice the tomato, take a slice, put it in the fridge, and then take it out and put it in the trash can. After that, place a cooked potato in the fridge. Then, simultaneously, place a chilled egg in a microwave, put a heated apple on the counter, and place a bowl with a spoon in it inside the sink."
+                "fintune 1":"Place a chilled egg in a microwave. Simultaneously, slice the tomato, take a slice, put it in the fridge, and then take it out and put it in the garbage can. After placing the egg in the microwave and handling the tomato, put a heated apple on the counter. Lastly, place a bowl with a spoon in it inside the sink.",
+                "fintune 2":"Place a cooked potato in the fridge. After completing this task, slice the tomato, take a slice, put it in the fridge, and then take it out and put it in the garbage can. Simultaneously, put a heated apple on the counter. Lastly, place a chilled egg in a microwave and a bowl with a spoon in it inside the sink.",
+                "fintune 3":"Slice the tomato, take a slice, put it in the fridge, and then take it out and put it in the garbage can. After that, place a cooked potato in the fridge. Then, simultaneously, place a chilled egg in a microwave, put a heated apple on the counter, and place a bowl with a spoon in it inside the sink."
             }
         },
         {
@@ -1814,7 +1814,7 @@
                 "Place a cool egg in the microwave.",
                 "Put a cooked tomato in the fridge.",
                 "Slice a bread, cook a slice, throw it in the bin",
-                "Put a chilled slice of lettuce in the trash can. ",
+                "Put a chilled slice of lettuce in the garbage can. ",
                 "Put the clean turner on the counter",
                 "To cool a bowl plus place it in the right cabinet above the fridge."
             ],
@@ -1830,7 +1830,7 @@
             ],
             "finetuned":{
                 "fintune 1":"Put a cooked tomato in the fridge. Simultaneously, put the clean turner on the counter. After putting the tomato and turner, place a cool egg in the microwave.",
-                "fintune 2":"Slice a bread, cook a slice, throw it in the bin. Simultaneously, put a chilled slice of lettuce in the trash can. After slicing, cooking, and disposing the bread and lettuce, put the clean turner on the counter.",
+                "fintune 2":"Slice a bread, cook a slice, throw it in the bin. Simultaneously, put a chilled slice of lettuce in the garbage can. After slicing, cooking, and disposing the bread and lettuce, put the clean turner on the counter.",
                 "fintune 3":"Put the clean turner on the counter. Simultaneously, to cool a bowl plus place it in the right cabinet above the fridge. After placing the turner and bowl, put a cooked tomato in the fridge."
             }
         }

@@ -281,7 +281,7 @@
         "train/pick_and_place_simple-SprayBottle-None-GarbageCan-410/trial_T20190908_122436_280277/traj_data.json":{
             "tasks":[
                 "Put a spray bottle in the bin. ",
-                "Place a spray bottle in the trash can.",
+                "Place a spray bottle in the garbage can.",
                 "take the bottle from the toilet and put it in the trash"
             ],
             "relative_objects":[
@@ -338,7 +338,7 @@
         },
         "tests_seen/trial_T20190908_122402_482968/traj_data.json":{
             "tasks":[
-                "Throw out one spray bottle into the trash can.",
+                "Throw out one spray bottle into the garbage can.",
                 "Put a spray bottle in the garbage.",
                 "Dispose of a spray bottle."
             ],
@@ -370,7 +370,7 @@
         },
         {
             "task_list":[
-                "Throw out one spray bottle into the trash can."
+                "Throw out one spray bottle into the garbage can."
             ],
             "orign":[
                 [
@@ -470,7 +470,7 @@
         },
         {
             "task_list":[
-                "Throw out one spray bottle into the trash can.",
+                "Throw out one spray bottle into the garbage can.",
                 "place clean soap on top of the toilet"
             ],
             "orign":[
@@ -480,9 +480,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place clean soap on top of the toilet at any time. Simultaneously, throw out one spray bottle into the trash can.",
-                "fintune 2":"Throw out one spray bottle into the trash can at any time. Simultaneously, place clean soap on top of the toilet.",
-                "fintune 3":"Place clean soap on top of the toilet at any time. After placing the soap, throw out one spray bottle into the trash can."
+                "fintune 1":"Place clean soap on top of the toilet at any time. Simultaneously, throw out one spray bottle into the garbage can.",
+                "fintune 2":"Throw out one spray bottle into the garbage can at any time. Simultaneously, place clean soap on top of the toilet.",
+                "fintune 3":"Place clean soap on top of the toilet at any time. After placing the soap, throw out one spray bottle into the garbage can."
             }
         }
     ],
@@ -508,7 +508,7 @@
         },
         {
             "task_list":[
-                "Throw out one spray bottle into the trash can.",
+                "Throw out one spray bottle into the garbage can.",
                 "Put a cleaned cloth in a bath tub.",
                 "Carry a hand towel to the bath tub"
             ],
@@ -520,9 +520,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Throw out one spray bottle into the trash can. After throwing out the spray bottle, put a cleaned cloth in a bath tub. Finally, carry a hand towel to the bath tub.",
-                "fintune 2":"Carry a hand towel to the bath tub at any time.Then, put a cleaned cloth in a bath tub. Finally, throw out one spray bottle into the trash can.",
-                "fintune 3":"Put a cleaned cloth in a bath tub at any time.Then, carry a hand towel to the bath tub at any time. Finally, throw out one spray bottle into the trash can."
+                "fintune 1":"Throw out one spray bottle into the garbage can. After throwing out the spray bottle, put a cleaned cloth in a bath tub. Finally, carry a hand towel to the bath tub.",
+                "fintune 2":"Carry a hand towel to the bath tub at any time.Then, put a cleaned cloth in a bath tub. Finally, throw out one spray bottle into the garbage can.",
+                "fintune 3":"Put a cleaned cloth in a bath tub at any time.Then, carry a hand towel to the bath tub at any time. Finally, throw out one spray bottle into the garbage can."
             }
         },
         {

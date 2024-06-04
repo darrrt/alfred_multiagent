@@ -100,8 +100,8 @@
         },
         "train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-23/trial_T20190909_120243_252478/traj_data.json":{
             "tasks":[
-                "Put a heated egg in the trash can. ",
-                "To heat an egg and place it in the trash can.",
+                "Put a heated egg in the garbage can. ",
+                "To heat an egg and place it in the garbage can.",
                 "To heat an egg and put it inside the silver bin. "
             ],
             "relative_objects":[
@@ -453,7 +453,7 @@
         "train/pick_heat_then_place_in_recep-TomatoSliced-None-GarbageCan-23/trial_T20190909_034745_393039/traj_data.json":{
             "tasks":[
                 "Throw away a slice of heated tomato in the trash bin.",
-                "pick up knife, cut tomato, cook in microwave, place into trash can",
+                "pick up knife, cut tomato, cook in microwave, place into garbage can",
                 "Throw out a heated slice of tomato. "
             ],
             "relative_objects":[
@@ -860,8 +860,8 @@
         "train/pick_cool_then_place_in_recep-LettuceSliced-None-GarbageCan-23/trial_T20190907_163441_963782/traj_data.json":{
             "tasks":[
                 "Put a cold slice of lettuce in the trash.",
-                "Place a chilled piece of lettuce into the trash can by the window.",
-                "Place chilled melon slice in trash can"
+                "Place a chilled piece of lettuce into the garbage can by the window.",
+                "Place chilled melon slice in garbage can"
             ],
             "relative_objects":[
                 "Lettuce"
@@ -948,7 +948,7 @@
         "tests_seen/trial_T20190907_163602_821706/traj_data.json":{
             "tasks":[
                 "Put cold lettuce in the garbage can.",
-                "Put a cold slice of lettuce in the trash can next to the stove. ",
+                "Put a cold slice of lettuce in the garbage can next to the stove. ",
                 "Throw away the chilled lettuce"
             ],
             "relative_objects":[
@@ -1118,7 +1118,7 @@
         },
         {
             "task_list":[
-                "Put a heated egg in the trash can. ",
+                "Put a heated egg in the garbage can. ",
                 "Fill up a bowl of water and heat it."
             ],
             "orign":[
@@ -1128,9 +1128,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Fill up a bowl of water and heat it. Once the water is heated, put a heated egg in the trash can.",
-                "fintune 2":"Put a heated egg in the trash can. After that, fill up a bowl of water and heat it.",
-                "fintune 3":"Fill up a bowl of water and heat it. Simultaneously, put a heated egg in the trash can."
+                "fintune 1":"Fill up a bowl of water and heat it. Once the water is heated, put a heated egg in the garbage can.",
+                "fintune 2":"Put a heated egg in the garbage can. After that, fill up a bowl of water and heat it.",
+                "fintune 3":"Fill up a bowl of water and heat it. Simultaneously, put a heated egg in the garbage can."
             }
         },
         {
@@ -1329,7 +1329,7 @@
             "task_list":[
                 "Put a chilled bowl on the table. ",
                 "Cut a slice of tomato and prepare in a pan",
-                "Put a heated egg in the trash can. ",
+                "Put a heated egg in the garbage can. ",
                 "put a washed fork onto a counter top"
             ],
             "orign":[
@@ -1341,9 +1341,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a chilled bowl on the table at any time. Cut a slice of tomato and prepare in a pan afterwards. Put a heated egg in the trash can and then put a washed fork onto a counter top.",
-                "fintune 2":"Cut a slice of tomato and prepare in a pan at any time. Put a chilled bowl on the table simultaneously. Put a heated egg in the trash can and then put a washed fork onto a counter top.",
-                "fintune 3":"Put a chilled bowl on the table at any time. Put a washed fork onto a counter top simultaneously. Cut a slice of tomato and prepare in a pan. After cutting the tomato and preparing it in the pan, put a heated egg in the trash can."
+                "fintune 1":"Put a chilled bowl on the table at any time. Cut a slice of tomato and prepare in a pan afterwards. Put a heated egg in the garbage can and then put a washed fork onto a counter top.",
+                "fintune 2":"Cut a slice of tomato and prepare in a pan at any time. Put a chilled bowl on the table simultaneously. Put a heated egg in the garbage can and then put a washed fork onto a counter top.",
+                "fintune 3":"Put a chilled bowl on the table at any time. Put a washed fork onto a counter top simultaneously. Cut a slice of tomato and prepare in a pan. After cutting the tomato and preparing it in the pan, put a heated egg in the garbage can."
             }
         },
         {
@@ -1488,7 +1488,7 @@
                 "place a microwaved potato slice inside of the sink",
                 "Place a pot with a spatula in it on the green table.",
                 "Put a chilled gold plate on the table.",
-                "Put a heated egg in the trash can. "
+                "Put a heated egg in the garbage can. "
             ],
             "orign":[
                 [
@@ -1500,9 +1500,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a chilled head of lettuce in the sink. Simultaneously, place a microwaved potato slice inside of the sink. After placing the lettuce and potato slice, put a pot with a spatula in it on the green table. Then, put a chilled gold plate on the table. Finally, put a heated egg in the trash can.",
-                "fintune 2":"Put a pot with a spatula in it on the green table. Simultaneously, put a chilled gold plate on the table. After placing the pot and plate, put a chilled head of lettuce in the sink. Then, place a microwaved potato slice inside of the sink. Finally, put a heated egg in the trash can.",
-                "fintune 3":"Put a chilled gold plate on the table. Simultaneously, put a pot with a spatula in it on the green table. After placing the gold plate and pot, put a chilled head of lettuce in the sink. Then, place a microwaved potato slice inside of the sink. Finally, put a heated egg in the trash can."
+                "fintune 1":"Put a chilled head of lettuce in the sink. Simultaneously, place a microwaved potato slice inside of the sink. After placing the lettuce and potato slice, put a pot with a spatula in it on the green table. Then, put a chilled gold plate on the table. Finally, put a heated egg in the garbage can.",
+                "fintune 2":"Put a pot with a spatula in it on the green table. Simultaneously, put a chilled gold plate on the table. After placing the pot and plate, put a chilled head of lettuce in the sink. Then, place a microwaved potato slice inside of the sink. Finally, put a heated egg in the garbage can.",
+                "fintune 3":"Put a chilled gold plate on the table. Simultaneously, put a pot with a spatula in it on the green table. After placing the gold plate and pot, put a chilled head of lettuce in the sink. Then, place a microwaved potato slice inside of the sink. Finally, put a heated egg in the garbage can."
             }
         }
     ],
@@ -1511,7 +1511,7 @@
             "task_list":[
                 "Put cold lettuce in the garbage can.",
                 "Place a rinsed fork on a counter.",
-                "Put a heated egg in the trash can. ",
+                "Put a heated egg in the garbage can. ",
                 "Put a chilled apple in the microwave. ",
                 "Fill up a bowl of water and heat it.",
                 "Put the pot into the fridge so that it cools."
@@ -1559,7 +1559,7 @@
         },
         {
             "task_list":[
-                "Put a heated egg in the trash can. ",
+                "Put a heated egg in the garbage can. ",
                 "put a washed fork onto a counter top",
                 "Place the chilled mug in the coffee machine.",
                 "Put a sponge into a pan on the island.",

@@ -272,8 +272,8 @@
         },
         "train/pick_heat_then_place_in_recep-Potato-None-GarbageCan-12/trial_T20190907_125521_042428/traj_data.json":{
             "tasks":[
-                "Put a cooked potato in the trash can.",
-                "Put cooked potato in the trash can",
+                "Put a cooked potato in the garbage can.",
+                "Put cooked potato in the garbage can",
                 "place a microwaved potato inside of the garbage bin"
             ],
             "relative_objects":[
@@ -398,8 +398,8 @@
         "train/pick_heat_then_place_in_recep-BreadSliced-None-GarbageCan-12/trial_T20190907_121108_221602/traj_data.json":{
             "tasks":[
                 "Put a heated slice of bred in a bin.",
-                "Place a slice of warmed bread in the trash can.",
-                "Throwing sliced bread into the trash can",
+                "Place a slice of warmed bread in the garbage can.",
+                "Throwing sliced bread into the garbage can",
                 "Put a heated slice of the bread in a garbage can.",
                 "Put a heated slice of bread in a grey bin.",
                 "Slice, microwave and throw away some bread"
@@ -412,8 +412,8 @@
         },
         "train/pick_heat_then_place_in_recep-BreadSliced-None-GarbageCan-12/trial_T20190907_120947_947901/traj_data.json":{
             "tasks":[
-                "Putting bread in a trash can",
-                "Throw a warm piece of bread in the trash can.",
+                "Putting bread in a garbage can",
+                "Throw a warm piece of bread in the garbage can.",
                 "Cut a piece of bread and warm it up to get ready to eat"
             ],
             "relative_objects":[
@@ -827,7 +827,7 @@
             "tasks":[
                 "Put a chilled piece of sliced lettuce in a small bin.",
                 "Place a cool slice of lettuce in the grey bin.",
-                "Place a chilled piece of lettuce in the trash can.",
+                "Place a chilled piece of lettuce in the garbage can.",
                 "Put a slice of cold lettuce in a garbage can.",
                 "Put a chilled slice of lettuce in the garbage."
             ],
@@ -849,10 +849,10 @@
         },
         "train/pick_cool_then_place_in_recep-LettuceSliced-None-GarbageCan-12/trial_T20190907_045915_974680/traj_data.json":{
             "tasks":[
-                "Cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the trash can.",
+                "Cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the garbage can.",
                 "Put cold lettuce in a garbage can.",
                 "Put the lettuce in the trash.",
-                "Put the slice of lettuce in the trash can.",
+                "Put the slice of lettuce in the garbage can.",
                 "place a cooled lettuce slice inside of the garbage bin"
             ],
             "relative_objects":[
@@ -874,7 +874,7 @@
         "train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-12/trial_T20190910_153541_399109/traj_data.json":{
             "tasks":[
                 "Put a warm egg in the garbage can. ",
-                "Heat up egg and put in trash can.",
+                "Heat up egg and put in garbage can.",
                 "Place a hot potato in the metal bin."
             ],
             "relative_objects":[
@@ -1137,7 +1137,7 @@
         },
         {
             "task_list":[
-                "Putting bread in a trash can",
+                "Putting bread in a garbage can",
                 "Put the egg in the microwave"
             ],
             "orign":[
@@ -1147,9 +1147,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put the egg in the microwave at any time. Simultaneously, putting bread in a trash can.",
-                "fintune 2":"Put the egg in the microwave at any time. After putting the egg in the microwave, put bread in a trash can.",
-                "fintune 3":"Putting bread in a trash can at any time. After putting bread in a trash can, put the egg in the microwave."
+                "fintune 1":"Put the egg in the microwave at any time. Simultaneously, putting bread in a garbage can.",
+                "fintune 2":"Put the egg in the microwave at any time. After putting the egg in the microwave, put bread in a garbage can.",
+                "fintune 3":"Putting bread in a garbage can at any time. After putting bread in a garbage can, put the egg in the microwave."
             }
         },
         {
@@ -1529,7 +1529,7 @@
         {
             "task_list":[
                 "To chill a glass and put it in the cabinet. ",
-                "Cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the trash can.",
+                "Cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the garbage can.",
                 "Take the spoon next to the bowl, put it in the sink",
                 "Pick up and move the salt to the drawer under the toaster.",
                 "put a chilled apple into a microwave",
@@ -1546,9 +1546,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the trash can. Simultaneously, take the spoon next to the bowl, put it in the sink. After completing previous steps, pick up and move the salt to the drawer under the toaster. Finally, chill a glass and put it in the cabinet.",
-                "fintune 2":"Place a cool egg in the sink at any time. Simultaneously, chill a glass and put it in the cabinet and put a chilled apple into a microwave. After placing the egg, cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the trash can. Finally, take the spoon next to the bowl, put it in the sink.",
-                "fintune 3":"Cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the trash can at any time. Simultaneously, put a chilled apple into a microwave and pick up and move the salt to the drawer under the toaster. After completing the previous steps, take the spoon next to the bowl, put it in the sink. Finally, chill a glass and put it in the cabinet."
+                "fintune 1":"Cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the garbage can. Simultaneously, take the spoon next to the bowl, put it in the sink. After completing previous steps, pick up and move the salt to the drawer under the toaster. Finally, chill a glass and put it in the cabinet.",
+                "fintune 2":"Place a cool egg in the sink at any time. Simultaneously, chill a glass and put it in the cabinet and put a chilled apple into a microwave. After placing the egg, cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the garbage can. Finally, take the spoon next to the bowl, put it in the sink.",
+                "fintune 3":"Cut a head of lettuce, place a slice in the refrigerator, put the lettuce slice in the garbage can at any time. Simultaneously, put a chilled apple into a microwave and pick up and move the salt to the drawer under the toaster. After completing the previous steps, take the spoon next to the bowl, put it in the sink. Finally, chill a glass and put it in the cabinet."
             }
         },
         {
@@ -1637,7 +1637,7 @@
                 "Place a rinsed knife on a shelf.",
                 "Put the chilled pan on the counter. ",
                 "Heat up a black mug and put it away over the microwave.",
-                "Put a cooked potato in the trash can.",
+                "Put a cooked potato in the garbage can.",
                 "Put a cold tumbler into a kitchen cupboard."
             ],
             "orign":[
@@ -1653,8 +1653,8 @@
             ],
             "finetuned":{
                 "fintune 1":"Place a rinsed knife on a shelf at any time. Simultaneously, put the chilled pan on the counter. After placing the knife and pan, heat up a black mug and put it away over the microwave.",
-                "fintune 2":"Place a spoon into a sink at any time. Simultaneously, put a cold tumbler into a kitchen cupboard. After placing the spoon and tumbler, put a cooked potato in the trash can.",
-                "fintune 3":"Place a washed tomato in a microwave at any time. Simultaneously, put the chilled pan on the counter. After placing the tomato and pan, put a cooked potato in the trash can."
+                "fintune 2":"Place a spoon into a sink at any time. Simultaneously, put a cold tumbler into a kitchen cupboard. After placing the spoon and tumbler, put a cooked potato in the garbage can.",
+                "fintune 3":"Place a washed tomato in a microwave at any time. Simultaneously, put the chilled pan on the counter. After placing the tomato and pan, put a cooked potato in the garbage can."
             }
         }
     ],
@@ -1693,7 +1693,7 @@
         {
             "task_list":[
                 "Put a warm apple in the fridge.",
-                "Put a cooked potato in the trash can.",
+                "Put a cooked potato in the garbage can.",
                 "Pick up and move the salt to the drawer under the toaster.",
                 "Place a cold pan on the counter.",
                 "To heat up a vase and put it in the cabinet. ",
@@ -1718,7 +1718,7 @@
             "finetuned":{
                 "fintune 1":"Put a warm apple in the fridge. Simultaneously, place a cold pan on the counter. After completing these tasks, put the fork in the kitchen drawer.",
                 "fintune 2":"Pick up and move the salt to the drawer under the toaster. Simultaneously, putting a cold sliced tomato in the microwave. Once done, put a slice of washed lettuce in a fridge.",
-                "fintune 3":"To heat up a vase and put it in the cabinet. Simultaneously, put a cooked potato in the trash can. Finally, put a warm egg in the trash."
+                "fintune 3":"To heat up a vase and put it in the cabinet. Simultaneously, put a cooked potato in the garbage can. Finally, put a warm egg in the trash."
             }
         }
     ]

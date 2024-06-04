@@ -5,7 +5,7 @@
             "tasks":[
                 "Place a spray bottle on the back of a toilet",
                 "Put a spray bottle on the toilet.",
-                "To move a spray bottle from the trash can to the back of the toilet."
+                "To move a spray bottle from the garbage can to the back of the toilet."
             ],
             "relative_objects":[
                 "SprayBottle",
@@ -194,7 +194,7 @@
         "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153250_839048/traj_data.json":{
             "tasks":[
                 "Put a towel in the garbage.",
-                "Put the hand towel in the trash can.",
+                "Put the hand towel in the garbage can.",
                 "Put a towel in the green bin. "
             ],
             "relative_objects":[
@@ -205,7 +205,7 @@
         "train/pick_and_place_simple-HandTowel-None-GarbageCan-420/trial_T20190908_153305_392513/traj_data.json":{
             "tasks":[
                 "take the hand towel and throw it away.",
-                "Put a towel in a trash can.",
+                "Put a towel in a garbage can.",
                 "Move the towel to the green bin."
             ],
             "relative_objects":[
@@ -250,7 +250,7 @@
             "tasks":[
                 "Place a cleaned soap bar into a rubbish bin.",
                 "Pick up soap, use it, throw into trash.",
-                "Put the right soap in the trash can. "
+                "Put the right soap in the garbage can. "
             ],
             "relative_objects":[
                 "SoapBar"
@@ -258,7 +258,7 @@
         },
         "train/pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-420/trial_T20190906_201041_787997/traj_data.json":{
             "tasks":[
-                "Place a clean bar of soap into a small green trash can.",
+                "Place a clean bar of soap into a small green garbage can.",
                 "Use a bar of soap.",
                 "To use the soap and throw it away."
             ],
@@ -393,7 +393,7 @@
         },
         {
             "task_list":[
-                "Place a clean bar of soap into a small green trash can."
+                "Place a clean bar of soap into a small green garbage can."
             ],
             "orign":[
                 [
@@ -570,7 +570,7 @@
             "task_list":[
                 "Put a candle on a table.",
                 "Put away clean towels",
-                "Place a clean bar of soap into a small green trash can."
+                "Place a clean bar of soap into a small green garbage can."
             ],
             "orign":[
                 [
@@ -580,9 +580,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle on a table at any time. Simultaneously, put away clean towels. Once done, place a clean bar of soap into a small green trash can.",
-                "fintune 2":"Put away clean towels at any time. Simultaneously, place a clean bar of soap into a small green trash can. Once done, put a candle on a table.",
-                "fintune 3":"Put a candle on a table at any time. Afterward, put away clean towels. Once done, place a clean bar of soap into a small green trash can."
+                "fintune 1":"Put a candle on a table at any time. Simultaneously, put away clean towels. Once done, place a clean bar of soap into a small green garbage can.",
+                "fintune 2":"Put away clean towels at any time. Simultaneously, place a clean bar of soap into a small green garbage can. Once done, put a candle on a table.",
+                "fintune 3":"Put a candle on a table at any time. Afterward, put away clean towels. Once done, place a clean bar of soap into a small green garbage can."
             }
         }
     ],
@@ -612,7 +612,7 @@
             "task_list":[
                 "Put the purple cloths on the small table",
                 "Put a candle on a table.",
-                "Place a clean bar of soap into a small green trash can.",
+                "Place a clean bar of soap into a small green garbage can.",
                 "move spray bottle from table to back of toilet"
             ],
             "orign":[
@@ -624,9 +624,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Put a candle on a table at any time. Simultaneously, place a clean bar of soap into a small green trash can. After placing the candle, put the purple cloths on the small table. Finally, move the spray bottle from the table to the back of the toilet.",
-                "fintune 2":"Put the purple cloths on the small table at any time. Simultaneously, place a clean bar of soap into a small green trash can. After placing the cloths, move the spray bottle from the table to the back of the toilet. Finally, put a candle on a table.",
-                "fintune 3":"Place a clean bar of soap into a small green trash can at any time. Simultaneously, put a candle on a table. After placing the soap, put the purple cloths on the small table. Finally, move the spray bottle from the table to the back of the toilet."
+                "fintune 1":"Put a candle on a table at any time. Simultaneously, place a clean bar of soap into a small green garbage can. After placing the candle, put the purple cloths on the small table. Finally, move the spray bottle from the table to the back of the toilet.",
+                "fintune 2":"Put the purple cloths on the small table at any time. Simultaneously, place a clean bar of soap into a small green garbage can. After placing the cloths, move the spray bottle from the table to the back of the toilet. Finally, put a candle on a table.",
+                "fintune 3":"Place a clean bar of soap into a small green garbage can at any time. Simultaneously, put a candle on a table. After placing the soap, put the purple cloths on the small table. Finally, move the spray bottle from the table to the back of the toilet."
             }
         },
         {
@@ -698,7 +698,7 @@
             "task_list":[
                 "Place a spray bottle on the back of a toilet",
                 "Put a candle on a table.",
-                "Place a clean bar of soap into a small green trash can.",
+                "Place a clean bar of soap into a small green garbage can.",
                 "take the hand towel and throw it away.",
                 "Place the empty toilet paper tube on the toilet paper holder."
             ],
@@ -712,9 +712,9 @@
                 ]
             ],
             "finetuned":{
-                "fintune 1":"Place a clean bar of soap into a small green trash can. After placing the soap, put a candle on a table. Once the candle is placed, take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet.",
-                "fintune 2":"Put a candle on a table. After placing the candle, place a clean bar of soap into a small green trash can. Take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet.",
-                "fintune 3":"Place a clean bar of soap into a small green trash can. Put a candle on a table. Take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet."
+                "fintune 1":"Place a clean bar of soap into a small green garbage can. After placing the soap, put a candle on a table. Once the candle is placed, take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet.",
+                "fintune 2":"Put a candle on a table. After placing the candle, place a clean bar of soap into a small green garbage can. Take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet.",
+                "fintune 3":"Place a clean bar of soap into a small green garbage can. Put a candle on a table. Take the hand towel and throw it away. Place the empty toilet paper tube on the toilet paper holder. Finally, place a spray bottle on the back of a toilet."
             }
         },
         {
