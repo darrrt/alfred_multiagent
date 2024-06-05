@@ -49,7 +49,7 @@ def transform_json(input_data, pattern):
 
 
 # Load the JSON data from a file
-input_file = '/home/tim/alfred_multiagent/multiagent_tasks_1_summary_with_robot_init_pos.json'
+input_file = '/home/tim/alfred_multiagent/test50/top_50_multiagent_tasks_1_summary_with_robot_init_pos.json'
 
 pattern = 'FloorPlan1|tasks_1|'
 
@@ -64,7 +64,7 @@ first_50_dict = input_json[:50]
 transformed_data = transform_json(first_50_dict, pattern)
 
 # Output the transformed data to a file
-with open('11.json', 'w') as f:
+with open('11_new.json', 'w') as f:
     for item in transformed_data:
         f.write(json.dumps(item) + '\n')
 

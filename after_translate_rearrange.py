@@ -3,7 +3,7 @@ from collections import defaultdict
 import os
 
 # Read the data from the file
-with open("11.json", "r") as file:
+with open("11_new.json", "r") as file:
     lines = file.readlines()
 
 # Parse a line as a JSON object and group by FloorPlan
