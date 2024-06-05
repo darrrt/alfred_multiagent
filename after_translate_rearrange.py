@@ -3,7 +3,7 @@ from collections import defaultdict
 import os
 
 # Read the data from the file
-with open("22.json", "r") as file:
+with open("11_new.json", "r") as file:
     lines = file.readlines()
 
 # Parse a line as a JSON object and group by FloorPlan
@@ -16,7 +16,7 @@ for line in lines:
 
 
 # Define the target folder
-output_folder = "rearranged_taks_for_SmartLLM_2Task"
+output_folder = "rearranged_taks_for_SmartLLM_1Task"
 
 # Create the target folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
